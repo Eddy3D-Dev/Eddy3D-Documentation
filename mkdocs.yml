@@ -12,8 +12,19 @@ extra_css:
 nav:
     - Documentation:
         - Start: index.md
+    - Comfort:
+        - Start: comfort.md
+    - Comfort+:
+        - Start: comfort+.md
         - ... | categories/*.md
         - ... | components/*.md
+
+        #- Categories:
+        #    - ... | categories/*.md
+        #- Components:
+        #    - ... | components/*.md
+    - Indoor:
+        - Start: indoor.md
     - Back: "https://eddy3d.com"
 
 
@@ -30,33 +41,34 @@ theme:
     - instant
     - navigation.tabs
         - announce.dismiss
-    - content.action.edit
-    - content.action.view
+    #- content.action.edit
+    #- content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.code.select
     # - content.footnote.tooltips
     # - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    - navigation.expand
+    #- header.autohide
+    #- navigation.expand
     - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    # - navigation.prune
+    - navigation.prune
     - navigation.sections
     - navigation.tabs
     #- navigation.tabs.sticky
     - navigation.top
+    - navigation.path
     - navigation.tracking
     - navigation.path
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    #- toc.integrate
     - announce.dismiss
 
   palette:
