@@ -14,6 +14,7 @@ nav:
         - Start: index.md
         - ... | categories/*.md
         - ... | components/*.md
+    - Back: "https://eddy3d.com"
 
 
 theme:
