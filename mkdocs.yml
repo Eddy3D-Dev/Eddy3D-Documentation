@@ -32,15 +32,12 @@ theme:
   name: material
   custom_dir: docs/overrides
   #font: false
-  icon:
-    logo: cd/favicon
-  favicon: cd/favicon
-  language: en
+  logo: assets/cd/favicon.svg
+  favicon: assets/cd/favicon.svg
   features:
     - tabs
     - instant
     - navigation.tabs
-        - announce.dismiss
     #- content.action.edit
     #- content.action.view
     - content.code.annotate
@@ -110,7 +107,6 @@ markdown_extensions:
 plugins:
   # - mkdocs-video
   - awesome-pages
-  - title-casing
   - glightbox:
       skip_classes:
         - skip-lightbox
@@ -148,6 +144,6 @@ plugins:
       enabled: true
       enabled_on_serve: false
       strict: true
-  - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - search
+  - title-casing
 
