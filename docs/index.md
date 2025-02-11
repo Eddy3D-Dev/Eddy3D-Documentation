@@ -19,7 +19,7 @@
 
 # Installation
 
-- Install [Eddy3D](https://www.eddy3d.com/download-information/)
+- Install [Eddy3D](https://www.eddy3d.com/download/)
 - Install BlueCFD in the default folder:
   - For versions <= 0.3.8.0, please install [BlueCFD 2017](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2017-2/blueCFD-Core-2017-2-win64-setup.exe) in the default folder:
     - `C:\Program Files\blueCFD-Core-2017`
@@ -33,7 +33,7 @@
 - Eddy comes with starter templates that you can find by right clicking on the `Template`  
   component, see below.
 
-![](https://www.eddy3d.com/wp-content/uploads/2021/02/template_selection.png)
+![](images/comfort/template_selection.png)
 
 - Select a template of your choice and follow the enumerated markers through the canvas.
 
@@ -45,7 +45,7 @@ There is currently an issues with Microsoft’s and BlueCFD’s MPI dll which is
 
 We value efficient workflows! See below for a one-directional urban CFD setup.
 
-![](https://www.eddy3d.com/wp-content/uploads/2021/02/canvas-setup.png)
+![](images/comfort/canvas-setup.png)
 
 # Video tutorials
 
