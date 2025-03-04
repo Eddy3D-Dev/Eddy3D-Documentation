@@ -1,15 +1,15 @@
-## ![](../../images/icons/Get_Probes.png) Get Probes
+## ![](../images/icons/Get_Probes.png) Get Probes - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/GetProbesCMP.cs)
 
-![](../../images/components/Get_Probes.png)
+![](../images/components/Get_Probes.png)
 
 Get probe values from a field
 
 #### Input
-* ##### C 
+* ##### C
 Case
-* ##### P 
+* ##### P
 Name of the probing to get information from
-* ##### F 
+* ##### F
 Field to retrieve from probes
 
 #### Output

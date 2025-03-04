@@ -1,21 +1,21 @@
-## ![](../../images/icons/Vegetation_Mesh_Settings.png) Vegetation Mesh Settings
+## ![](../images/icons/Vegetation_Mesh_Settings.png) Vegetation Mesh Settings - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Vegetation/VegetationMeshSettingsCMP.cs)
 
-![](../../images/components/Vegetation_Mesh_Settings.png)
+![](../images/components/Vegetation_Mesh_Settings.png)
 
 Description
 
 #### Input
-* ##### LSRL 
+* ##### LSRL
 Lower value of surface refinement level. Default value is '3'
-* ##### USRL 
+* ##### USRL
 Upper value of surface refinement level. Default value is '5'
-* ##### LRRL 
+* ##### LRRL
 Lower value of region refinement level. Default value is '5'
-* ##### URRL 
+* ##### URRL
 Upper value of region refinement level. Default value is '4'
-* ##### LRRD 
+* ##### LRRD
 Lower distance to which apply region refinement level. Default value is '1.0'
-* ##### URRD 
+* ##### URRD
 Upper distance to which apply region refinement level. Default value is '2.0'
 
 #### Output

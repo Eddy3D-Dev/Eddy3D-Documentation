@@ -1,15 +1,15 @@
-## ![](../../images/icons/CheckMesh.png) CheckMesh
+## ![](../images/icons/CheckMesh.png) CheckMesh - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/CheckMeshCMP.cs)
 
-![](../../images/components/CheckMesh.png)
+![](../images/components/CheckMesh.png)
 
 Runs the checkMesh command in OpenFOAM
 
 #### Input
-* ##### R 
+* ##### R
 Set to true to run the checkMesh command
-* ##### S 
+* ##### S
 Simulator instance with access to the case to check
-* ##### N 
+* ##### N
 Name of the region to check
 
 #### Output

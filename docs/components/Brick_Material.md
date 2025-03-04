@@ -1,17 +1,17 @@
-## ![](../../images/icons/Brick_Material.png) Brick Material
+## ![](../images/icons/Brick_Material.png) Brick Material - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Building/BrickMaterialCMP.cs)
 
-![](../../images/components/Brick_Material.png)
+![](../images/components/Brick_Material.png)
 
 Parameters of building material model "Hamstad5Brick"
 
 #### Input
-* ##### rho 
+* ##### rho
 rho
-* ##### cap 
+* ##### cap
 cap
-* ##### lambda1 
+* ##### lambda1
 lambda1
-* ##### lambda2 
+* ##### lambda2
 lambda2
 
 #### Output

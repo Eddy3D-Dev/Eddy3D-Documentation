@@ -1,15 +1,15 @@
-## ![](../../images/icons/Simulator_From_Directory.png) Simulator From Directory
+## ![](../images/icons/Simulator_From_Directory.png) Simulator From Directory - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/SimulatorFromDirectoryCMP.cs)
 
-![](../../images/components/Simulator_From_Directory.png)
+![](../images/components/Simulator_From_Directory.png)
 
 Creates a simulator instance from an existing case
 
 #### Input
-* ##### D 
+* ##### D
 Path to the directory to the existing case
-* ##### E 
+* ##### E
 Optional entries to modify the case
-* ##### I 
+* ##### I
 Names of additional files to include
 
 #### Output

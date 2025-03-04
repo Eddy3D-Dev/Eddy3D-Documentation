@@ -1,11 +1,11 @@
-## ![](../../images/icons/Deconstruct_FileContainer.png) Deconstruct FileContainer
+## ![](../images/icons/Deconstruct_FileContainer.png) Deconstruct FileContainer - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/DeconstructFileContainerCMP.cs)
 
-![](../../images/components/Deconstruct_FileContainer.png)
+![](../images/components/Deconstruct_FileContainer.png)
 
 Deconstructs a FileContainer instance.
 
 #### Input
-* ##### F 
+* ##### F
 File container to deconstruct.
 
 #### Output

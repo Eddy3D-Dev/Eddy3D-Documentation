@@ -1,5 +1,6 @@
 # Visualization
-#### Exposure: primary
-* [Cell Zones](components/Cell_Zones.md)
-* [CreateMesh](components/CreateMesh.md)
-* [Get Cells](components/Get_Cells.md)
+
+* [Create Mesh](../components/Create_Mesh.md)
+* [Face Warnings](../components/Face_Warnings.md)
+* [Read Cells](../components/Read_Cells.md)
+* [Read checkMesh](../components/Read_checkMesh.md)

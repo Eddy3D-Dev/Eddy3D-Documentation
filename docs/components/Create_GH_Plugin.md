@@ -1,27 +1,27 @@
-## ![](../../images/icons/Create_GH_Plugin.png) Create GH Plugin
+## ![](../images/icons/Create_GH_Plugin.png) Create GH Plugin - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/CreateGHPluginCMP.cs)
 
-![](../../images/components/Create_GH_Plugin.png)
+![](../images/components/Create_GH_Plugin.png)
 
 Creates a Grasshopper plugin in the input directory.
 
 #### Input
-* ##### W 
+* ##### W
 Set to true to write the GH plugin.
-* ##### P 
+* ##### P
 The directory of the MetaFOAM plugin.
-* ##### C 
+* ##### C
 OpenFOAM case.
-* ##### I 
+* ##### I
 Names of initial condition files to ignore.
-* ##### N 
+* ##### N
 If true, boundary conditions with no values are included in the Initial Condition inputs
-* ##### Z 
+* ##### Z
 If true, inputs with value equal to 0 will be included in the initial condition inputs
-* ##### I 
+* ##### I
 Boundary conditions in this list will be ignored
-* ##### B 
+* ##### B
 Boundary condition that will be generated GH components for
-* ##### D 
+* ##### D
 Descriptions of initial conditions
 
 #### Output

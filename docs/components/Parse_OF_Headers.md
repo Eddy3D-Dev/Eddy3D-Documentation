@@ -1,13 +1,13 @@
-## ![](../../images/icons/Parse_OF_Headers.png) Parse OF Headers
+## ![](../images/icons/Parse_OF_Headers.png) Parse OF Headers - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/ParseOFHeadersCMP.cs)
 
-![](../../images/components/Parse_OF_Headers.png)
+![](../images/components/Parse_OF_Headers.png)
 
 Parses a directory looking for boundary conditions.
 
 #### Input
-* ##### D 
+* ##### D
 Directory
-* ##### S 
+* ##### S
 List of boundary conditions to select. If no list is provided, all boundary conditions are selected.
 
 #### Output

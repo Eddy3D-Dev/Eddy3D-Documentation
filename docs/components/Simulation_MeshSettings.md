@@ -1,19 +1,19 @@
-## ![](../../images/icons/Simulation_MeshSettings.png) Simulation MeshSettings
+## ![](../images/icons/Simulation_MeshSettings.png) Simulation MeshSettings - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/SimulationMeshSettingsCMP.cs)
 
-![](../../images/components/Simulation_MeshSettings.png)
+![](../images/components/Simulation_MeshSettings.png)
 
 Simulation mesh settings.
 
 #### Input
-* ##### BRL 
+* ##### BRL
 Refinement level inside refinement box
-* ##### IA 
+* ##### IA
 Identify a feature when angle between faces < includedAngle
-* ##### MRC 
+* ##### MRC
 Minimum refinement of cells
-* ##### NCBL 
+* ##### NCBL
 Number of cells between levels
-* ##### RFA 
+* ##### RFA
 Resolve feature angle
 
 #### Output
