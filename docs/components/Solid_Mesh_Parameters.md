@@ -1,23 +1,23 @@
-## ![](../../images/icons/Solid_Mesh_Parameters.png) Solid Mesh Parameters
+## ![](../images/icons/Solid_Mesh_Parameters.png) Solid Mesh Parameters - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Building/SolidMeshParametersCMP.cs)
 
-![](../../images/components/Solid_Mesh_Parameters.png)
+![](../images/components/Solid_Mesh_Parameters.png)
 
 Meshing parameters for solid for Solid Type component.
 
 #### Input
-* ##### FRL 
+* ##### FRL
 Feature refinement level. Default value is '4'
-* ##### LSRL 
+* ##### LSRL
 Lower value of surface refinement level. Default value is '3'
-* ##### USRL 
+* ##### USRL
 Upper value of surface refinement level. Default value is '5'
-* ##### LRRL 
+* ##### LRRL
 Lower value of region refinement level. Default value is '4'
-* ##### URRL 
+* ##### URRL
 Upper value of region refinement level. Default value is '3'
-* ##### LRRD 
+* ##### LRRD
 Lower distance to which apply region refinement level. Default value is '1.0'
-* ##### URRD 
+* ##### URRD
 Upper distance to which apply region refinement level. Default value is '1.0'
 
 #### Output

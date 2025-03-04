@@ -1,11 +1,11 @@
-## ![](../../images/icons/Deconstruct_Initial_Condition.png) Deconstruct Initial Condition
+## ![](../images/icons/Deconstruct_Initial_Condition.png) Deconstruct Initial Condition - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/DeconstructInitialConditionCMP.cs)
 
-![](../../images/components/Deconstruct_Initial_Condition.png)
+![](../images/components/Deconstruct_Initial_Condition.png)
 
 Deconstructs an initial condition
 
 #### Input
-* ##### I 
+* ##### I
 File container of type InitialCondition to deconstruct.
 
 #### Output

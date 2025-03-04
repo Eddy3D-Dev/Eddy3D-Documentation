@@ -1,19 +1,19 @@
-## ![](../../images/icons/Case_Run.png) Case Run
+## ![](../images/icons/Case_Run.png) Case Run - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/CaseRunCMP.cs)
 
-![](../../images/components/Case_Run.png)
+![](../images/components/Case_Run.png)
 
 Runs the case
 
 #### Input
-* ##### C 
+* ##### C
 Case to run the simulation on
-* ##### PS 
+* ##### PS
 Set to true to prepare the simulation
-* ##### PSp 
+* ##### PSp
 Set to true to prepare the simulation
-* ##### RS 
+* ##### RS
 Set to true to run the simulation
-* ##### RSp 
+* ##### RSp
 Set to true to run the simulation in parallel
 
 #### Output

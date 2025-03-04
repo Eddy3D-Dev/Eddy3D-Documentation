@@ -1,17 +1,17 @@
-## ![](../../images/icons/Building_Region.png) Building Region
+## ![](../images/icons/Building_Region.png) Building Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Building/BuildingRegionCMP.cs)
 
-![](../../images/components/Building_Region.png)
+![](../images/components/Building_Region.png)
 
 Building Region
 
 #### Input
-* ##### M 
+* ##### M
 Mesh of this building
-* ##### M 
+* ##### M
 Material parameters of this building
-* ##### MP 
+* ##### MP
 Building mesh parameters
-* ##### BT 
+* ##### BT
 Temperature inside the building in Celcius. This value stays constant for the entire simulation time
 
 #### Output

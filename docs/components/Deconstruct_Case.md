@@ -1,11 +1,11 @@
-## ![](../../images/icons/Deconstruct_Case.png) Deconstruct Case
+## ![](../images/icons/Deconstruct_Case.png) Deconstruct Case - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/DeconstructCaseCMP.cs)
 
-![](../../images/components/Deconstruct_Case.png)
+![](../images/components/Deconstruct_Case.png)
 
 Deconstructs a Case instance, exposing all types of file containers.
 
 #### Input
-* ##### C 
+* ##### C
 Case to deconstruct.
 
 #### Output
