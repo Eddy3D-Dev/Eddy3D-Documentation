@@ -1,4 +1,4 @@
-## ![](../images/icons/Brick_Material.png) Brick Material - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Building/BrickMaterialCMP.cs)
+## ![](../images/icons/Brick_Material.png) Brick Material - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Solid/Hamstad5BrickCMP.cs)
 
 ![](../images/components/Brick_Material.png)
 
