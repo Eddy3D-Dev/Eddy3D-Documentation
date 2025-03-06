@@ -1,4 +1,4 @@
-# Eddy3D - Outdoor
+# Eddy3D &mdash; Outdoor
 
 ## Installation
 

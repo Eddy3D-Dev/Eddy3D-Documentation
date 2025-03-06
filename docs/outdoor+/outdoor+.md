@@ -1,4 +1,4 @@
-# Eddy3D — Outdoor+
+# Eddy3D &mdash; Outdoor+
 
 ![UMCF](./images/outdoor+/umcf.gif)
 ### A Grasshopper plugin for microclimate simulations
