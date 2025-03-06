@@ -1,7 +1,14 @@
 # Eddy3D - Comfort+
 ![UMCF](./images/comfort+/umcf.gif)
 ### A Grasshopper plugin for microclimate simulations
+___
+The plugin is based on the `urbanMicroclimateFoam` open-source solver based on OpenFOAM, developed by the [Chair of Building Physics at ETH Zürich](https://carmeliet.ethz.ch/). 
 
+- Github repository: [https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam)
+- Gitlab repository: [https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)
+
+![ETH Zurich](images/comfort+/ETH.png)
+___
 ## Overview
 **UMCF** (`urbanMicroclimateFoam`) is an open-source solver for coupled physical processes modeling urban microclimate based on `OpenFOAM`.
 ### Key Features
