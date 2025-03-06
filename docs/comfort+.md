@@ -7,7 +7,7 @@ The plugin is based on the `urbanMicroclimateFoam` open-source solver based on O
 - Github repository: [https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam)
 - Gitlab repository: [https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)
 
-![ETH Zurich](./images/comfort+/ETH.png)
+![ETH Zurich](./images/comfort+/eth.png)
 ___
 ## Overview
 **UMCF** (`urbanMicroclimateFoam`) is an open-source solver for coupled physical processes modeling urban microclimate based on `OpenFOAM`.
