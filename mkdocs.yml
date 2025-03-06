@@ -14,9 +14,9 @@ nav:
   - Documentation:
       - Start: index.md
   - Outdoor:
-      - Start: outdoor/outdoor.md
+      - Start: outdoor/index.md
   - Outdoor+:
-      - Start: outdoor+/outdoor+.md
+      - Start: outdoor+/index.md
       - First Steps: outdoor+/first_steps.md
       - ... | categories/*.md
       - ... | components/*.md
@@ -26,7 +26,7 @@ nav:
       #- Components:
       #    - ... | components/*.md
   - Indoor:
-      - Start: indoor/indoor.md
+      - Start: indoor/index.md
   - Back: "https://eddy3d.com"
 
 
