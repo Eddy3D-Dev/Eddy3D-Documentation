@@ -18,8 +18,11 @@ nav:
   - Outdoor+:
       - Start: outdoor+/index.md
       - First Steps: outdoor+/first_steps.md
-      - ... | categories/*.md
-      - ... | components/*.md
+      - Categories:
+          - ... | flat | outdoor+/categories/*.md
+      - Components:
+          - ... | flat | outdoor+/components/*.md
+
 
       #- Categories:
       #    - ... | categories/*.md
@@ -49,8 +52,8 @@ theme:
     # - content.tabs.link
     - content.tooltips
     #- header.autohide
-    #- navigation.expand
-    #- navigation.footer
+    - navigation.expand
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
@@ -58,7 +61,7 @@ theme:
     - navigation.prune
     - navigation.sections
     - navigation.tabs
-    #- navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.path
     - navigation.tracking
@@ -67,7 +70,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    #- toc.integrate
+    - toc.integrate
     - announce.dismiss
 
   palette:
