@@ -17,7 +17,7 @@ nav:
       - Start: outdoor/outdoor.md
   - Outdoor+:
       - Start: outdoor+/outdoor+.md
-      - First Steps: first_steps.md
+      - First Steps: outdoor+/first_steps.md
       - ... | categories/*.md
       - ... | components/*.md
 
