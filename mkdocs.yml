@@ -142,7 +142,7 @@ plugins:
       authorship_threshold_percent: 1
       #ignore_commits: .git-blame-ignore-revs
       exclude:
-      #  - index.md
+        - index.md
       enabled: true
       enabled_on_serve: false
       strict: true

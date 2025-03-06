@@ -22,15 +22,15 @@
 
 <div class="grid cards" markdown>
 
--  [__Eddy3D Outdoor__](outdoor.md)
+-  [__Eddy3D Outdoor__](outdoor/outdoor.md)
 
     
 
--  [__Eddy3D Outdoor+__](outdoor+.md)
+-  [__Eddy3D Outdoor+__](outdoor+/outdoor+.md)
 
     
 
--  [__Eddy3D Indoor__](indoor.md)
+-  [__Eddy3D Indoor__](indoor/indoor.md)
 
   
 
