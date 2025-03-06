@@ -1,4 +1,4 @@
-# Eddy3D - Indoor
+# Eddy3D — Indoor
 
 ### Indoor Wind & COVID-19 Analysis
 

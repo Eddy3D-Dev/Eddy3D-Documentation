@@ -1,6 +1,6 @@
 # Eddy3D - Outdoor
 
-# Installation
+## Installation
 
 - Install [Eddy3D](https://www.eddy3d.com/download/)
 - Install BlueCFD in the default folder:
@@ -16,7 +16,7 @@
 - Eddy comes with starter templates that you can find by right clicking on the `Template`  
   component, see below.
 
-![](images/comfort/template_selection.png)
+![](./images/outdoor/template_selection.png)
 
 - Select a template of your choice and follow the enumerated markers through the canvas.
 
@@ -28,9 +28,9 @@ There is currently an issues with Microsoft’s and BlueCFD’s MPI dll which is
 
 We value efficient workflows! See below for a one-directional urban CFD setup.
 
-![](images/comfort/canvas-setup.png)
+![](./images/outdoor/canvas-setup.png)
 
-# Video tutorials
+## Video tutorials
 
 ### Simple wind analysis
 
