@@ -1,4 +1,4 @@
-## ![](../images/icons/Building_Region.png) Building Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Building/BuildingRegionCMP.cs)
+## ![](../images/icons/Building_Region.png) Building Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Solid/SolidRegionCMP.cs)
 
 ![](../images/components/Building_Region.png)
 

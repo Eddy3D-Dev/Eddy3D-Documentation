@@ -1,4 +1,4 @@
-## ![](../images/icons/Solid_Mesh_Parameters.png) Solid Mesh Parameters - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Building/SolidMeshParametersCMP.cs)
+## ![](../images/icons/Solid_Mesh_Parameters.png) Solid Mesh Parameters - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Solid/SolidMeshSettingsCMP.cs)
 
 ![](../images/components/Solid_Mesh_Parameters.png)
 
