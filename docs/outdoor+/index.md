@@ -14,16 +14,16 @@ ___
 **UMCF** (`urbanMicroclimateFoam`) is an open-source solver for coupled physical processes modeling urban microclimate based on `OpenFOAM`.
 
 ### Key Features
- **CFD** - Solves turbulent, convective airflow
+ 🌊 **CFD** - Solves turbulent, convective airflow
 - Handles heat and moisture transport in the `air` subdomain
 
- **HAM** - Manages absorption and transport
+ 🏗️ **HAM** - Manages absorption and transport
 - Controls storage of heat and moisture in porous building materials
 
- **RAD** - Calculates net longwave and shortwave radiative heat fluxes
+☀️ **RAD** - Calculates net longwave and shortwave radiative heat fluxes
 - Uses view factor approach
 
- **VEG** - Solves heat balance for urban trees
+🌳 **VEG** - Solves heat balance for urban trees
 - Handles green surfaces
 
 ![Analysis&Visualization](images/outdoor+/image38.gif)
@@ -32,8 +32,7 @@ ___
 
 ___
 
-This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. You can visit the GitHub repository for more details and view the final presentation:
-- ![https://github.com/VIP-SMUR](https://github.com/VIP-SMUR)
+This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. You can visit the [documentation](https://vip-smur.github.io/24fa-microclimate-umcf/) for more details and view the final presentation.
 
 <a href="https://www.youtube.com/watch?v=PuFVGLvi_Xo" target="_blank" rel="noopener noreferrer">
     <img src="https://img.youtube.com/vi/PuFVGLvi_Xo/maxresdefault.jpg" width="480" alt="Final Presentation --- 24Fa --- Microclimate-LSTM-Kriging" class="off-glb">
