@@ -2,13 +2,19 @@
 
 ![UMCF](./images/outdoor+/umcf.gif)
 ### A Grasshopper plugin for microclimate simulations
-___
+
+### Acknowledgments
 The plugin is based on the `urbanMicroclimateFoam` open-source solver based on OpenFOAM, developed by the [Chair of Building Physics at ETH Zürich](https://carmeliet.ethz.ch/). 
 
 - Github repository: [https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam)
 - Gitlab repository: [https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)
 
 ![ETH Zurich](./images/outdoor+/eth.png)
+
+
+This project is being partially funded by [Perkins&Will](https://perkinswill.com/). Their support has been instrumental in advancing this tool.
+
+![PW](./images/outdoor+/PW-logo-black.png)
 ___
 ## Overview
 **UMCF** (`urbanMicroclimateFoam`) is an open-source solver for coupled physical processes modeling urban microclimate based on `OpenFOAM`.
