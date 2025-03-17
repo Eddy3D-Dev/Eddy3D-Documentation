@@ -22,7 +22,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 <div class="grid cards" markdown>
 
-- { .lg .middle } __Eddy3D Outdoor__
+- __Eddy3D Outdoor__
 
     ---
 
@@ -32,7 +32,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoor/)
 
-- { .lg .middle } __Eddy3D Outdoor+__
+- __Eddy3D Outdoor+__
 
     ---
 
@@ -42,7 +42,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoor%2B/)
 
-- { .lg .middle } __Eddy3D Indoor__
+- __Eddy3D Indoor__
 
     ---
 
