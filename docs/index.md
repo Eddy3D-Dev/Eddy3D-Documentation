@@ -16,24 +16,41 @@
 
 
 
-# Overview
+# Eddy3D Modules
 
-
+The Grasshopper plugin currently contains three modules, please see below.
 
 <div class="grid cards" markdown>
 
--  [__Eddy3D Outdoor__](outdoor/index.md)
+- { .lg .middle } __Eddy3D Outdoor__
 
-    
+    ---
 
--  [__Eddy3D Outdoor+__](outdoor+/index.md)
+    Decoupled microclimate simulations, via wind and mean radiant temperature simulations. Driven by OpenFOAM and Radiance.
 
-    
+    ---
 
--  [__Eddy3D Indoor__](indoor/index.md)
+    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoor/)
 
-  
+- { .lg .middle } __Eddy3D Outdoor+__
 
+    ---
 
+    Fully coupled microclimate simulations, including wind, radiation, heat, and moisture transfer, driven by `urbanMicroclimateFoam` by ETH Zurich Building Physics.
+
+    ---
+
+    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoor%2B/)
+
+- { .lg .middle } __Eddy3D Indoor__
+
+    ---
+
+    Modeling airflow, moisture content, and passive scalars in indoor spaces.
+
+    ---
+
+    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/indoor/)
 
 </div>
+
