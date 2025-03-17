@@ -1,1 +1,1 @@
-# Eddy3D-Documentation
+docs/index.md
