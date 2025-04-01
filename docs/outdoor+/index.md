@@ -33,7 +33,7 @@ The plugin is based on the `urbanMicroclimateFoam` open-source solver based on O
 ![ETH Zurich](./images/outdoor+/eth.png)
 
 
-This project is being partially funded by [Perkins&Will](https://perkinswill.com/). Their support has been instrumental in advancing this tool.
+This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/). Their support has been instrumental in advancing this tool.
 
 ![PW](./images/outdoor+/PW-logo-black.png)
 
