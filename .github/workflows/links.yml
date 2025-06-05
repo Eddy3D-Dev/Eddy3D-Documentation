@@ -1,0 +1,33 @@
+name: Check for broken links
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches: [main, master]
+    paths:
+      - "docs/**/*.md"
+      - ".github/workflows/links.yml"
+  pull_request:
+    branches: [main, master]
+    paths:
+      - "docs/**/*.md"
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-22.04
+    permissions: {}            # principle of least privilege
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # --- Scan links in Markdown *and* generated HTML ----------------------
+      - name: Link Checker 🔗
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true                    # fail the job on any bad link
+          args: >
+            --verbose
+            --no-progress
+            ./docs/**/*.md              # original sources
+

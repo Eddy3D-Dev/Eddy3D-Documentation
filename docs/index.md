@@ -1,21 +1,3 @@
-<style>
-    /* Application header should be static for the landing page */
-    .md-header {
-      position: initial;
-    }
-    /* Hide navigation */
-    @media screen and (min-width: 76.25em) {
-      .md-sidebar--primary {
-        display: none;
-      }
-    }
-      .md-content__button {
-    display: none;
-  }
-</style>
-
-
-
 # Eddy3D Modules
 
 The Grasshopper plugin currently contains three modules, please see below.
@@ -53,4 +35,21 @@ The Grasshopper plugin currently contains three modules, please see below.
     [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/indoor/)
 
 </div>
+
+<style>
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+    }
+    /* Hide navigation */
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+      .md-content__button {
+    display: none;
+  }
+</style>
+
 
