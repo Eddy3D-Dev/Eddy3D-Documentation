@@ -1,0 +1,45 @@
+# ───────────────────────────────
+#  Netlify configuration
+# ───────────────────────────────
+
+#################################
+# 1. Build settings
+#################################
+[build]
+  # Where MkDocs will put the generated static files
+  publish = "site"
+
+  # Install Python deps, then build the site
+  command = """
+    pip install --upgrade pip &&
+    pip install \
+      mkdocs-material \
+      mkdocs-multirepo-plugin \
+      mkdocs-git-revision-date-localized-plugin \
+      mkdocs-minify-plugin \
+      mkdocs-git-authors-plugin \
+      mkdocs-git-committers-plugin-2 \
+      mkdocs-title-casing-plugin \
+      mkdocs-glightbox \
+      markdown-include \
+      mkdocs-redirects \
+      mkdocs-video \
+      mkdocs-awesome-pages-plugin && \
+    mkdocs build --clean
+  """
+
+#################################
+# 2. Build-time environment
+#################################
+[build.environment]
+  # Netlify lets you pick a Python version this way
+  PYTHON_VERSION = "3.11"
+
+#################################
+# 3. netlify dev (local preview)
+#################################
+[dev]
+  # Runs the same “mkdocs serve” you used in Docker
+  command    = "mkdocs serve -a 0.0.0.0:8888"
+  targetPort = 8888          # Port inside the container
+  port       = 8888          # Port exposed on localhost
