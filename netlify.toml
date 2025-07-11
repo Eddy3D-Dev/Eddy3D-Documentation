@@ -18,7 +18,8 @@
                 mkdocs-awesome-pages-plugin
 
     # run MkDocs via the interpreter so we don’t depend on $PATH
-    python -m mkdocs build --clean
+    export PATH="$(python -m site --user-base)/bin:$PATH" &&
+    mkdocs build --clean
   """
 
 [build.environment]
