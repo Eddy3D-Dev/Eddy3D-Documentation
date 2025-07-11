@@ -1,39 +1,27 @@
-# ───────────────────────────────
-#  Netlify configuration
-# ───────────────────────────────
-
-#################################
-# 1. Build settings
-#################################
+# netlify.toml
 [build]
-  # Where MkDocs will put the generated static files
-  publish = "site"
-
-  # Install Python deps, then build the site
+  publish = "site"                       # same as before
   command = """
-    pip install --upgrade pip &&
-    pip install \
-      mkdocs-material \
-      mkdocs-multirepo-plugin \
-      mkdocs-git-revision-date-localized-plugin \
-      mkdocs-minify-plugin \
-      mkdocs-git-authors-plugin \
-      mkdocs-git-committers-plugin-2 \
-      mkdocs-title-casing-plugin \
-      mkdocs-glightbox \
-      markdown-include \
-      mkdocs-redirects \
-      mkdocs-video \
-      mkdocs-awesome-pages-plugin 
-    export PATH=\"$(python -m site --user-base)/bin:$PATH\" &&
-    mkdocs build --clean
+    # upgrade pip & install everything you need
+    pip install --upgrade pip
+    pip install mkdocs-material \
+                mkdocs-multirepo-plugin \
+                mkdocs-git-revision-date-localized-plugin \
+                mkdocs-minify-plugin \
+                mkdocs-git-authors-plugin \
+                mkdocs-git-committers-plugin-2 \
+                mkdocs-title-casing-plugin \
+                mkdocs-glightbox \
+                markdown-include \
+                mkdocs-redirects \
+                mkdocs-video \
+                mkdocs-awesome-pages-plugin
+
+    # run MkDocs via the interpreter so we don’t depend on $PATH
+    python -m mkdocs build --clean
   """
 
-#################################
-# 2. Build-time environment
-#################################
 [build.environment]
-  # Netlify lets you pick a Python version this way
   PYTHON_VERSION = "3.11"
 
 #################################
