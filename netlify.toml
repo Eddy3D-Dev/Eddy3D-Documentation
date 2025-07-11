@@ -24,7 +24,8 @@
       markdown-include \
       mkdocs-redirects \
       mkdocs-video \
-      mkdocs-awesome-pages-plugin && \
+      mkdocs-awesome-pages-plugin 
+    export PATH=\"$(python -m site --user-base)/bin:$PATH\" &&
     mkdocs build --clean
   """
 
