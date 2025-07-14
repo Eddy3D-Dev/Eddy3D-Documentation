@@ -1,35 +1,16 @@
-# netlify.toml
-[build]
-  publish = "site"                       # same as before
-  command = """
-    # upgrade pip & install everything you need
-    pip install --upgrade pip
-    pip install mkdocs-material \
-                mkdocs-multirepo-plugin \
-                mkdocs-git-revision-date-localized-plugin \
-                mkdocs-minify-plugin \
-                mkdocs-git-authors-plugin \
-                mkdocs-git-committers-plugin-2 \
-                mkdocs-title-casing-plugin \
-                mkdocs-glightbox \
-                markdown-include \
-                mkdocs-redirects \
-                mkdocs-video \
-                mkdocs-awesome-pages-plugin
+# Netlify configuration file
 
-    # run MkDocs via the interpreter so we don’t depend on $PATH
-    export PATH="$(python -m site --user-base)/bin:$PATH" &&
-    mkdocs build --clean
-  """
+[build]
+# Directory to publish (make sure this matches the 'site_dir' in your mkdocs.yml)
+publish = "site"
+
+# The command to build your site
+command = """
+pip install --upgrade pip &&
+pip install -r requirements.txt &&
+python -m mkdocs build --clean
+"""
 
 [build.environment]
-  PYTHON_VERSION = "3.11"
-
-#################################
-# 3. netlify dev (local preview)
-#################################
-[dev]
-  # Runs the same “mkdocs serve” you used in Docker
-  command    = "mkdocs serve -a 0.0.0.0:8888"
-  targetPort = 8888          # Port inside the container
-  port       = 8888          # Port exposed on localhost
+# Specify the Python version to use
+PYTHON_VERSION = "3.11"
