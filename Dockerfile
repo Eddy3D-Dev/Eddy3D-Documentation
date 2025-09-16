@@ -15,6 +15,6 @@ FROM squidfunk/mkdocs-material
       mkdocs-redirects \
       mkdocs-video \
       mkdocs-awesome-pages-plugin \
+      mkdocs-section-index \
        
-
    # You can add more RUN pip install commands for other packages
