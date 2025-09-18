@@ -1,17 +1,19 @@
-## ![](../images/icons/Building_Region.png) Building Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Solid/SolidRegionCMP.cs)
+## ![](../../images/icons/Building_Region.png) Building Region
 
-![](../images/components/Building_Region.png)
+![](../../images/components/Building_Region.png)
 
-Building Region
+Building Region  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### M
+* ##### M 
 Mesh of this building
-* ##### M
-Material parameters of this building
-* ##### MP
+* ##### M 
+Material of this building
+* ##### T 
+Thickness of this solid
+* ##### MP 
 Building mesh parameters
-* ##### BT
+* ##### BT 
 Temperature inside the building in Celcius. This value stays constant for the entire simulation time
 
 #### Output

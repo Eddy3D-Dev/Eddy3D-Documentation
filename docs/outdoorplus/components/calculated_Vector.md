@@ -1,11 +1,11 @@
-## ![](../images/icons/calculated_Vector.png) calculated Vector - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/calculatedVectorCMP.cs)
+## ![](../../images/icons/calculated_Vector.png) calculated Vector
 
-![](../images/components/calculated_Vector.png)
+![](../../images/components/calculated_Vector.png)
 
 calculated vector value
 
 #### Input
-* ##### V
+* ##### V 
 Vector
 
 #### Output

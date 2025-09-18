@@ -1,8 +1,8 @@
-## ![](../images/icons/Templates.png) Templates - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/TemplatesCMP.cs)
+## ![](../../images/icons/Templates.png) Templates
 
-![](../images/components/Templates.png)
+![](../../images/components/Templates.png)
 
-Contains templates of Grasshopper definitions
+Contains templates of Grasshopper definitions  OutdoorPlus 0.0.20.0
 
 #### Input
 

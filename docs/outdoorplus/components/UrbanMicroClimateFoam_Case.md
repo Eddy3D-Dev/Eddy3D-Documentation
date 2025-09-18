@@ -1,31 +1,39 @@
-## ![](../images/icons/UrbanMicroClimateFoam_Case.png) UrbanMicroClimateFoam Case - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/UrbanMicroClimateFoamCaseCMP.cs)
+## ![](../../images/icons/UrbanMicroClimateFoam_Case.png) UrbanMicroClimateFoam Case
 
-![](../images/components/UrbanMicroClimateFoam_Case.png)
+![](../../images/components/UrbanMicroClimateFoam_Case.png)
 
-Creates an UMCF case
+Creates an OutdoorPlus case  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### WC
+* ##### R 
+Set to true to read an existing case in the working directory
+* ##### W 
 Set to true to write the case in the working directory
-* ##### CC
+* ##### C 
 Set to true to remove all files in the working directory
-* ##### CN
+* ##### CN 
 Name of the new case to create. It cannot contain spaces
-* ##### WD
+* ##### WD 
 Working directory to place the case files and results
-* ##### AR
+* ##### AR 
 Air region for this case
-* ##### VR
+* ##### VR 
 Vegetation region of this case
-* ##### SR
+* ##### SR 
 Solid regions of this case
-* ##### T
+* ##### TR 
 Terrain region of this simulation
-* ##### TS
+* ##### DBP 
+Domain box parameters
+* ##### TS 
 Case timing settings
-* ##### SS
+* ##### SS 
 Simulation settings
-* ##### CS
+* ##### MS 
+Simulation mesh settings
+* ##### VF 
+View factor approach settings
+* ##### CS 
 Optional input for optinal entries
 
 #### Output
@@ -37,3 +45,11 @@ Modified case
 Case domain
 * ##### RB
 Refinement box of the case
+* ##### TM
+Total mesh of the case
+* ##### B
+Building mesh
+* ##### T
+Terrain mesh
+* ##### U
+Underground mesh

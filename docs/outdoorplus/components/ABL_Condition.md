@@ -1,17 +1,17 @@
-## ![](../images/icons/ABL_Condition.png) ABL Condition - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Air/ABLConditionCMP.cs)
+## ![](../../images/icons/ABL_Condition.png) ABL Condition
 
-![](../images/components/ABL_Condition.png)
+![](../../images/components/ABL_Condition.png)
 
-Atmospheric Boundary Layer condition for air region
+Atmospheric Boundary Layer condition for air region  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### WS
+* ##### WS 
 Wind speed at the given Height
-* ##### H
+* ##### H 
 Heigh at which windspeed is given
-* ##### WD
+* ##### WD 
 Wind direction
-* ##### SRL
+* ##### SRL 
 Surface roughness length
 
 #### Output

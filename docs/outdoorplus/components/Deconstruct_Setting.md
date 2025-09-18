@@ -1,15 +1,13 @@
-## ![](../images/icons/Deconstruct_Setting.png) Deconstruct Setting - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/DeconstructSettingCMP.cs)
+## ![](../../images/icons/Deconstruct_Setting.png) Deconstruct Setting
 
-![](../images/components/Deconstruct_Setting.png)
+![](../../images/components/Deconstruct_Setting.png)
 
 Deconstrusct a setting instance.
 
 #### Input
-* ##### S
+* ##### S 
 Setting to deconstruct
 
 #### Output
 * ##### E
 Entries in the setting.
-* ##### LC
-List containers in the setting

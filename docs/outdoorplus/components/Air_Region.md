@@ -1,14 +1,12 @@
-## ![](../images/icons/Air_Region.png) Air Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Air/AirRegionCMP.cs)
+## ![](../../images/icons/Air_Region.png) Air Region
 
-![](../images/components/Air_Region.png)
+![](../../images/components/Air_Region.png)
 
-Air region
+Air region  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### ABL
+* ##### ABL 
 Atmospheric boundary layer condition setting
-* ##### BD
-List of parameters of the box domain in the order: front, 
 
 #### Output
 * ##### R

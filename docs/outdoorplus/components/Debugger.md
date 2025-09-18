@@ -1,11 +1,9 @@
-## ![](../images/icons/Debugger.png) Debugger - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/DebuggerCMP.cs)
+## ![](../../images/icons/Debugger.png) Debugger
 
-![](../images/components/Debugger.png)
+![](../../images/components/Debugger.png)
 
 Debugger
 
 #### Input
-* ##### FP
-File Path
 
 #### Output

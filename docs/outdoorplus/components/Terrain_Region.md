@@ -1,16 +1,24 @@
-## ![](../images/icons/Terrain_Region.png) Terrain Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Terrain/TerrainRegionCMP.cs)
+## ![](../../images/icons/Terrain_Region.png) Terrain Region
 
-![](../images/components/Terrain_Region.png)
+![](../../images/components/Terrain_Region.png)
 
-Creates a terrain region
+Creates a terrain region  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### M
+* ##### M 
 Mesh representing the terrain
-* ##### M
-Material parameters
-* ##### T
+* ##### M 
+Terrain material
+* ##### D 
+Depth of the underground
+* ##### T 
 Temperature of the terrain
+* ##### TMP 
+Terrain mesh parameters
+* ##### GB 
+Grass boundaries as polylines
+* ##### G 
+Grass
 
 #### Output
 * ##### TR

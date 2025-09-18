@@ -1,11 +1,11 @@
-## ![](../images/icons/OpenFOAM_List.png) OpenFOAM List - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/OpenFOAMListCMP.cs)
+## ![](../../images/icons/OpenFOAM_List.png) OpenFOAM List
 
-![](../images/components/OpenFOAM_List.png)
+![](../../images/components/OpenFOAM_List.png)
 
 Creates an OpenFOAM list. Used as an input to modify OpenFOAM files
 
 #### Input
-* ##### V
+* ##### V 
 List of values to store in the OF Dictionary.
 
 #### Output
