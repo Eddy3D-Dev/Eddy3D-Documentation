@@ -6,9 +6,9 @@ Calculate PET.
 
 #### Input
 * ##### Ta 
-Air temperature in Celsius (°C)
+Air temperature in Celsius (Â°C)
 * ##### MRT 
-Mean radiant temperature in Celsius (°C)
+Mean radiant temperature in Celsius (Â°C)
 * ##### rh 
 Relative humidity in percent (%)
 * ##### ws 
@@ -34,7 +34,7 @@ Climate type ('Temperate' or 'Humid')
 
 #### Output
 * ##### PET
-Physiological Equivalent Temperature (°C)
+Physiological Equivalent Temperature (Â°C)
 * ##### Stress
 Thermal stress level based on PET
 * ##### Comfort
