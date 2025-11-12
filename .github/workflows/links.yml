@@ -29,5 +29,6 @@ jobs:
           args: >
             --verbose
             --no-progress
+            --timeout 60                # lychee request timeout in seconds
             ./docs/**/*.md              # original sources
 
