@@ -8,7 +8,7 @@
     - `C:\Program Files\blueCFD-Core-2017`
   - For versions >= 0.4.0.10, please install [BlueCFD 2020](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe) in the default folder:
     - `C:\Program Files\blueCFD-Core-2020`
-- If you would like to use the *experimental* MRT component, please install [Radiance](https://www.radiance-online.org/download-install) in the default  
+- If you would like to use the *experimental* MRT component, please install [Radiance](https://github.com/LBNL-ETA/Radiance/releases?q=5.3&expanded=true) in the default  
   folder: `C:\Program Files\Radiance`
 
 ### Templates
