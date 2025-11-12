@@ -34,13 +34,17 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 ### Simple wind analysis
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/375687568?h=4faaa776b4" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/375687568" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
 ### Multi-directional / annual wind analysis
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/375755947?h=3ca10bad2b" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/375755947" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
 ### Pressure coefficients on building façade
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/375755963?h=ad2f57624d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/375755963" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+### Eddy3D & Paraview Workshop
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/1136117320" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
