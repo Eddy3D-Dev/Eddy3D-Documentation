@@ -1,11 +1,11 @@
-## ![](../images/icons/uniform.png) uniform - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/uniformCMP.cs)
+## ![](../../images/icons/uniform.png) uniform
 
-![](../images/components/uniform.png)
+![](../../images/components/uniform.png)
 
 uniform value
 
 #### Input
-* ##### S
+* ##### S 
 Scalar component of uniform value
 
 #### Output

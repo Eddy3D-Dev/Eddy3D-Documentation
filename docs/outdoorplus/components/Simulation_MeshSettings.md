@@ -1,20 +1,32 @@
-## ![](../images/icons/Simulation_MeshSettings.png) Simulation MeshSettings - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/SimulationMeshSettingsCMP.cs)
+## ![](../../images/icons/Simulation_MeshSettings.png) Simulation MeshSettings
 
-![](../images/components/Simulation_MeshSettings.png)
+![](../../images/components/Simulation_MeshSettings.png)
 
-Simulation mesh settings.
+Simulation mesh settings  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### BRL
+* ##### L 
+Set to true to add layers. True by default
+* ##### BRL 
 Refinement level inside refinement box
-* ##### IA
-Identify a feature when angle between faces < includedAngle
-* ##### MRC
+* ##### MRC 
 Minimum refinement of cells
-* ##### NCBL
+* ##### MLU 
+Max Load Unbalance
+* ##### NCBL 
 Number of cells between levels
-* ##### RFA
+* ##### RFA 
 Resolve feature angle
+* ##### ST 
+Snap tolerance
+* ##### SNIter 
+Number of solver iterations for snapping
+* ##### SNRelaxIter 
+Number of relaxation iterations for snapping
+* ##### SNFeatureSnapIter 
+Number of feature snap iterations for snapping
+* ##### IA 
+Identify a feature when angle between faces < includedAngle
 
 #### Output
 * ##### M

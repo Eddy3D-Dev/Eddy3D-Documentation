@@ -52,9 +52,11 @@ The Grasshopper plugin currently contains three modules, please see below.
   }
 </style>
 
-| Module   | Overview                                                     | Core engine                                           | Rhino / Grasshopper | OS support | OpenFOAM (ver) | Radiance (ver) | Other deps            | Docs                                               |
-|----------|--------------------------------------------------------------|-------------------------------------------------------|---------------------|------------|----------------|----------------|-----------------------|----------------------------------------------------|
-| Outdoor  | Decoupled microclimate (wind + mean radiant temp)            | OpenFOAM; Radiance                                    | 8.15                | Win 10/11  | 8              |                | —                     | [Learn more](https://docs.eddy3d.com/outdoor/)     |
-| Outdoor+ | Fully coupled microclimate (wind, radiation, heat, moisture) | `urbanMicroclimateFoam` (ETH Zurich Building Physics) | 8.15                | Win 10/11  | 8              | —              | urbanMicroclimateFoam | [Learn more](https://docs.eddy3d.com/outdoorplus/) |
-| Indoor   | Airflow, moisture, passive scalars (indoor)                  |                                                       | 8.15                | Win 10/11  | 8              | -              | —                     | [Learn more](https://docs.eddy3d.com/indoor/)      |
+## Requirements
+
+| Module   | Overview                                                     | Core engine          | Rhino (ver) | OS support | OpenFOAM (ver) | Radiance (ver) | Other dependencies                                    | Docs                                               |
+|----------|--------------------------------------------------------------|----------------------|-------------|------------|----------------|----------------|-------------------------------------------------------|----------------------------------------------------|
+| Outdoor  | Decoupled microclimate (wind + mean radiant temp)            | OpenFOAM; Radiance   | 8.15        | Win 10/11  | 8              |  Radiance 5.3  | —                                                     | [Learn more](https://docs.eddy3d.com/outdoor/)     |
+| Outdoor+ | Fully coupled microclimate (wind, radiation, heat, moisture) | OpenFOAM             | 8.15        | Win 10/11  | 8              | —              | `urbanMicroclimateFoam` (ETH Zurich Building Physics) | [Learn more](https://docs.eddy3d.com/outdoorplus/) |
+| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM             | 8.15        | Win 10/11  | 8              | -              | —                                                     | [Learn more](https://docs.eddy3d.com/indoor/)      |
 

@@ -1,39 +1,39 @@
-## ![](../images/icons/Vegetation_Properties.png) Vegetation Properties - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Vegetation/VegetationPropertiesCMP.cs)
+## ![](../../images/icons/Vegetation_Properties.png) Vegetation Properties
 
-![](../images/components/Vegetation_Properties.png)
+![](../../images/components/Vegetation_Properties.png)
 
-Properties of vegetation.
+Properties of vegetation  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### a1
+* ##### a1 
 stomatal resistance parameters
-* ##### a2
+* ##### a2 
 stomatal resistance parameters
-* ##### a3
+* ##### a3 
 stomatal resistance parameters
-* ##### D0
+* ##### D0 
 stomatal resistance parameters
-* ##### C
+* ##### C 
 proportionality factor
-* ##### b
+* ##### b 
 turbulent production coeff
-* ##### b
+* ##### b 
 turbulent destruction coeff
-* ##### H
+* ##### H 
 location of canopy height
-* ##### kc
+* ##### kc 
 extinction coefficient of radiation
-* ##### l
+* ##### l 
 characteristic length of leaf
-* ##### rs
+* ##### rs 
 stomatal resistance
-* ##### Rg0
+* ##### Rg0 
 global radiation at top of canopy
-* ##### Rl0
+* ##### Rl0 
 long-wave radiation at top of canopy
-* ##### n
+* ##### n 
 nEvapSides
-* ##### m
+* ##### m 
 minCellSizeFactor
 
 #### Output

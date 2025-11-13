@@ -1,15 +1,17 @@
-## ![](../images/icons/Get_Probes.png) Get Probes - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/GetProbesCMP.cs)
+## ![](../../images/icons/Get_Probes.png) Get Probes
 
-![](../images/components/Get_Probes.png)
+![](../../images/components/Get_Probes.png)
 
-Get probe values from a field
+Get probe values from a field  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### C
+* ##### C 
 Case
-* ##### P
+* ##### R 
+Region to probe
+* ##### P 
 Name of the probing to get information from
-* ##### F
+* ##### F 
 Field to retrieve from probes
 
 #### Output

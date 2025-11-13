@@ -1,17 +1,17 @@
-## ![](../images/icons/Timing_Parameters.png) Timing Parameters - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/TimingParametersCMP.cs)
+## ![](../../images/icons/Timing_Parameters.png) Timing Parameters
 
-![](../images/components/Timing_Parameters.png)
+![](../../images/components/Timing_Parameters.png)
 
-Timing parameters of the simulation
+Timing parameters of the simulation  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### W
+* ##### W 
 Weather instance.
-* ##### SD
+* ##### SD 
 Index of the day of the year to start the simulation on
-* ##### ST
+* ##### ST 
 Starting hour of the simulation
-* ##### D
+* ##### D 
 Number of hours to simulate
 
 #### Output

@@ -1,5 +1,5 @@
 # Building
-
-* [Brick Material](../components/Brick_Material.md)
-* [Building Region](../components/Building_Region.md)
-* [Solid Mesh Parameters](../components/Solid_Mesh_Parameters.md)
+#### Exposure: primary
+* [Building Region](components/Building_Region.md)
+* [Building Meshing Parameters](components/Building_Meshing_Parameters.md)
+* [Building Material](components/Building_Material.md)

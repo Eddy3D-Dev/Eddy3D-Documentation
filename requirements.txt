@@ -13,3 +13,4 @@ mkdocs-video
 mkdocs-awesome-pages-plugin
 mkdocs-bibtex
 mkdocs-section-index
+tzdata

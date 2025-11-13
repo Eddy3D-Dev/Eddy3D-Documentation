@@ -1,21 +1,21 @@
-## ![](../images/icons/Box_Domain_Dimensions.png) Box Domain Dimensions - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Simulation/BoxDomainDimensionsCMP.cs)
+## ![](../../images/icons/Box_Domain_Dimensions.png) Box Domain Dimensions
 
-![](../images/components/Box_Domain_Dimensions.png)
+![](../../images/components/Box_Domain_Dimensions.png)
 
-Parameters for box domain dimensions
+Parameters for box domain dimensions  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### S
+* ##### S 
 Size of the cell in every direction of the box
-* ##### F
+* ##### F 
 Additional extension of box domain towards the front face, starting from the bounding box of all geometry.
-* ##### B
+* ##### B 
 Additional extension of box domain towards the back face, starting from the bounding box of all geometry.
-* ##### S
+* ##### S 
 Additional extension of box domain towards the side faces, starting from the bounding box of all geometry.
-* ##### T
+* ##### T 
 Additional extension of box domain towards the top face, starting from the bounding box of all geometry.
-* ##### R
+* ##### R 
 Additional extension of refinement box towards every face, starting from the bounding box of all geometry.
 
 #### Output

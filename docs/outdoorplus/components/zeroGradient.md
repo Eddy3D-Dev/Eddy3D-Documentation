@@ -1,6 +1,6 @@
-## ![](../images/icons/zeroGradient.png) zeroGradient - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/zeroGradientCMP.cs)
+## ![](../../images/icons/zeroGradient.png) zeroGradient
 
-![](../images/components/zeroGradient.png)
+![](../../images/components/zeroGradient.png)
 
 zeroGradient value.
 

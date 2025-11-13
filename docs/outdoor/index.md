@@ -8,7 +8,7 @@
     - `C:\Program Files\blueCFD-Core-2017`
   - For versions >= 0.4.0.10, please install [BlueCFD 2020](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe) in the default folder:
     - `C:\Program Files\blueCFD-Core-2020`
-- If you would like to use the *experimental* MRT component, please install [Radiance](https://www.radiance-online.org/download-install) in the default  
+- If you would like to use the *experimental* MRT component, please install [Radiance](https://github.com/LBNL-ETA/Radiance/releases?q=5.3&expanded=true) in the default  
   folder: `C:\Program Files\Radiance`
 
 ### Templates
@@ -34,13 +34,17 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 ### Simple wind analysis
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/375687568?h=4faaa776b4" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/375687568" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
 ### Multi-directional / annual wind analysis
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/375755947?h=3ca10bad2b" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/375755947" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
 ### Pressure coefficients on building façade
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/375755963?h=ad2f57624d" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/375755963" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+### Eddy3D & Paraview Workshop
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/1136117320" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 

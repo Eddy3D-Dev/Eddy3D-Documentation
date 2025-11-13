@@ -1,17 +1,17 @@
-## ![](../images/icons/Vegetation_Region.png) Vegetation Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Vegetation/VegetationRegionCMP.cs)
+## ![](../../images/icons/Vegetation_Region.png) Vegetation Region
 
-![](../images/components/Vegetation_Region.png)
+![](../../images/components/Vegetation_Region.png)
 
-Description
+Vegetation region  OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### M
+* ##### M 
 Vegetation mesh
-* ##### L
+* ##### L 
 Leaf Area Density of the vegetation
-* ##### P
+* ##### P 
 Vegetation properties
-* ##### MP
+* ##### MP 
 Mesh parameteres
 
 #### Output

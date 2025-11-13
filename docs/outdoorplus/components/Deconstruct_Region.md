@@ -1,11 +1,11 @@
-## ![](../images/icons/Deconstruct_Region.png) Deconstruct Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D-UMCF/blob/release/UMCF/CMP/Meta/DeconstructRegionCMP.cs)
+## ![](../../images/icons/Deconstruct_Region.png) Deconstruct Region
 
-![](../images/components/Deconstruct_Region.png)
+![](../../images/components/Deconstruct_Region.png)
 
 Deconstructs a Region
 
 #### Input
-* ##### R
+* ##### R 
 Region to deconstruct
 
 #### Output

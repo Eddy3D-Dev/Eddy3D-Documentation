@@ -16,5 +16,6 @@ FROM squidfunk/mkdocs-material
       mkdocs-video \
       mkdocs-awesome-pages-plugin \
       mkdocs-section-index \
+      tzdata\
        
    # You can add more RUN pip install commands for other packages
