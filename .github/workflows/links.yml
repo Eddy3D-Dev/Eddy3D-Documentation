@@ -30,5 +30,8 @@ jobs:
             --verbose
             --no-progress
             --timeout 60
+            --max-retries 5
+            --retry-wait-time 5
+            --accept '100..=103,200..=299,503'
             ./docs/**/*.md              # original sources
 
