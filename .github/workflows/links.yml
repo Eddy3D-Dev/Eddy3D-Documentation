@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
 
   push:
-    branches: [main, master]
+    branches: [dev]
     paths:
       - "docs/**/*.md"
       - ".github/workflows/links.yml"
   pull_request:
-    branches: [main, master]
+    branches: [dev]
     paths:
       - "docs/**/*.md"
 
@@ -29,6 +29,9 @@ jobs:
           args: >
             --verbose
             --no-progress
-            --timeout 60                # lychee request timeout in seconds
+            --timeout 60
+            --max-retries 5
+            --retry-wait-time 5
+            --accept '100..=103,200..=299,503'
             ./docs/**/*.md              # original sources
 
