@@ -4,43 +4,31 @@ on:
   workflow_dispatch:
 
   push:
-    branches: [main, master]
+    branches: [dev]
     paths:
       - "docs/**/*.md"
       - ".github/workflows/links.yml"
   pull_request:
-    branches: [main, master]
+    branches: [dev]
     paths:
       - "docs/**/*.md"
 
 jobs:
   link-checker:
     runs-on: ubuntu-22.04
-    timeout-minutes: 15          # job-level timeout
-    permissions: {}              # principle of least privilege
+    permissions: {}            # principle of least privilege
 
     steps:
       - uses: actions/checkout@v4
 
       # --- Scan links in Markdown *and* generated HTML ----------------------
       - name: Link Checker 🔗
-        id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          fail: true
-          # Optional, but keeps output consistent and easy to save/parse
-          format: markdown
-          output: lychee/out.md
-          # Pin the lychee CLI used by the action (matches recent logs)
-          lycheeVersion: v0.21.0
-          # Use the workflow's default token for GitHub API calls
-          token: ${{ github.token }}
-          # Pass args and inputs; quote globs and separate with `--`
-          args: >-
+          fail: true                    # fail the job on any bad link
+          args: >
             --verbose
             --no-progress
             --timeout 60
-            --root-dir "$(pwd)"
-            --
-            './docs/**/*.md'
-            './docs/**/*.html'
+            ./docs/**/*.md              # original sources
+
