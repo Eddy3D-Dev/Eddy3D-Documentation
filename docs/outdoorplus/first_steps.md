@@ -1,10 +1,10 @@
-# Eddy3D - Comfort+
+# Eddy3D - Outdoor+
 
-*A Grasshopper plugin for urban microclimate simulation with `urbanMicroclimateFoam` (UMCF)*
+*A Grasshopper plugin for urban microclimate simulation with `urbanMicroclimateFoam` (uMFoam)*
 
 ## Overview
 
-`urbanMicroclimateFoam` (UMCF) is an open-source solver built on [OpenFOAM](https://openfoam.org/) for modeling urban microclimates. It simulates coupled physical processes including:
+`urbanMicroclimateFoam` (uMFoam) is an open-source solver built on [OpenFOAM](https://openfoam.org/) for modeling urban microclimates. It simulates coupled physical processes including:
 
 - **Turbulent airflow**
 - **Heat and moisture transport in air**
