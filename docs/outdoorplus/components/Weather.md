@@ -1,13 +1,13 @@
-## ![](../../images/icons/Weather.png) Weather
+## ![](../images/icons/Weather.png) Weather
 
-![](../../images/components/Weather.png)
+![](../images/components/Weather-crop.png)
 
-Reads an EPW file and creates a Weather instance for the simulation  OutdoorPlus 0.0.20.0
+Read an EPW file and create a Weather object for the simulation. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### F 
-Path to the EPW file
+* ##### Path 
+Full path to the EPW weather file.
 
 #### Output
-* ##### W
-Weather instance containing weather information
+* ##### Weather
+Weather object containing EPW data.

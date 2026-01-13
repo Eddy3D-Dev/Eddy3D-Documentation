@@ -1,13 +1,13 @@
-## ![](../../images/icons/OpenFOAM_List.png) OpenFOAM List
+## ![](../images/icons/OpenFOAM_List.png) OpenFOAM List
 
-![](../../images/components/OpenFOAM_List.png)
+![](../images/components/OpenFOAM_List-crop.png)
 
-Creates an OpenFOAM list. Used as an input to modify OpenFOAM files
+Create an OpenFOAM list for file modification inputs.
 
 #### Input
-* ##### V 
-List of values to store in the OF Dictionary.
+* ##### Values 
+Values to store in the OpenFOAM list.
 
 #### Output
-* ##### C
-The created collection.
+* ##### List
+Created list object.

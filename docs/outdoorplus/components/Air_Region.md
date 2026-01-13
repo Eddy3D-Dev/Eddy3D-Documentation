@@ -1,13 +1,13 @@
-## ![](../../images/icons/Air_Region.png) Air Region
+## ![](../images/icons/Air_Region.png) Air Region
 
-![](../../images/components/Air_Region.png)
+![](../images/components/Air_Region-crop.png)
 
-Air region  OutdoorPlus 0.0.20.0
+Create an air region for the UMCF case. OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### ABL 
-Atmospheric boundary layer condition setting
+Optional atmospheric boundary layer settings for the air region.
 
 #### Output
-* ##### R
-Air region.
+* ##### Air
+Air region object for the case.

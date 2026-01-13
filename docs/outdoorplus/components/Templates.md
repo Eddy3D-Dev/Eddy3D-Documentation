@@ -1,11 +1,11 @@
-## ![](../../images/icons/Templates.png) Templates
+## ![](../images/icons/Templates.png) Templates
 
-![](../../images/components/Templates.png)
+![](../images/components/Templates-crop.png)
 
-Contains templates of Grasshopper definitions  OutdoorPlus 0.0.20.0
+Browse built-in Grasshopper templates for OutdoorPlus. OutdoorPlus 0.0.20.0
 
 #### Input
 
 #### Output
-* ##### T
-Names of the templates
+* ##### Templates
+Names of available templates.

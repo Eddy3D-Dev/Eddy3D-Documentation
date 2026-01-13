@@ -1,33 +1,33 @@
-## ![](../../images/icons/Deconstruct_Case.png) Deconstruct Case
+## ![](../images/icons/Deconstruct_Case.png) Deconstruct Case
 
-![](../../images/components/Deconstruct_Case.png)
+![](../images/components/Deconstruct_Case-crop.png)
 
-Deconstructs a Case instance, exposing all types of file containers.
+Deconstruct a case instance and expose its regions and file containers.
 
 #### Input
-* ##### C 
+* ##### Case 
 Case to deconstruct.
 
 #### Output
-* ##### N
+* ##### Name
 Case name.
-* ##### AR
-Air region in the case
-* ##### VR
-Vegetation regions in the case
-* ##### SR
-Solid regions in the case
-* ##### I
-OpenFOAM initial condition dictionaries found in the directory, stored in file containers.
-* ##### D
-OpenFOAM dictionaries found in the directory, stored in file containers.
-* ##### L
-OpenFOAM lists found in the directory, stored in file containers.
-* ##### S
-Scripts found in the directory, stored in file containers.
-* ##### M
-Meshes found in the directory, stored in mesh containers.
-* ##### T
+* ##### Air
+Air region in the case.
+* ##### Vegetation
+Vegetation regions in the case.
+* ##### Solid
+Solid regions in the case.
+* ##### InitDicts
+Initial condition dictionaries stored as file containers.
+* ##### Dicts
+OpenFOAM dictionaries stored as file containers.
+* ##### Lists
+OpenFOAM lists stored as file containers.
+* ##### Scripts
+Scripts stored as file containers.
+* ##### Meshes
+Meshes stored as mesh containers.
+* ##### Text
 Files that do not meet other categories.
-* ##### P
-Name of the patches found in the case initial conditions.
+* ##### Patches
+Patch names found in the initial conditions.

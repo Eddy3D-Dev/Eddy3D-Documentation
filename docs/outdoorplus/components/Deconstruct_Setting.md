@@ -1,13 +1,13 @@
-## ![](../../images/icons/Deconstruct_Setting.png) Deconstruct Setting
+## ![](../images/icons/Deconstruct_Setting.png) Deconstruct Setting
 
-![](../../images/components/Deconstruct_Setting.png)
+![](../images/components/Deconstruct_Setting-crop.png)
 
-Deconstrusct a setting instance.
+Deconstruct a Setting instance into its entries.
 
 #### Input
-* ##### S 
-Setting to deconstruct
+* ##### Setting 
+Setting to deconstruct.
 
 #### Output
-* ##### E
-Entries in the setting.
+* ##### Entries
+Entries contained in the setting.

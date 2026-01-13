@@ -1,23 +1,23 @@
-## ![](../../images/icons/Deconstruct_FileContainer.png) Deconstruct FileContainer
+## ![](../images/icons/Deconstruct_FileContainer.png) Deconstruct FileContainer
 
-![](../../images/components/Deconstruct_FileContainer.png)
+![](../images/components/Deconstruct_FileContainer-crop.png)
 
 Deconstructs a FileContainer instance.
 
 #### Input
-* ##### F 
-File container to deconstruct.
+* ##### File 
+FileContainer instance to deconstruct.
 
 #### Output
-* ##### N
-File container name.
-* ##### F
+* ##### Address
+File container address.
+* ##### Type
 File container file type.
-* ##### K
+* ##### Keys
 File container keys.
-* ##### V
+* ##### Values
 File container values.
-* ##### R
+* ##### Raw
 Raw content of the file.
-* ##### TR
-Total raw content of the file.
+* ##### RawAll
+Full raw content of the file.

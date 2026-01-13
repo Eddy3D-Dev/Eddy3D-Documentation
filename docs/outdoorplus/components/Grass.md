@@ -1,27 +1,27 @@
-## ![](../../images/icons/Grass.png) Grass
+## ![](../images/icons/Grass.png) Grass
 
-![](../../images/components/Grass.png)
+![](../images/components/Grass-crop.png)
 
-Creates grass in the simulation  OutdoorPlus 0.0.20.0
+Define grass patches and parameters for the terrain. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### B 
-Closed curve where grass will be added. This curve is projected to the terrain mesh to define the grass area
+* ##### Boundary 
+Closed curves for grass areas (projected onto the terrain mesh).
 * ##### Cd 
-Grass parameter 'Cd'
+Grass drag coefficient (Cd). Optional; default is 0.2.
 * ##### LAI 
-Grass parameter 'LAI'
+Leaf area index (LAI). Optional; default is 2.
 * ##### LAD 
-Grass parameter 'LAD'
-* ##### nEvapSides 
-Grass parameter 'nEvapSides'
-* ##### Cbetad 
-Grass parameter 'beta'
-* ##### betaLW 
-Grass parameter 'betaLW'
-* ##### albedoSoil 
-Grass parameter 'albedoSoil'
+Leaf area density (LAD). Optional; default is 20.
+* ##### EvapSides 
+Evaporation sides parameter (nEvapSides). Optional; default is 1.
+* ##### Beta 
+Beta parameter. Optional; default is 0.5.
+* ##### BetaLW 
+Longwave beta parameter (betaLW). Optional; default is 1000.
+* ##### Albedo 
+Soil albedo (albedoSoil). Optional; default is 0.4.
 
 #### Output
-* ##### G
-Grass parameters
+* ##### Grass
+Grass settings for the case.

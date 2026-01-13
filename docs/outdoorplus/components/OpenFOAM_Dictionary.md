@@ -1,15 +1,15 @@
-## ![](../../images/icons/OpenFOAM_Dictionary.png) OpenFOAM Dictionary
+## ![](../images/icons/OpenFOAM_Dictionary.png) OpenFOAM Dictionary
 
-![](../../images/components/OpenFOAM_Dictionary.png)
+![](../images/components/OpenFOAM_Dictionary-crop.png)
 
-Creates an OpenFOAM dictioanry. Used as an input to modify OpenFOAM files
+Create an OpenFOAM dictionary for file modification inputs.
 
 #### Input
-* ##### K 
-List of keys to store in the OF Dictionary.
-* ##### V 
-List of values to store in the OF Dictionary.
+* ##### Keys 
+Keys to store in the OpenFOAM dictionary.
+* ##### Values 
+Values to store in the OpenFOAM dictionary.
 
 #### Output
-* ##### C
-The created collection.
+* ##### Dict
+Created dictionary object.

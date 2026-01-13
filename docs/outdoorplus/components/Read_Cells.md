@@ -1,23 +1,23 @@
-## ![](../../images/icons/Read_Cells.png) Read Cells
+## ![](../images/icons/Read_Cells.png) Read Cells
 
-![](../../images/components/Read_Cells.png)
+![](../images/components/Read_Cells-crop.png)
 
-Cells from owner and neighbour files. CellZones from cellZones file if existing  OutdoorPlus 0.0.20.0
+Read cell connectivity and cell zones for a region. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### C 
-OutdoorPlus Case class to extract the working directory
-* ##### R 
-OutdoorPlus Case region to visualize
-* ##### C 
-Chunk size for reading the owner and neighbour files
-* ##### O 
-Chunk offset for reading the owner and neighbour files
+* ##### Case 
+UMCF case containing the region data.
+* ##### Region 
+Region name to read.
+* ##### Chunk 
+Chunk size for reading owner/neighbour files. Optional; default is 500.
+* ##### Offset 
+Chunk offset for reading owner/neighbour files. Optional; default is 0.
 
 #### Output
-* ##### C
-List of cells containing a list of indices pointing to mesh faces
-* ##### N
-List of cell zone names
-* ##### I
-List of indices for each cell zone
+* ##### Cells
+Tree of cells containing face indices.
+* ##### Zones
+Cell zone names.
+* ##### ZoneIndices
+Indices for each cell zone.

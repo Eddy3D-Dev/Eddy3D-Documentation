@@ -15,6 +15,11 @@ nav:
       - Start: index.md
   - Outdoor:
       - Start: outdoor/index.md
+      #- First Steps: outdoor/first_steps.md
+      - Categories:
+          - ... | flat | outdoor/categories/*.md
+      - Components:
+          - ... | flat | outdoor/components/*.md
   - Outdoor+:
       - Start: outdoorplus/index.md
       - First Steps: outdoorplus/first_steps.md
@@ -30,6 +35,12 @@ nav:
       #    - ... | components/*.md
   - Indoor:
       - Start: indoor/index.md
+            #- First Steps: outdoor/first_steps.md
+      - Categories:
+          - ... | flat | indoor/categories/*.md
+      - Components:
+          - ... | flat | indoor/components/*.md
+
   - Back: "https://eddy3d.com"
 
 
@@ -122,6 +133,8 @@ plugins:
       custom_format: "%d. %B %Y"
       timezone: US/Eastern
       locale: en
+      # Netlify build env doesn't support multiprocessing semaphores.
+      enable_parallel_processing: false
       fallback_to_build_date: true
       enable_creation_date: true
       exclude:

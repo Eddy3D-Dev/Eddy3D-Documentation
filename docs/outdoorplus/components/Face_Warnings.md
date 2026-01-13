@@ -1,17 +1,17 @@
-## ![](../../images/icons/Face_Warnings.png) Face Warnings
+## ![](../images/icons/Face_Warnings.png) Face Warnings
 
-![](../../images/components/Face_Warnings.png)
+![](../images/components/Face_Warnings-crop.png)
 
-Render mesh faces during topoSet execution that do not produce a valid tet decomposition  OutdoorPlus 0.0.20.0
+Visualize faces that fail tet decomposition during topoSet. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### C 
-OutdoorPlus Case
-* ##### M 
-Simulation domain mesh
+* ##### Case 
+UMCF case containing the prepare log.
+* ##### Mesh 
+Simulation domain mesh.
 
 #### Output
-* ##### F
-Mesh faces from warning logs
-* ##### I
-Face indices with no base point found for a valid tet decomposition
+* ##### Faces
+Mesh faces flagged in warning logs.
+* ##### Indices
+Face indices with no base point found for a valid tet decomposition.

@@ -1,19 +1,19 @@
-## ![](../../images/icons/Vegetation_Region.png) Vegetation Region
+## ![](../images/icons/Vegetation_Region.png) Vegetation Region
 
-![](../../images/components/Vegetation_Region.png)
+![](../images/components/Vegetation_Region-crop.png)
 
-Vegetation region  OutdoorPlus 0.0.20.0
+Create a vegetation region with properties and mesh settings. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### M 
-Vegetation mesh
-* ##### L 
-Leaf Area Density of the vegetation
-* ##### P 
-Vegetation properties
-* ##### MP 
-Mesh parameteres
+* ##### Mesh 
+Vegetation meshes for the region.
+* ##### LAD 
+Leaf area density for vegetation.
+* ##### Props 
+Optional vegetation property settings.
+* ##### MeshSet 
+Optional meshing settings for vegetation.
 
 #### Output
-* ##### V
-Vegetation region.
+* ##### Vegetation
+Vegetation region object for the case.

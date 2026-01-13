@@ -1,71 +1,72 @@
 # UMCF Component list
 ## Air
-### Exposure: primary
-* [Air Region](components/Air_Region.md)
+#### Main Components
 * [ABL Condition](components/ABL_Condition.md)
+* [Air Region](components/Air_Region.md)
 ## Building
-### Exposure: primary
-* [Building Region](components/Building_Region.md)
-* [Building Meshing Parameters](components/Building_Meshing_Parameters.md)
+#### Main Components
 * [Building Material](components/Building_Material.md)
+* [Building Mesh Settings](components/Building_Mesh_Settings.md)
+* [Building Region](components/Building_Region.md)
 ## Meta
-### Exposure: hidden
-* [zeroGradient](components/zeroGradient.md)
-* [uniform vector](components/uniform_vector.md)
+#### Main Components
+* [Calculated Value](components/Calculated_Value.md)
+* [Calculated Vector Value](components/Calculated_Vector_Value.md)
+* [Constant Value](components/Constant_Value.md)
 * [Create Address](components/Create_Address.md)
-* [Deconstruct Setting](components/Deconstruct_Setting.md)
-* [OpenFOAM List](components/OpenFOAM_List.md)
 * [Create Entry Key](components/Create_Entry_Key.md)
-* [Read OpenFOAM Case](components/Read_OpenFOAM_Case.md)
-* [Entry from a Key and Value](components/Entry_from_a_Key_and_Value.md)
-* [Deconstruct FileContainer](components/Deconstruct_FileContainer.md)
-* [constant](components/constant.md)
-* [Deconstruct Entry](components/Deconstruct_Entry.md)
-* [Debugger](components/Debugger.md)
 * [Create Setting](components/Create_Setting.md)
-* [calculated Vector](components/calculated_Vector.md)
-* [uniform](components/uniform.md)
-* [calculated](components/calculated.md)
+* [Debugger](components/Debugger.md)
+* [Deconstruct Entry](components/Deconstruct_Entry.md)
+* [Deconstruct FileContainer](components/Deconstruct_FileContainer.md)
+* [Deconstruct Setting](components/Deconstruct_Setting.md)
+* [Entry from a Key and Value](components/Entry_from_a_Key_and_Value.md)
 * [OpenFOAM Dictionary](components/OpenFOAM_Dictionary.md)
-## Simulation
-### Exposure: primary
-* [Weather](components/Weather.md)
-* [CheckMesh](components/CheckMesh.md)
-* [Simulation Settings](components/Simulation_Settings.md)
-* [Get Probes](components/Get_Probes.md)
-* [Simulation MeshSettings](components/Simulation_MeshSettings.md)
-* [Case Run](components/Case_Run.md)
-* [Probing](components/Probing.md)
-* [Deconstruct Weather](components/Deconstruct_Weather.md)
-* [ViewFactors](components/ViewFactors.md)
-* [UrbanMicroClimateFoam Case](components/UrbanMicroClimateFoam_Case.md)
-* [Box Domain Dimensions](components/Box_Domain_Dimensions.md)
-* [Timing Parameters](components/Timing_Parameters.md)
-### Exposure: quarternary
-* [Plot Residuals](components/Plot_Residuals.md)
-### Exposure: secondary
-* [Deconstruct Region](components/Deconstruct_Region.md)
-* [Install WSL-OF8](components/Install_WSL-OF8.md)
-* [Templates](components/Templates.md)
-* [Deconstruct Case](components/Deconstruct_Case.md)
-* [Check Windows Installation](components/Check_Windows_Installation.md)
-## Terrain
-### Exposure: primary
-* [Soil](components/Soil.md)
-* [Grass](components/Grass.md)
-* [Terrain Region](components/Terrain_Region.md)
-* [Advanced Terrain Mesh](components/Advanced_Terrain_Mesh.md)
-## Vegetation
-### Exposure: primary
-* [Vegetation Region](components/Vegetation_Region.md)
-* [Vegetation Properties](components/Vegetation_Properties.md)
-* [Vegetation Mesh Settings](components/Vegetation_Mesh_Settings.md)
-## Visualization
-### Exposure: primary
-* [Read Cells](components/Read_Cells.md)
-* [Face Warnings](components/Face_Warnings.md)
-* [Create OBJ](components/Create_OBJ.md)
-* [Create Mesh](components/Create_Mesh.md)
-* [Read checkMesh](components/Read_checkMesh.md)
-### Exposure: secondary
+* [OpenFOAM List](components/OpenFOAM_List.md)
+* [Read OpenFOAM Case](components/Read_OpenFOAM_Case.md)
+* [Uniform Value](components/Uniform_Value.md)
+* [Uniform Vector Value](components/Uniform_Vector_Value.md)
+* [ZeroGradient](components/ZeroGradient.md)
+## Metrics
+#### Main Components
 * [CalcPET](components/CalcPET.md)
+## Simulation
+#### Main Components
+* [Box Domain](components/Box_Domain.md)
+* [Case Run](components/Case_Run.md)
+* [CheckMesh](components/CheckMesh.md)
+* [Deconstruct Weather](components/Deconstruct_Weather.md)
+* [Get Probes](components/Get_Probes.md)
+* [Parse Case Logs](components/Parse_Case_Logs.md)
+* [Probing](components/Probing.md)
+* [Simulation Mesh Settings](components/Simulation_Mesh_Settings.md)
+* [Simulation Settings](components/Simulation_Settings.md)
+* [Timing Parameters](components/Timing_Parameters.md)
+* [UMCF Case](components/UMCF_Case.md)
+* [ViewFactors](components/ViewFactors.md)
+* [Weather](components/Weather.md)
+* [Plot Residuals](components/Plot_Residuals.md)
+* [Check & Install Engine](components/Check_&_Install_Engine.md)
+* [Deconstruct Case](components/Deconstruct_Case.md)
+* [Deconstruct Region](components/Deconstruct_Region.md)
+* [Templates](components/Templates.md)
+## Terrain
+#### Main Components
+* [Grass](components/Grass.md)
+* [Advanced Terrain Mesh](components/Advanced_Terrain_Mesh.md)
+* [Soil Material](components/Soil_Material.md)
+* [Terrain Mesh Settings](components/Terrain_Mesh_Settings.md)
+* [Terrain Region](components/Terrain_Region.md)
+* [Terrain Surface Material](components/Terrain_Surface_Material.md)
+## Vegetation
+#### Main Components
+* [Vegetation Mesh Settings](components/Vegetation_Mesh_Settings.md)
+* [Vegetation Properties](components/Vegetation_Properties.md)
+* [Vegetation Region](components/Vegetation_Region.md)
+## Visualization
+#### Main Components
+* [Create Mesh](components/Create_Mesh.md)
+* [Create OBJ](components/Create_OBJ.md)
+* [Face Warnings](components/Face_Warnings.md)
+* [Read Cells](components/Read_Cells.md)
+* [Read checkMesh](components/Read_checkMesh.md)

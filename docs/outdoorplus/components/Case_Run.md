@@ -1,21 +1,21 @@
-## ![](../../images/icons/Case_Run.png) Case Run
+## ![](../images/icons/Case_Run.png) Case Run
 
-![](../../images/components/Case_Run.png)
+![](../images/components/Case_Run-crop.png)
 
-Runs the case  OutdoorPlus 0.0.20.0
+Prepare and run a UMCF case. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### C 
-Case to run the simulation on
-* ##### PS 
-Set to true to prepare the simulation
-* ##### RS 
-Set to true to run the simulation
-* ##### P 
-Set to true to compute in parallel
+* ##### Case 
+Case to prepare and/or run.
+* ##### Prep 
+Prepare meshing and case setup.
+* ##### Run 
+Run the simulation solver.
+* ##### Parallel 
+Run the case in parallel if enabled.
 
 #### Output
-* ##### C
-Case that contains the simulation
-* ##### L
-Logs
+* ##### Case
+Updated case after prepare/run.
+* ##### Logs
+Latest execution logs.

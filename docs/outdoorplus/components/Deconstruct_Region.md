@@ -1,19 +1,19 @@
-## ![](../../images/icons/Deconstruct_Region.png) Deconstruct Region
+## ![](../images/icons/Deconstruct_Region.png) Deconstruct Region
 
-![](../../images/components/Deconstruct_Region.png)
+![](../images/components/Deconstruct_Region-crop.png)
 
-Deconstructs a Region
+Deconstruct a MetaFOAM Region instance.
 
 #### Input
-* ##### R 
-Region to deconstruct
+* ##### Region 
+Region to deconstruct.
 
 #### Output
-* ##### N
-Name of the region
+* ##### Name
+Region name.
 * ##### Type
-Type of the region
-* ##### FC
-File Containers in the region
-* ##### S
-Setting in the region
+Region type.
+* ##### Files
+File containers in the region.
+* ##### Setting
+Region setting (if available).

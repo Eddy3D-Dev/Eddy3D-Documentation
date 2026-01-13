@@ -1,11 +1,11 @@
-## ![](../../images/icons/Plot_Residuals.png) Plot Residuals
+## ![](../images/icons/Plot_Residuals.png) Plot Residuals
 
-![](../../images/components/Plot_Residuals.png)
+![](../images/components/Plot_Residuals-crop.png)
 
-Opens the Streamlit app or the residuals folder.
+Open the Streamlit residual viewer and the residuals folder.
 
 #### Input
-* ##### C 
-Case to run the simulation on
+* ##### Case 
+Case to open residuals for.
 
 #### Output

@@ -1,1 +1,2 @@
 ^https?://([a-zA-Z\d-]+\.)*vimeo\.com(/.*)?$
+^https?://([a-zA-Z\d-]+\.)*cfd-online\.com(/.*)?$

@@ -1,17 +1,17 @@
-## ![](../../images/icons/Create_Address.png) Create Address
+## ![](../images/icons/Create_Address.png) Create Address
 
-![](../../images/components/Create_Address.png)
+![](../images/components/Create_Address-crop.png)
 
-Creates an Address for a Key
+Create a MetaFOAM Address for entries and settings.
 
 #### Input
-* ##### TF 
-0 = root; 1 = system; 2 = constant; 3 = zero
-* ##### RN 
-Name of the region
-* ##### MF 
-Optional middle folders between region and file
-* ##### FN 
-Name of the file
+* ##### Top 
+Top folder index: 0=root, 1=system, 2=constant, 3=zero.
+* ##### Region 
+Region name.
+* ##### Folders 
+Optional subfolders between region and file.
+* ##### File 
+Target file name.
 
 #### Output
