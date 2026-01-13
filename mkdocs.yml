@@ -15,6 +15,11 @@ nav:
       - Start: index.md
   - Outdoor:
       - Start: outdoor/index.md
+      #- First Steps: outdoor/first_steps.md
+      - Categories:
+          - ... | flat | outdoor/categories/*.md
+      - Components:
+          - ... | flat | outdoor/components/*.md
   - Outdoor+:
       - Start: outdoorplus/index.md
       - First Steps: outdoorplus/first_steps.md
