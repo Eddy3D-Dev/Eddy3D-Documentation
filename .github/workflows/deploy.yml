@@ -1,10 +1,11 @@
-name: ci 
+name: deploy
 on:
   push:
     branches: [main, master]
     paths:
       - "docs/**/*.md"
       - "mkdocs.yml"
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
