@@ -2,262 +2,566 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.eddy3d.com/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/indoor/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/categories/9_Indoor/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/CO2_Emitter/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/Heat_Source/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/Indoor_Inlet/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/Indoor_Outlet/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/Indoor_Simulation/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/Indoor_Wall/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/Momentum_Sink/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/Momentum_Source/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/indoor/components/Viral_Emitter/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoor/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/categories/0_Load_Templates/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/categories/0_Utilities/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/categories/1_Wind/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/categories/2_Radiation/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/categories/3_PostProcessing/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/categories/3_Pre-Processing/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/categories/5_Post-Processing/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/categories/6_Outdoor_Comfort/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/ABL_Flow/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Analysis_Period/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Analysis_System/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Box_Domain/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Building_Surface/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Clean_Directories/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Comfort/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Cull_Ground_Mesh/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Custom_Time_Filter/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Cylindrical_Domain/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Date_to_HOY/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Deconstruct_Data_Objects/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Flow_Rates/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Ground_Surface/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Install_Engines/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/InterpolateUMag/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Load_MRT_Results/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Load_Wind_Results/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/MRT_Simulation/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Mean_Radiant_Temperature/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Mesh_Cell_Size/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Mesh_Sensor/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Mesh_Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Open_ParaView/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Outdoor_Thermal_Comfort/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Pedestrian_Wind_Comfort/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Plot_Residuals/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Point_Probe_Inspector/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Probe_Simulation/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Run_Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/SLURM_Runner/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/STL_Exporter/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Season_Filter/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Sensor/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Surface_Result_Inspector/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Surface_Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Templates/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Time_of_Day_Filter/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Translate_date_to_hours/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Tree/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Tree_Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Tree_Surface/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/UTCI/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/UTCI_Binning/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/UTCI_Rating/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Uniform_Flow/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Vegetation_Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Vegetation_Surface/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/WProbes/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/WindFactorsTemporal/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Wind_Factors/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Wind_Factors2/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Wind_Rose_Cluster/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoor/components/Wind_Simulation/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/first_steps/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/categories/Air/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/categories/Building/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/categories/Meta/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/categories/Metrics/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/categories/Simulation/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/categories/Terrain/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/categories/Vegetation/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/categories/Visualization/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/ABL_Condition/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Advanced_Terrain_Mesh/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Air_Region/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/Box_Domain_Dimensions/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Box_Domain/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Building_Material/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/Building_Meshing_Parameters/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Building_Mesh_Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Building_Region/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/CalcPET/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Calculated_Value/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Calculated_Vector_Value/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Case_Run/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/CheckMesh/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/Check_Windows_Installation/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Check_%26_Install_Engine/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Constant_Value/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Create_Address/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Create_Entry_Key/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Create_Mesh/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Create_OBJ/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Create_Setting/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Debugger/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Deconstruct_Case/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Deconstruct_Entry/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Deconstruct_FileContainer/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Deconstruct_Region/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Deconstruct_Setting/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Deconstruct_Weather/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Entry_from_a_Key_and_Value/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Face_Warnings/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Get_Probes/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Grass/</loc>
-         <lastmod>2025-11-13</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/Install_WSL-OF8/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/OpenFOAM_Dictionary/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/OpenFOAM_List/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Parse_Case_Logs/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Plot_Residuals/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Probing/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Read_Cells/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Read_OpenFOAM_Case/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Read_checkMesh/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/Simulation_MeshSettings/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Simulation_Mesh_Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Simulation_Settings/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/Soil/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Soil_Material/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Templates/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Terrain_Mesh_Settings/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Terrain_Region/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Terrain_Surface_Material/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Timing_Parameters/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/UrbanMicroClimateFoam_Case/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/UMCF_Case/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Uniform_Value/</loc>
+         <lastmod>2026-01-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/Uniform_Vector_Value/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Vegetation_Mesh_Settings/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Vegetation_Properties/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Vegetation_Region/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/ViewFactors/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/outdoorplus/components/Weather/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <lastmod>2026-01-13</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/calculated/</loc>
-         <lastmod>2025-11-13</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/calculated_Vector/</loc>
-         <lastmod>2025-11-13</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/constant/</loc>
-         <lastmod>2025-11-13</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/uniform/</loc>
-         <lastmod>2025-11-13</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/uniform_vector/</loc>
-         <lastmod>2025-11-13</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/outdoorplus/components/zeroGradient/</loc>
-         <lastmod>2025-11-13</lastmod>
+         <loc>https://docs.eddy3d.com/outdoorplus/components/ZeroGradient/</loc>
+         <lastmod>2026-01-13</lastmod>
     </url>
 </urlset>
