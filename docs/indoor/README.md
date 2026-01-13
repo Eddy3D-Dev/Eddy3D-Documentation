@@ -10,10 +10,3 @@
 * [Momentum Sink](components/Momentum_Sink.md)
 * [Momentum Source](components/Momentum_Source.md)
 * [Viral Emitter](components/Viral_Emitter.md)
-
-#### Hidden Components
-* [Domain](components/Domain.md)
-* [FunctionObject](components/FunctionObject.md)
-* [Inlet](components/Inlet.md)
-* [Outlet](components/Outlet.md)
-* [Wall](components/Wall.md)
