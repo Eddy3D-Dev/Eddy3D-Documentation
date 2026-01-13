@@ -35,6 +35,12 @@ nav:
       #    - ... | components/*.md
   - Indoor:
       - Start: indoor/index.md
+            #- First Steps: outdoor/first_steps.md
+      - Categories:
+          - ... | flat | indoor/categories/*.md
+      - Components:
+          - ... | flat | indoor/components/*.md
+
   - Back: "https://eddy3d.com"
 
 
