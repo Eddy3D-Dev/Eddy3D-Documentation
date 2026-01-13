@@ -133,6 +133,8 @@ plugins:
       custom_format: "%d. %B %Y"
       timezone: US/Eastern
       locale: en
+      # Netlify build env doesn't support multiprocessing semaphores.
+      enable_parallel_processing: false
       fallback_to_build_date: true
       enable_creation_date: true
       exclude:
