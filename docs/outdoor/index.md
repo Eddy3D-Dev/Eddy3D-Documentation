@@ -16,7 +16,7 @@
 - Eddy comes with starter templates that you can find by right clicking on the `Template`  
   component, see below.
 
-![](./images/outdoor/template_selection.png)
+![](./images/template_selection.png)
 
 - Select a template of your choice and follow the enumerated markers through the canvas.
 
@@ -28,7 +28,7 @@ There is currently an issues with Microsoft’s and BlueCFD’s MPI dll which is
 
 We value efficient workflows! See below for a one-directional urban CFD setup.
 
-![](./images/outdoor/canvas-setup.png)
+![](./images/canvas-setup.png)
 
 ## Video tutorials
 
