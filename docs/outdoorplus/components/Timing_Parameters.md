@@ -1,19 +1,19 @@
-## ![](../../images/icons/Timing_Parameters.png) Timing Parameters
+## ![](../images/icons/Timing_Parameters.png) Timing Parameters
 
-![](../../images/components/Timing_Parameters.png)
+![](../images/components/Timing_Parameters-crop.png)
 
-Timing parameters of the simulation  OutdoorPlus 0.0.20.0
+Define simulation timing and optional weather-driven time series. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### W 
-Weather instance.
-* ##### SD 
-Index of the day of the year to start the simulation on
-* ##### ST 
-Starting hour of the simulation
-* ##### D 
-Number of hours to simulate
+* ##### Weather 
+Optional weather data for time series inputs.
+* ##### StartDay 
+Day-of-year index to start (0-based). Optional; default is 0.
+* ##### StartHour 
+Hour of day to start (0-23). Optional; default is 0.
+* ##### Hours 
+Simulation duration in hours. Optional; default is 24.
 
 #### Output
-* ##### T
-Simulation timing settings
+* ##### Timing
+Simulation timing settings.

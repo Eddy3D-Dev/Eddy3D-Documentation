@@ -1,43 +1,43 @@
-## ![](../../images/icons/CalcPET.png) CalcPET
+## ![](../images/icons/CalcPET.png) CalcPET
 
-![](../../images/components/CalcPET.png)
+![](../images/components/CalcPET-crop.png)
 
-Calculate PET.
+Calculate PET (Physiological Equivalent Temperature) from environmental and personal inputs.
 
 #### Input
 * ##### Ta 
-Air temperature in Celsius (°C)
+Air temperature (deg C). Optional; default is 20.
 * ##### MRT 
-Mean radiant temperature in Celsius (°C)
-* ##### rh 
-Relative humidity in percent (%)
-* ##### ws 
-Wind speed in meters per second (m/s)
+Mean radiant temperature (deg C). Optional; default is 20.
+* ##### RH 
+Relative humidity (%). Optional; default is 50.
+* ##### WS 
+Wind speed (m/s). Optional; default is 0.1.
 * ##### P 
-Atmospheric pressure in hPa
-* ##### age 
-Age in years
-* ##### sex 
-Sex of the person ('Male', 'Female', or 'Average')
-* ##### H 
-Height in meters (m)
-* ##### W 
-Weight in kilograms (kg)
-* ##### pos 
-Body position ('Standing', 'Sitting', or 'Crouching')
+Atmospheric pressure (hPa). Optional; default is 1013.25.
+* ##### Age 
+Age in years. Optional; default is 35.
+* ##### Sex 
+Sex ('Male', 'Female', or 'Average'). Optional; default is Average.
+* ##### Ht 
+Height (m). Optional; default is 1.75.
+* ##### Wt 
+Weight (kg). Optional; default is 75.
+* ##### Pos 
+Body position ('Standing', 'Sitting', or 'Crouching'). Optional; default is Standing.
 * ##### Icl 
-Clothing insulation value in clo
-* ##### M 
-Metabolic rate / activity in Watts (W)
-* ##### climate 
-Climate type ('Temperate' or 'Humid')
+Clothing insulation (clo). Optional; default is 0.9.
+* ##### Met 
+Metabolic rate (W). Optional; default is 80.
+* ##### Climate 
+Climate type ('Temperate' or 'Humid'). Optional; default is Temperate.
 
 #### Output
 * ##### PET
-Physiological Equivalent Temperature (°C)
+Physiological Equivalent Temperature (deg C).
 * ##### Stress
-Thermal stress level based on PET
+Thermal stress category based on PET.
 * ##### Comfort
-Indicates if the condition is thermally comfortable
-* ##### D
-Detailed results from the PET calculation
+Thermal comfort category.
+* ##### Details
+Detailed calculation results.

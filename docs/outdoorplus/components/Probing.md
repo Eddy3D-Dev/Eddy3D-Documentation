@@ -1,25 +1,23 @@
-## ![](../../images/icons/Probing.png) Probing
+## ![](../images/icons/Probing.png) Probing
 
-![](../../images/components/Probing.png)
+![](../images/components/Probing-crop.png)
 
-Probes the simulation  OutdoorPlus 0.0.20.0
+Define probe points and run probing for a UMCF case. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### R 
-Set to true to run the probing
-* ##### C 
-Case to probe
-* ##### P 
-Name of this probing
-* ##### I 
-Probing interpolation scheme. 0 =  cell; 1 =  cellPoint; 2 = cellPointFace; 3 = pointMVC; 4 = cellPatchConstrained
-* ##### R 
-Region to probe
-* ##### F 
-Fields to probe. T = air temperature; Tl = Tl; U = wind velocity; alphat = turbulent thermal diffusivity; epsilon = turbulent dissipation rate; k = turbulent kinetic energy; nut = turbulent diffusivity; p = pressure; p_rgh = modified pressure without hydrostatic effects; rho = rho; rs = rs; w = humidity ratio
-* ##### P 
-Points to probe the simulation
+* ##### Case 
+Case to probe.
+* ##### Name 
+Name for this probe set.
+* ##### Interp 
+Interpolation scheme index: 0=cell, 1=cellPoint, 2=cellPointFace, 3=pointMVC, 4=cellPatchConstrained.
+* ##### Region 
+Region to probe (default: air).
+* ##### Fields 
+Field names to probe (e.g., T, U, p, k, epsilon, nut, p_rgh, rho, w).
+* ##### Pts 
+Points to probe in the simulation domain.
 
 #### Output
-* ##### C
-Probed case. Use GetProbes component to retrieve probe data
+* ##### Case
+Case with probe definitions. Use GetProbes to read results.

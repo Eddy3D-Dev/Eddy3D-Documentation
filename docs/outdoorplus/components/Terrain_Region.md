@@ -1,25 +1,23 @@
-## ![](../../images/icons/Terrain_Region.png) Terrain Region
+## ![](../images/icons/Terrain_Region.png) Terrain Region
 
-![](../../images/components/Terrain_Region.png)
+![](../images/components/Terrain_Region-crop.png)
 
-Creates a terrain region  OutdoorPlus 0.0.20.0
+Create a terrain region with materials and depth settings. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### M 
-Mesh representing the terrain
-* ##### M 
-Terrain material
-* ##### D 
-Depth of the underground
-* ##### T 
-Temperature of the terrain
-* ##### TMP 
-Terrain mesh parameters
-* ##### GB 
-Grass boundaries as polylines
-* ##### G 
-Grass
+* ##### SurfMat 
+Material settings for the surface layer.
+* ##### SoilMat 
+Material settings for the soil layer.
+* ##### SurfDepth 
+Surface layer depth. Optional; default is 0.1.
+* ##### SoilDepth 
+Soil layer depth. Optional; default is 1.9.
+* ##### Temp 
+Initial terrain temperature (deg C). Optional; default is 25.
+* ##### MeshSet 
+Optional meshing settings for the terrain region.
 
 #### Output
-* ##### TR
-The created terrain region
+* ##### Terrain
+Terrain region object for the case.

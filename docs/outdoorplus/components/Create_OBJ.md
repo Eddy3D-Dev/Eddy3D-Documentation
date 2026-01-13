@@ -1,21 +1,21 @@
-## ![](../../images/icons/Create_OBJ.png) Create OBJ
+## ![](../images/icons/Create_OBJ.png) Create OBJ
 
-![](../../images/components/Create_OBJ.png)
+![](../images/components/Create_OBJ-crop.png)
 
-Create an OBJ mesh geometry from a polyMesh description  OutdoorPlus 0.0.20.0
+Export an OBJ mesh from a polyMesh description. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### D 
-Geometric and topological mesh data as UMCFMesh
-* ##### N 
-File name to save the OBJ file
-* ##### F 
-List of face indices to include in the OBJ
-* ##### W 
-Set to True to run the obj mesh generation
+* ##### Data 
+Geometric and topological mesh data (UMCFMesh).
+* ##### File 
+Output OBJ file name or path.
+* ##### Faces 
+Optional face indices to include in the OBJ.
+* ##### Write 
+Write the OBJ file when true.
 
 #### Output
-* ##### O
-Result of OBJ writing process
-* ##### D
-Geometric and topological mesh data
+* ##### Info
+OBJ export result message.
+* ##### Data
+Geometric and topological mesh data.

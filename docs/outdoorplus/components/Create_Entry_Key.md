@@ -1,13 +1,13 @@
-## ![](../../images/icons/Create_Entry_Key.png) Create Entry Key
+## ![](../images/icons/Create_Entry_Key.png) Create Entry Key
 
-![](../../images/components/Create_Entry_Key.png)
+![](../images/components/Create_Entry_Key-crop.png)
 
-Creates an entry key
+Create a MetaFOAM EntryKey from key segments.
 
 #### Input
-* ##### K 
-Keys
+* ##### Keys 
+Key segments in order (e.g., boundaryField, inlet, type).
 
 #### Output
-* ##### EK
-Entry key
+* ##### Key
+EntryKey instance.

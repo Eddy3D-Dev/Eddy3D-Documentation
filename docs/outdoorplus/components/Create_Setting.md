@@ -1,13 +1,13 @@
-## ![](../../images/icons/Create_Setting.png) Create Setting
+## ![](../images/icons/Create_Setting.png) Create Setting
 
-![](../../images/components/Create_Setting.png)
+![](../images/components/Create_Setting-crop.png)
 
-Creates a custom Setting instance. Settings contain a list of entries.
+Create a Setting from a list of entries.
 
 #### Input
-* ##### E 
-Entries to be added to the Setting.
+* ##### Entries 
+Entries to add to the Setting.
 
 #### Output
-* ##### S
-The created Setting instance.
+* ##### Setting
+Created Setting instance.

@@ -1,13 +1,13 @@
-## ![](../../images/icons/Read_checkMesh.png) Read checkMesh
+## ![](../images/icons/Read_checkMesh.png) Read checkMesh
 
-![](../../images/components/Read_checkMesh.png)
+![](../images/components/Read_checkMesh-crop.png)
 
-Read and visualize sets resulting from checkMesh function  OutdoorPlus 0.0.20.0
+Read and visualize sets produced by checkMesh. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### C 
-OutdoorPlus Case class to extract the working directory
-* ##### D 
-OutdoorPlus Mesh class to filter mesh faces and cells
+* ##### Case 
+UMCF case containing checkMesh set files.
+* ##### Mesh 
+UMCF mesh data used to extract faces and points.
 
 #### Output

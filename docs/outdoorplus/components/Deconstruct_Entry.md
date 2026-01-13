@@ -1,15 +1,15 @@
-## ![](../../images/icons/Deconstruct_Entry.png) Deconstruct Entry
+## ![](../images/icons/Deconstruct_Entry.png) Deconstruct Entry
 
-![](../../images/components/Deconstruct_Entry.png)
+![](../images/components/Deconstruct_Entry-crop.png)
 
 Deconstructs an Entry instance.
 
 #### Input
-* ##### E 
+* ##### Entry 
 Entry to deconstruct.
 
 #### Output
-* ##### A
+* ##### Address
 Entry address.
-* ##### C
-Conent of the entry as key value pairs.
+* ##### Content
+Content of the entry as key/value pairs.

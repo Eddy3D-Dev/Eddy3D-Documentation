@@ -1,21 +1,21 @@
-## ![](../../images/icons/Get_Probes.png) Get Probes
+## ![](../images/icons/Get_Probes.png) Get Probes
 
-![](../../images/components/Get_Probes.png)
+![](../images/components/Get_Probes-crop.png)
 
-Get probe values from a field  OutdoorPlus 0.0.20.0
+Read probe results from a case and field. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### C 
-Case
-* ##### R 
-Region to probe
-* ##### P 
-Name of the probing to get information from
-* ##### F 
-Field to retrieve from probes
+* ##### Case 
+Case containing probe results.
+* ##### Region 
+Region name to probe (default: air).
+* ##### Probe 
+Probe set name to read.
+* ##### Field 
+Field to retrieve from probes.
 
 #### Output
-* ##### T
-Simulation time steps
-* ##### P
-Probe values
+* ##### Times
+Simulation time steps.
+* ##### Values
+Probe values organized per probe point.

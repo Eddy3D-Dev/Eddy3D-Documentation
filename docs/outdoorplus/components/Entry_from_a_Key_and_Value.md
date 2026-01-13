@@ -1,17 +1,17 @@
-## ![](../../images/icons/Entry_from_a_Key_and_Value.png) Entry from a Key and Value
+## ![](../images/icons/Entry_from_a_Key_and_Value.png) Entry from a Key and Value
 
-![](../../images/components/Entry_from_a_Key_and_Value.png)
+![](../images/components/Entry_from_a_Key_and_Value-crop.png)
 
-Description
+Create an Entry from address, key, and value (not yet implemented).
 
 #### Input
-* ##### A 
+* ##### Address 
 Address where the entry will modify or add content.
-* ##### K 
-Entry keys.
-* ##### V 
-Entry values keys.
+* ##### Key 
+Entry key.
+* ##### Value 
+Entry value.
 
 #### Output
-* ##### E
-The created entry.
+* ##### Entry
+Created entry (placeholder).

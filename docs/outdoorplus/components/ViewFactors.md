@@ -1,21 +1,21 @@
-## ![](../../images/icons/ViewFactors.png) ViewFactors
+## ![](../images/icons/ViewFactors.png) ViewFactors
 
-![](../../images/components/ViewFactors.png)
+![](../images/components/ViewFactors-crop.png)
 
-Parameters that control the view factors approach  OutdoorPlus 0.0.20.0
+Configure the view-factor discretization for radiation modeling. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### nS 
-nFacesInCoarsestLevel
-* ##### nT 
-nFacesInCoarsestLevel
-* ##### nT 
-nFacesInCoarsestLevel
-* ##### nB 
-nFacesInCoarsestLevel
-* ##### nV 
-nFacesInCoarsestLevel
+* ##### SideFaces 
+Number of faces in the coarsest level for domain side walls.
+* ##### TopFaces 
+Number of faces in the coarsest level for the domain top.
+* ##### TerrainFaces 
+Number of faces in the coarsest level for terrain.
+* ##### BuildingFaces 
+Number of faces in the coarsest level for buildings.
+* ##### VegFaces 
+Number of faces in the coarsest level for vegetation.
 
 #### Output
-* ##### S
-View factor settings
+* ##### ViewFactors
+View-factor settings.

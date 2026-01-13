@@ -1,41 +1,41 @@
-## ![](../../images/icons/Vegetation_Properties.png) Vegetation Properties
+## ![](../images/icons/Vegetation_Properties.png) Vegetation Properties
 
-![](../../images/components/Vegetation_Properties.png)
+![](../images/components/Vegetation_Properties-crop.png)
 
-Properties of vegetation  OutdoorPlus 0.0.20.0
+Define vegetation property coefficients for canopy modeling. OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### a1 
-stomatal resistance parameters
+Stomatal resistance coefficient a1. Optional; default is 169.
 * ##### a2 
-stomatal resistance parameters
+Stomatal resistance coefficient a2. Optional; default is 18.
 * ##### a3 
-stomatal resistance parameters
+Stomatal resistance coefficient a3. Optional; default is 0.005.
 * ##### D0 
-stomatal resistance parameters
+Stomatal resistance coefficient D0. Optional; default is 1.2.
 * ##### C 
-proportionality factor
-* ##### b 
-turbulent production coeff
-* ##### b 
-turbulent destruction coeff
+Proportionality factor. Optional; default is 131.035.
+* ##### bP 
+Turbulent production coefficient. Optional; default is 1.0.
+* ##### bD 
+Turbulent destruction coefficient. Optional; default is 5.1.
 * ##### H 
-location of canopy height
+Canopy height (H). Optional; default is 1.5.
 * ##### kc 
-extinction coefficient of radiation
+Radiation extinction coefficient (kc). Optional; default is 0.5.
 * ##### l 
-characteristic length of leaf
-* ##### rs 
-stomatal resistance
+Characteristic leaf length (l). Optional; default is 0.1.
+* ##### rsMin 
+Minimum stomatal resistance (rsMin). Optional; default is 150.
 * ##### Rg0 
-global radiation at top of canopy
+Global radiation at canopy top (Rg0). Optional; default is 800.
 * ##### Rl0 
-long-wave radiation at top of canopy
-* ##### n 
-nEvapSides
-* ##### m 
-minCellSizeFactor
+Long-wave radiation at canopy top (Rl0). Optional; default is 350.
+* ##### EvapSides 
+Number of evaporation sides. Optional; default is 1.
+* ##### MinCell 
+Minimum cell size factor. Optional; default is 10.
 
 #### Output
-* ##### S
+* ##### Props
 Vegetation properties as a Setting instance.

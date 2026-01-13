@@ -1,23 +1,23 @@
-## ![](../../images/icons/Vegetation_Mesh_Settings.png) Vegetation Mesh Settings
+## ![](../images/icons/Vegetation_Mesh_Settings.png) Vegetation Mesh Settings
 
-![](../../images/components/Vegetation_Mesh_Settings.png)
+![](../images/components/Vegetation_Mesh_Settings-crop.png)
 
-Vegetation mesh settings  OutdoorPlus 0.0.20.0
+Configure mesh refinement for vegetation regions. OutdoorPlus 0.0.20.0
 
 #### Input
-* ##### MnSR 
-Minimum refinement on surfaces. Default value is '3'
-* ##### MxSR 
-Maximum refinement on surfaces. Default value is '5'
-* ##### DRMnRF 
-Lower distance to which apply region refinement level. Default value is '1.0'
-* ##### MnRF 
-Lower value of region refinement level. Default value is '5'
-* ##### DRMxRF 
-Upper distance to which apply region refinement level. Default value is '2.0'
-* ##### MxRF 
-Upper value of region refinement level. Default value is '4'
+* ##### SurfMin 
+Minimum surface refinement level. Optional; default is 3.
+* ##### SurfMax 
+Maximum surface refinement level. Optional; default is 5.
+* ##### RegDistMin 
+Outer distance for the lower region refinement level. Optional; default is 2.0.
+* ##### RegMin 
+Lower region refinement level. Optional; default is 4.
+* ##### RegDistMax 
+Inner distance for the higher region refinement level. Optional; default is 1.0.
+* ##### RegMax 
+Upper region refinement level. Optional; default is 5.
 
 #### Output
-* ##### M
-Vegetation mesh settings
+* ##### Mesh
+Mesh refinement settings for vegetation regions.
