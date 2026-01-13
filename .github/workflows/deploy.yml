@@ -39,6 +39,6 @@ jobs:
       - run: pip install markdown-include
       - run: pip install mkdocs-video
       - run: pip install mkdocs-awesome-pages-plugin \
-      - run: mkdocs-section-index \
-      - run: tzdata\
+      - run: pip install mkdocs-section-index \
+      - run: pip install tzdata\
       - run: echo 'docs.eddy3d.com' > ./CNAME && mkdocs gh-deploy --force
