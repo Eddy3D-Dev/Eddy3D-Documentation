@@ -54,9 +54,22 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 ## Requirements
 
-| Module   | Overview                                                     | Core engine          | Rhino (ver) | OS support | OpenFOAM (ver) | Radiance (ver) | Other dependencies                                    | Docs                                               |
-|----------|--------------------------------------------------------------|----------------------|-------------|------------|----------------|----------------|-------------------------------------------------------|----------------------------------------------------|
-| Outdoor  | Decoupled microclimate (wind + mean radiant temp)            | OpenFOAM; Radiance   | 8.15        | Win 10/11  | 8              |  Radiance 5.3  | —                                                     | [Learn more](https://docs.eddy3d.com/outdoor/)     |
-| Outdoor+ | Fully coupled microclimate (wind, radiation, heat, moisture) | OpenFOAM             | 8.15        | Win 10/11  | 8              | —              | `urbanMicroclimateFoam`           | [Learn more](https://docs.eddy3d.com/outdoorplus/) |
-| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM             | 8.15        | Win 10/11  | 8              | -              | —                                                     | [Learn more](https://docs.eddy3d.com/indoor/)      |
+| Module   | Overview                                                     | Core engine          | Package | Rhino (ver) | OS support | OpenFOAM (ver) | Radiance (ver) |
+|----------|--------------------------------------------------------------|----------------------|----------------------|-------------|------------|----------------|----------------|
+| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance   | **Eddy3D**           | 8.21        | Windows (Mac via manual install)     | 8              |  Radiance 5.3  |
+| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM             | **Eddy3D-OutdoorPlus** | 8.21      | Windows/Mac | 8              | —              |
+| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM             | **Eddy3D**           | 8.21        | Windows (Mac via manual install)     | 8              | -              |
+
+## Downloads
+
+| Plugin | Platform | Link |
+|----------|----------|----------------|
+| **Eddy3D** (Outdoor / Indoor) | Windows | [Download Installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest) |
+| **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://docs.mcneel.com/rhino/8/help/en-us/command/packagemanager.htm) |
+
+!!! tip "Previous Versions"
+    Official previous Rhino versions can be found at [**rhinoversions.github.io**](https://rhinoversions.github.io/).
+
+!!! note "Plugin Naming"
+    The **Outdoor+** module is currently distributed under the package name **`UMCF`** via the Rhino Package Manager (`yak`). Ensure you enable **"Include pre-releases"** in the Package Manager.
 

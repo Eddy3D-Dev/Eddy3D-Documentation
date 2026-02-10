@@ -8,7 +8,8 @@ copyright: >-
   Copyright &copy; 2018-2025 Eddy3D
 extra_css:
   - stylesheets/extra.css
-#extra: 
+extra:
+  latest_eddy_version: "v0.6.1.821" # Manual fallback
 
 nav:
   - Documentation:
@@ -166,4 +167,5 @@ plugins:
       strict: true
   - search
   - title-casing
+  - macros
 

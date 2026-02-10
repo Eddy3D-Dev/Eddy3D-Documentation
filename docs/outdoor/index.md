@@ -2,14 +2,17 @@
 
 ## Installation
 
-- Install [Eddy3D](https://www.eddy3d.com/download/)
-- Install BlueCFD in the default folder:
-  - For versions <= 0.3.8.0, please install [BlueCFD 2017](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2017-2/blueCFD-Core-2017-2-win64-setup.exe) in the default folder:
-    - `C:\Program Files\blueCFD-Core-2017`
-  - For versions >= 0.4.0.10, please install [BlueCFD 2020](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe) in the default folder:
-    - `C:\Program Files\blueCFD-Core-2020`
-- If you would like to use the *experimental* MRT component, please install [Radiance](https://github.com/LBNL-ETA/Radiance/releases?q=5.3&expanded=true) in the default  
-  folder: `C:\Program Files\Radiance`
+### Plugin
+- **Windows:** Install [Eddy3D for Windows](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest)
+- **Mac:** Install **`Eddy3D-OutdoorPlus`** via Rhino Package Manager (`yak`)
+
+### Simulation Engines (Windows / Mac)
+Choose a simulation engine (one of the following):
+- **Docker:** [Download](https://www.docker.com/products/docker-desktop/) (**Recommended cross-platform**, includes pre-configured `umcf` image)
+- **BlueCFD 2020 (Windows Only):** [Download](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe) (Requires `urbanMicroclimateFoam` to be installed manually)
+- **WSL (Windows Only):** [Installation guide](https://learn.microsoft.com/en-us/windows/wsl/install) (Requires `urbanMicroclimateFoam` to be installed manually)
+
+If you would like to use the *experimental* MRT component, please install [Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/5.3) in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
 
 ### Templates
 
