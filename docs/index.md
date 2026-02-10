@@ -65,7 +65,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 | Plugin | Platform | Link |
 |----------|----------|----------------|
 | **Eddy3D** (Outdoor / Indoor) | Windows | [Download Installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest) |
-| **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://docs.mcneel.com/rhino/8/help/en-us/command/packagemanager.htm) |
+| **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://www.rhinopackages.com/?search=umcf) |
 
 !!! tip "Previous Versions"
     Official previous Rhino versions can be found at [**rhinoversions.github.io**](https://rhinoversions.github.io/).

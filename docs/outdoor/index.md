@@ -12,7 +12,7 @@ Choose a simulation engine (one of the following):
 - **BlueCFD 2020 (Windows Only):** [Download](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe) (Requires `urbanMicroclimateFoam` to be installed manually)
 - **WSL (Windows Only):** [Installation guide](https://learn.microsoft.com/en-us/windows/wsl/install) (Requires `urbanMicroclimateFoam` to be installed manually)
 
-If you would like to use the *experimental* MRT component, please install [Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/5.3) in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
+If you would like to use the *experimental* MRT component, please install [Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/012cb178) in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
 
 ### Templates
 
