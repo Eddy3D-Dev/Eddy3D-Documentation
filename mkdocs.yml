@@ -167,5 +167,4 @@ plugins:
       strict: true
   - search
   - title-casing
-  - macros
 
