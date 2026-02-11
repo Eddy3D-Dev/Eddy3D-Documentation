@@ -9,7 +9,7 @@ copyright: >-
 extra_css:
   - stylesheets/extra.css
 extra:
-  latest_eddy_version: "v0.6.1.821" # Manual fallback
+  latest_eddy_version: "v0.6.2.821" # Manual fallback
 
 nav:
   - Documentation:
