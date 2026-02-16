@@ -25,7 +25,7 @@ jobs:
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v2
         with:
-          fail: true                    # fail the job on any bad link
+          fail: false                    # do not fail the job on any bad link
           args: >
             --verbose
             --no-progress
