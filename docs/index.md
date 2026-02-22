@@ -56,20 +56,19 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 | Module   | Overview                                                     | Core engine          | Package | Rhino (ver) | OS support | OpenFOAM (ver) | Radiance (ver) |
 |----------|--------------------------------------------------------------|----------------------|----------------------|-------------|------------|----------------|----------------|
-| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance   | **Eddy3D**           | 8.21        | Windows (Mac via manual install)     | 8              |  Radiance 5.3  |
+| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance   | **Eddy3D**           | 8.27        | Windows (Mac via manual install)     | 8              |  Radiance 5.3  |
 | Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM             | **Eddy3D-OutdoorPlus** | 8.21      | Windows/Mac | 8              | —              |
-| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM             | **Eddy3D**           | 8.21        | Windows (Mac via manual install)     | 8              | -              |
+| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM             | **Eddy3D**           | 8.27        | Windows (Mac via manual install)     | 8              | -              |
 
 ## Downloads
 
 | Plugin | Platform | Link |
 |----------|----------|----------------|
 | **Eddy3D** (Outdoor / Indoor) | Windows | [Download Installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest) |
-| **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://www.rhinopackages.com/?search=umcf) |
+| **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://rhinopackages.github.io/?search=Umcf&sort=2 ) |
 
 !!! tip "Previous Versions"
-    Official previous Rhino versions can be found at [**rhinoversions.github.io**](https://rhinoversions.github.io/).
+    Required Rhino 8.27 build details are listed at [**rhinoversions.github.io (8.27.26019.16022, en-us)**](https://rhinoversions.github.io/?version=8.27.26019.16022&locale=en-us).
 
 !!! note "Plugin Naming"
     The **Outdoor+** module is currently distributed under the package name **`UMCF`** via the Rhino Package Manager (`yak`). Ensure you enable **"Include pre-releases"** in the Package Manager.
-
