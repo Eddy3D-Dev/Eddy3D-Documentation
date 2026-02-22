@@ -68,7 +68,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 | **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://rhinopackages.github.io/?search=Umcf&sort=2 ) |
 
 !!! tip "Previous Versions"
-    Required Rhino 8.27 build details are listed at [**rhinoversions.github.io (8.27.26019.16022, en-us)**](https://rhinoversions.github.io/?version=8.27.26019.16022&locale=en-us).
+    Use the Rhino version selection page at [**rhinoversions.github.io**](https://rhinoversions.github.io/).
 
 !!! note "Plugin Naming"
     The **Outdoor+** module is currently distributed under the package name **`UMCF`** via the Rhino Package Manager (`yak`). Ensure you enable **"Include pre-releases"** in the Package Manager.
