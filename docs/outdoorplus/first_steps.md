@@ -1,5 +1,8 @@
 # Eddy3D - Outdoor+
 
+!!! warning "Alpha Version"
+    This module is currently in alpha testing. Features, inputs, and outputs are subject to change without notice.
+
 *A Grasshopper plugin for urban microclimate simulation with `urbanMicroclimateFoam` (uMFoam)*
 
 ## Overview
