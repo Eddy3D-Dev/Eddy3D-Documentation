@@ -1,8 +1,13 @@
-## ![](../images/icons/Indoor_Inlet.png) Indoor Inlet
+## ![Indoor Inlet Icon](../images/icons/Indoor_Inlet.png) Indoor Inlet
 
-![](../images/components/Indoor_Inlet-crop.png)
+![Indoor Inlet Component](../images/components/Indoor_Inlet-crop.png)
 
-Ventilation Inlet  Defines where air enters the room, such as diffusers, windows, or doors.   Eddy3D 0.5.0.815
+Ventilation Inlet
+
+ Defines where air enters the room, such as diffusers, windows, or doors.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Geo 

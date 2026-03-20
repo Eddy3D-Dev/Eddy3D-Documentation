@@ -1,8 +1,9 @@
-## ![](../images/icons/Vegetation_Settings.png) Vegetation Settings
+## ![Vegetation Settings Icon](../images/icons/Vegetation_Settings.png) Vegetation Settings
 
-![](../images/components/Vegetation_Settings-crop.png)
+![Vegetation Settings Component](../images/components/Vegetation_Settings-crop.png)
 
-Vegetation surface settings  Eddy3D 0.5.0.815
+Vegetation surface settings
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Name 

@@ -1,6 +1,6 @@
-## ![](../images/icons/Calculated_Vector_Value.png) Calculated Vector Value
+## ![Calculated Vector Value Icon](../images/icons/Calculated_Vector_Value.png) Calculated Vector Value
 
-![](../images/components/Calculated_Vector_Value-crop.png)
+![Calculated Vector Value Component](../images/components/Calculated_Vector_Value-crop.png)
 
 Create a calculated vector Value.
 

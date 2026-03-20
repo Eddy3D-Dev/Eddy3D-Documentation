@@ -1,8 +1,18 @@
-## ![](../images/icons/Wind_Simulation.png) Wind Simulation
+## ![Wind Simulation Icon](../images/icons/Wind_Simulation.png) Wind Simulation
 
-![](../images/components/Wind_Simulation-crop.png)
+![Wind Simulation Component](../images/components/Wind_Simulation-crop.png)
 
-Steady-State Wind Solver (SimpleFoam)  Executes the OpenFOAM 'simpleFoam' solver (Steady-state RANS) to calculate mean wind flow patterns.  Workflow: 1. Connect Domain and Settings 2. Run Meshing (snappyHexMesh) 3. Run Simulation (simpleFoam)   Eddy3D 0.5.0.815
+Steady-State Wind Solver (SimpleFoam)
+
+ Executes the OpenFOAM 'simpleFoam' solver (Steady-state RANS) to calculate mean wind flow patterns.
+
+ Workflow:
+ 1. Connect Domain and Settings
+ 2. Run Meshing (snappyHexMesh)
+ 3. Run Simulation (simpleFoam)
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Dom 

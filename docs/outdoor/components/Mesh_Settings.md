@@ -1,8 +1,13 @@
-## ![](../images/icons/Mesh_Settings.png) Mesh Settings
+## ![Mesh Settings Icon](../images/icons/Mesh_Settings.png) Mesh Settings
 
-![](../images/components/Mesh_Settings-crop.png)
+![Mesh Settings Component](../images/components/Mesh_Settings-crop.png)
 
-Meshing Parameters  Controls the resolution and quality of the simulation grid (mesh). Adjust cell sizes to balance between simulation accuracy and computation time.   Eddy3D 0.5.0.815
+Meshing Parameters
+
+ Controls the resolution and quality of the simulation grid (mesh). Adjust cell sizes to balance between simulation accuracy and computation time.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### BldMin 

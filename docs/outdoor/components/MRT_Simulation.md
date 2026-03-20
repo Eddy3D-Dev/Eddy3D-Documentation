@@ -1,8 +1,17 @@
-## ![](../images/icons/MRT_Simulation.png) MRT Simulation
+## ![MRT Simulation Icon](../images/icons/MRT_Simulation.png) MRT Simulation
 
-![](../images/components/MRT_Simulation-crop.png)
+![MRT Simulation Component](../images/components/MRT_Simulation-crop.png)
 
-Mean Radiant Temperature (MRT) Solver  Calculates MRT, a key metric for thermal comfort, using ray-tracing and view factors. Combines: - Direct Solar Radiation - Diffuse Sky Radiation - Longwave Surface Emissions   Eddy3D 0.5.0.815
+Mean Radiant Temperature (MRT) Solver
+
+ Calculates MRT, a key metric for thermal comfort, using ray-tracing and view factors.
+ Combines:
+ - Direct Solar Radiation
+ - Diffuse Sky Radiation
+ - Longwave Surface Emissions
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Dir 

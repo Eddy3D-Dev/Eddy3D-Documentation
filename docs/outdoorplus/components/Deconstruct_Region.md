@@ -1,6 +1,6 @@
-## ![](../images/icons/Deconstruct_Region.png) Deconstruct Region
+## ![Deconstruct Region Icon](../images/icons/Deconstruct_Region.png) Deconstruct Region
 
-![](../images/components/Deconstruct_Region-crop.png)
+![Deconstruct Region Component](../images/components/Deconstruct_Region-crop.png)
 
 Deconstruct a MetaFOAM Region instance.
 

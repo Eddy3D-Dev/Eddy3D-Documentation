@@ -1,8 +1,13 @@
-## ![](../images/icons/Building_Surface.png) Building Surface
+## ![Building Surface Icon](../images/icons/Building_Surface.png) Building Surface
 
-![](../images/components/Building_Surface-crop.png)
+![Building Surface Component](../images/components/Building_Surface-crop.png)
 
-Building Material  Assigns thermal and optical properties to building geometries. Affects how buildings reflect sunlight and emit heat.   Eddy3D 0.5.0.815
+Building Material
+
+ Assigns thermal and optical properties to building geometries. Affects how buildings reflect sunlight and emit heat.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Geo 

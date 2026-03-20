@@ -1,8 +1,9 @@
-## ![](../images/icons/ABL_Condition.png) ABL Condition
+## ![ABL Condition Icon](../images/icons/ABL_Condition.png) ABL Condition
 
-![](../images/components/ABL_Condition-crop.png)
+![ABL Condition Component](../images/components/ABL_Condition-crop.png)
 
-Define atmospheric boundary layer settings for the air region. OutdoorPlus 0.0.20.0
+Define atmospheric boundary layer settings for the air region.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### WS 

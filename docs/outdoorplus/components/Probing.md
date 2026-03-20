@@ -1,8 +1,9 @@
-## ![](../images/icons/Probing.png) Probing
+## ![Probing Icon](../images/icons/Probing.png) Probing
 
-![](../images/components/Probing-crop.png)
+![Probing Component](../images/components/Probing-crop.png)
 
-Define probe points and run probing for a UMCF case. OutdoorPlus 0.0.20.0
+Define probe points and run probing for a UMCF case.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Case 

@@ -1,8 +1,9 @@
-## ![](../images/icons/UMCF_Case.png) UMCF Case
+## ![UMCF Case Icon](../images/icons/UMCF_Case.png) UMCF Case
 
-![](../images/components/UMCF_Case-crop.png)
+![UMCF Case Component](../images/components/UMCF_Case-crop.png)
 
-Create, read, and manage an OutdoorPlus (UMCF) case. OutdoorPlus 0.0.20.0
+Create, read, and manage an OutdoorPlus (UMCF) case.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Read 

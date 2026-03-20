@@ -1,6 +1,6 @@
-## ![](../images/icons/Calculated_Value.png) Calculated Value
+## ![Calculated Value Icon](../images/icons/Calculated_Value.png) Calculated Value
 
-![](../images/components/Calculated_Value-crop.png)
+![Calculated Value Component](../images/components/Calculated_Value-crop.png)
 
 Create a calculated scalar Value.
 

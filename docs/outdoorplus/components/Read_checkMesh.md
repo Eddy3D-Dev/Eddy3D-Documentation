@@ -1,8 +1,9 @@
-## ![](../images/icons/Read_checkMesh.png) Read checkMesh
+## ![Read checkMesh Icon](../images/icons/Read_checkMesh.png) Read checkMesh
 
-![](../images/components/Read_checkMesh-crop.png)
+![Read checkMesh Component](../images/components/Read_checkMesh-crop.png)
 
-Read and visualize sets produced by checkMesh. OutdoorPlus 0.0.20.0
+Read and visualize sets produced by checkMesh.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Case 

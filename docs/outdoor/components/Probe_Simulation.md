@@ -1,8 +1,13 @@
-## ![](../images/icons/Probe_Simulation.png) Probe Simulation
+## ![Probe Simulation Icon](../images/icons/Probe_Simulation.png) Probe Simulation
 
-![](../images/components/Probe_Simulation-crop.png)
+![Probe Simulation Component](../images/components/Probe_Simulation-crop.png)
 
-Point Probe Inspector  Samples the wind field at specific locations. Use this to query wind speed and pressure at points of interest like building entrances or balconies.   Eddy3D 0.5.0.815
+Point Probe Inspector
+
+ Samples the wind field at specific locations. Use this to query wind speed and pressure at points of interest like building entrances or balconies.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Res 

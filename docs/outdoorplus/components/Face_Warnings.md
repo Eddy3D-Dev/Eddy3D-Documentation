@@ -1,8 +1,9 @@
-## ![](../images/icons/Face_Warnings.png) Face Warnings
+## ![Face Warnings Icon](../images/icons/Face_Warnings.png) Face Warnings
 
-![](../images/components/Face_Warnings-crop.png)
+![Face Warnings Component](../images/components/Face_Warnings-crop.png)
 
-Visualize faces that fail tet decomposition during topoSet. OutdoorPlus 0.0.20.0
+Visualize faces that fail tet decomposition during topoSet.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Case 

@@ -1,8 +1,9 @@
-## ![](../images/icons/Terrain_Mesh_Settings.png) Terrain Mesh Settings
+## ![Terrain Mesh Settings Icon](../images/icons/Terrain_Mesh_Settings.png) Terrain Mesh Settings
 
-![](../images/components/Terrain_Mesh_Settings-crop.png)
+![Terrain Mesh Settings Component](../images/components/Terrain_Mesh_Settings-crop.png)
 
-Configure mesh settings for terrain and underground regions. OutdoorPlus 0.0.20.0
+Configure mesh settings for terrain and underground regions.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Layers 

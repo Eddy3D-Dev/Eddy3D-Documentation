@@ -1,8 +1,9 @@
-## ![](../images/icons/Parse_Case_Logs.png) Parse Case Logs
+## ![Parse Case Logs Icon](../images/icons/Parse_Case_Logs.png) Parse Case Logs
 
-![](../images/components/Parse_Case_Logs-crop.png)
+![Parse Case Logs Component](../images/components/Parse_Case_Logs-crop.png)
 
-Parses log files in a case folder and reports any FOAM errors. OutdoorPlus 0.0.20.0
+Parses log files in a case folder and reports any FOAM errors.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Case 

@@ -1,8 +1,9 @@
-## ![](../images/icons/Box_Domain.png) Box Domain
+## ![Box Domain Icon](../images/icons/Box_Domain.png) Box Domain
 
-![](../images/components/Box_Domain-crop.png)
+![Box Domain Component](../images/components/Box_Domain-crop.png)
 
-Define simulation domain extents and refinement padding. OutdoorPlus 0.0.20.0
+Define simulation domain extents and refinement padding.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### CS 

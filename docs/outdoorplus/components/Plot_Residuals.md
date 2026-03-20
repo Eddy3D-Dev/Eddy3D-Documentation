@@ -1,6 +1,6 @@
-## ![](../images/icons/Plot_Residuals.png) Plot Residuals
+## ![Plot Residuals Icon](../images/icons/Plot_Residuals.png) Plot Residuals
 
-![](../images/components/Plot_Residuals-crop.png)
+![Plot Residuals Component](../images/components/Plot_Residuals-crop.png)
 
 Open the Streamlit residual viewer and the residuals folder.
 

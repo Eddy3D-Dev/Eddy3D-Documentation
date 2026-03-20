@@ -1,8 +1,9 @@
-## ![](../images/icons/Case_Run.png) Case Run
+## ![Case Run Icon](../images/icons/Case_Run.png) Case Run
 
-![](../images/components/Case_Run-crop.png)
+![Case Run Component](../images/components/Case_Run-crop.png)
 
-Prepare and run a UMCF case. OutdoorPlus 0.0.20.0
+Prepare and run a UMCF case.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Case 

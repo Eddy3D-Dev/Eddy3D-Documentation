@@ -1,8 +1,9 @@
-## ![](../images/icons/Deconstruct_Weather.png) Deconstruct Weather
+## ![Deconstruct Weather Icon](../images/icons/Deconstruct_Weather.png) Deconstruct Weather
 
-![](../images/components/Deconstruct_Weather-crop.png)
+![Deconstruct Weather Component](../images/components/Deconstruct_Weather-crop.png)
 
-Deconstruct a Weather object into hourly time series values. OutdoorPlus 0.0.20.0
+Deconstruct a Weather object into hourly time series values.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Weather 

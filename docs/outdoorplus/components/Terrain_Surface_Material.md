@@ -1,6 +1,6 @@
-## ![](../images/icons/Terrain_Surface_Material.png) Terrain Surface Material
+## ![Terrain Surface Material Icon](../images/icons/Terrain_Surface_Material.png) Terrain Surface Material
 
-![](../images/components/Terrain_Surface_Material-crop.png)
+![Terrain Surface Material Component](../images/components/Terrain_Surface_Material-crop.png)
 
 Select a terrain surface material by index and override its properties.
 

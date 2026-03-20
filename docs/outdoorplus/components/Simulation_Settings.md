@@ -1,8 +1,9 @@
-## ![](../images/icons/Simulation_Settings.png) Simulation Settings
+## ![Simulation Settings Icon](../images/icons/Simulation_Settings.png) Simulation Settings
 
-![](../images/components/Simulation_Settings-crop.png)
+![Simulation Settings Component](../images/components/Simulation_Settings-crop.png)
 
-Configure simulation control settings for UMCF. OutdoorPlus 0.0.20.0
+Configure simulation control settings for UMCF.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### WriteInt 

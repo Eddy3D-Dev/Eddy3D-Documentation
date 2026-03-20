@@ -1,8 +1,9 @@
-## ![](../images/icons/CheckMesh.png) CheckMesh
+## ![CheckMesh Icon](../images/icons/CheckMesh.png) CheckMesh
 
-![](../images/components/CheckMesh-crop.png)
+![CheckMesh Component](../images/components/CheckMesh-crop.png)
 
-Run the OpenFOAM checkMesh command for a case region. OutdoorPlus 0.0.20.0
+Run the OpenFOAM checkMesh command for a case region.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Run 

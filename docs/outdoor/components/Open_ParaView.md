@@ -1,8 +1,14 @@
-## ![](../images/icons/Open_ParaView.png) Open ParaView
+## ![Open ParaView Icon](../images/icons/Open_ParaView.png) Open ParaView
 
-![](../images/components/Open_ParaView-crop.png)
+![Open ParaView Component](../images/components/Open_ParaView-crop.png)
 
-Launch ParaView for 3D CFD result visualization.  Opens simulation results in ParaView for visualizing velocity fields,  pressure distributions, and streamlines. ParaView must be installed.   Eddy3D 0.5.0.815
+Launch ParaView for 3D CFD result visualization.
+
+ Opens simulation results in ParaView for visualizing velocity fields,
+ pressure distributions, and streamlines. ParaView must be installed.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Res 

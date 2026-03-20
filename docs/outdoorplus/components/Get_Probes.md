@@ -1,8 +1,9 @@
-## ![](../images/icons/Get_Probes.png) Get Probes
+## ![Get Probes Icon](../images/icons/Get_Probes.png) Get Probes
 
-![](../images/components/Get_Probes-crop.png)
+![Get Probes Component](../images/components/Get_Probes-crop.png)
 
-Read probe results from a case and field. OutdoorPlus 0.0.20.0
+Read probe results from a case and field.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Case 

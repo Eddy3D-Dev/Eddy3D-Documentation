@@ -1,8 +1,13 @@
-## ![](../images/icons/Clean_Directories.png) Clean Directories
+## ![Clean Directories Icon](../images/icons/Clean_Directories.png) Clean Directories
 
-![](../images/components/Clean_Directories-crop.png)
+![Clean Directories Component](../images/components/Clean_Directories-crop.png)
 
-Project Cleaner  Utility to remove generated simulation files and free up disk space. Use with caution as it deletes results.   Eddy3D 0.5.0.815
+Project Cleaner
+
+ Utility to remove generated simulation files and free up disk space. Use with caution as it deletes results.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Res 

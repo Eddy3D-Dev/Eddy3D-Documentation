@@ -1,8 +1,13 @@
-## ![](../images/icons/Box_Domain.png) Box Domain
+## ![Box Domain Icon](../images/icons/Box_Domain.png) Box Domain
 
-![](../images/components/Box_Domain-crop.png)
+![Box Domain Component](../images/components/Box_Domain-crop.png)
 
-Rectangular Simulation Domain  Defines a box-shaped computational domain for the wind simulation. Best suited for single-direction wind analysis or wind tunnel comparisons.   Eddy3D 0.5.0.815
+Rectangular Simulation Domain
+
+ Defines a box-shaped computational domain for the wind simulation. Best suited for single-direction wind analysis or wind tunnel comparisons.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Bldg 

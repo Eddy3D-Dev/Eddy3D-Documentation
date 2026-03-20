@@ -1,6 +1,6 @@
-## ![](../images/icons/Deconstruct_Entry.png) Deconstruct Entry
+## ![Deconstruct Entry Icon](../images/icons/Deconstruct_Entry.png) Deconstruct Entry
 
-![](../images/components/Deconstruct_Entry-crop.png)
+![Deconstruct Entry Component](../images/components/Deconstruct_Entry-crop.png)
 
 Deconstructs an Entry instance.
 

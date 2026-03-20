@@ -1,8 +1,13 @@
-## ![](../images/icons/ABL_Flow.png) ABL Flow
+## ![ABL Flow Icon](../images/icons/ABL_Flow.png) ABL Flow
 
-![](../images/components/ABL_Flow-crop.png)
+![ABL Flow Component](../images/components/ABL_Flow-crop.png)
 
-Atmospheric Boundary Layer (ABL) Inlet  Sets up a logarithmic wind profile based on aerodynamic roughness length (z0). Essential for accurate urban wind flow simulation, representing the friction of the upwind terrain.   Eddy3D 0.5.0.815
+Atmospheric Boundary Layer (ABL) Inlet
+
+ Sets up a logarithmic wind profile based on aerodynamic roughness length (z0). Essential for accurate urban wind flow simulation, representing the friction of the upwind terrain.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Dir 

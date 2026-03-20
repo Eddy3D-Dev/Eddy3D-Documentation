@@ -1,6 +1,6 @@
-## ![](../images/icons/ZeroGradient.png) ZeroGradient
+## ![ZeroGradient Icon](../images/icons/ZeroGradient.png) ZeroGradient
 
-![](../images/components/ZeroGradient-crop.png)
+![ZeroGradient Component](../images/components/ZeroGradient-crop.png)
 
 ZeroGradient boundary condition placeholder.
 
