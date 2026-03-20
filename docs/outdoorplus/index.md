@@ -1,5 +1,8 @@
 # Eddy3D &mdash; Outdoor+
 
+!!! warning "Alpha Version"
+    This module is currently in alpha testing. Features, inputs, and outputs are subject to change without notice.
+
 ![UMCF](./images/outdoorplus/umcf.gif)
 ### A Grasshopper plugin for microclimate simulations
 
