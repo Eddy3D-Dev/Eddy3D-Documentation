@@ -1,8 +1,9 @@
-## ![](../images/icons/Building_Mesh_Settings.png) Building Mesh Settings
+## ![Building Mesh Settings Icon](../images/icons/Building_Mesh_Settings.png) Building Mesh Settings
 
-![](../images/components/Building_Mesh_Settings-crop.png)
+![Building Mesh Settings Component](../images/components/Building_Mesh_Settings-crop.png)
 
-Configure mesh refinement for building regions. OutdoorPlus 0.0.20.0
+Configure mesh refinement for building regions.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### FeatLvl 

@@ -1,8 +1,9 @@
-## ![](../images/icons/Create_Mesh.png) Create Mesh
+## ![Create Mesh Icon](../images/icons/Create_Mesh.png) Create Mesh
 
-![](../images/components/Create_Mesh-crop.png)
+![Create Mesh Component](../images/components/Create_Mesh-crop.png)
 
-Create a visualization mesh from polyMesh point/face data. OutdoorPlus 0.0.20.0
+Create a visualization mesh from polyMesh point/face data.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Case 

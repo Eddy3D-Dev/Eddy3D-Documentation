@@ -1,8 +1,13 @@
-## ![](../images/icons/Wind_Rose_Cluster.png) Wind Rose Cluster
+## ![Wind Rose Cluster Icon](../images/icons/Wind_Rose_Cluster.png) Wind Rose Cluster
 
-![](../images/components/Wind_Rose_Cluster-crop.png)
+![Wind Rose Cluster Component](../images/components/Wind_Rose_Cluster-crop.png)
 
-Wind Rose Clustering  Groups wind directions into representative clusters to reduce simulation time. Essential for performing annual wind comfort analysis efficiently without simulating every single direction.   Eddy3D 0.5.0.815
+Wind Rose Clustering
+
+ Groups wind directions into representative clusters to reduce simulation time. Essential for performing annual wind comfort analysis efficiently without simulating every single direction.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Dir 

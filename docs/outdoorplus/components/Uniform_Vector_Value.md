@@ -1,6 +1,6 @@
-## ![](../images/icons/Uniform_Vector_Value.png) Uniform Vector Value
+## ![Uniform Vector Value Icon](../images/icons/Uniform_Vector_Value.png) Uniform Vector Value
 
-![](../images/components/Uniform_Vector_Value-crop.png)
+![Uniform Vector Value Component](../images/components/Uniform_Vector_Value-crop.png)
 
 Create a uniform vector Value.
 

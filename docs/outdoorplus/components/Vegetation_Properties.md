@@ -1,8 +1,9 @@
-## ![](../images/icons/Vegetation_Properties.png) Vegetation Properties
+## ![Vegetation Properties Icon](../images/icons/Vegetation_Properties.png) Vegetation Properties
 
-![](../images/components/Vegetation_Properties-crop.png)
+![Vegetation Properties Component](../images/components/Vegetation_Properties-crop.png)
 
-Define vegetation property coefficients for canopy modeling. OutdoorPlus 0.0.20.0
+Define vegetation property coefficients for canopy modeling.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### a1 

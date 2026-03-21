@@ -1,8 +1,9 @@
-## ![](../images/icons/Read_Cells.png) Read Cells
+## ![Read Cells Icon](../images/icons/Read_Cells.png) Read Cells
 
-![](../images/components/Read_Cells-crop.png)
+![Read Cells Component](../images/components/Read_Cells-crop.png)
 
-Read cell connectivity and cell zones for a region. OutdoorPlus 0.0.20.0
+Read cell connectivity and cell zones for a region.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Case 

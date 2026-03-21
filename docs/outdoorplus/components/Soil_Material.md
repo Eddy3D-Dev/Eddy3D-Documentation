@@ -1,8 +1,9 @@
-## ![](../images/icons/Soil_Material.png) Soil Material
+## ![Soil Material Icon](../images/icons/Soil_Material.png) Soil Material
 
-![](../images/components/Soil_Material-crop.png)
+![Soil Material Component](../images/components/Soil_Material-crop.png)
 
-Define soil material properties for terrain layers. OutdoorPlus 0.0.20.0
+Define soil material properties for terrain layers.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Rho 

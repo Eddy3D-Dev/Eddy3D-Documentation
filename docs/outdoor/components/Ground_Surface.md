@@ -1,8 +1,13 @@
-## ![](../images/icons/Ground_Surface.png) Ground Surface
+## ![Ground Surface Icon](../images/icons/Ground_Surface.png) Ground Surface
 
-![](../images/components/Ground_Surface-crop.png)
+![Ground Surface Component](../images/components/Ground_Surface-crop.png)
 
-Ground Material  Defines properties for ground surfaces like asphalt, concrete, or soil. Critical for analyzing the Urban Heat Island effect.   Eddy3D 0.5.0.815
+Ground Material
+
+ Defines properties for ground surfaces like asphalt, concrete, or soil. Critical for analyzing the Urban Heat Island effect.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Geo 

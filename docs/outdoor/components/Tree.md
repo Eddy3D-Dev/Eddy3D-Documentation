@@ -1,8 +1,13 @@
-## ![](../images/icons/Tree.png) Tree
+## ![Tree Icon](../images/icons/Tree.png) Tree
 
-![](../images/components/Tree-crop.png)
+![Tree Component](../images/components/Tree-crop.png)
 
-Tree Modeler  Represents trees as porous media for wind blocking. Essential for simulating the wind-sheltering effects of vegetation.   Eddy3D 0.5.0.815
+Tree Modeler
+
+ Represents trees as porous media for wind blocking. Essential for simulating the wind-sheltering effects of vegetation.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Geo 

@@ -1,8 +1,9 @@
-## ![](../images/icons/SLURM_Runner.png) SLURM Runner
+## ![SLURM Runner Icon](../images/icons/SLURM_Runner.png) SLURM Runner
 
-![](../images/components/SLURM_Runner-crop.png)
+![SLURM Runner Component](../images/components/SLURM_Runner-crop.png)
 
-Add batch running files for SLURM  Eddy3D 0.5.0.815
+Add batch running files for SLURM
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Res 

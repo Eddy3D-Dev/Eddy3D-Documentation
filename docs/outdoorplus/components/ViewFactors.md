@@ -1,8 +1,9 @@
-## ![](../images/icons/ViewFactors.png) ViewFactors
+## ![ViewFactors Icon](../images/icons/ViewFactors.png) ViewFactors
 
-![](../images/components/ViewFactors-crop.png)
+![ViewFactors Component](../images/components/ViewFactors-crop.png)
 
-Configure the view-factor discretization for radiation modeling. OutdoorPlus 0.0.20.0
+Configure the view-factor discretization for radiation modeling.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### SideFaces 

@@ -1,8 +1,9 @@
-## ![](../images/icons/Flow_Rates.png) Flow Rates
+## ![Flow Rates Icon](../images/icons/Flow_Rates.png) Flow Rates
 
-![](../images/components/Flow_Rates-crop.png)
+![Flow Rates Component](../images/components/Flow_Rates-crop.png)
 
-Compute flow rates across a mesh while treating its vertices as velocity probes. Eddy3D 0.5.0.815
+Compute flow rates across a mesh while treating its vertices as velocity probes.
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### U 

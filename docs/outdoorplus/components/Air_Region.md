@@ -1,8 +1,9 @@
-## ![](../images/icons/Air_Region.png) Air Region
+## ![Air Region Icon](../images/icons/Air_Region.png) Air Region
 
-![](../images/components/Air_Region-crop.png)
+![Air Region Component](../images/components/Air_Region-crop.png)
 
-Create an air region for the UMCF case. OutdoorPlus 0.0.20.0
+Create an air region for the UMCF case.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### ABL 

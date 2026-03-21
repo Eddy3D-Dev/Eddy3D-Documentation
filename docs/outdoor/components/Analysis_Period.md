@@ -1,8 +1,13 @@
-## ![](../images/icons/Analysis_Period.png) Analysis Period
+## ![Analysis Period Icon](../images/icons/Analysis_Period.png) Analysis Period
 
-![](../images/components/Analysis_Period-crop.png)
+![Analysis Period Component](../images/components/Analysis_Period-crop.png)
 
-Analysis Period  Defines a specific time period for analysis (e.g., Summer from 9am-5pm). Outputs a list of hours (HOY) to filter simulation results for seasonal or daily studies.   Eddy3D 0.5.0.815
+Analysis Period
+
+ Defines a specific time period for analysis (e.g., Summer from 9am-5pm). Outputs a list of hours (HOY) to filter simulation results for seasonal or daily studies.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### F 

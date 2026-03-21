@@ -1,6 +1,6 @@
-## ![](../images/icons/Deconstruct_Case.png) Deconstruct Case
+## ![Deconstruct Case Icon](../images/icons/Deconstruct_Case.png) Deconstruct Case
 
-![](../images/components/Deconstruct_Case-crop.png)
+![Deconstruct Case Component](../images/components/Deconstruct_Case-crop.png)
 
 Deconstruct a case instance and expose its regions and file containers.
 

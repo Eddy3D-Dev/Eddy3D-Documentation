@@ -1,8 +1,10 @@
-## ![](../images/icons/InterpolateUMag.png) InterpolateUMag
+## ![InterpolateUMag Icon](../images/icons/InterpolateUMag.png) InterpolateUMag
 
-![](../images/components/InterpolateUMag-crop.png)
+![InterpolateUMag Component](../images/components/InterpolateUMag-crop.png)
 
-Interpolate UMag for GAN applications.  Eddy3D 0.5.0.815
+Interpolate UMag for GAN applications.
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### CP 

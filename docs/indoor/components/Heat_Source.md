@@ -1,8 +1,13 @@
-## ![](../images/icons/Heat_Source.png) Heat Source
+## ![Heat Source Icon](../images/icons/Heat_Source.png) Heat Source
 
-![](../images/components/Heat_Source-crop.png)
+![Heat Source Component](../images/components/Heat_Source-crop.png)
 
-Heat Source  Models a heat-generating object within the indoor space, such as equipment, electronics, or a cluster of people. Can be defined by total power (W) or power density (W/m³).   Eddy3D 0.5.0.815
+Heat Source
+
+ Models a heat-generating object within the indoor space, such as equipment, electronics, or a cluster of people. Can be defined by total power (W) or power density (W/m³).
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Geo 

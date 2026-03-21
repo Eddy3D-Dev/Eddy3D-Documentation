@@ -1,8 +1,9 @@
-## ![](../images/icons/Building_Region.png) Building Region
+## ![Building Region Icon](../images/icons/Building_Region.png) Building Region
 
-![](../images/components/Building_Region-crop.png)
+![Building Region Component](../images/components/Building_Region-crop.png)
 
-Create a building (solid) region for the UMCF case. OutdoorPlus 0.0.20.0
+Create a building (solid) region for the UMCF case.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Mesh 
