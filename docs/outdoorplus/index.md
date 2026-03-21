@@ -34,14 +34,14 @@ The plugin is based on the `urbanMicroclimateFoam` (UMF) open-source solver base
 - Github repository: [https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam)
 - Gitlab repository: [https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)
 
-![ETH Zurich](./images/outdoorplus/eth.png)
+![ETH Zurich logo](./images/outdoorplus/eth.png)
 
 
 This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/). Their support has been instrumental in advancing this tool.
 
-![PW](./images/outdoorplus/PW-logo-black.png)
+![Perkins&Will logo](./images/outdoorplus/PW-logo-black.png)
 
 ___
 
 
-This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [documentation](https://vip-smur.github.io/24fa-microclimate-umcf/) for more details and view the final presentation.
+This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [documentation](https://vip-smur.github.io/24fa-microclimate-umcf/){ aria-label="Documentation for VIP - Surrogate Models for Urban Regeneration" } for more details and view the final presentation.

@@ -13,3 +13,8 @@
 
 **Learning:** Ambiguous link texts like 'Download', 'here', and 'Installation guide' lack context for screen reader users and those navigating out of context. The `attr_list` Markdown extension provides a clean way to add `aria-label` attributes to these links in MkDocs without rewriting the visible text, maintaining visual design while greatly improving accessibility.
 **Action:** Always scan documentation files for ambiguous links (e.g., 'click here', 'download') and append explicit `aria-label`s using the `{ aria-label="..." }` syntax.
+
+## 2024-05-15 - Context for acronyms in image alt text
+
+**Learning:** When images contain partner logos or acronyms (e.g., "PW" for Perkins&Will, "ETH"), using just the acronym in the alt text isn't sufficiently descriptive for screen readers. Expanding these to their full names (e.g., "Perkins&Will logo") provides better context.
+**Action:** Always verify that image alt texts clearly describe the image's contents or the organization it represents, avoiding unexpanded acronyms unless they are widely understood. Add ` logo` to the end of logo alt texts.
