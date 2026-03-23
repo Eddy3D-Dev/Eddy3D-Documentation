@@ -18,3 +18,6 @@
 
 **Learning:** When images contain partner logos or acronyms (e.g., "PW" for Perkins&Will, "ETH"), using just the acronym in the alt text isn't sufficiently descriptive for screen readers. Expanding these to their full names (e.g., "Perkins&Will logo") provides better context.
 **Action:** Always verify that image alt texts clearly describe the image's contents or the organization it represents, avoiding unexpanded acronyms unless they are widely understood. Add ` logo` to the end of logo alt texts.
+## 2025-02-18 - Avoid Anti-Patterns in ARIA Labels for Links
+**Learning:** Adding `aria-label` to links with poor visible text (like `[here]`) that doesn't contain the visible text is an anti-pattern and violates WCAG 2.5.3 (Label in Name). Screen readers might announce only the `aria-label` and the mismatch can confuse voice dictation users.
+**Action:** Always prefer updating the visible text of the link to be descriptive rather than keeping poor link text and attempting to "fix" it with an `aria-label`. If `aria-label` must be used, it must include the visible text.
