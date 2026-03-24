@@ -86,15 +86,13 @@ theme:
     - announce.dismiss
 
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: white
       accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: black
       accent: indigo
       toggle:
@@ -162,4 +160,3 @@ plugins:
       strict: true
   - search
   - title-casing
-
