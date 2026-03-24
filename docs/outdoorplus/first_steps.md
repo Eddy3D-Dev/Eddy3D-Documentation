@@ -22,7 +22,7 @@
 
 ### 1. Install OpenFOAM with blueCFD-Core 2020 (Windows)
 
-- Download: [`blueCFD-Core-2020-1-win64-setup.exe`](https://bluecfd.github.io/Core/Downloads/#bluecfd-core-2020-1)  
+- [Download `blueCFD-Core-2020` for Windows](https://bluecfd.github.io/Core/Downloads/#bluecfd-core-2020-1)
 - This version includes `OpenFOAM 8`.
 
 ### 2. Install UMCF Plugin for Grasshopper (Rhino)
