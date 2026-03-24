@@ -54,11 +54,11 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 ## Requirements
 
-| Module   | Overview                                                     | Core engine          | Package | Rhino (ver) | OS support | OpenFOAM (ver) | Radiance (ver) |
-|----------|--------------------------------------------------------------|----------------------|----------------------|-------------|------------|----------------|----------------|
-| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance   | **Eddy3D**           | 8.27        | Windows (Mac via manual install)     | 8              |  Radiance 5.3  |
-| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM             | **Eddy3D-OutdoorPlus** | 8.21      | Windows/Mac | 8              | —              |
-| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM             | **Eddy3D**           | 8.27        | Windows (Mac via manual install)     | 8              | -              |
+| Module   | Overview                                                     | Core engine            | Package | Rhino (ver) | OS support  | OpenFOAM (ver) | Radiance (ver) |
+|----------|--------------------------------------------------------------|------------------------|-----------------------|-------------|----------------|----------------|----------------|
+| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance     | **Eddy3D**            | 8.27        | Windows (Mac via manual install)     | 8              |  Radiance 5.3  |
+| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM   | **Eddy3D-OutdoorPlus** | 8.21                  | Windows/Mac | 8              | —              |
+| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM               | **Eddy3D**            | 8.27        | Windows (Mac via manual install)     | 8              | -              |
 
 ## Downloads
 
