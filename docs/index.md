@@ -12,7 +12,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoor/)
+    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoor/){ aria-label="Learn more about Eddy3D Outdoor module" }
 
 - __Eddy3D Outdoor+__
 
@@ -22,7 +22,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoorplus/)
+    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoorplus/){ aria-label="Learn more about Eddy3D Outdoor+ module" }
 
 - __Eddy3D Indoor__
 
@@ -32,7 +32,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/indoor/)
+    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/indoor/){ aria-label="Learn more about Eddy3D Indoor module" }
 
 </div>
 
@@ -54,21 +54,21 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 ## Requirements
 
-| Module   | Overview                                                     | Core engine          | Package | Rhino (ver) | OS support | OpenFOAM (ver) | Radiance (ver) |
-|----------|--------------------------------------------------------------|----------------------|----------------------|-------------|------------|----------------|----------------|
-| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance   | **Eddy3D**           | 8.27        | Windows (Mac via manual install)     | 8              |  Radiance 5.3  |
-| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM             | **Eddy3D-OutdoorPlus** | 8.21      | Windows/Mac | 8              | —              |
-| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM             | **Eddy3D**           | 8.27        | Windows (Mac via manual install)     | 8              | -              |
+| Module   | Overview                                                     | Core engine            | Package | Rhino (ver) | OS support  | OpenFOAM (ver) | Radiance (ver) |
+|----------|--------------------------------------------------------------|------------------------|-----------------------|-------------|----------------|----------------|----------------|
+| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance     | **Eddy3D**            | 8.27        | Windows (Mac via manual install)     | 8              |  Radiance 5.3  |
+| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM   | **Eddy3D-OutdoorPlus** | 8.21                  | Windows/Mac | 8              | —              |
+| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM               | **Eddy3D**            | 8.27        | Windows (Mac via manual install)     | 8              | -              |
 
 ## Downloads
 
 | Plugin | Platform | Link |
 |----------|----------|----------------|
-| **Eddy3D** (Outdoor / Indoor) | Windows | [Download Installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest) |
-| **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://rhinopackages.github.io/?search=Umcf&sort=2 ) |
+| **Eddy3D** (Outdoor / Indoor) | Windows | [Download Installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ aria-label="Download Eddy3D Installer for Windows" } |
+| **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://rhinopackages.github.io/?search=Umcf&sort=2 ){ aria-label="Install UMCF via Rhino Package Manager" } |
 
 !!! tip "Previous Versions"
-    Use the Rhino version selection page at [**Rhino**](https://rhinoversions.github.io/?version=8.27.26019.16022&locale=en-us).
+    Required Rhino 8.27 build details are listed at [**rhinoversions.github.io (8.27.26019.16022, en-us)**](https://rhinoversions.github.io/?version=8.27.26019.16022&locale=en-us){ aria-label="View required Rhino 8.27 build details" }.
 
 !!! note "Plugin Naming"
     The **Outdoor+** module is currently distributed under the package name **`UMCF`** via the Rhino Package Manager (`yak`). Ensure you enable **"Include pre-releases"** in the Package Manager.

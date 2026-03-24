@@ -1,8 +1,9 @@
-## ![](../images/icons/Comfort.png) Comfort
+## ![Comfort Icon](../images/icons/Comfort.png) Comfort
 
-![](../images/components/Comfort-crop.png)
+![Comfort Component](../images/components/Comfort-crop.png)
 
-Comfort System  Eddy3D 0.5.0.815
+Comfort System
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### MRT 

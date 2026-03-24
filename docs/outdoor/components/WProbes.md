@@ -1,8 +1,13 @@
-## ![](../images/icons/WProbes.png) WProbes
+## ![WProbes Icon](../images/icons/WProbes.png) WProbes
 
-![](../images/components/WProbes-crop.png)
+![WProbes Component](../images/components/WProbes-crop.png)
 
-Wind Field Visualizer  Generates visualizations of the wind field, including vector arrows and streamlines, to understand flow patterns and identify problematic high-wind or stagnant zones.   Eddy3D 0.5.0.815
+Wind Field Visualizer
+
+ Generates visualizations of the wind field, including vector arrows and streamlines, to understand flow patterns and identify problematic high-wind or stagnant zones.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Res 

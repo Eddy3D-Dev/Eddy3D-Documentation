@@ -1,8 +1,9 @@
-## ![](../images/icons/Grass.png) Grass
+## ![Grass Icon](../images/icons/Grass.png) Grass
 
-![](../images/components/Grass-crop.png)
+![Grass Component](../images/components/Grass-crop.png)
 
-Define grass patches and parameters for the terrain. OutdoorPlus 0.0.20.0
+Define grass patches and parameters for the terrain.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Boundary 

@@ -1,6 +1,6 @@
-## ![](../images/icons/Create_Address.png) Create Address
+## ![Create Address Icon](../images/icons/Create_Address.png) Create Address
 
-![](../images/components/Create_Address-crop.png)
+![Create Address Component](../images/components/Create_Address-crop.png)
 
 Create a MetaFOAM Address for entries and settings.
 

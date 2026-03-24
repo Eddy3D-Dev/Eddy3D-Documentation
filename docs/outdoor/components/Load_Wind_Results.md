@@ -1,8 +1,13 @@
-## ![](../images/icons/Load_Wind_Results.png) Load Wind Results
+## ![Load Wind Results Icon](../images/icons/Load_Wind_Results.png) Load Wind Results
 
-![](../images/components/Load_Wind_Results-crop.png)
+![Load Wind Results Component](../images/components/Load_Wind_Results-crop.png)
 
-Wind Results Loader  Import raw results from a completed wind simulation for further analysis and visualization.   Eddy3D 0.5.0.815
+Wind Results Loader
+
+ Import raw results from a completed wind simulation for further analysis and visualization.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Path 

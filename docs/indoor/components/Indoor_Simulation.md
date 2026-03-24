@@ -1,8 +1,16 @@
-## ![](../images/icons/Indoor_Simulation.png) Indoor Simulation
+## ![Indoor Simulation Icon](../images/icons/Indoor_Simulation.png) Indoor Simulation
 
-![](../images/components/Indoor_Simulation-crop.png)
+![Indoor Simulation Component](../images/components/Indoor_Simulation-crop.png)
 
-Indoor Airflow Solver  Simulates buoyancy-driven airflow, temperature distribution, and contaminant transport within an indoor space.  Uses OpenFOAM's 'buoyantSimpleFoam' solver. Requires connected walls, inlets, outlets, and optional heat sources.   Eddy3D 0.5.0.815
+Indoor Airflow Solver
+
+ Simulates buoyancy-driven airflow, temperature distribution, and contaminant transport within an indoor space.
+
+ Uses OpenFOAM's 'buoyantSimpleFoam' solver.
+ Requires connected walls, inlets, outlets, and optional heat sources.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Geo 

@@ -1,6 +1,6 @@
-## ![](../images/icons/OpenFOAM_Dictionary.png) OpenFOAM Dictionary
+## ![OpenFOAM Dictionary Icon](../images/icons/OpenFOAM_Dictionary.png) OpenFOAM Dictionary
 
-![](../images/components/OpenFOAM_Dictionary-crop.png)
+![OpenFOAM Dictionary Component](../images/components/OpenFOAM_Dictionary-crop.png)
 
 Create an OpenFOAM dictionary for file modification inputs.
 

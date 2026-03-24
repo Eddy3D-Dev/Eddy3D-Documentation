@@ -1,8 +1,9 @@
-## ![](../images/icons/Create_OBJ.png) Create OBJ
+## ![Create OBJ Icon](../images/icons/Create_OBJ.png) Create OBJ
 
-![](../images/components/Create_OBJ-crop.png)
+![Create OBJ Component](../images/components/Create_OBJ-crop.png)
 
-Export an OBJ mesh from a polyMesh description. OutdoorPlus 0.0.20.0
+Export an OBJ mesh from a polyMesh description.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Data 

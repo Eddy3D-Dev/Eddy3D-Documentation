@@ -1,6 +1,6 @@
-## ![](../images/icons/OpenFOAM_List.png) OpenFOAM List
+## ![OpenFOAM List Icon](../images/icons/OpenFOAM_List.png) OpenFOAM List
 
-![](../images/components/OpenFOAM_List-crop.png)
+![OpenFOAM List Component](../images/components/OpenFOAM_List-crop.png)
 
 Create an OpenFOAM list for file modification inputs.
 

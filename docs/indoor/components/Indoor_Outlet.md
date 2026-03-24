@@ -1,8 +1,13 @@
-## ![](../images/icons/Indoor_Outlet.png) Indoor Outlet
+## ![Indoor Outlet Icon](../images/icons/Indoor_Outlet.png) Indoor Outlet
 
-![](../images/components/Indoor_Outlet-crop.png)
+![Indoor Outlet Component](../images/components/Indoor_Outlet-crop.png)
 
-Ventilation Outlet  Defines where air exhausts from the room, such as return grilles or open windows.   Eddy3D 0.5.0.815
+Ventilation Outlet
+
+ Defines where air exhausts from the room, such as return grilles or open windows.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Geo 

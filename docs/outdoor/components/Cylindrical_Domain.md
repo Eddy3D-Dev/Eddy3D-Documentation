@@ -1,8 +1,13 @@
-## ![](../images/icons/Cylindrical_Domain.png) Cylindrical Domain
+## ![Cylindrical Domain Icon](../images/icons/Cylindrical_Domain.png) Cylindrical Domain
 
-![](../images/components/Cylindrical_Domain-crop.png)
+![Cylindrical Domain Component](../images/components/Cylindrical_Domain-crop.png)
 
-Cylindrical Simulation Domain  Defines a cylindrical computational domain. Recommended for multi-directional wind analysis as it allows for changing wind directions without re-meshing.   Eddy3D 0.5.0.815
+Cylindrical Simulation Domain
+
+ Defines a cylindrical computational domain. Recommended for multi-directional wind analysis as it allows for changing wind directions without re-meshing.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Bldg 

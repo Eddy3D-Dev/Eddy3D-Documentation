@@ -1,8 +1,9 @@
-## ![](../images/icons/Terrain_Region.png) Terrain Region
+## ![Terrain Region Icon](../images/icons/Terrain_Region.png) Terrain Region
 
-![](../images/components/Terrain_Region-crop.png)
+![Terrain Region Component](../images/components/Terrain_Region-crop.png)
 
-Create a terrain region with materials and depth settings. OutdoorPlus 0.0.20.0
+Create a terrain region with materials and depth settings.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### SurfMat 

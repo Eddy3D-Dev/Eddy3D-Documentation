@@ -1,6 +1,6 @@
-## ![](../images/icons/Check_&_Install_Engine.png) Check & Install Engine
+## ![Check & Install Engine Icon](../images/icons/Check_&_Install_Engine.png) Check & Install Engine
 
-![](../images/components/Check_&_Install_Engine-crop.png)
+![Check & Install Engine Component](../images/components/Check_&_Install_Engine-crop.png)
 
 Check and install the CFD engine (BlueCFD or WSL) and urbanMicroclimateFoam.
 

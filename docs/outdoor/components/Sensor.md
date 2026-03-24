@@ -1,8 +1,13 @@
-## ![](../images/icons/Sensor.png) Sensor
+## ![Sensor Icon](../images/icons/Sensor.png) Sensor
 
-![](../images/components/Sensor-crop.png)
+![Sensor Component](../images/components/Sensor-crop.png)
 
-Single Point Sensor  Creates a single sensor point for detailed MRT analysis at a specific location, such as a specific seat or standing spot.   Eddy3D 0.5.0.815
+Single Point Sensor
+
+ Creates a single sensor point for detailed MRT analysis at a specific location, such as a specific seat or standing spot.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Pt 

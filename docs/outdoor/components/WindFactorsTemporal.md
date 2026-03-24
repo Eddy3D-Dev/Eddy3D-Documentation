@@ -1,8 +1,9 @@
-## ![](../images/icons/WindFactorsTemporal.png) WindFactorsTemporal
+## ![WindFactorsTemporal Icon](../images/icons/WindFactorsTemporal.png) WindFactorsTemporal
 
-![](../images/components/WindFactorsTemporal-crop.png)
+![WindFactorsTemporal Component](../images/components/WindFactorsTemporal-crop.png)
 
-WindFactorsTemporal Eddy3D 0.5.0.815
+WindFactorsTemporal
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Res 

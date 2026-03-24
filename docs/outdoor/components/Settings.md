@@ -1,8 +1,13 @@
-## ![](../images/icons/Settings.png) Settings
+## ![Settings Icon](../images/icons/Settings.png) Settings
 
-![](../images/components/Settings-crop.png)
+![Settings Component](../images/components/Settings-crop.png)
 
-Radiation Settings  Configures accuracy and detail for the MRT simulation, including solar ray-tracing quality and reflections.   Eddy3D 0.5.0.815
+Radiation Settings
+
+ Configures accuracy and detail for the MRT simulation, including solar ray-tracing quality and reflections.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Refl 

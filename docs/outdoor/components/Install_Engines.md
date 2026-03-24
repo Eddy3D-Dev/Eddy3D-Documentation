@@ -1,6 +1,6 @@
-## ![](../images/icons/Install_Engines.png) Install Engines
+## ![Install Engines Icon](../images/icons/Install_Engines.png) Install Engines
 
-![](../images/components/Install_Engines-crop.png)
+![Install Engines Component](../images/components/Install_Engines-crop.png)
 
 Downloads and installs required simulation engines (EnergyPlus v9.4.0 & Radiance).
 

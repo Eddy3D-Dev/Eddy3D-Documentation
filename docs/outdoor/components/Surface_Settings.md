@@ -1,8 +1,13 @@
-## ![](../images/icons/Surface_Settings.png) Surface Settings
+## ![Surface Settings Icon](../images/icons/Surface_Settings.png) Surface Settings
 
-![](../images/components/Surface_Settings-crop.png)
+![Surface Settings Component](../images/components/Surface_Settings-crop.png)
 
-Material Properties  Defines thermal and optical properties for building or ground surfaces (e.g., concrete, asphalt). Controls heat calculation parameters like conductivity, density, and emissivity.   Eddy3D 0.5.0.815
+Material Properties
+
+ Defines thermal and optical properties for building or ground surfaces (e.g., concrete, asphalt). Controls heat calculation parameters like conductivity, density, and emissivity.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Name 

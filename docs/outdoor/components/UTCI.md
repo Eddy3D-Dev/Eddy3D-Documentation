@@ -1,8 +1,19 @@
-## ![](../images/icons/UTCI.png) UTCI
+## ![UTCI Icon](../images/icons/UTCI.png) UTCI
 
-![](../images/components/UTCI-crop.png)
+![UTCI Component](../images/components/UTCI-crop.png)
 
-UTCI Calculation  Computes the Universal Thermal Climate Index (UTCI), a measure of how the weather "feels" to the human body.  Combines: - Air Temperature (-50°C to +50°C) - Mean Radiant Temperature (MRT) - Wind Speed (0.5-17 m/s) - Relative Humidity   Eddy3D 0.5.0.815
+UTCI Calculation
+
+ Computes the Universal Thermal Climate Index (UTCI), a measure of how the weather "feels" to the human body.
+
+ Combines:
+ - Air Temperature (-50°C to +50°C)
+ - Mean Radiant Temperature (MRT)
+ - Wind Speed (0.5-17 m/s)
+ - Relative Humidity
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Tair 

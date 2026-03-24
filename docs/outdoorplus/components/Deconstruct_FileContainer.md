@@ -1,6 +1,6 @@
-## ![](../images/icons/Deconstruct_FileContainer.png) Deconstruct FileContainer
+## ![Deconstruct FileContainer Icon](../images/icons/Deconstruct_FileContainer.png) Deconstruct FileContainer
 
-![](../images/components/Deconstruct_FileContainer-crop.png)
+![Deconstruct FileContainer Component](../images/components/Deconstruct_FileContainer-crop.png)
 
 Deconstructs a FileContainer instance.
 

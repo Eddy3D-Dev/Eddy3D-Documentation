@@ -1,6 +1,6 @@
-## ![](../images/icons/Uniform_Value.png) Uniform Value
+## ![Uniform Value Icon](../images/icons/Uniform_Value.png) Uniform Value
 
-![](../images/components/Uniform_Value-crop.png)
+![Uniform Value Component](../images/components/Uniform_Value-crop.png)
 
 Create a uniform scalar Value.
 

@@ -1,8 +1,13 @@
-## ![](../images/icons/Load_MRT_Results.png) Load MRT Results
+## ![Load MRT Results Icon](../images/icons/Load_MRT_Results.png) Load MRT Results
 
-![](../images/components/Load_MRT_Results-crop.png)
+![Load MRT Results Component](../images/components/Load_MRT_Results-crop.png)
 
-MRT Results Loader  Import calculated Mean Radiant Temperature (MRT) data for thermal comfort analysis.   Eddy3D 0.5.0.815
+MRT Results Loader
+
+ Import calculated Mean Radiant Temperature (MRT) data for thermal comfort analysis.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Path 

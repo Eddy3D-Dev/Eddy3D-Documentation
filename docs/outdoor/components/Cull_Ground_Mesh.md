@@ -1,8 +1,14 @@
-## ![](../images/icons/Cull_Ground_Mesh.png) Cull Ground Mesh
+## ![Cull Ground Mesh Icon](../images/icons/Cull_Ground_Mesh.png) Cull Ground Mesh
 
-![](../images/components/Cull_Ground_Mesh-crop.png)
+![Cull Ground Mesh Component](../images/components/Cull_Ground_Mesh-crop.png)
 
-Remove ground mesh faces that intersect buildings.  Creates analysis ground mesh with building footprints cut out. Can be slow for large meshes - consider using QuadRemesh first.   Eddy3D 0.5.0.815
+Remove ground mesh faces that intersect buildings.
+
+ Creates analysis ground mesh with building footprints cut out.
+ Can be slow for large meshes - consider using QuadRemesh first.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Bldg 

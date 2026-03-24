@@ -1,8 +1,13 @@
-## ![](../images/icons/Plot_Residuals.png) Plot Residuals
+## ![Plot Residuals Icon](../images/icons/Plot_Residuals.png) Plot Residuals
 
-![](../images/components/Plot_Residuals-crop.png)
+![Plot Residuals Component](../images/components/Plot_Residuals-crop.png)
 
-Convergence Monitor  Visualizes the definition of simulation convergence (residuals) in real-time. Helps verify if the simulation has reached a stable solution.   Eddy3D 0.5.0.815
+Convergence Monitor
+
+ Visualizes the definition of simulation convergence (residuals) in real-time. Helps verify if the simulation has reached a stable solution.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Res 

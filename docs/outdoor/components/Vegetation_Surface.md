@@ -1,8 +1,14 @@
-## ![](../images/icons/Vegetation_Surface.png) Vegetation Surface
+## ![Vegetation Surface Icon](../images/icons/Vegetation_Surface.png) Vegetation Surface
 
-![](../images/components/Vegetation_Surface-crop.png)
+![Vegetation Surface Component](../images/components/Vegetation_Surface-crop.png)
 
-Create grass/lawn surfaces for MRT simulation.  Models low vegetation with evapotranspiration cooling. Surface temperatures are typically lower than paved surfaces.   Eddy3D 0.5.0.815
+Create grass/lawn surfaces for MRT simulation.
+
+ Models low vegetation with evapotranspiration cooling.
+ Surface temperatures are typically lower than paved surfaces.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Brep 

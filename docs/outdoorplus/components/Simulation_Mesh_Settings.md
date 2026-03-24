@@ -1,8 +1,9 @@
-## ![](../images/icons/Simulation_Mesh_Settings.png) Simulation Mesh Settings
+## ![Simulation Mesh Settings Icon](../images/icons/Simulation_Mesh_Settings.png) Simulation Mesh Settings
 
-![](../images/components/Simulation_Mesh_Settings-crop.png)
+![Simulation Mesh Settings Component](../images/components/Simulation_Mesh_Settings-crop.png)
 
-Configure snappyHexMesh settings for the simulation. OutdoorPlus 0.0.20.0
+Configure snappyHexMesh settings for the simulation.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### AddLayers 

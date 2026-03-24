@@ -1,6 +1,6 @@
-## ![](../images/icons/Constant_Value.png) Constant Value
+## ![Constant Value Icon](../images/icons/Constant_Value.png) Constant Value
 
-![](../images/components/Constant_Value-crop.png)
+![Constant Value Component](../images/components/Constant_Value-crop.png)
 
 Create a constant scalar Value.
 

@@ -1,8 +1,9 @@
-## ![](../images/icons/Vegetation_Mesh_Settings.png) Vegetation Mesh Settings
+## ![Vegetation Mesh Settings Icon](../images/icons/Vegetation_Mesh_Settings.png) Vegetation Mesh Settings
 
-![](../images/components/Vegetation_Mesh_Settings-crop.png)
+![Vegetation Mesh Settings Component](../images/components/Vegetation_Mesh_Settings-crop.png)
 
-Configure mesh refinement for vegetation regions. OutdoorPlus 0.0.20.0
+Configure mesh refinement for vegetation regions.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### SurfMin 

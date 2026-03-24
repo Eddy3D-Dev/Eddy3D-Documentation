@@ -1,6 +1,6 @@
-## ![](../images/icons/Read_OpenFOAM_Case.png) Read OpenFOAM Case
+## ![Read OpenFOAM Case Icon](../images/icons/Read_OpenFOAM_Case.png) Read OpenFOAM Case
 
-![](../images/components/Read_OpenFOAM_Case-crop.png)
+![Read OpenFOAM Case Component](../images/components/Read_OpenFOAM_Case-crop.png)
 
 Read an OpenFOAM case directory and list its file containers.
 

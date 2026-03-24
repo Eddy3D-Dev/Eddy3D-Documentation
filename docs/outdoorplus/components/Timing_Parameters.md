@@ -1,8 +1,9 @@
-## ![](../images/icons/Timing_Parameters.png) Timing Parameters
+## ![Timing Parameters Icon](../images/icons/Timing_Parameters.png) Timing Parameters
 
-![](../images/components/Timing_Parameters-crop.png)
+![Timing Parameters Component](../images/components/Timing_Parameters-crop.png)
 
-Define simulation timing and optional weather-driven time series. OutdoorPlus 0.0.20.0
+Define simulation timing and optional weather-driven time series.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Weather 

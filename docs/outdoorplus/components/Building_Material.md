@@ -1,8 +1,9 @@
-## ![](../images/icons/Building_Material.png) Building Material
+## ![Building Material Icon](../images/icons/Building_Material.png) Building Material
 
-![](../images/components/Building_Material-crop.png)
+![Building Material Component](../images/components/Building_Material-crop.png)
 
-Select a building material by index and override its properties. OutdoorPlus 0.0.20.0
+Select a building material by index and override its properties.
+ OutdoorPlus 0.0.20.0
 
 #### Input
 * ##### Index 

@@ -1,8 +1,10 @@
-## ![](../images/icons/Deconstruct_Data_Objects.png) Deconstruct Data Objects
+## ![Deconstruct Data Objects Icon](../images/icons/Deconstruct_Data_Objects.png) Deconstruct Data Objects
 
-![](../images/components/Deconstruct_Data_Objects-crop.png)
+![Deconstruct Data Objects Component](../images/components/Deconstruct_Data_Objects-crop.png)
 
-Deconstruct data objects from pedestrian and outdoor thermal comfort post-processings into data trees. This component is slow if a large number of probes are requested.  Eddy3D 0.5.0.815
+Deconstruct data objects from pedestrian and outdoor thermal comfort post-processings into data trees. This component is slow if a large number of probes are requested.
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### D 

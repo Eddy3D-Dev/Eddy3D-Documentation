@@ -1,8 +1,13 @@
-## ![](../images/icons/Run_Settings.png) Run Settings
+## ![Run Settings Icon](../images/icons/Run_Settings.png) Run Settings
 
-![](../images/components/Run_Settings-crop.png)
+![Run Settings Component](../images/components/Run_Settings-crop.png)
 
-Solver Control  Configures the simulation engine, including calculation iterations, convergence criteria, and parallel processing options (CPUs).   Eddy3D 0.5.0.815
+Solver Control
+
+ Configures the simulation engine, including calculation iterations, convergence criteria, and parallel processing options (CPUs).
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Iter 

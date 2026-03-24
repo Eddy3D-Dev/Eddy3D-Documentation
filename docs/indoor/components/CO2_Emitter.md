@@ -1,8 +1,13 @@
-## ![](../images/icons/CO2_Emitter.png) CO2 Emitter
+## ![CO2 Emitter Icon](../images/icons/CO2_Emitter.png) CO2 Emitter
 
-![](../images/components/CO2_Emitter-crop.png)
+![CO2 Emitter Component](../images/components/CO2_Emitter-crop.png)
 
-CO2 Source  Simulates carbon dioxide generation, typically from occupants. Use this to assess ventilation effectiveness and air quality.   Eddy3D 0.5.0.815
+CO2 Source
+
+ Simulates carbon dioxide generation, typically from occupants. Use this to assess ventilation effectiveness and air quality.
+
+
+ Eddy3D 0.5.0.815
 
 #### Input
 * ##### Geo 
