@@ -8,9 +8,9 @@
 
 ### Simulation Engines (Windows / Mac)
 Choose a simulation engine (one of the following):
-- **Docker:** [Download](https://www.docker.com/products/docker-desktop/){ aria-label="Download Docker Desktop" } (**Recommended cross-platform**, includes pre-configured `umcf` image)
-- **BlueCFD 2020 (Windows Only):** [Download](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe){ aria-label="Download BlueCFD 2020 installer" } (Requires `urbanMicroclimateFoam` to be installed manually)
-- **WSL (Windows Only):** [Installation guide](https://learn.microsoft.com/en-us/windows/wsl/install){ aria-label="WSL installation guide for Windows" } (Requires `urbanMicroclimateFoam` to be installed manually)
+- **Docker:** [Download Docker Desktop](https://www.docker.com/products/docker-desktop/) (**Recommended cross-platform**, includes pre-configured `umcf` image)
+- **BlueCFD 2020 (Windows Only):** [Download BlueCFD 2020 installer](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe) (Requires `urbanMicroclimateFoam` to be installed manually)
+- **WSL (Windows Only):** [WSL Installation guide for Windows](https://learn.microsoft.com/en-us/windows/wsl/install) (Requires `urbanMicroclimateFoam` to be installed manually)
 
 If you would like to use the *experimental* MRT component, please install [Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/012cb178) in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
 
@@ -25,7 +25,7 @@ If you would like to use the *experimental* MRT component, please install [Radia
 
 ### Parallel computation
 
-There is currently an issue with Microsoft’s and BlueCFD’s MPI dll which is why a run with multiple CPUs might fail. You need both dlls to be the same file, see [these instructions](https://www.cfd-online.com/Forums/openfoam-installation/200437-bluecfd-core-2016-user-compiled-solvers-not-running-parallel.html#post687582) on how to ensure that.
+There is currently an issue with Microsoft’s and BlueCFD’s MPI dll which is why a run with multiple CPUs might fail. You need both dlls to be the same file, see [these instructions for matching MPI DLL files](https://www.cfd-online.com/Forums/openfoam-installation/200437-bluecfd-core-2016-user-compiled-solvers-not-running-parallel.html#post687582) on how to ensure that.
 
 ### Simple workflows
 

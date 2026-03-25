@@ -24,3 +24,10 @@
 ## 2024-05-24 - Accessibility anti-pattern for raw URL and file name links
 **Learning:** Found a pattern where raw URLs or specific file names (e.g., executables) are used as visible link text. While adding an `aria-label` to these links might seem like a good idea to provide descriptive text, it often leads to anti-patterns. If the `aria-label` includes the raw URL to comply with WCAG 2.5.3 (Label in Name), the screen reader user still has to listen to the verbose raw URL. If it doesn't include the raw URL, it violates WCAG 2.5.3. Furthermore, adding redundant text before the `aria-label` (e.g., "- Download: [file.exe]{aria-label='Download file.exe'}") forces screen readers to announce "Download" twice.
 **Action:** Always prefer updating the visible text of the link to be descriptive and human-readable (e.g., change `[https://github.com/...]` to `[GitHub repository]`, and `[file.exe]` to `[Download file]`). This is the most robust and accessible approach, avoiding the need for `aria-label` entirely and improving UX for all users.
+## 2026-03-25 - Enhance Link Accessibility
+**Learning:** Adding descriptive `aria-label`s to external links in Markdown ensures screen readers convey the link's purpose fully, satisfying WCAG 2.5.3. The Material for MkDocs theme supports the `attr_list` extension for this.
+**Action:** Append `{ aria-label="Descriptive text" }` to links with less clear or generic text to improve accessibility.
+
+## 2026-03-25 - Refine Link Accessibility
+**Learning:** Adding `aria-label` attributes to links that obscure the visible text violates WCAG 2.5.3 (Label in Name), creating a disconnect for speech-recognition and screen reader users. Additionally, adding `aria-label`s to 'fix' links with poor visible text (like 'Download' or 'these instructions') is considered a bad practice.
+**Action:** Always prefer updating the visible text of the link to be descriptive and human-readable, avoiding the need for `aria-label` entirely.
