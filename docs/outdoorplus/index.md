@@ -44,4 +44,4 @@ This project is partially funded by [Perkins&Will Research](https://perkinswill.
 ___
 
 
-This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [documentation](https://vip-smur.github.io/24fa-microclimate-umcf/){ aria-label="Documentation for VIP - Surrogate Models for Urban Regeneration" } for more details and view the final presentation.
+This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [VIP - Surrogate Models for Urban Regeneration documentation](https://vip-smur.github.io/24fa-microclimate-umcf/) for more details and view the final presentation.
