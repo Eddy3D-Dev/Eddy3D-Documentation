@@ -31,3 +31,7 @@
 ## 2026-03-25 - Refine Link Accessibility
 **Learning:** Adding `aria-label` attributes to links that obscure the visible text violates WCAG 2.5.3 (Label in Name), creating a disconnect for speech-recognition and screen reader users. Additionally, adding `aria-label`s to 'fix' links with poor visible text (like 'Download' or 'these instructions') is considered a bad practice.
 **Action:** Always prefer updating the visible text of the link to be descriptive and human-readable, avoiding the need for `aria-label` entirely.
+
+## 2026-03-25 - Avoid Aria-label Mismatch for Inline Links
+**Learning:** Found a pattern where `aria-label`s were used on inline links to provide completely different, more descriptive text than what was visible (e.g., `[Download](url){ aria-label="Download Windows Installer" }`). This is a severe violation of WCAG 2.5.3 (Label in Name) because screen reader users searching for "Download" may not find it, and speech-recognition users saying "Click Download" might fail.
+**Action:** Never use `aria-label` to replace poor link text. Instead, always update the visible text to be descriptive and self-sufficient (e.g., `[Download Windows Installer](url)`).
