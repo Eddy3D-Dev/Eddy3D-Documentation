@@ -31,15 +31,23 @@
 
     const getAsset = () => (getScheme() === "slate" ? darkAsset : lightAsset);
 
-    const ensureFavicon = () => {
-      let link = document.querySelector("link[rel='icon'][data-eddy-favicon]");
-      if (!link) {
-        link = document.createElement("link");
+    const updateFavicons = (asset) => {
+      const links = document.querySelectorAll("link[rel='icon'], link[rel='shortcut icon']");
+
+      if (!links.length) {
+        const link = document.createElement("link");
         link.rel = "icon";
         link.setAttribute("data-eddy-favicon", "true");
+        link.setAttribute("href", asset);
         document.head.appendChild(link);
+        return;
       }
-      return link;
+
+      links.forEach((link) => {
+        if (link.getAttribute("href") !== asset) {
+          link.setAttribute("href", asset);
+        }
+      });
     };
 
     const applyThemeAssets = () => {
@@ -50,7 +58,7 @@
         logo.setAttribute("src", asset);
       }
 
-      ensureFavicon().setAttribute("href", asset);
+      updateFavicons(asset);
     };
 
     const start = () => {
