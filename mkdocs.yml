@@ -86,6 +86,10 @@ theme:
     - announce.dismiss
 
   palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: white
@@ -99,7 +103,7 @@ theme:
       accent: indigo
       toggle:
         icon: material/toggle-switch-off
-        name: Switch to light mode
+        name: Switch to system preference
 
 markdown_extensions:
   - md_in_html
@@ -162,4 +166,3 @@ plugins:
       strict: true
   - search
   - title-casing
-
