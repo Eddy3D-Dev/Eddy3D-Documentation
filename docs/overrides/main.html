@@ -15,13 +15,15 @@
 <meta property="twitter:image" content="{{ page.meta.image }}" />
 <meta property="twitter:image:alt" content="{{ page.meta.image_alt }}" />
 {% endif %}
+<link rel="icon" href="{{ 'assets/cd/favicon.svg' | url }}?v=20260327" media="(prefers-color-scheme: light)" />
+<link rel="icon" href="{{ 'assets/cd/favicon-light.svg' | url }}?v=20260327" media="(prefers-color-scheme: dark)" />
 <script>
   (() => {
     if (window.__eddyThemeAssetsInitialized) return;
     window.__eddyThemeAssetsInitialized = true;
 
-    const lightAsset = "{{ 'assets/cd/favicon.svg' | url }}";
-    const darkAsset = "{{ 'assets/cd/favicon-light.svg' | url }}";
+    const lightAsset = "{{ 'assets/cd/favicon.svg' | url }}?v=20260327";
+    const darkAsset = "{{ 'assets/cd/favicon-light.svg' | url }}?v=20260327";
 
     const getScheme = () => {
       const scheme = document.body?.getAttribute("data-md-color-scheme");
