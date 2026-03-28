@@ -62,12 +62,6 @@
 
     const applyThemeAssets = () => {
       const asset = getAsset();
-      const logo = document.querySelector(".md-header__button.md-logo img");
-
-      if (logo && logo.getAttribute("src") !== asset) {
-        logo.setAttribute("src", asset);
-      }
-
       updateFavicons(asset);
     };
 
