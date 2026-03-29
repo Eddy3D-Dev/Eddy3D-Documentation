@@ -35,3 +35,6 @@
 ## 2026-03-25 - Avoid Aria-label Mismatch for Inline Links
 **Learning:** Found a pattern where `aria-label`s were used on inline links to provide completely different, more descriptive text than what was visible (e.g., `[Download](url){ aria-label="Download Windows Installer" }`). This is a severe violation of WCAG 2.5.3 (Label in Name) because screen reader users searching for "Download" may not find it, and speech-recognition users saying "Click Download" might fail.
 **Action:** Never use `aria-label` to replace poor link text. Instead, always update the visible text to be descriptive and self-sufficient (e.g., `[Download Windows Installer](url)`).
+## 2025-03-29 - [Descriptive Link Text]
+**Learning:** Using `aria-label` to fix generic link text (like "Learn more") is an anti-pattern when we can just make the visible text itself descriptive. Descriptive visible text helps all users, not just screen reader users, and avoids WCAG 2.5.3 (Label in Name) violations where the label might not contain the visible text perfectly.
+**Action:** Always prefer updating the visible text of a link to be descriptive rather than adding an `aria-label` to generic text.
