@@ -38,3 +38,7 @@
 ## 2025-03-29 - [Descriptive Link Text]
 **Learning:** Using `aria-label` to fix generic link text (like "Learn more") is an anti-pattern when we can just make the visible text itself descriptive. Descriptive visible text helps all users, not just screen reader users, and avoids WCAG 2.5.3 (Label in Name) violations where the label might not contain the visible text perfectly.
 **Action:** Always prefer updating the visible text of a link to be descriptive rather than adding an `aria-label` to generic text.
+
+## 2026-03-25 - Avoid "these instructions" anti-pattern
+**Learning:** Using link text like "these instructions for..." creates a poor experience for screen reader users and those navigating out of context. The link text should be fully self-descriptive without needing surrounding context.
+**Action:** Always prefer updating the visible text of the link to be descriptive and human-readable (e.g., change `see [these instructions for matching MPI DLL files](...)` to `see the [CFD Online instructions for matching MPI DLL files](...)`).
