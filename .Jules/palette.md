@@ -42,3 +42,6 @@
 ## 2026-03-25 - Avoid "these instructions" anti-pattern
 **Learning:** Using link text like "these instructions for..." creates a poor experience for screen reader users and those navigating out of context. The link text should be fully self-descriptive without needing surrounding context.
 **Action:** Always prefer updating the visible text of the link to be descriptive and human-readable (e.g., change `see [these instructions for matching MPI DLL files](...)` to `see the [CFD Online instructions for matching MPI DLL files](...)`).
+## 2026-04-02 - Accessible External Links
+**Learning:** When changing links to open in a new tab () to keep users in the application context, we MUST communicate this context shift to screen reader users by appending '(opens in a new tab)' to the `aria-label`. Additionally, `rel="noopener noreferrer"` is crucial for security.
+**Action:** For all future external links that open in a new tab, include `target="_blank"`, `rel="noopener noreferrer"`, and an `aria-label` warning for screen readers.
