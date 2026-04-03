@@ -3,16 +3,16 @@
 ## Installation
 
 ### Plugin
-- **Windows:** Install [Eddy3D for Windows](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest)
+- **Windows:** Install [Eddy3D for Windows](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D for Windows (opens in a new tab)" }
 - **Mac:** Install **`Eddy3D-OutdoorPlus`** via Rhino Package Manager (`yak`)
 
 ### Simulation Engines (Windows / Mac)
 Choose a simulation engine (one of the following):
-- **Docker:** [Download Docker Desktop](https://www.docker.com/products/docker-desktop/) (**Recommended cross-platform**, includes pre-configured `umcf` image)
-- **BlueCFD 2020 (Windows Only):** [Download BlueCFD 2020 installer](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe) (Requires `urbanMicroclimateFoam` to be installed manually)
-- **WSL (Windows Only):** [WSL Installation guide for Windows](https://learn.microsoft.com/en-us/windows/wsl/install) (Requires `urbanMicroclimateFoam` to be installed manually)
+- **Docker:** [Download Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Download Docker Desktop (opens in a new tab)" } (**Recommended cross-platform**, includes pre-configured `umcf` image)
+- **BlueCFD 2020 (Windows Only):** [Download BlueCFD 2020 installer](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe){ target="_blank" rel="noopener noreferrer" aria-label="Download BlueCFD 2020 installer (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
+- **WSL (Windows Only):** [WSL Installation guide for Windows](https://learn.microsoft.com/en-us/windows/wsl/install){ target="_blank" rel="noopener noreferrer" aria-label="WSL Installation guide for Windows (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
 
-If you would like to use the *experimental* MRT component, please install [Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/012cb178) in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
+If you would like to use the *experimental* MRT component, please install [Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/012cb178){ target="_blank" rel="noopener noreferrer" aria-label="Install Radiance 5.3 (opens in a new tab)" } in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
 
 ### Templates
 
@@ -25,7 +25,7 @@ If you would like to use the *experimental* MRT component, please install [Radia
 
 ### Parallel computation
 
-There is currently an issue with Microsoft’s and BlueCFD’s MPI dll which is why a run with multiple CPUs might fail. You need both dlls to be the same file, see the [CFD Online instructions for matching MPI DLL files](https://www.cfd-online.com/Forums/openfoam-installation/200437-bluecfd-core-2016-user-compiled-solvers-not-running-parallel.html#post687582) to ensure that both DLLs are the same file.
+There is currently an issue with Microsoft’s and BlueCFD’s MPI dll which is why a run with multiple CPUs might fail. You need both dlls to be the same file, see the [CFD Online instructions for matching MPI DLL files](https://www.cfd-online.com/Forums/openfoam-installation/200437-bluecfd-core-2016-user-compiled-solvers-not-running-parallel.html#post687582){ target="_blank" rel="noopener noreferrer" aria-label="CFD Online instructions for matching MPI DLL files (opens in a new tab)" } to ensure that both DLLs are the same file.
 
 ### Simple workflows
 
