@@ -7,7 +7,7 @@
 
 ## Overview
 
-`urbanMicroclimateFoam` (uMFoam) is an open-source solver built on [OpenFOAM](https://openfoam.org/) for modeling urban microclimates. It simulates coupled physical processes including:
+`urbanMicroclimateFoam` (uMFoam) is an open-source solver built on [OpenFOAM](https://openfoam.org/){ target="_blank" rel="noopener noreferrer" aria-label="OpenFOAM (opens in a new tab)" } for modeling urban microclimates. It simulates coupled physical processes including:
 
 - **Turbulent airflow**
 - **Heat and moisture transport in air**
@@ -16,13 +16,13 @@
 - **Urban vegetation heat balance**
 
  Learn more at the official repository:  
-🔗 [urbanMicroclimateFoam GitHub](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam)
+🔗 [urbanMicroclimateFoam GitHub](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitHub (opens in a new tab)" }
 
 ## Prerequisites
 
 ### 1. Install OpenFOAM with blueCFD-Core 2020 (Windows)
 
-- [Download `blueCFD-Core-2020` for Windows](https://bluecfd.github.io/Core/Downloads/#bluecfd-core-2020-1)
+- [Download `blueCFD-Core-2020` for Windows](https://bluecfd.github.io/Core/Downloads/#bluecfd-core-2020-1){ target="_blank" rel="noopener noreferrer" aria-label="Download blueCFD-Core-2020 for Windows (opens in a new tab)" }
 - This version includes `OpenFOAM 8`.
 
 ### 2. Install UMCF Plugin for Grasshopper (Rhino)
@@ -157,4 +157,4 @@ Visualizations are available both in Grasshopper and ParaView.
 
 ## Need Help?
 
-Visit the [UMCF GitHub Issues](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam/issues) page or reach out to your instructor/supervisor for support.
+Visit the [UMCF GitHub Issues](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam/issues){ target="_blank" rel="noopener noreferrer" aria-label="UMCF GitHub Issues (opens in a new tab)" } page or reach out to your instructor/supervisor for support.

@@ -29,19 +29,19 @@ ___
 
 ### Acknowledgments
 
-The plugin is based on the `urbanMicroclimateFoam` (UMF) open-source solver based on OpenFOAM, developed by the [Chair of Building Physics at ETH Zürich](https://carmeliet.ethz.ch/) the Canada Research Chair Tier I in Multiscale Building Physics at Université de Sherbrooke, Canada. 
+The plugin is based on the `urbanMicroclimateFoam` (UMF) open-source solver based on OpenFOAM, developed by the [Chair of Building Physics at ETH Zürich](https://carmeliet.ethz.ch/){ target="_blank" rel="noopener noreferrer" aria-label="Chair of Building Physics at ETH Zürich (opens in a new tab)" } the Canada Research Chair Tier I in Multiscale Building Physics at Université de Sherbrooke, Canada.
 
-- [urbanMicroclimateFoam GitHub repository](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam)
-- [urbanMicroclimateFoam GitLab repository](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam)
+- [urbanMicroclimateFoam GitHub repository](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitHub repository (opens in a new tab)" }
+- [urbanMicroclimateFoam GitLab repository](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitLab repository (opens in a new tab)" }
 
 ![ETH Zurich logo](./images/outdoorplus/eth.png)
 
 
-This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/). Their support has been instrumental in advancing this tool.
+This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/){ target="_blank" rel="noopener noreferrer" aria-label="Perkins&Will Research (opens in a new tab)" }. Their support has been instrumental in advancing this tool.
 
 ![Perkins&Will logo](./images/outdoorplus/PW-logo-black.png)
 
 ___
 
 
-This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [VIP - Surrogate Models for Urban Regeneration documentation](https://vip-smur.github.io/24fa-microclimate-umcf/) for more details and view the final presentation.
+This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [VIP - Surrogate Models for Urban Regeneration documentation](https://vip-smur.github.io/24fa-microclimate-umcf/){ target="_blank" rel="noopener noreferrer" aria-label="VIP - Surrogate Models for Urban Regeneration documentation (opens in a new tab)" } for more details and view the final presentation.
