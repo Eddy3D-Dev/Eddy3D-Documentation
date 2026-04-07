@@ -12,7 +12,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more about Eddy3D Outdoor](https://docs.eddy3d.com/outdoor/)
+    [:octicons-arrow-right-24: View Eddy3D Outdoor Documentation](outdoor/index.md)
 
 - __Eddy3D Outdoor+__
 
@@ -22,7 +22,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more about Eddy3D Outdoor+](https://docs.eddy3d.com/outdoorplus/)
+    [:octicons-arrow-right-24: View Eddy3D Outdoor+ Documentation](outdoorplus/index.md)
 
 - __Eddy3D Indoor__
 
@@ -32,7 +32,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more about Eddy3D Indoor](https://docs.eddy3d.com/indoor/)
+    [:octicons-arrow-right-24: View Eddy3D Indoor Documentation](indoor/index.md)
 
 </div>
 
