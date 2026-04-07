@@ -45,3 +45,6 @@
 ## 2026-04-02 - Accessible External Links
 **Learning:** When changing links to open in a new tab () to keep users in the application context, we MUST communicate this context shift to screen reader users by appending '(opens in a new tab)' to the `aria-label`. Additionally, `rel="noopener noreferrer"` is crucial for security.
 **Action:** For all future external links that open in a new tab, include `target="_blank"`, `rel="noopener noreferrer"`, and an `aria-label` warning for screen readers.
+## 2026-03-27 - Replace generic link text with specific descriptive visible text
+**Learning:** When changing links for accessibility, instead of using 'Learn more' and fixing it via an `aria-label`, updating the visible text itself to be fully descriptive (e.g., 'View Eddy3D Outdoor Documentation') provides a better experience for all users and guarantees WCAG 2.5.3 compliance.
+**Action:** Always prefer to update visible text to be self-descriptive instead of relying on `aria-label` attributes to patch generic link text.
