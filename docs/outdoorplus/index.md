@@ -3,7 +3,7 @@
 !!! warning "Alpha Version"
     This module is currently in alpha testing. Features, inputs, and outputs are subject to change without notice.
 
-![urbanMicroclimateFoam simulation preview](./images/outdoorplus/umcf.gif)
+![urbanMicroclimateFoam simulation preview](./images/outdoorplus/umcf.gif){ loading=lazy }
 ### A Grasshopper plugin for microclimate simulations
 
 ___
@@ -23,9 +23,9 @@ ___
 🌳 **VEG** - Solves heat balance for urban trees
 - Handles green surfaces
 
-![Analysis & Visualization showing wind patterns](images/outdoorplus/image38.gif)
+![Analysis & Visualization showing wind patterns](images/outdoorplus/image38.gif){ loading=lazy }
 
-![Analysis & Visualization showing temperature and humidity distributions](images/outdoorplus/image39.gif)
+![Analysis & Visualization showing temperature and humidity distributions](images/outdoorplus/image39.gif){ loading=lazy }
 
 ### Acknowledgments
 

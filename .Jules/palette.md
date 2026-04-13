@@ -48,3 +48,6 @@
 ## 2026-03-27 - Replace generic link text with specific descriptive visible text
 **Learning:** When changing links for accessibility, instead of using 'Learn more' and fixing it via an `aria-label`, updating the visible text itself to be fully descriptive (e.g., 'View Eddy3D Outdoor Documentation') provides a better experience for all users and guarantees WCAG 2.5.3 compliance.
 **Action:** Always prefer to update visible text to be self-descriptive instead of relying on `aria-label` attributes to patch generic link text.
+## 2026-04-12 - Lazy Loading Large Images
+**Learning:** Large GIFs in documentation can cause significant page jank and slow initial load times, negatively impacting the reading experience.
+**Action:** Use the MkDocs `attr_list` extension to append `{ loading=lazy }` to heavy media elements like animated GIFs.
