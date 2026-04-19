@@ -3,7 +3,7 @@
 ## Installation
 
 ### Plugin
-- **Windows:** Install [Eddy3D for Windows](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D for Windows (opens in a new tab)" }
+- **Windows:** [Install Eddy3D for Windows](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D for Windows (opens in a new tab)" }
 - **Mac:** Install **`Eddy3D-OutdoorPlus`** via Rhino Package Manager (`yak`)
 
 ### Simulation Engines (Windows / Mac)
@@ -12,7 +12,7 @@ Choose a simulation engine (one of the following):
 - **BlueCFD 2020 (Windows Only):** [Download BlueCFD 2020 installer](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe){ target="_blank" rel="noopener noreferrer" aria-label="Download BlueCFD 2020 installer (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
 - **WSL (Windows Only):** [WSL Installation guide for Windows](https://learn.microsoft.com/en-us/windows/wsl/install){ target="_blank" rel="noopener noreferrer" aria-label="WSL Installation guide for Windows (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
 
-If you would like to use the *experimental* MRT component, please install [Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/012cb178){ target="_blank" rel="noopener noreferrer" aria-label="Install Radiance 5.3 (opens in a new tab)" } in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
+If you would like to use the *experimental* MRT component, please [install Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/012cb178){ target="_blank" rel="noopener noreferrer" aria-label="Install Radiance 5.3 (opens in a new tab)" } in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
 
 ### Templates
 
