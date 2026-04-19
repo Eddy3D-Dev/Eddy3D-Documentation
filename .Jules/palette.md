@@ -58,3 +58,7 @@
 ## 2026-04-12 - Lazy Loading Large Images
 **Learning:** Large GIFs in documentation can cause significant page jank and slow initial load times, negatively impacting the reading experience.
 **Action:** Use the MkDocs `attr_list` extension to append `{ loading=lazy }` to heavy media elements like animated GIFs.
+
+## 2026-05-28 - Visible action verbs in links
+**Learning:** Found a pattern where links were placed within sentences, but the action verb (e.g., 'Install' or 'Download') was kept outside the link text, while an `aria-label` was added to the link to provide the missing verb to screen readers. This creates a mismatch for speech dictation users and slightly degrades the experience for sighted users navigating via links.
+**Action:** Include the action verb within the visible link text to make it fully self-descriptive and match the `aria-label` perfectly (WCAG 2.4.4 and 2.5.3).
