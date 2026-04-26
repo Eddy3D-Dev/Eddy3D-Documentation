@@ -33,7 +33,7 @@
 - Enable **"Include pre-releases"**  
 - Click **Install** and restart Rhino
 
-<iframe title="Loom video: Install UMCF Plugin" src="https://www.loom.com/embed/aa80604bdf55468e89e213adfe3dfc03" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Install UMCF Plugin" src="https://www.loom.com/embed/aa80604bdf55468e89e213adfe3dfc03" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Verify Installation
 
@@ -44,7 +44,7 @@ Use the **`Check Installation`** component in Grasshopper:
 
 The console will automatically install the necessary files.
 
-<iframe title="Loom video: Verify Installation" src="https://www.loom.com/embed/f0de87f9dd5b417fbe9cb7dde28e5926" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Verify Installation" src="https://www.loom.com/embed/f0de87f9dd5b417fbe9cb7dde28e5926" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Run a Template Simulation
 
@@ -53,14 +53,14 @@ The console will automatically install the necessary files.
 - Use the **`Templates`** component
 - Right-click > select `UMCF.Templates.MicroclimateSimulation.gh`
 
-<iframe title="Loom video: Load Template" src="https://www.loom.com/embed/3813d676223e4bf78790a688a9e64cf1" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Load Template" src="https://www.loom.com/embed/3813d676223e4bf78790a688a9e64cf1" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ### 2. Add Weather File
 
 - Connect an **EPW file** to the **`Weather`** component  
 - This enables time settings in the **`Timing`** component
 
-<iframe title="Loom video: Add Weather File" src="https://www.loom.com/embed/5180a478450b476b825caf4a2712717b" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Add Weather File" src="https://www.loom.com/embed/5180a478450b476b825caf4a2712717b" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ##  Define the Simulation Domain
 
@@ -74,7 +74,7 @@ Use the **`Air Region`** component to set:
   - `Front Add`, `Back Add`, `Sides Add`, `Top Add`
   - `Refinement Box Add`
 
-<iframe title="Loom video: Air Region" src="https://www.loom.com/embed/44d4138231ae4fd78759858ecb6c78a1" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Air Region" src="https://www.loom.com/embed/44d4138231ae4fd78759858ecb6c78a1" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ### Solid Region (Buildings)
 
@@ -85,7 +85,7 @@ Inputs:
 - Mesh refinement (optional)
 - Indoor temperature (°C)
 
-<iframe title="Loom video: Solid Region (Buildings)" src="https://www.loom.com/embed/c70e729726534ec9bc90065693b7d77e" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Solid Region (Buildings)" src="https://www.loom.com/embed/c70e729726534ec9bc90065693b7d77e" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ### Vegetation Region
 
@@ -98,7 +98,7 @@ Inputs:
 
 Default vegetation values are found in `constant/air/vegetationProperties`.
 
-<iframe title="Loom video: Vegetation Region" src="https://www.loom.com/embed/fdcfff3c303847e7a05a756ea4196ec8" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Vegetation Region" src="https://www.loom.com/embed/fdcfff3c303847e7a05a756ea4196ec8" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Simulation Settings
 
@@ -107,7 +107,7 @@ Configure with the **`Simulation Settings`** component:
 - **Number of CPUs** (e.g., 10 recommended)
 - **maxFluidIteration** (higher = better resolution)
 
-<iframe title="Loom video: Simulation Settings" src="https://www.loom.com/embed/5eb25cafae004029b975992cf66af3ec" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Simulation Settings" src="https://www.loom.com/embed/5eb25cafae004029b975992cf66af3ec" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Write and Run the Case
 
@@ -124,7 +124,7 @@ After simulation:
 - Output folders based on `controlDict`:
   - `startTime = 0`, `endTime = 43200`, `deltaT = 3600` (i.e., 12 hours)
 
-<iframe title="Loom video: Write and Run the Case" src="https://www.loom.com/embed/49ab3679676e4f728cd483f7fe2ddaaa" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Write and Run the Case" src="https://www.loom.com/embed/49ab3679676e4f728cd483f7fe2ddaaa" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Visualize Results (in Rhino/Grasshopper)
 
@@ -142,9 +142,9 @@ Steps:
 3. Enable **`Probing`** to load results  
 4. Use **Hour Slider** to view time-based results
 
-<iframe title="Loom video: Visualize Results Part 1" src="https://www.loom.com/embed/a896f09c862440ce8b9c247cd95ae838" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Visualize Results Part 1" src="https://www.loom.com/embed/a896f09c862440ce8b9c247cd95ae838" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-<iframe title="Loom video: Visualize Results Part 2" src="https://www.loom.com/embed/3499df4c8a544cb59e2681c71ebca3c3" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Visualize Results Part 2" src="https://www.loom.com/embed/3499df4c8a544cb59e2681c71ebca3c3" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Output Types
 
