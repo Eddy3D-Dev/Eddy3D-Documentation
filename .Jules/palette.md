@@ -62,3 +62,7 @@
 ## 2026-05-28 - Visible action verbs in links
 **Learning:** Found a pattern where links were placed within sentences, but the action verb (e.g., 'Install' or 'Download') was kept outside the link text, while an `aria-label` was added to the link to provide the missing verb to screen readers. This creates a mismatch for speech dictation users and slightly degrades the experience for sighted users navigating via links.
 **Action:** Include the action verb within the visible link text to make it fully self-descriptive and match the `aria-label` perfectly (WCAG 2.4.4 and 2.5.3).
+
+## 2026-06-15 - Lazy Load Iframes
+**Learning:** Found that pages with multiple embedded video iframes (like Loom or Vimeo) load all video players simultaneously on initial page load. This causes severe page jank, slows down time-to-interactive, and downloads unnecessary data for users who might not scroll down.
+**Action:** Always add `loading="lazy"` to `<iframe>` elements to defer their loading until they are close to the viewport, improving initial page load performance and UX for all users.
