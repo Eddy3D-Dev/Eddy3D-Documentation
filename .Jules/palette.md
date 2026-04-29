@@ -66,3 +66,7 @@
 ## 2026-06-15 - Lazy Load Iframes
 **Learning:** Found that pages with multiple embedded video iframes (like Loom or Vimeo) load all video players simultaneously on initial page load. This causes severe page jank, slows down time-to-interactive, and downloads unnecessary data for users who might not scroll down.
 **Action:** Always add `loading="lazy"` to `<iframe>` elements to defer their loading until they are close to the viewport, improving initial page load performance and UX for all users.
+
+## 2026-04-29 - [Lazy Load Images in MkDocs]
+**Learning:** Adding `{ loading=lazy }` to image tags via the `attr_list` Markdown extension is crucial for MkDocs documentation to improve initial page load performance and prevent jank caused by large images and GIFs.
+**Action:** When adding images and GIFs, especially large informative ones, always append `{ loading=lazy }` after the image markdown syntax if `attr_list` is available.

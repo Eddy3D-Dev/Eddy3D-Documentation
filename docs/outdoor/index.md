@@ -19,7 +19,7 @@ If you would like to use the *experimental* MRT component, please [install Radia
 - Eddy comes with starter templates that you can find by right clicking on the `Template`  
   component, see below.
 
-![Starter template selection dialog](./images/template_selection.png)
+![Starter template selection dialog](./images/template_selection.png){ loading=lazy }
 
 - Select a template of your choice and follow the enumerated markers through the canvas.
 
@@ -31,7 +31,7 @@ There is currently an issue with Microsoft’s and BlueCFD’s MPI dll which is 
 
 We value efficient workflows! See below for a one-directional urban CFD setup.
 
-![Example of a one-directional urban CFD setup canvas](./images/canvas-setup.png)
+![Example of a one-directional urban CFD setup canvas](./images/canvas-setup.png){ loading=lazy }
 
 ## Video tutorials
 

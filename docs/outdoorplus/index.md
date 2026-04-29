@@ -34,12 +34,12 @@ The plugin is based on the `urbanMicroclimateFoam` (UMF) open-source solver base
 - [urbanMicroclimateFoam GitHub repository](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitHub repository (opens in a new tab)" }
 - [urbanMicroclimateFoam GitLab repository](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitLab repository (opens in a new tab)" }
 
-![ETH Zurich logo](./images/outdoorplus/eth.png)
+![ETH Zurich logo](./images/outdoorplus/eth.png){ loading=lazy }
 
 
 This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/){ target="_blank" rel="noopener noreferrer" aria-label="Perkins&Will Research (opens in a new tab)" }. Their support has been instrumental in advancing this tool.
 
-![Perkins&Will logo](./images/outdoorplus/PW-logo-black.png)
+![Perkins&Will logo](./images/outdoorplus/PW-logo-black.png){ loading=lazy }
 
 ___
 
