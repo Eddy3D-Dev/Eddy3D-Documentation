@@ -38,7 +38,6 @@ ___
 The plugin is based on the `urbanMicroclimateFoam` (UMF) open-source solver based on OpenFOAM, developed by the [Chair of Building Physics at ETH Zürich](https://carmeliet.ethz.ch/){ target="_blank" rel="noopener noreferrer" aria-label="Chair of Building Physics at ETH Zürich (opens in a new tab)" } the [Canada Research Chair Tier I in Multiscale Building Physics](https://www.usherbrooke.ca/recherche/en/udes/clusters/chairs/canada/multiscale-building-physics) at Université de Sherbrooke, Canada.
 
 - [urbanMicroclimateFoam GitHub repository](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitHub repository (opens in a new tab)" }
-- [urbanMicroclimateFoam GitLab repository](https://gitlab.ethz.ch/openfoam-cbp/solvers/urbanmicroclimatefoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitLab repository (opens in a new tab)" }
 
 ![ETH Zurich logo](./images/outdoorplus/eth.png){ loading=lazy }
 
