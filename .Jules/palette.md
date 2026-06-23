@@ -35,3 +35,38 @@
 ## 2026-03-25 - Avoid Aria-label Mismatch for Inline Links
 **Learning:** Found a pattern where `aria-label`s were used on inline links to provide completely different, more descriptive text than what was visible (e.g., `[Download](url){ aria-label="Download Windows Installer" }`). This is a severe violation of WCAG 2.5.3 (Label in Name) because screen reader users searching for "Download" may not find it, and speech-recognition users saying "Click Download" might fail.
 **Action:** Never use `aria-label` to replace poor link text. Instead, always update the visible text to be descriptive and self-sufficient (e.g., `[Download Windows Installer](url)`).
+## 2025-03-29 - [Descriptive Link Text]
+**Learning:** Using `aria-label` to fix generic link text (like "Learn more") is an anti-pattern when we can just make the visible text itself descriptive. Descriptive visible text helps all users, not just screen reader users, and avoids WCAG 2.5.3 (Label in Name) violations where the label might not contain the visible text perfectly.
+**Action:** Always prefer updating the visible text of a link to be descriptive rather than adding an `aria-label` to generic text.
+
+## 2026-03-25 - Avoid "these instructions" anti-pattern
+**Learning:** Using link text like "these instructions for..." creates a poor experience for screen reader users and those navigating out of context. The link text should be fully self-descriptive without needing surrounding context.
+**Action:** Always prefer updating the visible text of the link to be descriptive and human-readable (e.g., change `see [these instructions for matching MPI DLL files](...)` to `see the [CFD Online instructions for matching MPI DLL files](...)`).
+
+## 2026-04-02 - Accessible External Links
+**Learning:** When changing links to open in a new tab () to keep users in the application context, we MUST communicate this context shift to screen reader users by appending '(opens in a new tab)' to the `aria-label`. Additionally, `rel="noopener noreferrer"` is crucial for security.
+**Action:** For all future external links that open in a new tab, include `target="_blank"`, `rel="noopener noreferrer"`, and an `aria-label` warning for screen readers.
+
+## 2026-03-27 - Replace generic link text with specific descriptive visible text
+**Learning:** When changing links for accessibility, instead of using 'Learn more' and fixing it via an `aria-label`, updating the visible text itself to be fully descriptive (e.g., 'View Eddy3D Outdoor Documentation') provides a better experience for all users and guarantees WCAG 2.5.3 compliance.
+**Action:** Always prefer to update visible text to be self-descriptive instead of relying on `aria-label` attributes to patch generic link text.
+
+## 2025-04-13 - Lazy Loading Large Images
+**Learning:** Found that large animated GIFs in the documentation can cause page load jank and impact performance for users on slower connections.
+**Action:** Append `{ loading=lazy }` to large images and GIFs using the MkDocs `attr_list` extension to ensure they are lazy-loaded, improving initial page load times and overall performance.
+
+## 2026-04-12 - Lazy Loading Large Images
+**Learning:** Large GIFs in documentation can cause significant page jank and slow initial load times, negatively impacting the reading experience.
+**Action:** Use the MkDocs `attr_list` extension to append `{ loading=lazy }` to heavy media elements like animated GIFs.
+
+## 2026-05-28 - Visible action verbs in links
+**Learning:** Found a pattern where links were placed within sentences, but the action verb (e.g., 'Install' or 'Download') was kept outside the link text, while an `aria-label` was added to the link to provide the missing verb to screen readers. This creates a mismatch for speech dictation users and slightly degrades the experience for sighted users navigating via links.
+**Action:** Include the action verb within the visible link text to make it fully self-descriptive and match the `aria-label` perfectly (WCAG 2.4.4 and 2.5.3).
+
+## 2026-06-15 - Lazy Load Iframes
+**Learning:** Found that pages with multiple embedded video iframes (like Loom or Vimeo) load all video players simultaneously on initial page load. This causes severe page jank, slows down time-to-interactive, and downloads unnecessary data for users who might not scroll down.
+**Action:** Always add `loading="lazy"` to `<iframe>` elements to defer their loading until they are close to the viewport, improving initial page load performance and UX for all users.
+
+## 2026-04-29 - [Lazy Load Images in MkDocs]
+**Learning:** Adding `{ loading=lazy }` to image tags via the `attr_list` Markdown extension is crucial for MkDocs documentation to improve initial page load performance and prevent jank caused by large images and GIFs.
+**Action:** When adding images and GIFs, especially large informative ones, always append `{ loading=lazy }` after the image markdown syntax if `attr_list` is available.
