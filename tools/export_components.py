@@ -9,9 +9,9 @@ import time
 
 # --- CROSS-COMPATIBLE URL DECODING (IronPython 2.7 & Python 3) ---
 try:
-    from urllib.parse import unquote
+    from urllib.parse import unquote, quote
 except ImportError:
-    from urllib import unquote
+    from urllib import unquote, quote
 
 # --- CONFIGURATION -----------------------------------------------------------
 CLEAN_OUTPUT_DIR = True
@@ -172,13 +172,16 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
 
     lines = []
     lines.append(f"## ![](../images/icons/{name}.png) {bName}")
-    if githubRepo: lines[-1] += f" - [[source code]]({githubRepo}/{originalName.replace(' ', '%20')}.cs)\n"
+    if githubRepo:
+        search_query = quote(f'"{originalName}"')
+        lines[-1] += f" - [[source code]]({githubRepo}/search?q={search_query})\n"
     else: lines[-1] += "\n"
 
     image_filename = f"{name}-crop.png" if USE_CROPPED_IMAGES else f"{name}.png"
     lines.append(f"![](../images/components/{image_filename})")
     
     desc_cleaned = component.Description.split("Provided by ")[0].replace("\n", " ")
+    desc_cleaned = re.sub(r"(?i)\s*Version\s+\d+\.\d+\.\d+\.\d+", "", desc_cleaned)
     lines.append("\n" + desc_cleaned)
 
     try:
