@@ -87,19 +87,19 @@ Install **Eddy3D** from the Rhino Package Manager (run `PackageManager` in Rhino
 !!! note "One package"
     All modules &mdash; Outdoor, Outdoor+, Indoor, MRT, and FluidX3D &mdash; now ship in the single **`Eddy3D`** package on the Rhino Package Manager (`yak`). The former separate **`UMCF`** package (Outdoor+) has been retired.
 
+## Getting Started
+
+!!! tip "Start from a template"
+    Eddy3D ships with starter templates for every module. Right-click the **`Template`** component in Grasshopper to browse and load one, then follow the numbered markers through the canvas.
+
+![Starter template selection dialog](outdoor/images/template_selection.png){ loading=lazy }
+
+## Modules
+
 <details class="module-details" markdown="1" open id="outdoor-wind-mrt">
 <summary><strong>Outdoor &mdash; Wind &amp; MRT</strong></summary>
 
 Decoupled microclimate simulations via wind (OpenFOAM) and mean radiant temperature (Radiance).
-
-### Templates
-
-- Eddy comes with starter templates that you can find by right clicking on the `Template`  
-  component, see below.
-
-![Starter template selection dialog](outdoor/images/template_selection.png){ loading=lazy }
-
-- Select a template of your choice and follow the enumerated markers through the canvas.
 
 ### Parallel computation
 
@@ -111,23 +111,7 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 ![Example of a one-directional urban CFD setup canvas](outdoor/images/canvas-setup.png){ loading=lazy }
 
-### Video tutorials
-
-#### Simple wind analysis
-
-<iframe loading="lazy" title="Video tutorial: Simple wind analysis" src="https://player.vimeo.com/video/375687568" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
-
-#### Multi-directional / annual wind analysis
-
-<iframe loading="lazy" title="Video tutorial: Multi-directional / annual wind analysis" src="https://player.vimeo.com/video/375755947" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
-
-#### Pressure coefficients on building façade
-
-<iframe loading="lazy" title="Video tutorial: Pressure coefficients on building façade" src="https://player.vimeo.com/video/375755963" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
-
-#### Eddy3D & Paraview Workshop
-
-<iframe loading="lazy" title="Video tutorial: Eddy3D & Paraview Workshop" src="https://player.vimeo.com/video/1136117320" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+*Video walkthroughs are on the [Video Tutorials](tutorials.md) page.*
 
 </details>
 
@@ -167,9 +151,7 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 Modeling airflow, moisture content, and passive scalars in indoor spaces.
 
-### Indoor Wind & COVID-19 Analysis
-
-<iframe loading="lazy" title="Video tutorial: Indoor Wind & COVID-19 Analysis" src="https://player.vimeo.com/video/646509775?h=d290a944ab" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+*See the [Video Tutorials](tutorials.md) page for the Indoor Wind &amp; COVID-19 walkthrough.*
 
 </details>
 
