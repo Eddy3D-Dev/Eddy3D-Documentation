@@ -1,4 +1,4 @@
-## ![](../images/icons/Check_Geometry.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Check%20Geometry%22)
+# ![](../images/icons/Check_Geometry.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Check%20Geometry%22)
 
 ![](../images/components/Check_Geometry.png)
 

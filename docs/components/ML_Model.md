@@ -1,4 +1,4 @@
-## ![](../images/icons/ML_Model.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22ML%20Model%22)
+# ![](../images/icons/ML_Model.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22ML%20Model%22)
 
 ![](../images/components/ML_Model.png)
 

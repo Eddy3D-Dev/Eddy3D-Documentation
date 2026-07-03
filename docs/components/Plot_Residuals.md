@@ -1,4 +1,4 @@
-## ![](../images/icons/Plot_Residuals.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Plot%20Residuals%22)
+# ![](../images/icons/Plot_Residuals.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Plot%20Residuals%22)
 
 ![](../images/components/Plot_Residuals.png)
 

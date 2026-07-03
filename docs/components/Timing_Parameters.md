@@ -1,4 +1,4 @@
-## ![](../images/icons/Timing_Parameters.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Timing%20Parameters%22)
+# ![](../images/icons/Timing_Parameters.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Timing%20Parameters%22)
 
 ![](../images/components/Timing_Parameters.png)
 

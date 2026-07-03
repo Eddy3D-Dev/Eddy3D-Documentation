@@ -1,6 +1,6 @@
 ## ![](../images/icons/Viral_Emitter.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Viral%20Emitter%22)
 
-![](../images/components/Viral_Emitter.png)
+![](../images/components/Viral_Emitter-crop.png)
 
 An airborne-pathogen passive-scalar source box for an indoor ventilation case.
 

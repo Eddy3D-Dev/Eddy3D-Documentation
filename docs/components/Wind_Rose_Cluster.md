@@ -1,4 +1,4 @@
-## ![](../images/icons/Wind_Rose_Cluster.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Rose%20Cluster%22)
+# ![](../images/icons/Wind_Rose_Cluster.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Rose%20Cluster%22)
 
 ![](../images/components/Wind_Rose_Cluster.png)
 

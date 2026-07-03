@@ -1,4 +1,4 @@
-## ![](../images/icons/Export_to_Visualizer.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Export%20to%20Visualizer%22)
+# ![](../images/icons/Export_to_Visualizer.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Export%20to%20Visualizer%22)
 
 ![](../images/components/Export_to_Visualizer.png)
 

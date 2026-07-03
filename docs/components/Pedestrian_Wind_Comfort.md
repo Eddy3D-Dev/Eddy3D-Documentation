@@ -1,6 +1,6 @@
 ## ![](../images/icons/Pedestrian_Wind_Comfort.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Pedestrian%20Wind%20Comfort%22)
 
-![](../images/components/Pedestrian_Wind_Comfort.png)
+![](../images/components/Pedestrian_Wind_Comfort-crop.png)
 
 Classifies pedestrian wind comfort per point from an annual hourly wind-speed series (the Wind Speed output of the Velocity Amplification Factors (VAF) component) against a comfort criterion (Lawson, Davenport, NEN8100). Returns the comfort category, class letter, and activity description for each point.
 

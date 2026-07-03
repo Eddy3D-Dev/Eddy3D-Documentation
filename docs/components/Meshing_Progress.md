@@ -1,4 +1,4 @@
-## ![](../images/icons/Meshing_Progress.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Meshing%20Progress%22)
+# ![](../images/icons/Meshing_Progress.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Meshing%20Progress%22)
 
 ![](../images/components/Meshing_Progress.png)
 

@@ -1,4 +1,4 @@
-## ![](../images/icons/Wind_Predictor.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Predictor%22)
+# ![](../images/icons/Wind_Predictor.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Predictor%22)
 
 ![](../images/components/Wind_Predictor.png)
 

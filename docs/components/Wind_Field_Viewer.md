@@ -1,4 +1,4 @@
-## ![](../images/icons/Wind_Field_Viewer.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Field%20Viewer%22)
+# ![](../images/icons/Wind_Field_Viewer.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Field%20Viewer%22)
 
 ![](../images/components/Wind_Field_Viewer.png)
 

@@ -1,4 +1,4 @@
-## ![](../images/icons/Interpolate_UMag.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Interpolate%20UMag%22)
+# ![](../images/icons/Interpolate_UMag.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Interpolate%20UMag%22)
 
 ![](../images/components/Interpolate_UMag.png)
 

@@ -1,4 +1,4 @@
-## ![](../images/icons/Terrain_Region.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Terrain%20Region%22)
+# ![](../images/icons/Terrain_Region.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Terrain%20Region%22)
 
 ![](../images/components/Terrain_Region.png)
 

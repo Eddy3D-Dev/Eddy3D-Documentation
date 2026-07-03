@@ -1,4 +1,4 @@
-## ![](../images/icons/Load_Wind_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Load%20Wind%20Case%22)
+# ![](../images/icons/Load_Wind_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Load%20Wind%20Case%22)
 
 ![](../images/components/Load_Wind_Case.png)
 

@@ -1,4 +1,4 @@
-## ![](../images/icons/GAN_Predict.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22GAN%20Predict%22)
+# ![](../images/icons/GAN_Predict.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22GAN%20Predict%22)
 
 ![](../images/components/GAN_Predict.png)
 

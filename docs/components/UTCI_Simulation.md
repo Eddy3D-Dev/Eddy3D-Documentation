@@ -1,4 +1,4 @@
-## ![](../images/icons/UTCI_Simulation.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22UTCI%20%28Simulation%29%22)
+# ![](../images/icons/UTCI_Simulation.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22UTCI%20%28Simulation%29%22)
 
 ![](../images/components/UTCI_Simulation.png)
 

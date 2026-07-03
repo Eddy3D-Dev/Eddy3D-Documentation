@@ -1,4 +1,4 @@
-## ![](../images/icons/Indoor_Outlet.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Outlet%22)
+# ![](../images/icons/Indoor_Outlet.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Outlet%22)
 
 ![](../images/components/Indoor_Outlet.png)
 

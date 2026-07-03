@@ -1,4 +1,4 @@
-## ![](../images/icons/Vegetation_Properties.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Vegetation%20Properties%22)
+# ![](../images/icons/Vegetation_Properties.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Vegetation%20Properties%22)
 
 ![](../images/components/Vegetation_Properties.png)
 

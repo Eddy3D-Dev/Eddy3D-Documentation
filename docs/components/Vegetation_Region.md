@@ -1,4 +1,4 @@
-## ![](../images/icons/Vegetation_Region.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Vegetation%20Region%22)
+# ![](../images/icons/Vegetation_Region.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Vegetation%20Region%22)
 
 ![](../images/components/Vegetation_Region.png)
 

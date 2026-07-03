@@ -1,4 +1,4 @@
-## ![](../images/icons/Grass.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Grass%22)
+# ![](../images/icons/Grass.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Grass%22)
 
 ![](../images/components/Grass.png)
 

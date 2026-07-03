@@ -1,4 +1,4 @@
-## ![](../images/icons/Create_Mesh.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Create%20Mesh%22)
+# ![](../images/icons/Create_Mesh.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Create%20Mesh%22)
 
 ![](../images/components/Create_Mesh.png)
 

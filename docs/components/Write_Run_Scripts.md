@@ -1,6 +1,6 @@
-## ![](../images/icons/Write_Run_Scripts.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Write%20Run%20Scripts%22)
+# ![](../images/icons/Write_Run_Scripts.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Write%20Run%20Scripts%22)
 
-![](../images/components/Write_Run_Scripts.png)
+![](../images/components/Write_Run_Scripts-crop.png)
 
 Writes meshing and simulation scripts (.bat / .sh) into a Scripts/ folder under the wind study, so the workflow can be launched manually outside Grasshopper. The scripts match what the Run component executes. Write the study to disk first (Wind Case 'Write').
 

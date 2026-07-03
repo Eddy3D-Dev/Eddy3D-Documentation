@@ -1,4 +1,4 @@
-## ![](../images/icons/Outdoor_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Outdoor%20Case%22)
+# ![](../images/icons/Outdoor_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Outdoor%20Case%22)
 
 ![](../images/components/Outdoor_Case.png)
 

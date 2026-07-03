@@ -1,6 +1,6 @@
-## ![](../images/icons/Velocity_Amplification_Factors_VAF.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Velocity%20Amplification%20Factors%20%28VAF%29%22)
+# ![](../images/icons/Velocity_Amplification_Factors_VAF.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Velocity%20Amplification%20Factors%20%28VAF%29%22)
 
-![](../images/components/Velocity_Amplification_Factors_VAF.png)
+![](../images/components/Velocity_Amplification_Factors_VAF-crop.png)
 
 Compute Velocity Amplification Factors (VAF) and annual wind speed at probes from CFD results and EPW weather data. VAF (the term used in the wind-engineering literature for what Eddy3D historically called "wind factors") is the local wind speed normalized by the reference speed.
 

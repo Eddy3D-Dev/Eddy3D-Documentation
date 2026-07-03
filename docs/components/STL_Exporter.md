@@ -1,4 +1,4 @@
-## ![](../images/icons/STL_Exporter.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22STL%20Exporter%22)
+# ![](../images/icons/STL_Exporter.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22STL%20Exporter%22)
 
 ![](../images/components/STL_Exporter.png)
 

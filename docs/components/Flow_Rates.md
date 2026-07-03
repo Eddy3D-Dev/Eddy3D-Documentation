@@ -1,4 +1,4 @@
-## ![](../images/icons/Flow_Rates.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Flow%20Rates%22)
+# ![](../images/icons/Flow_Rates.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Flow%20Rates%22)
 
 ![](../images/components/Flow_Rates.png)
 

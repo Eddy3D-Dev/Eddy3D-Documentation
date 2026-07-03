@@ -1,4 +1,4 @@
-## ![](../images/icons/Sky_Exposure.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Sky%20Exposure%22)
+# ![](../images/icons/Sky_Exposure.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Sky%20Exposure%22)
 
 ![](../images/components/Sky_Exposure.png)
 

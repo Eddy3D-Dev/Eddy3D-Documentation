@@ -1,4 +1,4 @@
-## ![](../images/icons/Surface_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Surface%20Settings%22)
+# ![](../images/icons/Surface_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Surface%20Settings%22)
 
 ![](../images/components/Surface_Settings.png)
 

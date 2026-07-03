@@ -1,4 +1,4 @@
-## ![](../images/icons/Face_Warnings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Face%20Warnings%22)
+# ![](../images/icons/Face_Warnings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Face%20Warnings%22)
 
 ![](../images/components/Face_Warnings.png)
 

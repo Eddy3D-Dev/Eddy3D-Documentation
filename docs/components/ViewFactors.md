@@ -1,4 +1,4 @@
-## ![](../images/icons/ViewFactors.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22ViewFactors%22)
+# ![](../images/icons/ViewFactors.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22ViewFactors%22)
 
 ![](../images/components/ViewFactors.png)
 

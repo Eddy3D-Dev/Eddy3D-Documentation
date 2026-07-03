@@ -1,4 +1,4 @@
-## ![](../images/icons/Run_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Run%20Settings%22)
+# ![](../images/icons/Run_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Run%20Settings%22)
 
 ![](../images/components/Run_Settings.png)
 

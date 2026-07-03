@@ -1,4 +1,4 @@
-## ![](../images/icons/OpenFOAM_Dictionary.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22OpenFOAM%20Dictionary%22)
+# ![](../images/icons/OpenFOAM_Dictionary.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22OpenFOAM%20Dictionary%22)
 
 ![](../images/components/OpenFOAM_Dictionary.png)
 

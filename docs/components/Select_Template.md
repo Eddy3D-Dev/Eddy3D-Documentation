@@ -1,4 +1,4 @@
-## ![](../images/icons/Select_Template.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Select%20Template%22)
+# ![](../images/icons/Select_Template.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Select%20Template%22)
 
 ![](../images/components/Select_Template.png)
 

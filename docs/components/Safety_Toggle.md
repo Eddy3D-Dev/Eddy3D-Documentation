@@ -1,4 +1,4 @@
-## ![](../images/icons/Safety_Toggle.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Safety%20Toggle%22)
+# ![](../images/icons/Safety_Toggle.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Safety%20Toggle%22)
 
 ![](../images/components/Safety_Toggle.png)
 

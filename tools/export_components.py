@@ -241,7 +241,7 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     os.makedirs(components_dir, exist_ok=True)
 
     lines = []
-    lines.append(f"## ![](../images/icons/{name}.png)")
+    lines.append(f"# ![](../images/icons/{name}.png)")
     if githubRepo:
         repo_dir = os.path.abspath(os.path.join(githubFolder, "..", "Eddy3D"))
         try: class_name = type(component).__name__

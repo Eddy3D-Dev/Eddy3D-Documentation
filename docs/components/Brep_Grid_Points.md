@@ -1,4 +1,4 @@
-## ![](../images/icons/Brep_Grid_Points.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Brep%20Grid%20Points%22)
+# ![](../images/icons/Brep_Grid_Points.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Brep%20Grid%20Points%22)
 
 ![](../images/components/Brep_Grid_Points.png)
 

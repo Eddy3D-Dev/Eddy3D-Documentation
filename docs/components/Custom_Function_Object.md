@@ -1,4 +1,4 @@
-## ![](../images/icons/Custom_Function_Object.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Custom%20Function%20Object%22)
+# ![](../images/icons/Custom_Function_Object.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Custom%20Function%20Object%22)
 
 ![](../images/components/Custom_Function_Object.png)
 

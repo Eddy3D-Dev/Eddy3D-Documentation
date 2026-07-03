@@ -1,4 +1,4 @@
-## ![](../images/icons/Indoor_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Case%22)
+# ![](../images/icons/Indoor_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Case%22)
 
 ![](../images/components/Indoor_Case.png)
 

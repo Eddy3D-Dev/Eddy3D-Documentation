@@ -1,4 +1,4 @@
-## ![](../images/icons/Simulation_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Simulation%20Settings%22)
+# ![](../images/icons/Simulation_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Simulation%20Settings%22)
 
 ![](../images/components/Simulation_Settings.png)
 

@@ -1,6 +1,6 @@
-## ![](../images/icons/Analysis_Period.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Analysis%20Period%22)
+# ![](../images/icons/Analysis_Period.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Analysis%20Period%22)
 
-![](../images/components/Analysis_Period.png)
+![](../images/components/Analysis_Period-crop.png)
 
 Define an analysis period (from/to day of year, start/end hour of day) and output the hour-of-year indices it covers, for filtering annual results.
 

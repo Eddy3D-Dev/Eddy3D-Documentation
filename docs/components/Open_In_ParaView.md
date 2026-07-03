@@ -1,4 +1,4 @@
-## ![](../images/icons/Open_In_ParaView.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Open%20In%20ParaView%22)
+# ![](../images/icons/Open_In_ParaView.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Open%20In%20ParaView%22)
 
 ![](../images/components/Open_In_ParaView.png)
 

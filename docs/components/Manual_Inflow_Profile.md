@@ -1,4 +1,4 @@
-## ![](../images/icons/Manual_Inflow_Profile.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Manual%20Inflow%20Profile%22)
+# ![](../images/icons/Manual_Inflow_Profile.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Manual%20Inflow%20Profile%22)
 
 ![](../images/components/Manual_Inflow_Profile.png)
 

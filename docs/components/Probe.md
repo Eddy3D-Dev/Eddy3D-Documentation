@@ -1,4 +1,4 @@
-## ![](../images/icons/Probe.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Probe%22)
+# ![](../images/icons/Probe.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Probe%22)
 
 ![](../images/components/Probe.png)
 

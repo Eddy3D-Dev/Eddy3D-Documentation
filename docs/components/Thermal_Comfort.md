@@ -1,4 +1,4 @@
-## ![](../images/icons/Thermal_Comfort.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Thermal%20Comfort%22)
+# ![](../images/icons/Thermal_Comfort.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Thermal%20Comfort%22)
 
 ![](../images/components/Thermal_Comfort.png)
 

@@ -1,4 +1,4 @@
-## ![](../images/icons/CO2_Emitter.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22CO2%20Emitter%22)
+# ![](../images/icons/CO2_Emitter.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22CO2%20Emitter%22)
 
 ![](../images/components/CO2_Emitter.png)
 

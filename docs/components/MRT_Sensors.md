@@ -1,4 +1,4 @@
-## ![](../images/icons/MRT_Sensors.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%20Sensors%22)
+# ![](../images/icons/MRT_Sensors.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%20Sensors%22)
 
 ![](../images/components/MRT_Sensors.png)
 
