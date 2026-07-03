@@ -14,23 +14,10 @@ extra:
 nav:
   - Documentation:
       - Start: index.md
-  - Video Tutorials: tutorials.md
-  - Outdoor:
-      - Categories:
-          - ... | flat | outdoor/categories/*.md
-      - Components:
-          - ... | flat | outdoor/components/*.md
-  - Outdoor+:
       - First Steps: outdoorplus/first_steps.md
-      - Categories:
-          - ... | flat | outdoorplus/categories/*.md
-      - Components:
-          - ... | flat | outdoorplus/components/*.md
-  - Indoor:
-      - Categories:
-          - ... | flat | indoor/categories/*.md
-      - Components:
-          - ... | flat | indoor/components/*.md
+  - Video Tutorials: tutorials.md
+  - Components:
+      - ... | flat | outdoorplus/components/*.md
   - Back: "https://eddy3d.com"
 
 
