@@ -7,7 +7,7 @@ Indoor Wall/Boundary
  Defines a solid boundary for indoor simulations, such as walls, floors, or ceilings. Allows specification of surface temperature for thermal analysis.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Geo 

@@ -3,7 +3,7 @@
 ![Box Domain Component](../images/components/Box_Domain-crop.png)
 
 Define simulation domain extents and refinement padding.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### CS 

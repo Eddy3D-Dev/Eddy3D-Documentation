@@ -3,7 +3,7 @@
 ![Create Mesh Component](../images/components/Create_Mesh-crop.png)
 
 Create a visualization mesh from polyMesh point/face data.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Case 

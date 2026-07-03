@@ -1,15 +1,12 @@
 # Eddy3D &mdash; Outdoor+
 
-!!! warning "Alpha Version"
-    This module is currently in alpha testing. Features, inputs, and outputs are subject to change without notice.
-
 ![urbanMicroclimateFoam simulation preview](./images/outdoorplus/umcf.gif){ loading=lazy }
 
-### A Grasshopper plugin for microclimate simulations
+### Fully coupled microclimate simulations in Grasshopper
 
 ___
 
-**UMCF** (`urbanMicroclimateFoam`) is an open-source solver for coupled physical processes modeling urban microclimate based on `OpenFOAM`.
+**Outdoor+** is the fully coupled microclimate module of the **Eddy3D** plugin, built on the open-source **`urbanMicroclimateFoam`** (UMCF) solver for `OpenFOAM`.
 
 ### Key Features
 

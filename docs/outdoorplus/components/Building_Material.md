@@ -3,7 +3,7 @@
 ![Building Material Component](../images/components/Building_Material-crop.png)
 
 Select a building material by index and override its properties.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Index 

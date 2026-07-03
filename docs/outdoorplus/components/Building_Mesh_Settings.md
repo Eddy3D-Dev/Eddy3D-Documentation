@@ -3,7 +3,7 @@
 ![Building Mesh Settings Component](../images/components/Building_Mesh_Settings-crop.png)
 
 Configure mesh refinement for building regions.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### FeatLvl 

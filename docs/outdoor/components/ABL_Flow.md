@@ -7,7 +7,7 @@ Atmospheric Boundary Layer (ABL) Inlet
  Sets up a logarithmic wind profile based on aerodynamic roughness length (z0). Essential for accurate urban wind flow simulation, representing the friction of the upwind terrain.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Dir 

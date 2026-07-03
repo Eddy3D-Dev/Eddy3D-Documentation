@@ -7,7 +7,7 @@ Point Probe Inspector
  Visualizes simulation data at specific sensor points. Displays metrics like Wind Speed, UTCI, or MRT for individual locations or hours.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Sen 

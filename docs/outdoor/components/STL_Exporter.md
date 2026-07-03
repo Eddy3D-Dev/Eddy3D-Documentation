@@ -8,7 +8,7 @@ Export geometry to STL format for OpenFOAM or other CFD tools.
  output and single or multiple file export.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Geo 

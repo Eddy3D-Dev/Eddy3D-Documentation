@@ -3,7 +3,7 @@
 ![Grass Component](../images/components/Grass-crop.png)
 
 Define grass patches and parameters for the terrain.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Boundary 

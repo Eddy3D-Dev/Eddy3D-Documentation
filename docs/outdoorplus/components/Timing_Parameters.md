@@ -3,7 +3,7 @@
 ![Timing Parameters Component](../images/components/Timing_Parameters-crop.png)
 
 Define simulation timing and optional weather-driven time series.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Weather 

@@ -8,7 +8,7 @@ Filter analysis results by meteorological season.
  Use to calculate seasonal comfort or radiation metrics.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Season 

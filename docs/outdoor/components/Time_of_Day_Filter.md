@@ -8,7 +8,7 @@ Filter analysis results by time of day.
  Afternoon (4-5pm), Dinner (6-9pm), Nightlife (10pm-12am).
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Season 

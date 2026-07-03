@@ -3,7 +3,7 @@
 ![ABL Condition Component](../images/components/ABL_Condition-crop.png)
 
 Define atmospheric boundary layer settings for the air region.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### WS 

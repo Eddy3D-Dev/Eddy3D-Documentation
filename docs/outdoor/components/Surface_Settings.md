@@ -7,7 +7,7 @@ Material Properties
  Defines thermal and optical properties for building or ground surfaces (e.g., concrete, asphalt). Controls heat calculation parameters like conductivity, density, and emissivity.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Name 

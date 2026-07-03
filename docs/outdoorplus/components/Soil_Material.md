@@ -3,7 +3,7 @@
 ![Soil Material Component](../images/components/Soil_Material-crop.png)
 
 Define soil material properties for terrain layers.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Rho 

@@ -1,4 +1,4 @@
-# UMCF Component list
+# Eddy3D — Outdoor+ Component list
 ## Air
 #### Main Components
 * [ABL Condition](components/ABL_Condition.md)

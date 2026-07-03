@@ -3,7 +3,7 @@
 ![Simulation Mesh Settings Component](../images/components/Simulation_Mesh_Settings-crop.png)
 
 Configure snappyHexMesh settings for the simulation.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### AddLayers 

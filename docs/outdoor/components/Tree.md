@@ -7,7 +7,7 @@ Tree Modeler
  Represents trees as porous media for wind blocking. Essential for simulating the wind-sheltering effects of vegetation.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Geo 

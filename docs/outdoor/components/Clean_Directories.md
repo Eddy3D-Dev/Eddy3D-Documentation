@@ -7,7 +7,7 @@ Project Cleaner
  Utility to remove generated simulation files and free up disk space. Use with caution as it deletes results.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 

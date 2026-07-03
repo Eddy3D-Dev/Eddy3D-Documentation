@@ -3,13 +3,14 @@
 ## Installation
 
 ### Plugin
-- **Windows:** [Install Eddy3D for Windows](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D for Windows (opens in a new tab)" }
-- **Mac:** Install **`Eddy3D-OutdoorPlus`** via Rhino Package Manager (`yak`)
+Install **Eddy3D** via the Rhino Package Manager (`yak`) on either platform &mdash; run `PackageManager` in Rhino and search for **`Eddy3D`**.
+- **Windows:** also available as a [standalone installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D for Windows (opens in a new tab)" }.
+- **Mac:** install via the Package Manager as above.
 
 ### Simulation Engines (Windows / Mac)
 Choose a simulation engine (one of the following):
-- **Docker:** [Download Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Download Docker Desktop (opens in a new tab)" } (**Recommended cross-platform**, includes pre-configured `umcf` image)
-- **BlueCFD 2020 (Windows Only):** [Download BlueCFD 2020 installer](https://github.com/blueCFD/Core/releases/download/blueCFD-Core-2020-1/blueCFD-Core-2020-1-win64-setup.exe){ target="_blank" rel="noopener noreferrer" aria-label="Download BlueCFD 2020 installer (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
+- **Docker:** [Download Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Download Docker Desktop (opens in a new tab)" } (**Recommended cross-platform**, pulls a pre-configured OpenFOAM 12 image automatically)
+- **BlueCFD-Core 2024 (Windows Only):** [Download blueCFD-Core](https://bluecfd.github.io/Core/Downloads/){ target="_blank" rel="noopener noreferrer" aria-label="Download blueCFD-Core (opens in a new tab)" }
 - **WSL (Windows Only):** [WSL Installation guide for Windows](https://learn.microsoft.com/en-us/windows/wsl/install){ target="_blank" rel="noopener noreferrer" aria-label="WSL Installation guide for Windows (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
 
 If you would like to use the *experimental* MRT component, please [install Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/012cb178){ target="_blank" rel="noopener noreferrer" aria-label="Install Radiance 5.3 (opens in a new tab)" } in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).

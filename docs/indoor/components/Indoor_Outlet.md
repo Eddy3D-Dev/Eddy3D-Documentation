@@ -7,7 +7,7 @@ Ventilation Outlet
  Defines where air exhausts from the room, such as return grilles or open windows.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Geo 

@@ -3,7 +3,7 @@
 ![Simulation Settings Component](../images/components/Simulation_Settings-crop.png)
 
 Configure simulation control settings for UMCF.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### WriteInt 

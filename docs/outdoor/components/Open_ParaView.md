@@ -8,7 +8,7 @@ Launch ParaView for 3D CFD result visualization.
  pressure distributions, and streamlines. ParaView must be installed.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 

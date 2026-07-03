@@ -3,7 +3,7 @@
 ![Translate date to hours Component](../images/components/Translate_date_to_hours-crop.png)
 
 Translate Ladybug analysis period to hours of the year.
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### AP 

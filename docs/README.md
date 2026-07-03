@@ -1,4 +1,4 @@
-# UMCF Component list
+# Eddy3D — Component Reference
 
 ## Air
 

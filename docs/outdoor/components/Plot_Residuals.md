@@ -7,7 +7,7 @@ Convergence Monitor
  Visualizes the definition of simulation convergence (residuals) in real-time. Helps verify if the simulation has reached a stable solution.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 

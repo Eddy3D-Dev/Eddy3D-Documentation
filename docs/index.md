@@ -56,19 +56,19 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 | Module   | Overview                                                     | Core engine            | Package | Rhino (ver) | OS support  | OpenFOAM (ver) | Radiance (ver) |
 |----------|--------------------------------------------------------------|------------------------|-----------------------|-------------|----------------|----------------|----------------|
-| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance     | **Eddy3D**            | 8.27        | Windows (Mac via manual install)     | 8              |  Radiance 5.3  |
-| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM   | **Eddy3D-OutdoorPlus** | 8.21                  | Windows/Mac | 8              | —              |
-| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM               | **Eddy3D**            | 8.27        | Windows (Mac via manual install)     | 8              | -              |
+| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance     | **Eddy3D**            | 8.27        | Windows / Mac     | 12              |  Radiance 5.3  |
+| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM   | **Eddy3D** | 8.27                  | Windows / Mac | 12              | —              |
+| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM               | **Eddy3D**            | 8.27        | Windows / Mac     | 12              | -              |
 
 ## Downloads
 
 | Plugin | Platform | Link |
 |----------|----------|----------------|
-| **Eddy3D** (Outdoor / Indoor) | Windows | [Download Eddy3D Installer for Windows](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Download Eddy3D Installer for Windows (opens in a new tab)" } |
-| **Eddy3D-OutdoorPlus** (Outdoor+) | Windows / Mac | [Install `UMCF` via Rhino Package Manager (`yak`)](https://rhinopackages.github.io/?search=Umcf&sort=2){ target="_blank" rel="noopener noreferrer" aria-label="Install UMCF via Rhino Package Manager (yak) (opens in a new tab)" } |
+| **Eddy3D** (Outdoor, Outdoor+, Indoor, MRT, FluidX3D) | Windows / Mac | [Install via the Rhino Package Manager &mdash; search **`Eddy3D`**](https://rhinopackages.github.io/?search=Eddy3D&sort=2){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D via the Rhino Package Manager (opens in a new tab)" } |
+| **Eddy3D** (Windows installer) | Windows | [Download standalone installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Download Eddy3D installer for Windows (opens in a new tab)" } |
 
 !!! tip "Previous Versions"
     View the [**required Rhino 8.27 build details (8.27.26019.16022, en-us)**](https://rhinoversions.github.io/?version=8.27.26019.16022&locale=en-us){ target="_blank" rel="noopener noreferrer" aria-label="required Rhino 8.27 build details (8.27.26019.16022, en-us) (opens in a new tab)" }.
 
-!!! note "Plugin Naming"
-    The **Outdoor+** module is currently distributed under the package name **`UMCF`** via the Rhino Package Manager (`yak`). Ensure you enable **"Include pre-releases"** in the Package Manager.
+!!! note "One package"
+    All modules &mdash; Outdoor, Outdoor+, Indoor, MRT, and FluidX3D &mdash; now ship in the single **`Eddy3D`** package on the Rhino Package Manager (`yak`). The former separate **`UMCF`** package (Outdoor+) has been retired.

@@ -1,4 +1,4 @@
-# UMCF Component list
+# Eddy3D — Indoor Component list
 ## 9 Indoor
 #### Main Components
 * [CO2 Emitter](components/CO2_Emitter.md)

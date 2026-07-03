@@ -60,7 +60,7 @@ Pedestrian Wind Comfort Analysis
  3 - C   > 15 m/s    > 0.3 %     Dangerous
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### WFS 

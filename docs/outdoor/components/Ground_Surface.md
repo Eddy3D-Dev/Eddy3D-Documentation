@@ -7,7 +7,7 @@ Ground Material
  Defines properties for ground surfaces like asphalt, concrete, or soil. Critical for analyzing the Urban Heat Island effect.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Geo 

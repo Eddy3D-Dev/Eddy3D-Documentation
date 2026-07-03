@@ -3,7 +3,7 @@
 ![Comfort Component](../images/components/Comfort-crop.png)
 
 Comfort System
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### MRT 

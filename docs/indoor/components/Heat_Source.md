@@ -7,7 +7,7 @@ Heat Source
  Models a heat-generating object within the indoor space, such as equipment, electronics, or a cluster of people. Can be defined by total power (W) or power density (W/m³).
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Geo 

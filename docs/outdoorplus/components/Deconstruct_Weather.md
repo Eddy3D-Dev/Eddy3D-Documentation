@@ -3,7 +3,7 @@
 ![Deconstruct Weather Component](../images/components/Deconstruct_Weather-crop.png)
 
 Deconstruct a Weather object into hourly time series values.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Weather 

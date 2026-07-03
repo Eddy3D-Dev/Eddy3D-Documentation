@@ -3,7 +3,7 @@
 ![Get Probes Component](../images/components/Get_Probes-crop.png)
 
 Read probe results from a case and field.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Case 

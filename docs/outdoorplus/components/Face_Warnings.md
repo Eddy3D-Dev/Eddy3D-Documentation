@@ -3,7 +3,7 @@
 ![Face Warnings Component](../images/components/Face_Warnings-crop.png)
 
 Visualize faces that fail tet decomposition during topoSet.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Case 
