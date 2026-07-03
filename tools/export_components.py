@@ -163,26 +163,27 @@ def getComponentName(component_obj_or_desc):
     return clean_string(name_no_prefix)
 
 
-def get_source_path(original_name, repo_dir):
+
+def get_source_path(class_name, repo_dir):
     import os
     import re
-    comp_clean = re.sub(r'[^a-zA-Z0-9]', '', original_name).lower()
-    fallback_match = None
+    if not class_name: return None
+    pattern = re.compile(r'class\s+' + re.escape(class_name) + r'\b')
     try:
         for root, dirs, files in os.walk(repo_dir):
             if any(x in root for x in ["obj", "bin", "Tests", "Properties", ".git"]):
                 continue
             for f in files:
                 if f.endswith(".cs"):
-                    cs_clean = f.replace(".cs", "").lower()
-                    cs_clean = re.sub(r'[^a-zA-Z0-9]', '', cs_clean)
-                    if cs_clean == comp_clean:
-                        rel = os.path.relpath(os.path.join(root, f), repo_dir)
-                        return rel.replace("\\", "/")
-                    elif cs_clean == comp_clean + "cmp":
-                        fallback_match = os.path.relpath(os.path.join(root, f), repo_dir).replace("\\", "/")
+                    path = os.path.join(root, f)
+                    try:
+                        with open(path, "r", encoding="utf-8", errors="ignore") as f_obj:
+                            file_content = f_obj.read()
+                            if pattern.search(file_content):
+                                return os.path.relpath(path, repo_dir).replace("\\", "/")
+                    except: pass
     except Exception: pass
-    return fallback_match
+    return None
 
 def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     originalName = component.Name
@@ -196,7 +197,9 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     lines.append(f"## ![](../images/icons/{name}.png) {bName}")
     if githubRepo:
         repo_dir = os.path.abspath(os.path.join(githubFolder, "..", "Eddy3D"))
-        mapped_path = get_source_path(originalName, repo_dir) if repo_dir and os.path.exists(repo_dir) else None
+        try: class_name = type(component).__name__
+        except: class_name = None
+        mapped_path = get_source_path(class_name, repo_dir) if repo_dir and os.path.exists(repo_dir) else None
         
         if mapped_path:
             lines[-1] += f" - [[source code]]({githubRepo}/blob/dev/{mapped_path})\n"
