@@ -194,7 +194,7 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     os.makedirs(components_dir, exist_ok=True)
 
     lines = []
-    lines.append(f"## ![](../images/icons/{name}.png) {bName}")
+    lines.append(f"## ![](../images/icons/{name}.png)")
     if githubRepo:
         repo_dir = os.path.abspath(os.path.join(githubFolder, "..", "Eddy3D"))
         try: class_name = type(component).__name__
@@ -202,10 +202,10 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
         mapped_path = get_source_path(class_name, repo_dir) if repo_dir and os.path.exists(repo_dir) else None
         
         if mapped_path:
-            lines[-1] += f" - [[source code]]({githubRepo}/blob/dev/{mapped_path})\n"
+            lines[-1] += f" [[source code]]({githubRepo}/blob/dev/{mapped_path})\n"
         else:
             search_query = quote(f'"{originalName}"')
-            lines[-1] += f" - [[source code]]({githubRepo}/search?q={search_query})\n"
+            lines[-1] += f" [[source code]]({githubRepo}/search?q={search_query})\n"
     else: lines[-1] += "\n"
 
     image_filename = f"{name}-crop.png" if USE_CROPPED_IMAGES else f"{name}.png"
