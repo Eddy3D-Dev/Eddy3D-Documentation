@@ -27,7 +27,7 @@ Optional: Simulation settings (Radiance parameters, timestep).
 * ##### CFD 
 Optional: Path to .wind.eddy file for wind-coupled MRT analysis.
 * ##### RadPath 
-Optional: Custom Radiance bin folder. Default: C:\Users\pkastner\AppData\Roaming\Eddy3D\Radiance_012cb178_Windows\bin
+Optional: Custom Radiance bin folder. Default: C:\Users\pkastner\AppData\Roaming\Eddy3D\Radiance_c1700d56_Windows\bin
 * ##### EPPath 
 Optional: Custom EnergyPlus folder. Default: C:\EnergyPlusV9-4-0
 * ##### Run! 
