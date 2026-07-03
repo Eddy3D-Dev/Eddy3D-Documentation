@@ -147,63 +147,9 @@ def captureGrasshopperScreen(fileName, workingDirectory, component=None):
     shutil.copyfile(screenCapture, filePath)
     track_file(filePath)
     
-    if USE_CROPPED_IMAGES:
-        FILES_TO_CROP.append(filePath)
-    
     path = os.path.split(screenCapture)[0]
     try: shutil.rmtree(path)
     except: pass
-
-def crop_image(filePath):
-    # Fast Auto-crop: trim background using coarse steps to ensure fast execution
-    try:
-        bmp = System.Drawing.Bitmap(filePath)
-        bg = bmp.GetPixel(0, 0)
-        tolerance = 30
-        def is_bg(c):
-            return (abs(int(c.R) - int(bg.R)) < tolerance and
-                    abs(int(c.G) - int(bg.G)) < tolerance and
-                    abs(int(c.B) - int(bg.B)) < tolerance)
-        w, h = bmp.Width, bmp.Height
-        
-        step = 5 # Coarse enough for speed, fine enough for accuracy
-        top = 0
-        for y in range(0, h, step):
-            if any(not is_bg(bmp.GetPixel(x, y)) for x in range(0, w, step)):
-                top = y
-                break
-        bottom = h - 1
-        for y in range(h - 1, -1, -step):
-            if any(not is_bg(bmp.GetPixel(x, y)) for x in range(0, w, step)):
-                bottom = y
-                break
-        left = 0
-        for x in range(0, w, step):
-            if any(not is_bg(bmp.GetPixel(x, y)) for y in range(top, bottom + 1, step)):
-                left = x
-                break
-        right = w - 1
-        for x in range(w - 1, -1, -step):
-            if any(not is_bg(bmp.GetPixel(x, y)) for y in range(top, bottom + 1, step)):
-                right = x
-                break
-        
-        pad = 20 # Pad back out slightly for visual breathing room
-        top = max(0, top - pad)
-        left = max(0, left - pad)
-        bottom = min(h - 1, bottom + pad)
-        right = min(w - 1, right + pad)
-        
-        crop_rect = System.Drawing.Rectangle(left, top, right - left + 1, bottom - top + 1)
-        cropped = bmp.Clone(crop_rect, bmp.PixelFormat)
-        crop_path = filePath.replace(".png", "-crop.png")
-        if os.path.exists(crop_path): os.remove(crop_path)
-        cropped.Save(crop_path)
-        track_file(crop_path)
-        cropped.Dispose()
-        bmp.Dispose()
-    except Exception as e:
-        print(f"  Warning: fast auto-crop failed for {filePath}: {e}")
 
 def exportIcon(component, pluginName, workingDirectory):
     target_dir = os.path.join(workingDirectory, "images", "icons")
@@ -407,18 +353,24 @@ if DISABLE_SOLVER:
     doc.Enabled = original_solver_state
     print("Solver state restored.")
 
-if FILES_TO_CROP:
-    print(f"\nCropping {len(FILES_TO_CROP)} images in parallel...")
+if USE_CROPPED_IMAGES:
+    print("\nLaunching external image cropper...")
     try:
-        import multiprocessing.dummy
-        pool = multiprocessing.dummy.Pool()
-        pool.map(crop_image, FILES_TO_CROP)
-        pool.close()
-        pool.join()
+        import subprocess
+        import sys
+        
+        script_dir = os.path.dirname(__file__)
+        crop_script = os.path.join(script_dir, "crop_images.py")
+        
+        # Try to use python3 if on mac, otherwise whatever python is in path
+        python_exe = "python3" if sys.platform == "darwin" else "python"
+        
+        # Launch totally detached so Rhino doesn't block
+        subprocess.Popen([python_exe, crop_script, githubFolder], start_new_session=True)
+        print("External cropper started in the background. It will finish shortly.")
     except Exception as e:
-        print(f"Parallel crop failed, falling back to sequential: {e}")
-        for path in FILES_TO_CROP:
-            crop_image(path)
+        print(f"Failed to launch cropper automatically: {e}")
+        print("Please run manually: python3 tools/crop_images.py " + githubFolder)
 
 finalOutputFolder = githubFolder 
 for cleanSubCat in pluginComponents:
