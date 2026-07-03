@@ -64,7 +64,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 | Plugin | Platform | Link |
 |----------|----------|----------------|
-| **Eddy3D** (Outdoor, Outdoor+, Indoor, MRT, FluidX3D) | Windows / Mac | [Install via the Rhino Package Manager &mdash; search **`Eddy3D`**](https://rhinopackages.github.io/?search=Eddy3D&sort=2){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D via the Rhino Package Manager (opens in a new tab)" } |
+| **Eddy3D** (Outdoor, Outdoor+, Indoor, MRT, FluidX3D) | Windows / Mac | [Install via the Rhino Package Manager &mdash; search **`Eddy3D`**](https://rhinopackages.github.io/?search=eddy3d&sort=2&p=Eddy3D){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D via the Rhino Package Manager (opens in a new tab)" } |
 | **Eddy3D** (Windows installer) | Windows | [Download standalone installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Download Eddy3D installer for Windows (opens in a new tab)" } |
 
 !!! tip "Previous Versions"
