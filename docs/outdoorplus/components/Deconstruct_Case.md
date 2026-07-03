@@ -1,33 +1,25 @@
-## ![Deconstruct Case Icon](../images/icons/Deconstruct_Case.png) Deconstruct Case
+## ![](../images/icons/Deconstruct_Case.png) Deconstruct Case
 
-![Deconstruct Case Component](../images/components/Deconstruct_Case-crop.png)
+![](../images/components/Deconstruct_Case-crop.png)
 
-Deconstruct a case instance and expose its regions and file containers.
+Inspect any Eddy3D case: Outdoor wind study, Indoor case, or OutdoorPlus (UMF) case.
 
 #### Input
-* ##### Case 
-Case to deconstruct.
+* ##### C 
+Any Eddy3D case: an Outdoor wind study, an Indoor case, or an OutdoorPlus (UMF) case.
 
 #### Output
-* ##### Name
+* ##### N
 Case name.
-* ##### Air
-Air region in the case.
-* ##### Vegetation
-Vegetation regions in the case.
-* ##### Solid
-Solid regions in the case.
-* ##### InitDicts
-Initial condition dictionaries stored as file containers.
-* ##### Dicts
-OpenFOAM dictionaries stored as file containers.
-* ##### Lists
-OpenFOAM lists stored as file containers.
-* ##### Scripts
-Scripts stored as file containers.
-* ##### Meshes
-Meshes stored as mesh containers.
-* ##### Text
-Files that do not meet other categories.
-* ##### Patches
-Patch names found in the initial conditions.
+* ##### T
+Which plugin produced it (Outdoor / Indoor / OutdoorPlus).
+* ##### G
+Representative geometry (buildings / room / total mesh).
+* ##### D
+Simulation domain (wind tunnel box / indoor zone).
+* ##### F
+Case directories on disk (one per sub-result).
+* ##### S
+Sub-result labels (wind directions for Outdoor; the case name otherwise).
+* ##### R
+Regions available to probe (air, buildings, … for UMF; a single empty entry otherwise).

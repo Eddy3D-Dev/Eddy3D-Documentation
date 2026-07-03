@@ -1,8 +1,8 @@
-## ![Advanced Terrain Mesh Icon](../images/icons/Advanced_Terrain_Mesh.png) Advanced Terrain Mesh
+## ![](../images/icons/Advanced_Terrain_Mesh.png) Advanced Terrain Mesh
 
-![Advanced Terrain Mesh Component](../images/components/Advanced_Terrain_Mesh-crop.png)
+![](../images/components/Advanced_Terrain_Mesh-crop.png)
 
-Generate a multi-resolution terrain mesh with a solid base.
+Generate a multi-resolution terrain mesh from input geometry with a solid base. OutdoorPlus
 
 #### Input
 * ##### Geo 

@@ -1,13 +1,12 @@
-## ![Create Mesh Icon](../images/icons/Create_Mesh.png) Create Mesh
+## ![](../images/icons/Create_Mesh.png) Create Mesh
 
-![Create Mesh Component](../images/components/Create_Mesh-crop.png)
+![](../images/components/Create_Mesh-crop.png)
 
-Create a visualization mesh from polyMesh point/face data.
- Eddy3D 1.0.0.827
+Create a visualization mesh from polyMesh point/face data. OutdoorPlus
 
 #### Input
 * ##### Case 
-UMCF case used to locate the mesh data.
+UMF case used to locate the mesh data.
 * ##### Region 
 Region name to visualize.
 * ##### Faces 

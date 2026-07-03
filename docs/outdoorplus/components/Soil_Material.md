@@ -1,19 +1,18 @@
-## ![Soil Material Icon](../images/icons/Soil_Material.png) Soil Material
+## ![](../images/icons/Soil_Material.png) Soil Material
 
-![Soil Material Component](../images/components/Soil_Material-crop.png)
+![](../images/components/Soil_Material-crop.png)
 
-Define soil material properties for terrain layers.
- Eddy3D 1.0.0.827
+Define soil material properties for terrain layers. OutdoorPlus
 
 #### Input
 * ##### Rho 
-Material density (rho). Optional; default is 1150.
+Material density (rho) [kg/m³].
 * ##### Cap 
-Heat capacity (cap). Optional; default is 650.
+Specific heat capacity (cap) [J/kgK].
 * ##### Lam1 
-Primary thermal conductivity (lambda1). Optional; default is 1.5.
+First coefficient of thermal conductivity (lambda1) [W/mK]. Used in the formula: lambda = lambda1 + lambda2 * ws (where ws is moisture content).
 * ##### Lam2 
-Secondary thermal conductivity (lambda2). Optional; default is 0.0.
+Second coefficient of thermal conductivity (lambda2) [W/mK]. Used in the formula: lambda = lambda1 + lambda2 * ws (where ws is moisture content).
 
 #### Output
 * ##### Mat

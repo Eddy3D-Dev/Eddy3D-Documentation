@@ -1,9 +1,8 @@
-## ![ViewFactors Icon](../images/icons/ViewFactors.png) ViewFactors
+## ![](../images/icons/ViewFactors.png) ViewFactors
 
-![ViewFactors Component](../images/components/ViewFactors-crop.png)
+![](../images/components/ViewFactors-crop.png)
 
-Configure the view-factor discretization for radiation modeling.
- Eddy3D 1.0.0.827
+Configure the view-factor discretization for radiation modeling. OutdoorPlus
 
 #### Input
 * ##### SideFaces 

@@ -1,29 +1,18 @@
-## ![Terrain Mesh Settings Icon](../images/icons/Terrain_Mesh_Settings.png) Terrain Mesh Settings
+## ![](../images/icons/Terrain_Mesh_Settings.png) Terrain Mesh Settings
 
-![Terrain Mesh Settings Component](../images/components/Terrain_Mesh_Settings-crop.png)
+![](../images/components/Terrain_Mesh_Settings-crop.png)
 
-Configure mesh settings for terrain and underground regions.
- Eddy3D 1.0.0.827
+Configure mesh settings for terrain and underground regions. OutdoorPlus
 
 #### Input
-* ##### Layers 
-Number of layers in the terrain extrusion. Optional; default is 4.
-* ##### Expand 
-Extrusion expansion ratio. Optional; default is 1.2.
-* ##### FeatLvl 
-Feature refinement level. Optional; default is 4.
-* ##### SurfMin 
-Minimum surface refinement level. Optional; default is 3.
-* ##### SurfMax 
-Maximum surface refinement level. Optional; default is 5.
-* ##### RegDistMin 
-Outer distance for the lower region refinement level. Optional; default is 2.0.
-* ##### RegMin 
-Lower region refinement level. Optional; default is 4.
-* ##### RegDistMax 
-Inner distance for the higher region refinement level. Optional; default is 1.0.
-* ##### RegMax 
-Upper region refinement level. Optional; default is 5.
+* ##### SrfLC 
+Number of layers in the terrain surface. Optional; default is 4.
+* ##### SrfER 
+Expansion ratio of terrain surface. Optional; default is 1.2.
+* ##### SoLC 
+Number of layers in the terrain soil. Optional; default is 4.
+* ##### SoER 
+Expansion ratio of terrain soil. Optional; default is 1.2.
 
 #### Output
 * ##### Mesh

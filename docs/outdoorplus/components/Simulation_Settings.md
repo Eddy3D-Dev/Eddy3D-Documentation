@@ -1,9 +1,8 @@
-## ![Simulation Settings Icon](../images/icons/Simulation_Settings.png) Simulation Settings
+## ![](../images/icons/Simulation_Settings.png) Simulation Settings
 
-![Simulation Settings Component](../images/components/Simulation_Settings-crop.png)
+![](../images/components/Simulation_Settings-crop.png)
 
-Configure simulation control settings for UMCF.
- Eddy3D 1.0.0.827
+Configure simulation control settings for UMF. OutdoorPlus  Version 1.0.0.827
 
 #### Input
 * ##### WriteInt 
@@ -13,7 +12,7 @@ Write format: 0=ascii, 1=binary, 2=compressed.
 * ##### CPU 
 Number of CPUs/subdomains to use. Optional; default is 1.
 * ##### SolidStep 
-Initial solid time step factor for UMCF controlDict. Optional.
+Initial solid time step factor for UMF controlDict. Optional.
 * ##### MinDT 
 Minimum time step between iterations. Optional.
 * ##### MaxDT 

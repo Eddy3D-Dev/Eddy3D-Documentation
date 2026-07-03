@@ -1,6 +1,6 @@
-## ![Create Setting Icon](../images/icons/Create_Setting.png) Create Setting
+## ![](../images/icons/Create_Setting.png) Create Setting
 
-![Create Setting Component](../images/components/Create_Setting-crop.png)
+![](../images/components/Create_Setting-crop.png)
 
 Create a Setting from a list of entries.
 

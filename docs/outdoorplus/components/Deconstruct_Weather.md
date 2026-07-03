@@ -1,46 +1,21 @@
-## ![Deconstruct Weather Icon](../images/icons/Deconstruct_Weather.png) Deconstruct Weather
+## ![](../images/icons/Deconstruct_Weather.png) Deconstruct Weather
 
-![Deconstruct Weather Component](../images/components/Deconstruct_Weather-crop.png)
+![](../images/components/Deconstruct_Weather-crop.png)
 
-Deconstruct a Weather object into hourly time series values.
- Eddy3D 1.0.0.827
+Deconstruct a Weather object into hourly time series values. OutdoorPlus  Version 1.0.0.827
 
 #### Input
 * ##### Weather 
-Weather object to deconstruct.
+Weather object, or an EPW file path (e.g. from Download Weather), to deconstruct.
+* ##### F 
+Pick which weather fields to output. Tick to add an output, untick to remove. All 17 are available.
 
 #### Output
 * ##### DBT
 Hourly dry-bulb temperature (deg C).
-* ##### DPT
-Hourly dew point temperature (deg C).
 * ##### RH
 Hourly relative humidity (%).
-* ##### AbsH
-Hourly absolute humidity.
-* ##### P
-Hourly atmospheric pressure.
 * ##### WS
 Hourly wind speed (m/s).
 * ##### WD
 Hourly wind direction (deg).
-* ##### DNR
-Hourly direct normal radiation.
-* ##### DHR
-Hourly diffuse horizontal radiation.
-* ##### HR
-Hourly horizontal radiation.
-* ##### NR
-Hourly normal radiation.
-* ##### SR
-Hourly sky radiation.
-* ##### GHR
-Hourly global horizontal radiation.
-* ##### TSC
-Hourly total sky cover.
-* ##### OSC
-Hourly opaque sky cover.
-* ##### SE
-Hourly solar elevation (deg).
-* ##### SA
-Hourly solar azimuth (deg).

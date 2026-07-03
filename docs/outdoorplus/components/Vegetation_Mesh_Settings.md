@@ -1,23 +1,16 @@
-## ![Vegetation Mesh Settings Icon](../images/icons/Vegetation_Mesh_Settings.png) Vegetation Mesh Settings
+## ![](../images/icons/Vegetation_Mesh_Settings.png) Vegetation Mesh Settings
 
-![Vegetation Mesh Settings Component](../images/components/Vegetation_Mesh_Settings-crop.png)
+![](../images/components/Vegetation_Mesh_Settings-crop.png)
 
-Configure mesh refinement for vegetation regions.
- Eddy3D 1.0.0.827
+Configure mesh refinement for vegetation regions. OutdoorPlus
 
 #### Input
-* ##### SurfMin 
-Minimum surface refinement level. Optional; default is 3.
-* ##### SurfMax 
-Maximum surface refinement level. Optional; default is 5.
-* ##### RegDistMin 
-Outer distance for the lower region refinement level. Optional; default is 2.0.
-* ##### RegMin 
-Lower region refinement level. Optional; default is 4.
-* ##### RegDistMax 
-Inner distance for the higher region refinement level. Optional; default is 1.0.
-* ##### RegMax 
-Upper region refinement level. Optional; default is 5.
+* ##### FR 
+Feature refinement level. Optional; default is 2.
+* ##### MnSR 
+Minimum refinement on surfaces. Optional; default is 4.
+* ##### MxSR 
+Maximum refinement on surfaces. Optional; default is 5.
 
 #### Output
 * ##### Mesh

@@ -1,13 +1,12 @@
-## ![Create OBJ Icon](../images/icons/Create_OBJ.png) Create OBJ
+## ![](../images/icons/Create_OBJ.png) Create OBJ
 
-![Create OBJ Component](../images/components/Create_OBJ-crop.png)
+![](../images/components/Create_OBJ-crop.png)
 
-Export an OBJ mesh from a polyMesh description.
- Eddy3D 1.0.0.827
+Export an OBJ mesh from a polyMesh description. OutdoorPlus
 
 #### Input
 * ##### Data 
-Geometric and topological mesh data (UMCFMesh).
+Geometric and topological mesh data (UMFMesh).
 * ##### File 
 Output OBJ file name or path.
 * ##### Faces 

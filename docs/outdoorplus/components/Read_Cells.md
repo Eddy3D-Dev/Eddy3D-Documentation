@@ -1,13 +1,12 @@
-## ![Read Cells Icon](../images/icons/Read_Cells.png) Read Cells
+## ![](../images/icons/Read_Cells.png) Read Cells
 
-![Read Cells Component](../images/components/Read_Cells-crop.png)
+![](../images/components/Read_Cells-crop.png)
 
-Read cell connectivity and cell zones for a region.
- Eddy3D 1.0.0.827
+Read cell connectivity and cell zones for a region. OutdoorPlus
 
 #### Input
 * ##### Case 
-UMCF case containing the region data.
+UMF case containing the region data.
 * ##### Region 
 Region name to read.
 * ##### Chunk 

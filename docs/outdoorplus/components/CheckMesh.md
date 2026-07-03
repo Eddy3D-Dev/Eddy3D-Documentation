@@ -1,15 +1,14 @@
-## ![CheckMesh Icon](../images/icons/CheckMesh.png) CheckMesh
+## ![](../images/icons/CheckMesh.png) CheckMesh
 
-![CheckMesh Component](../images/components/CheckMesh-crop.png)
+![](../images/components/CheckMesh-crop.png)
 
-Run the OpenFOAM checkMesh command for a case region.
- Eddy3D 1.0.0.827
+Run the OpenFOAM checkMesh command for a case region. OutdoorPlus  Version 1.0.0.827
 
 #### Input
 * ##### Run 
 Run the checkMesh command.
 * ##### Case 
-UMCF case instance to check.
+UMF case instance to check.
 * ##### Region 
 Region name to check.
 

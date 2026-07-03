@@ -1,6 +1,6 @@
-## ![CalcPET Icon](../images/icons/CalcPET.png) CalcPET
+## ![](../images/icons/CalcPET.png) CalcPET
 
-![CalcPET Component](../images/components/CalcPET-crop.png)
+![](../images/components/CalcPET-crop.png)
 
 Calculate PET (Physiological Equivalent Temperature) from environmental and personal inputs.
 

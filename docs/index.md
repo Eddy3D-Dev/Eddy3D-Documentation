@@ -1,6 +1,6 @@
-# Eddy3D Modules
+# Eddy3D
 
-The Grasshopper plugin currently contains three modules, please see below.
+Eddy3D is a Grasshopper plugin for Rhino 8 for urban microclimate and airflow simulation. Everything now ships in a single **Eddy3D** package that bundles several modules:
 
 <div class="grid cards" markdown>
 
@@ -12,7 +12,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: View Eddy3D Outdoor Documentation](outdoor/index.md)
+    [:octicons-arrow-right-24: Outdoor](#outdoor-wind-mrt)
 
 - __Eddy3D Outdoor+__
 
@@ -22,7 +22,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: View Eddy3D Outdoor+ Documentation](outdoorplus/index.md)
+    [:octicons-arrow-right-24: Outdoor+](#outdoor-coupled-microclimate)
 
 - __Eddy3D Indoor__
 
@@ -32,7 +32,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: View Eddy3D Indoor Documentation](indoor/index.md)
+    [:octicons-arrow-right-24: Indoor](#indoor-airflow)
 
 </div>
 
@@ -52,6 +52,23 @@ The Grasshopper plugin currently contains three modules, please see below.
   }
 </style>
 
+## Installation
+
+### Plugin
+Install **Eddy3D** via the Rhino Package Manager (`yak`) on either platform &mdash; run `PackageManager` in Rhino and search for **`Eddy3D`**.
+
+- **Windows:** also available as a [standalone installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D for Windows (opens in a new tab)" }.
+- **Mac:** install via the Package Manager as above.
+
+### Simulation Engines (Windows / Mac)
+Choose a simulation engine (one of the following):
+
+- **Docker:** [Download Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Download Docker Desktop (opens in a new tab)" } (**Recommended cross-platform**, pulls a pre-configured OpenFOAM 12 image automatically)
+- **BlueCFD-Core 2024 (Windows Only):** [Download blueCFD-Core](https://bluecfd.github.io/Core/Downloads/){ target="_blank" rel="noopener noreferrer" aria-label="Download blueCFD-Core (opens in a new tab)" }
+- **WSL (Windows Only):** [WSL Installation guide for Windows](https://learn.microsoft.com/en-us/windows/wsl/install){ target="_blank" rel="noopener noreferrer" aria-label="WSL Installation guide for Windows (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
+
+The **MRT** component uses [Radiance](https://github.com/LBNL-ETA/Radiance){ target="_blank" rel="noopener noreferrer" aria-label="Radiance on GitHub (opens in a new tab)" }. The **Install Engines** component downloads and installs it automatically (Windows &amp; Mac, release `rad6R0P2`) under the per-user Eddy3D folder &mdash; no manual install needed.
+
 ## Requirements
 
 | Module   | Overview                                                     | Core engine            | Package | Rhino (ver) | OS support  | OpenFOAM (ver) | Radiance (ver) |
@@ -69,3 +86,96 @@ Install **Eddy3D** from the Rhino Package Manager (run `PackageManager` in Rhino
 
 !!! note "One package"
     All modules &mdash; Outdoor, Outdoor+, Indoor, MRT, and FluidX3D &mdash; now ship in the single **`Eddy3D`** package on the Rhino Package Manager (`yak`). The former separate **`UMCF`** package (Outdoor+) has been retired.
+
+## Outdoor &mdash; Wind & MRT
+
+Decoupled microclimate simulations via wind (OpenFOAM) and mean radiant temperature (Radiance).
+
+### Templates
+
+- Eddy comes with starter templates that you can find by right clicking on the `Template`  
+  component, see below.
+
+![Starter template selection dialog](outdoor/images/template_selection.png){ loading=lazy }
+
+- Select a template of your choice and follow the enumerated markers through the canvas.
+
+### Parallel computation
+
+There is currently an issue with Microsoft’s and BlueCFD’s MPI dll which is why a run with multiple CPUs might fail. You need both dlls to be the same file, see the [CFD Online instructions for matching MPI DLL files](https://www.cfd-online.com/Forums/openfoam-installation/200437-bluecfd-core-2016-user-compiled-solvers-not-running-parallel.html#post687582){ target="_blank" rel="noopener noreferrer" aria-label="CFD Online instructions for matching MPI DLL files (opens in a new tab)" } to ensure that both DLLs are the same file.
+
+### Simple workflows
+
+We value efficient workflows! See below for a one-directional urban CFD setup.
+
+![Example of a one-directional urban CFD setup canvas](outdoor/images/canvas-setup.png){ loading=lazy }
+
+### Video tutorials
+
+#### Simple wind analysis
+
+<iframe loading="lazy" title="Video tutorial: Simple wind analysis" src="https://player.vimeo.com/video/375687568" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+#### Multi-directional / annual wind analysis
+
+<iframe loading="lazy" title="Video tutorial: Multi-directional / annual wind analysis" src="https://player.vimeo.com/video/375755947" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+#### Pressure coefficients on building façade
+
+<iframe loading="lazy" title="Video tutorial: Pressure coefficients on building façade" src="https://player.vimeo.com/video/375755963" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+#### Eddy3D & Paraview Workshop
+
+<iframe loading="lazy" title="Video tutorial: Eddy3D & Paraview Workshop" src="https://player.vimeo.com/video/1136117320" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+## Outdoor+ &mdash; Coupled microclimate
+
+![urbanMicroclimateFoam simulation preview](outdoorplus/images/outdoorplus/umcf.gif){ loading=lazy }
+
+**Outdoor+** is the fully coupled microclimate module of the **Eddy3D** plugin, built on the open-source **`urbanMicroclimateFoam`** (UMCF) solver for `OpenFOAM`.
+
+### Key Features
+
+ 🌊 **CFD** - Solves turbulent, convective airflow
+
+- Handles heat and moisture transport in the `air` subdomain
+
+ 🏗️ **HAM** - Manages absorption and transport
+
+- Controls storage of heat and moisture in porous building materials
+
+☀️ **RAD** - Calculates net longwave and shortwave radiative heat fluxes
+
+- Uses view factor approach
+
+🌳 **VEG** - Solves heat balance for urban trees
+
+- Handles green surfaces
+
+![Analysis & Visualization showing wind patterns](outdoorplus/images/outdoorplus/image38.gif){ loading=lazy }
+
+![Analysis & Visualization showing temperature and humidity distributions](outdoorplus/images/outdoorplus/image39.gif){ loading=lazy }
+
+## Indoor &mdash; Airflow
+
+Modeling airflow, moisture content, and passive scalars in indoor spaces.
+
+### Indoor Wind & COVID-19 Analysis
+
+<iframe loading="lazy" title="Video tutorial: Indoor Wind & COVID-19 Analysis" src="https://player.vimeo.com/video/646509775?h=d290a944ab" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+## Acknowledgments
+
+The plugin is based on the `urbanMicroclimateFoam` (UMF) open-source solver based on OpenFOAM, developed by the [Chair of Building Physics at ETH Zürich](https://carmeliet.ethz.ch/){ target="_blank" rel="noopener noreferrer" aria-label="Chair of Building Physics at ETH Zürich (opens in a new tab)" } the [Canada Research Chair Tier I in Multiscale Building Physics](https://www.usherbrooke.ca/recherche/en/udes/clusters/chairs/canada/multiscale-building-physics) at Université de Sherbrooke, Canada.
+
+- [urbanMicroclimateFoam GitHub repository](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitHub repository (opens in a new tab)" }
+
+![ETH Zurich logo](outdoorplus/images/outdoorplus/eth.png){ loading=lazy }
+
+This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/){ target="_blank" rel="noopener noreferrer" aria-label="Perkins&Will Research (opens in a new tab)" }. Their support has been instrumental in advancing this tool.
+
+![Perkins&Will logo](outdoorplus/images/outdoorplus/PW-logo-black.png){ loading=lazy }
+
+___
+
+This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [VIP - Surrogate Models for Urban Regeneration documentation](https://vip-smur.github.io/24fa-microclimate-umcf/){ target="_blank" rel="noopener noreferrer" aria-label="VIP - Surrogate Models for Urban Regeneration documentation (opens in a new tab)" } for more details and view the final presentation.

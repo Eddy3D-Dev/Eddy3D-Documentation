@@ -1,9 +1,8 @@
-## ![Air Region Icon](../images/icons/Air_Region.png) Air Region
+## ![](../images/icons/Air_Region.png) Air Region
 
-![Air Region Component](../images/components/Air_Region-crop.png)
+![](../images/components/Air_Region-crop.png)
 
-Create an air region for the UMCF case.
- Eddy3D 1.0.0.827
+Create an air region for the UMF case. OutdoorPlus
 
 #### Input
 * ##### ABL 

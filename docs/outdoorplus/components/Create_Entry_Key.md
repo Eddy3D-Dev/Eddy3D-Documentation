@@ -1,6 +1,6 @@
-## ![Create Entry Key Icon](../images/icons/Create_Entry_Key.png) Create Entry Key
+## ![](../images/icons/Create_Entry_Key.png) Create Entry Key
 
-![Create Entry Key Component](../images/components/Create_Entry_Key-crop.png)
+![](../images/components/Create_Entry_Key-crop.png)
 
 Create a MetaFOAM EntryKey from key segments.
 

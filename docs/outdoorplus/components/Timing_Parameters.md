@@ -1,13 +1,12 @@
-## ![Timing Parameters Icon](../images/icons/Timing_Parameters.png) Timing Parameters
+## ![](../images/icons/Timing_Parameters.png) Timing Parameters
 
-![Timing Parameters Component](../images/components/Timing_Parameters-crop.png)
+![](../images/components/Timing_Parameters-crop.png)
 
-Define simulation timing and optional weather-driven time series.
- Eddy3D 1.0.0.827
+Define simulation timing and optional weather-driven time series. OutdoorPlus
 
 #### Input
 * ##### Weather 
-Optional weather data for time series inputs.
+Optional Weather object or EPW file path for weather-driven time series.
 * ##### StartDay 
 Day-of-year index to start (0-based). Optional; default is 0.
 * ##### StartHour 

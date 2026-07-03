@@ -1,9 +1,8 @@
-## ![Terrain Region Icon](../images/icons/Terrain_Region.png) Terrain Region
+## ![](../images/icons/Terrain_Region.png) Terrain Region
 
-![Terrain Region Component](../images/components/Terrain_Region-crop.png)
+![](../images/components/Terrain_Region-crop.png)
 
-Create a terrain region with materials and depth settings.
- Eddy3D 1.0.0.827
+Create a terrain region with materials and depth settings. OutdoorPlus
 
 #### Input
 * ##### SurfMat 

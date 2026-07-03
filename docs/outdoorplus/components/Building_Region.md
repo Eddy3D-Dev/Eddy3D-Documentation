@@ -1,22 +1,25 @@
-## ![Building Region Icon](../images/icons/Building_Region.png) Building Region
+## ![](../images/icons/Building_Region.png) Building Region
 
-![Building Region Component](../images/components/Building_Region-crop.png)
+![](../images/components/Building_Region-crop.png)
 
-Create a building (solid) region for the UMCF case.
- Eddy3D 1.0.0.827
+Build a solid building region for the UMF case: from the façade surface meshes, two material wall layers (outer + inner) are extruded inward to model heat and moisture transport through the building envelope.
 
 #### Input
 * ##### Mesh 
-Closed building meshes for the region.
-* ##### Mat 
-Building material settings.
-* ##### Thk 
-Wall thickness (model units). Optional; default is 0.1.
+Building façade surface meshes. The wall layers are extruded inward from these surfaces, so supply the outer building surfaces (not closed solids).
+* ##### OM 
+Material of the outer wall layer — the façade-side layer extruded inward from the mesh.
+* ##### IM 
+Material of the inner wall layer — the interior-side layer behind the outer layer.
+* ##### OT 
+Thickness of the outer wall layer, in meters. Optional; default is 0.1.
+* ##### IT 
+Thickness of the inner wall layer, in meters. Optional; default is 0.1.
 * ##### MeshSet 
-Meshing settings for the building region.
-* ##### TIn 
-Indoor air temperature (deg C). Optional; default is 22 and remains constant over time.
+Mesh refinement settings for the building region (from the Building Mesh Settings component).
+* ##### BT 
+Constant interior room temperature (°C), imposed as the inner-wall boundary condition for the whole run. Optional; default is 22.
 
 #### Output
 * ##### Building
-Building region object for the case.
+The building solid region; connect it to the UMF Case component's Building Region input.

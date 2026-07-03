@@ -1,12 +1,12 @@
-## ![Terrain Surface Material Icon](../images/icons/Terrain_Surface_Material.png) Terrain Surface Material
+## ![](../images/icons/Terrain_Surface_Material.png) Terrain Surface Material
 
-![Terrain Surface Material Component](../images/components/Terrain_Surface_Material-crop.png)
+![](../images/components/Terrain_Surface_Material-crop.png)
 
-Select a terrain surface material by index and override its properties.
+Select a terrain surface material from the list and override its properties. OutdoorPlus  Version 1.0.0.827
 
 #### Input
-* ##### Index 
-Index into the material list (0=AsphaltConcrete, 1=CalciumSilicate, 2=Hamstad5Brick, 3=Hamstad5Insulation, 4=Hamstad5Mortar, 5=HamstadBrick, 6=HamstadCase2, 7=HamstadConcrete, 8=HamstadPlaster, 9=Impermeable, 10=PorousAsphalt, 11=SabaBrick, 12=SabaBrickMod, 13=Soil, 14=VanGenuchten, 15=VanGenuchtenVapDiff).
+* ##### Mat 
+Select a material from the list.
 * ##### Rho 
 Material density (rho). Optional; default is 1980.
 * ##### Cap 

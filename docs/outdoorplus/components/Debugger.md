@@ -1,6 +1,6 @@
-## ![Debugger Icon](../images/icons/Debugger.png) Debugger
+## ![](../images/icons/Debugger.png) Debugger
 
-![Debugger Component](../images/components/Debugger-crop.png)
+![](../images/components/Debugger-crop.png)
 
 Internal debugging helper (not for general use).
 

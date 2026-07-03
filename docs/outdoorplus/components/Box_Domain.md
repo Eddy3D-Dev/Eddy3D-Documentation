@@ -1,9 +1,8 @@
-## ![Box Domain Icon](../images/icons/Box_Domain.png) Box Domain
+## ![](../images/icons/Box_Domain.png) Box Domain
 
-![Box Domain Component](../images/components/Box_Domain-crop.png)
+![](../images/components/Box_Domain-crop.png)
 
-Define simulation domain extents and refinement padding.
- Eddy3D 1.0.0.827
+Define simulation domain extents and refinement padding. OutdoorPlus
 
 #### Input
 * ##### CS 
