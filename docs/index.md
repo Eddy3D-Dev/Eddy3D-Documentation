@@ -87,7 +87,8 @@ Install **Eddy3D** from the Rhino Package Manager (run `PackageManager` in Rhino
 !!! note "One package"
     All modules &mdash; Outdoor, Outdoor+, Indoor, MRT, and FluidX3D &mdash; now ship in the single **`Eddy3D`** package on the Rhino Package Manager (`yak`). The former separate **`UMCF`** package (Outdoor+) has been retired.
 
-## Outdoor &mdash; Wind & MRT
+<details class="module-details" markdown="1" open id="outdoor-wind-mrt">
+<summary><strong>Outdoor &mdash; Wind &amp; MRT</strong></summary>
 
 Decoupled microclimate simulations via wind (OpenFOAM) and mean radiant temperature (Radiance).
 
@@ -128,7 +129,10 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 <iframe loading="lazy" title="Video tutorial: Eddy3D & Paraview Workshop" src="https://player.vimeo.com/video/1136117320" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
-## Outdoor+ &mdash; Coupled microclimate
+</details>
+
+<details class="module-details" markdown="1" open id="outdoor-coupled-microclimate">
+<summary><strong>Outdoor+ &mdash; Coupled microclimate</strong></summary>
 
 ![urbanMicroclimateFoam simulation preview](outdoorplus/images/outdoorplus/umcf.gif){ loading=lazy }
 
@@ -156,13 +160,18 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 ![Analysis & Visualization showing temperature and humidity distributions](outdoorplus/images/outdoorplus/image39.gif){ loading=lazy }
 
-## Indoor &mdash; Airflow
+</details>
+
+<details class="module-details" markdown="1" open id="indoor-airflow">
+<summary><strong>Indoor &mdash; Airflow</strong></summary>
 
 Modeling airflow, moisture content, and passive scalars in indoor spaces.
 
 ### Indoor Wind & COVID-19 Analysis
 
 <iframe loading="lazy" title="Video tutorial: Indoor Wind & COVID-19 Analysis" src="https://player.vimeo.com/video/646509775?h=d290a944ab" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+</details>
 
 ## Acknowledgments
 
