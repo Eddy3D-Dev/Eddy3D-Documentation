@@ -15,7 +15,7 @@ except ImportError:
 
 # --- CONFIGURATION -----------------------------------------------------------
 CLEAN_OUTPUT_DIR = True
-USE_CROPPED_IMAGES = False
+USE_CROPPED_IMAGES = True
 
 # --- SAFETY SETTINGS ---
 DISABLE_SOLVER = True 
@@ -139,6 +139,53 @@ def captureGrasshopperScreen(fileName, workingDirectory):
     
     shutil.copyfile(screenCapture, filePath)
     track_file(filePath)
+    
+    # Auto-crop: trim background and save as -crop.png
+    try:
+        bmp = System.Drawing.Bitmap(filePath)
+        # Sample background colour from top-left pixel
+        bg = bmp.GetPixel(0, 0)
+        tolerance = 30
+        def is_bg(c):
+            return (abs(int(c.R) - int(bg.R)) < tolerance and
+                    abs(int(c.G) - int(bg.G)) < tolerance and
+                    abs(int(c.B) - int(bg.B)) < tolerance)
+        w, h = bmp.Width, bmp.Height
+        top = 0
+        for y in range(h):
+            if any(not is_bg(bmp.GetPixel(x, y)) for x in range(0, w, 4)):
+                top = y
+                break
+        bottom = h - 1
+        for y in range(h - 1, -1, -1):
+            if any(not is_bg(bmp.GetPixel(x, y)) for x in range(0, w, 4)):
+                bottom = y
+                break
+        left = 0
+        for x in range(w):
+            if any(not is_bg(bmp.GetPixel(x, y)) for y in range(top, bottom + 1, 4)):
+                left = x
+                break
+        right = w - 1
+        for x in range(w - 1, -1, -1):
+            if any(not is_bg(bmp.GetPixel(x, y)) for y in range(top, bottom + 1, 4)):
+                right = x
+                break
+        pad = 10
+        top = max(0, top - pad)
+        left = max(0, left - pad)
+        bottom = min(h - 1, bottom + pad)
+        right = min(w - 1, right + pad)
+        crop_rect = System.Drawing.Rectangle(left, top, right - left + 1, bottom - top + 1)
+        cropped = bmp.Clone(crop_rect, bmp.PixelFormat)
+        crop_path = filePath.replace(".png", "-crop.png")
+        if os.path.exists(crop_path): os.remove(crop_path)
+        cropped.Save(crop_path)
+        track_file(crop_path)
+        cropped.Dispose()
+        bmp.Dispose()
+    except Exception as e:
+        print(f"  Warning: auto-crop failed for {fileName}: {e}")
     
     path = os.path.split(screenCapture)[0]
     try: shutil.rmtree(path)
