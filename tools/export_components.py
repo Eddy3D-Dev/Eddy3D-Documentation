@@ -260,8 +260,20 @@ def createFolderStructure(githubFolder):
 componentsHeights = {}
 pluginComponents = {} 
 
-if not workingDir: githubFolder = "C:/Users/Administrator/Documents/GitHub/%s-primer/" % pluginName
-else: githubFolder = workingDir
+_workingDir = globals().get('workingDir', None)
+_pluginName = globals().get('pluginName', 'Eddy3D')
+if not _workingDir:
+    try:
+        ghdoc = Grasshopper.Instances.ActiveCanvas.Document
+        if ghdoc and ghdoc.FilePath:
+            ghdoc_dir = os.path.dirname(ghdoc.FilePath)
+            githubFolder = os.path.abspath(os.path.join(ghdoc_dir, "..", "docs"))
+        else:
+            githubFolder = os.path.expanduser("~/Documents/GitHub/%s-Documentation/docs" % _pluginName)
+    except Exception:
+        githubFolder = os.path.expanduser("~/Documents/GitHub/%s-Documentation/docs" % _pluginName)
+else:
+    githubFolder = _workingDir
 
 doc = Grasshopper.Instances.ActiveCanvas.Document
 original_solver_state = doc.Enabled
