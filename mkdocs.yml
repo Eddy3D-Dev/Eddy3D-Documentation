@@ -16,7 +16,6 @@ nav:
       - Start: index.md
   - Video Tutorials: tutorials.md
   - Outdoor:
-      #- First Steps: outdoor/first_steps.md
       - Categories:
           - ... | flat | outdoor/categories/*.md
       - Components:
@@ -27,18 +26,11 @@ nav:
           - ... | flat | outdoorplus/categories/*.md
       - Components:
           - ... | flat | outdoorplus/components/*.md
-
-
-      #- Categories:
-      #    - ... | categories/*.md
-      #- Components:
-      #    - ... | components/*.md
   - Indoor:
       - Categories:
           - ... | flat | indoor/categories/*.md
       - Components:
           - ... | flat | indoor/components/*.md
-
   - Back: "https://eddy3d.com"
 
 

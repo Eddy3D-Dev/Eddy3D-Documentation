@@ -96,7 +96,7 @@ Install **Eddy3D** from the Rhino Package Manager (run `PackageManager` in Rhino
 
 ## Modules
 
-<details class="module-details" markdown="1" open id="outdoor-wind-mrt">
+<details class="module-details" markdown="1" id="outdoor-wind-mrt">
 <summary><strong>Outdoor &mdash; Wind &amp; MRT</strong></summary>
 
 Decoupled microclimate simulations via wind (OpenFOAM) and mean radiant temperature (Radiance).
@@ -115,7 +115,7 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 </details>
 
-<details class="module-details" markdown="1" open id="outdoor-coupled-microclimate">
+<details class="module-details" markdown="1" id="outdoor-coupled-microclimate">
 <summary><strong>Outdoor+ &mdash; Coupled microclimate</strong></summary>
 
 ![urbanMicroclimateFoam simulation preview](assets/home/outdoorplus/umcf.gif){ loading=lazy }
@@ -146,7 +146,7 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 </details>
 
-<details class="module-details" markdown="1" open id="indoor-airflow">
+<details class="module-details" markdown="1" id="indoor-airflow">
 <summary><strong>Indoor &mdash; Airflow</strong></summary>
 
 Modeling airflow, moisture content, and passive scalars in indoor spaces.
