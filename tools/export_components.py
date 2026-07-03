@@ -23,6 +23,7 @@ COMPONENT_WAIT_TIME = 0.05
 
 # --- FILE TRACKER ---
 WRITTEN_FILES = []
+FILES_TO_CROP = []
 # -----------------------------------------------------------------------------
 
 def track_file(path):
@@ -146,6 +147,14 @@ def captureGrasshopperScreen(fileName, workingDirectory, component=None):
     shutil.copyfile(screenCapture, filePath)
     track_file(filePath)
     
+    if USE_CROPPED_IMAGES:
+        FILES_TO_CROP.append(filePath)
+    
+    path = os.path.split(screenCapture)[0]
+    try: shutil.rmtree(path)
+    except: pass
+
+def crop_image(filePath):
     # Fast Auto-crop: trim background using coarse steps to ensure fast execution
     try:
         bmp = System.Drawing.Bitmap(filePath)
@@ -194,11 +203,7 @@ def captureGrasshopperScreen(fileName, workingDirectory, component=None):
         cropped.Dispose()
         bmp.Dispose()
     except Exception as e:
-        print(f"  Warning: fast auto-crop failed for {fileName}: {e}")
-    
-    path = os.path.split(screenCapture)[0]
-    try: shutil.rmtree(path)
-    except: pass
+        print(f"  Warning: fast auto-crop failed for {filePath}: {e}")
 
 def exportIcon(component, pluginName, workingDirectory):
     target_dir = os.path.join(workingDirectory, "images", "icons")
@@ -401,6 +406,19 @@ if export:
 if DISABLE_SOLVER:
     doc.Enabled = original_solver_state
     print("Solver state restored.")
+
+if FILES_TO_CROP:
+    print(f"\nCropping {len(FILES_TO_CROP)} images in parallel...")
+    try:
+        import multiprocessing.dummy
+        pool = multiprocessing.dummy.Pool()
+        pool.map(crop_image, FILES_TO_CROP)
+        pool.close()
+        pool.join()
+    except Exception as e:
+        print(f"Parallel crop failed, falling back to sequential: {e}")
+        for path in FILES_TO_CROP:
+            crop_image(path)
 
 finalOutputFolder = githubFolder 
 for cleanSubCat in pluginComponents:
