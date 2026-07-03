@@ -182,15 +182,27 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     lines.append("\n" + desc_cleaned)
 
     try:
+        def format_param(param):
+            try:
+                name = str(param.Name).strip()
+                nick = str(param.NickName).strip()
+                if len(nick) > 0 and len(nick) <= 2 and nick != name and nick.upper() == nick:
+                    return f"{name} ({nick})"
+            except:
+                pass
+            return param.NickName
+
         lines.append("\n#### Input")
         for i in range(component.Params.Input.Count):
             in_desc = component.Params.Input[i].Description.replace('\n', ' ')
-            lines.append(f"* ##### {component.Params.Input[i].NickName} \n{in_desc}")
+            display_name = format_param(component.Params.Input[i])
+            lines.append(f"* ##### {display_name} \n{in_desc}")
             
         lines.append("\n#### Output")
         for i in range(component.Params.Output.Count):
             out_desc = component.Params.Output[i].Description.replace('\n', ' ')
-            lines.append(f"* ##### {component.Params.Output[i].NickName}\n{out_desc}")
+            display_name = format_param(component.Params.Output[i])
+            lines.append(f"* ##### {display_name}\n{out_desc}")
     except: pass
 
     fileName = f"{name}.md"
