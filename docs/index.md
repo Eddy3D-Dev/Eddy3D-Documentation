@@ -92,7 +92,7 @@ Install **Eddy3D** from the Rhino Package Manager (run `PackageManager` in Rhino
 !!! tip "Start from a template"
     Eddy3D ships with starter templates for every module. Right-click the **`Template`** component in Grasshopper to browse and load one, then follow the numbered markers through the canvas.
 
-![Starter template selection dialog](outdoor/images/template_selection.png){ loading=lazy }
+![Starter template selection dialog](assets/home/template_selection.png){ loading=lazy }
 
 ## Modules
 
@@ -109,7 +109,7 @@ There is currently an issue with Microsoft’s and BlueCFD’s MPI dll which is 
 
 We value efficient workflows! See below for a one-directional urban CFD setup.
 
-![Example of a one-directional urban CFD setup canvas](outdoor/images/canvas-setup.png){ loading=lazy }
+![Example of a one-directional urban CFD setup canvas](assets/home/canvas-setup.png){ loading=lazy }
 
 *Video walkthroughs are on the [Video Tutorials](tutorials.md) page.*
 
@@ -118,7 +118,7 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 <details class="module-details" markdown="1" open id="outdoor-coupled-microclimate">
 <summary><strong>Outdoor+ &mdash; Coupled microclimate</strong></summary>
 
-![urbanMicroclimateFoam simulation preview](outdoorplus/images/outdoorplus/umcf.gif){ loading=lazy }
+![urbanMicroclimateFoam simulation preview](assets/home/outdoorplus/umcf.gif){ loading=lazy }
 
 **Outdoor+** is the fully coupled microclimate module of the **Eddy3D** plugin, built on the open-source **`urbanMicroclimateFoam`** (UMCF) solver for `OpenFOAM`.
 
@@ -140,9 +140,9 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 - Handles green surfaces
 
-![Analysis & Visualization showing wind patterns](outdoorplus/images/outdoorplus/image38.gif){ loading=lazy }
+![Analysis & Visualization showing wind patterns](assets/home/outdoorplus/image38.gif){ loading=lazy }
 
-![Analysis & Visualization showing temperature and humidity distributions](outdoorplus/images/outdoorplus/image39.gif){ loading=lazy }
+![Analysis & Visualization showing temperature and humidity distributions](assets/home/outdoorplus/image39.gif){ loading=lazy }
 
 </details>
 
@@ -161,11 +161,11 @@ The plugin is based on the `urbanMicroclimateFoam` (UMF) open-source solver base
 
 - [urbanMicroclimateFoam GitHub repository](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitHub repository (opens in a new tab)" }
 
-![ETH Zurich logo](outdoorplus/images/outdoorplus/eth.png){ loading=lazy }
+![ETH Zurich logo](assets/home/outdoorplus/eth.png){ loading=lazy }
 
 This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/){ target="_blank" rel="noopener noreferrer" aria-label="Perkins&Will Research (opens in a new tab)" }. Their support has been instrumental in advancing this tool.
 
-![Perkins&Will logo](outdoorplus/images/outdoorplus/PW-logo-black.png){ loading=lazy }
+![Perkins&Will logo](assets/home/outdoorplus/PW-logo-black.png){ loading=lazy }
 
 ___
 
