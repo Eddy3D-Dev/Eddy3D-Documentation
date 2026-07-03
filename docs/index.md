@@ -144,6 +144,20 @@ We value efficient workflows! See below for a one-directional urban CFD setup.
 
 ![Analysis & Visualization showing temperature and humidity distributions](assets/home/outdoorplus/image39.gif){ loading=lazy }
 
+### Acknowledgments
+
+Outdoor+ is based on the `urbanMicroclimateFoam` (UMF) open-source solver based on OpenFOAM, developed by the [Chair of Building Physics at ETH Zürich](https://carmeliet.ethz.ch/){ target="_blank" rel="noopener noreferrer" aria-label="Chair of Building Physics at ETH Zürich (opens in a new tab)" } the [Canada Research Chair Tier I in Multiscale Building Physics](https://www.usherbrooke.ca/recherche/en/udes/clusters/chairs/canada/multiscale-building-physics) at Université de Sherbrooke, Canada.
+
+- [urbanMicroclimateFoam GitHub repository](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitHub repository (opens in a new tab)" }
+
+![ETH Zurich logo](assets/home/outdoorplus/eth.png){ loading=lazy }
+
+This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/){ target="_blank" rel="noopener noreferrer" aria-label="Perkins&Will Research (opens in a new tab)" }. Their support has been instrumental in advancing this tool.
+
+![Perkins&Will logo](assets/home/outdoorplus/PW-logo-black.png){ loading=lazy }
+
+This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [VIP - Surrogate Models for Urban Regeneration documentation](https://vip-smur.github.io/24fa-microclimate-umcf/){ target="_blank" rel="noopener noreferrer" aria-label="VIP - Surrogate Models for Urban Regeneration documentation (opens in a new tab)" } for more details and view the final presentation.
+
 </details>
 
 <details class="module-details" markdown="1" id="indoor-airflow">
@@ -154,19 +168,3 @@ Modeling airflow, moisture content, and passive scalars in indoor spaces.
 *See the [Video Tutorials](tutorials.md) page for the Indoor Wind &amp; COVID-19 walkthrough.*
 
 </details>
-
-## Acknowledgments
-
-The plugin is based on the `urbanMicroclimateFoam` (UMF) open-source solver based on OpenFOAM, developed by the [Chair of Building Physics at ETH Zürich](https://carmeliet.ethz.ch/){ target="_blank" rel="noopener noreferrer" aria-label="Chair of Building Physics at ETH Zürich (opens in a new tab)" } the [Canada Research Chair Tier I in Multiscale Building Physics](https://www.usherbrooke.ca/recherche/en/udes/clusters/chairs/canada/multiscale-building-physics) at Université de Sherbrooke, Canada.
-
-- [urbanMicroclimateFoam GitHub repository](https://github.com/OpenFOAM-BuildingPhysics/urbanMicroclimateFoam){ target="_blank" rel="noopener noreferrer" aria-label="urbanMicroclimateFoam GitHub repository (opens in a new tab)" }
-
-![ETH Zurich logo](assets/home/outdoorplus/eth.png){ loading=lazy }
-
-This project is partially funded by [Perkins&Will Research](https://perkinswill.com/research/){ target="_blank" rel="noopener noreferrer" aria-label="Perkins&Will Research (opens in a new tab)" }. Their support has been instrumental in advancing this tool.
-
-![Perkins&Will logo](assets/home/outdoorplus/PW-logo-black.png){ loading=lazy }
-
-___
-
-This project originated from the VIP - Surrogate Models for Urban Regeneration during Fall 2024. Visit the [VIP - Surrogate Models for Urban Regeneration documentation](https://vip-smur.github.io/24fa-microclimate-umcf/){ target="_blank" rel="noopener noreferrer" aria-label="VIP - Surrogate Models for Urban Regeneration documentation (opens in a new tab)" } for more details and view the final presentation.
