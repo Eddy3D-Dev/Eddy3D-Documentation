@@ -73,7 +73,7 @@ nav:
           - "Plot Residuals": components/Plot_Residuals.md
           - "Flow Rates": components/Flow_Rates.md
           - "Pedestrian Wind Comfort": components/Pedestrian_Wind_Comfort.md
-          - "Velocity Amplification Factors (VAF)": components/Velocity_Amplification_Factors_(VAF).md
+          - "Velocity Amplification Factors (VAF)": components/Velocity_Amplification_Factors_VAF.md
           - "Wind Field Viewer": components/Wind_Field_Viewer.md
       - "06 Indoor":
           - "Indoor Case": components/Indoor_Case.md
@@ -88,7 +88,7 @@ nav:
       - "07 MRT":
           - "CalcHeatIndex": components/CalcHeatIndex.md
           - "CalcPET": components/CalcPET.md
-          - "UTCI (Weather)": components/UTCI_(Weather).md
+          - "UTCI (Weather)": components/UTCI_Weather.md
           - "MRT Sensors": components/MRT_Sensors.md
           - "MRT Surface": components/MRT_Surface.md
           - "Surface Settings": components/Surface_Settings.md
@@ -98,7 +98,7 @@ nav:
           - "MRT": components/MRT.md
           - "MRT Settings": components/MRT_Settings.md
           - "Sky Exposure": components/Sky_Exposure.md
-          - "UTCI (Simulation)": components/UTCI_(Simulation).md
+          - "UTCI (Simulation)": components/UTCI_Simulation.md
       - "08 FluidX3D":
           - "FluidX3D Run Settings": components/FluidX3D_Run_Settings.md
           - "FluidX3D Run": components/FluidX3D_Run.md
@@ -108,7 +108,7 @@ nav:
           - "Wind Predictor": components/Wind_Predictor.md
           - "GAN Predict": components/GAN_Predict.md
           - "Interpolate UMag": components/Interpolate_UMag.md
-          - "Wind Comfort Predictor (ML)": components/Wind_Comfort_Predictor_(ML).md
+          - "Wind Comfort Predictor (ML)": components/Wind_Comfort_Predictor_ML.md
       - "12 UMF · Regions":
           - "Grass": components/Grass.md
           - "Air Region": components/Air_Region.md
