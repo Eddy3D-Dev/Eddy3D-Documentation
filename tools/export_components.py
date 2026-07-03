@@ -14,130 +14,6 @@ except ImportError:
     from urllib import unquote, quote
 
 # --- CONFIGURATION -----------------------------------------------------------
-SOURCE_LINKS = {
-    "Calculated Value": "OutdoorPlus/CMP/Obsolete/Values/CalculatedVecCMP.cs",
-    "Calculated Vector Value": "OutdoorPlus/CMP/Obsolete/Values/CalculatedVecCMP.cs",
-    "Constant Value": "OutdoorPlus/CMP/Obsolete/Values/ConstantCMP.cs",
-    "Create Address": "OutdoorPlus/CMP/Meta/CreateAddressCMP.cs",
-    "Create Entry Key": "OutdoorPlus/CMP/Meta/CreateEntryKeyCMP.cs",
-    "Create Setting": "OutdoorPlus/CMP/Meta/CreateSettingCMP.cs",
-    "Debugger": "OutdoorPlus/CMP/Meta/DebuggerCMP.cs",
-    "Deconstruct Entry": "OutdoorPlus/CMP/Simulation/DeconstructCaseCMP.cs",
-    "Deconstruct FileContainer": "OutdoorPlus/CMP/Meta/DeFileContainerCMP.cs",
-    "Deconstruct Setting": "OutdoorPlus/CMP/Simulation/DeconstructCaseCMP.cs",
-    "Entry from a Key and Value": "OutdoorPlus/CMP/Meta/CreateEntryKeyValueCMP.cs",
-    "Install Engines": "Radiance/CMP/InstallEnginesCMP.cs",
-    "Uniform Value": "OutdoorPlus/CMP/Obsolete/Values/UniformVecCMP.cs",
-    "Uniform Vector Value": "OutdoorPlus/CMP/Obsolete/Values/UniformVecCMP.cs",
-    "Zero Gradient Value": "OutdoorPlus/CMP/Obsolete/Values/ZeroGradientCMP.cs",
-    "Select Template": "OutdoorPlus/CMP/Meta/SelectTemplateCMP.cs",
-    "STL Exporter": "Outdoor/CMP/StlExporterCMP.cs",
-    "Safety Toggle": "Outdoor/CMP/SafetyToggleCMP.cs",
-    "Atmospheric Boundary Layer": "OutdoorPlus/CMP/Building/MaterialSavonnieresCMP.cs",
-    "Manual Inflow Profile": "Outdoor/ManualInflowProfile.cs",
-    "Uniform Flow": "Outdoor/CMP/UniformFlowCMP.cs",
-    "Download Weather": "Outdoor/CMP/DownloadWeatherCMP.cs",
-    "Translate Date To Hours": "Outdoor/CMP/AnalysisPeriodToHoursCMP.cs",
-    "Wind Compass": "Outdoor/CMP/CompassCMP.cs",
-    "Wind Rose Cluster": "Outdoor/CMP/WindRoseClusterCMP.cs",
-    "Gmsh Mesh": "OutdoorPlus/CMP/Building/GMSHMeshingCMP.cs",
-    "Tree": "Outdoor/CMP/TreesCMP.cs",
-    "Watertight": "Outdoor/CMP/WatertightCMP.cs",
-    "Cylinder Domain": "Outdoor/CylinderDomain.cs",
-    "Cell Size": "Outdoor/CMP/CellSizeCMP.cs",
-    "Mesh Settings": "Outdoor/CMP/MeshSettingsCMP.cs",
-    "Refinement Region": "Outdoor/CMP/RefinementRegionCMP.cs",
-    "Brep Grid Points": "Outdoor/CMP/BrepGridPointsCMP.cs",
-    "Load Wind Case": "Outdoor/CMP/CleanCaseCMP.cs",
-    "Outdoor Case": "Outdoor/OutdoorCase.cs",
-    "Write Run Scripts": "Outdoor/CMP/WindScriptsCMP.cs",
-    "Clean Case": "Outdoor/CMP/CleanCaseCMP.cs",
-    "Run": "Radiance/CMP/MrtRunCMP.cs",
-    "Run Settings": "Outdoor/CMP/RunSettingsCMP.cs",
-    "Custom Function Object": "Outdoor/CMP/CustomFunctionObjectCMP.cs",
-    "SLURM Runner": "Outdoor/CMP/SlurmRunnerCMP.cs",
-    "Probe": "Outdoor/CMP/ProbeCMP.cs",
-    "Analysis Period": "MetaFOAM.Lib/AnalysisPeriod.cs",
-    "Date to HOY": "Outdoor/CMP/HoyCMP.cs",
-    "Live Residuals": "Outdoor/CMP/LiveResidualsCMP.cs",
-    "Meshing Progress": "Outdoor/CMP/MeshingProgressCMP.cs",
-    "Plot Residuals": "Outdoor/CMP/PlotResidualsCMP.cs",
-    "Flow Rates": "Outdoor/CMP/FlowRatesCMP.cs",
-    "Pedestrian Wind Comfort": "Outdoor/CMP/WindComfortCMP.cs",
-    "Velocity Amplification Factors (VAF)": "Outdoor/CMP/SpatialFactorsCMP.cs",
-    "Wind Field Viewer": "Outdoor/CMP/WindFieldViewerCMP.cs",
-    "Indoor Case": "Indoor/IndoorCase.cs",
-    "Indoor Inlet": "Indoor/CMP/IndoorInletCMP.cs",
-    "Indoor Outlet": "Indoor/CMP/IndoorOutletCMP.cs",
-    "Indoor Sink": "Indoor/CMP/IndoorSinkCMP.cs",
-    "Indoor Wall": "Indoor/CMP/IndoorCaseCMP.cs",
-    "CO2 Emitter": "OutdoorPlus/CMP/Simulation/WeatherCMP.cs",
-    "Heat Source": "Radiance/CMP/MrtSurfaceCMP.cs",
-    "Momentum Source": "Radiance/CMP/MrtSurfaceCMP.cs",
-    "Viral Emitter": "OutdoorPlus/CMP/Terrain/SurfaceMaterialCMP.cs",
-    "CalcHeatIndex": "OutdoorPlus/CMP/Metrics/CalcHeatIndexCMP.cs",
-    "CalcPET": "OutdoorPlus/CMP/Metrics/CalcPETCMP.cs",
-    "UTCI (Weather)": "Radiance/CMP/UtciWeatherCMP.cs",
-    "MRT Sensors": "Radiance/CMP/MrtSensorsCMP.cs",
-    "MRT Surface": "Radiance/CMP/MrtSurfaceCMP.cs",
-    "Surface Settings": "Radiance/CMP/SurfaceSettingsCMP.cs",
-    "Thermal Comfort": "OutdoorPlus/CMP/Metrics/ThermalComfortCMP.cs",
-    "Tree Settings": "Radiance/CMP/TreeSettingsCMP.cs",
-    "Vegetation Settings": "Radiance/CMP/VegetationSettingsCMP.cs",
-    "MRT": "Radiance/CMP/MrtRunCMP.cs",
-    "MRT Settings": "Radiance.Core/Radiation/MrtSettings.cs",
-    "Sky Exposure": "Radiance/CMP/SkyExposureCMP.cs",
-    "UTCI (Simulation)": "Radiance/CMP/UtciCMP.cs",
-    "FluidX3D Run Settings": "FluidX3D/CMP/FluidX3DRunSettingsCMP.cs",
-    "FluidX3D Run": "FluidX3D/CMP/FluidX3DRunCMP.cs",
-    "Dataset Reader": "Outdoor/ML/DatasetReaderCMP.cs",
-    "ML Model": "Outdoor/ML/MLModelCMP.cs",
-    "Wind Predictor": "Outdoor/ML/WindPredictorCMP.cs",
-    "GAN Predict": "Outdoor/ML/GanPredictCMP.cs",
-    "Interpolate UMag": "Outdoor/ML/InterpolateUMagCMP.cs",
-    "Wind Comfort Predictor (ML)": "Outdoor/ML/WindComfortPredictorCMP.cs",
-    "Grass": "OutdoorPlus/CMP/Terrain/GrassCMP.cs",
-    "Air Region": "OutdoorPlus/CMP/Air/AirRegionCMP.cs",
-    "Building Region": "OutdoorPlus/CMP/Building/BuildingRegionCMP.cs",
-    "Terrain Region": "OutdoorPlus/CMP/Terrain/TerrainRegionCMP.cs",
-    "Vegetation Region": "OutdoorPlus/CMP/Vegetation/VegetationRegionCMP.cs",
-    "Building Material": "OutdoorPlus/CMP/Building/BuildingMaterialCMP.cs",
-    "Soil Material": "OutdoorPlus/CMP/Terrain/SoilMaterialCMP.cs",
-    "Terrain Surface Material": "OutdoorPlus/CMP/Terrain/SurfaceMaterialCMP.cs",
-    "Vegetation Properties": "OutdoorPlus/CMP/Vegetation/VegetationPropertiesCMP.cs",
-    "ABL Condition": "OutdoorPlus/CMP/Air/ABLConditionCMP.cs",
-    "Advanced Terrain Mesh": "OutdoorPlus/CMP/Terrain/AdvancedTerrainCMP.cs",
-    "Building Mesh Settings": "OutdoorPlus/CMP/Building/BuildingMeshSettingsCMP.cs",
-    "Terrain Mesh Settings": "OutdoorPlus/CMP/Terrain/TerrainMeshSettingCMP.cs",
-    "Vegetation Mesh Settings": "OutdoorPlus/CMP/Vegetation/VegetationMeshSettingsCMP.cs",
-    "Case Run": "OutdoorPlus/CMP/Simulation/CaseRunCMP.cs",
-    "OpenFOAM Dictionary": "OutdoorPlus/CMP/Obsolete/OFDictionaryCMP.cs",
-    "OpenFOAM List": "MetaFOAM.Lib/Engines/OpenFoamStep.cs",
-    "Read OpenFOAM Case": "OutdoorPlus/CMP/Obsolete/ReadCaseCMP.cs",
-    "Outdoor+ Case": "Outdoor/OutdoorCase.cs",
-    "Deconstruct Weather": "OutdoorPlus/CMP/Simulation/DeconstructCaseCMP.cs",
-    "Box Domain": "OutdoorPlus/CMP/Simulation/BoxDomainCMP.cs",
-    "Relative Humidity": "OutdoorPlus/CMP/Simulation/RelativeHumidityCMP.cs",
-    "Simulation Mesh Settings": "OutdoorPlus/CMP/Simulation/SimulationMeshSettingsCMP.cs",
-    "Simulation Settings": "OutdoorPlus/CMP/Simulation/SimulationSettingsCMP.cs",
-    "Timing Parameters": "OutdoorPlus/CMP/Simulation/TimingParametersCMP.cs",
-    "Weather": "OutdoorPlus/CMP/Simulation/WeatherCMP.cs",
-    "CheckMesh": "OutdoorPlus/CMP/Simulation/CheckMeshCMP.cs",
-    "Check Geometry": "OutdoorPlus/CMP/Simulation/CheckGeometryCMP.cs",
-    "Parse Case Logs": "MetaFOAM.App/ParseCase.cs",
-    "ViewFactors": "OutdoorPlus/CMP/Simulation/ViewFactorsCMP.cs",
-    "Export to Visualizer": "Outdoor/CMP/StlExporterCMP.cs",
-    "Open In ParaView": "Outdoor/CMP/ParaviewCMP.cs",
-    "Deconstruct Case": "OutdoorPlus/CMP/Simulation/DeconstructCaseCMP.cs",
-    "Deconstruct Region": "OutdoorPlus/CMP/Simulation/DeconstructCaseCMP.cs",
-    "Face Warnings": "OutdoorPlus/CMP/Visualization/ReadTetWarningsCMP.cs",
-    "Read Cells": "OutdoorPlus/CMP/Visualization/ReadCellZonesCMP.cs",
-    "Read checkMesh": "OutdoorPlus/CMP/Visualization/ReadCheckMeshCMP.cs",
-    "Create Mesh": "OutdoorPlus/CMP/Visualization/CreateMeshCMP.cs",
-    "Create OBJ": "OutdoorPlus/CMP/Visualization/CreateOBJCMP.cs",
-    "Cull Ground Mesh": "Outdoor/CMP/CullPointsCMP.cs",
-}
-
 CLEAN_OUTPUT_DIR = True
 USE_CROPPED_IMAGES = True
 
@@ -286,6 +162,28 @@ def getComponentName(component_obj_or_desc):
     name_no_prefix = raw_name.replace(pluginName + "_", "")
     return clean_string(name_no_prefix)
 
+
+def get_source_path(original_name, repo_dir):
+    import os
+    import re
+    comp_clean = re.sub(r'[^a-zA-Z0-9]', '', original_name).lower()
+    fallback_match = None
+    try:
+        for root, dirs, files in os.walk(repo_dir):
+            if any(x in root for x in ["obj", "bin", "Tests", "Properties", ".git"]):
+                continue
+            for f in files:
+                if f.endswith(".cs"):
+                    cs_clean = f.replace(".cs", "").lower()
+                    cs_clean = re.sub(r'[^a-zA-Z0-9]', '', cs_clean)
+                    if cs_clean == comp_clean:
+                        rel = os.path.relpath(os.path.join(root, f), repo_dir)
+                        return rel.replace("\\", "/")
+                    elif cs_clean == comp_clean + "cmp":
+                        fallback_match = os.path.relpath(os.path.join(root, f), repo_dir).replace("\\", "/")
+    except Exception: pass
+    return fallback_match
+
 def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     originalName = component.Name
     bName = originalName.replace(pluginName + "_", "")
@@ -297,7 +195,9 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     lines = []
     lines.append(f"## ![](../images/icons/{name}.png) {bName}")
     if githubRepo:
-        mapped_path = SOURCE_LINKS.get(originalName)
+        repo_dir = os.path.abspath(os.path.join(githubFolder, "..", "Eddy3D"))
+        mapped_path = get_source_path(originalName, repo_dir) if repo_dir and os.path.exists(repo_dir) else None
+        
         if mapped_path:
             lines[-1] += f" - [[source code]]({githubRepo}/blob/dev/{mapped_path})\n"
         else:
