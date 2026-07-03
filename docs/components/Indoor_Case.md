@@ -1,37 +1,37 @@
-## ![](../images/icons/Indoor_Case.png) Indoor Case
+## ![](../images/icons/Indoor_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Case%22)
 
-![](../images/components/Indoor_Case-crop.png)
+![](../images/components/Indoor_Case.png)
 
-Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12.  Version 1.0.0.827
+Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12.
 
 #### Input
 * ##### Name 
 Case name (no spaces).
 * ##### Dir 
 Working directory (default ~/Eddy3D/Indoor).
-* ##### R 
+* ##### Room (R) 
 Closed room Brep.
-* ##### C 
+* ##### Cell Size (C) 
 Mesh cell size (m).
-* ##### I 
+* ##### Inlets (I) 
 Inlet surface(s): Brep or Indoor Inlet component(s).
-* ##### O 
+* ##### Outlets (O) 
 Outlet surface(s): Brep or Indoor Outlet component(s).
-* ##### U 
+* ##### Inlet Speed (U) 
 Fallback inlet speed (m/s) when raw Breps are used. Ignored when Indoor Inlet components provide velocity.
-* ##### S 
+* ##### Sinks (S) 
 Momentum sinks (Indoor Sink).
 * ##### Src 
 Emitters: Momentum / Heat / CO2 / Viral Source components.
-* ##### WT 
+* ##### Wall Temp (WT) 
 Optional wall temperature (K) for the transported temperature field (needs a Heat Source).
-* ##### W 
+* ##### Write (W) 
 Click to write the case to disk. Resets automatically so it never re-writes on recompute.
-* ##### X 
+* ##### Clear (X) 
 Click to delete the case folder. Resets automatically so it never re-deletes on recompute.
 
 #### Output
-* ##### C
+* ##### Case (C)
 The indoor case (for the Run component).
-* ##### L
+* ##### Logs (L)
 Build / write logs.

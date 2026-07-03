@@ -1,6 +1,6 @@
-## ![](../images/icons/Deconstruct_FileContainer.png) Deconstruct FileContainer
+## ![](../images/icons/Deconstruct_FileContainer.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Deconstruct%20FileContainer%22)
 
-![](../images/components/Deconstruct_FileContainer-crop.png)
+![](../images/components/Deconstruct_FileContainer.png)
 
 Deconstructs a FileContainer instance.
 

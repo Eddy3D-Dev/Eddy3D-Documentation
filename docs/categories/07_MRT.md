@@ -2,7 +2,7 @@
 #### Main Components
 * [CalcHeatIndex](../components/CalcHeatIndex.md)
 * [CalcPET](../components/CalcPET.md)
-* [UTCI (Weather)](../components/UTCI_(Weather).md)
+* [UTCI Weather](../components/UTCI_Weather.md)
 * [MRT Sensors](../components/MRT_Sensors.md)
 * [MRT Surface](../components/MRT_Surface.md)
 * [Surface Settings](../components/Surface_Settings.md)
@@ -12,4 +12,4 @@
 * [MRT](../components/MRT.md)
 * [MRT Settings](../components/MRT_Settings.md)
 * [Sky Exposure](../components/Sky_Exposure.md)
-* [UTCI (Simulation)](../components/UTCI_(Simulation).md)
+* [UTCI Simulation](../components/UTCI_Simulation.md)

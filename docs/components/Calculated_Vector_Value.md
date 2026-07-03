@@ -1,6 +1,6 @@
-## ![](../images/icons/Calculated_Vector_Value.png) Calculated Vector Value
+## ![](../images/icons/Calculated_Vector_Value.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Calculated%20Vector%20Value%22)
 
-![](../images/components/Calculated_Vector_Value-crop.png)
+![](../images/components/Calculated_Vector_Value.png)
 
 Create a calculated vector Value.
 

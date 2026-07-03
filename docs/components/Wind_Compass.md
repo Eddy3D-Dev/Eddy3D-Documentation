@@ -1,19 +1,19 @@
-## ![](../images/icons/Wind_Compass.png) Wind Compass
+## ![](../images/icons/Wind_Compass.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Compass%22)
 
-![](../images/components/Wind_Compass-crop.png)
+![](../images/components/Wind_Compass.png)
 
 Visualize a wind direction on a compass circle. Direction is meteorological degrees (0=N, 90=E, 180=S, 270=W); outputs the flow vector and the 16-point cardinal name.
 
 #### Input
 * ##### Dir 
 Wind direction in degrees (0=N, 90=E, 180=S, 270=W).
-* ##### R 
+* ##### Radius (R) 
 Radius of the compass circle.
-* ##### P 
+* ##### Base Point (P) 
 Center of the compass.
-* ##### C 
+* ##### Color (C) 
 Display color.
-* ##### S 
+* ##### Arrow Scale (S) 
 Scale of the directional arrow.
 
 #### Output

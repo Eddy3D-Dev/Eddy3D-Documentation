@@ -1,15 +1,15 @@
-## ![](../images/icons/Momentum_Source.png) Momentum Source
+## ![](../images/icons/Momentum_Source.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Momentum%20Source%22)
 
-![](../images/components/Momentum_Source-crop.png)
+![](../images/components/Momentum_Source.png)
 
 A fan/jet momentum source (mean velocity) box for an indoor ventilation case.
 
 #### Input
-* ##### Z 
+* ##### Zone (Z) 
 Box zone occupied by the source.
-* ##### U 
+* ##### Mean Velocity (U) 
 Target mean velocity in the zone (m/s).
 
 #### Output
-* ##### S
+* ##### Source (S)
 Momentum source for the Indoor Case component.

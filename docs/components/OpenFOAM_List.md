@@ -1,6 +1,6 @@
-## ![](../images/icons/OpenFOAM_List.png) OpenFOAM List
+## ![](../images/icons/OpenFOAM_List.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22OpenFOAM%20List%22)
 
-![](../images/components/OpenFOAM_List-crop.png)
+![](../images/components/OpenFOAM_List.png)
 
 Create an OpenFOAM list for file modification inputs.
 

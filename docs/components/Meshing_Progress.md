@@ -1,8 +1,8 @@
-## ![](../images/icons/Meshing_Progress.png) Meshing Progress
+## ![](../images/icons/Meshing_Progress.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Meshing%20Progress%22)
 
-![](../images/components/Meshing_Progress-crop.png)
+![](../images/components/Meshing_Progress.png)
 
-Monitor blockMesh, surfaceFeatures, and snappyHexMesh progress from the mesh case logs.  Version 1.0.0.827
+Monitor blockMesh, surfaceFeatures, and snappyHexMesh progress from the mesh case logs.
 
 #### Input
 * ##### Case 

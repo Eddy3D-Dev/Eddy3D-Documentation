@@ -1,19 +1,19 @@
-## ![](../images/icons/MRT_Settings.png) MRT Settings
+## ![](../images/icons/MRT_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%20Settings%22)
 
-![](../images/components/MRT_Settings-crop.png)
+![](../images/components/MRT_Settings.png)
 
 Configuration for the MRT + UTCI analysis.
 
 #### Input
-* ##### W 
+* ##### Wind Scaling (W) 
 Factor applied to weather wind speed when a probe has no CFD wind.
-* ##### F 
+* ##### Small Face Cutoff (F) 
 Faces below this area (m²) are ignored by the thermal model.
 * ##### Rad 
 High-fidelity shortwave via the Radiance DDS chain (true) vs the pure-C# raycast (false). Requires a Radiance install (or Use Docker).
-* ##### EP 
+* ##### EnergyPlus Surfaces (EP) 
 Surface temperatures from EnergyPlus (true) vs ambient (false). Requires an EnergyPlus install (or the Docker engine on the MRT component).
 
 #### Output
-* ##### S
+* ##### Settings (S)
 MRT settings for the MRT component.

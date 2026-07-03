@@ -1,4 +1,4 @@
-# 13 UMF · Simulation
+# 13 UMF Simulation
 #### Main Components
 * [Case Run](../components/Case_Run.md)
 * [OpenFOAM Dictionary](../components/OpenFOAM_Dictionary.md)

@@ -1,6 +1,6 @@
-## ![](../images/icons/Deconstruct_Region.png) Deconstruct Region
+## ![](../images/icons/Deconstruct_Region.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Deconstruct%20Region%22)
 
-![](../images/components/Deconstruct_Region-crop.png)
+![](../images/components/Deconstruct_Region.png)
 
 Deconstruct a MetaFOAM Region instance.
 

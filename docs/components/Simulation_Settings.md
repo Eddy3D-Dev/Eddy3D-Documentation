@@ -1,8 +1,8 @@
-## ![](../images/icons/Simulation_Settings.png) Simulation Settings
+## ![](../images/icons/Simulation_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Simulation%20Settings%22)
 
-![](../images/components/Simulation_Settings-crop.png)
+![](../images/components/Simulation_Settings.png)
 
-Configure simulation control settings for UMF. OutdoorPlus  Version 1.0.0.827
+Configure simulation control settings for UMF. OutdoorPlus
 
 #### Input
 * ##### WriteInt 

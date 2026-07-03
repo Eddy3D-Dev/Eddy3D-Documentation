@@ -1,6 +1,6 @@
-## ![](../images/icons/Create_Entry_Key.png) Create Entry Key
+## ![](../images/icons/Create_Entry_Key.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Create%20Entry%20Key%22)
 
-![](../images/components/Create_Entry_Key-crop.png)
+![](../images/components/Create_Entry_Key.png)
 
 Create a MetaFOAM EntryKey from key segments.
 

@@ -1,13 +1,13 @@
-## ![](../images/icons/Wind_Comfort_Predictor_(ML).png) Wind Comfort Predictor (ML)
+## ![](../images/icons/Wind_Comfort_Predictor_ML.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Comfort%20Predictor%20%28ML%29%22)
 
-![](../images/components/Wind_Comfort_Predictor_(ML)-crop.png)
+![](../images/components/Wind_Comfort_Predictor_ML.png)
 
 Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX model.
 
 #### Input
 * ##### Pts 
 Analysis points for mesh visualization.
-* ##### W 
+* ##### Wind Speeds (W) 
 Predicted wind speeds (m/s) as a DataTree from WindPredictor.
 * ##### EPW 
 Path to the .epw weather file.
@@ -21,7 +21,7 @@ Comfort metric to use.
 Interpolate between wind directions. Default = true
 * ##### Fast 
 Use Method of Moments for ultra-fast Weibull estimation. Default = true
-* ##### BC 
+* ##### Boundary Conditions (BC) 
 Optional simulation metadata to automate zRef, z0, and Uref (sim).
 * ##### k 
 Turbulent kinetic energy (m²/s²) as a DataTree from WindPredictor. When provided, GEM (Gust Equivalent Mean) is used: GEM = U + g × √(2k/3). Peak factor g is auto-set per metric.
@@ -39,13 +39,13 @@ Wind comfort rank (integer).
 Wind comfort class letter (e.g., A, B, C).
 * ##### Class
 Wind comfort class description.
-* ##### M
+* ##### Comfort Mesh (M)
 Colored mesh representing comfort levels.
-* ##### LM
+* ##### Legend Mesh (LM)
 Legend mesh for comfort categories.
-* ##### LP
+* ##### Legend Points (LP)
 Label points for the legend letters.
-* ##### LV
+* ##### Legend Letters (LV)
 Letters (A-S) for the legend.
 * ##### MetricName
 The name of the currently active comfort/safety standard.

@@ -1,17 +1,17 @@
-## ![](../images/icons/Indoor_Inlet.png) Indoor Inlet
+## ![](../images/icons/Indoor_Inlet.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Inlet%22)
 
-![](../images/components/Indoor_Inlet-crop.png)
+![](../images/components/Indoor_Inlet.png)
 
 Ventilation inlet — defines where air enters the room (diffuser, window, door). Direction is computed perpendicular to the surface, pointing into the room.
 
 #### Input
-* ##### S 
+* ##### Surface (S) 
 Planar surface on the room wall marking the inlet opening.
-* ##### V 
+* ##### Speed (V) 
 Inlet supply speed (m/s). Direction is auto-computed from the surface normal.
-* ##### T 
+* ##### Temperature (T) 
 Inlet air temperature (°C).
 
 #### Output
-* ##### I
+* ##### Inlet (I)
 Indoor inlet for the case component.

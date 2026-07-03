@@ -1,6 +1,6 @@
-## ![](../images/icons/Sky_Exposure.png) Sky Exposure
+## ![](../images/icons/Sky_Exposure.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Sky%20Exposure%22)
 
-![](../images/components/Sky_Exposure-crop.png)
+![](../images/components/Sky_Exposure.png)
 
 Computes the Sky View Factor (SVF) for each input point using the Tregenza 145-patch sky subdivision. Casts 145 rays toward the upper hemisphere and returns the fraction of unobstructed sky directions (0 = fully obstructed, 1 = fully open sky).
 

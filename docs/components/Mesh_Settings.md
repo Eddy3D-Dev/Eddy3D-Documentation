@@ -1,6 +1,6 @@
-## ![](../images/icons/Mesh_Settings.png) Mesh Settings
+## ![](../images/icons/Mesh_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Mesh%20Settings%22)
 
-![](../images/components/Mesh_Settings-crop.png)
+![](../images/components/Mesh_Settings.png)
 
 Configure mesh refinement, layers, and grading for Eddy3D.
 

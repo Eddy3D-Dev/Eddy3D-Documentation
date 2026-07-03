@@ -1,31 +1,31 @@
-## ![](../images/icons/MRT.png) MRT
+## ![](../images/icons/MRT.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%22)
 
-![](../images/components/MRT-crop.png)
+![](../images/components/MRT.png)
 
-Compute mean radiant temperature at the sensors. Direct-raycast shortwave by default; wire MRT Settings with reflections/diffuse radiation on to use the Radiance DDS engine.  Version 1.0.0.827
+Compute mean radiant temperature at the sensors. Direct-raycast shortwave by default; wire MRT Settings with reflections/diffuse radiation on to use the Radiance DDS engine.
 
 #### Input
-* ##### S 
+* ##### Surfaces (S) 
 Tagged radiation surfaces (MRT Surface).
-* ##### P 
+* ##### Sensors (P) 
 Sensor probes (MRT Sensors).
-* ##### W 
+* ##### EPW (W) 
 Path to the EPW weather file.
-* ##### C 
+* ##### Settings (C) 
 MRT settings (optional).
 * ##### Dir 
 Working directory for the Radiance DDS run (used only when reflections/diffuse radiation is enabled).
-* ##### R 
+* ##### Run (R) 
 Run the MRT analysis.
 * ##### Engine 
 Run Radiance/EnergyPlus natively or via the bundled radiance-energyplus Docker image. Only relevant when MRT Settings enables Radiance Reflections or EnergyPlus Surfaces.
 
 #### Output
-* ##### P
+* ##### Points (P)
 Sensor positions.
-* ##### M
+* ##### MRT (M)
 Annual hourly MRT per sensor {probe}(8760).
-* ##### D
+* ##### Sky Dome (D)
 The generated sky dome (preview).
-* ##### X
+* ##### Probes (X)
 Solved probes (for UTCI component).

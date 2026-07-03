@@ -1,17 +1,17 @@
-## ![](../images/icons/Relative_Humidity.png) Relative Humidity
+## ![](../images/icons/Relative_Humidity.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Relative%20Humidity%22)
 
-![](../images/components/Relative_Humidity-crop.png)
+![](../images/components/Relative_Humidity.png)
 
 Convert specific humidity (w) and temperature (T) to relative humidity (%). OutdoorPlus
 
 #### Input
 * ##### w 
 Specific humidity in kg/kg (from OpenFOAM field 'w').
-* ##### T 
+* ##### Temperature (T) 
 Air temperature in Kelvin (from OpenFOAM field 'T').
-* ##### P 
+* ##### Pressure (P) 
 Atmospheric pressure in Pa. Optional; default is 101325 Pa.
 
 #### Output
-* ##### RH
+* ##### Relative Humidity (RH)
 Relative humidity in percent (0–100%).

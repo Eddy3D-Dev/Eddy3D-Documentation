@@ -1,6 +1,6 @@
-## ![](../images/icons/Soil_Material.png) Soil Material
+## ![](../images/icons/Soil_Material.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Soil%20Material%22)
 
-![](../images/components/Soil_Material-crop.png)
+![](../images/components/Soil_Material.png)
 
 Define soil material properties for terrain layers. OutdoorPlus
 

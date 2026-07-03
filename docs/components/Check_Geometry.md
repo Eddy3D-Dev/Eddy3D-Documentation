@@ -1,15 +1,15 @@
-## ![](../images/icons/Check_Geometry.png) Check Geometry
+## ![](../images/icons/Check_Geometry.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Check%20Geometry%22)
 
-![](../images/components/Check_Geometry-crop.png)
+![](../images/components/Check_Geometry.png)
 
-Tests for buildings and trees for Eddy3D-OutdoorPlus simulation.  Version 1.0.0.827
+Tests for buildings and trees for Eddy3D-OutdoorPlus simulation.
 
 #### Input
-* ##### C 
+* ##### Case (C) 
 The Outdoor or Outdoor+ case to check.
-* ##### C 
+* ##### Check (C) 
 Whether to perform the geometry check.
 
 #### Output
-* ##### L
+* ##### Logs (L)
 Log messages from the geometry check.

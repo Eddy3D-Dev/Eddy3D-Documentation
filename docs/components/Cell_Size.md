@@ -1,6 +1,6 @@
-## ![](../images/icons/Cell_Size.png) Cell Size
+## ![](../images/icons/Cell_Size.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Cell%20Size%22)
 
-![](../images/components/Cell_Size-crop.png)
+![](../images/components/Cell_Size.png)
 
 Compute the snappyHexMesh refinement level needed to reach a target cell size (each level halves the cell size).
 

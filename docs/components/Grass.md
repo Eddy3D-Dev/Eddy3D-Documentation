@@ -1,6 +1,6 @@
-## ![](../images/icons/Grass.png) Grass
+## ![](../images/icons/Grass.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Grass%22)
 
-![](../images/components/Grass-crop.png)
+![](../images/components/Grass.png)
 
 Define grass patches and parameters for the terrain. OutdoorPlus
 

@@ -1,6 +1,6 @@
-## ![](../images/icons/Debugger.png) Debugger
+## ![](../images/icons/Debugger.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Debugger%22)
 
-![](../images/components/Debugger-crop.png)
+![](../images/components/Debugger.png)
 
 Internal debugging helper (not for general use).
 

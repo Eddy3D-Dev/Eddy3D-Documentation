@@ -1,4 +1,4 @@
-# 03 Wind · Case
+# 03 Wind Case
 #### Main Components
 * [Load Wind Case](../components/Load_Wind_Case.md)
 * [Outdoor Case](../components/Outdoor_Case.md)

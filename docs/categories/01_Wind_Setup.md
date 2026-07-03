@@ -1,4 +1,4 @@
-# 01 Wind · Setup
+# 01 Wind Setup
 #### Main Components
 * [Atmospheric Boundary Layer](../components/Atmospheric_Boundary_Layer.md)
 * [Manual Inflow Profile](../components/Manual_Inflow_Profile.md)

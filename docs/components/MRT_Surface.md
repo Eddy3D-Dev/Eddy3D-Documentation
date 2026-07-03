@@ -1,23 +1,23 @@
-## ![](../images/icons/MRT_Surface.png) MRT Surface
+## ![](../images/icons/MRT_Surface.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%20Surface%22)
 
-![](../images/components/MRT_Surface-crop.png)
+![](../images/components/MRT_Surface.png)
 
 Mesh Breps into a tagged radiation surface for an MRT analysis.
 
 #### Input
-* ##### G 
+* ##### Geometry (G) 
 Surface geometry to mesh.
-* ##### T 
+* ##### Type (T) 
 Surface type: 0 Building, 1 Ground, 2 Vegetation, 3 Tree.
-* ##### S 
+* ##### Simulated (S) 
 True if the surface temperature is solved; false treats it as ambient.
-* ##### P 
+* ##### Patch Size (P) 
 Target mesh patch edge length (m) for view-factor resolution.
 * ##### Mat 
 Optional material from a Surface / Vegetation / Tree Settings component; overrides the default reflectance / Radiance material for this surface.
 
 #### Output
-* ##### S
+* ##### Surface (S)
 Tagged radiation surface for the MRT component.
-* ##### M
+* ##### Mesh (M)
 The meshed surface (preview).

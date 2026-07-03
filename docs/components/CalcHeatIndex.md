@@ -1,13 +1,13 @@
-## ![](../images/icons/CalcHeatIndex.png) CalcHeatIndex
+## ![](../images/icons/CalcHeatIndex.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22CalcHeatIndex%22)
 
-![](../images/components/CalcHeatIndex-crop.png)
+![](../images/components/CalcHeatIndex.png)
 
 Calculate Heat Index using the NOAA/NWS equation (air temperature + relative humidity).
 
 #### Input
 * ##### Ta 
 Air temperature (deg C). Optional; default is 30.
-* ##### RH 
+* ##### Relative Humidity (RH) 
 Relative humidity (%). Optional; default is 70.
 
 #### Output

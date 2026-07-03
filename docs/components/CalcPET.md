@@ -1,6 +1,6 @@
-## ![](../images/icons/CalcPET.png) CalcPET
+## ![](../images/icons/CalcPET.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22CalcPET%22)
 
-![](../images/components/CalcPET-crop.png)
+![](../images/components/CalcPET.png)
 
 Calculate PET (Physiological Equivalent Temperature) from environmental and personal inputs.
 
@@ -9,11 +9,11 @@ Calculate PET (Physiological Equivalent Temperature) from environmental and pers
 Air temperature (deg C). Optional; default is 20.
 * ##### MRT 
 Mean radiant temperature (deg C). Optional; default is 20.
-* ##### RH 
+* ##### Relative Humidity (RH) 
 Relative humidity (%). Optional; default is 50.
-* ##### WS 
+* ##### Wind Speed (WS) 
 Wind speed (m/s). Optional; default is 0.1.
-* ##### P 
+* ##### Pressure (P) 
 Atmospheric pressure (hPa). Optional; default is 1013.25.
 * ##### Age 
 Age in years. Optional; default is 35.

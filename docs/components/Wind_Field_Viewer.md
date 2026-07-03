@@ -1,29 +1,29 @@
-## ![](../images/icons/Wind_Field_Viewer.png) Wind Field Viewer
+## ![](../images/icons/Wind_Field_Viewer.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Field%20Viewer%22)
 
-![](../images/components/Wind_Field_Viewer-crop.png)
+![](../images/components/Wind_Field_Viewer.png)
 
-Visualize a probed wind field: colored velocity arrows, a point cloud, or a heatmap mesh. Feed the Probe component's points + velocity (or any points + vectors).  Version 1.0.0.827
+Visualize a probed wind field: colored velocity arrows, a point cloud, or a heatmap mesh. Feed the Probe component's points + velocity (or any points + vectors).
 
 #### Input
-* ##### P 
+* ##### Points (P) 
 Sample points (e.g. the probe points).
-* ##### V 
+* ##### Velocity (V) 
 Velocity vector per point.
-* ##### M 
+* ##### Display Mode (M) 
 How to render the field: Vector Field (arrows), Point Cloud, Heatmap Mesh (colors a supplied mesh), Streamlines, or Volumetric Smoke.
 * ##### Msh 
 Surface to color for Heatmap Mesh mode (colored per vertex from the nearest sample). Ignored in the other modes.
-* ##### S 
+* ##### Scale (S) 
 Arrow length scale (Vector Field mode).
 * ##### Min 
 Lower end of the color range / filter (m/s). Empty = data minimum.
 * ##### Max 
 Upper end of the color range / filter (m/s). Empty = data maximum.
-* ##### CM 
+* ##### Color Map (CM) 
 Color ramp for the speed coloring.
 
 #### Output
-* ##### G
+* ##### Geometry (G)
 Colored viz geometry for baking: arrow lines, points, or the colored mesh.
-* ##### C
+* ##### Colors (C)
 Color per element (aligned with Geometry).

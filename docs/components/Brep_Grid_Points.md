@@ -1,6 +1,6 @@
-## ![](../images/icons/Brep_Grid_Points.png) Brep Grid Points
+## ![](../images/icons/Brep_Grid_Points.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Brep%20Grid%20Points%22)
 
-![](../images/components/Brep_Grid_Points-crop.png)
+![](../images/components/Brep_Grid_Points.png)
 
 Generate a regular point grid on Brep, surface, or mesh geometry.
 

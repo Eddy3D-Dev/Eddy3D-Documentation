@@ -1,4 +1,4 @@
-# 04 Wind · Simulation
+# 04 Wind Simulation
 #### Main Components
 * [Clean Case](../components/Clean_Case.md)
 * [Run](../components/Run.md)

@@ -1,4 +1,4 @@
-# 12 UMF · Regions
+# 12 UMF Regions
 #### Main Components
 * [Grass](../components/Grass.md)
 * [Air Region](../components/Air_Region.md)

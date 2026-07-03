@@ -1,19 +1,19 @@
-## ![](../images/icons/SLURM_Runner.png) SLURM Runner
+## ![](../images/icons/SLURM_Runner.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22SLURM%20Runner%22)
 
-![](../images/components/SLURM_Runner-crop.png)
+![](../images/components/SLURM_Runner.png)
 
 Write SLURM batch (sbatch) files to run a wind study on an HPC cluster.
 
 #### Input
 * ##### Case 
 The wind study to generate cluster job files for.
-* ##### CA 
+* ##### Charge Account (CA) 
 SLURM charge account.
-* ##### NE 
+* ##### Notification Email (NE) 
 SLURM notification email.
 * ##### MCPU 
 RAM per CPU in GB, e.g. 10 for 10G.
-* ##### JD 
+* ##### Job duration (JD) 
 Duration of the SLURM job in hours.
 * ##### OFLD 
 Cluster module-load command for OpenFOAM.

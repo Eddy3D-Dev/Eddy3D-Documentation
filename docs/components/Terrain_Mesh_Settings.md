@@ -1,6 +1,6 @@
-## ![](../images/icons/Terrain_Mesh_Settings.png) Terrain Mesh Settings
+## ![](../images/icons/Terrain_Mesh_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Terrain%20Mesh%20Settings%22)
 
-![](../images/components/Terrain_Mesh_Settings-crop.png)
+![](../images/components/Terrain_Mesh_Settings.png)
 
 Configure mesh settings for terrain and underground regions. OutdoorPlus
 

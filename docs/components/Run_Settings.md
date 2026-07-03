@@ -1,8 +1,8 @@
-## ![](../images/icons/Run_Settings.png) Run Settings
+## ![](../images/icons/Run_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Run%20Settings%22)
 
-![](../images/components/Run_Settings-crop.png)
+![](../images/components/Run_Settings.png)
 
-Configure solver run controls for Eddy3D.  Version 1.0.0.827
+Configure solver run controls for Eddy3D.
 
 #### Input
 * ##### Iter 

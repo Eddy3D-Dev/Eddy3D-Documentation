@@ -1,17 +1,17 @@
-## ![](../images/icons/Vegetation_Settings.png) Vegetation Settings
+## ![](../images/icons/Vegetation_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Vegetation%20Settings%22)
 
-![](../images/components/Vegetation_Settings-crop.png)
+![](../images/components/Vegetation_Settings.png)
 
 Leaf/canopy material properties for an MRT vegetation surface.
 
 #### Input
-* ##### HP 
+* ##### Height Plants (HP) 
 Height of plants (m).
 * ##### LAI 
 Leaf area index (dimensionless).
-* ##### LR 
+* ##### LeafReflectivity (LR) 
 Leaf reflectivity 0–1.
-* ##### LE 
+* ##### LeafEmissivity (LE) 
 Leaf emissivity 0–1.
 * ##### MSR 
 Minimum stomatal resistance (s/m).

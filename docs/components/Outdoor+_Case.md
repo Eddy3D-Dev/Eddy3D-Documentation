@@ -1,8 +1,8 @@
-## ![](../images/icons/Outdoor+_Case.png) Outdoor+ Case
+## ![](../images/icons/Outdoor+_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Outdoor%2B%20Case%22)
 
-![](../images/components/Outdoor+_Case-crop.png)
+![](../images/components/Outdoor+_Case.png)
 
-Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus  Version 1.0.0.827
+Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus
 
 #### Input
 * ##### Read 
@@ -19,7 +19,7 @@ Folder for case files and results.
 Air region for this case.
 * ##### Vegetation 
 Vegetation region for this case.
-* ##### BR 
+* ##### Building Region (BR) 
 Building region of this case
 * ##### Terrain 
 Terrain region for this simulation (optional).

@@ -1,8 +1,8 @@
-## ![](../images/icons/Weather.png) Weather
+## ![](../images/icons/Weather.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Weather%22)
 
-![](../images/components/Weather-crop.png)
+![](../images/components/Weather.png)
 
-Read an EPW file and create a Weather object for the simulation. OutdoorPlus  Version 1.0.0.827
+Read an EPW file and create a Weather object for the simulation. OutdoorPlus
 
 #### Input
 * ##### Path 

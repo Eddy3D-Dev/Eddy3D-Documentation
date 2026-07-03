@@ -1,6 +1,6 @@
-## ![](../images/icons/Tree.png) Tree
+## ![](../images/icons/Tree.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Tree%22)
 
-![](../images/components/Tree-crop.png)
+![](../images/components/Tree.png)
 
 Represents a tree as a porous zone for wind blocking (Darcy-Forchheimer). Feed into the wind case component.
 

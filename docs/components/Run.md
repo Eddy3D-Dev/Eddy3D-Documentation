@@ -1,23 +1,23 @@
-## ![](../images/icons/Run.png) Run
+## ![](../images/icons/Run.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Run%22)
 
-![](../images/components/Run-crop.png)
+![](../images/components/Run.png)
 
-Mesh and run an OpenFOAM case on the selected engine (wind / indoor / UMF).  Version 1.0.0.827
+Mesh and run an OpenFOAM case on the selected engine (wind / indoor / UMF).
 
 #### Input
-* ##### C 
+* ##### Case (C) 
 An OpenFOAM case to run (wind study, indoor case, or UMF case).
-* ##### M 
+* ##### Mesh (M) 
 Mesh only.
-* ##### S 
+* ##### Simulate (S) 
 Simulation only.
-* ##### R 
+* ##### Run All (R) 
 Mesh, then run the simulation.
-* ##### P 
+* ##### Parallel (P) 
 Run in parallel (decompose / MPI).
-* ##### E 
+* ##### Engine (E) 
 OpenFOAM execution engine.
 
 #### Output
-* ##### L
+* ##### Logs (L)
 Run logs.

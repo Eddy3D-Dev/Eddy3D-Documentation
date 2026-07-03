@@ -1,4 +1,4 @@
-# 02 Wind · Domain & Mesh
+# 02 Wind Domain Mesh
 #### Main Components
 * [Cylinder Domain](../components/Cylinder_Domain.md)
 * [Cell Size](../components/Cell_Size.md)

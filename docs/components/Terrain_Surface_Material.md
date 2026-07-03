@@ -1,8 +1,8 @@
-## ![](../images/icons/Terrain_Surface_Material.png) Terrain Surface Material
+## ![](../images/icons/Terrain_Surface_Material.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Terrain%20Surface%20Material%22)
 
-![](../images/components/Terrain_Surface_Material-crop.png)
+![](../images/components/Terrain_Surface_Material.png)
 
-Select a terrain surface material from the list and override its properties. OutdoorPlus  Version 1.0.0.827
+Select a terrain surface material from the list and override its properties. OutdoorPlus
 
 #### Input
 * ##### Mat 

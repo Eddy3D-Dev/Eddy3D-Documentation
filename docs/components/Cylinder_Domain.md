@@ -1,6 +1,6 @@
-## ![](../images/icons/Cylinder_Domain.png) Cylinder Domain
+## ![](../images/icons/Cylinder_Domain.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Cylinder%20Domain%22)
 
-![](../images/components/Cylinder_Domain-crop.png)
+![](../images/components/Cylinder_Domain.png)
 
 Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction.
 

@@ -1,15 +1,15 @@
-## ![](../images/icons/Outdoor_Case.png) Outdoor Case
+## ![](../images/icons/Outdoor_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Outdoor%20Case%22)
 
-![](../images/components/Outdoor_Case-crop.png)
+![](../images/components/Outdoor_Case.png)
 
-Create, write, and manage an Eddy3D outdoor wind simulation case.  Version 1.0.0.827
+Create, write, and manage an Eddy3D outdoor wind simulation case.
 
 #### Input
 * ##### Name 
 Case folder name (no spaces). Optional — if left blank, a friendly random name is generated automatically (e.g. swift-otter-fjord-lantern).
 * ##### Dir 
 Folder for case files and results (default: %USERPROFILE%/Eddy3D/Outdoor).
-* ##### BC 
+* ##### Boundary Conditions (BC) 
 Boundary conditions from the ABL or Uniform Flow component, carrying the wind directions (required for Write Case).
 * ##### Domain 
 Domain parameters from the Box Domain or Cylinder Domain component (box with auto extents when empty).

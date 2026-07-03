@@ -1,6 +1,6 @@
-## ![](../images/icons/Terrain_Region.png) Terrain Region
+## ![](../images/icons/Terrain_Region.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Terrain%20Region%22)
 
-![](../images/components/Terrain_Region-crop.png)
+![](../images/components/Terrain_Region.png)
 
 Create a terrain region with materials and depth settings. OutdoorPlus
 

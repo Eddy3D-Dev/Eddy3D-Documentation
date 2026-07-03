@@ -1,6 +1,6 @@
-## ![](../images/icons/Manual_Inflow_Profile.png) Manual Inflow Profile
+## ![](../images/icons/Manual_Inflow_Profile.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Manual%20Inflow%20Profile%22)
 
-![](../images/components/Manual_Inflow_Profile-crop.png)
+![](../images/components/Manual_Inflow_Profile.png)
 
 Define inflow boundary conditions from a manually entered vertical profile (z/zR, U/UR, k/UR^2) instead of the parametric ABL log-law. Writes fixedProfile inlet conditions for U, k and epsilon. epsilon is derived from the profile as epsilon(z) = Cmu^0.5 * k(z) * d(U)/dz.
 
@@ -15,13 +15,13 @@ List of normalized streamwise velocities U/UR at each height (UR = reference vel
 List of normalized turbulent kinetic energies k/UR^2 at each height.
 * ##### zR 
 Boundary layer height zR (m), used to de-normalize z/zR. Optional; default is 250.
-* ##### UR 
+* ##### Reference Velocity (UR) (UR) 
 Reference velocity UR at zR (m/s), used to de-normalize U/UR and k/UR^2. Optional; default is 7.8.
 * ##### Cmu 
 Turbulence model constant Cmu used to derive epsilon from the profile. Optional; default is 0.09.
 
 #### Output
-* ##### BC
+* ##### Boundary Conditions (BC)
 Manual-profile inflow boundary conditions (single direction); plug into the wind case BC input.
 * ##### Vectors
 Resolved unit flow vector for the inflow direction.
