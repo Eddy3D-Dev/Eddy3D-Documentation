@@ -3,7 +3,7 @@
 ![Vegetation Properties Component](../images/components/Vegetation_Properties-crop.png)
 
 Define vegetation property coefficients for canopy modeling.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### a1 

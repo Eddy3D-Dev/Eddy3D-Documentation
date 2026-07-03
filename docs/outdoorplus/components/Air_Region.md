@@ -3,7 +3,7 @@
 ![Air Region Component](../images/components/Air_Region-crop.png)
 
 Create an air region for the UMCF case.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### ABL 

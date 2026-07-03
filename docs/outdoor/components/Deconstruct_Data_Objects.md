@@ -4,7 +4,7 @@
 
 Deconstruct data objects from pedestrian and outdoor thermal comfort post-processings into data trees. This component is slow if a large number of probes are requested.
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### D 

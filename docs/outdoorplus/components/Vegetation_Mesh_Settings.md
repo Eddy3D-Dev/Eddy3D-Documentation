@@ -3,7 +3,7 @@
 ![Vegetation Mesh Settings Component](../images/components/Vegetation_Mesh_Settings-crop.png)
 
 Configure mesh refinement for vegetation regions.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### SurfMin 

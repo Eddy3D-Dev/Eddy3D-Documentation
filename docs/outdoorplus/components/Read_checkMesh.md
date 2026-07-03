@@ -3,7 +3,7 @@
 ![Read checkMesh Component](../images/components/Read_checkMesh-crop.png)
 
 Read and visualize sets produced by checkMesh.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Case 

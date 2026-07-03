@@ -10,7 +10,7 @@ Wind Amplification Factors
  Factors are derived from wind velocity and direction for each hour, scaled by probing height. Supports either a look-up for the closest simulated wind direction or an interpolation between directions.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 

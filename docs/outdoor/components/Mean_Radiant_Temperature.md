@@ -11,7 +11,7 @@ Mean Radiant Temperature.
  Please make sure Radiance is installed at: "C:\Program Files\Radiance".
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 

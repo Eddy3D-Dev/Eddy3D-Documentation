@@ -3,7 +3,7 @@
 ![ViewFactors Component](../images/components/ViewFactors-crop.png)
 
 Configure the view-factor discretization for radiation modeling.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### SideFaces 

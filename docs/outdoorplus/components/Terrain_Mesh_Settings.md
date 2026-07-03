@@ -3,7 +3,7 @@
 ![Terrain Mesh Settings Component](../images/components/Terrain_Mesh_Settings-crop.png)
 
 Configure mesh settings for terrain and underground regions.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Layers 

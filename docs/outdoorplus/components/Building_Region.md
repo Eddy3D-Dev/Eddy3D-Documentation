@@ -3,7 +3,7 @@
 ![Building Region Component](../images/components/Building_Region-crop.png)
 
 Create a building (solid) region for the UMCF case.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Mesh 

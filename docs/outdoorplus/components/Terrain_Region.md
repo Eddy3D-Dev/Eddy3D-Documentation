@@ -3,7 +3,7 @@
 ![Terrain Region Component](../images/components/Terrain_Region-crop.png)
 
 Create a terrain region with materials and depth settings.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### SurfMat 

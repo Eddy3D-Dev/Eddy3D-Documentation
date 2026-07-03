@@ -7,7 +7,7 @@ Comfort Categories
  Classifies UTCI values into readable categories ranging from "Extreme Cold Stress" to "Extreme Heat Stress".
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### UTCI 

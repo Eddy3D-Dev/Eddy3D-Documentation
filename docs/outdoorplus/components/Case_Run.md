@@ -3,7 +3,7 @@
 ![Case Run Component](../images/components/Case_Run-crop.png)
 
 Prepare and run a UMCF case.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Case 

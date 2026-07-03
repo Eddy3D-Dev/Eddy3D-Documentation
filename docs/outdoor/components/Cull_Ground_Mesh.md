@@ -8,7 +8,7 @@ Remove ground mesh faces that intersect buildings.
  Can be slow for large meshes - consider using QuadRemesh first.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Bldg 

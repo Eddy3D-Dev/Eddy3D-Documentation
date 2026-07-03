@@ -8,7 +8,7 @@ Wind Factors2
  The wind factors are calculated based on the wind velocity and direction for each hour which is scaled up/down accordingly given probing height from ground.
  For this, we support either a look-up for the closest simulated wind direction or an interpolation between the closest two wind directions.
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 

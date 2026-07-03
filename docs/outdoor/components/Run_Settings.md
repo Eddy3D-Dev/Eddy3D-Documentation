@@ -7,7 +7,7 @@ Solver Control
  Configures the simulation engine, including calculation iterations, convergence criteria, and parallel processing options (CPUs).
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Iter 
@@ -31,7 +31,7 @@ Parallel processing cores. -1 = auto-detect. More cores = faster but needs more 
 * ##### OS 
 Target OS for simulation scripts. Auto-detect works in most cases.
 * ##### CFD 
-Custom BlueCFD installation path. Default: C:\Program Files\blueCFD-Core-2020
+Custom BlueCFD installation path. Default: C:\Program Files\blueCFD-Core-2024
 
 #### Output
 * ##### RSet

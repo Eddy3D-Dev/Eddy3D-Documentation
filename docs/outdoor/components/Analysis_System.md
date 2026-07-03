@@ -3,7 +3,7 @@
 ![Analysis System Component](../images/components/Analysis_System-crop.png)
 
 Analysis System
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### AB 

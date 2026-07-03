@@ -3,7 +3,7 @@
 ![UMCF Case Component](../images/components/UMCF_Case-crop.png)
 
 Create, read, and manage an OutdoorPlus (UMCF) case.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Read 

@@ -7,7 +7,7 @@ Building Material
  Assigns thermal and optical properties to building geometries. Affects how buildings reflect sunlight and emit heat.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Geo 

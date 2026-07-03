@@ -7,7 +7,7 @@ Point Probe Inspector
  Samples the wind field at specific locations. Use this to query wind speed and pressure at points of interest like building entrances or balconies.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 

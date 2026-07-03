@@ -3,7 +3,7 @@
 ![Parse Case Logs Component](../images/components/Parse_Case_Logs-crop.png)
 
 Parses log files in a case folder and reports any FOAM errors.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Case 

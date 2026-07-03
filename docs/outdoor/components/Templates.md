@@ -8,7 +8,7 @@ Load example Grasshopper definitions for common workflows.
  indoor airflow simulations. Found in C:\Eddy3D\Templates.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Dirs 

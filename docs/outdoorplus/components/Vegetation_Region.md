@@ -3,7 +3,7 @@
 ![Vegetation Region Component](../images/components/Vegetation_Region-crop.png)
 
 Create a vegetation region with properties and mesh settings.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Mesh 

@@ -7,7 +7,7 @@ Flow Resistance Zone
  Creates a volume that resists airflow, simulating obstacles like furniture, equipment, or dense vegetation in indoor or outdoor models. Reduces air velocity passing through it.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Geo 

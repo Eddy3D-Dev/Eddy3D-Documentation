@@ -3,7 +3,7 @@
 ![Create OBJ Component](../images/components/Create_OBJ-crop.png)
 
 Export an OBJ mesh from a polyMesh description.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Data 

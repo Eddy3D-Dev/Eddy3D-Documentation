@@ -7,7 +7,7 @@ Wind Field Visualizer
  Generates visualizations of the wind field, including vector arrows and streamlines, to understand flow patterns and identify problematic high-wind or stagnant zones.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 

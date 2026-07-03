@@ -8,7 +8,7 @@ Define material properties for tree surfaces.
  Default uses standard deciduous tree reflectance.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### RadMat 

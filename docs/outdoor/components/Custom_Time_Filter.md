@@ -7,7 +7,7 @@ Filter analysis results by custom date/time range.
  Specify start and end DateTime objects for precise temporal filtering.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### From 

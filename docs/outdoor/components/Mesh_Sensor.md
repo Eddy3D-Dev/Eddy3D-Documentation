@@ -7,7 +7,7 @@ Mesh Sensor Grid
  Converts a mesh surface into a grid of sensors for MRT analysis. Each mesh face serves as a measurement point for radiation and thermal comfort.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Mesh 

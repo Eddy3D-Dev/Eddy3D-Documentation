@@ -3,7 +3,7 @@
 ![Read Cells Component](../images/components/Read_Cells-crop.png)
 
 Read cell connectivity and cell zones for a region.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Case 

@@ -8,7 +8,7 @@ Calculate required mesh refinement levels for a target cell size.
  refinement levels (halving) are needed to reach your target resolution.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Dom 

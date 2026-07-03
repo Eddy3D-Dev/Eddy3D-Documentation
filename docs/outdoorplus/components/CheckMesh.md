@@ -3,7 +3,7 @@
 ![CheckMesh Component](../images/components/CheckMesh-crop.png)
 
 Run the OpenFOAM checkMesh command for a case region.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Run 

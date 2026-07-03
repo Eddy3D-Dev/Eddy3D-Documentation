@@ -1,4 +1,4 @@
-# UMCF Component list
+# Eddy3D — Outdoor Component list
 ## 0 Load Templates
 #### Main Components
 * [Templates](components/Templates.md)

@@ -7,7 +7,7 @@ Uniform Wind Inlet
  Sets a constant wind speed across the entire inlet. Useful for wind tunnel calibration or simplified flow studies.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Dir 

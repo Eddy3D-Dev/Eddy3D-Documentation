@@ -7,7 +7,7 @@ Radiation Settings
  Configures accuracy and detail for the MRT simulation, including solar ray-tracing quality and reflections.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Refl 

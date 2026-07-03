@@ -1,9 +1,6 @@
 # Eddy3D - Outdoor+
 
-!!! warning "Alpha Version"
-    This module is currently in alpha testing. Features, inputs, and outputs are subject to change without notice.
-
-*A Grasshopper plugin for urban microclimate simulation with `urbanMicroclimateFoam` (uMFoam)*
+*The urban microclimate module of the **Eddy3D** plugin, using `urbanMicroclimateFoam` (uMFoam)*
 
 ## Overview
 
@@ -20,20 +17,22 @@
 
 ## Prerequisites
 
-### 1. Install OpenFOAM with blueCFD-Core 2020 (Windows)
+### 1. Install an OpenFOAM engine
 
-- [Download `blueCFD-Core-2020` for Windows](https://bluecfd.github.io/Core/Downloads/#bluecfd-core-2020-1){ target="_blank" rel="noopener noreferrer" aria-label="Download blueCFD-Core-2020 for Windows (opens in a new tab)" }
-- This version includes `OpenFOAM 8`.
+Eddy3D runs OpenFOAM through one of these engines (pick one):
 
-### 2. Install UMCF Plugin for Grasshopper (Rhino)
+- **Docker (Windows & macOS, recommended):** [Install Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Install Docker Desktop (opens in a new tab)" }. Eddy3D pulls a pre-configured OpenFOAM 12 image automatically.
+- **blueCFD-Core 2024 (Windows):** [Download blueCFD-Core](https://bluecfd.github.io/Core/Downloads/){ target="_blank" rel="noopener noreferrer" aria-label="Download blueCFD-Core (opens in a new tab)" }.
+- **WSL (Windows):** [WSL installation guide](https://learn.microsoft.com/en-us/windows/wsl/install){ target="_blank" rel="noopener noreferrer" aria-label="WSL installation guide (opens in a new tab)" }.
+
+### 2. Install the Eddy3D Plugin for Grasshopper (Rhino)
 
 - Open **Rhinoceros**
 - Run the `PackageManager` command
-- Search for **UMCF**
-- Enable **"Include pre-releases"**  
+- Search for **Eddy3D**
 - Click **Install** and restart Rhino
 
-<iframe loading="lazy" title="Loom video: Install UMCF Plugin" src="https://www.loom.com/embed/aa80604bdf55468e89e213adfe3dfc03" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" title="Loom video: Install Eddy3D Plugin" src="https://www.loom.com/embed/aa80604bdf55468e89e213adfe3dfc03" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Verify Installation
 

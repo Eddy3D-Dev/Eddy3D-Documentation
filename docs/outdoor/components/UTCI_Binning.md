@@ -14,7 +14,7 @@ Condition of person rating in bins. Order is as follows:
  32 to 38 = 3(strong heat stress)
  38 to 46 = 4(very strong heat stress)
  > 46 = 5(extreme heat stress)
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Cond 

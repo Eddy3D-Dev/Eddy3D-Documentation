@@ -3,7 +3,7 @@
 ![Probing Component](../images/components/Probing-crop.png)
 
 Define probe points and run probing for a UMCF case.
- OutdoorPlus 0.0.20.0
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Case 

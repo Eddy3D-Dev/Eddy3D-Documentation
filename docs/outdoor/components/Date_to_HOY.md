@@ -7,7 +7,7 @@ Date to HOY
  Converts a specific Date and Time (Month, Day, Hour) into a single 'Hour of Year' integer (1-8760). Essential for querying specific timestamps in annual data.
 
 
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### M 

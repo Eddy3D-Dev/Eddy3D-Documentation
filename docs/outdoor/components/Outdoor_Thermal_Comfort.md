@@ -3,7 +3,7 @@
 ![Outdoor Thermal Comfort Component](../images/components/Outdoor_Thermal_Comfort-crop.png)
 
 Outdoor Thermal Comfort. This components computes the UTCI from the outdoor comfort objects passed. For the wind velocities, a scale-up to 10 m height above ground is applied.
- Eddy3D 0.5.0.815
+ Eddy3D 1.0.0.827
 
 #### Input
 * ##### Res 
