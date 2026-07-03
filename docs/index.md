@@ -56,7 +56,7 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 | Module   | Overview                                                     | Core engine            | Package | Rhino (ver) | OS support  | OpenFOAM (ver) | Radiance (ver) |
 |----------|--------------------------------------------------------------|------------------------|-----------------------|-------------|----------------|----------------|----------------|
-| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance     | **Eddy3D**            | 8.27        | Windows / Mac     | 12              |  Radiance 5.3  |
+| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance     | **Eddy3D**            | 8.27        | Windows / Mac     | 12              |  Auto (rad6R0P2)  |
 | Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM   | **Eddy3D** | 8.27                  | Windows / Mac | 12              | —              |
 | Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM               | **Eddy3D**            | 8.27        | Windows / Mac     | 12              | -              |
 

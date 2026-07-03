@@ -13,7 +13,7 @@ Choose a simulation engine (one of the following):
 - **BlueCFD-Core 2024 (Windows Only):** [Download blueCFD-Core](https://bluecfd.github.io/Core/Downloads/){ target="_blank" rel="noopener noreferrer" aria-label="Download blueCFD-Core (opens in a new tab)" }
 - **WSL (Windows Only):** [WSL Installation guide for Windows](https://learn.microsoft.com/en-us/windows/wsl/install){ target="_blank" rel="noopener noreferrer" aria-label="WSL Installation guide for Windows (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
 
-If you would like to use the *experimental* MRT component, please [install Radiance 5.3](https://github.com/LBNL-ETA/Radiance/releases/tag/012cb178){ target="_blank" rel="noopener noreferrer" aria-label="Install Radiance 5.3 (opens in a new tab)" } in the default folder: `C:\Program Files\Radiance` (Windows) or via your package manager (Mac).
+The **MRT** component uses [Radiance](https://github.com/LBNL-ETA/Radiance){ target="_blank" rel="noopener noreferrer" aria-label="Radiance on GitHub (opens in a new tab)" }. The **Install Engines** component downloads and installs it automatically (Windows &amp; Mac, release `rad6R0P2`) under the per-user Eddy3D folder &mdash; no manual install needed.
 
 ### Templates
 
