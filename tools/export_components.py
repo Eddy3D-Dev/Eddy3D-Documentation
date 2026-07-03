@@ -15,10 +15,10 @@ except ImportError:
 
 # --- CONFIGURATION -----------------------------------------------------------
 CLEAN_OUTPUT_DIR = True
-USE_CROPPED_IMAGES = True
+USE_CROPPED_IMAGES = False
 
 # --- SAFETY SETTINGS ---
-DISABLE_SOLVER = True 
+DISABLE_SOLVER = False 
 COMPONENT_WAIT_TIME = 0.1 
 
 # --- FILE TRACKER ---
