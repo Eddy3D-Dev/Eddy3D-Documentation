@@ -1,6 +1,6 @@
-# ![](../images/icons/UTCI_Weather.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22UTCI%20%28Weather%29%22)
+# ![](../images/icons/UTCI_Weather.png) UTCI Weather - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22UTCI%20%28Weather%29%22)
 
-![](../images/components/UTCI_Weather.png)
+![](../images/components/UTCI_Weather-crop.png)
 
 Universal Thermal Climate Index from weather inputs. Connect an EPW (supplies wind, RH, ambient temp) and/or override Ambient Temp, RH, Wind, and MRT by hand. Item or list.
 

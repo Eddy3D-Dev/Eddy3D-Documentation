@@ -1,6 +1,6 @@
-# ![](../images/icons/CalcPET.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22CalcPET%22)
+# ![](../images/icons/CalcPET.png) CalcPET - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22CalcPET%22)
 
-![](../images/components/CalcPET.png)
+![](../images/components/CalcPET-crop.png)
 
 Calculate PET (Physiological Equivalent Temperature) from environmental and personal inputs.
 

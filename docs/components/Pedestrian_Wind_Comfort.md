@@ -1,4 +1,4 @@
-## ![](../images/icons/Pedestrian_Wind_Comfort.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Pedestrian%20Wind%20Comfort%22)
+# ![](../images/icons/Pedestrian_Wind_Comfort.png) Pedestrian Wind Comfort - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Pedestrian%20Wind%20Comfort%22)
 
 ![](../images/components/Pedestrian_Wind_Comfort-crop.png)
 

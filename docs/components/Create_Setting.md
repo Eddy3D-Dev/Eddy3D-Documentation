@@ -1,4 +1,4 @@
-# ![](../images/icons/Create_Setting.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Create%20Setting%22)
+# ![](../images/icons/Create_Setting.png) Create Setting - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Create%20Setting%22)
 
 ![](../images/components/Create_Setting-crop.png)
 

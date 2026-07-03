@@ -1,4 +1,4 @@
-# ![](../images/icons/Write_Run_Scripts.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Write%20Run%20Scripts%22)
+# ![](../images/icons/Write_Run_Scripts.png) Write Run Scripts - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Write%20Run%20Scripts%22)
 
 ![](../images/components/Write_Run_Scripts-crop.png)
 

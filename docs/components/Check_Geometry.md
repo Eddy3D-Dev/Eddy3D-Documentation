@@ -1,6 +1,6 @@
-# ![](../images/icons/Check_Geometry.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Check%20Geometry%22)
+# ![](../images/icons/Check_Geometry.png) Check Geometry - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Check%20Geometry%22)
 
-![](../images/components/Check_Geometry.png)
+![](../images/components/Check_Geometry-crop.png)
 
 Tests for buildings and trees for Eddy3D-OutdoorPlus simulation.
 

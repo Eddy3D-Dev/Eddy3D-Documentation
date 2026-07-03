@@ -1,6 +1,6 @@
-# ![](../images/icons/Deconstruct_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Deconstruct%20Case%22)
+# ![](../images/icons/Deconstruct_Case.png) Deconstruct Case - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Deconstruct%20Case%22)
 
-![](../images/components/Deconstruct_Case.png)
+![](../images/components/Deconstruct_Case-crop.png)
 
 Inspect any Eddy3D case: Outdoor wind study, Indoor case, or OutdoorPlus (UMF) case.
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/Building_Region.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Building%20Region%22)
+# ![](../images/icons/Building_Region.png) Building Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Building%20Region%22)
 
-![](../images/components/Building_Region.png)
+![](../images/components/Building_Region-crop.png)
 
 Build a solid building region for the UMF case: from the façade surface meshes, two material wall layers (outer + inner) are extruded inward to model heat and moisture transport through the building envelope.
 

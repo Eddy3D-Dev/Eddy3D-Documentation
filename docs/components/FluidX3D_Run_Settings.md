@@ -1,6 +1,6 @@
-# ![](../images/icons/FluidX3D_Run_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22FluidX3D%20Run%20Settings%22)
+# ![](../images/icons/FluidX3D_Run_Settings.png) FluidX3D Run Settings - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22FluidX3D%20Run%20Settings%22)
 
-![](../images/components/FluidX3D_Run_Settings.png)
+![](../images/components/FluidX3D_Run_Settings-crop.png)
 
 Solver controls for the FluidX3D GPU engine (memory, simulated time, export interval, and an interactive real-time window).
 

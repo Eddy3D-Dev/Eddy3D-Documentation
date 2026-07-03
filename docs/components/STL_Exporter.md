@@ -1,6 +1,6 @@
-# ![](../images/icons/STL_Exporter.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22STL%20Exporter%22)
+# ![](../images/icons/STL_Exporter.png) STL Exporter - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22STL%20Exporter%22)
 
-![](../images/components/STL_Exporter.png)
+![](../images/components/STL_Exporter-crop.png)
 
 Export geometry to STL format for OpenFOAM or other CFD tools. Supports meshes and Breps (auto-meshed); binary or ASCII, single or multiple files.
 

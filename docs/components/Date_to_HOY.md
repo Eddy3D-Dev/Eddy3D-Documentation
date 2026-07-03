@@ -1,4 +1,4 @@
-# ![](../images/icons/Date_to_HOY.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Date%20to%20HOY%22)
+# ![](../images/icons/Date_to_HOY.png) Date to HOY - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Date%20to%20HOY%22)
 
 ![](../images/components/Date_to_HOY.png)
 

@@ -1,4 +1,4 @@
-# ![](../images/icons/Analysis_Period.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Analysis%20Period%22)
+# ![](../images/icons/Analysis_Period.png) Analysis Period - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Analysis%20Period%22)
 
 ![](../images/components/Analysis_Period-crop.png)
 

@@ -1,4 +1,4 @@
-# ![](../images/icons/Run.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Run%22)
+# ![](../images/icons/Run.png) Run - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Run%22)
 
 ![](../images/components/Run.png)
 

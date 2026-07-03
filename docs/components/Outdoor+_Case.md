@@ -1,6 +1,6 @@
-# ![](../images/icons/Outdoor+_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Outdoor%2B%20Case%22)
+# ![](../images/icons/Outdoor+_Case.png) Outdoor+ Case - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Outdoor%2B%20Case%22)
 
-![](../images/components/Outdoor+_Case.png)
+![](../images/components/Outdoor+_Case-crop.png)
 
 Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus
 

@@ -1,4 +1,4 @@
-# ![](../images/icons/Refinement_Region.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Refinement%20Region%22)
+# ![](../images/icons/Refinement_Region.png) Refinement Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Refinement%20Region%22)
 
 ![](../images/components/Refinement_Region.png)
 

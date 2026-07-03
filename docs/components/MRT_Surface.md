@@ -1,6 +1,6 @@
-# ![](../images/icons/MRT_Surface.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%20Surface%22)
+# ![](../images/icons/MRT_Surface.png) MRT Surface - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%20Surface%22)
 
-![](../images/components/MRT_Surface.png)
+![](../images/components/MRT_Surface-crop.png)
 
 Mesh Breps into a tagged radiation surface for an MRT analysis.
 

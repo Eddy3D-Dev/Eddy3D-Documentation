@@ -1,6 +1,6 @@
-# ![](../images/icons/OpenFOAM_Dictionary.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22OpenFOAM%20Dictionary%22)
+# ![](../images/icons/OpenFOAM_Dictionary.png) OpenFOAM Dictionary - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22OpenFOAM%20Dictionary%22)
 
-![](../images/components/OpenFOAM_Dictionary.png)
+![](../images/components/OpenFOAM_Dictionary-crop.png)
 
 Create an OpenFOAM dictionary for file modification inputs.
 

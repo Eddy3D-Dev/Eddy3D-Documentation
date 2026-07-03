@@ -1,4 +1,4 @@
-# ![](../images/icons/Heat_Source.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Heat%20Source%22)
+# ![](../images/icons/Heat_Source.png) Heat Source - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Heat%20Source%22)
 
 ![](../images/components/Heat_Source.png)
 

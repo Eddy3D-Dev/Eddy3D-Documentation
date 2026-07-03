@@ -1,6 +1,6 @@
-# ![](../images/icons/Translate_Date_To_Hours.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Translate%20Date%20To%20Hours%22)
+# ![](../images/icons/Translate_Date_To_Hours.png) Translate Date To Hours - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Translate%20Date%20To%20Hours%22)
 
-![](../images/components/Translate_Date_To_Hours.png)
+![](../images/components/Translate_Date_To_Hours-crop.png)
 
 Translate a Ladybug analysis period to hours of the year.
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/Plot_Residuals.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Plot%20Residuals%22)
+# ![](../images/icons/Plot_Residuals.png) Plot Residuals - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Plot%20Residuals%22)
 
-![](../images/components/Plot_Residuals.png)
+![](../images/components/Plot_Residuals-crop.png)
 
 Open the web-based residual plotter for a wind case's convergence history (one trace per direction).
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/CalcHeatIndex.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22CalcHeatIndex%22)
+# ![](../images/icons/CalcHeatIndex.png) CalcHeatIndex - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22CalcHeatIndex%22)
 
-![](../images/components/CalcHeatIndex.png)
+![](../images/components/CalcHeatIndex-crop.png)
 
 Calculate Heat Index using the NOAA/NWS equation (air temperature + relative humidity).
 

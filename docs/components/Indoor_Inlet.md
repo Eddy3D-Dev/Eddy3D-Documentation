@@ -1,6 +1,6 @@
-# ![](../images/icons/Indoor_Inlet.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Inlet%22)
+# ![](../images/icons/Indoor_Inlet.png) Indoor Inlet - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Inlet%22)
 
-![](../images/components/Indoor_Inlet.png)
+![](../images/components/Indoor_Inlet-crop.png)
 
 Ventilation inlet — defines where air enters the room (diffuser, window, door). Direction is computed perpendicular to the surface, pointing into the room.
 

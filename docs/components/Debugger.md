@@ -1,4 +1,4 @@
-# ![](../images/icons/Debugger.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Debugger%22)
+# ![](../images/icons/Debugger.png) Debugger - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Debugger%22)
 
 ![](../images/components/Debugger-crop.png)
 

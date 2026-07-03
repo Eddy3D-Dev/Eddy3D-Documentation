@@ -1,4 +1,4 @@
-# ![](../images/icons/Watertight.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Watertight%22)
+# ![](../images/icons/Watertight.png) Watertight - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Watertight%22)
 
 ![](../images/components/Watertight.png)
 

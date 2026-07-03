@@ -1,6 +1,6 @@
-# ![](../images/icons/Advanced_Terrain_Mesh.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Advanced%20Terrain%20Mesh%22)
+# ![](../images/icons/Advanced_Terrain_Mesh.png) Advanced Terrain Mesh - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Advanced%20Terrain%20Mesh%22)
 
-![](../images/components/Advanced_Terrain_Mesh.png)
+![](../images/components/Advanced_Terrain_Mesh-crop.png)
 
 Generate a multi-resolution terrain mesh from input geometry with a solid base. OutdoorPlus
 

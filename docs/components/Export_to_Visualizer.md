@@ -1,6 +1,6 @@
-# ![](../images/icons/Export_to_Visualizer.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Export%20to%20Visualizer%22)
+# ![](../images/icons/Export_to_Visualizer.png) Export to Visualizer - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Export%20to%20Visualizer%22)
 
-![](../images/components/Export_to_Visualizer.png)
+![](../images/components/Export_to_Visualizer-crop.png)
 
 Write probed wind results as a CSV for the Eddy3D Visualizer (viz.eddy3d.com): columns X, Y, Z_relative, U_at_z, mag_U — one row per probe point. Upload the file at https://viz.eddy3d.com to view the 3D field, coloured by velocity magnitude.
 

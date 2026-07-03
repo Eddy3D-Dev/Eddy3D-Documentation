@@ -1,4 +1,4 @@
-# ![](../images/icons/Momentum_Source.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Momentum%20Source%22)
+# ![](../images/icons/Momentum_Source.png) Momentum Source - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Momentum%20Source%22)
 
 ![](../images/components/Momentum_Source.png)
 

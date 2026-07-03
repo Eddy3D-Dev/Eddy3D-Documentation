@@ -1,6 +1,6 @@
-# ![](../images/icons/FluidX3D_Run.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22FluidX3D%20Run%22)
+# ![](../images/icons/FluidX3D_Run.png) FluidX3D Run - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22FluidX3D%20Run%22)
 
-![](../images/components/FluidX3D_Run.png)
+![](../images/components/FluidX3D_Run-crop.png)
 
 Prepare and launch a FluidX3D GPU wind simulation (builds the solver from source, runs on the GPU).  LICENSE: FluidX3D (ProjectPhysX) is free for NON-COMMERCIAL use only — public research, education, or personal use. Commercial use is not permitted. See the FluidX3D LICENSE.
 

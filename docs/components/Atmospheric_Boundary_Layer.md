@@ -1,6 +1,6 @@
-# ![](../images/icons/Atmospheric_Boundary_Layer.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Atmospheric%20Boundary%20Layer%22)
+# ![](../images/icons/Atmospheric_Boundary_Layer.png) Atmospheric Boundary Layer - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Atmospheric%20Boundary%20Layer%22)
 
-![](../images/components/Atmospheric_Boundary_Layer.png)
+![](../images/components/Atmospheric_Boundary_Layer-crop.png)
 
 Define atmospheric boundary layer inflow conditions for Eddy3D.
 

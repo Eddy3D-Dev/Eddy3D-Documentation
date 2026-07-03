@@ -1,6 +1,6 @@
-# ![](../images/icons/GAN_Predict.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22GAN%20Predict%22)
+# ![](../images/icons/GAN_Predict.png) GAN Predict - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22GAN%20Predict%22)
 
-![](../images/components/GAN_Predict.png)
+![](../images/components/GAN_Predict-crop.png)
 
 Predict a pedestrian wind-speed field from buildings using the Eddy3D GAN (no CFD run). Sends the geometry to the GAN API and returns wind speeds + a colored result mesh.
 

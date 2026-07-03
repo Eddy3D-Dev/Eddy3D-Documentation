@@ -1,6 +1,6 @@
-# ![](../images/icons/Load_Wind_Case.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Load%20Wind%20Case%22)
+# ![](../images/icons/Load_Wind_Case.png) Load Wind Case - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Load%20Wind%20Case%22)
 
-![](../images/components/Load_Wind_Case.png)
+![](../images/components/Load_Wind_Case-crop.png)
 
 Reference an existing wind case folder (mesh/ + case_NNN) for post-processing.
 

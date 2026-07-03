@@ -1,6 +1,6 @@
-# ![](../images/icons/Gmsh_Mesh.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Gmsh%20Mesh%22)
+# ![](../images/icons/Gmsh_Mesh.png) Gmsh Mesh - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Gmsh%20Mesh%22)
 
-![](../images/components/Gmsh_Mesh.png)
+![](../images/components/Gmsh_Mesh-crop.png)
 
 Creates a STL mesh from geometry using the gmsh application. Useful to create healthy mesh topologies for building elements.
 

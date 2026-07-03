@@ -1,6 +1,6 @@
-# ![](../images/icons/Wind_Comfort_Predictor_ML.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Comfort%20Predictor%20%28ML%29%22)
+# ![](../images/icons/Wind_Comfort_Predictor_ML.png) Wind Comfort Predictor ML - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Comfort%20Predictor%20%28ML%29%22)
 
-![](../images/components/Wind_Comfort_Predictor_ML.png)
+![](../images/components/Wind_Comfort_Predictor_ML-crop.png)
 
 Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX model.
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/Tree_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Tree%20Settings%22)
+# ![](../images/icons/Tree_Settings.png) Tree Settings - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Tree%20Settings%22)
 
-![](../images/components/Tree_Settings.png)
+![](../images/components/Tree_Settings-crop.png)
 
 Canopy material properties for an MRT tree surface.
 

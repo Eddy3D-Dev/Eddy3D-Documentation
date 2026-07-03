@@ -1,6 +1,6 @@
-# ![](../images/icons/Timing_Parameters.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Timing%20Parameters%22)
+# ![](../images/icons/Timing_Parameters.png) Timing Parameters - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Timing%20Parameters%22)
 
-![](../images/components/Timing_Parameters.png)
+![](../images/components/Timing_Parameters-crop.png)
 
 Define simulation timing and optional weather-driven time series. OutdoorPlus
 

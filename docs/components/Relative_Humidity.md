@@ -1,6 +1,6 @@
-# ![](../images/icons/Relative_Humidity.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Relative%20Humidity%22)
+# ![](../images/icons/Relative_Humidity.png) Relative Humidity - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Relative%20Humidity%22)
 
-![](../images/components/Relative_Humidity.png)
+![](../images/components/Relative_Humidity-crop.png)
 
 Convert specific humidity (w) and temperature (T) to relative humidity (%). OutdoorPlus
 

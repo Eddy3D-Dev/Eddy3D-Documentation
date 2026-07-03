@@ -1,4 +1,4 @@
-# ![](../images/icons/Uniform_Vector_Value.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Uniform%20Vector%20Value%22)
+# ![](../images/icons/Uniform_Vector_Value.png) Uniform Vector Value - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Uniform%20Vector%20Value%22)
 
 ![](../images/components/Uniform_Vector_Value.png)
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/Surface_Settings.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Surface%20Settings%22)
+# ![](../images/icons/Surface_Settings.png) Surface Settings - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Surface%20Settings%22)
 
-![](../images/components/Surface_Settings.png)
+![](../images/components/Surface_Settings-crop.png)
 
 Thermal + optical material properties for a building/ground MRT surface.
 

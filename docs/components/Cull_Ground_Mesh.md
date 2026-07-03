@@ -1,6 +1,6 @@
-# ![](../images/icons/Cull_Ground_Mesh.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Cull%20Ground%20Mesh%22)
+# ![](../images/icons/Cull_Ground_Mesh.png) Cull Ground Mesh - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Cull%20Ground%20Mesh%22)
 
-![](../images/components/Cull_Ground_Mesh.png)
+![](../images/components/Cull_Ground_Mesh-crop.png)
 
 Remove ground mesh faces that intersect buildings, creating an analysis ground mesh with building footprints cut out.
 

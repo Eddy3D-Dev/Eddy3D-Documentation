@@ -1,4 +1,4 @@
-# ![](../images/icons/SLURM_Runner.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22SLURM%20Runner%22)
+# ![](../images/icons/SLURM_Runner.png) SLURM Runner - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22SLURM%20Runner%22)
 
 ![](../images/components/SLURM_Runner.png)
 

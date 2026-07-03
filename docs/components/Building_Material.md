@@ -1,6 +1,6 @@
-# ![](../images/icons/Building_Material.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Building%20Material%22)
+# ![](../images/icons/Building_Material.png) Building Material - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Building%20Material%22)
 
-![](../images/components/Building_Material.png)
+![](../images/components/Building_Material-crop.png)
 
 Select a building material from the list and override its properties.
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/MRT.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%22)
+# ![](../images/icons/MRT.png) MRT - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%22)
 
-![](../images/components/MRT.png)
+![](../images/components/MRT-crop.png)
 
 Compute mean radiant temperature at the sensors. Direct-raycast shortwave by default; wire MRT Settings with reflections/diffuse radiation on to use the Radiance DDS engine.
 

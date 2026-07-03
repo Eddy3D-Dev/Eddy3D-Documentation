@@ -1,6 +1,6 @@
-# ![](../images/icons/UTCI_Simulation.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22UTCI%20%28Simulation%29%22)
+# ![](../images/icons/UTCI_Simulation.png) UTCI Simulation - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22UTCI%20%28Simulation%29%22)
 
-![](../images/components/UTCI_Simulation.png)
+![](../images/components/UTCI_Simulation-crop.png)
 
 Compute annual per-probe UTCI from simulation outputs: MRT and wind-speed data trees, plus air temperature and relative humidity. For a weather-only calculator, use "UTCI (Weather)".
 

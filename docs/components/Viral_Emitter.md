@@ -1,4 +1,4 @@
-## ![](../images/icons/Viral_Emitter.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Viral%20Emitter%22)
+# ![](../images/icons/Viral_Emitter.png) Viral Emitter - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Viral%20Emitter%22)
 
 ![](../images/components/Viral_Emitter-crop.png)
 

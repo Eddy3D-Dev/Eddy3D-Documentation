@@ -1,0 +1,11 @@
+# 06 Indoor
+#### Main Components
+* [Indoor Case](../components/Indoor_Case.md)
+* [Indoor Inlet](../components/Indoor_Inlet.md)
+* [Indoor Outlet](../components/Indoor_Outlet.md)
+* [Indoor Sink](../components/Indoor_Sink.md)
+* [Indoor Wall](../components/Indoor_Wall.md)
+* [CO2 Emitter](../components/CO2_Emitter.md)
+* [Heat Source](../components/Heat_Source.md)
+* [Momentum Source](../components/Momentum_Source.md)
+* [Viral Emitter](../components/Viral_Emitter.md)

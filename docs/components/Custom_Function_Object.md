@@ -1,6 +1,6 @@
-# ![](../images/icons/Custom_Function_Object.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Custom%20Function%20Object%22)
+# ![](../images/icons/Custom_Function_Object.png) Custom Function Object - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Custom%20Function%20Object%22)
 
-![](../images/components/Custom_Function_Object.png)
+![](../images/components/Custom_Function_Object-crop.png)
 
 Inject a custom OpenFOAM function object into a written case so the solver runs it at runtime — fieldAverage, yPlus, wallShearStress, forces, surfaceFieldValue, a coded FO, etc.
 

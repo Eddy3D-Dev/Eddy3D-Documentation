@@ -1,6 +1,6 @@
-# ![](../images/icons/Probe.png) [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Probe%22)
+# ![](../images/icons/Probe.png) Probe - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Probe%22)
 
-![](../images/components/Probe.png)
+![](../images/components/Probe-crop.png)
 
 Sample fields at points on a solved case, post-hoc. With Run it writes a probes function and runs postProcess on the latest time, then reads the results; without Run it reads existing results. Works on a wind case (one sub-result per direction) or a loaded case.
 
