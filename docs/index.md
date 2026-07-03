@@ -56,15 +56,13 @@ The Grasshopper plugin currently contains three modules, please see below.
 
 | Module   | Overview                                                     | Core engine            | Package | Rhino (ver) | OS support  | OpenFOAM (ver) | Radiance (ver) |
 |----------|--------------------------------------------------------------|------------------------|-----------------------|-------------|----------------|----------------|----------------|
-| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance     | **Eddy3D**            | 8.27        | Windows / Mac     | 12              |  Auto (rad6R0P2)  |
-| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM   | **Eddy3D** | 8.27                  | Windows / Mac | 12              | —              |
-| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM               | **Eddy3D**            | 8.27        | Windows / Mac     | 12              | -              |
+| Outdoor  | Decoupled wind + mean radiant temp                           | OpenFOAM; Radiance     | **Eddy3D**            | 8.27        | Windows / Mac     | 12 (Foundation) |  Auto (rad6R0P2)  |
+| Outdoor+ | Fully coupled (wind, radiation, heat, moisture) | OpenFOAM   | **Eddy3D** | 8.27                  | Windows / Mac | 12 (Foundation) | —              |
+| Indoor   | Airflow, moisture, passive scalars (indoor)                  | OpenFOAM               | **Eddy3D**            | 8.27        | Windows / Mac     | 12 (Foundation) | -              |
 
 ## Downloads
 
-| Plugin | Platform | Link |
-|----------|----------|----------------|
-| **Eddy3D** (Outdoor, Outdoor+, Indoor, MRT, FluidX3D) | Windows / Mac | [Install via the Rhino Package Manager &mdash; search **`Eddy3D`**](https://rhinopackages.github.io/?search=eddy3d&sort=2&p=Eddy3D){ target="_blank" rel="noopener noreferrer" aria-label="Install Eddy3D via the Rhino Package Manager (opens in a new tab)" } &nbsp;·&nbsp; Windows also has a [standalone installer](https://github.com/Eddy3D-Dev/Eddy3D/releases/latest){ target="_blank" rel="noopener noreferrer" aria-label="Download Eddy3D installer for Windows (opens in a new tab)" } |
+Install **Eddy3D** from the Rhino Package Manager (run `PackageManager` in Rhino 8 and search for **`Eddy3D`**). For the current version and release notes, see the [**Eddy3D download page**](https://eddy3d.com/download/){ target="_blank" rel="noopener noreferrer" aria-label="Eddy3D download page (opens in a new tab)" }.
 
 !!! tip "Previous Versions"
     View the [**required Rhino 8.27 build details (8.27.26019.16022, en-us)**](https://rhinoversions.github.io/?version=8.27.26019.16022&locale=en-us){ target="_blank" rel="noopener noreferrer" aria-label="required Rhino 8.27 build details (8.27.26019.16022, en-us) (opens in a new tab)" }.
