@@ -1,6 +1,6 @@
 # ![](../images/icons/Refinement_Region.png) Refinement Region - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Refinement%20Region%22)
 
-![](../images/components/Refinement_Region.png)
+![](../images/components/Refinement_Region-crop.png)
 
 Add a custom snappyHexMesh refinement region (a box, solid or surface) to a written case's mesh, then re-mesh. Refines the cells inside/near the geometry to the chosen level.
 

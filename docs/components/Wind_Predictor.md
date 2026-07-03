@@ -1,6 +1,6 @@
 # ![](../images/icons/Wind_Predictor.png) Wind Predictor - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Predictor%22)
 
-![](../images/components/Wind_Predictor.png)
+![](../images/components/Wind_Predictor-crop.png)
 
 Run ONNX wind-field prediction end-to-end. Computes SDF, building height, Zrelative, U/Uref, direction features from geometry, assembles the 8-channel input tensor, runs ONNX inference, and outputs predicted wind speeds. Supports legacy 1ch (U), 2ch (U + k) and new 4ch (U + k + Uroof + kroof) models.
 

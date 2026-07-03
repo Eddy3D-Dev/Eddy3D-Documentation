@@ -1,6 +1,6 @@
 # ![](../images/icons/Indoor_Case.png) Indoor Case - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Case%22)
 
-![](../images/components/Indoor_Case.png)
+![](../images/components/Indoor_Case-crop.png)
 
 Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12.
 

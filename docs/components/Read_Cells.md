@@ -1,6 +1,6 @@
 # ![](../images/icons/Read_Cells.png) Read Cells - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Read%20Cells%22)
 
-![](../images/components/Read_Cells.png)
+![](../images/components/Read_Cells-crop.png)
 
 Read cell connectivity and cell zones for a region. OutdoorPlus
 

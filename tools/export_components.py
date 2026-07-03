@@ -19,7 +19,7 @@ USE_CROPPED_IMAGES = True
 
 # --- SAFETY SETTINGS ---
 DISABLE_SOLVER = True 
-COMPONENT_WAIT_TIME = 0.1 
+COMPONENT_WAIT_TIME = 0.2 
 
 # --- FILE TRACKER ---
 WRITTEN_FILES = []
@@ -121,7 +121,7 @@ def reset_output_directories(base_dir):
             try: os.remove(f)
             except: pass
 
-def captureGrasshopperScreen(fileName, workingDirectory):
+def captureGrasshopperScreen(fileName, workingDirectory, component=None):
     target_dir = os.path.join(workingDirectory, "images", "components")
     if not os.path.exists(target_dir): os.makedirs(target_dir, exist_ok=True)
     
@@ -130,7 +130,13 @@ def captureGrasshopperScreen(fileName, workingDirectory):
     canvas = Grasshopper.GH_InstanceServer.ActiveCanvas
     canvas.Refresh()
     
-    rect = System.Drawing.Rectangle(0, 0, 2, 2)
+    if component and component.Attributes:
+        b = component.Attributes.Bounds
+        margin = 150 # Generous margin to capture all shadows, wires, and balloons without clipping
+        rect = System.Drawing.Rectangle(int(b.X) - margin, int(b.Y) - margin, int(b.Width) + 2*margin, int(b.Height) + 2*margin)
+    else:
+        rect = System.Drawing.Rectangle(0, 0, 2, 2)
+        
     imgsOfCanvas = canvas.GenerateHiResImage(rect, imageSettings)
     screenCapture = imgsOfCanvas[0][0]
     
@@ -140,10 +146,9 @@ def captureGrasshopperScreen(fileName, workingDirectory):
     shutil.copyfile(screenCapture, filePath)
     track_file(filePath)
     
-    # Auto-crop: trim background and save as -crop.png
+    # Fast Auto-crop: trim background using coarse steps to ensure fast execution
     try:
         bmp = System.Drawing.Bitmap(filePath)
-        # Sample background colour from top-left pixel
         bg = bmp.GetPixel(0, 0)
         tolerance = 30
         def is_bg(c):
@@ -151,31 +156,35 @@ def captureGrasshopperScreen(fileName, workingDirectory):
                     abs(int(c.G) - int(bg.G)) < tolerance and
                     abs(int(c.B) - int(bg.B)) < tolerance)
         w, h = bmp.Width, bmp.Height
+        
+        step = 5 # Coarse enough for speed, fine enough for accuracy
         top = 0
-        for y in range(h):
-            if any(not is_bg(bmp.GetPixel(x, y)) for x in range(0, w, 4)):
+        for y in range(0, h, step):
+            if any(not is_bg(bmp.GetPixel(x, y)) for x in range(0, w, step)):
                 top = y
                 break
         bottom = h - 1
-        for y in range(h - 1, -1, -1):
-            if any(not is_bg(bmp.GetPixel(x, y)) for x in range(0, w, 4)):
+        for y in range(h - 1, -1, -step):
+            if any(not is_bg(bmp.GetPixel(x, y)) for x in range(0, w, step)):
                 bottom = y
                 break
         left = 0
-        for x in range(w):
-            if any(not is_bg(bmp.GetPixel(x, y)) for y in range(top, bottom + 1, 4)):
+        for x in range(0, w, step):
+            if any(not is_bg(bmp.GetPixel(x, y)) for y in range(top, bottom + 1, step)):
                 left = x
                 break
         right = w - 1
-        for x in range(w - 1, -1, -1):
-            if any(not is_bg(bmp.GetPixel(x, y)) for y in range(top, bottom + 1, 4)):
+        for x in range(w - 1, -1, -step):
+            if any(not is_bg(bmp.GetPixel(x, y)) for y in range(top, bottom + 1, step)):
                 right = x
                 break
-        pad = 10
+        
+        pad = 20 # Pad back out slightly for visual breathing room
         top = max(0, top - pad)
         left = max(0, left - pad)
         bottom = min(h - 1, bottom + pad)
         right = min(w - 1, right + pad)
+        
         crop_rect = System.Drawing.Rectangle(left, top, right - left + 1, bottom - top + 1)
         cropped = bmp.Clone(crop_rect, bmp.PixelFormat)
         crop_path = filePath.replace(".png", "-crop.png")
@@ -185,7 +194,7 @@ def captureGrasshopperScreen(fileName, workingDirectory):
         cropped.Dispose()
         bmp.Dispose()
     except Exception as e:
-        print(f"  Warning: auto-crop failed for {fileName}: {e}")
+        print(f"  Warning: fast auto-crop failed for {fileName}: {e}")
     
     path = os.path.split(screenCapture)[0]
     try: shutil.rmtree(path)
@@ -241,7 +250,7 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     os.makedirs(components_dir, exist_ok=True)
 
     lines = []
-    lines.append(f"# ![](../images/icons/{name}.png)")
+    lines.append(f"# ![](../images/icons/{name}.png) {bName}")
     if githubRepo:
         repo_dir = os.path.abspath(os.path.join(githubFolder, "..", "Eddy3D"))
         try: class_name = type(component).__name__
@@ -249,10 +258,10 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
         mapped_path = get_source_path(class_name, repo_dir) if repo_dir and os.path.exists(repo_dir) else None
         
         if mapped_path:
-            lines[-1] += f" [[source code]]({githubRepo}/blob/dev/{mapped_path})\n"
+            lines[-1] += f" - [[source code]]({githubRepo}/blob/dev/{mapped_path})\n"
         else:
             search_query = quote(f'"{originalName}"')
-            lines[-1] += f" [[source code]]({githubRepo}/search?q={search_query})\n"
+            lines[-1] += f" - [[source code]]({githubRepo}/search?q={search_query})\n"
     else: lines[-1] += "\n"
 
     image_filename = f"{name}-crop.png" if USE_CROPPED_IMAGES else f"{name}.png"
@@ -363,7 +372,7 @@ if export:
                 name = getComponentName(component)
                 
                 try:
-                    captureGrasshopperScreen(name + ".png", githubFolder)
+                    captureGrasshopperScreen(name + ".png", githubFolder, component)
                     exportIcon(component, pluginName, githubFolder)
                     exportDescription(component, pluginName, githubFolder, pluginGHRepo)
                     componentsHeights[name] = str(component.Attributes.Bounds.Height)

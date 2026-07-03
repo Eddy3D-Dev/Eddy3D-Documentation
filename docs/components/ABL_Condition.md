@@ -1,6 +1,6 @@
 # ![](../images/icons/ABL_Condition.png) ABL Condition - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22ABL%20Condition%22)
 
-![](../images/components/ABL_Condition.png)
+![](../images/components/ABL_Condition-crop.png)
 
 Define atmospheric boundary layer settings for the air region. OutdoorPlus
 

@@ -1,6 +1,6 @@
 # ![](../images/icons/Watertight.png) Watertight - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Watertight%22)
 
-![](../images/components/Watertight.png)
+![](../images/components/Watertight-crop.png)
 
 Combine a multi-part building mesh into a single watertight, CFD-ready solid via the bundled Python mesh service (trimesh/manifold3d/pymeshfix). The server auto-starts locally on the first run (uv-managed Python environment; first start installs it, 1-2 minutes) and is reused afterwards.
 

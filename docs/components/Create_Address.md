@@ -1,6 +1,6 @@
 # ![](../images/icons/Create_Address.png) Create Address - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Create%20Address%22)
 
-![](../images/components/Create_Address.png)
+![](../images/components/Create_Address-crop.png)
 
 Create a MetaFOAM Address for entries and settings.
 

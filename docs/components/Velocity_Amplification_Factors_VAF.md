@@ -1,4 +1,4 @@
-# ![](../images/icons/Velocity_Amplification_Factors_VAF.png) Velocity Amplification Factors VAF - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Velocity%20Amplification%20Factors%20%28VAF%29%22)
+# ![](../images/icons/Velocity_Amplification_Factors_VAF.png) Velocity Amplification Factors (VAF) - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Velocity%20Amplification%20Factors%20%28VAF%29%22)
 
 ![](../images/components/Velocity_Amplification_Factors_VAF-crop.png)
 

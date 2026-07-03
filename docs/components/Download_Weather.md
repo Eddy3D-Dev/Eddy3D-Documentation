@@ -1,6 +1,6 @@
 # ![](../images/icons/Download_Weather.png) Download Weather - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Download%20Weather%22)
 
-![](../images/components/Download_Weather.png)
+![](../images/components/Download_Weather-crop.png)
 
 Download an EPW weather file from climate.onebuilding.org nearest to your project location. Use the Search input to filter by station name, WMO ID, or dataset year.
 

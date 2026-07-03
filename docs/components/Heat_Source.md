@@ -1,6 +1,6 @@
 # ![](../images/icons/Heat_Source.png) Heat Source - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Heat%20Source%22)
 
-![](../images/components/Heat_Source.png)
+![](../images/components/Heat_Source-crop.png)
 
 A volumetric heat source box for an indoor ventilation case (transported temperature scalar).
 

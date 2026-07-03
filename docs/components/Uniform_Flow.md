@@ -1,6 +1,6 @@
 # ![](../images/icons/Uniform_Flow.png) Uniform Flow - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Uniform%20Flow%22)
 
-![](../images/components/Uniform_Flow.png)
+![](../images/components/Uniform_Flow-crop.png)
 
 Create a uniform (constant velocity) inflow boundary condition for Eddy3D.
 

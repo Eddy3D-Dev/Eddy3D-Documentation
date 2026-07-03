@@ -1,6 +1,6 @@
 # ![](../images/icons/Wind_Field_Viewer.png) Wind Field Viewer - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Field%20Viewer%22)
 
-![](../images/components/Wind_Field_Viewer.png)
+![](../images/components/Wind_Field_Viewer-crop.png)
 
 Visualize a probed wind field: colored velocity arrows, a point cloud, or a heatmap mesh. Feed the Probe component's points + velocity (or any points + vectors).
 

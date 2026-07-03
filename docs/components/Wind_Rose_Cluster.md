@@ -1,6 +1,6 @@
 # ![](../images/icons/Wind_Rose_Cluster.png) Wind Rose Cluster - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Wind%20Rose%20Cluster%22)
 
-![](../images/components/Wind_Rose_Cluster.png)
+![](../images/components/Wind_Rose_Cluster-crop.png)
 
 Cluster annual wind directions into representative directions using k-means.
 

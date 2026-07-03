@@ -1,6 +1,6 @@
 # ![](../images/icons/Run.png) Run - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Run%22)
 
-![](../images/components/Run.png)
+![](../images/components/Run-crop.png)
 
 Mesh and run an OpenFOAM case on the selected engine (wind / indoor / UMF).
 

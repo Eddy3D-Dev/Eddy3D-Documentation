@@ -50,9 +50,11 @@ The generator resolves sibling repos by walking up from the `.gh` file location.
 ## Script conventions
 
 - `USE_CROPPED_IMAGES = True` — the markdown references `{name}-crop.png`.
-  The script auto-crops screenshots and saves both raw and cropped versions.
-- `DISABLE_SOLVER = True` — disables the GH solver during export to prevent
-  downstream components from firing.
+- **Image Capture & Bounding Box Quirks:**
+  - `DISABLE_SOLVER = True` prevents components from computing, which means Grasshopper's native canvas auto-fit (`GenerateHiResImage` with a `2x2` rect) fails and captures blank images.
+  - To fix this, the script explicitly passes `component.Attributes.Bounds` padded with a massive `150px` margin to guarantee shadows and text balloons are captured safely without the solver running.
+  - Because of the massive margin, a custom Python auto-crop script runs on the generated image to trim the excess background.
+  - **Performance:** Python `GetPixel` loops in C# interop are notoriously slow. The auto-crop loop uses a coarse grid (`step = 5`) to scan the image 100x faster, otherwise the export takes minutes instead of seconds.
 - Source code links are resolved dynamically by scanning `.cs` files in the
   sibling `Eddy3D` repo for `class ClassName` declarations. No hardcoded
   dictionaries or mappings.
