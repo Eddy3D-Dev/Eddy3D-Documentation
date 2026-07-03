@@ -265,16 +265,24 @@ pluginComponents = {}
 
 _workingDir = globals().get('workingDir', None)
 _pluginName = globals().get('pluginName', 'Eddy3D')
+_doc_repo = _pluginName + "-Documentation"
 if not _workingDir:
+    _found = False
     try:
         ghdoc = Grasshopper.Instances.ActiveCanvas.Document
         if ghdoc and ghdoc.FilePath:
-            ghdoc_dir = os.path.dirname(ghdoc.FilePath)
-            githubFolder = os.path.abspath(os.path.join(ghdoc_dir, "..", "docs"))
-        else:
-            githubFolder = os.path.expanduser("~/Documents/GitHub/%s-Documentation/docs" % _pluginName)
+            _cur = os.path.dirname(ghdoc.FilePath)
+            for _ in range(5):
+                _candidate = os.path.join(_cur, _doc_repo, "docs")
+                if os.path.isdir(_candidate):
+                    githubFolder = _candidate
+                    _found = True
+                    break
+                _cur = os.path.dirname(_cur)
     except Exception:
-        githubFolder = os.path.expanduser("~/Documents/GitHub/%s-Documentation/docs" % _pluginName)
+        pass
+    if not _found:
+        githubFolder = os.path.expanduser("~/Documents/GitHub/%s/docs" % _doc_repo)
 else:
     githubFolder = _workingDir
 
