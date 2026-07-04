@@ -14,7 +14,6 @@ extra:
 nav:
   - Documentation:
       - Start: index.md
-      - First Steps: first_steps.md
   - Video Tutorials: tutorials.md
   - Components:
       - "00 Setup":
