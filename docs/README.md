@@ -1,6 +1,7 @@
 # Eddy3D Component list
 ## 00 Setup
 #### Main Components
+* [Select Template](components/Select_Template.md)
 * [Calculated Value](components/Calculated_Value.md)
 * [Calculated Vector Value](components/Calculated_Vector_Value.md)
 * [Constant Value](components/Constant_Value.md)
@@ -16,7 +17,6 @@
 * [Uniform Value](components/Uniform_Value.md)
 * [Uniform Vector Value](components/Uniform_Vector_Value.md)
 * [Zero Gradient Value](components/Zero_Gradient_Value.md)
-* [Select Template](components/Select_Template.md)
 ## 00 Utilities
 #### Main Components
 * [STL Exporter](components/STL_Exporter.md)
@@ -47,18 +47,16 @@
 * [Write Run Scripts](components/Write_Run_Scripts.md)
 ## 04 Wind Simulation
 #### Main Components
-* [Clean Case](components/Clean_Case.md)
 * [Run](components/Run.md)
 * [Run Settings](components/Run_Settings.md)
 * [Custom Function Object](components/Custom_Function_Object.md)
+* [Clean Case](components/Clean_Case.md)
 
 #### Hidden Components
 * [SLURM Runner](components/SLURM_Runner.md)
 ## 05 Wind Results
 #### Main Components
 * [Probe](components/Probe.md)
-* [Analysis Period](components/Analysis_Period.md)
-* [Date to HOY](components/Date_to_HOY.md)
 * [Live Residuals](components/Live_Residuals.md)
 * [Meshing Progress](components/Meshing_Progress.md)
 * [Plot Residuals](components/Plot_Residuals.md)
@@ -66,6 +64,8 @@
 * [Pedestrian Wind Comfort](components/Pedestrian_Wind_Comfort.md)
 * [Velocity Amplification Factors VAF](components/Velocity_Amplification_Factors_VAF.md)
 * [Wind Field Viewer](components/Wind_Field_Viewer.md)
+* [Analysis Period](components/Analysis_Period.md)
+* [Date to HOY](components/Date_to_HOY.md)
 ## 06 Indoor
 #### Main Components
 * [Indoor Case](components/Indoor_Case.md)
@@ -79,9 +79,6 @@
 * [Viral Emitter](components/Viral_Emitter.md)
 ## 07 MRT
 #### Main Components
-* [CalcHeatIndex](components/CalcHeatIndex.md)
-* [CalcPET](components/CalcPET.md)
-* [UTCI Weather](components/UTCI_Weather.md)
 * [MRT Sensors](components/MRT_Sensors.md)
 * [MRT Surface](components/MRT_Surface.md)
 * [Surface Settings](components/Surface_Settings.md)
@@ -92,6 +89,9 @@
 * [MRT Settings](components/MRT_Settings.md)
 * [Sky Exposure](components/Sky_Exposure.md)
 * [UTCI Simulation](components/UTCI_Simulation.md)
+* [CalcHeatIndex](components/CalcHeatIndex.md)
+* [CalcPET](components/CalcPET.md)
+* [UTCI Weather](components/UTCI_Weather.md)
 ## 08 FluidX3D
 #### Main Components
 * [FluidX3D Run Settings](components/FluidX3D_Run_Settings.md)
@@ -101,33 +101,28 @@
 * [Dataset Reader](components/Dataset_Reader.md)
 * [ML Model](components/ML_Model.md)
 * [Wind Predictor](components/Wind_Predictor.md)
+* [Wind Comfort Predictor ML](components/Wind_Comfort_Predictor_ML.md)
 * [GAN Predict](components/GAN_Predict.md)
 * [Interpolate UMag](components/Interpolate_UMag.md)
-* [Wind Comfort Predictor ML](components/Wind_Comfort_Predictor_ML.md)
 ## 12 UMF Regions
 #### Main Components
-* [Grass](components/Grass.md)
 * [Air Region](components/Air_Region.md)
 * [Building Region](components/Building_Region.md)
 * [Terrain Region](components/Terrain_Region.md)
 * [Vegetation Region](components/Vegetation_Region.md)
-* [Building Material](components/Building_Material.md)
-* [Soil Material](components/Soil_Material.md)
-* [Terrain Surface Material](components/Terrain_Surface_Material.md)
-* [Vegetation Properties](components/Vegetation_Properties.md)
 * [ABL Condition](components/ABL_Condition.md)
 * [Advanced Terrain Mesh](components/Advanced_Terrain_Mesh.md)
 * [Building Mesh Settings](components/Building_Mesh_Settings.md)
 * [Terrain Mesh Settings](components/Terrain_Mesh_Settings.md)
 * [Vegetation Mesh Settings](components/Vegetation_Mesh_Settings.md)
+* [Building Material](components/Building_Material.md)
+* [Soil Material](components/Soil_Material.md)
+* [Terrain Surface Material](components/Terrain_Surface_Material.md)
+* [Vegetation Properties](components/Vegetation_Properties.md)
+* [Grass](components/Grass.md)
 ## 13 UMF Simulation
 #### Main Components
-* [Case Run](components/Case_Run.md)
-* [OpenFOAM Dictionary](components/OpenFOAM_Dictionary.md)
-* [OpenFOAM List](components/OpenFOAM_List.md)
-* [Read OpenFOAM Case](components/Read_OpenFOAM_Case.md)
 * [Outdoor+ Case](components/Outdoor+_Case.md)
-* [Deconstruct Weather](components/Deconstruct_Weather.md)
 * [Box Domain](components/Box_Domain.md)
 * [Relative Humidity](components/Relative_Humidity.md)
 * [Simulation Mesh Settings](components/Simulation_Mesh_Settings.md)
@@ -138,6 +133,11 @@
 * [Check Geometry](components/Check_Geometry.md)
 * [Parse Case Logs](components/Parse_Case_Logs.md)
 * [ViewFactors](components/ViewFactors.md)
+* [Deconstruct Weather](components/Deconstruct_Weather.md)
+* [Case Run](components/Case_Run.md)
+* [OpenFOAM Dictionary](components/OpenFOAM_Dictionary.md)
+* [OpenFOAM List](components/OpenFOAM_List.md)
+* [Read OpenFOAM Case](components/Read_OpenFOAM_Case.md)
 ## 14 Post
 #### Main Components
 * [Export to Visualizer](components/Export_to_Visualizer.md)

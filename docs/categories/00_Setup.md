@@ -1,5 +1,6 @@
 # 00 Setup
 #### Main Components
+* [Select Template](../components/Select_Template.md)
 * [Calculated Value](../components/Calculated_Value.md)
 * [Calculated Vector Value](../components/Calculated_Vector_Value.md)
 * [Constant Value](../components/Constant_Value.md)
@@ -15,4 +16,3 @@
 * [Uniform Value](../components/Uniform_Value.md)
 * [Uniform Vector Value](../components/Uniform_Vector_Value.md)
 * [Zero Gradient Value](../components/Zero_Gradient_Value.md)
-* [Select Template](../components/Select_Template.md)
