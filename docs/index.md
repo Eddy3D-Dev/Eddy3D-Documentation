@@ -1,4 +1,5 @@
 
+
 Eddy3D is a Grasshopper plugin for Rhino 8 for urban microclimate and airflow simulation. Everything now ships in a single **Eddy3D** package that bundles several modules:
 
 <div class="grid cards" markdown>
@@ -55,6 +56,7 @@ Eddy3D is a Grasshopper plugin for Rhino 8 for urban microclimate and airflow si
 
 ### Plugin
 Install **Eddy3D** via the Rhino Package Manager (`yak`) on either platform &mdash; run `PackageManager` in Rhino and search for **`Eddy3D`**.
+
 
 ### Simulation Engines (Windows / Mac)
 Choose a simulation engine (one of the following):
