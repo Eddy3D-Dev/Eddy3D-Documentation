@@ -85,7 +85,15 @@ def write_grouped_components(file_path, exposure_dict, base_folder, link_prefix=
     main_components = []
     hidden_components = []
     
-    for expo_name in sorted(exposure_dict.keys()):
+    # Sort exposures by their logical GH_Exposure enum order, not alphabetically
+    exposure_order = ["primary", "secondary", "tertiary", "quarternary", "quinary", "senary", "septenary", "hidden", "obscure"]
+    def get_expo_weight(expo):
+        try: return exposure_order.index(expo.lower())
+        except ValueError: return 99
+
+    sorted_exposures = sorted(exposure_dict.keys(), key=get_expo_weight)
+    
+    for expo_name in sorted_exposures:
         comps = sorted(exposure_dict[expo_name])
         
         # Validate existence
@@ -353,25 +361,6 @@ if DISABLE_SOLVER:
     doc.Enabled = original_solver_state
     print("Solver state restored.")
 
-if USE_CROPPED_IMAGES:
-    print("\nLaunching external image cropper...")
-    try:
-        import subprocess
-        import sys
-        
-        script_dir = os.path.dirname(__file__)
-        crop_script = os.path.join(script_dir, "crop_images.py")
-        
-        # Try to use python3 if on mac, otherwise whatever python is in path
-        python_exe = "python3" if sys.platform == "darwin" else "python"
-        
-        # Launch totally detached so Rhino doesn't block
-        subprocess.Popen([python_exe, crop_script, githubFolder], start_new_session=True)
-        print("External cropper started in the background. It will finish shortly.")
-    except Exception as e:
-        print(f"Failed to launch cropper automatically: {e}")
-        print("Please run manually: python3 tools/crop_images.py " + githubFolder)
-
 finalOutputFolder = githubFolder 
 for cleanSubCat in pluginComponents:
     # Ensure category filenames are safely sanitized
@@ -402,7 +391,12 @@ for cleanSubCat in sorted(pluginComponents.keys()):
     
     main_components = []
     hidden_components = []
-    for expo_name in sorted(pluginComponents[cleanSubCat].keys()):
+    exposure_order = ["primary", "secondary", "tertiary", "quarternary", "quinary", "senary", "septenary", "hidden", "obscure"]
+    def get_expo_weight(expo):
+        try: return exposure_order.index(expo.lower())
+        except ValueError: return 99
+
+    for expo_name in sorted(pluginComponents[cleanSubCat].keys(), key=get_expo_weight):
         comps = sorted(pluginComponents[cleanSubCat][expo_name])
         if "obscure" in expo_name.lower(): hidden_components.extend(comps)
         else: main_components.extend(comps)
