@@ -3,10 +3,12 @@
   filter: brightness(0) invert(0.86);
 }
 
-.nav-gh-icon {
+.nav-gh-icon,
+.nav-Gh-Icon {
   width: 16px;
   height: 16px;
-  vertical-align: -3px;
+  transform: translateY(3px);
   margin-right: 6px;
   border-radius: 2px;
+  flex-shrink: 0;
 }
