@@ -2,3 +2,11 @@
 [data-md-color-scheme="slate"] .md-nav__button.md-logo img {
   filter: brightness(0) invert(0.86);
 }
+
+.nav-gh-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+  margin-right: 6px;
+  border-radius: 2px;
+}
