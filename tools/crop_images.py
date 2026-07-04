@@ -9,14 +9,15 @@ def crop_image(file_path):
         if file_path.endswith("-crop.png"):
             return
             
-        img = Image.open(file_path).convert("RGB")
+        orig_img = Image.open(file_path).convert("RGBA")
+        rgb_img = orig_img.convert("RGB")
         
         # Get background color from top-left pixel
-        bg_color = img.getpixel((0, 0))
-        bg = Image.new("RGB", img.size, bg_color)
+        bg_color = rgb_img.getpixel((0, 0))
+        bg = Image.new("RGB", rgb_img.size, bg_color)
         
         # Find difference
-        diff = ImageChops.difference(img, bg)
+        diff = ImageChops.difference(rgb_img, bg)
         bbox = diff.getbbox()
         
         if bbox:
@@ -26,10 +27,10 @@ def crop_image(file_path):
             # Apply padding
             left = max(0, left - pad)
             top = max(0, top - pad)
-            right = min(img.width, right + pad)
-            bottom = min(img.height, bottom + pad)
+            right = min(orig_img.width, right + pad)
+            bottom = min(orig_img.height, bottom + pad)
             
-            cropped = img.crop((left, top, right, bottom))
+            cropped = orig_img.crop((left, top, right, bottom))
             
             crop_path = file_path.replace(".png", "-crop.png")
             cropped.save(crop_path)
