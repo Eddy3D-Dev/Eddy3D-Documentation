@@ -402,9 +402,9 @@ for cleanSubCat in sorted(pluginComponents.keys()):
         else: main_components.extend(comps)
         
     for comp in main_components:
-        nav_lines.append(f"          - \"{comp.replace('_', ' ')}\": components/{comp}.md")
+        nav_lines.append(f"          - \"<img src='/images/icons/{comp}.png' class='nav-gh-icon' /> {comp.replace('_', ' ')}\": components/{comp}.md")
     for comp in hidden_components:
-        nav_lines.append(f"          - \"{comp.replace('_', ' ')}\": components/{comp}.md")
+        nav_lines.append(f"          - \"<img src='/images/icons/{comp}.png' class='nav-gh-icon' /> {comp.replace('_', ' ')}\": components/{comp}.md")
 write_utf8(navPath, "\n".join(nav_lines))
 
 # --- PRINT SUMMARY OF WRITTEN FILES ---
