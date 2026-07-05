@@ -12,3 +12,8 @@
   border-radius: 2px;
   flex-shrink: 0;
 }
+
+.md-content img[src*="/images/components/"] {
+  width: 50%;
+  height: auto;
+}
