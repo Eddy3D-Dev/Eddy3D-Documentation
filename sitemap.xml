@@ -121,26 +121,6 @@
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/components/CalcHeatIndex/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/CalcPET/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Calculated_Value/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Calculated_Vector_Value/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Case_Run/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/components/Cell_Size/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
@@ -153,31 +133,11 @@
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/components/Clean_Case/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Constant_Value/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Create_Address/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Create_Entry_Key/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/components/Create_Mesh/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/components/Create_OBJ/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Create_Setting/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
@@ -201,27 +161,7 @@
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/components/Debugger/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Deconstruct_Case/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Deconstruct_Entry/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Deconstruct_FileContainer/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/components/Deconstruct_Region/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Deconstruct_Setting/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
@@ -230,10 +170,6 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/components/Download_Weather/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Entry_from_a_Key_and_Value/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
@@ -265,10 +201,6 @@
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/components/Grass/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/components/Heat_Source/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
@@ -290,10 +222,6 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/components/Indoor_Wall/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Install_Engines/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
@@ -345,14 +273,6 @@
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/components/OpenFOAM_Dictionary/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/OpenFOAM_List/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/components/Open_In_ParaView/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
@@ -373,19 +293,11 @@
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/components/Plot_Residuals/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/components/Probe/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/components/Read_Cells/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Read_OpenFOAM_Case/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
@@ -477,19 +389,7 @@
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/components/UTCI_Weather/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/components/Uniform_Flow/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Uniform_Value/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Uniform_Vector_Value/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
     <url>
@@ -550,10 +450,6 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/components/Write_Run_Scripts/</loc>
-         <lastmod>2026-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/components/Zero_Gradient_Value/</loc>
          <lastmod>2026-07-07</lastmod>
     </url>
 </urlset>
