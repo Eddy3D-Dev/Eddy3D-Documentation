@@ -1,13 +1,17 @@
-# ![](../images/icons/Constant_Value.png) Constant Value - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Constant%20Value%22)
+# ![](/images/icons/Constant_Value.png) Constant Value - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Constant%20Value%22)
 
-![](../images/components/Constant_Value-crop.png)
+![](/images/components/Constant_Value-crop.png)
 
 Create a constant scalar Value.
 
 #### Input
-* ##### Value 
-Scalar value to assign.
+
+| Name | Nickname | Description |
+| ---- | -------- | ----------- |
+| Value |  | Scalar value to assign. |
 
 #### Output
-* ##### Value
-Constant Value instance.
+
+| Name | Nickname | Description |
+| ---- | -------- | ----------- |
+| Value |  | Constant Value instance. |

@@ -18,7 +18,10 @@ nav:
   - Outdoor+:
       - First Steps: first_steps.md
   - Components:
+      - "Overview": Components.md
       - "00 Setup":
+          - "Overview": categories/00_Setup.md
+          - "<img src='/images/icons/Select_Template.png' class='nav-gh-icon' /> Select Template": components/Select_Template.md
           - "<img src='/images/icons/Calculated_Value.png' class='nav-gh-icon' /> Calculated Value": components/Calculated_Value.md
           - "<img src='/images/icons/Calculated_Vector_Value.png' class='nav-gh-icon' /> Calculated Vector Value": components/Calculated_Vector_Value.md
           - "<img src='/images/icons/Constant_Value.png' class='nav-gh-icon' /> Constant Value": components/Constant_Value.md
@@ -34,11 +37,12 @@ nav:
           - "<img src='/images/icons/Uniform_Value.png' class='nav-gh-icon' /> Uniform Value": components/Uniform_Value.md
           - "<img src='/images/icons/Uniform_Vector_Value.png' class='nav-gh-icon' /> Uniform Vector Value": components/Uniform_Vector_Value.md
           - "<img src='/images/icons/Zero_Gradient_Value.png' class='nav-gh-icon' /> Zero Gradient Value": components/Zero_Gradient_Value.md
-          - "<img src='/images/icons/Select_Template.png' class='nav-gh-icon' /> Select Template": components/Select_Template.md
       - "00 Utilities":
+          - "Overview": categories/00_Utilities.md
           - "<img src='/images/icons/STL_Exporter.png' class='nav-gh-icon' /> STL Exporter": components/STL_Exporter.md
           - "<img src='/images/icons/Safety_Toggle.png' class='nav-gh-icon' /> Safety Toggle": components/Safety_Toggle.md
-      - "01 Wind · Setup":
+      - "01 Outdoor Setup":
+          - "Overview": categories/01_Outdoor_Setup.md
           - "<img src='/images/icons/Atmospheric_Boundary_Layer.png' class='nav-gh-icon' /> Atmospheric Boundary Layer": components/Atmospheric_Boundary_Layer.md
           - "<img src='/images/icons/Manual_Inflow_Profile.png' class='nav-gh-icon' /> Manual Inflow Profile": components/Manual_Inflow_Profile.md
           - "<img src='/images/icons/Uniform_Flow.png' class='nav-gh-icon' /> Uniform Flow": components/Uniform_Flow.md
@@ -49,34 +53,38 @@ nav:
           - "<img src='/images/icons/Gmsh_Mesh.png' class='nav-gh-icon' /> Gmsh Mesh": components/Gmsh_Mesh.md
           - "<img src='/images/icons/Tree.png' class='nav-gh-icon' /> Tree": components/Tree.md
           - "<img src='/images/icons/Watertight.png' class='nav-gh-icon' /> Watertight": components/Watertight.md
-      - "02 Wind · Domain & Mesh":
+      - "02 Outdoor Domain Mesh":
+          - "Overview": categories/02_Outdoor_Domain_Mesh.md
           - "<img src='/images/icons/Cylinder_Domain.png' class='nav-gh-icon' /> Cylinder Domain": components/Cylinder_Domain.md
           - "<img src='/images/icons/Cell_Size.png' class='nav-gh-icon' /> Cell Size": components/Cell_Size.md
           - "<img src='/images/icons/Mesh_Settings.png' class='nav-gh-icon' /> Mesh Settings": components/Mesh_Settings.md
           - "<img src='/images/icons/Refinement_Region.png' class='nav-gh-icon' /> Refinement Region": components/Refinement_Region.md
           - "<img src='/images/icons/Brep_Grid_Points.png' class='nav-gh-icon' /> Brep Grid Points": components/Brep_Grid_Points.md
-      - "03 Wind · Case":
+      - "03 Outdoor Case":
+          - "Overview": categories/03_Outdoor_Case.md
           - "<img src='/images/icons/Load_Wind_Case.png' class='nav-gh-icon' /> Load Wind Case": components/Load_Wind_Case.md
           - "<img src='/images/icons/Outdoor_Case.png' class='nav-gh-icon' /> Outdoor Case": components/Outdoor_Case.md
           - "<img src='/images/icons/Write_Run_Scripts.png' class='nav-gh-icon' /> Write Run Scripts": components/Write_Run_Scripts.md
-      - "04 Wind · Simulation":
-          - "<img src='/images/icons/Clean_Case.png' class='nav-gh-icon' /> Clean Case": components/Clean_Case.md
+      - "04 Outdoor Simulation":
+          - "Overview": categories/04_Outdoor_Simulation.md
           - "<img src='/images/icons/Run.png' class='nav-gh-icon' /> Run": components/Run.md
           - "<img src='/images/icons/Run_Settings.png' class='nav-gh-icon' /> Run Settings": components/Run_Settings.md
           - "<img src='/images/icons/Custom_Function_Object.png' class='nav-gh-icon' /> Custom Function Object": components/Custom_Function_Object.md
-          - "<img src='/images/icons/SLURM_Runner.png' class='nav-gh-icon' /> SLURM Runner": components/SLURM_Runner.md
-      - "05 Wind · Results":
+          - "<img src='/images/icons/Clean_Case.png' class='nav-gh-icon' /> Clean Case": components/Clean_Case.md
+      - "05 Outdoor Results":
+          - "Overview": categories/05_Outdoor_Results.md
           - "<img src='/images/icons/Probe.png' class='nav-gh-icon' /> Probe": components/Probe.md
-          - "<img src='/images/icons/Analysis_Period.png' class='nav-gh-icon' /> Analysis Period": components/Analysis_Period.md
-          - "<img src='/images/icons/Date_to_HOY.png' class='nav-gh-icon' /> Date to HOY": components/Date_to_HOY.md
           - "<img src='/images/icons/Live_Residuals.png' class='nav-gh-icon' /> Live Residuals": components/Live_Residuals.md
           - "<img src='/images/icons/Meshing_Progress.png' class='nav-gh-icon' /> Meshing Progress": components/Meshing_Progress.md
           - "<img src='/images/icons/Plot_Residuals.png' class='nav-gh-icon' /> Plot Residuals": components/Plot_Residuals.md
           - "<img src='/images/icons/Flow_Rates.png' class='nav-gh-icon' /> Flow Rates": components/Flow_Rates.md
           - "<img src='/images/icons/Pedestrian_Wind_Comfort.png' class='nav-gh-icon' /> Pedestrian Wind Comfort": components/Pedestrian_Wind_Comfort.md
-          - "<img src='/images/icons/Velocity_Amplification_Factors_VAF.png' class='nav-gh-icon' /> Velocity Amplification Factors (VAF)": components/Velocity_Amplification_Factors_VAF.md
+          - "<img src='/images/icons/Velocity_Amplification_Factors_VAF.png' class='nav-gh-icon' /> Velocity Amplification Factors VAF": components/Velocity_Amplification_Factors_VAF.md
           - "<img src='/images/icons/Wind_Field_Viewer.png' class='nav-gh-icon' /> Wind Field Viewer": components/Wind_Field_Viewer.md
+          - "<img src='/images/icons/Analysis_Period.png' class='nav-gh-icon' /> Analysis Period": components/Analysis_Period.md
+          - "<img src='/images/icons/Date_to_HOY.png' class='nav-gh-icon' /> Date to HOY": components/Date_to_HOY.md
       - "06 Indoor":
+          - "Overview": categories/06_Indoor.md
           - "<img src='/images/icons/Indoor_Case.png' class='nav-gh-icon' /> Indoor Case": components/Indoor_Case.md
           - "<img src='/images/icons/Indoor_Inlet.png' class='nav-gh-icon' /> Indoor Inlet": components/Indoor_Inlet.md
           - "<img src='/images/icons/Indoor_Outlet.png' class='nav-gh-icon' /> Indoor Outlet": components/Indoor_Outlet.md
@@ -87,9 +95,7 @@ nav:
           - "<img src='/images/icons/Momentum_Source.png' class='nav-gh-icon' /> Momentum Source": components/Momentum_Source.md
           - "<img src='/images/icons/Viral_Emitter.png' class='nav-gh-icon' /> Viral Emitter": components/Viral_Emitter.md
       - "07 MRT":
-          - "<img src='/images/icons/CalcHeatIndex.png' class='nav-gh-icon' /> CalcHeatIndex": components/CalcHeatIndex.md
-          - "<img src='/images/icons/CalcPET.png' class='nav-gh-icon' /> CalcPET": components/CalcPET.md
-          - "<img src='/images/icons/UTCI_Weather.png' class='nav-gh-icon' /> UTCI (Weather)": components/UTCI_Weather.md
+          - "Overview": categories/07_MRT.md
           - "<img src='/images/icons/MRT_Sensors.png' class='nav-gh-icon' /> MRT Sensors": components/MRT_Sensors.md
           - "<img src='/images/icons/MRT_Surface.png' class='nav-gh-icon' /> MRT Surface": components/MRT_Surface.md
           - "<img src='/images/icons/Surface_Settings.png' class='nav-gh-icon' /> Surface Settings": components/Surface_Settings.md
@@ -99,39 +105,41 @@ nav:
           - "<img src='/images/icons/MRT.png' class='nav-gh-icon' /> MRT": components/MRT.md
           - "<img src='/images/icons/MRT_Settings.png' class='nav-gh-icon' /> MRT Settings": components/MRT_Settings.md
           - "<img src='/images/icons/Sky_Exposure.png' class='nav-gh-icon' /> Sky Exposure": components/Sky_Exposure.md
-          - "<img src='/images/icons/UTCI_Simulation.png' class='nav-gh-icon' /> UTCI (Simulation)": components/UTCI_Simulation.md
+          - "<img src='/images/icons/UTCI_Simulation.png' class='nav-gh-icon' /> UTCI Simulation": components/UTCI_Simulation.md
+          - "<img src='/images/icons/CalcHeatIndex.png' class='nav-gh-icon' /> CalcHeatIndex": components/CalcHeatIndex.md
+          - "<img src='/images/icons/CalcPET.png' class='nav-gh-icon' /> CalcPET": components/CalcPET.md
+          - "<img src='/images/icons/UTCI_Weather.png' class='nav-gh-icon' /> UTCI Weather": components/UTCI_Weather.md
       - "08 FluidX3D":
+          - "Overview": categories/08_FluidX3D.md
           - "<img src='/images/icons/FluidX3D_Run_Settings.png' class='nav-gh-icon' /> FluidX3D Run Settings": components/FluidX3D_Run_Settings.md
           - "<img src='/images/icons/FluidX3D_Run.png' class='nav-gh-icon' /> FluidX3D Run": components/FluidX3D_Run.md
       - "10 ML":
+          - "Overview": categories/10_ML.md
           - "<img src='/images/icons/Dataset_Reader.png' class='nav-gh-icon' /> Dataset Reader": components/Dataset_Reader.md
           - "<img src='/images/icons/ML_Model.png' class='nav-gh-icon' /> ML Model": components/ML_Model.md
           - "<img src='/images/icons/Wind_Predictor.png' class='nav-gh-icon' /> Wind Predictor": components/Wind_Predictor.md
+          - "<img src='/images/icons/Wind_Comfort_Predictor_ML.png' class='nav-gh-icon' /> Wind Comfort Predictor ML": components/Wind_Comfort_Predictor_ML.md
           - "<img src='/images/icons/GAN_Predict.png' class='nav-gh-icon' /> GAN Predict": components/GAN_Predict.md
           - "<img src='/images/icons/Interpolate_UMag.png' class='nav-gh-icon' /> Interpolate UMag": components/Interpolate_UMag.md
-          - "<img src='/images/icons/Wind_Comfort_Predictor_ML.png' class='nav-gh-icon' /> Wind Comfort Predictor (ML)": components/Wind_Comfort_Predictor_ML.md
-      - "12 UMF · Regions":
-          - "<img src='/images/icons/Grass.png' class='nav-gh-icon' /> Grass": components/Grass.md
+      - "12 Outdoor+ Regions":
+          - "Overview": categories/12_Outdoor+_Regions.md
           - "<img src='/images/icons/Air_Region.png' class='nav-gh-icon' /> Air Region": components/Air_Region.md
           - "<img src='/images/icons/Building_Region.png' class='nav-gh-icon' /> Building Region": components/Building_Region.md
           - "<img src='/images/icons/Terrain_Region.png' class='nav-gh-icon' /> Terrain Region": components/Terrain_Region.md
           - "<img src='/images/icons/Vegetation_Region.png' class='nav-gh-icon' /> Vegetation Region": components/Vegetation_Region.md
-          - "<img src='/images/icons/Building_Material.png' class='nav-gh-icon' /> Building Material": components/Building_Material.md
-          - "<img src='/images/icons/Soil_Material.png' class='nav-gh-icon' /> Soil Material": components/Soil_Material.md
-          - "<img src='/images/icons/Terrain_Surface_Material.png' class='nav-gh-icon' /> Terrain Surface Material": components/Terrain_Surface_Material.md
-          - "<img src='/images/icons/Vegetation_Properties.png' class='nav-gh-icon' /> Vegetation Properties": components/Vegetation_Properties.md
           - "<img src='/images/icons/ABL_Condition.png' class='nav-gh-icon' /> ABL Condition": components/ABL_Condition.md
           - "<img src='/images/icons/Advanced_Terrain_Mesh.png' class='nav-gh-icon' /> Advanced Terrain Mesh": components/Advanced_Terrain_Mesh.md
           - "<img src='/images/icons/Building_Mesh_Settings.png' class='nav-gh-icon' /> Building Mesh Settings": components/Building_Mesh_Settings.md
           - "<img src='/images/icons/Terrain_Mesh_Settings.png' class='nav-gh-icon' /> Terrain Mesh Settings": components/Terrain_Mesh_Settings.md
           - "<img src='/images/icons/Vegetation_Mesh_Settings.png' class='nav-gh-icon' /> Vegetation Mesh Settings": components/Vegetation_Mesh_Settings.md
-      - "13 UMF · Simulation":
-          - "<img src='/images/icons/Case_Run.png' class='nav-gh-icon' /> Case Run": components/Case_Run.md
-          - "<img src='/images/icons/OpenFOAM_Dictionary.png' class='nav-gh-icon' /> OpenFOAM Dictionary": components/OpenFOAM_Dictionary.md
-          - "<img src='/images/icons/OpenFOAM_List.png' class='nav-gh-icon' /> OpenFOAM List": components/OpenFOAM_List.md
-          - "<img src='/images/icons/Read_OpenFOAM_Case.png' class='nav-gh-icon' /> Read OpenFOAM Case": components/Read_OpenFOAM_Case.md
+          - "<img src='/images/icons/Building_Material.png' class='nav-gh-icon' /> Building Material": components/Building_Material.md
+          - "<img src='/images/icons/Soil_Material.png' class='nav-gh-icon' /> Soil Material": components/Soil_Material.md
+          - "<img src='/images/icons/Terrain_Surface_Material.png' class='nav-gh-icon' /> Terrain Surface Material": components/Terrain_Surface_Material.md
+          - "<img src='/images/icons/Vegetation_Properties.png' class='nav-gh-icon' /> Vegetation Properties": components/Vegetation_Properties.md
+          - "<img src='/images/icons/Grass.png' class='nav-gh-icon' /> Grass": components/Grass.md
+      - "13 Outdoor+ Simulation":
+          - "Overview": categories/13_Outdoor+_Simulation.md
           - "<img src='/images/icons/Outdoor+_Case.png' class='nav-gh-icon' /> Outdoor+ Case": components/Outdoor+_Case.md
-          - "<img src='/images/icons/Deconstruct_Weather.png' class='nav-gh-icon' /> Deconstruct Weather": components/Deconstruct_Weather.md
           - "<img src='/images/icons/Box_Domain.png' class='nav-gh-icon' /> Box Domain": components/Box_Domain.md
           - "<img src='/images/icons/Relative_Humidity.png' class='nav-gh-icon' /> Relative Humidity": components/Relative_Humidity.md
           - "<img src='/images/icons/Simulation_Mesh_Settings.png' class='nav-gh-icon' /> Simulation Mesh Settings": components/Simulation_Mesh_Settings.md
@@ -142,7 +150,13 @@ nav:
           - "<img src='/images/icons/Check_Geometry.png' class='nav-gh-icon' /> Check Geometry": components/Check_Geometry.md
           - "<img src='/images/icons/Parse_Case_Logs.png' class='nav-gh-icon' /> Parse Case Logs": components/Parse_Case_Logs.md
           - "<img src='/images/icons/ViewFactors.png' class='nav-gh-icon' /> ViewFactors": components/ViewFactors.md
+          - "<img src='/images/icons/Deconstruct_Weather.png' class='nav-gh-icon' /> Deconstruct Weather": components/Deconstruct_Weather.md
+          - "<img src='/images/icons/Case_Run.png' class='nav-gh-icon' /> Case Run": components/Case_Run.md
+          - "<img src='/images/icons/OpenFOAM_Dictionary.png' class='nav-gh-icon' /> OpenFOAM Dictionary": components/OpenFOAM_Dictionary.md
+          - "<img src='/images/icons/OpenFOAM_List.png' class='nav-gh-icon' /> OpenFOAM List": components/OpenFOAM_List.md
+          - "<img src='/images/icons/Read_OpenFOAM_Case.png' class='nav-gh-icon' /> Read OpenFOAM Case": components/Read_OpenFOAM_Case.md
       - "14 Post":
+          - "Overview": categories/14_Post.md
           - "<img src='/images/icons/Export_to_Visualizer.png' class='nav-gh-icon' /> Export to Visualizer": components/Export_to_Visualizer.md
           - "<img src='/images/icons/Open_In_ParaView.png' class='nav-gh-icon' /> Open In ParaView": components/Open_In_ParaView.md
           - "<img src='/images/icons/Deconstruct_Case.png' class='nav-gh-icon' /> Deconstruct Case": components/Deconstruct_Case.md
@@ -218,6 +232,8 @@ theme:
 
 markdown_extensions:
   - md_in_html
+  - markdown_include.include:
+      base_path: docs
   #- pymdownx.blocks.caption
   - attr_list
   - admonition
@@ -239,6 +255,8 @@ plugins:
   - glightbox:
       skip_classes:
         - skip-lightbox
+        - nav-gh-icon
+        - gh-component-selected
   - git-revision-date-localized:
       type: timeago
       custom_format: "%d. %B %Y"

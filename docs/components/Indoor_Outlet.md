@@ -1,13 +1,17 @@
-# ![](../images/icons/Indoor_Outlet.png) Indoor Outlet - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Outlet%22)
+# ![](/images/icons/Indoor_Outlet.png) Indoor Outlet - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Indoor%20Outlet%22)
 
-![](../images/components/Indoor_Outlet-crop.png)
+![](/images/components/Indoor_Outlet-crop.png)
 
 Ventilation outlet — defines where air exhausts from the room (return grille, open window).
 
 #### Input
-* ##### Surface (S) 
-Planar surface on the room wall marking the outlet opening.
+
+| Name | Nickname | Description |
+| ---- | -------- | ----------- |
+| Surface | S | Planar surface on the room wall marking the outlet opening. |
 
 #### Output
-* ##### Outlet (O)
-Indoor outlet for the case component.
+
+| Name | Nickname | Description |
+| ---- | -------- | ----------- |
+| Outlet | O | Indoor outlet for the case component. |

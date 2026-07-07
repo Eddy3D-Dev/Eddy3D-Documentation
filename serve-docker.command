@@ -16,4 +16,5 @@ echo ""
 docker run --rm -it \
   -p 8080:8000 \
   -v "$(pwd)":/docs \
-  custom-mkdocs-material
+  custom-mkdocs-material \
+  serve -a 0.0.0.0:8000 -c --watch docs

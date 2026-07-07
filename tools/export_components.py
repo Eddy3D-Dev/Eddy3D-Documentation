@@ -24,6 +24,7 @@ COMPONENT_WAIT_TIME = 0.05
 # --- FILE TRACKER ---
 WRITTEN_FILES = []
 FILES_TO_CROP = []
+COMPONENT_DESCRIPTIONS = {}
 # -----------------------------------------------------------------------------
 
 def track_file(path):
@@ -108,14 +109,26 @@ def write_grouped_components(file_path, exposure_dict, base_folder, link_prefix=
         if "obscure" in expo_name.lower(): hidden_components.extend(valid_comps)
         else: main_components.extend(valid_comps)
 
-    if main_components:
-        write_utf8(file_path, "#### Main Components\n", mode="a")
-        for comp in main_components:
-            write_utf8(file_path, f"* [{comp.replace('_', ' ')}]({link_prefix}{comp}.md)\n", mode="a")
-    if hidden_components:
-        write_utf8(file_path, "\n#### Hidden Components\n", mode="a")
-        for comp in hidden_components:
-            write_utf8(file_path, f"* [{comp.replace('_', ' ')}]({link_prefix}{comp}.md)\n", mode="a")
+    def write_cards(comps, title):
+        if not comps: return
+        # Raw HTML heading: keeps it out of the integrated nav TOC (toc.integrate)
+        slug = title.lower().replace(" ", "-")
+        write_utf8(file_path, f"<h4 id=\"{slug}\">{title}</h4>\n<div class=\"index-quicklink-container\">\n", mode="a")
+        for comp in comps:
+            desc = COMPONENT_DESCRIPTIONS.get(comp, "")
+            card_html = f'    <a href="/components/{comp}/" style="text-decoration: none;">\n'
+            card_html += f'        <div class="index-quicklink">\n'
+            card_html += f'            <div class="index-quicklink-title">\n'
+            card_html += f'                <img src="/images/icons/{comp}.png" class="nav-gh-icon"> {comp.replace("_", " ")}\n'
+            card_html += f'            </div>\n'
+            card_html += f'            <div class="index-quicklink-text">{desc}</div>\n'
+            card_html += f'        </div>\n'
+            card_html += f'    </a>\n'
+            write_utf8(file_path, card_html, mode="a")
+        write_utf8(file_path, "</div>\n\n", mode="a")
+
+    write_cards(main_components, "Main Components")
+    write_cards(hidden_components, "Hidden Components")
 
 def reset_output_directories(base_dir):
     if not CLEAN_OUTPUT_DIR: return
@@ -209,7 +222,7 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     os.makedirs(components_dir, exist_ok=True)
 
     lines = []
-    lines.append(f"# ![](../images/icons/{name}.png) {bName}")
+    lines.append(f"# ![](/images/icons/{name}.png) {bName}")
     if githubRepo:
         repo_dir = os.path.abspath(os.path.join(githubFolder, "..", "Eddy3D"))
         try: class_name = type(component).__name__
@@ -224,34 +237,37 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     else: lines[-1] += "\n"
 
     image_filename = f"{name}-crop.png" if USE_CROPPED_IMAGES else f"{name}.png"
-    lines.append(f"![](../images/components/{image_filename})")
+    lines.append(f"![](/images/components/{image_filename})")
     
     desc_cleaned = component.Description.split("Provided by ")[0].replace("\n", " ")
     desc_cleaned = re.sub(r"(?i)\s*Version\s+\d+\.\d+\.\d+\.\d+", "", desc_cleaned)
     lines.append("\n" + desc_cleaned)
 
     try:
-        def format_param(param):
-            try:
-                name = str(param.Name).strip()
-                nick = str(param.NickName).strip()
-                if len(nick) > 0 and len(nick) <= 2 and nick != name and nick.upper() == nick:
-                    return f"{name} ({nick})"
-            except:
-                pass
-            return param.NickName
+        def param_row(param):
+            def cell(v):
+                return str(v).strip().replace('\n', ' ').replace('|', '\\|')
+            name = cell(param.Name)
+            nick = cell(param.NickName)
+            if nick == name:
+                nick = ""
+            desc = cell(param.Description)
+            try: type_name = cell(param.TypeName)
+            except: type_name = ""
+            type_cell = f"`{type_name}`" if type_name else ""
+            return f"| {name} | {nick} | {desc} | {type_cell} |"
 
-        lines.append("\n#### Input")
-        for i in range(component.Params.Input.Count):
-            in_desc = component.Params.Input[i].Description.replace('\n', ' ')
-            display_name = format_param(component.Params.Input[i])
-            lines.append(f"* ##### {display_name} \n{in_desc}")
-            
-        lines.append("\n#### Output")
-        for i in range(component.Params.Output.Count):
-            out_desc = component.Params.Output[i].Description.replace('\n', ' ')
-            display_name = format_param(component.Params.Output[i])
-            lines.append(f"* ##### {display_name}\n{out_desc}")
+        def param_table(params):
+            rows = [param_row(params[i]) for i in range(params.Count)]
+            if not rows:
+                return ["*None*"]
+            return ["| Name | Nickname | Description | Type |",
+                    "| ---- | -------- | ----------- | ---- |"] + rows
+
+        lines.append("\n#### Input\n")
+        lines.extend(param_table(component.Params.Input))
+        lines.append("\n#### Output\n")
+        lines.extend(param_table(component.Params.Output))
     except: pass
 
     fileName = f"{name}.md"
@@ -329,12 +345,25 @@ if export:
 
                 component = getComponentByName(doc, GHObjectName)
                 name = getComponentName(component)
-                
+
+                # Hidden/obscure components are excluded from the documentation entirely
+                expo_check = str(component.Exposure).lower()
+                if "hidden" in expo_check or "obscure" in expo_check:
+                    print(" - Skipping hidden component.")
+                    continue
+
                 try:
                     captureGrasshopperScreen(name + ".png", githubFolder, component)
                     exportIcon(component, pluginName, githubFolder)
                     exportDescription(component, pluginName, githubFolder, pluginGHRepo)
                     componentsHeights[name] = str(component.Attributes.Bounds.Height)
+
+                    try:
+                        desc = component.Description.split("Provided by ")[0].replace("\n", " ")
+                        desc = re.sub(r"(?i)\s*Version\s+\d+\.\d+\.\d+\.\d+", "", desc)
+                        COMPONENT_DESCRIPTIONS[name] = desc
+                    except:
+                        COMPONENT_DESCRIPTIONS[name] = ""
 
                     # Apply cleaning to category names
                     cleanSubCat = clean_string(component.SubCategory)
@@ -370,24 +399,82 @@ for cleanSubCat in pluginComponents:
     
     # Use clean readable names for the Markdown headers
     readableHeader = cleanSubCat.replace("_", " ")
-    write_utf8(categoryFilePath, f"# {readableHeader}\n")
+    # Scoped style dims every toolbar group except the current category's
+    dim_style = (
+        "<style>\n"
+        f'.Main-GhToolbar-Container .SubGroup-Container:not([data-category="{safeFileName}"]) {{\n'
+        "  filter: grayscale(1);\n"
+        "  opacity: 0.35;\n"
+        "}\n"
+        "</style>\n"
+    )
+    write_utf8(categoryFilePath, f"{{!toolbar.md!}}\n\n{dim_style}\n# {readableHeader}\n")
     write_grouped_components(categoryFilePath, pluginComponents[cleanSubCat], finalOutputFolder, link_prefix="../components/")
 
-summaryPath = os.path.join(finalOutputFolder, "README.md")
+summaryPath = os.path.join(finalOutputFolder, "Components.md")
 ensure_utf8_file(summaryPath)
 write_utf8(summaryPath, "# Eddy3D Component list\n")
+
+# --- GENERATE GRASSHOPPER RIBBON TOOLBAR (pure HTML, no markdown) ---
+def build_toolbar_html(pluginComponents):
+    import re
+    exposure_order = ["primary", "secondary", "tertiary", "quarternary", "quinary", "senary", "septenary", "hidden", "obscure"]
+    def get_expo_weight(expo):
+        try: return exposure_order.index(expo.lower())
+        except ValueError: return 99
+
+    html = '<div class="Main-GhToolbar-Container">\n'
+    for cleanSubCat in sorted(pluginComponents.keys()):
+        readableHeader = cleanSubCat.replace("_", " ")
+        shortTitle = re.sub(r'^\d+[\s_]+', '', readableHeader)
+        
+        html += f'<div class="SubGroup-Container" data-category="{clean_string(cleanSubCat)}">\n'
+        html += '<div class="SubGroup-Icons">\n'
+        html += '<div class="sub-group">\n'
+        
+        sorted_exposures = sorted(pluginComponents[cleanSubCat].keys(), key=get_expo_weight)
+        index = 0
+        for expo_name in sorted_exposures:
+            comps = sorted(pluginComponents[cleanSubCat][expo_name])
+            for comp in comps:
+                dataAttr = "above-dataComment" if (index % 2 == 0) else "below-dataComment"
+                comp_display = comp.replace("_", " ")
+                html += f'<a href="/components/{comp}/" class="GhComponentItem" {dataAttr}="{comp_display}"><img src="/images/icons/{comp}.png" class="gh-component-selected" alt="{comp_display}" /></a>\n'
+                index += 1
+
+        html += '</div>\n'
+        html += '</div>\n'
+        html += f'<div class="SubGroup-Title">{shortTitle}</div>\n'
+        html += '</div>\n'
+    html += '</div>\n\n'
+    return html
+
+toolbar_html = build_toolbar_html(pluginComponents)
+
+# Write to a standalone toolbar file that can be included anywhere!
+toolbarPath = os.path.join(finalOutputFolder, "toolbar.md")
+ensure_utf8_file(toolbarPath)
+write_utf8(toolbarPath, toolbar_html)
+
+write_utf8(summaryPath, toolbar_html, mode="a")
+
+# --- GENERATE COMPONENT CARDS ---
 for cleanSubCat in sorted(pluginComponents.keys()):
     readableHeader = cleanSubCat.replace("_", " ")
-    write_utf8(summaryPath, f"## {readableHeader}\n", mode="a")
+    # Raw HTML heading: keeps it out of the integrated nav TOC (toc.integrate)
+    header_slug = readableHeader.lower().replace(" ", "-").replace("+", "")
+    write_utf8(summaryPath, f"<h2 id=\"{header_slug}\">{readableHeader}</h2>\n", mode="a")
     write_grouped_components(summaryPath, pluginComponents[cleanSubCat], finalOutputFolder, link_prefix="components/")
 
 # --- GENERATE MKDOCS NAV BLOCK ---
 navPath = os.path.join(finalOutputFolder, "components_nav.yml")
 ensure_utf8_file(navPath)
 nav_lines = ["  - Components:"]
+nav_lines.append("      - \"Overview\": Components.md")
 for cleanSubCat in sorted(pluginComponents.keys()):
     readableHeader = cleanSubCat.replace("_", " ")
     nav_lines.append(f"      - \"{readableHeader}\":")
+    nav_lines.append(f"          - \"Overview\": categories/{cleanSubCat}.md")
     
     main_components = []
     hidden_components = []
