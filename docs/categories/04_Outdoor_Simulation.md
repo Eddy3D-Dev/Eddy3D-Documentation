@@ -34,14 +34,6 @@
             <div class="index-quicklink-text">Inject a custom OpenFOAM function object into a written case so the solver runs it at runtime — fieldAverage, yPlus, wallShearStress, forces, surfaceFieldValue, a coded FO, etc.</div>
         </div>
     </a>
-    <a href="/components/Clean_Case/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Clean_Case.png" class="nav-gh-icon"> Clean Case
-            </div>
-            <div class="index-quicklink-text">Delete mesh and/or simulation result directories from a wind study folder.</div>
-        </div>
-    </a>
 </div>
 
 

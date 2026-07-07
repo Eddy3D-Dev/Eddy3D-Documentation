@@ -90,29 +90,5 @@
             <div class="index-quicklink-text">Compute annual per-probe UTCI from simulation outputs: MRT and wind-speed data trees, plus air temperature and relative humidity. For a weather-only calculator, use "UTCI (Weather)".</div>
         </div>
     </a>
-    <a href="/components/CalcHeatIndex/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/CalcHeatIndex.png" class="nav-gh-icon"> CalcHeatIndex
-            </div>
-            <div class="index-quicklink-text">Calculate Heat Index using the NOAA/NWS equation (air temperature + relative humidity).</div>
-        </div>
-    </a>
-    <a href="/components/CalcPET/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/CalcPET.png" class="nav-gh-icon"> CalcPET
-            </div>
-            <div class="index-quicklink-text">Calculate PET (Physiological Equivalent Temperature) from environmental and personal inputs.</div>
-        </div>
-    </a>
-    <a href="/components/UTCI_Weather/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/UTCI_Weather.png" class="nav-gh-icon"> UTCI Weather
-            </div>
-            <div class="index-quicklink-text">Universal Thermal Climate Index from weather inputs. Connect an EPW (supplies wind, RH, ambient temp) and/or override Ambient Temp, RH, Wind, and MRT by hand. Item or list.</div>
-        </div>
-    </a>
 </div>
 

@@ -3,21 +3,6 @@
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Select_Template/" class="GhComponentItem" above-dataComment="Select Template"><img src="/images/icons/Select_Template.png" class="gh-component-selected" alt="Select Template" /></a>
-<a href="/components/Calculated_Value/" class="GhComponentItem" below-dataComment="Calculated Value"><img src="/images/icons/Calculated_Value.png" class="gh-component-selected" alt="Calculated Value" /></a>
-<a href="/components/Calculated_Vector_Value/" class="GhComponentItem" above-dataComment="Calculated Vector Value"><img src="/images/icons/Calculated_Vector_Value.png" class="gh-component-selected" alt="Calculated Vector Value" /></a>
-<a href="/components/Constant_Value/" class="GhComponentItem" below-dataComment="Constant Value"><img src="/images/icons/Constant_Value.png" class="gh-component-selected" alt="Constant Value" /></a>
-<a href="/components/Create_Address/" class="GhComponentItem" above-dataComment="Create Address"><img src="/images/icons/Create_Address.png" class="gh-component-selected" alt="Create Address" /></a>
-<a href="/components/Create_Entry_Key/" class="GhComponentItem" below-dataComment="Create Entry Key"><img src="/images/icons/Create_Entry_Key.png" class="gh-component-selected" alt="Create Entry Key" /></a>
-<a href="/components/Create_Setting/" class="GhComponentItem" above-dataComment="Create Setting"><img src="/images/icons/Create_Setting.png" class="gh-component-selected" alt="Create Setting" /></a>
-<a href="/components/Debugger/" class="GhComponentItem" below-dataComment="Debugger"><img src="/images/icons/Debugger.png" class="gh-component-selected" alt="Debugger" /></a>
-<a href="/components/Deconstruct_Entry/" class="GhComponentItem" above-dataComment="Deconstruct Entry"><img src="/images/icons/Deconstruct_Entry.png" class="gh-component-selected" alt="Deconstruct Entry" /></a>
-<a href="/components/Deconstruct_FileContainer/" class="GhComponentItem" below-dataComment="Deconstruct FileContainer"><img src="/images/icons/Deconstruct_FileContainer.png" class="gh-component-selected" alt="Deconstruct FileContainer" /></a>
-<a href="/components/Deconstruct_Setting/" class="GhComponentItem" above-dataComment="Deconstruct Setting"><img src="/images/icons/Deconstruct_Setting.png" class="gh-component-selected" alt="Deconstruct Setting" /></a>
-<a href="/components/Entry_from_a_Key_and_Value/" class="GhComponentItem" below-dataComment="Entry from a Key and Value"><img src="/images/icons/Entry_from_a_Key_and_Value.png" class="gh-component-selected" alt="Entry from a Key and Value" /></a>
-<a href="/components/Install_Engines/" class="GhComponentItem" above-dataComment="Install Engines"><img src="/images/icons/Install_Engines.png" class="gh-component-selected" alt="Install Engines" /></a>
-<a href="/components/Uniform_Value/" class="GhComponentItem" below-dataComment="Uniform Value"><img src="/images/icons/Uniform_Value.png" class="gh-component-selected" alt="Uniform Value" /></a>
-<a href="/components/Uniform_Vector_Value/" class="GhComponentItem" above-dataComment="Uniform Vector Value"><img src="/images/icons/Uniform_Vector_Value.png" class="gh-component-selected" alt="Uniform Vector Value" /></a>
-<a href="/components/Zero_Gradient_Value/" class="GhComponentItem" below-dataComment="Zero Gradient Value"><img src="/images/icons/Zero_Gradient_Value.png" class="gh-component-selected" alt="Zero Gradient Value" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Setup</div>
@@ -76,7 +61,6 @@
 <a href="/components/Run/" class="GhComponentItem" above-dataComment="Run"><img src="/images/icons/Run.png" class="gh-component-selected" alt="Run" /></a>
 <a href="/components/Run_Settings/" class="GhComponentItem" below-dataComment="Run Settings"><img src="/images/icons/Run_Settings.png" class="gh-component-selected" alt="Run Settings" /></a>
 <a href="/components/Custom_Function_Object/" class="GhComponentItem" above-dataComment="Custom Function Object"><img src="/images/icons/Custom_Function_Object.png" class="gh-component-selected" alt="Custom Function Object" /></a>
-<a href="/components/Clean_Case/" class="GhComponentItem" below-dataComment="Clean Case"><img src="/images/icons/Clean_Case.png" class="gh-component-selected" alt="Clean Case" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Outdoor Simulation</div>
@@ -87,7 +71,6 @@
 <a href="/components/Probe/" class="GhComponentItem" above-dataComment="Probe"><img src="/images/icons/Probe.png" class="gh-component-selected" alt="Probe" /></a>
 <a href="/components/Live_Residuals/" class="GhComponentItem" below-dataComment="Live Residuals"><img src="/images/icons/Live_Residuals.png" class="gh-component-selected" alt="Live Residuals" /></a>
 <a href="/components/Meshing_Progress/" class="GhComponentItem" above-dataComment="Meshing Progress"><img src="/images/icons/Meshing_Progress.png" class="gh-component-selected" alt="Meshing Progress" /></a>
-<a href="/components/Plot_Residuals/" class="GhComponentItem" below-dataComment="Plot Residuals"><img src="/images/icons/Plot_Residuals.png" class="gh-component-selected" alt="Plot Residuals" /></a>
 <a href="/components/Flow_Rates/" class="GhComponentItem" above-dataComment="Flow Rates"><img src="/images/icons/Flow_Rates.png" class="gh-component-selected" alt="Flow Rates" /></a>
 <a href="/components/Pedestrian_Wind_Comfort/" class="GhComponentItem" below-dataComment="Pedestrian Wind Comfort"><img src="/images/icons/Pedestrian_Wind_Comfort.png" class="gh-component-selected" alt="Pedestrian Wind Comfort" /></a>
 <a href="/components/Velocity_Amplification_Factors_VAF/" class="GhComponentItem" above-dataComment="Velocity Amplification Factors VAF"><img src="/images/icons/Velocity_Amplification_Factors_VAF.png" class="gh-component-selected" alt="Velocity Amplification Factors VAF" /></a>
@@ -127,9 +110,6 @@
 <a href="/components/MRT_Settings/" class="GhComponentItem" below-dataComment="MRT Settings"><img src="/images/icons/MRT_Settings.png" class="gh-component-selected" alt="MRT Settings" /></a>
 <a href="/components/Sky_Exposure/" class="GhComponentItem" above-dataComment="Sky Exposure"><img src="/images/icons/Sky_Exposure.png" class="gh-component-selected" alt="Sky Exposure" /></a>
 <a href="/components/UTCI_Simulation/" class="GhComponentItem" below-dataComment="UTCI Simulation"><img src="/images/icons/UTCI_Simulation.png" class="gh-component-selected" alt="UTCI Simulation" /></a>
-<a href="/components/CalcHeatIndex/" class="GhComponentItem" above-dataComment="CalcHeatIndex"><img src="/images/icons/CalcHeatIndex.png" class="gh-component-selected" alt="CalcHeatIndex" /></a>
-<a href="/components/CalcPET/" class="GhComponentItem" below-dataComment="CalcPET"><img src="/images/icons/CalcPET.png" class="gh-component-selected" alt="CalcPET" /></a>
-<a href="/components/UTCI_Weather/" class="GhComponentItem" above-dataComment="UTCI Weather"><img src="/images/icons/UTCI_Weather.png" class="gh-component-selected" alt="UTCI Weather" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">MRT</div>
@@ -172,7 +152,6 @@
 <a href="/components/Soil_Material/" class="GhComponentItem" above-dataComment="Soil Material"><img src="/images/icons/Soil_Material.png" class="gh-component-selected" alt="Soil Material" /></a>
 <a href="/components/Terrain_Surface_Material/" class="GhComponentItem" below-dataComment="Terrain Surface Material"><img src="/images/icons/Terrain_Surface_Material.png" class="gh-component-selected" alt="Terrain Surface Material" /></a>
 <a href="/components/Vegetation_Properties/" class="GhComponentItem" above-dataComment="Vegetation Properties"><img src="/images/icons/Vegetation_Properties.png" class="gh-component-selected" alt="Vegetation Properties" /></a>
-<a href="/components/Grass/" class="GhComponentItem" below-dataComment="Grass"><img src="/images/icons/Grass.png" class="gh-component-selected" alt="Grass" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Outdoor+ Regions</div>
@@ -192,10 +171,6 @@
 <a href="/components/Parse_Case_Logs/" class="GhComponentItem" below-dataComment="Parse Case Logs"><img src="/images/icons/Parse_Case_Logs.png" class="gh-component-selected" alt="Parse Case Logs" /></a>
 <a href="/components/ViewFactors/" class="GhComponentItem" above-dataComment="ViewFactors"><img src="/images/icons/ViewFactors.png" class="gh-component-selected" alt="ViewFactors" /></a>
 <a href="/components/Deconstruct_Weather/" class="GhComponentItem" below-dataComment="Deconstruct Weather"><img src="/images/icons/Deconstruct_Weather.png" class="gh-component-selected" alt="Deconstruct Weather" /></a>
-<a href="/components/Case_Run/" class="GhComponentItem" above-dataComment="Case Run"><img src="/images/icons/Case_Run.png" class="gh-component-selected" alt="Case Run" /></a>
-<a href="/components/OpenFOAM_Dictionary/" class="GhComponentItem" below-dataComment="OpenFOAM Dictionary"><img src="/images/icons/OpenFOAM_Dictionary.png" class="gh-component-selected" alt="OpenFOAM Dictionary" /></a>
-<a href="/components/OpenFOAM_List/" class="GhComponentItem" above-dataComment="OpenFOAM List"><img src="/images/icons/OpenFOAM_List.png" class="gh-component-selected" alt="OpenFOAM List" /></a>
-<a href="/components/Read_OpenFOAM_Case/" class="GhComponentItem" below-dataComment="Read OpenFOAM Case"><img src="/images/icons/Read_OpenFOAM_Case.png" class="gh-component-selected" alt="Read OpenFOAM Case" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Outdoor+ Simulation</div>
@@ -205,7 +180,6 @@
 <div class="sub-group">
 <a href="/components/Export_to_Visualizer/" class="GhComponentItem" above-dataComment="Export to Visualizer"><img src="/images/icons/Export_to_Visualizer.png" class="gh-component-selected" alt="Export to Visualizer" /></a>
 <a href="/components/Open_In_ParaView/" class="GhComponentItem" below-dataComment="Open In ParaView"><img src="/images/icons/Open_In_ParaView.png" class="gh-component-selected" alt="Open In ParaView" /></a>
-<a href="/components/Deconstruct_Case/" class="GhComponentItem" above-dataComment="Deconstruct Case"><img src="/images/icons/Deconstruct_Case.png" class="gh-component-selected" alt="Deconstruct Case" /></a>
 <a href="/components/Deconstruct_Region/" class="GhComponentItem" below-dataComment="Deconstruct Region"><img src="/images/icons/Deconstruct_Region.png" class="gh-component-selected" alt="Deconstruct Region" /></a>
 <a href="/components/Face_Warnings/" class="GhComponentItem" above-dataComment="Face Warnings"><img src="/images/icons/Face_Warnings.png" class="gh-component-selected" alt="Face Warnings" /></a>
 <a href="/components/Read_Cells/" class="GhComponentItem" below-dataComment="Read Cells"><img src="/images/icons/Read_Cells.png" class="gh-component-selected" alt="Read Cells" /></a>
