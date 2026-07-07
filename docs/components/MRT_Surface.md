@@ -15,6 +15,8 @@ True if the surface temperature is solved; false treats it as ambient.
 Target mesh patch edge length (m) for view-factor resolution.
 * ##### Mat 
 Optional material from a Surface / Vegetation / Tree Settings component; overrides the default reflectance / Radiance material for this surface.
+* ##### Tsrf 
+Optional fixed surface temperature (°C) for the longwave MRT — one value (held all year) or an 8760-hour series. When set, this surface uses the given temperature instead of the EnergyPlus solve or ambient (overrides Simulated). Leave empty to keep Simulated/Ambient.
 
 #### Output
 * ##### Surface (S)

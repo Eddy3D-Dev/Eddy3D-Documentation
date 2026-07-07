@@ -2,7 +2,7 @@
 
 ![](../images/components/Wind_Field_Viewer-crop.png)
 
-Visualize a probed wind field: colored velocity arrows, a point cloud, or a heatmap mesh. Feed the Probe component's points + velocity (or any points + vectors).
+Visualize a probed wind field: colored velocity arrows, a point cloud, a heatmap mesh, streamlines, or volumetric smoke (pick via Display Mode). Feed the Probe component's points + velocity vectors (Field = U), or any points + vectors.
 
 #### Input
 * ##### Points (P) 

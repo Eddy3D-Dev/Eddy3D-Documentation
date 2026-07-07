@@ -24,6 +24,7 @@ COMPONENT_WAIT_TIME = 0.05
 # --- FILE TRACKER ---
 WRITTEN_FILES = []
 FILES_TO_CROP = []
+COMPONENT_DESCRIPTIONS = {}
 # -----------------------------------------------------------------------------
 
 def track_file(path):
@@ -108,14 +109,25 @@ def write_grouped_components(file_path, exposure_dict, base_folder, link_prefix=
         if "obscure" in expo_name.lower(): hidden_components.extend(valid_comps)
         else: main_components.extend(valid_comps)
 
-    if main_components:
-        write_utf8(file_path, "#### Main Components\n", mode="a")
-        for comp in main_components:
-            write_utf8(file_path, f"* [{comp.replace('_', ' ')}]({link_prefix}{comp}.md)\n", mode="a")
-    if hidden_components:
-        write_utf8(file_path, "\n#### Hidden Components\n", mode="a")
-        for comp in hidden_components:
-            write_utf8(file_path, f"* [{comp.replace('_', ' ')}]({link_prefix}{comp}.md)\n", mode="a")
+    def write_cards(comps, title):
+        if not comps: return
+        write_utf8(file_path, f"#### {title}\n<div class=\"index-quicklink-container\">\n", mode="a")
+        icon_prefix = link_prefix.replace('components/', 'images/icons/')
+        for comp in comps:
+            desc = COMPONENT_DESCRIPTIONS.get(comp, "")
+            card_html = f'    <a href="{link_prefix}{comp}.md" style="text-decoration: none;">\n'
+            card_html += f'        <div class="index-quicklink">\n'
+            card_html += f'            <div class="index-quicklink-title">\n'
+            card_html += f'                <img src="{icon_prefix}{comp}.png" class="nav-gh-icon"> {comp.replace("_", " ")}\n'
+            card_html += f'            </div>\n'
+            card_html += f'            <div class="index-quicklink-text">{desc}</div>\n'
+            card_html += f'        </div>\n'
+            card_html += f'    </a>\n'
+            write_utf8(file_path, card_html, mode="a")
+        write_utf8(file_path, "</div>\n\n", mode="a")
+
+    write_cards(main_components, "Main Components")
+    write_cards(hidden_components, "Hidden Components")
 
 def reset_output_directories(base_dir):
     if not CLEAN_OUTPUT_DIR: return
@@ -335,6 +347,13 @@ if export:
                     exportIcon(component, pluginName, githubFolder)
                     exportDescription(component, pluginName, githubFolder, pluginGHRepo)
                     componentsHeights[name] = str(component.Attributes.Bounds.Height)
+
+                    try:
+                        desc = component.Description.split("Provided by ")[0].replace("\n", " ")
+                        desc = re.sub(r"(?i)\s*Version\s+\d+\.\d+\.\d+\.\d+", "", desc)
+                        COMPONENT_DESCRIPTIONS[name] = desc
+                    except:
+                        COMPONENT_DESCRIPTIONS[name] = ""
 
                     # Apply cleaning to category names
                     cleanSubCat = clean_string(component.SubCategory)
