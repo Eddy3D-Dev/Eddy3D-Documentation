@@ -114,13 +114,5 @@
             <div class="index-quicklink-text">Define vegetation property coefficients for canopy modeling. OutdoorPlus</div>
         </div>
     </a>
-    <a href="/components/Grass/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Grass.png" class="nav-gh-icon"> Grass
-            </div>
-            <div class="index-quicklink-text">Define grass patches and parameters for the terrain. OutdoorPlus</div>
-        </div>
-    </a>
 </div>
 

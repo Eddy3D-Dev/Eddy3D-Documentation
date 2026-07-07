@@ -106,37 +106,5 @@
             <div class="index-quicklink-text">Deconstruct a Weather object into hourly time series values. OutdoorPlus</div>
         </div>
     </a>
-    <a href="/components/Case_Run/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Case_Run.png" class="nav-gh-icon"> Case Run
-            </div>
-            <div class="index-quicklink-text">Prepare and run a UMF case. OutdoorPlus</div>
-        </div>
-    </a>
-    <a href="/components/OpenFOAM_Dictionary/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/OpenFOAM_Dictionary.png" class="nav-gh-icon"> OpenFOAM Dictionary
-            </div>
-            <div class="index-quicklink-text">Create an OpenFOAM dictionary for file modification inputs.</div>
-        </div>
-    </a>
-    <a href="/components/OpenFOAM_List/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/OpenFOAM_List.png" class="nav-gh-icon"> OpenFOAM List
-            </div>
-            <div class="index-quicklink-text">Create an OpenFOAM list for file modification inputs.</div>
-        </div>
-    </a>
-    <a href="/components/Read_OpenFOAM_Case/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Read_OpenFOAM_Case.png" class="nav-gh-icon"> Read OpenFOAM Case
-            </div>
-            <div class="index-quicklink-text">Read an OpenFOAM case directory and list its file containers.</div>
-        </div>
-    </a>
 </div>
 

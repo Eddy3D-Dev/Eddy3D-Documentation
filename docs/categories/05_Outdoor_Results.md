@@ -34,14 +34,6 @@
             <div class="index-quicklink-text">Monitor blockMesh, surfaceFeatures, and snappyHexMesh progress from the mesh case logs.</div>
         </div>
     </a>
-    <a href="/components/Plot_Residuals/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Plot_Residuals.png" class="nav-gh-icon"> Plot Residuals
-            </div>
-            <div class="index-quicklink-text">Open the web-based residual plotter for a wind case's convergence history (one trace per direction).</div>
-        </div>
-    </a>
     <a href="/components/Flow_Rates/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">

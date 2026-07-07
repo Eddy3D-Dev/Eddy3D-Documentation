@@ -26,14 +26,6 @@
             <div class="index-quicklink-text">Open a wind case's direction cases in ParaView. All directions are added to the ParaView pipeline browser; click Apply on the ones you want to load (nothing is loaded automatically).</div>
         </div>
     </a>
-    <a href="/components/Deconstruct_Case/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Deconstruct_Case.png" class="nav-gh-icon"> Deconstruct Case
-            </div>
-            <div class="index-quicklink-text">Inspect any Eddy3D case: Outdoor wind study, Indoor case, or OutdoorPlus (UMF) case.</div>
-        </div>
-    </a>
     <a href="/components/Deconstruct_Region/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
