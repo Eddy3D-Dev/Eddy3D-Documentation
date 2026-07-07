@@ -22,14 +22,13 @@
 /* Index pages of nav tabs quicklinks */
 .index-quicklink-container {
   margin: 2vh 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   align-items: stretch;
   clear: both;
 }
 .index-quicklink-container > a {
-  flex: 0 0 calc(50% - 0.5rem);
   text-decoration: none !important;
   display: flex;
 }
@@ -93,8 +92,8 @@
   transform: none;
 }
 @media screen and (max-width: 45em) {
-  .index-quicklink-container > a {
-    flex: 0 0 100%;
+  .index-quicklink-container {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -116,6 +115,12 @@
     border-radius: 4px;
     background-color: var(--md-default-bg-color);
     width: max-content;
+    transition: filter 0.2s, opacity 0.2s;
+}
+/* Category pages dim non-active groups via a scoped <style>; hover restores them */
+.Main-GhToolbar-Container .SubGroup-Container:hover {
+    filter: none !important;
+    opacity: 1 !important;
 }
 [data-md-color-scheme="slate"] .SubGroup-Container {
     border: 1px solid #3a3f47;
