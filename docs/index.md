@@ -71,9 +71,7 @@ The **MRT** component uses [Radiance](https://github.com/LBNL-ETA/Radiance){ tar
 
 ## Anonymous Usage Analytics
 
-Eddy3D collects anonymous usage statistics — which components are used, which simulation engine runs, plus the Rhino/plugin version, a salted one-way hash of the machine name (not reversible to you), and the network organization (e.g. a university name) — to demonstrate usage for research funding and to guide development. No geometry, file names, or personal data are ever sent.
-
-To opt out, set the environment variable `EDDY3D_ANALYTICS=off` and restart Rhino.
+Eddy3D is free for all users. To keep it that way, the plugin collects anonymous usage statistics: which components are used, which simulation engine runs, the Rhino and plugin versions, a salted one-way hash of the machine name (not reversible to any person), and the network organization (e.g. a university name). These numbers demonstrate real-world usage to research funders and guide development priorities. No geometry, file names, project content, or personal data are ever sent.
 
 ## Requirements
 
