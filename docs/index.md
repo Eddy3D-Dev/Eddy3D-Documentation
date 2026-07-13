@@ -69,6 +69,12 @@ Choose a simulation engine (one of the following):
 
 The **MRT** component uses [Radiance](https://github.com/LBNL-ETA/Radiance){ target="_blank" rel="noopener noreferrer" aria-label="Radiance on GitHub (opens in a new tab)" }. The **Install Engines** component downloads and installs it automatically (Windows &amp; Mac, release `rad6R0P2`) under the per-user Eddy3D folder &mdash; no manual install needed.
 
+## Anonymous Usage Analytics
+
+Eddy3D collects anonymous usage statistics — which components are used, which simulation engine runs, plus the Rhino/plugin version, a salted one-way hash of the machine name (not reversible to you), and the network organization (e.g. a university name) — to demonstrate usage for research funding and to guide development. No geometry, file names, or personal data are ever sent.
+
+To opt out, set the environment variable `EDDY3D_ANALYTICS=off` and restart Rhino.
+
 ## Requirements
 
 | Module   | Overview                                                     | Core engine            | Package | Rhino (ver) | OS support  | OpenFOAM (ver) | Radiance (ver) |
