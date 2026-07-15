@@ -7,7 +7,7 @@ Load example Grasshopper definitions for common workflows.
  Templates include microclimate simulations, outdoor comfort studies,
  and CFD analysis setups.
  
- Version: 1.0.9.827
+ Version: 1.1.0.827
 
 #### Input
 
