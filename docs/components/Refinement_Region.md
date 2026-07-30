@@ -6,18 +6,18 @@ Add a custom snappyHexMesh refinement region (a box, solid or surface) to a writ
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | The written wind case whose mesh should gain the refinement region. |
-| Geo |  | The region geometry: a Box/closed Brep/Mesh (use mode inside/outside) or an open surface (use mode distance). Written as an STL into the mesh case. |
-| Name |  | Region key (a valid OpenFOAM word, e.g. "towerWake"). |
-| Lvl |  | snappyHexMesh refinement level inside/near the region (e.g. 2). Default 2. |
-| Mode |  | inside (refine the whole closed region), outside (refine everything outside it), or distance (refine within Distance metres of the surface). Default inside. |
-| Dist |  | For distance mode: refinement band width in metres. Default 10. |
-| Bake |  | Write the region STL and snappyHexMeshDict entries into the mesh case (idempotent), then re-run meshing. Momentary button. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | The written wind case whose mesh should gain the refinement region. | `Generic Data` |
+| Geometry | Geo | The region geometry: a Box/closed Brep/Mesh (use mode inside/outside) or an open surface (use mode distance). Written as an STL into the mesh case. | `Generic Data` |
+| Name |  | Region key (a valid OpenFOAM word, e.g. "towerWake"). | `Text` |
+| Level | Lvl | snappyHexMesh refinement level inside/near the region (e.g. 2). Default 2. | `Integer` |
+| Mode |  | inside (refine the whole closed region), outside (refine everything outside it), or distance (refine within Distance metres of the surface). Default inside. | `Text` |
+| Distance | Dist | For distance mode: refinement band width in metres. Default 10. | `Number` |
+| Bake |  | Write the region STL and snappyHexMeshDict entries into the mesh case (idempotent), then re-run meshing. Momentary button. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Status |  | What was baked, and into how many mesh cases. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Status |  | What was baked, and into how many mesh cases. | `Text` |

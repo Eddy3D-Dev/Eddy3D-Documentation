@@ -6,20 +6,20 @@ Predict a pedestrian wind-speed field from buildings using the Eddy3D GAN (no CF
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Buildings | B | Building meshes. |
-| Pl |  | Square analysis plane (defaults to a 512×512 box around the buildings). |
-| Dir |  | Wind direction in degrees (0=N, clockwise). |
-| URL |  | GAN API base URL. |
-| Voxel Size | V | Geometry rasterization voxel size (m). |
-| Color Size | CS | Result-mesh pixel size for coloring. |
-| Color Map | CM | Color map: Viridis, Turbo, or Inferno. |
-| Run |  | Run the prediction. Momentary — resets when the result arrives. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Buildings | B | Building meshes. | `Mesh` |
+| Analysis Plane | Pl | Square analysis plane (defaults to a 512×512 box around the buildings). | `Rectangle` |
+| Wind Direction | Dir | Wind direction in degrees (0=N, clockwise). | `Integer` |
+| API URL | URL | GAN API base URL. | `Text` |
+| Voxel Size | V | Geometry rasterization voxel size (m). | `Number` |
+| Color Size | CS | Result-mesh pixel size for coloring. | `Number` |
+| Color Map | CM | Color map: Viridis, Turbo, or Inferno. | `Text` |
+| Run |  | Run the prediction. Momentary — resets when the result arrives. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Wind Speed | U | Predicted pedestrian wind speeds. |
-| Result Mesh | M | Colored wind-speed result mesh. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Wind Speed | U | Predicted pedestrian wind speeds. | `Number` |
+| Result Mesh | M | Colored wind-speed result mesh. | `Mesh` |

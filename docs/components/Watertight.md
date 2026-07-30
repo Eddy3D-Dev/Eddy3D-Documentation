@@ -6,16 +6,16 @@ Combine a multi-part building mesh into a single watertight, CFD-ready solid via
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Mesh | M | Input meshes (merged and combined into one solid). |
-| Min Length | L | Vertex weld tolerance in model units. Two vertices closer than this are merged. Default 0.1 (10 cm for meter-unit models). |
-| URL |  | MetaBlock API base URL. |
-| Run |  | Process the mesh — auto-starts the local server on first run. Resets when the result arrives. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Mesh | M | Input meshes (merged and combined into one solid). | `Mesh` |
+| Min Length | L | Vertex weld tolerance in model units. Two vertices closer than this are merged. Default 0.1 (10 cm for meter-unit models). | `Number` |
+| API URL | URL | MetaBlock API base URL. | `Text` |
+| Run |  | Process the mesh — auto-starts the local server on first run. Resets when the result arrives. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Combined | M | Combined watertight CFD-ready solid mesh. |
-| Status | S | Status message. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Combined | M | Combined watertight CFD-ready solid mesh. | `Mesh` |
+| Status | S | Status message. | `Text` |

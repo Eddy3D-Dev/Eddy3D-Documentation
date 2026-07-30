@@ -6,21 +6,22 @@ Compute mean radiant temperature at the sensors. Direct-raycast shortwave by def
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Surfaces | S | Tagged radiation surfaces (MRT Surface). |
-| Sensors | P | Sensor probes (MRT Sensors). |
-| EPW | W | Path to the EPW weather file. |
-| Settings | C | MRT settings (optional). |
-| Dir |  | Working directory for the Radiance DDS run (used only when reflections/diffuse radiation is enabled). |
-| Run | R | Run the MRT analysis. |
-| Engine |  | Run Radiance/EnergyPlus natively or via the bundled radiance-energyplus Docker image. Only relevant when MRT Settings enables Radiance Reflections or EnergyPlus Surfaces. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Surfaces | S | Tagged radiation surfaces (MRT Surface). | `Generic Data` |
+| Sensors | P | Sensor probes (MRT Sensors). | `Generic Data` |
+| EPW | W | Path to the EPW weather file. | `Text` |
+| Settings | C | MRT settings (optional). | `Generic Data` |
+| Working Directory | Dir | Working directory for the Radiance DDS run (used only when reflections/diffuse radiation is enabled). | `Text` |
+| Run | R | Run the MRT analysis. | `Boolean` |
+| Engine |  | Run Radiance/EnergyPlus natively or via the bundled radiance-energyplus Docker image. Only relevant when MRT Settings enables Radiance Reflections or EnergyPlus Surfaces. | `Text` |
+| Hours of Year | HOY | Optional 1-based hour(s) of year to output. Connect one HOY for an hourly UMCF analysis; leave unconnected for the full 8760-hour annual result. | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Points | P | Sensor positions. |
-| MRT | M | Annual hourly MRT per sensor {probe}(8760). |
-| Sky Dome | D | The generated sky dome (preview). |
-| Probes | X | Solved probes (for UTCI component). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Points | P | Sensor positions. | `Point` |
+| MRT | M | Annual MRT as {hour}(probes), preserving the Points output order in every branch. | `Number` |
+| Sky Dome | D | The generated sky dome (preview). | `Mesh` |
+| Probes | X | Solved probes (for UTCI component). | `Generic Data` |

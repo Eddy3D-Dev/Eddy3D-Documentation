@@ -6,16 +6,16 @@ Write probed wind results as a CSV for the Eddy3D Visualizer (viz.eddy3d.com): c
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Points | P | Probe points; their X, Y, Z become the CSV coordinates. |
-| Velocity | U | Velocity vector at each point (e.g. the Probe component's U output). Its length becomes mag_U (and U_at_z). Optional — without it the points export with zero magnitude. |
-| Path |  | Output .csv path. This is the file you upload to the Eddy3D Visualizer. |
-| Ground Z | Z0 | Ground height [m] subtracted from each point's Z to give Z_relative. Default 0. |
-| Write | W | Write the CSV. Momentary — resets after the file is written. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Points | P | Probe points; their X, Y, Z become the CSV coordinates. | `Point` |
+| Velocity | U | Velocity vector at each point (e.g. the Probe component's U output). Its length becomes mag_U (and U_at_z). Optional — without it the points export with zero magnitude. | `Vector` |
+| File Path | Path | Output .csv path. This is the file you upload to the Eddy3D Visualizer. | `Text` |
+| Ground Z | Z0 | Ground height [m] subtracted from each point's Z to give Z_relative. Default 0. | `Number` |
+| Write | W | Write the CSV. Momentary — resets after the file is written. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| File |  | The written CSV path. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| File |  | The written CSV path. | `Text` |

@@ -6,15 +6,15 @@ Configure mesh refinement for building regions.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| FeatLvl |  | Feature refinement level for extracted edges. Optional; default is 4. |
-| SurfMin |  | Minimum surface refinement level. Optional; default is 3. |
-| SurfMax |  | Maximum surface refinement level. Optional; default is 3. |
-| Layers |  | Number of prism layers to add. Optional; default is 2. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Feature Refinement | FeatLvl | Feature refinement level for extracted edges. Optional; default is 4. | `Integer` |
+| Surface Level Min | SurfMin | Minimum surface refinement level. Optional; default is 3. | `Integer` |
+| Surface Level Max | SurfMax | Maximum surface refinement level. Optional; default is 3. | `Integer` |
+| Layer Count | Layers | Number of prism layers to add. Optional; default is 2. | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Mesh |  | Building mesh settings for snappyHexMesh. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Building Mesh Settings | Mesh | Building mesh settings for snappyHexMesh. | `Generic Data` |

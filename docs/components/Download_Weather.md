@@ -6,14 +6,14 @@ Download an EPW weather file from climate.onebuilding.org nearest to your projec
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Search |  | Station name, WMO ID, country, state, or dataset year (e.g. 'New York', '725030', '2009-2023'). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Search |  | Station name, WMO ID, country, state, or dataset year (e.g. 'New York', '725030', '2009-2023'). | `Text` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| EPW |  | Path to the downloaded EPW weather file. |
-| Logs | L | Execution log. |
-| Stn |  | Stations matching the search filter. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| EPW File | EPW | Path to the downloaded EPW weather file. | `Text` |
+| Logs | L | Execution log. | `Text` |
+| Stations | Stn | Stations matching the search filter. | `Text` |

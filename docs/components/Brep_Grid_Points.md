@@ -6,14 +6,16 @@ Generate a regular point grid on Brep, surface, or mesh geometry.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Geo |  | Brep, surface, or mesh geometry to sample. |
-| Space |  | Grid spacing in model units (meters). Optional; default is 10. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Geometry | Geo | Brep, surface, or mesh geometry to sample. | `Geometry` |
+| Spacing | Space | Grid spacing in model units (meters). Optional; default is 10. | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Pts |  | Generated grid points on the input geometry. |
-| Status |  | Status message or warnings. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Points | Pts | Generated grid points on the input geometry. | `Point` |
+| Vectors | Vec | Outward unit surface normals corresponding one-to-one with the grid points. | `Vector` |
+| Mesh |  | Joined mesh representation of the sampled input geometry. | `Mesh` |
+| Status |  | Status message or warnings. | `Text` |

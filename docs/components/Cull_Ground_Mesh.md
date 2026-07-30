@@ -6,15 +6,15 @@ Remove ground mesh faces that intersect buildings, creating an analysis ground m
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Bldgs |  | Joined building mesh for intersection. |
-| Ground |  | Ground mesh to cull. Consider QuadRemesh for control. |
-| Target |  | Target number of faces in the output mesh. Default: 50000. |
-| Tri |  | Convert quads to triangles in the output. Default: true. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Building Mesh | Bldgs | Joined building mesh for intersection. | `Mesh` |
+| Ground Mesh | Ground | Ground mesh to cull. Consider QuadRemesh for control. | `Mesh` |
+| Target Face Count | Target | Target number of faces in the output mesh. Default: 50000. | `Integer` |
+| Triangulate | Tri | Convert quads to triangles in the output. Default: true. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Mesh |  | Ground mesh with building footprints removed. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Culled Mesh | Mesh | Ground mesh with building footprints removed. | `Mesh` |

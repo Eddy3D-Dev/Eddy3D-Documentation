@@ -6,11 +6,11 @@ Read and visualize sets produced by checkMesh. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | UMF case containing checkMesh set files. |
-| Mesh |  | UMF mesh data used to extract faces and points. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | UMF case containing checkMesh set files. | `Generic Data` |
+| Mesh Data | Mesh | UMF mesh data used to extract faces and points. | `Generic Data` |
 
 #### Output
 
-
+*None*

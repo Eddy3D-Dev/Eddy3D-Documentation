@@ -6,12 +6,12 @@ Ventilation outlet — defines where air exhausts from the room (return grille, 
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Surface | S | Planar surface on the room wall marking the outlet opening. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Surface | S | Planar surface on the room wall marking the outlet opening. | `Brep` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Outlet | O | Indoor outlet for the case component. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Outlet | O | Indoor outlet for the case component. | `Generic Data` |

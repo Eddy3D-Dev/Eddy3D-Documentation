@@ -6,14 +6,14 @@ Compute the snappyHexMesh refinement level needed to reach a target cell size (e
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Base |  | Base cell size of the background mesh (meters). |
-| Target |  | Desired final cell size at the highest refinement level (meters). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Base Cell Size | Base | Base cell size of the background mesh (meters). | `Number` |
+| Target Cell Size | Target | Desired final cell size at the highest refinement level (meters). | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Level |  | Refinement level (n) required to reach the target cell size. |
-| Level+1 |  | One level higher than required (finer resolution). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Refinement Level | Level | Refinement level (n) required to reach the target cell size. | `Integer` |
+| Refinement Level + 1 | Level+1 | One level higher than required (finer resolution). | `Integer` |

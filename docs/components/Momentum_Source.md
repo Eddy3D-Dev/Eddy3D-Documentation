@@ -6,13 +6,13 @@ A fan/jet momentum source (mean velocity) box for an indoor ventilation case.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Zone | Z | Box zone occupied by the source. |
-| Mean Velocity | U | Target mean velocity in the zone (m/s). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Zone | Z | Box zone occupied by the source. | `Box` |
+| Mean Velocity | U | Target mean velocity in the zone (m/s). | `Vector` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Source | S | Momentum source for the Indoor Case component. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Source | S | Momentum source for the Indoor Case component. | `Generic Data` |

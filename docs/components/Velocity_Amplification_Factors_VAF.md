@@ -6,17 +6,17 @@ Compute Velocity Amplification Factors (VAF) and annual wind speed at probes fro
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Boundary Conditions | BC | OutdoorBoundaryConditions object from the ABL or Uniform Flow component. |
-| Wind Velocity | U | DataTree of velocity vectors {direction}[probe] from the probe results. |
-| EPW |  | Path to the EPW weather file. |
-| Height |  | Probing/pedestrian height in meters. |
-| Interp |  | Interpolate between bracketing wind directions. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Boundary Conditions | BC | OutdoorBoundaryConditions object from the ABL or Uniform Flow component. | `Generic Data` |
+| Wind Velocity | U | DataTree of velocity vectors {direction}[probe] from the probe results. | `Vector` |
+| EPW |  | Path to the EPW weather file. | `Text` |
+| Probe Height | Height | Probing/pedestrian height in meters. | `Number` |
+| Interpolate | Interp | Interpolate between bracketing wind directions. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Wind |  | Annual wind field object (every point's 8760-hour wind-speed series) for the Pedestrian Wind Comfort component. A single object rather than a data tree, so a few thousand probes stay fast. |
-| VAF |  | DataTree {direction}[probe] of Velocity Amplification Factors (VAF) — local wind speed normalized by the reference (undisturbed) speed. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Wind Speed | Wind | Annual wind field object (every point's 8760-hour wind-speed series) for the Pedestrian Wind Comfort component. A single object rather than a data tree, so a few thousand probes stay fast. | `Generic Data` |
+| Velocity Amplification Factors | VAF | DataTree {direction}[probe] of Velocity Amplification Factors (VAF) — local wind speed normalized by the reference (undisturbed) speed. | `Number` |

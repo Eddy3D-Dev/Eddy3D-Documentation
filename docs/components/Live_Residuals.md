@@ -6,13 +6,13 @@ Draws a wind case's residual convergence directly on the Grasshopper canvas, wit
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | Wind case (from the wind case component or Load Wind Case). |
-| Live |  | Set to true to enable timed live updates. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | Wind case (from the wind case component or Load Wind Case). | `Generic Data` |
+| Live |  | Set to true to enable timed live updates. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| File | F | Residuals file being monitored. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| File | F | Residuals file being monitored. | `Text` |

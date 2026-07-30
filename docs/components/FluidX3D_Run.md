@@ -6,19 +6,19 @@ Prepare and launch a FluidX3D GPU wind simulation (builds the solver from source
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Buildings | B | Building geometry to voxelize. |
-| ABL |  | ABL inflow from the 'ABL Flow' component — the SAME boundary condition OpenFOAM uses. Supplies reference speed, reference height, roughness length and flow direction. Uses the first wind direction (FluidX3D runs one direction per case). |
-| Settings | S | FluidX3D run settings (optional; defaults used otherwise). |
-| Dir |  | Working directory (optional; default ~/Eddy3D/FluidX3D). |
-| Prepare | P | Build the case + solver from source (does not launch). |
-| Run | R | Prepare (if needed) and launch the GPU solver. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Buildings | B | Building geometry to voxelize. | `Mesh` |
+| ABL |  | ABL inflow from the 'ABL Flow' component — the SAME boundary condition OpenFOAM uses. Supplies reference speed, reference height, roughness length and flow direction. Uses the first wind direction (FluidX3D runs one direction per case). | `Generic Data` |
+| Settings | S | FluidX3D run settings (optional; defaults used otherwise). | `Generic Data` |
+| Working Directory | Dir | Working directory (optional; default ~/Eddy3D/FluidX3D). | `Text` |
+| Prepare | P | Build the case + solver from source (does not launch). | `Boolean` |
+| Run | R | Prepare (if needed) and launch the GPU solver. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Logs | L | Run log / status. |
-| Folder | F | FluidX3D case root folder. |
-| Case | C | FluidX3D result (VTK directory) — plug into the Probe component's Case input. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Logs | L | Run log / status. | `Text` |
+| Folder | F | FluidX3D case root folder. | `Text` |
+| Case | C | FluidX3D result (VTK directory) — plug into the Probe component's Case input. | `Text` |

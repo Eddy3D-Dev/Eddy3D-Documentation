@@ -6,13 +6,13 @@ A volumetric heat source box for an indoor ventilation case (transported tempera
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Zone | Z | Box zone occupied by the heat source. |
-| Source Rate | Q | Temperature source rate injected into the zone (K/s, specific). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Zone | Z | Box zone occupied by the heat source. | `Box` |
+| Source Rate | Q | Temperature source rate injected into the zone (K/s, specific). | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Source | S | Heat source for the Indoor Case component. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Source | S | Heat source for the Indoor Case component. | `Generic Data` |

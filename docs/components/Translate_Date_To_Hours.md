@@ -6,12 +6,12 @@ Translate a Ladybug analysis period to hours of the year.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Period |  | Analysis period (Ladybug format), e.g. (2,2,2) and (11,11,11) for the second hour of February 2nd until the 11th hour of November 11th. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Analysis Period | Period | Analysis period (Ladybug format), e.g. (2,2,2) and (11,11,11) for the second hour of February 2nd until the 11th hour of November 11th. | `Text` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Hours |  | 1-based hours of the year inside the analysis period. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Hours |  | 1-based hours of the year inside the analysis period. | `Integer` |

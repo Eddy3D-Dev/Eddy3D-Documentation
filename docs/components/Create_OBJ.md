@@ -6,16 +6,16 @@ Export an OBJ mesh from a polyMesh description. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Data |  | Geometric and topological mesh data (UMFMesh). |
-| File |  | Output OBJ file name or path. |
-| Faces |  | Optional face indices to include in the OBJ. |
-| Write |  | Write the OBJ file when true. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Mesh Data | Data | Geometric and topological mesh data (UMFMesh). | `Generic Data` |
+| File Name | File | Output OBJ file name or path. | `Text` |
+| Face Indices | Faces | Optional face indices to include in the OBJ. | `Integer` |
+| Write |  | Write the OBJ file when true. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Info |  | OBJ export result message. |
-| Data |  | Geometric and topological mesh data. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Output Info | Info | OBJ export result message. | `Text` |
+| Mesh Data | Data | Geometric and topological mesh data. | `Generic Data` |

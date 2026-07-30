@@ -6,12 +6,12 @@ Create an air region for the UMF case. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| ABL |  | Optional atmospheric boundary layer settings for the air region. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| ABL Settings | ABL | Optional atmospheric boundary layer settings for the air region. | `Generic Data` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Air |  | Air region object for the case. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Air Region | Air | Air region object for the case. | `Generic Data` |

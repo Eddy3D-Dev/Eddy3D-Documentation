@@ -6,17 +6,17 @@ Mesh and run an OpenFOAM case on the selected engine (wind / indoor / UMF).
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case | C | An OpenFOAM case to run (wind study, indoor case, or UMF case). |
-| Mesh | M | Mesh only. |
-| Simulate | S | Simulation only. |
-| Run All | R | Mesh, then run the simulation. |
-| Parallel | P | Run in parallel (decompose / MPI). |
-| Engine | E | OpenFOAM execution engine. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case | C | An OpenFOAM case to run (wind study, indoor case, or UMF case). | `Generic Data` |
+| Mesh | M | Mesh only. | `Boolean` |
+| Simulate | S | Simulation only. | `Boolean` |
+| Run All | R | Mesh, then run the simulation. | `Boolean` |
+| Parallel | P | Run in parallel (decompose / MPI). | `Boolean` |
+| Engine | E | OpenFOAM execution engine. | `Text` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Logs | L | Run logs. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Logs | L | Run logs. | `Text` |

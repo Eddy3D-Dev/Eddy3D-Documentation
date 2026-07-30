@@ -6,16 +6,16 @@ Monitor blockMesh, surfaceFeatures, and snappyHexMesh progress from the mesh cas
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | Wind case (from the wind case component or Load Wind Case). |
-| Live |  | Set to true to re-read the meshing logs once a second — no external timer needed. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | Wind case (from the wind case component or Load Wind Case). | `Generic Data` |
+| Live |  | Set to true to re-read the meshing logs once a second — no external timer needed. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Progress |  | Estimated meshing progress from 0 to 1. |
-| Phase |  | Current meshing phase. |
-| Done |  | True when meshing has finished. |
-| Status |  | Status text (errors, remaining time). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Progress |  | Estimated meshing progress from 0 to 1. | `Number` |
+| Phase |  | Current meshing phase. | `Text` |
+| Done |  | True when meshing has finished. | `Boolean` |
+| Status |  | Status text (errors, remaining time). | `Text` |

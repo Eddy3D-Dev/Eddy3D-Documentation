@@ -6,16 +6,16 @@ Download an ONNX wind-prediction model from HuggingFace for the Wind Predictor c
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Run |  | Set to True to validate the token and download the model if needed. |
-| Model |  | Select the ONNX model to download. |
-| HFToken |  | HuggingFace access token (starts with hf_) or a file path to a .txt file containing the token. Required for private models (Esen, Poyraz). Not required for public models (Yel). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Run |  | Set to True to validate the token and download the model if needed. | `Boolean` |
+| Model |  | Select the ONNX model to download. | `Text` |
+| HF Token | HFToken | HuggingFace access token (starts with hf_) or a file path to a .txt file containing the token. Required for private models (Esen, Poyraz). Not required for public models (Yel). | `Text` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Status |  | Human-readable status / diagnostic message. |
-| FilePath |  | Full path to the cached ONNX model file, or null on failure. |
-| Progress |  | Download progress percentage (0–100). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Status |  | Human-readable status / diagnostic message. | `Text` |
+| File Path | FilePath | Full path to the cached ONNX model file, or null on failure. | `Text` |
+| Progress |  | Download progress percentage (0–100). | `Number` |

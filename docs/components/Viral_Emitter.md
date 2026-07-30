@@ -6,13 +6,13 @@ An airborne-pathogen passive-scalar source box for an indoor ventilation case.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Zone | Z | Box zone occupied by the viral source. |
-| Injection Rate | IR | Viral tracer injection rate (specific). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Zone | Z | Box zone occupied by the viral source. | `Box` |
+| Injection Rate | IR | Viral tracer injection rate (specific). | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Source | S | Viral source for the Indoor Case component. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Source | S | Viral source for the Indoor Case component. | `Generic Data` |

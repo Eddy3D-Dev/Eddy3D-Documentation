@@ -6,13 +6,13 @@ Open a wind case's direction cases in ParaView. All directions are added to the 
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | Wind case (from the wind case component or Load Wind Case). |
-| Open |  | Set to true to launch ParaView with all direction cases. |
-| Boundary Conditions | BC | ABL or Uniform Flow boundary conditions (provides simulated directions, reference speeds, z0, zRef). Required for comfort analysis. |
-| EPW |  | Path to an EPW weather file. When provided together with BC, the ParaView script computes pedestrian wind comfort at 1.5 m. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | Wind case (from the wind case component or Load Wind Case). | `Generic Data` |
+| Open |  | Set to true to launch ParaView with all direction cases. | `Boolean` |
+| Boundary Conditions | BC | ABL or Uniform Flow boundary conditions (provides simulated directions, reference speeds, z0, zRef). Required for comfort analysis. | `Generic Data` |
+| EPW Path | EPW | Path to an EPW weather file. When provided together with BC, the ParaView script computes pedestrian wind comfort at 1.5 m. | `Text` |
 
 #### Output
 
-
+*None*

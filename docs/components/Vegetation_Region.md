@@ -6,15 +6,15 @@ Create a vegetation region with properties and mesh settings. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Mesh |  | Vegetation meshes for the region. |
-| LAD |  | Leaf area density for vegetation. |
-| Props |  | Optional vegetation property settings. |
-| MeshSet |  | Optional meshing settings for vegetation. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Vegetation Mesh | Mesh | Vegetation meshes for the region. | `Mesh` |
+| Leaf Area Density | LAD | Leaf area density for vegetation. | `Number` |
+| Vegetation Properties | Props | Optional vegetation property settings. | `Generic Data` |
+| Mesh Settings | MeshSet | Optional meshing settings for vegetation. | `Generic Data` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Vegetation |  | Vegetation region object for the case. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Vegetation Region | Vegetation | Vegetation region object for the case. | `Generic Data` |
