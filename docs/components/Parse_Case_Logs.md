@@ -6,15 +6,15 @@ Parses log files in a case folder and reports any FOAM errors. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | Case to parse logs from. |
-| Run |  | Parse log files when true. Optional; default is false. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | Case to parse logs from. | `Generic Data` |
+| Run |  | Parse log files when true. Optional; default is false. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Summary |  | Summary of log parsing results. |
-| Errors |  | Errors found in log files. |
-| Warnings |  | Warnings found in log files. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Log Summary | Summary | Summary of log parsing results. | `Text` |
+| Errors |  | Errors found in log files. | `Text` |
+| Warnings |  | Warnings found in log files. | `Text` |

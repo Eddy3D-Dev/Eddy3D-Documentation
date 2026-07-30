@@ -6,15 +6,15 @@ Compute volumetric flow rates (m³/s) across a mesh, treating its vertices as ve
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Velocity | U | Velocity vectors, one per mesh vertex (e.g. probed pedestrian-height wind). |
-| Mesh | M | Mesh whose faces the flow is integrated over. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Velocity | U | Velocity vectors, one per mesh vertex (e.g. probed pedestrian-height wind). | `Vector` |
+| Mesh | M | Mesh whose faces the flow is integrated over. | `Mesh` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Flow Rates | Q | Volumetric flow rate per face (m³/s). |
-| Centers | C | Face centers. |
-| Dir |  | Average velocity vector per face. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Flow Rates | Q | Volumetric flow rate per face (m³/s). | `Number` |
+| Centers | C | Face centers. | `Point` |
+| Flow Directions | Dir | Average velocity vector per face. | `Vector` |

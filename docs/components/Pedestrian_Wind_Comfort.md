@@ -6,15 +6,15 @@ Classifies pedestrian wind comfort per point from an annual hourly wind-speed se
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Wind Speed | U | Annual wind field from the Velocity Amplification Factors (VAF) component (its Wind Speed output): a single object holding every point's 8760-hour wind-speed series. Passed as an object so the millions of values skip the Grasshopper data tree. |
-| Metric |  | Comfort criterion: 0 Lawson General, 1 Lawson LDDC, 2 Lawson 2001, 3 Davenport, 4 NEN8100 Comfort, 5 NEN8100 Safety. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Wind Speed | U | Annual wind field from the Velocity Amplification Factors (VAF) component (its Wind Speed output): a single object holding every point's 8760-hour wind-speed series. Passed as an object so the millions of values skip the Grasshopper data tree. | `Generic Data` |
+| Comfort Metric | Metric | Comfort criterion: 0 Lawson General, 1 Lawson LDDC, 2 Lawson 2001, 3 Davenport, 4 NEN8100 Comfort, 5 NEN8100 Safety. | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Rank |  | Comfort category number per point (1 = most comfortable; higher = worse). |
-| Letter |  | Comfort class letter per point (A, B, ... ; S = unsafe). |
-| Class |  | Comfort activity description per point (e.g. Sitting, Walking). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Comfort Rank | Rank | Comfort category number per point (1 = most comfortable; higher = worse). | `Integer` |
+| Class Letter | Letter | Comfort class letter per point (A, B, ... ; S = unsafe). | `Text` |
+| Comfort Class | Class | Comfort activity description per point (e.g. Sitting, Walking). | `Text` |

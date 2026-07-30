@@ -6,15 +6,15 @@ Inject a custom OpenFOAM function object into a written case so the solver runs 
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | The written wind case / loaded study to add the function object to. |
-| Name |  | Function object key (a valid OpenFOAM word, e.g. "fieldAverage1"). |
-| Def |  | The function object body — the contents between its braces, as text (from a panel) or a Foamonary. Example:   type            fieldAverage;   libs            ("libfieldFunctionObjects.so");   fields          ( U p ); The component wraps it as Name { ... } inside controlDict functions. |
-| Bake |  | Write the function object into each case's controlDict (idempotent). Do this before running the solve; momentary button. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | The written wind case / loaded study to add the function object to. | `Generic Data` |
+| Name |  | Function object key (a valid OpenFOAM word, e.g. "fieldAverage1"). | `Text` |
+| Definition | Def | The function object body — the contents between its braces, as text (from a panel) or a Foamonary. Example:   type            fieldAverage;   libs            ("libfieldFunctionObjects.so");   fields          ( U p ); The component wraps it as Name { ... } inside controlDict functions. | `Generic Data` |
+| Bake |  | Write the function object into each case's controlDict (idempotent). Do this before running the solve; momentary button. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Status |  | What was baked, and into how many cases. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Status |  | What was baked, and into how many cases. | `Text` |

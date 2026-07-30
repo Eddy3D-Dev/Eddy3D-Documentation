@@ -2,21 +2,16 @@
 
 ![](/images/components/Select_Template-crop.png)
 
-Load example Grasshopper definitions for common workflows.
- 
- Templates include microclimate simulations, outdoor comfort studies,
- and CFD analysis setups.
- 
- Version: 1.2.1.827
+Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.2.1.827
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Dirs |  | Optional: Additional folder paths or GitHub URLs to search for .gh/.ghx templates. Example URL: https://github.com/Startraders/Eddy3D-Templates/tree/main/Outdoor |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Additional Folders | Dirs | Optional: Additional folder paths or GitHub URLs to search for .gh/.ghx templates. Example URL: https://github.com/Startraders/Eddy3D-Templates/tree/main/Outdoor | `Text` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Paths |  | Full paths to discovered template files (.gh/.ghx) |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Template Paths | Paths | Full paths to discovered template files (.gh/.ghx) | `Text` |

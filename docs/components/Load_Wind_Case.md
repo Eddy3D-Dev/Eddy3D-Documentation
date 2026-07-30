@@ -6,13 +6,13 @@ Reference an existing wind case folder (mesh/ + case_NNN) for post-processing.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Folder |  | Path to the wind case folder that contains mesh/ and case_NNN folders. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case Folder | Folder | Path to the wind case folder that contains mesh/ and case_NNN folders. | `Text` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | Wind case reference; plug into the post-processing components' Case input. |
-| Cases |  | Paths of the direction case folders found in the case. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | Wind case reference; plug into the post-processing components' Case input. | `Generic Data` |
+| Direction Cases | Cases | Paths of the direction case folders found in the case. | `Text` |

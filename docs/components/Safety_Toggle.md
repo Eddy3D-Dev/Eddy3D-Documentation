@@ -6,10 +6,10 @@ A boolean toggle that is always FALSE when a file is opened. Useful for preventi
 
 #### Input
 
-
+*None*
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Run | R | Boolean value (always FALSE on file open). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Run | R | Boolean value (always FALSE on file open). | `Boolean` |

@@ -6,12 +6,12 @@ Set the indoor wall temperature (°C) for the transported temperature field.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Temperature | T | Wall temperature (°C). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Temperature | T | Wall temperature (°C). | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Wall Temperature | WT | Wall temperature in Kelvin for the Indoor Case component's Wall Temp input. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Wall Temperature | WT | Wall temperature in Kelvin for the Indoor Case component's Wall Temp input. | `Number` |

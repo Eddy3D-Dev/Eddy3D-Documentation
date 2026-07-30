@@ -6,18 +6,18 @@ Create a visualization mesh from polyMesh point/face data. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | UMF case used to locate the mesh data. |
-| Region |  | Region name to visualize. |
-| Faces |  | Optional face indices to visualize. |
-| Run |  | Generate the mesh when true. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | UMF case used to locate the mesh data. | `Generic Data` |
+| Region |  | Region name to visualize. | `Text` |
+| Face Indices | Faces | Optional face indices to visualize. | `Integer` |
+| Run |  | Generate the mesh when true. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Mesh |  | Generated unified mesh. |
-| Data |  | Geometric and topological mesh data. |
-| FaceCount |  | Total face count in the polyMesh. |
-| PointCount |  | Total point count in the polyMesh. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Unified Mesh | Mesh | Generated unified mesh. | `Mesh` |
+| Mesh Data | Data | Geometric and topological mesh data. | `Generic Data` |
+| Number of Faces | FaceCount | Total face count in the polyMesh. | `Integer` |
+| Number of Points | PointCount | Total point count in the polyMesh. | `Integer` |

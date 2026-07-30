@@ -6,22 +6,22 @@ Read processed CSV datasets back into Grasshopper. Supports mag_U and all spatia
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Path |  | Path to the .csv file to read. |
-| Run |  | Trigger the reading process. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| CSV Path | Path | Path to the .csv file to read. | `Text` |
+| Run |  | Trigger the reading process. | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| SDF |  | Signed distance from building. |
-| Bldg_height |  | Building height. |
-| Z_relative |  | Relative height. |
-| U_over_Uref |  | Wind speed at height. |
-| mag_U |  | Simulated wind speed magnitude. |
-| X |  | X coordinate. |
-| Y |  | Y coordinate. |
-| dir_sin |  | Direction sin component. |
-| dir_cos |  | Direction cos component. |
-| brep |  | Reconstructed building geometry (boxes) from CSV data. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| SDF |  | Signed distance from building. | `Number` |
+| Bldg_height |  | Building height. | `Number` |
+| Z_relative |  | Relative height. | `Number` |
+| U_over_Uref |  | Wind speed at height. | `Number` |
+| mag_U |  | Simulated wind speed magnitude. | `Number` |
+| X |  | X coordinate. | `Number` |
+| Y |  | Y coordinate. | `Number` |
+| dir_sin |  | Direction sin component. | `Number` |
+| dir_cos |  | Direction cos component. | `Number` |
+| brep |  | Reconstructed building geometry (boxes) from CSV data. | `Geometry` |

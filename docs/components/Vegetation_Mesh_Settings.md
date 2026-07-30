@@ -6,14 +6,14 @@ Configure mesh refinement for vegetation regions. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Feature Refinement | FR | Feature refinement level. Optional; default is 2. |
-| MnSR |  | Minimum refinement on surfaces. Optional; default is 4. |
-| MxSR |  | Maximum refinement on surfaces. Optional; default is 5. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Feature Refinement | FR | Feature refinement level. Optional; default is 2. | `Integer` |
+| Minimum Surface Refinement | MnSR | Minimum refinement on surfaces. Optional; default is 4. | `Integer` |
+| Maximum Surface Refinement | MxSR | Maximum refinement on surfaces. Optional; default is 5. | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Mesh |  | Mesh refinement settings for vegetation regions. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Vegetation Mesh Settings | Mesh | Mesh refinement settings for vegetation regions. | `Generic Data` |

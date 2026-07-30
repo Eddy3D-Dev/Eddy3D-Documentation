@@ -6,12 +6,12 @@ Read an EPW file and create a Weather object for the simulation. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Path |  | Full path to the EPW weather file. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| EPW File Path | Path | Full path to the EPW weather file. | `Text` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Weather |  | Weather object containing EPW data. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Weather |  | Weather object containing EPW data. | `Generic Data` |

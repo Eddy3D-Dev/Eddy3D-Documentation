@@ -6,18 +6,17 @@ Solver controls for the FluidX3D GPU engine (memory, simulated time, export inte
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Memory | M | GPU memory budget (MB). |
-| Sim Time | T | Physical simulated time (s). |
-| Export Interval | E | VTK export interval (s). |
-| Ground Z | Z | Ground plane Z (model units). |
-| Source Dir | S | Optional override for the FluidX3D source folder. Leave empty to use the default install path. |
-| Interactive | I | Open FluidX3D's native real-time GPU window (live render, on-the-fly camera + mode keys) instead of headless batch VTK export. No VTK is written in interactive mode — use batch mode to probe results. Windows: full support; macOS: requires XQuartz (X11). |
-| Window Size | W | Interactive real-time window size (macOS X11). "Fullscreen" sizes it to the display. Only applies in interactive mode; on Windows the window is always full-screen. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Memory | M | GPU memory budget (MB). | `Integer` |
+| Sim Time | T | Physical simulated time (s). | `Number` |
+| Export Interval | E | VTK export interval (s). | `Number` |
+| Ground Z | Z | Ground plane Z (model units). | `Number` |
+| Source Dir | S | Optional override for the FluidX3D source folder. Leave empty to use the default install path. | `Text` |
+| Interactive | I | Open FluidX3D's native real-time GPU window (live render, on-the-fly camera + mode keys) instead of headless batch VTK export. No VTK is written in interactive mode — use batch mode to probe results. Windows: full support; macOS: requires XQuartz (X11). | `Boolean` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Settings | S | FluidX3D run settings. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Settings | S | FluidX3D run settings. | `Generic Data` |

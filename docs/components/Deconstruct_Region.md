@@ -6,15 +6,15 @@ Deconstruct a MetaFOAM Region instance.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Region |  | Region to deconstruct. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Region |  | Region to deconstruct. | `Generic Data` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Name |  | Region name. |
-| Type |  | Region type. |
-| Files |  | File containers in the region. |
-| Setting |  | Region setting (if available). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Name |  | Region name. | `Text` |
+| Type |  | Region type. | `Text` |
+| File Containers | Files | File containers in the region. | `Generic Data` |
+| Setting |  | Region setting (if available). | `Generic Data` |

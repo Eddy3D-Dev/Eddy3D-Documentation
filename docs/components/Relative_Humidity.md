@@ -6,14 +6,14 @@ Convert specific humidity (w) and temperature (T) to relative humidity (%). Outd
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| w |  | Specific humidity in kg/kg (from OpenFOAM field 'w'). |
-| Temperature | T | Air temperature in Kelvin (from OpenFOAM field 'T'). |
-| Pressure | P | Atmospheric pressure in Pa. Optional; default is 101325 Pa. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Specific Humidity | w | Specific humidity in kg/kg (from OpenFOAM field 'w'). | `Number` |
+| Temperature | T | Air temperature in Kelvin (from OpenFOAM field 'T'). | `Number` |
+| Pressure | P | Atmospheric pressure in Pa. Optional; default is 101325 Pa. | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Relative Humidity | RH | Relative humidity in percent (0–100%). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Relative Humidity | RH | Relative humidity in percent (0–100%). | `Number` |

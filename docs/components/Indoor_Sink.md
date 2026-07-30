@@ -6,14 +6,14 @@ A Darcy-Forchheimer momentum sink (filter/screen) box for an indoor ventilation 
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Zone | Z | Box zone occupied by the sink. |
-| d |  | Darcy viscous resistance (1/m²) per axis. |
-| f |  | Forchheimer inertial resistance (1/m) per axis. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Zone | Z | Box zone occupied by the sink. | `Box` |
+| Viscous | d | Darcy viscous resistance (1/m²) per axis. | `Vector` |
+| Inertial | f | Forchheimer inertial resistance (1/m) per axis. | `Vector` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Sink | S | Momentum sink for the indoor case. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Sink | S | Momentum sink for the indoor case. | `Generic Data` |

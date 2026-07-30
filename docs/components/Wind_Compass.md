@@ -6,17 +6,17 @@ Visualize a wind direction on a compass circle. Direction is meteorological degr
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Dir |  | Wind direction in degrees (0=N, 90=E, 180=S, 270=W). |
-| Radius | R | Radius of the compass circle. |
-| Base Point | P | Center of the compass. |
-| Color | C | Display color. |
-| Arrow Scale | S | Scale of the directional arrow. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Wind Direction | Dir | Wind direction in degrees (0=N, 90=E, 180=S, 270=W). | `Number` |
+| Radius | R | Radius of the compass circle. | `Number` |
+| Base Point | P | Center of the compass. | `Point` |
+| Color | C | Display color. | `Colour` |
+| Arrow Scale | S | Scale of the directional arrow. | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Vec |  | Wind direction (flow) vector. |
-| Name |  | 16-point cardinal name (e.g. NNE). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Vector | Vec | Wind direction (flow) vector. | `Vector` |
+| Direction Name | Name | 16-point cardinal name (e.g. NNE). | `Text` |

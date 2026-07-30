@@ -6,14 +6,14 @@ Ventilation inlet — defines where air enters the room (diffuser, window, door)
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Surface | S | Planar surface on the room wall marking the inlet opening. |
-| Speed | V | Inlet supply speed (m/s). Direction is auto-computed from the surface normal. |
-| Temperature | T | Inlet air temperature (°C). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Surface | S | Planar surface on the room wall marking the inlet opening. | `Brep` |
+| Speed | V | Inlet supply speed (m/s). Direction is auto-computed from the surface normal. | `Number` |
+| Temperature | T | Inlet air temperature (°C). | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Inlet | I | Indoor inlet for the case component. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Inlet | I | Indoor inlet for the case component. | `Generic Data` |

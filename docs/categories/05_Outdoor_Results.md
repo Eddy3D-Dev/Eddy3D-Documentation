@@ -15,7 +15,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Probe.png" class="nav-gh-icon"> Probe
             </div>
-            <div class="index-quicklink-text">Sample fields at points on a solved case, post-hoc. With Run it writes a probes function and runs postProcess on the latest time, then reads the results; without Run it reads existing results. Works on a wind case (one sub-result per direction) or a loaded case.</div>
+            <div class="index-quicklink-text">Sample fields at points on a solved case, post-hoc. With Run it writes a probes function and runs postProcess on the requested Time (latest by default), then reads the results; without Run it reads existing results. Works on a wind case (one sub-result per direction) or a loaded case.</div>
         </div>
     </a>
     <a href="/components/Live_Residuals/" style="text-decoration: none;">
@@ -32,6 +32,22 @@
                 <img src="/images/icons/Meshing_Progress.png" class="nav-gh-icon"> Meshing Progress
             </div>
             <div class="index-quicklink-text">Monitor blockMesh, surfaceFeatures, and snappyHexMesh progress from the mesh case logs.</div>
+        </div>
+    </a>
+    <a href="/components/Plot_Residuals/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Plot_Residuals.png" class="nav-gh-icon"> Plot Residuals
+            </div>
+            <div class="index-quicklink-text">Open the web-based residual plotter for a wind case's convergence history (one trace per direction).</div>
+        </div>
+    </a>
+    <a href="/components/Calendar/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Calendar.png" class="nav-gh-icon"> Calendar
+            </div>
+            <div class="index-quicklink-text">Interactively select a month, day, and hour for annual analysis. Click the controls on the component to change the date and time.</div>
         </div>
     </a>
     <a href="/components/Flow_Rates/" style="text-decoration: none;">
@@ -74,12 +90,12 @@
             <div class="index-quicklink-text">Define an analysis period (from/to day of year, start/end hour of day) and output the hour-of-year indices it covers, for filtering annual results.</div>
         </div>
     </a>
-    <a href="/components/Date_to_HOY/" style="text-decoration: none;">
+    <a href="/components/Hour_of_Year/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
-                <img src="/images/icons/Date_to_HOY.png" class="nav-gh-icon"> Date to HOY
+                <img src="/images/icons/Hour_of_Year.png" class="nav-gh-icon"> Hour of Year
             </div>
-            <div class="index-quicklink-text">Convert a date and time (month, day, hour) into a single hour-of-year integer (1–8760), for indexing annual hourly data.</div>
+            <div class="index-quicklink-text">Convert a start date/time and optional end date/time into hour-of-year values (1–8760) for indexing annual hourly data.</div>
         </div>
     </a>
 </div>

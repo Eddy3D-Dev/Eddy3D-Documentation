@@ -6,17 +6,17 @@ Cluster annual wind directions into representative directions using k-means.
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Dirs |  | Wind directions in degrees (e.g. hourly values from an EPW). |
-| Budget |  | Maximum number of representative directions (clusters). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Directions | Dirs | Wind directions in degrees (e.g. hourly values from an EPW). | `Number` |
+| Budget |  | Maximum number of representative directions (clusters). | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Centroids |  | Representative centroid direction of each cluster. |
-| Dirs |  | Distinct representative wind directions in degrees, sorted ascending; plug into the ABL or Uniform Flow component's Wind Directions input. |
-| Clusters |  | Clustered direction vectors as points, one branch per cluster. |
-| Breaks |  | Jenks-Fisher natural breaks of the input directions. |
-| Error |  | Total clustering distance (error). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Centroids |  | Representative centroid direction of each cluster. | `Number` |
+| Wind Directions | Dirs | Distinct representative wind directions in degrees, sorted ascending; plug into the ABL or Uniform Flow component's Wind Directions input. | `Number` |
+| Clusters |  | Clustered direction vectors as points, one branch per cluster. | `Point` |
+| Breaks |  | Jenks-Fisher natural breaks of the input directions. | `Number` |
+| Distance | Error | Total clustering distance (error). | `Number` |

@@ -6,16 +6,16 @@ Define an analysis period (from/to day of year, start/end hour of day) and outpu
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| From | F | From day of year [1-365]. |
-| To | T | To day of year [1-365]. |
-| Start | S | Start hour of day [1-24]. |
-| End | E | End hour of day [1-24]. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| From | F | From day of year [1-365]. | `Integer` |
+| To | T | To day of year [1-365]. | `Integer` |
+| Start | S | Start hour of day [1-24]. | `Integer` |
+| End | E | End hour of day [1-24]. | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| HOY |  | Hour-of-year indices in the period. |
-| Date |  | The corresponding DateTime values. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Hours of Year | HOY | Hour-of-year indices in the period. | `Integer` |
+| Date Times | Date | The corresponding DateTime values. | `Generic Data` |

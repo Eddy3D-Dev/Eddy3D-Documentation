@@ -42,14 +42,6 @@
             <div class="index-quicklink-text">Create a vegetation region with properties and mesh settings. OutdoorPlus</div>
         </div>
     </a>
-    <a href="/components/ABL_Condition/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/ABL_Condition.png" class="nav-gh-icon"> ABL Condition
-            </div>
-            <div class="index-quicklink-text">Define atmospheric boundary layer settings for the air region. OutdoorPlus</div>
-        </div>
-    </a>
     <a href="/components/Advanced_Terrain_Mesh/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -111,7 +103,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Vegetation_Properties.png" class="nav-gh-icon"> Vegetation Properties
             </div>
-            <div class="index-quicklink-text">Define vegetation property coefficients for canopy modeling. OutdoorPlus</div>
+            <div class="index-quicklink-text">Define vegetation property coefficients for canopy modeling. Shows the recommended coefficients (Leaf Length, rsMin, kc) by default; right-click to show all coefficients (Cd, C, nEvapSides). OutdoorPlus</div>
         </div>
     </a>
 </div>

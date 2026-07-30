@@ -6,18 +6,18 @@ Compute a thermal comfort metric at a point: UTCI (Ta, RH, wind, MRT), PET (adds
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Metric |  | Comfort metric to compute; the inputs adapt to the choice. |
-| Ta |  | Air temperature [°C]. |
-| Relative Humidity | RH | Relative humidity [%]. |
-| Wind |  | Wind speed at the subject [m/s]. |
-| MRT |  | Mean radiant temperature [°C]. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Metric |  | Comfort metric to compute; the inputs adapt to the choice. | `Text` |
+| Air Temperature | Ta | Air temperature [°C]. | `Number` |
+| Relative Humidity | RH | Relative humidity [%]. | `Number` |
+| Wind Speed | Wind | Wind speed at the subject [m/s]. | `Number` |
+| MRT |  | Mean radiant temperature [°C]. | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Value |  | Metric value [°C]. |
-| Stress |  | Thermal stress category. |
-| Details |  | Calculation details. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Value |  | Metric value [°C]. | `Number` |
+| Stress |  | Thermal stress category. | `Text` |
+| Details |  | Calculation details. | `Text` |

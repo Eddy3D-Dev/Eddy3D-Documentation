@@ -6,17 +6,17 @@ Define simulation domain extents and refinement padding. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Cell Size | CS | Base cell size for the domain (model units). |
-| Front |  | Padding in front of the geometry bounding box (model units). |
-| Back |  | Padding behind the geometry bounding box (model units). |
-| Side |  | Padding on the side faces of the geometry bounding box (model units). |
-| Top |  | Padding above the geometry bounding box (model units). |
-| Ref |  | Padding applied to the refinement box around the geometry (model units). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Cell Size | CS | Base cell size for the domain (model units). | `Integer` |
+| Front Extension | Front | Padding in front of the geometry bounding box (model units). | `Number` |
+| Back Extension | Back | Padding behind the geometry bounding box (model units). | `Number` |
+| Side Extension | Side | Padding on the side faces of the geometry bounding box (model units). | `Number` |
+| Top Extension | Top | Padding above the geometry bounding box (model units). | `Number` |
+| Refinement Box Extension | Ref | Padding applied to the refinement box around the geometry (model units). | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Domain Parameters | DP | Domain and refinement box parameters as a list. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Domain Parameters | DP | Domain and refinement box parameters as a list. | `Number` |

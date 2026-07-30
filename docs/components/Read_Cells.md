@@ -6,17 +6,17 @@ Read cell connectivity and cell zones for a region. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Case |  | UMF case containing the region data. |
-| Region |  | Region name to read. |
-| Chunk |  | Chunk size for reading owner/neighbour files. Optional; default is 500. |
-| Offset |  | Chunk offset for reading owner/neighbour files. Optional; default is 0. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Case |  | UMF case containing the region data. | `Generic Data` |
+| Region |  | Region name to read. | `Text` |
+| Chunk Size | Chunk | Chunk size for reading owner/neighbour files. Optional; default is 500. | `Integer` |
+| Chunk Offset | Offset | Chunk offset for reading owner/neighbour files. Optional; default is 0. | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Cells |  | Tree of cells containing face indices. |
-| Zones |  | Cell zone names. |
-| ZoneIndices |  | Indices for each cell zone. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Cells by Face Indices | Cells | Tree of cells containing face indices. | `Generic Data` |
+| Cell Zone Names | Zones | Cell zone names. | `Text` |
+| Cell Zone Indices | ZoneIndices | Indices for each cell zone. | `Generic Data` |

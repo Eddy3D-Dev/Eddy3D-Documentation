@@ -6,35 +6,35 @@ Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX mode
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Pts |  | Analysis points for mesh visualization. |
-| Wind Speeds | W | Predicted wind speeds (m/s) as a DataTree from WindPredictor. |
-| EPW |  | Path to the .epw weather file. |
-| zRef |  | Reference height for the simulations (m). Default = 10.0 |
-| z0 |  | Roughness length (m). Default = 1.0 |
-| Metric |  | Comfort metric to use. |
-| Interp |  | Interpolate between wind directions. Default = true |
-| Fast |  | Use Method of Moments for ultra-fast Weibull estimation. Default = true |
-| Boundary Conditions | BC | Optional simulation metadata to automate zRef, z0, and Uref (sim). |
-| k |  | Turbulent kinetic energy (m²/s²) as a DataTree from WindPredictor. When provided, GEM (Gust Equivalent Mean) is used: GEM = U + g × √(2k/3). Peak factor g is auto-set per metric. |
-| Wroof |  | Optional roof-level wind speeds (m/s) DataTree. |
-| kroof |  | Optional roof-level TKE (m²/s²) DataTree. |
-| Buildings |  | Optional list of Brep or Mesh objects representing buildings. Needed to elevate roof-level comfort meshes to correct heights. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Points | Pts | Analysis points for mesh visualization. | `Point` |
+| Wind Speeds | W | Predicted wind speeds (m/s) as a DataTree from WindPredictor. | `Number` |
+| EPW Path | EPW | Path to the .epw weather file. | `Text` |
+| Reference Height | zRef | Reference height for the simulations (m). Default = 10.0 | `Number` |
+| Roughness Length (z0) | z0 | Roughness length (m). Default = 1.0 | `Number` |
+| Metric |  | Comfort metric to use. | `Integer` |
+| Interpolate | Interp | Interpolate between wind directions. Default = true | `Boolean` |
+| Fast Mode (MoM) | Fast | Use Method of Moments for ultra-fast Weibull estimation. Default = true | `Boolean` |
+| Boundary Conditions | BC | Optional simulation metadata to automate zRef, z0, and Uref (sim). | `Generic Data` |
+| TKE | k | Turbulent kinetic energy (m²/s²) as a DataTree from WindPredictor. When provided, GEM (Gust Equivalent Mean) is used: GEM = U + g × √(2k/3). Peak factor g is auto-set per metric. | `Number` |
+| Wind Speeds (Roof) | Wroof | Optional roof-level wind speeds (m/s) DataTree. | `Number` |
+| TKE (Roof) | kroof | Optional roof-level TKE (m²/s²) DataTree. | `Number` |
+| Buildings |  | Optional list of Brep or Mesh objects representing buildings. Needed to elevate roof-level comfort meshes to correct heights. | `Geometry` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Rank |  | Wind comfort rank (integer). |
-| Letter |  | Wind comfort class letter (e.g., A, B, C). |
-| Class |  | Wind comfort class description. |
-| Comfort Mesh | M | Colored mesh representing comfort levels. |
-| Legend Mesh | LM | Legend mesh for comfort categories. |
-| Legend Points | LP | Label points for the legend letters. |
-| Legend Letters | LV | Letters (A-S) for the legend. |
-| MetricName |  | The name of the currently active comfort/safety standard. |
-| Explanations |  | Detailed descriptions for each class (e.g., A: Sitting Long). |
-| RankRoof |  | Wind comfort rank (integer) for roof level. |
-| LetterRoof |  | Wind comfort class letter for roof level. |
-| ClassRoof |  | Wind comfort class description for roof level. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Comfort Rank | Rank | Wind comfort rank (integer). | `Number` |
+| Class Letter | Letter | Wind comfort class letter (e.g., A, B, C). | `Text` |
+| Class |  | Wind comfort class description. | `Text` |
+| Comfort Mesh | M | Colored mesh representing comfort levels. | `Mesh` |
+| Legend Mesh | LM | Legend mesh for comfort categories. | `Mesh` |
+| Legend Points | LP | Label points for the legend letters. | `Point` |
+| Legend Letters | LV | Letters (A-S) for the legend. | `Text` |
+| Metric Name | MetricName | The name of the currently active comfort/safety standard. | `Text` |
+| Category Explanations | Explanations | Detailed descriptions for each class (e.g., A: Sitting Long). | `Text` |
+| Comfort Rank (Roof) | RankRoof | Wind comfort rank (integer) for roof level. | `Number` |
+| Class Letter (Roof) | LetterRoof | Wind comfort class letter for roof level. | `Text` |
+| Class (Roof) | ClassRoof | Wind comfort class description for roof level. | `Text` |

@@ -2,21 +2,18 @@
 
 ![](/images/components/Vegetation_Properties-crop.png)
 
-Define vegetation property coefficients for canopy modeling. OutdoorPlus
+Define vegetation property coefficients for canopy modeling. Shows the recommended coefficients (Leaf Length, rsMin, kc) by default; right-click to show all coefficients (Cd, C, nEvapSides). OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Cd |  | Vegetation drag coefficient (Cd). Used in momentum sink and turbulence model. |
-| Aerodynamic Resistance (C) | C | Proportionality factor for aerodynamic resistance calculation. |
-| l |  | Characteristic leaf length (l) for aerodynamic resistance. |
-| rsMin |  | Minimum stomatal resistance (rsMin). |
-| EvapSides |  | Number of evaporation sides for transpiration calculation. |
-| kc |  | Radiation extinction coefficient (kc). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Leaf Length (l) | l | Characteristic leaf length (l) for aerodynamic resistance. | `Number` |
+| Stomatal Resistance Min | rsMin | Minimum stomatal resistance (rsMin). | `Number` |
+| Radiation Extinction (kc) | kc | Radiation extinction coefficient (kc). | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Props |  | Vegetation properties as a Setting instance. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Vegetation Properties | Props | Vegetation properties as a Setting instance. | `Generic Data` |

@@ -6,16 +6,15 @@ Deconstruct a Weather object into hourly time series values. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Weather |  | Weather object, or an EPW file path (e.g. from Download Weather), to deconstruct. |
-| Fields | F | Pick which weather fields to output. Tick to add an output, untick to remove. All 17 are available. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Weather |  | Weather object, or an EPW file path (e.g. from Download Weather), to deconstruct. | `Generic Data` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| DBT |  | Hourly dry-bulb temperature (deg C). |
-| Relative Humidity | RH | Hourly relative humidity (%). |
-| Wind Speed | WS | Hourly wind speed (m/s). |
-| Wind Direction | WD | Hourly wind direction (deg). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Dry Bulb Temperature | Temp | Hourly dry-bulb temperature (deg C). | `Number` |
+| Relative Humidity | Humidity | Hourly relative humidity (%). | `Number` |
+| Wind Speed | Wind | Hourly wind speed (m/s). | `Number` |
+| Wind Direction | Direction | Hourly wind direction (deg). | `Integer` |

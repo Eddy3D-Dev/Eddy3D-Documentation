@@ -26,6 +26,22 @@
             <div class="index-quicklink-text">Mesh Breps into a tagged radiation surface for an MRT analysis.</div>
         </div>
     </a>
+    <a href="/components/SurfaceTemp/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/SurfaceTemp.png" class="nav-gh-icon"> SurfaceTemp
+            </div>
+            <div class="index-quicklink-text">Solves outdoor surface temperature per analysis point via the frequency-domain admittance method (no thermal mesh, no warm-up). Feeds a future MRT component alongside Sky Exposure.</div>
+        </div>
+    </a>
+    <a href="/components/SurfaceTemp_Material/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/SurfaceTemp_Material.png" class="nav-gh-icon"> SurfaceTemp Material
+            </div>
+            <div class="index-quicklink-text">Predefined multi-layer construction (assembly) for the SurfaceTemp admittance solve.</div>
+        </div>
+    </a>
     <a href="/components/Surface_Settings/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -88,6 +104,22 @@
                 <img src="/images/icons/UTCI_Simulation.png" class="nav-gh-icon"> UTCI Simulation
             </div>
             <div class="index-quicklink-text">Compute annual per-probe UTCI from simulation outputs: MRT and wind-speed data trees, plus air temperature and relative humidity. For a weather-only calculator, use "UTCI (Weather)".</div>
+        </div>
+    </a>
+    <a href="/components/Comfort_Hours/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Comfort_Hours.png" class="nav-gh-icon"> Comfort Hours
+            </div>
+            <div class="index-quicklink-text">Bin an hourly per-point series (e.g. UTCI) into a comfort range or the UTCI thermal-stress categories, per analysis period, and report hours/percent in each band. Feed it a per-point DataTree (e.g. the UTCI component's output) and, optionally, one Analysis Period per branch (see the Analysis Period / Analysis Period To Hours components); an unwired period covers the whole series as one implicit Annual period.</div>
+        </div>
+    </a>
+    <a href="/components/UTCI_Legend/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/UTCI_Legend.png" class="nav-gh-icon"> UTCI Legend
+            </div>
+            <div class="index-quicklink-text">Color UTCI values by the official thermal-stress categories and create a matching legend.</div>
         </div>
     </a>
 </div>

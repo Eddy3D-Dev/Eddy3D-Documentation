@@ -6,18 +6,18 @@ Resample per-direction wind-magnitude fields onto a new point grid (nearest-neig
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Current Points | CP | Source points, one branch per direction. |
-| UMag |  | Source wind magnitudes, one branch per direction. |
-| New Points | NP | Target points to resample onto. |
-| Average By | AB | Number of nearest source points to average. |
-| Center Point | C | Rotation center. |
-| WDir |  | Wind direction (deg) per branch. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Current Points | CP | Source points, one branch per direction. | `Point` |
+| Current UMag | UMag | Source wind magnitudes, one branch per direction. | `Number` |
+| New Points | NP | Target points to resample onto. | `Point` |
+| Average By | AB | Number of nearest source points to average. | `Integer` |
+| Center Point | C | Rotation center. | `Point` |
+| Wind Directions | WDir | Wind direction (deg) per branch. | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Points | P | The new points. |
-| UMag |  | Resampled wind magnitudes, one branch per direction. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Points | P | The new points. | `Point` |
+| U Mag | UMag | Resampled wind magnitudes, one branch per direction. | `Number` |

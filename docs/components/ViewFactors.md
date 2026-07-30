@@ -6,16 +6,16 @@ Configure the view-factor discretization for radiation modeling. OutdoorPlus
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| SideFaces |  | Number of faces in the coarsest level for domain side walls. |
-| TopFaces |  | Number of faces in the coarsest level for the domain top. |
-| TerrainFaces |  | Number of faces in the coarsest level for terrain. |
-| BuildingFaces |  | Number of faces in the coarsest level for buildings. |
-| VegFaces |  | Number of faces in the coarsest level for vegetation. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Domain Sides Coarse Faces | SideFaces | Number of faces in the coarsest level for domain side walls. | `Integer` |
+| Domain Top Coarse Faces | TopFaces | Number of faces in the coarsest level for the domain top. | `Integer` |
+| Terrain Coarse Faces | TerrainFaces | Number of faces in the coarsest level for terrain. | `Integer` |
+| Building Coarse Faces | BuildingFaces | Number of faces in the coarsest level for buildings. | `Integer` |
+| Vegetation Coarse Faces | VegFaces | Number of faces in the coarsest level for vegetation. | `Integer` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| ViewFactors |  | View-factor settings. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| View Factor Settings | ViewFactors | View-factor settings. | `Generic Data` |

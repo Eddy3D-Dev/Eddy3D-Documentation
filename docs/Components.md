@@ -1,6 +1,6 @@
 # Eddy3D Component list
 <div class="Main-GhToolbar-Container">
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="00_Setup">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Select_Template/" class="GhComponentItem" above-dataComment="Select Template"><img src="/images/icons/Select_Template.png" class="gh-component-selected" alt="Select Template" /></a>
@@ -8,7 +8,7 @@
 </div>
 <div class="SubGroup-Title">Setup</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="00_Utilities">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/STL_Exporter/" class="GhComponentItem" above-dataComment="STL Exporter"><img src="/images/icons/STL_Exporter.png" class="gh-component-selected" alt="STL Exporter" /></a>
@@ -17,7 +17,7 @@
 </div>
 <div class="SubGroup-Title">Utilities</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="01_Outdoor_Setup">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Atmospheric_Boundary_Layer/" class="GhComponentItem" above-dataComment="Atmospheric Boundary Layer"><img src="/images/icons/Atmospheric_Boundary_Layer.png" class="gh-component-selected" alt="Atmospheric Boundary Layer" /></a>
@@ -34,7 +34,7 @@
 </div>
 <div class="SubGroup-Title">Outdoor Setup</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="02_Outdoor_Domain_Mesh">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Cylinder_Domain/" class="GhComponentItem" above-dataComment="Cylinder Domain"><img src="/images/icons/Cylinder_Domain.png" class="gh-component-selected" alt="Cylinder Domain" /></a>
@@ -46,7 +46,7 @@
 </div>
 <div class="SubGroup-Title">Outdoor Domain Mesh</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="03_Outdoor_Case">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Load_Wind_Case/" class="GhComponentItem" above-dataComment="Load Wind Case"><img src="/images/icons/Load_Wind_Case.png" class="gh-component-selected" alt="Load Wind Case" /></a>
@@ -56,7 +56,7 @@
 </div>
 <div class="SubGroup-Title">Outdoor Case</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="04_Outdoor_Simulation">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Run/" class="GhComponentItem" above-dataComment="Run"><img src="/images/icons/Run.png" class="gh-component-selected" alt="Run" /></a>
@@ -66,23 +66,25 @@
 </div>
 <div class="SubGroup-Title">Outdoor Simulation</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="05_Outdoor_Results">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Probe/" class="GhComponentItem" above-dataComment="Probe"><img src="/images/icons/Probe.png" class="gh-component-selected" alt="Probe" /></a>
 <a href="/components/Live_Residuals/" class="GhComponentItem" below-dataComment="Live Residuals"><img src="/images/icons/Live_Residuals.png" class="gh-component-selected" alt="Live Residuals" /></a>
 <a href="/components/Meshing_Progress/" class="GhComponentItem" above-dataComment="Meshing Progress"><img src="/images/icons/Meshing_Progress.png" class="gh-component-selected" alt="Meshing Progress" /></a>
-<a href="/components/Flow_Rates/" class="GhComponentItem" above-dataComment="Flow Rates"><img src="/images/icons/Flow_Rates.png" class="gh-component-selected" alt="Flow Rates" /></a>
-<a href="/components/Pedestrian_Wind_Comfort/" class="GhComponentItem" below-dataComment="Pedestrian Wind Comfort"><img src="/images/icons/Pedestrian_Wind_Comfort.png" class="gh-component-selected" alt="Pedestrian Wind Comfort" /></a>
-<a href="/components/Velocity_Amplification_Factors_VAF/" class="GhComponentItem" above-dataComment="Velocity Amplification Factors VAF"><img src="/images/icons/Velocity_Amplification_Factors_VAF.png" class="gh-component-selected" alt="Velocity Amplification Factors VAF" /></a>
-<a href="/components/Wind_Field_Viewer/" class="GhComponentItem" below-dataComment="Wind Field Viewer"><img src="/images/icons/Wind_Field_Viewer.png" class="gh-component-selected" alt="Wind Field Viewer" /></a>
-<a href="/components/Analysis_Period/" class="GhComponentItem" above-dataComment="Analysis Period"><img src="/images/icons/Analysis_Period.png" class="gh-component-selected" alt="Analysis Period" /></a>
-<a href="/components/Date_to_HOY/" class="GhComponentItem" below-dataComment="Date to HOY"><img src="/images/icons/Date_to_HOY.png" class="gh-component-selected" alt="Date to HOY" /></a>
+<a href="/components/Plot_Residuals/" class="GhComponentItem" below-dataComment="Plot Residuals"><img src="/images/icons/Plot_Residuals.png" class="gh-component-selected" alt="Plot Residuals" /></a>
+<a href="/components/Calendar/" class="GhComponentItem" above-dataComment="Calendar"><img src="/images/icons/Calendar.png" class="gh-component-selected" alt="Calendar" /></a>
+<a href="/components/Flow_Rates/" class="GhComponentItem" below-dataComment="Flow Rates"><img src="/images/icons/Flow_Rates.png" class="gh-component-selected" alt="Flow Rates" /></a>
+<a href="/components/Pedestrian_Wind_Comfort/" class="GhComponentItem" above-dataComment="Pedestrian Wind Comfort"><img src="/images/icons/Pedestrian_Wind_Comfort.png" class="gh-component-selected" alt="Pedestrian Wind Comfort" /></a>
+<a href="/components/Velocity_Amplification_Factors_VAF/" class="GhComponentItem" below-dataComment="Velocity Amplification Factors VAF"><img src="/images/icons/Velocity_Amplification_Factors_VAF.png" class="gh-component-selected" alt="Velocity Amplification Factors VAF" /></a>
+<a href="/components/Wind_Field_Viewer/" class="GhComponentItem" above-dataComment="Wind Field Viewer"><img src="/images/icons/Wind_Field_Viewer.png" class="gh-component-selected" alt="Wind Field Viewer" /></a>
+<a href="/components/Analysis_Period/" class="GhComponentItem" below-dataComment="Analysis Period"><img src="/images/icons/Analysis_Period.png" class="gh-component-selected" alt="Analysis Period" /></a>
+<a href="/components/Hour_of_Year/" class="GhComponentItem" above-dataComment="Hour of Year"><img src="/images/icons/Hour_of_Year.png" class="gh-component-selected" alt="Hour of Year" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Outdoor Results</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="06_Indoor">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Indoor_Case/" class="GhComponentItem" above-dataComment="Indoor Case"><img src="/images/icons/Indoor_Case.png" class="gh-component-selected" alt="Indoor Case" /></a>
@@ -98,11 +100,13 @@
 </div>
 <div class="SubGroup-Title">Indoor</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="07_MRT">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/MRT_Sensors/" class="GhComponentItem" above-dataComment="MRT Sensors"><img src="/images/icons/MRT_Sensors.png" class="gh-component-selected" alt="MRT Sensors" /></a>
 <a href="/components/MRT_Surface/" class="GhComponentItem" below-dataComment="MRT Surface"><img src="/images/icons/MRT_Surface.png" class="gh-component-selected" alt="MRT Surface" /></a>
+<a href="/components/SurfaceTemp/" class="GhComponentItem" above-dataComment="SurfaceTemp"><img src="/images/icons/SurfaceTemp.png" class="gh-component-selected" alt="SurfaceTemp" /></a>
+<a href="/components/SurfaceTemp_Material/" class="GhComponentItem" below-dataComment="SurfaceTemp Material"><img src="/images/icons/SurfaceTemp_Material.png" class="gh-component-selected" alt="SurfaceTemp Material" /></a>
 <a href="/components/Surface_Settings/" class="GhComponentItem" above-dataComment="Surface Settings"><img src="/images/icons/Surface_Settings.png" class="gh-component-selected" alt="Surface Settings" /></a>
 <a href="/components/Thermal_Comfort/" class="GhComponentItem" below-dataComment="Thermal Comfort"><img src="/images/icons/Thermal_Comfort.png" class="gh-component-selected" alt="Thermal Comfort" /></a>
 <a href="/components/Tree_Settings/" class="GhComponentItem" above-dataComment="Tree Settings"><img src="/images/icons/Tree_Settings.png" class="gh-component-selected" alt="Tree Settings" /></a>
@@ -111,11 +115,13 @@
 <a href="/components/MRT_Settings/" class="GhComponentItem" below-dataComment="MRT Settings"><img src="/images/icons/MRT_Settings.png" class="gh-component-selected" alt="MRT Settings" /></a>
 <a href="/components/Sky_Exposure/" class="GhComponentItem" above-dataComment="Sky Exposure"><img src="/images/icons/Sky_Exposure.png" class="gh-component-selected" alt="Sky Exposure" /></a>
 <a href="/components/UTCI_Simulation/" class="GhComponentItem" below-dataComment="UTCI Simulation"><img src="/images/icons/UTCI_Simulation.png" class="gh-component-selected" alt="UTCI Simulation" /></a>
+<a href="/components/Comfort_Hours/" class="GhComponentItem" above-dataComment="Comfort Hours"><img src="/images/icons/Comfort_Hours.png" class="gh-component-selected" alt="Comfort Hours" /></a>
+<a href="/components/UTCI_Legend/" class="GhComponentItem" below-dataComment="UTCI Legend"><img src="/images/icons/UTCI_Legend.png" class="gh-component-selected" alt="UTCI Legend" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">MRT</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="08_FluidX3D">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/FluidX3D_Run_Settings/" class="GhComponentItem" above-dataComment="FluidX3D Run Settings"><img src="/images/icons/FluidX3D_Run_Settings.png" class="gh-component-selected" alt="FluidX3D Run Settings" /></a>
@@ -124,40 +130,40 @@
 </div>
 <div class="SubGroup-Title">FluidX3D</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="10_ML">
 <div class="SubGroup-Icons">
 <div class="sub-group">
-<a href="/components/Dataset_Reader/" class="GhComponentItem" above-dataComment="Dataset Reader"><img src="/images/icons/Dataset_Reader.png" class="gh-component-selected" alt="Dataset Reader" /></a>
-<a href="/components/ML_Model/" class="GhComponentItem" below-dataComment="ML Model"><img src="/images/icons/ML_Model.png" class="gh-component-selected" alt="ML Model" /></a>
-<a href="/components/Wind_Predictor/" class="GhComponentItem" above-dataComment="Wind Predictor"><img src="/images/icons/Wind_Predictor.png" class="gh-component-selected" alt="Wind Predictor" /></a>
-<a href="/components/Wind_Comfort_Predictor_ML/" class="GhComponentItem" below-dataComment="Wind Comfort Predictor ML"><img src="/images/icons/Wind_Comfort_Predictor_ML.png" class="gh-component-selected" alt="Wind Comfort Predictor ML" /></a>
-<a href="/components/GAN_Predict/" class="GhComponentItem" above-dataComment="GAN Predict"><img src="/images/icons/GAN_Predict.png" class="gh-component-selected" alt="GAN Predict" /></a>
-<a href="/components/Interpolate_UMag/" class="GhComponentItem" below-dataComment="Interpolate UMag"><img src="/images/icons/Interpolate_UMag.png" class="gh-component-selected" alt="Interpolate UMag" /></a>
+<a href="/components/Dataset_Curator/" class="GhComponentItem" above-dataComment="Dataset Curator"><img src="/images/icons/Dataset_Curator.png" class="gh-component-selected" alt="Dataset Curator" /></a>
+<a href="/components/Dataset_Reader/" class="GhComponentItem" below-dataComment="Dataset Reader"><img src="/images/icons/Dataset_Reader.png" class="gh-component-selected" alt="Dataset Reader" /></a>
+<a href="/components/ML_Model/" class="GhComponentItem" above-dataComment="ML Model"><img src="/images/icons/ML_Model.png" class="gh-component-selected" alt="ML Model" /></a>
+<a href="/components/Wind_Predictor/" class="GhComponentItem" below-dataComment="Wind Predictor"><img src="/images/icons/Wind_Predictor.png" class="gh-component-selected" alt="Wind Predictor" /></a>
+<a href="/components/Wind_Comfort_Predictor_ML/" class="GhComponentItem" above-dataComment="Wind Comfort Predictor ML"><img src="/images/icons/Wind_Comfort_Predictor_ML.png" class="gh-component-selected" alt="Wind Comfort Predictor ML" /></a>
+<a href="/components/GAN_Predict/" class="GhComponentItem" below-dataComment="GAN Predict"><img src="/images/icons/GAN_Predict.png" class="gh-component-selected" alt="GAN Predict" /></a>
+<a href="/components/Interpolate_UMag/" class="GhComponentItem" above-dataComment="Interpolate UMag"><img src="/images/icons/Interpolate_UMag.png" class="gh-component-selected" alt="Interpolate UMag" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">ML</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="12_Outdoor+_Regions">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Air_Region/" class="GhComponentItem" above-dataComment="Air Region"><img src="/images/icons/Air_Region.png" class="gh-component-selected" alt="Air Region" /></a>
 <a href="/components/Building_Region/" class="GhComponentItem" below-dataComment="Building Region"><img src="/images/icons/Building_Region.png" class="gh-component-selected" alt="Building Region" /></a>
 <a href="/components/Terrain_Region/" class="GhComponentItem" above-dataComment="Terrain Region"><img src="/images/icons/Terrain_Region.png" class="gh-component-selected" alt="Terrain Region" /></a>
 <a href="/components/Vegetation_Region/" class="GhComponentItem" below-dataComment="Vegetation Region"><img src="/images/icons/Vegetation_Region.png" class="gh-component-selected" alt="Vegetation Region" /></a>
-<a href="/components/ABL_Condition/" class="GhComponentItem" above-dataComment="ABL Condition"><img src="/images/icons/ABL_Condition.png" class="gh-component-selected" alt="ABL Condition" /></a>
-<a href="/components/Advanced_Terrain_Mesh/" class="GhComponentItem" below-dataComment="Advanced Terrain Mesh"><img src="/images/icons/Advanced_Terrain_Mesh.png" class="gh-component-selected" alt="Advanced Terrain Mesh" /></a>
-<a href="/components/Building_Mesh_Settings/" class="GhComponentItem" above-dataComment="Building Mesh Settings"><img src="/images/icons/Building_Mesh_Settings.png" class="gh-component-selected" alt="Building Mesh Settings" /></a>
-<a href="/components/Terrain_Mesh_Settings/" class="GhComponentItem" below-dataComment="Terrain Mesh Settings"><img src="/images/icons/Terrain_Mesh_Settings.png" class="gh-component-selected" alt="Terrain Mesh Settings" /></a>
-<a href="/components/Vegetation_Mesh_Settings/" class="GhComponentItem" above-dataComment="Vegetation Mesh Settings"><img src="/images/icons/Vegetation_Mesh_Settings.png" class="gh-component-selected" alt="Vegetation Mesh Settings" /></a>
-<a href="/components/Building_Material/" class="GhComponentItem" below-dataComment="Building Material"><img src="/images/icons/Building_Material.png" class="gh-component-selected" alt="Building Material" /></a>
-<a href="/components/Soil_Material/" class="GhComponentItem" above-dataComment="Soil Material"><img src="/images/icons/Soil_Material.png" class="gh-component-selected" alt="Soil Material" /></a>
-<a href="/components/Terrain_Surface_Material/" class="GhComponentItem" below-dataComment="Terrain Surface Material"><img src="/images/icons/Terrain_Surface_Material.png" class="gh-component-selected" alt="Terrain Surface Material" /></a>
-<a href="/components/Vegetation_Properties/" class="GhComponentItem" above-dataComment="Vegetation Properties"><img src="/images/icons/Vegetation_Properties.png" class="gh-component-selected" alt="Vegetation Properties" /></a>
+<a href="/components/Advanced_Terrain_Mesh/" class="GhComponentItem" above-dataComment="Advanced Terrain Mesh"><img src="/images/icons/Advanced_Terrain_Mesh.png" class="gh-component-selected" alt="Advanced Terrain Mesh" /></a>
+<a href="/components/Building_Mesh_Settings/" class="GhComponentItem" below-dataComment="Building Mesh Settings"><img src="/images/icons/Building_Mesh_Settings.png" class="gh-component-selected" alt="Building Mesh Settings" /></a>
+<a href="/components/Terrain_Mesh_Settings/" class="GhComponentItem" above-dataComment="Terrain Mesh Settings"><img src="/images/icons/Terrain_Mesh_Settings.png" class="gh-component-selected" alt="Terrain Mesh Settings" /></a>
+<a href="/components/Vegetation_Mesh_Settings/" class="GhComponentItem" below-dataComment="Vegetation Mesh Settings"><img src="/images/icons/Vegetation_Mesh_Settings.png" class="gh-component-selected" alt="Vegetation Mesh Settings" /></a>
+<a href="/components/Building_Material/" class="GhComponentItem" above-dataComment="Building Material"><img src="/images/icons/Building_Material.png" class="gh-component-selected" alt="Building Material" /></a>
+<a href="/components/Soil_Material/" class="GhComponentItem" below-dataComment="Soil Material"><img src="/images/icons/Soil_Material.png" class="gh-component-selected" alt="Soil Material" /></a>
+<a href="/components/Terrain_Surface_Material/" class="GhComponentItem" above-dataComment="Terrain Surface Material"><img src="/images/icons/Terrain_Surface_Material.png" class="gh-component-selected" alt="Terrain Surface Material" /></a>
+<a href="/components/Vegetation_Properties/" class="GhComponentItem" below-dataComment="Vegetation Properties"><img src="/images/icons/Vegetation_Properties.png" class="gh-component-selected" alt="Vegetation Properties" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Outdoor+ Regions</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="13_Outdoor+_Simulation">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Outdoor+_Case/" class="GhComponentItem" above-dataComment="Outdoor+ Case"><img src="/images/icons/Outdoor+_Case.png" class="gh-component-selected" alt="Outdoor+ Case" /></a>
@@ -176,11 +182,12 @@
 </div>
 <div class="SubGroup-Title">Outdoor+ Simulation</div>
 </div>
-<div class="SubGroup-Container">
+<div class="SubGroup-Container" data-category="14_Post">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/Export_to_Visualizer/" class="GhComponentItem" above-dataComment="Export to Visualizer"><img src="/images/icons/Export_to_Visualizer.png" class="gh-component-selected" alt="Export to Visualizer" /></a>
 <a href="/components/Open_In_ParaView/" class="GhComponentItem" below-dataComment="Open In ParaView"><img src="/images/icons/Open_In_ParaView.png" class="gh-component-selected" alt="Open In ParaView" /></a>
+<a href="/components/Deconstruct_Case/" class="GhComponentItem" above-dataComment="Deconstruct Case"><img src="/images/icons/Deconstruct_Case.png" class="gh-component-selected" alt="Deconstruct Case" /></a>
 <a href="/components/Deconstruct_Region/" class="GhComponentItem" below-dataComment="Deconstruct Region"><img src="/images/icons/Deconstruct_Region.png" class="gh-component-selected" alt="Deconstruct Region" /></a>
 <a href="/components/Face_Warnings/" class="GhComponentItem" above-dataComment="Face Warnings"><img src="/images/icons/Face_Warnings.png" class="gh-component-selected" alt="Face Warnings" /></a>
 <a href="/components/Read_Cells/" class="GhComponentItem" below-dataComment="Read Cells"><img src="/images/icons/Read_Cells.png" class="gh-component-selected" alt="Read Cells" /></a>
@@ -202,12 +209,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Select_Template.png" class="nav-gh-icon"> Select Template
             </div>
-            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.
- 
- Templates include microclimate simulations, outdoor comfort studies,
- and CFD analysis setups.
- 
- Version: 1.0.4.827</div>
+            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.2.1.827</div>
         </div>
     </a>
 </div>
@@ -421,7 +423,6 @@
     </a>
 </div>
 
-
 <h2 id="05-outdoor-results">05 Outdoor Results</h2>
 <h4 id="main-components">Main Components</h4>
 <div class="index-quicklink-container">
@@ -430,7 +431,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Probe.png" class="nav-gh-icon"> Probe
             </div>
-            <div class="index-quicklink-text">Sample fields at points on a solved case, post-hoc. With Run it writes a probes function and runs postProcess on the latest time, then reads the results; without Run it reads existing results. Works on a wind case (one sub-result per direction) or a loaded case.</div>
+            <div class="index-quicklink-text">Sample fields at points on a solved case, post-hoc. With Run it writes a probes function and runs postProcess on the requested Time (latest by default), then reads the results; without Run it reads existing results. Works on a wind case (one sub-result per direction) or a loaded case.</div>
         </div>
     </a>
     <a href="/components/Live_Residuals/" style="text-decoration: none;">
@@ -447,6 +448,22 @@
                 <img src="/images/icons/Meshing_Progress.png" class="nav-gh-icon"> Meshing Progress
             </div>
             <div class="index-quicklink-text">Monitor blockMesh, surfaceFeatures, and snappyHexMesh progress from the mesh case logs.</div>
+        </div>
+    </a>
+    <a href="/components/Plot_Residuals/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Plot_Residuals.png" class="nav-gh-icon"> Plot Residuals
+            </div>
+            <div class="index-quicklink-text">Open the web-based residual plotter for a wind case's convergence history (one trace per direction).</div>
+        </div>
+    </a>
+    <a href="/components/Calendar/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Calendar.png" class="nav-gh-icon"> Calendar
+            </div>
+            <div class="index-quicklink-text">Interactively select a month, day, and hour for annual analysis. Click the controls on the component to change the date and time.</div>
         </div>
     </a>
     <a href="/components/Flow_Rates/" style="text-decoration: none;">
@@ -489,12 +506,12 @@
             <div class="index-quicklink-text">Define an analysis period (from/to day of year, start/end hour of day) and output the hour-of-year indices it covers, for filtering annual results.</div>
         </div>
     </a>
-    <a href="/components/Date_to_HOY/" style="text-decoration: none;">
+    <a href="/components/Hour_of_Year/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
-                <img src="/images/icons/Date_to_HOY.png" class="nav-gh-icon"> Date to HOY
+                <img src="/images/icons/Hour_of_Year.png" class="nav-gh-icon"> Hour of Year
             </div>
-            <div class="index-quicklink-text">Convert a date and time (month, day, hour) into a single hour-of-year integer (1–8760), for indexing annual hourly data.</div>
+            <div class="index-quicklink-text">Convert a start date/time and optional end date/time into hour-of-year values (1–8760) for indexing annual hourly data.</div>
         </div>
     </a>
 </div>
@@ -595,6 +612,22 @@
             <div class="index-quicklink-text">Mesh Breps into a tagged radiation surface for an MRT analysis.</div>
         </div>
     </a>
+    <a href="/components/SurfaceTemp/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/SurfaceTemp.png" class="nav-gh-icon"> SurfaceTemp
+            </div>
+            <div class="index-quicklink-text">Solves outdoor surface temperature per analysis point via the frequency-domain admittance method (no thermal mesh, no warm-up). Feeds a future MRT component alongside Sky Exposure.</div>
+        </div>
+    </a>
+    <a href="/components/SurfaceTemp_Material/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/SurfaceTemp_Material.png" class="nav-gh-icon"> SurfaceTemp Material
+            </div>
+            <div class="index-quicklink-text">Predefined multi-layer construction (assembly) for the SurfaceTemp admittance solve.</div>
+        </div>
+    </a>
     <a href="/components/Surface_Settings/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -659,6 +692,22 @@
             <div class="index-quicklink-text">Compute annual per-probe UTCI from simulation outputs: MRT and wind-speed data trees, plus air temperature and relative humidity. For a weather-only calculator, use "UTCI (Weather)".</div>
         </div>
     </a>
+    <a href="/components/Comfort_Hours/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Comfort_Hours.png" class="nav-gh-icon"> Comfort Hours
+            </div>
+            <div class="index-quicklink-text">Bin an hourly per-point series (e.g. UTCI) into a comfort range or the UTCI thermal-stress categories, per analysis period, and report hours/percent in each band. Feed it a per-point DataTree (e.g. the UTCI component's output) and, optionally, one Analysis Period per branch (see the Analysis Period / Analysis Period To Hours components); an unwired period covers the whole series as one implicit Annual period.</div>
+        </div>
+    </a>
+    <a href="/components/UTCI_Legend/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/UTCI_Legend.png" class="nav-gh-icon"> UTCI Legend
+            </div>
+            <div class="index-quicklink-text">Color UTCI values by the official thermal-stress categories and create a matching legend.</div>
+        </div>
+    </a>
 </div>
 
 <h2 id="08-fluidx3d">08 FluidX3D</h2>
@@ -685,6 +734,14 @@
 <h2 id="10-ml">10 ML</h2>
 <h4 id="main-components">Main Components</h4>
 <div class="index-quicklink-container">
+    <a href="/components/Dataset_Curator/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Dataset_Curator.png" class="nav-gh-icon"> Dataset Curator
+            </div>
+            <div class="index-quicklink-text">Compute and export wind dataset features from analysis points and building geometry.</div>
+        </div>
+    </a>
     <a href="/components/Dataset_Reader/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -770,14 +827,6 @@
             <div class="index-quicklink-text">Create a vegetation region with properties and mesh settings. OutdoorPlus</div>
         </div>
     </a>
-    <a href="/components/ABL_Condition/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/ABL_Condition.png" class="nav-gh-icon"> ABL Condition
-            </div>
-            <div class="index-quicklink-text">Define atmospheric boundary layer settings for the air region. OutdoorPlus</div>
-        </div>
-    </a>
     <a href="/components/Advanced_Terrain_Mesh/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -839,7 +888,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Vegetation_Properties.png" class="nav-gh-icon"> Vegetation Properties
             </div>
-            <div class="index-quicklink-text">Define vegetation property coefficients for canopy modeling. OutdoorPlus</div>
+            <div class="index-quicklink-text">Define vegetation property coefficients for canopy modeling. Shows the recommended coefficients (Leaf Length, rsMin, kc) by default; right-click to show all coefficients (Cd, C, nEvapSides). OutdoorPlus</div>
         </div>
     </a>
 </div>
@@ -962,6 +1011,14 @@
                 <img src="/images/icons/Open_In_ParaView.png" class="nav-gh-icon"> Open In ParaView
             </div>
             <div class="index-quicklink-text">Open a wind case's direction cases in ParaView. All directions are added to the ParaView pipeline browser; click Apply on the ones you want to load (nothing is loaded automatically).</div>
+        </div>
+    </a>
+    <a href="/components/Deconstruct_Case/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Deconstruct_Case.png" class="nav-gh-icon"> Deconstruct Case
+            </div>
+            <div class="index-quicklink-text">Inspect any Eddy3D case: Outdoor wind study, Indoor case, or OutdoorPlus (UMF) case.</div>
         </div>
     </a>
     <a href="/components/Deconstruct_Region/" style="text-decoration: none;">

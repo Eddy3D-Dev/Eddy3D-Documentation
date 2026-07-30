@@ -6,14 +6,14 @@ Computes the Sky View Factor (SVF) for each input point using the Tregenza 145-p
 
 #### Input
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| Positions |  | List of 3D points at which sky exposure is computed. Rays are cast from the Offset height above each input point; use ground-surface points directly. |
-| Context |  | Obstructing geometry for ray intersection (buildings, trees, walls). Accepts Mesh, Brep, or Surface. The ground surface need not be included. |
-| Offset |  | Vertical offset (m) above each point from which rays are cast. Default 0.918 m. |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Positions |  | List of 3D points at which sky exposure is computed. Rays are cast from the Offset height above each input point; use ground-surface points directly. | `Point` |
+| Context |  | Obstructing geometry for ray intersection (buildings, trees, walls). Accepts Mesh, Brep, or Surface. The ground surface need not be included. | `Geometry` |
+| Offset |  | Vertical offset (m) above each point from which rays are cast. Default 0.918 m. | `Number` |
 
 #### Output
 
-| Name | Nickname | Description |
-| ---- | -------- | ----------- |
-| SkyExp |  | Sky exposure per point. Range 0.0 (fully obstructed) to 1.0 (fully open sky). |
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Sky Exposure | SkyExp | Sky exposure per point. Range 0.0 (fully obstructed) to 1.0 (fully open sky). | `Number` |
