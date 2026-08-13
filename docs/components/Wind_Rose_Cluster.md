@@ -19,4 +19,4 @@ Cluster annual wind directions into representative directions using k-means.
 | Wind Directions | Dirs | Distinct representative wind directions in degrees, sorted ascending; plug into the ABL or Uniform Flow component's Wind Directions input. | `Number` |
 | Clusters |  | Clustered direction vectors as points, one branch per cluster. | `Point` |
 | Breaks |  | Jenks-Fisher natural breaks of the input directions. | `Number` |
-| Distance | Error | Total clustering distance (error). | `Number` |
+| Distance | Dist | Total clustering distance (error). | `Number` |

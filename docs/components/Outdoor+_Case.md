@@ -15,7 +15,7 @@ Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus
 | Working Directory | Dir | Folder for case files and results. | `Text` |
 | Air Region | Air | Air region for this case. | `Generic Data` |
 | Vegetation Region | Vegetation | Vegetation region for this case. | `Generic Data` |
-| Building Region | BR | Building region of this case | `Generic Data` |
+| Building Region | BR | Building region of this case. | `Generic Data` |
 | Terrain Region | Terrain | Terrain region for this simulation (optional). | `Generic Data` |
 | Domain Parameters | Domain | Domain and refinement box parameters. | `Number` |
 | Timing Settings | Timing | Case timing settings. | `Generic Data` |

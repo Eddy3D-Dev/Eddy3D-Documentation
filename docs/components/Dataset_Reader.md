@@ -24,4 +24,4 @@ Read processed CSV datasets back into Grasshopper. Supports mag_U and all spatia
 | Y |  | Y coordinate. | `Number` |
 | dir_sin |  | Direction sin component. | `Number` |
 | dir_cos |  | Direction cos component. | `Number` |
-| brep |  | Reconstructed building geometry (boxes) from CSV data. | `Geometry` |
+| Brep |  | Reconstructed building geometry (boxes) from CSV data. | `Geometry` |

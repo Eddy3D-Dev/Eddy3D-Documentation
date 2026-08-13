@@ -9,7 +9,7 @@ Run the OpenFOAM checkMesh command for a case region. OutdoorPlus
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Run |  | Run the checkMesh command. | `Boolean` |
-| Case |  | UMF case instance to check. | `Generic Data` |
+| Case |  | Outdoor, Outdoor+, or Indoor case instance to check. | `Generic Data` |
 | Region |  | Region name to check. | `Text` |
 
 #### Output

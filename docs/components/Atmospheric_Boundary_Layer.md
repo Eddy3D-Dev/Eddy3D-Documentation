@@ -8,7 +8,7 @@ Define atmospheric boundary layer inflow conditions for Eddy3D.
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Wind Directions | Dirs | Wind directions as meteorological degrees (wind-from, clockwise from north) or flow vectors. One solver case is created per direction. Optional; default is flow toward +X. | `Generic Data` |
+| Wind Directions | Dirs | Wind directions as meteorological degrees (wind-from, clockwise from north) or flow vectors. One solver case is created per direction. Optional; default is flow toward -Y (south). | `Generic Data` |
 | Wind Speed | U | Wind speed at the reference height (m/s), one value per wind direction. A single value applies to all directions; a shorter list repeats its last value. Optional; default is 5. | `Number` |
 | Reference Height | Zref | Reference height for wind speed (m). Optional; default is 10. | `Number` |
 | Roughness Length (z0) | z0 | Aerodynamic roughness length (m). Higher values indicate rougher terrain. Optional; default is 1. | `Number` |

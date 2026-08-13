@@ -2,14 +2,14 @@
 
 ![](/images/components/MRT_Surface-crop.png)
 
-Mesh Breps into a tagged radiation surface for an MRT analysis.
+Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size; Meshes are used face-for-face as given.
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Geometry | G | Surface geometry to mesh. | `Brep` |
-| Type | T | Surface type: 0 Building, 1 Ground, 2 Vegetation, 3 Tree. | `Integer` |
+| Geometry | G | Surface geometry: Breps (meshed at Patch Size) or Meshes (used as given — their faces ARE the view-factor patches, so refine coarse meshes upstream). | `Geometry` |
+| Type | T | Surface type. Drives the default reflectance, the EnergyPlus construction, and the type-specific view-factor totals. | `Text` |
 | Simulated | S | True if the surface temperature is solved; false treats it as ambient. | `Boolean` |
 | Patch Size | P | Target mesh patch edge length (m) for view-factor resolution. | `Number` |
 | Material | Mat | Optional material from a Surface / Vegetation / Tree Settings component; overrides the default reflectance / Radiance material for this surface. | `Generic Data` |

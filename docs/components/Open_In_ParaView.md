@@ -8,7 +8,7 @@ Open a wind case's direction cases in ParaView. All directions are added to the 
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Case |  | Wind case (from the wind case component or Load Wind Case). | `Generic Data` |
+| Case |  | Wind case (from the wind case component or Load Wind Case), indoor or UMF case — or a FluidX3D / LBM case path (the respective Run component's Case output). | `Generic Data` |
 | Open |  | Set to true to launch ParaView with all direction cases. | `Boolean` |
 | Boundary Conditions | BC | ABL or Uniform Flow boundary conditions (provides simulated directions, reference speeds, z0, zRef). Required for comfort analysis. | `Generic Data` |
 | EPW Path | EPW | Path to an EPW weather file. When provided together with BC, the ParaView script computes pedestrian wind comfort at 1.5 m. | `Text` |

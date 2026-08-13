@@ -9,7 +9,7 @@ Tests for buildings and trees for Eddy3D-OutdoorPlus simulation.
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Case | C | The Outdoor or Outdoor+ case to check. | `Generic Data` |
-| Check | C | Whether to perform the geometry check. | `Boolean` |
+| Check | Chk | Whether to perform the geometry check. | `Boolean` |
 
 #### Output
 

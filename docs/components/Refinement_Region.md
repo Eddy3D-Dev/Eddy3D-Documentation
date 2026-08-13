@@ -2,7 +2,7 @@
 
 ![](/images/components/Refinement_Region-crop.png)
 
-Add a custom snappyHexMesh refinement region (a box, solid or surface) to a written case's mesh, then re-mesh. Refines the cells inside/near the geometry to the chosen level.
+Add a custom snappyHexMesh refinement region (a box, solid or surface) to a written case's mesh. Refines the cells inside/near the geometry to the chosen level; re-run meshing separately afterward to apply it.
 
 #### Input
 
@@ -14,7 +14,7 @@ Add a custom snappyHexMesh refinement region (a box, solid or surface) to a writ
 | Level | Lvl | snappyHexMesh refinement level inside/near the region (e.g. 2). Default 2. | `Integer` |
 | Mode |  | inside (refine the whole closed region), outside (refine everything outside it), or distance (refine within Distance metres of the surface). Default inside. | `Text` |
 | Distance | Dist | For distance mode: refinement band width in metres. Default 10. | `Number` |
-| Bake |  | Write the region STL and snappyHexMeshDict entries into the mesh case (idempotent), then re-run meshing. Momentary button. | `Boolean` |
+| Bake |  | Write the region STL and snappyHexMeshDict entries into the mesh case (idempotent). Momentary button; re-run meshing afterward (a separate step) to apply the new region. | `Boolean` |
 
 #### Output
 

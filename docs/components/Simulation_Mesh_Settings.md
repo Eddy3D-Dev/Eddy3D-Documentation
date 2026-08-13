@@ -24,4 +24,4 @@ Configure snappyHexMesh settings for the simulation. OutdoorPlus
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Simulation Mesh Settings | Mesh | Simulation mesh settings for snappyHexMesh. | `Generic Data` |
+| Simulation Mesh Settings | MeshSettings | Simulation mesh settings for snappyHexMesh. | `Generic Data` |

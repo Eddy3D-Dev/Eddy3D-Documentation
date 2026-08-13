@@ -17,6 +17,7 @@ Create, write, and manage an Eddy3D outdoor wind simulation case.
 | Terrain |  | Terrain mesh (optional). | `Mesh` |
 | Mesh Settings | MeshSet | Mesh settings from the Mesh Settings component. | `Generic Data` |
 | Run Settings | RunSet | Run settings from the Run Settings component. | `Generic Data` |
+| Ground Roughness | GroundZ0 | Ground roughness zones from the Ground Roughness or Land Cover Roughness component (optional). Each zone becomes its own ground patch with an explicit roughness length z0; floor area not covered by a zone keeps the global ABL roughness. | `Generic Data` |
 | Write |  | Write the case files to the working directory. | `Boolean` |
 | Clear Case | Clear | Delete all files for this case in the working directory. | `Boolean` |
 

@@ -9,7 +9,7 @@ A volumetric heat source box for an indoor ventilation case (transported tempera
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Zone | Z | Box zone occupied by the heat source. | `Box` |
-| Source Rate | Q | Temperature source rate injected into the zone (K/s, specific). | `Number` |
+| Injection Rate | IR | Temperature source rate injected into the zone (K/s, specific). | `Number` |
 
 #### Output
 

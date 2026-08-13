@@ -14,4 +14,4 @@ Translate a Ladybug analysis period to hours of the year.
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Hours |  | 1-based hours of the year inside the analysis period. | `Integer` |
+| Hours of Year | HOY | 1-based hours of the year inside the analysis period. | `Integer` |

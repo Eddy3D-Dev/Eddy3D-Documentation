@@ -16,4 +16,4 @@ Configure mesh refinement for vegetation regions. OutdoorPlus
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Vegetation Mesh Settings | Mesh | Mesh refinement settings for vegetation regions. | `Generic Data` |
+| Vegetation Mesh Settings | MeshSet | Mesh refinement settings for vegetation regions. | `Generic Data` |

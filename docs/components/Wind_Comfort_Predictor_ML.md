@@ -9,7 +9,7 @@ Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX mode
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Points | Pts | Analysis points for mesh visualization. | `Point` |
-| Wind Speeds | W | Predicted wind speeds (m/s) as a DataTree from WindPredictor. | `Number` |
+| Wind Speeds | U | Predicted wind speeds (m/s) as a DataTree from WindPredictor. | `Number` |
 | EPW Path | EPW | Path to the .epw weather file. | `Text` |
 | Reference Height | zRef | Reference height for the simulations (m). Default = 10.0 | `Number` |
 | Roughness Length (z0) | z0 | Roughness length (m). Default = 1.0 | `Number` |
