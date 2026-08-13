@@ -8,14 +8,14 @@ Define an analysis period (from/to day of year, start/end hour of day) and outpu
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| From | F | From day of year [1-365]. | `Integer` |
-| To | T | To day of year [1-365]. | `Integer` |
-| Start | S | Start hour of day [1-24]. | `Integer` |
-| End | E | End hour of day [1-24]. | `Integer` |
+| From |  | From day of year [1-365]. | `Integer` |
+| To |  | To day of year [1-365]. | `Integer` |
+| Start |  | Start hour of day [1-24]. | `Integer` |
+| End |  | End hour of day [1-24]. | `Integer` |
 
 #### Output
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Hours of Year | HOY | Hour-of-year indices in the period. | `Integer` |
-| Date Times | Date | The corresponding DateTime values. | `Generic Data` |
+| Date Times | Dates | The corresponding DateTime values. | `Generic Data` |

@@ -8,7 +8,7 @@ Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) fo
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Case Name | Name | Case name (no spaces). | `Text` |
+| Case Name | Name | Case name (no spaces). Leave empty for an auto-generated name (same convention as Outdoor). | `Text` |
 | Working Directory | Dir | Working directory (default ~/Eddy3D/Indoor). | `Text` |
 | Room | R | Closed room Brep. | `Brep` |
 | Cell Size | C | Mesh cell size (m). | `Number` |
@@ -18,6 +18,7 @@ Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) fo
 | Sinks | S | Momentum sinks (Indoor Sink). | `Generic Data` |
 | Sources | Src | Emitters: Momentum / Heat / CO2 / Viral Source components. | `Generic Data` |
 | Wall Temp | WT | Optional wall temperature (K) for the transported temperature field (needs a Heat Source). | `Number` |
+| Walls | W | Optional Indoor Wall components with a Surface: each gets its own patch and temperature. Room faces not covered by one keep the case-wide Wall Temp. | `Generic Data` |
 | Write | W | Click to write the case to disk. Resets automatically so it never re-writes on recompute. | `Boolean` |
 | Clear | X | Click to delete the case folder. Resets automatically so it never re-deletes on recompute. | `Boolean` |
 

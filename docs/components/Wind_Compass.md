@@ -9,10 +9,10 @@ Visualize a wind direction on a compass circle. Direction is meteorological degr
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Wind Direction | Dir | Wind direction in degrees (0=N, 90=E, 180=S, 270=W). | `Number` |
-| Radius | R | Radius of the compass circle. | `Number` |
-| Base Point | P | Center of the compass. | `Point` |
-| Color | C | Display color. | `Colour` |
-| Arrow Scale | S | Scale of the directional arrow. | `Number` |
+| Radius | Rad | Radius of the compass circle. | `Number` |
+| Base Point | Pt | Center of the compass. | `Point` |
+| Color | Col | Display color. | `Colour` |
+| Arrow Scale | Scale | Scale of the directional arrow. | `Number` |
 
 #### Output
 

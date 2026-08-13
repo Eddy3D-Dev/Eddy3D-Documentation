@@ -2,7 +2,7 @@
 
 ![](/images/components/Brep_Grid_Points-crop.png)
 
-Generate a regular point grid on Brep, surface, or mesh geometry.
+Generate centered surface samples on the actual faces of Brep, surface, or mesh geometry.
 
 #### Input
 
@@ -15,7 +15,7 @@ Generate a regular point grid on Brep, surface, or mesh geometry.
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Points | Pts | Generated grid points on the input geometry. | `Point` |
+| Points | Pts | Centered sample points inside the actual input subsurfaces; never seeded on shared face edges. | `Point` |
 | Vectors | Vec | Outward unit surface normals corresponding one-to-one with the grid points. | `Vector` |
 | Mesh |  | Joined mesh representation of the sampled input geometry. | `Mesh` |
 | Status |  | Status message or warnings. | `Text` |

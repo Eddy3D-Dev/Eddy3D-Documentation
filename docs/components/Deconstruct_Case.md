@@ -8,7 +8,7 @@ Inspect any Eddy3D case: Outdoor wind study, Indoor case, or OutdoorPlus (UMF) c
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Case | C | Any Eddy3D case: an Outdoor wind study, an Indoor case, or an OutdoorPlus (UMF) case. | `Generic Data` |
+| Case |  | Any Eddy3D case: an Outdoor wind study, an Indoor case, or an OutdoorPlus (UMF) case. | `Generic Data` |
 
 #### Output
 

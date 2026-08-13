@@ -13,6 +13,7 @@ Compute Velocity Amplification Factors (VAF) and annual wind speed at probes fro
 | EPW |  | Path to the EPW weather file. | `Text` |
 | Probe Height | Height | Probing/pedestrian height in meters. | `Number` |
 | Interpolate | Interp | Interpolate between bracketing wind directions. | `Boolean` |
+| Points | P | Optional probe points in the same order as the Wind Velocity tree's branches. Embedded into the Wind Speed output so downstream components — the Pedestrian Wind Comfort mesh — know where each series lives without extra wiring. | `Point` |
 
 #### Output
 

@@ -2,13 +2,13 @@
 
 ![](/images/components/Download_Weather-crop.png)
 
-Download an EPW weather file from climate.onebuilding.org nearest to your project location. Use the Search input to filter by station name, WMO ID, or dataset year.
+Download an EPW weather file from a direct URL, or search climate.onebuilding.org by station name, WMO ID, or dataset year.
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Search |  | Station name, WMO ID, country, state, or dataset year (e.g. 'New York', '725030', '2009-2023'). | `Text` |
+| Search |  | Direct EPW or weather ZIP URL; or a station name, WMO ID, country, state, or dataset year (e.g. 'New York', '725030', '2009-2023'). | `Text` |
 
 #### Output
 

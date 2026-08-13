@@ -8,7 +8,7 @@ Monitor blockMesh, surfaceFeatures, and snappyHexMesh progress from the mesh cas
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Case |  | Wind case (from the wind case component or Load Wind Case). | `Generic Data` |
+| Case |  | Wind case (from the wind case component or Load Wind Case) whose mesh progress to monitor. | `Generic Data` |
 | Live |  | Set to true to re-read the meshing logs once a second — no external timer needed. | `Boolean` |
 
 #### Output

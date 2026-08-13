@@ -2,16 +2,15 @@
 
 ![](/images/components/MRT_Sensors-crop.png)
 
-Create comfort sensor probes from a mesh (face centers) or points.
+Create comfort sensor probes from meshes (one probe per face center, facing the face normal) and/or points (facing corresponding Normals), mixed freely on one input.
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Mesh | M | Sensor mesh; one probe per face center. | `Mesh` |
-| Points | P | Explicit sensor points. When connected, these take priority over Mesh. | `Point` |
-| Normal | N | Sensor normal for point input (default world Z). | `Vector` |
-| Height |  | Offset MRT sensors along their Normal vector. Default 1.1 m places the sensor at pedestrian body height and prevents it from being coplanar with the ground. | `Number` |
+| Sensors | S | Sensor geometry: meshes (one probe per face center, facing the face normal) and/or points (one probe each, facing the Normal input). | `Geometry` |
+| Normal | N | Sensor normals for POINT inputs: one vector per point (for example, Vectors from Brep Grid Points), or one vector shared by every point. Default world Z. Mesh probes always face their face normal. | `Vector` |
+| Height |  | Offsets every sensor along its own normal by this many meters. Point sensors use their corresponding Normal input; mesh sensors use their face normal. Default 1.1 m places upward-facing ground sensors at pedestrian body height. | `Number` |
 
 #### Output
 

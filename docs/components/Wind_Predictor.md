@@ -20,6 +20,10 @@ Run ONNX wind-field prediction end-to-end. Computes SDF, building height, Zrelat
 | Field |  | Field to visualize. Affects M, LM, LP, LV outputs. | `Text` |
 | Level |  | Visualization level. Roof Level only applies when a 4-channel model is loaded. | `Text` |
 | Selection Points | SelectPts | Optional locations to output. The model still runs on all input Points; each selection receives the result of its nearest input sensor, in selection order. | `Point` |
+| Radius |  | Marker size (m): circle radius or square half-width. | `Number` |
+| Legend Scale | LegScale | Uniform scale factor for the legend bar and label spacing. | `Number` |
+| Mesh Type | MeshType | Prediction marker topology. Square uses one quad per point and is fastest; Circle uses a 16-sided n-gon. | `Text` |
+| Run |  | Sticky on/off switch for the prediction (a toggle, not a momentary button). On: every input change re-runs inference. Off: inference is skipped and the last result stays on the outputs, so the canvas can be rewired without paying for a solve. A wired boolean works the same as the inline switch. | `Boolean` |
 
 #### Output
 

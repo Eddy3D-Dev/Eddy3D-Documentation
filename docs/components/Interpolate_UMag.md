@@ -2,7 +2,7 @@
 
 ![](/images/components/Interpolate_UMag-crop.png)
 
-Resample per-direction wind-magnitude fields onto a new point grid (nearest-neighbour average, with per-direction rotation). Prepares grids for GAN applications.
+Resample direction-specific wind-magnitude fields onto a new point grid (nearest-neighbour average, with direction-specific rotation). Prepares grids for GAN applications.
 
 #### Input
 

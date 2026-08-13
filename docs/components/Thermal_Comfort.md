@@ -21,3 +21,4 @@ Compute a thermal comfort metric at a point: UTCI (Ta, RH, wind, MRT), PET (adds
 | Value |  | Metric value [°C]. | `Number` |
 | Stress |  | Thermal stress category. | `Text` |
 | Details |  | Calculation details. | `Text` |
+| Metric Type | Metric | Metric identifier for metric-aware downstream components such as UTCI Legend. | `Text` |
