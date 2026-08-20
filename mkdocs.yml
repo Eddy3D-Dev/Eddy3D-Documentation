@@ -6,9 +6,21 @@ edit_uri: blob/main/docs/
 site_author: Patrick Kastner
 copyright: >-
   Copyright &copy; 2018-2026 Eddy3D
+hooks:
+  # Makes the nav's root-absolute icon paths survive the per-version URL prefix
+  # that mike introduces. See hooks/relative_paths.py.
+  - hooks/relative_paths.py
+
 extra_css:
   - stylesheets/extra.css
 extra:
+  # Version selector. `provider: mike` makes Material read gh-pages/versions.json
+  # and render the dropdown; `default: latest` is the alias the site root redirects to.
+  # The version STRING itself lives in docs/version.txt — deploy.yml reads it there,
+  # so cutting a docs version is a one-line edit in one file.
+  version:
+    provider: mike
+    default: latest
   latest_eddy_version: "1.9.0.827" # Manual fallback
 
 nav:
