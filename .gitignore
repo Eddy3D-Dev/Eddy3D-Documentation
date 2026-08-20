@@ -5,3 +5,7 @@
 .agent/
 .gemini/
 site/
+
+# Python bytecode from mkdocs hooks
+__pycache__/
+*.pyc

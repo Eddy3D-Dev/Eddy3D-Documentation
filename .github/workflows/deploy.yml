@@ -1,4 +1,14 @@
 name: deploy
+
+# Versioned deploy, via mike.
+#
+# One published version per Eddy3D release, each at its own URL, with `latest`
+# aliasing the newest. The version string comes from docs/version.txt — bump that
+# file and merge, and this workflow publishes that version and repoints `latest`.
+#
+# A pull request BUILDS the site (mike deploy without --push) so a broken nav or a
+# bad plugin config fails review instead of the deploy.
+
 on:
   push:
     branches: [main, master]
@@ -7,44 +17,160 @@ on:
       - "docs/assets/**"
       - "docs/overrides/**"
       - "docs/stylesheets/**"
+      - "docs/version.txt"
+      - "mkdocs.yml"
+      - "requirements.txt"
+      - ".github/workflows/deploy.yml"
+  pull_request:
+    branches: [main, master, dev]
+    paths:
+      - "docs/**/*.md"
+      - "docs/assets/**"
+      - "docs/overrides/**"
+      - "docs/stylesheets/**"
+      - "docs/version.txt"
       - "mkdocs.yml"
       - "requirements.txt"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
+    inputs:
+      version:
+        description: "Docs version to publish (defaults to docs/version.txt)"
+        required: false
+        type: string
+      set_latest:
+        description: "Point the `latest` alias at this version"
+        required: false
+        default: true
+        type: boolean
+
 permissions:
   contents: write
+
+concurrency:
+  # Two deploys racing both rewrite gh-pages and one silently loses.
+  group: docs-deploy
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
+          # mike commits onto gh-pages, so it needs the full history, not a shallow clone.
           fetch-depth: '0'
+
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-multirepo-plugin
-      - run: pip install mkdocs-git-revision-date-localized-plugin
-      - run: pip install mkdocs-minify-plugin
-      - run: pip install mkdocs-git-authors-plugin
-      - run: pip install mkdocs-git-committers-plugin-2
-      - run: pip install mkdocs-title-casing-plugin
-      - run: pip install mkdocs-glightbox
-      - run: pip install markdown-include
-      - run: pip install mkdocs-video
-      - run: pip install mkdocs-awesome-pages-plugin
-      - run: pip install mkdocs-section-index
-      - run: pip install tzdata
-      - run: echo 'docs.eddy3d.com' > ./CNAME && mkdocs gh-deploy --force
+
+      # requirements.txt is the single dependency list — mike included. The old
+      # workflow pip-installed each plugin by name, which drifted from the file.
+      - run: pip install --upgrade pip
+      - run: pip install -r requirements.txt
+
+      - name: Resolve the version to publish
+        id: ver
+        run: |
+          set -euo pipefail
+          VERSION="${{ inputs.version }}"
+          if [ -z "$VERSION" ]; then
+            if [ ! -f docs/version.txt ]; then
+              echo "::error::docs/version.txt is missing and no version input was given"
+              exit 1
+            fi
+            VERSION="$(tr -d '[:space:]' < docs/version.txt)"
+          fi
+          if [ -z "$VERSION" ]; then
+            echo "::error::resolved version is empty"
+            exit 1
+          fi
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Publishing docs version: $VERSION"
+
+      # The custom domain lives at the gh-pages ROOT, which mike rewrites. Keeping a
+      # copy inside docs/ means every built version carries it too, so a deploy can
+      # never leave the branch without a CNAME and drop docs.eddy3d.com.
+      - name: Preserve the custom domain
+        run: echo 'docs.eddy3d.com' > docs/CNAME
+
+      - name: Build only (pull request)
+        if: github.event_name == 'pull_request'
+        run: |
+          mike deploy "${{ steps.ver.outputs.version }}" latest --update-aliases
+          echo "Built ${{ steps.ver.outputs.version }} — not pushed (pull request)."
+
+      - name: Deploy and publish
+        if: github.event_name != 'pull_request'
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.ver.outputs.version }}"
+          if [ "${{ inputs.set_latest }}" = "false" ]; then
+            mike deploy "$VERSION" --push
+          else
+            mike deploy "$VERSION" latest --update-aliases --push
+            # Idempotent: writes the gh-pages root index.html that redirects to `latest`.
+            mike set-default latest --push
+          fi
+          mike list
+
+      # Legacy-URL safety net. Before versioning, pages were served flat
+      # (docs.eddy3d.com/components/Wind_Compass/). Under mike everything moves to
+      # /latest/... , so every link ever shared — from the plugin, the website, the
+      # discussion threads — would 404. GitHub Pages serves the root 404.html for any
+      # unmatched path, so this forwards those paths into `latest` once, preserving
+      # the deep link instead of dumping the reader on the front page.
+      - name: Install the legacy-path redirect
+        if: github.event_name != 'pull_request' && inputs.set_latest != false
+        run: |
+          set -euo pipefail
+          tmp="$(mktemp -d)"
+          git worktree add "$tmp" gh-pages
+          cat > "$tmp/404.html" <<'HTML'
+          <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8" />
+              <title>Redirecting…</title>
+              <meta name="robots" content="noindex" />
+              <script>
+                (function () {
+                  var p = window.location.pathname.replace(/^\/+/, "");
+                  var first = p.split("/")[0];
+                  // Already inside a version (or an alias)? Then this is a genuine 404.
+                  if (/^\d/.test(first) || first === "latest" || first === "dev") return;
+                  window.location.replace(
+                    "/latest/" + p + window.location.search + window.location.hash
+                  );
+                })();
+              </script>
+            </head>
+            <body>
+              <p>Redirecting to the latest documentation… <a href="/latest/">Continue</a></p>
+            </body>
+          </html>
+          HTML
+          cd "$tmp"
+          git add 404.html
+          if git diff --cached --quiet; then
+            echo "404 redirect already current."
+          else
+            git commit -m "docs: forward legacy flat URLs into /latest [skip ci]"
+            git push origin gh-pages
+          fi
+          cd - >/dev/null
+          git worktree remove "$tmp" --force
