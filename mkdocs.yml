@@ -22,6 +22,7 @@ nav:
       - "00 Setup":
           - "Overview": categories/00_Setup.md
           - "<img src='/images/icons/Select_Template.png' class='nav-gh-icon' /> Select Template": components/Select_Template.md
+          - "<img src='/images/icons/Eddy3D_Setup.png' class='nav-gh-icon' /> Eddy3D Setup": components/Eddy3D_Setup.md
       - "00 Utilities":
           - "Overview": categories/00_Utilities.md
           - "<img src='/images/icons/STL_Exporter.png' class='nav-gh-icon' /> STL Exporter": components/STL_Exporter.md
@@ -38,6 +39,8 @@ nav:
           - "<img src='/images/icons/Gmsh_Mesh.png' class='nav-gh-icon' /> Gmsh Mesh": components/Gmsh_Mesh.md
           - "<img src='/images/icons/Tree.png' class='nav-gh-icon' /> Tree": components/Tree.md
           - "<img src='/images/icons/Watertight.png' class='nav-gh-icon' /> Watertight": components/Watertight.md
+          - "<img src='/images/icons/Morph_Weather.png' class='nav-gh-icon' /> Morph Weather": components/Morph_Weather.md
+          - "<img src='/images/icons/Morph_Settings.png' class='nav-gh-icon' /> Morph Settings": components/Morph_Settings.md
       - "02 Outdoor Domain Mesh":
           - "Overview": categories/02_Outdoor_Domain_Mesh.md
           - "<img src='/images/icons/Cylinder_Domain.png' class='nav-gh-icon' /> Cylinder Domain": components/Cylinder_Domain.md
@@ -66,6 +69,7 @@ nav:
           - "<img src='/images/icons/Wind_Field_Viewer.png' class='nav-gh-icon' /> Wind Field Viewer": components/Wind_Field_Viewer.md
           - "<img src='/images/icons/Analysis_Period.png' class='nav-gh-icon' /> Analysis Period": components/Analysis_Period.md
           - "<img src='/images/icons/Date_to_HOY.png' class='nav-gh-icon' /> Date to HOY": components/Date_to_HOY.md
+          - "<img src='/images/icons/Deconstruct_Wind.png' class='nav-gh-icon' /> Deconstruct Wind": components/Deconstruct_Wind.md
       - "06 Indoor":
           - "Overview": categories/06_Indoor.md
           - "<img src='/images/icons/Indoor_Case.png' class='nav-gh-icon' /> Indoor Case": components/Indoor_Case.md
@@ -89,6 +93,7 @@ nav:
           - "<img src='/images/icons/MRT_Settings.png' class='nav-gh-icon' /> MRT Settings": components/MRT_Settings.md
           - "<img src='/images/icons/Sky_Exposure.png' class='nav-gh-icon' /> Sky Exposure": components/Sky_Exposure.md
           - "<img src='/images/icons/UTCI_Simulation.png' class='nav-gh-icon' /> UTCI Simulation": components/UTCI_Simulation.md
+          - "<img src='/images/icons/Deconstruct_UTCI.png' class='nav-gh-icon' /> Deconstruct UTCI": components/Deconstruct_UTCI.md
       - "08 FluidX3D":
           - "Overview": categories/08_FluidX3D.md
           - "<img src='/images/icons/FluidX3D_Run_Settings.png' class='nav-gh-icon' /> FluidX3D Run Settings": components/FluidX3D_Run_Settings.md
@@ -141,6 +146,16 @@ nav:
           - "<img src='/images/icons/Create_Mesh.png' class='nav-gh-icon' /> Create Mesh": components/Create_Mesh.md
           - "<img src='/images/icons/Create_OBJ.png' class='nav-gh-icon' /> Create OBJ": components/Create_OBJ.md
           - "<img src='/images/icons/Cull_Ground_Mesh.png' class='nav-gh-icon' /> Cull Ground Mesh": components/Cull_Ground_Mesh.md
+      - "16 Sun Shadow":
+          - "Overview": categories/16_Sun_Shadow.md
+          - "<img src='/images/icons/Sun_Vectors.png' class='nav-gh-icon' /> Sun Vectors": components/Sun_Vectors.md
+          - "<img src='/images/icons/Sun_Path.png' class='nav-gh-icon' /> Sun Path": components/Sun_Path.md
+          - "<img src='/images/icons/Sun_Stats.png' class='nav-gh-icon' /> Sun Stats": components/Sun_Stats.md
+          - "<img src='/images/icons/Shadow.png' class='nav-gh-icon' /> Shadow": components/Shadow.md
+          - "<img src='/images/icons/Solar_Irradiation.png' class='nav-gh-icon' /> Solar Irradiation": components/Solar_Irradiation.md
+          - "<img src='/images/icons/Sunlight_Compliance.png' class='nav-gh-icon' /> Sunlight Compliance": components/Sunlight_Compliance.md
+          - "<img src='/images/icons/Canopy.png' class='nav-gh-icon' /> Canopy": components/Canopy.md
+          - "<img src='/images/icons/Facade_Grid.png' class='nav-gh-icon' /> Facade Grid": components/Facade_Grid.md
   - Back: "https://eddy3d.com"
 
 
