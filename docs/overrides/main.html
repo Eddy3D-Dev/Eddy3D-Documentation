@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{# Shown by Material on any version that is not the `latest` alias. Without it a
+   reader who lands on an old version from a search result has nothing telling them
+   so — which is the failure mode versioned docs are supposed to prevent. #}
+{% block outdated %}
+  You are reading the documentation for an older version of Eddy3D.
+  <a href="{{ '../' ~ base_url }}">
+    <strong>Go to the latest documentation</strong>
+  </a>
+{% endblock %}
+
 {% block extrahead %}
 {{ super() }}
 {% if page and page.meta and page.meta.title %}

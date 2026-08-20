@@ -1,5 +1,12 @@
 import re
 
+# NOTE: the nav entries this writes carry a ROOT-ABSOLUTE icon path
+# (src='/images/icons/…'). That is only correct when the site is served from the
+# domain root, which stopped being true when the docs became versioned — mike
+# serves them under /latest/ and /<version>/. hooks/relative_paths.py rewrites
+# these to page-relative at build time, so this script can keep its current
+# output; do not "fix" it here without removing the hook as well.
+
 with open("mkdocs.yml", "r") as f:
     text = f.read()
 
