@@ -4,6 +4,7 @@
 <div class="sub-group">
 <a href="/components/Select_Template/" class="GhComponentItem" above-dataComment="Select Template"><img src="/images/icons/Select_Template.png" class="gh-component-selected" alt="Select Template" /></a>
 </div>
+<a href="/components/Eddy3D_Setup/" class="GhComponentItem" above-dataComment="Eddy3D Setup"><img src="/images/icons/Eddy3D_Setup.png" class="gh-component-selected" alt="Eddy3D Setup" /></a>
 </div>
 <div class="SubGroup-Title">Setup</div>
 </div>
@@ -31,6 +32,8 @@
 <a href="/components/Tree/" class="GhComponentItem" above-dataComment="Tree"><img src="/images/icons/Tree.png" class="gh-component-selected" alt="Tree" /></a>
 <a href="/components/Watertight/" class="GhComponentItem" below-dataComment="Watertight"><img src="/images/icons/Watertight.png" class="gh-component-selected" alt="Watertight" /></a>
 </div>
+<a href="/components/Morph_Weather/" class="GhComponentItem" above-dataComment="Morph Weather"><img src="/images/icons/Morph_Weather.png" class="gh-component-selected" alt="Morph Weather" /></a>
+<a href="/components/Morph_Settings/" class="GhComponentItem" above-dataComment="Morph Settings"><img src="/images/icons/Morph_Settings.png" class="gh-component-selected" alt="Morph Settings" /></a>
 </div>
 <div class="SubGroup-Title">Outdoor Setup</div>
 </div>
@@ -82,6 +85,7 @@
 <a href="/components/Analysis_Period/" class="GhComponentItem" above-dataComment="Analysis Period"><img src="/images/icons/Analysis_Period.png" class="gh-component-selected" alt="Analysis Period" /></a>
 <a href="/components/Hour_of_Year/" class="GhComponentItem" below-dataComment="Hour of Year"><img src="/images/icons/Hour_of_Year.png" class="gh-component-selected" alt="Hour of Year" /></a>
 </div>
+<a href="/components/Deconstruct_Wind/" class="GhComponentItem" above-dataComment="Deconstruct Wind"><img src="/images/icons/Deconstruct_Wind.png" class="gh-component-selected" alt="Deconstruct Wind" /></a>
 </div>
 <div class="SubGroup-Title">Outdoor Results</div>
 </div>
@@ -202,6 +206,7 @@
 <a href="/components/Comfort_Hours/" class="GhComponentItem" above-dataComment="Comfort Hours"><img src="/images/icons/Comfort_Hours.png" class="gh-component-selected" alt="Comfort Hours" /></a>
 <a href="/components/Thermal_Comfort_Legend/" class="GhComponentItem" below-dataComment="Thermal Comfort Legend"><img src="/images/icons/Thermal_Comfort_Legend.png" class="gh-component-selected" alt="Thermal Comfort Legend" /></a>
 </div>
+<a href="/components/Deconstruct_UTCI/" class="GhComponentItem" above-dataComment="Deconstruct UTCI"><img src="/images/icons/Deconstruct_UTCI.png" class="gh-component-selected" alt="Deconstruct UTCI" /></a>
 </div>
 <div class="SubGroup-Title">Comfort</div>
 </div>
@@ -237,6 +242,21 @@
 </div>
 </div>
 <div class="SubGroup-Title">Post</div>
+</div>
+<div class="SubGroup-Container" data-category="16_Sun_Shadow">
+<div class="SubGroup-Icons">
+<div class="sub-group">
+<a href="/components/Sun_Vectors/" class="GhComponentItem" above-dataComment="Sun Vectors"><img src="/images/icons/Sun_Vectors.png" class="gh-component-selected" alt="Sun Vectors" /></a>
+<a href="/components/Sun_Path/" class="GhComponentItem" above-dataComment="Sun Path"><img src="/images/icons/Sun_Path.png" class="gh-component-selected" alt="Sun Path" /></a>
+<a href="/components/Sun_Stats/" class="GhComponentItem" above-dataComment="Sun Stats"><img src="/images/icons/Sun_Stats.png" class="gh-component-selected" alt="Sun Stats" /></a>
+<a href="/components/Shadow/" class="GhComponentItem" above-dataComment="Shadow"><img src="/images/icons/Shadow.png" class="gh-component-selected" alt="Shadow" /></a>
+<a href="/components/Solar_Irradiation/" class="GhComponentItem" above-dataComment="Solar Irradiation"><img src="/images/icons/Solar_Irradiation.png" class="gh-component-selected" alt="Solar Irradiation" /></a>
+<a href="/components/Sunlight_Compliance/" class="GhComponentItem" above-dataComment="Sunlight Compliance"><img src="/images/icons/Sunlight_Compliance.png" class="gh-component-selected" alt="Sunlight Compliance" /></a>
+<a href="/components/Canopy/" class="GhComponentItem" above-dataComment="Canopy"><img src="/images/icons/Canopy.png" class="gh-component-selected" alt="Canopy" /></a>
+<a href="/components/Facade_Grid/" class="GhComponentItem" above-dataComment="Facade Grid"><img src="/images/icons/Facade_Grid.png" class="gh-component-selected" alt="Facade Grid" /></a>
+</div>
+</div>
+<div class="SubGroup-Title">Sun Shadow</div>
 </div>
 </div>
 
