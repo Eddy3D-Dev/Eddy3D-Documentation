@@ -21,7 +21,9 @@
 
 Eddy3D runs OpenFOAM through one of these engines (pick one):
 
-- **Docker (Windows & macOS, recommended):** [Install Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Install Docker Desktop (opens in a new tab)" }. Eddy3D pulls a pre-configured OpenFOAM 12 image automatically.
+- **Docker or Podman (Windows & macOS, recommended):** [Install Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Install Docker Desktop (opens in a new tab)" } or [install Podman Desktop](https://podman-desktop.io/downloads){ target="_blank" rel="noopener noreferrer" aria-label="Install Podman Desktop (opens in a new tab)" }. Eddy3D pulls the same pre-configured OpenFOAM 12 image automatically with either engine — Auto-detect prefers Podman and falls back to Docker.
+    - **Docker** has the bigger ecosystem and the most familiar tooling, but Docker Desktop requires a paid subscription for larger companies and runs its containers through a privileged background daemon.
+    - **Podman** is free and open-source with no licensing restrictions, runs daemonless, and executes containers rootless by default for a smaller attack surface — a good default on shared or locked-down machines.
 - **blueCFD-Core 2024 (Windows):** [Download blueCFD-Core](https://bluecfd.github.io/Core/Downloads/){ target="_blank" rel="noopener noreferrer" aria-label="Download blueCFD-Core (opens in a new tab)" }. **Install into a folder without spaces in the name** (e.g. `C:\blueCFD-Core\2024`) — a location like `C:\Program Files\...` breaks the OpenFOAM toolchain and the UMF solver can never be built or found.
 - **WSL (Windows):** [WSL installation guide](https://learn.microsoft.com/en-us/windows/wsl/install){ target="_blank" rel="noopener noreferrer" aria-label="WSL installation guide (opens in a new tab)" }.
 
