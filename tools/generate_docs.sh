@@ -66,13 +66,17 @@ fi
 
 echo "==> Export finished"
 cd "$DOCS_REPO"
-CHANGED="$(git status --porcelain -- docs | wc -l | tr -d ' ')"
-echo "==> $CHANGED changed file(s) under docs/"
+# mkdocs.yml is watched too, not just docs/. The export writes the ribbon nav straight into it,
+# and it sits one level ABOVE docs/ — so a `-- docs` scope reports "up to date" while the nav
+# still lists categories that no longer exist. That is exactly how the 1.10.0.827 site shipped
+# with the pre-consolidation tab order.
+CHANGED="$(git status --porcelain -- docs mkdocs.yml | wc -l | tr -d ' ')"
+echo "==> $CHANGED changed file(s) under docs/ and mkdocs.yml"
 
 if [[ "$CHECK_MODE" == "1" ]]; then
   if [[ "$CHANGED" != "0" ]]; then
     echo "Docs are out of date — regenerate and commit:" >&2
-    git status --short -- docs >&2
+    git status --short -- docs mkdocs.yml >&2
     exit 1
   fi
   echo "==> Docs are up to date"

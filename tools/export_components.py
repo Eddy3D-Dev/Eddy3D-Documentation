@@ -494,6 +494,56 @@ for cleanSubCat in sorted(pluginComponents.keys()):
         nav_lines.append(f"          - \"<img src='/images/icons/{comp}.png' class='nav-gh-icon' /> {comp.replace('_', ' ')}\": components/{comp}.md")
 write_utf8(navPath, "\n".join(nav_lines))
 
+# --- SPLICE THAT BLOCK INTO mkdocs.yml ---
+#
+# Writing components_nav.yml alone is not enough: mkdocs reads its nav from mkdocs.yml, and
+# for a long time the two were reconciled by a human pasting one into the other. They drifted.
+# By 1.10.0.827 the shipped nav still listed "00 Utilities", "01 Outdoor Setup",
+# "08 FluidX3D", "12 Outdoor+ Regions" and "16 Sun Shadow" -- five categories that no longer
+# existed, so those entries pointed at nothing while the regenerated pages sat unlinked.
+# Nothing caught it, because generate_docs.sh --check diffs docs/ and mkdocs.yml is one level up.
+#
+# So the export now owns the nav end to end. The block is delimited by its own "  - Components:"
+# key and the next top-level nav entry after it.
+def splice_nav_into_mkdocs(mkdocs_path, nav_text):
+    if not os.path.exists(mkdocs_path):
+        print("WARNING: %s not found -- nav NOT updated" % mkdocs_path)
+        return False
+    with open(mkdocs_path, "r", encoding="utf-8") as f:
+        lines = f.read().split("\n")
+
+    start = None
+    for i, line in enumerate(lines):
+        if line.rstrip() == "  - Components:":
+            start = i
+            break
+    if start is None:
+        # Refuse rather than guess: a mangled nav is worse than a stale one, and the next
+        # --check run will surface the staleness anyway.
+        print("WARNING: no '  - Components:' key in mkdocs.yml -- nav NOT updated")
+        return False
+
+    end = None
+    for i in range(start + 1, len(lines)):
+        if lines[i].startswith("  - ") and "Components" not in lines[i]:
+            end = i
+            break
+    if end is None:
+        print("WARNING: Components block runs to EOF in mkdocs.yml -- nav NOT updated")
+        return False
+
+    new_lines = lines[:start] + nav_text.rstrip("\n").split("\n") + lines[end:]
+    if new_lines == lines:
+        return False
+    with open(mkdocs_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(new_lines))
+    print("mkdocs.yml nav updated (%d -> %d lines in the Components block)"
+          % (end - start, len(nav_text.rstrip("\n").split("\n"))))
+    return True
+
+splice_nav_into_mkdocs(os.path.abspath(os.path.join(finalOutputFolder, "..", "mkdocs.yml")),
+                       "\n".join(nav_lines))
+
 # --- PRINT SUMMARY OF WRITTEN FILES ---
 print("\n" + "="*60)
 print(f"EXPORT COMPLETE: {len(WRITTEN_FILES)} Files Written")
