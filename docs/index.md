@@ -63,7 +63,9 @@ Install **Eddy3D** via the Rhino Package Manager (`yak`) on either platform &mda
 ### Simulation Engines (Windows / Mac)
 Choose a simulation engine (one of the following):
 
-- **Docker:** [Download Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Download Docker Desktop (opens in a new tab)" } (**Recommended cross-platform**, pulls a pre-configured OpenFOAM 12 image automatically)
+- **Docker or Podman:** [Download Docker Desktop](https://www.docker.com/products/docker-desktop/){ target="_blank" rel="noopener noreferrer" aria-label="Download Docker Desktop (opens in a new tab)" } or [download Podman Desktop](https://podman-desktop.io/downloads){ target="_blank" rel="noopener noreferrer" aria-label="Download Podman Desktop (opens in a new tab)" } (**Recommended cross-platform** — either engine pulls the same pre-configured OpenFOAM 12 image automatically; Auto-detect prefers Podman and falls back to Docker)
+    - **Docker** — larger ecosystem, most familiar tooling; Docker Desktop needs a paid subscription for larger companies and runs containers through a privileged background daemon.
+    - **Podman** — free, open-source, no licensing restrictions; daemonless and rootless by default, which keeps the attack surface smaller on shared or locked-down machines.
 - **BlueCFD-Core 2024 (Windows Only):** [Download blueCFD-Core](https://bluecfd.github.io/Core/Downloads/){ target="_blank" rel="noopener noreferrer" aria-label="Download blueCFD-Core (opens in a new tab)" }. **Install into a folder without spaces in the name** (e.g. `C:\blueCFD-Core\2024`) — a location like `C:\Program Files\...` breaks the OpenFOAM toolchain and the UMF solver can never be built or found.
 - **WSL (Windows Only):** [WSL Installation guide for Windows](https://learn.microsoft.com/en-us/windows/wsl/install){ target="_blank" rel="noopener noreferrer" aria-label="WSL Installation guide for Windows (opens in a new tab)" } (Requires `urbanMicroclimateFoam` to be installed manually)
 
