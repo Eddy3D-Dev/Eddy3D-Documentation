@@ -29,63 +29,39 @@
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/02_Outdoor_Setup/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/02_Outdoor/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/03_Outdoor_Domain_Mesh/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/03_Outdoor%2B/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/04_Outdoor_Case/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/04_Indoor/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/05_Outdoor_Simulation/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/05_Sun_Shadow/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/06_Outdoor_Results/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/06_MRT/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/07_Outdoor%2B_Regions/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/07_Comfort/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/08_Outdoor%2B_Simulation/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/08_Post/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/09_Indoor/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/11_LBM/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/10_LBM/</loc>
-         <lastmod>2026-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/11_MRT_Radiation/</loc>
-         <lastmod>2026-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/12_MRT_SurfaceTemp/</loc>
-         <lastmod>2026-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/13_Comfort/</loc>
-         <lastmod>2026-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/14_ML/</loc>
-         <lastmod>2026-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/15_Post/</loc>
-         <lastmod>2026-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/categories/16_Sun_Shadow/</loc>
+         <loc>https://docs.eddy3d.com/1.10.0.827/categories/12_ML/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
@@ -94,6 +70,10 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/1.10.0.827/components/Air_Region/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.10.0.827/components/Airflow_Network_Cp/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
@@ -222,6 +202,10 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/1.10.0.827/components/Eddy3D_Setup/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.10.0.827/components/Esinti/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
@@ -421,6 +405,10 @@
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.10.0.827/components/Pollutant_Source/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.10.0.827/components/Probe/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
@@ -457,6 +445,10 @@
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.10.0.827/components/Scalar_Field_Viewer/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.10.0.827/components/Select_Template/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
@@ -485,15 +477,15 @@
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/components/Soil_Material/</loc>
-         <lastmod>2026-08-25</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/1.10.0.827/components/Solar_Irradiation/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
          <loc>https://docs.eddy3d.com/1.10.0.827/components/Streamlines/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.10.0.827/components/Study_Report/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
@@ -581,6 +573,10 @@
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.10.0.827/components/Vector_Field_Viewer/</loc>
+         <lastmod>2026-08-25</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.10.0.827/components/Vegetation_Mesh_Settings/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
@@ -622,10 +618,6 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/1.10.0.827/components/Wind_Compass/</loc>
-         <lastmod>2026-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/1.10.0.827/components/Wind_Field_Viewer/</loc>
          <lastmod>2026-08-25</lastmod>
     </url>
     <url>
