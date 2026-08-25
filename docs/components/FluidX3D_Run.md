@@ -8,11 +8,13 @@ Prepare and launch a FluidX3D GPU wind simulation (builds the solver from source
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Working Directory | Dir | Working directory (optional; default ~/Eddy3D/FluidX3D). | `Text` |
+| Case Name | Name | Case folder name below Working Directory. Letters, numbers, hyphens, and underscores only. | `Text` |
+| Working Directory | Dir | Parent directory for named FluidX3D cases (optional; default ~/Eddy3D/Cases/FluidX3D). | `Text` |
 | ABL |  | ABL inflow from the 'ABL Flow' component — the SAME boundary condition OpenFOAM uses. Supplies reference speed, reference height, roughness length and flow direction. Uses the first wind direction (FluidX3D runs one direction per case). | `Generic Data` |
 | Domain |  | Simulation domain (optional). Accepts the Box Domain component's output — its Front/Back/Side/Top extensions override the auto margins (Cell Size and refinement are OpenFOAM meshing concepts and are ignored; resolution follows the VRAM budget) — or a plain Box, used verbatim as the domain extents. | `Generic Data` |
 | Buildings | B | Building geometry to voxelize. | `Mesh` |
 | Settings | S | FluidX3D run settings (optional; defaults used otherwise). | `Generic Data` |
+| Clear |  | Delete this named case folder and all of its contents. | `Boolean` |
 | Prepare | P | Build the case + solver from source (does not launch). | `Boolean` |
 | Run | R | Prepare (if needed) and launch the GPU solver. | `Boolean` |
 

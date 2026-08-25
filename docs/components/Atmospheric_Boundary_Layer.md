@@ -16,11 +16,11 @@ Define atmospheric boundary layer inflow conditions for Eddy3D.
 | Turbulent KE (k) | k | Inlet/initial turbulent kinetic energy k (m^2/s^2) for the ABL. Used by the k field and the turbulence transports; the inlet patch still uses the atmBoundaryLayer k profile. Optional; default is 0.015. | `Number` |
 | Turbulent Epsilon (ε) | epsilon | Inlet/initial turbulent dissipation rate epsilon (m^2/s^3) for the k-epsilon family. The inlet patch still uses the atmBoundaryLayer epsilon profile. Optional; default is 0.135. | `Number` |
 | Turbulent Omega (ω) | omega | Inlet/initial specific dissipation rate omega (1/s) for the k-omega SST model. Optional; default is 100. | `Number` |
+| Terrain Type | Terrain | Upwind terrain class from the revised Davenport roughness classification (Davenport 1960; Wieringa 1992; Davenport, Grimmond, Oke & Wieringa 2000): 1 Sea 0.0002 m · 2 Smooth 0.005 m · 3 Open 0.03 m · 4 Roughly open 0.1 m · 5 Rough 0.25 m · 6 Very rough 0.5 m · 7 Skimming 1 m · 8 Chaotic 2 m. Picking a class sets the roughness length z0 from the table (shown on the banner); Custom uses the Roughness Length input instead. Describe the terrain the wind CROSSES upwind of the site, not the site itself. | `Text` |
 
 #### Output
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Boundary Conditions | BC | Atmospheric boundary layer inflow boundary conditions (including the wind directions); plug into the wind case BC input. | `Generic Data` |
+| Boundary Conditions | BC | Atmospheric boundary layer inflow boundary conditions (including the wind directions); plug into the wind case BC input, or into the Outdoor+ Air Region (which uses the first direction/speed because one Air Region represents one UMCF case). | `Generic Data` |
 | Wind Vectors | Vectors | Resolved unit flow vectors, one per wind direction. | `Vector` |
-| Air ABL Settings | AirABL | Outdoor+ Air Region-compatible ABL setting for the first resolved wind direction and speed. | `Generic Data` |

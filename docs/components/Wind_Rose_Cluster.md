@@ -2,21 +2,20 @@
 
 ![](/images/components/Wind_Rose_Cluster-crop.png)
 
-Cluster annual wind directions into representative directions using k-means.
+Cluster annual wind conditions into a budget of representative directions using k-means over hourly wind vectors (speed x direction): frequent, strong conditions attract the budget, and each cluster reports an observed direction/speed pair plus its frequency. Without wired speeds, clusters directions alone (unit vectors).
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Directions | Dirs | Wind directions in degrees (e.g. hourly values from an EPW). | `Number` |
-| Budget |  | Maximum number of representative directions (clusters). | `Integer` |
+| Budget |  | Maximum number of representative directions (clusters), e.g. 8 or 16. | `Integer` |
+| Wind Speeds | U | Hourly wind speeds (m/s) paired with Directions (optional). When wired, the clustering runs over wind VECTORS (speed x direction), so speed and frequency both shape the representative set; calm hours (< 0.5 m/s) are excluded. | `Number` |
 
 #### Output
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Centroids |  | Representative centroid direction of each cluster. | `Number` |
 | Wind Directions | Dirs | Distinct representative wind directions in degrees, sorted ascending; plug into the ABL or Uniform Flow component's Wind Directions input. | `Number` |
-| Clusters |  | Clustered direction vectors as points, one branch per cluster. | `Point` |
-| Breaks |  | Jenks-Fisher natural breaks of the input directions. | `Number` |
-| Distance | Dist | Total clustering distance (error). | `Number` |
+| Wind Speeds | U | Representative wind speed (m/s) per cluster — the observed speed of the cluster's medoid hour, aligned with Wind Directions; plug into the ABL component's Wind Speed input. Requires wired input speeds. | `Number` |
+| Frequencies | Freq | Fraction of (non-calm) hours in each cluster, aligned with Wind Directions — the per-direction weights for annual wind-comfort statistics. Sums to 1. | `Number` |

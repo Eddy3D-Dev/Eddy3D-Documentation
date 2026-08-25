@@ -13,6 +13,8 @@ CO2 generation rate of one occupant by age, activity and sex (Persily & de Jonge
 | Sex | S | 0 = average of both (default), 1 = male, 2 = female. | `Integer` |
 | Breathing Flow | BF | Breathing minute volume in L/min, used to convert the emission into an exhaled concentration. | `Number` |
 | Breaths | B | Breathing rate (breaths per minute). | `Number` |
+| Activity | Act | Activity level from the Persily & de Jonge (2017) table, labeled with ASHRAE 55 / Compendium anchors. Picking one sets the Metabolic Rate; Custom uses the Met input instead (which must still be one of the seven tabulated levels). | `Text` |
+| Sex Choice | SexC | Which sex's body-mass/BMR table row to use. Picking one sets the Sex input; Custom uses the wired integer (0 average, 1 male, 2 female). | `Text` |
 
 #### Output
 

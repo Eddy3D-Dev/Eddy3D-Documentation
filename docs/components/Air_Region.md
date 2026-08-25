@@ -8,7 +8,7 @@ Create an air region for the UMF case. OutdoorPlus
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| ABL Settings | ABL | Optional atmospheric boundary layer settings for the air region. | `Generic Data` |
+| ABL Settings | ABL | Optional atmospheric boundary layer inflow for the air region: wire the Atmospheric Boundary Layer component's Boundary Conditions output (the first direction/speed is used — one Air Region is one UMCF case). | `Generic Data` |
 
 #### Output
 
