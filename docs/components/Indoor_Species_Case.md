@@ -21,6 +21,7 @@ Build a CO2 species case (OpenFOAM 12 multicomponentFluid) with a breathing mani
 | Duration | T | Simulated seconds. | `Number` |
 | Probes | P | Probe points sampled for CO2 and temperature. | `Point` |
 | Write | W | Click to write the case to disk. Resets automatically so it never re-writes on recompute. | `Boolean` |
+| Clear | X | Click to delete the case folder. Resets automatically so it never re-deletes on recompute. | `Boolean` |
 
 #### Output
 
@@ -29,3 +30,4 @@ Build a CO2 species case (OpenFOAM 12 multicomponentFluid) with a breathing mani
 | Case Directory | Dir | Where the case was written. | `Text` |
 | Commands | Cmd | The OpenFOAM commands this case runs, in order. | `Text` |
 | Logs | L | Write log / status. | `Text` |
+| Case | C | The species case, for the Run component — mesh and solve from the canvas instead of pasting Commands into a terminal. Runs on the UMF engine profile: multicomponentFluid is not in the SimpleWind image. | `Generic Data` |

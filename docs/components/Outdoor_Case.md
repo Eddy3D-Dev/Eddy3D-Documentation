@@ -18,6 +18,7 @@ Create, write, and manage an Eddy3D outdoor wind simulation case.
 | Mesh Settings | MeshSet | Mesh settings from the Mesh Settings component. | `Generic Data` |
 | Run Settings | RunSet | Run settings from the Run Settings component. | `Generic Data` |
 | Ground Roughness | GroundZ0 | Ground roughness zones from the Ground Roughness or Land Cover Roughness component (optional). Each zone becomes its own ground patch with an explicit roughness length z0; floor area not covered by a zone keeps the global ABL roughness. | `Generic Data` |
+| Sources |  | Pollutant emission sources from the Pollutant Source component (optional). Each becomes a cell zone in the mesh; every species becomes a passive concentration field (kg/m3) solved alongside the wind on all direction cases. Sources sharing a Species solve as one field. | `Generic Data` |
 | Write |  | Write the case files to the working directory. | `Boolean` |
 | Clear Case | Clear | Delete all files for this case in the working directory. | `Boolean` |
 

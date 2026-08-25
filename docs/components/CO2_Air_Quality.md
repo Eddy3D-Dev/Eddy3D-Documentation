@@ -11,6 +11,7 @@ Grade indoor CO2 (ppm) against EN 16798-1 or another CO2-based IAQ standard.
 | Indoor CO2 | C | Indoor CO2 concentration(s) in ppm. | `Number` |
 | Outdoor CO2 | O | Outdoor background in ppm. One value, or one per indoor reading. | `Number` |
 | Standard | S | 0 EN 16798-1, 1 LEHB (JP), 2 SS 554 (SG), 3 HK EPD, 4 UBA (DE), 5 DOSH (MY), 6 NBR (BR). | `Integer` |
+| Standard Name | Std | The CO2-based IAQ standard by name. Picking one sets the Standard input; Custom uses the wired integer. | `Text` |
 
 #### Output
 

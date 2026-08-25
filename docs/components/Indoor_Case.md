@@ -19,6 +19,7 @@ Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) fo
 | Sources | Src | Emitters: Momentum / Heat / CO2 / Viral Source components. | `Generic Data` |
 | Wall Temp | WT | Optional wall temperature (K) for the transported temperature field (needs a Heat Source). | `Number` |
 | Walls | W | Optional Indoor Wall components with a Surface: each gets its own patch and temperature. Room faces not covered by one keep the case-wide Wall Temp. | `Generic Data` |
+| Age of Air | AoA | Solve the mean age of air (OpenFOAM 'age' function object) during the run. Age [s] is the time since the air at each point entered the room — the ventilation map: low = well flushed, high = trapped in a corner the supply never reaches. Unlike an air-change rate, which is one number for the whole room, it says WHERE the ventilation fails. Adds a cheap scalar transport solved at each write; probe the 'age' field to read it. Optional; default is off. | `Boolean` |
 | Write | W | Click to write the case to disk. Resets automatically so it never re-writes on recompute. | `Boolean` |
 | Clear | X | Click to delete the case folder. Resets automatically so it never re-deletes on recompute. | `Boolean` |
 

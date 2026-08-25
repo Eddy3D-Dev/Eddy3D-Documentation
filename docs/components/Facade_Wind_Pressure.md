@@ -15,6 +15,8 @@ External wind pressure on a facade per EN 1991-1-4, and the opening flow it driv
 | Opening Area | A | Loaded area of the opening (m2). | `Number` |
 | Zone | Z | Facade zone: 0 A, 1 B, 2 C (side bands from the windward corner), 3 D (windward), 4 E (leeward). | `Integer` |
 | Terrain | T | Terrain category: 0 sea, 1 open flat, 2 low vegetation, 3 suburban, 4 urban. | `Integer` |
+| Facade Zone | ZoneN | EN 1991-1-4 facade pressure zone by name. Picking one sets the Zone input; Custom uses the wired integer. | `Text` |
+| Terrain Category | TerrN | EN 1991-1-4 Table 4.1 terrain category by name. Picking one sets the Terrain input; Custom uses the wired integer. | `Text` |
 
 #### Output
 

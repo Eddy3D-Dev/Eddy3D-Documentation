@@ -10,7 +10,7 @@ Solver controls for the FluidX3D GPU engine (memory, simulated time, export inte
 | ---- | -------- | ----------- | ---- |
 | Memory | M | GPU memory budget (MB). | `Integer` |
 | Sim Time | T | Physical simulated time (s). | `Number` |
-| Export Interval | E | VTK export interval (s). | `Number` |
+| Export Interval | E | VTK export interval (s, simulated time). | `Number` |
 | Ground Z | Z | Ground plane Z (model units). | `Number` |
 | Source Dir | S | Optional override for the FluidX3D source folder. Leave empty to use the default install path. | `Text` |
 | Interactive | I | Open FluidX3D's native real-time GPU window (live render, on-the-fly camera + mode keys) while continuing periodic VTK export for Eddy3D Live View and probes. Windows: full support; macOS: requires XQuartz (X11). | `Boolean` |

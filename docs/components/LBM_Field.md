@@ -2,7 +2,7 @@
 
 ![](/images/components/LBM_Field-crop.png)
 
-Read the time-averaged pedestrian wind field from an LBM case directory. Outputs world-frame points and velocity vectors — plug both into the Wind Field Viewer.
+Read the time-averaged pedestrian wind field from an LBM case directory. Outputs world-frame points and velocity vectors — plug both into the Vector Field Viewer.
 
 #### Input
 
@@ -19,3 +19,4 @@ Read the time-averaged pedestrian wind field from an LBM case directory. Outputs
 | Velocity | V | Time-averaged velocity per point (m/s, world frame). | `Vector` |
 | Speed | S | Speed magnitude per point (m/s). | `Number` |
 | Status | St | Read status. | `Text` |
+| Spread | Sd | Per-point standard deviation of the speed across the perturbed-inflow ensemble members (m/s). Empty for a single run. High spread — typically in wakes and shear layers — means the local result is sensitive to inflow uncertainty; give comfort verdicts there extra margin. | `Number` |
