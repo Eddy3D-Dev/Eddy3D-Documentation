@@ -41,7 +41,7 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/categories/05_Sun_Shadow/</loc>
+         <loc>https://docs.eddy3d.com/1.11.0.827/categories/05_Sun_Shadow_Daylight/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
@@ -49,19 +49,19 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/categories/07_Comfort/</loc>
+         <loc>https://docs.eddy3d.com/1.11.0.827/categories/07_Post/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/categories/08_Post/</loc>
+         <loc>https://docs.eddy3d.com/1.11.0.827/categories/08_Post_Comfort/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/categories/11_LBM/</loc>
+         <loc>https://docs.eddy3d.com/1.11.0.827/categories/10_LBM/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/categories/12_ML/</loc>
+         <loc>https://docs.eddy3d.com/1.11.0.827/categories/11_ML/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
@@ -78,6 +78,10 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/Analysis_Period/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Annual_Daylight/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
@@ -121,6 +125,10 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Case_Run/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/Cell_Size/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
@@ -157,6 +165,10 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Daily_Light_Integral/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/Dataset_Curator/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
@@ -165,7 +177,15 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Daylight_Factor/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/Deconstruct_Case/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Deconstruct_DLI/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
@@ -174,6 +194,10 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/Deconstruct_Region/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Deconstruct_Shadow/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
@@ -229,6 +253,10 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Flex_Legend/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/Flow_Rates/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
@@ -237,15 +265,7 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/components/FluidX3D_Run/</loc>
-         <lastmod>2026-08-29</lastmod>
-    </url>
-    <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/FluidX3D_Run_Settings/</loc>
-         <lastmod>2026-08-29</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/components/GAN_Predict/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
@@ -366,6 +386,10 @@
     </url>
     <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/Momentum_Source/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Monthly_Climate_Chart/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
@@ -597,11 +621,27 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Vertical_Sky_Component/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/ViewFactors/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/View_Target/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Viewshed/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
          <loc>https://docs.eddy3d.com/1.11.0.827/components/Viral_Emitter/</loc>
+         <lastmod>2026-08-29</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Water_Surface/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
@@ -621,11 +661,11 @@
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/components/Wind_Legend/</loc>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Wind_Predictor/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
-         <loc>https://docs.eddy3d.com/1.11.0.827/components/Wind_Predictor/</loc>
+         <loc>https://docs.eddy3d.com/1.11.0.827/components/Wind_Predictor_Cloud/</loc>
          <lastmod>2026-08-29</lastmod>
     </url>
     <url>
