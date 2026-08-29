@@ -1,13 +1,13 @@
 {!toolbar.md!}
 
 <style>
-.Main-GhToolbar-Container .SubGroup-Container:not([data-category="08_Post"]) {
+.Main-GhToolbar-Container .SubGroup-Container:not([data-category="07_Post"]) {
   filter: grayscale(1);
   opacity: 0.35;
 }
 </style>
 
-# 08 Post
+# 07 Post
 <h4 id="main-components">Main Components</h4>
 <div class="index-quicklink-container">
     <a href="/components/Deconstruct_Case/" style="text-decoration: none;">
@@ -16,6 +16,14 @@
                 <img src="/images/icons/Deconstruct_Case.png" class="nav-gh-icon"> Deconstruct Case
             </div>
             <div class="index-quicklink-text">Inspect any Eddy3D case: Outdoor wind study, Indoor case, or OutdoorPlus (UMF) case.</div>
+        </div>
+    </a>
+    <a href="/components/Probe/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Probe.png" class="nav-gh-icon"> Probe
+            </div>
+            <div class="index-quicklink-text">Sample fields at points on a solved case, post-hoc. With Run it writes a probes function and runs postProcess on the requested Time (latest by default), then reads the results; without Run it reads existing results. Works on a wind case (one sub-result per direction) or a loaded case.</div>
         </div>
     </a>
     <a href="/components/Create_Mesh/" style="text-decoration: none;">
@@ -56,14 +64,6 @@
                 <img src="/images/icons/Read_checkMesh.png" class="nav-gh-icon"> Read checkMesh
             </div>
             <div class="index-quicklink-text">Read and visualize sets produced by checkMesh. OutdoorPlus</div>
-        </div>
-    </a>
-    <a href="/components/Probe/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Probe.png" class="nav-gh-icon"> Probe
-            </div>
-            <div class="index-quicklink-text">Sample fields at points on a solved case, post-hoc. With Run it writes a probes function and runs postProcess on the requested Time (latest by default), then reads the results; without Run it reads existing results. Works on a wind case (one sub-result per direction) or a loaded case.</div>
         </div>
     </a>
     <a href="/components/Streamlines/" style="text-decoration: none;">

@@ -23,7 +23,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Safety_Toggle.png" class="nav-gh-icon"> Safety Toggle
             </div>
-            <div class="index-quicklink-text">A boolean toggle that is always FALSE when a file is opened. Useful for preventing automatic execution of heavy ML models. Double-click to toggle.</div>
+            <div class="index-quicklink-text">A boolean toggle that is always FALSE when a file is opened. Useful for preventing automatic execution of heavy work. When Run is connected to several component inputs, they run one Grasshopper solution at a time in canvas order. Double-click to toggle.</div>
         </div>
     </a>
     <a href="/components/Settle_Data/" style="text-decoration: none;">

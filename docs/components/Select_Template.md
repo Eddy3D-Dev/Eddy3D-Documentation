@@ -9,6 +9,7 @@ Load example Grasshopper definitions for common workflows.  Templates include mi
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Additional Folders | Dirs | Optional: Additional folder paths or GitHub URLs to search for .gh/.ghx templates. Example URL: https://github.com/Startraders/Eddy3D-Templates/tree/main/Outdoor | `Text` |
+| HF Token | HFToken | Optional Hugging Face access token (starts with hf_) or path to a .txt file containing one. A token authorized for Eddy3D's private models also unlocks internal templates for this Rhino session. | `Text` |
 
 #### Output
 

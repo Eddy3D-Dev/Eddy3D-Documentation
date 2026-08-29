@@ -1,13 +1,13 @@
 {!toolbar.md!}
 
 <style>
-.Main-GhToolbar-Container .SubGroup-Container:not([data-category="07_Comfort"]) {
+.Main-GhToolbar-Container .SubGroup-Container:not([data-category="08_Post_Comfort"]) {
   filter: grayscale(1);
   opacity: 0.35;
 }
 </style>
 
-# 07 Comfort
+# 08 Post Comfort
 <h4 id="main-components">Main Components</h4>
 <div class="index-quicklink-container">
     <a href="/components/Thermal_Comfort/" style="text-decoration: none;">
@@ -18,20 +18,20 @@
             <div class="index-quicklink-text">Compute a thermal comfort metric at a point: UTCI (Ta, RH, wind, MRT), PET (adds the personal inputs), or NOAA Heat Index (Ta, RH only). Pick the metric from the dropdown — the inputs adapt. Wire hourly lists (e.g. EPW series) to compute annual values.</div>
         </div>
     </a>
-    <a href="/components/Deconstruct_UTCI/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Deconstruct_UTCI.png" class="nav-gh-icon"> Deconstruct UTCI
-            </div>
-            <div class="index-quicklink-text">Probe-specific statistics and comfort hours/% from a UTCI Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map.</div>
-        </div>
-    </a>
     <a href="/components/UTCI_Simulation/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/UTCI_Simulation.png" class="nav-gh-icon"> UTCI Simulation
             </div>
             <div class="index-quicklink-text">Compute annual probe-specific UTCI from simulation outputs: MRT and wind-speed data trees, plus air temperature and relative humidity. For a weather-only calculator, use "UTCI (Weather)".</div>
+        </div>
+    </a>
+    <a href="/components/Deconstruct_UTCI/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Deconstruct_UTCI.png" class="nav-gh-icon"> Deconstruct UTCI
+            </div>
+            <div class="index-quicklink-text">Probe-specific statistics and comfort hours/% from a UTCI Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map.</div>
         </div>
     </a>
     <a href="/components/Comfort_Hours/" style="text-decoration: none;">

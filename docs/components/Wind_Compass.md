@@ -13,6 +13,7 @@ Visualize a wind direction on a compass circle. Direction is meteorological degr
 | Base Point | Pt | Center of the compass. | `Point` |
 | Color | Col | Display color. | `Colour` |
 | Arrow Scale | Scale | Scale of the directional arrow. | `Number` |
+| Weather |  | Optional Eddy3D Weather object. When connected, replaces the direction arrow with a 16-sector annual wind rose. Radial length is occurrence frequency and stacked colors are wind-speed ranges in m/s. | `Generic Data` |
 
 #### Output
 

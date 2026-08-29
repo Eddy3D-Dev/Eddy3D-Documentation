@@ -18,6 +18,14 @@
             <div class="index-quicklink-text">Generate a multi-resolution terrain mesh from input geometry with a solid base. OutdoorPlus</div>
         </div>
     </a>
+    <a href="/components/Case_Run/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Case_Run.png" class="nav-gh-icon"> Case Run
+            </div>
+            <div class="index-quicklink-text">Prepare and run a UMF case. OutdoorPlus</div>
+        </div>
+    </a>
     <a href="/components/Gmsh_Mesh/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -26,12 +34,36 @@
             <div class="index-quicklink-text">Creates a STL mesh from geometry using the gmsh application. Useful to create healthy mesh topologies for building elements.</div>
         </div>
     </a>
+    <a href="/components/Outdoor+_Case/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Outdoor+_Case.png" class="nav-gh-icon"> Outdoor+ Case
+            </div>
+            <div class="index-quicklink-text">Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus</div>
+        </div>
+    </a>
+    <a href="/components/Water_Surface/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Water_Surface.png" class="nav-gh-icon"> Water Surface
+            </div>
+            <div class="index-quicklink-text">Coupled evaporating water surface for urbanMicroclimateFoam. The water geometry becomes a named air patch that exchanges sensible heat and moisture with the air; water motion and a moving free surface are not solved. Requires an UMF build that includes the simpleWater model.</div>
+        </div>
+    </a>
     <a href="/components/Weather/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/Weather.png" class="nav-gh-icon"> Weather
             </div>
             <div class="index-quicklink-text">Read an EPW file and create a Weather object for the simulation. OutdoorPlus</div>
+        </div>
+    </a>
+    <a href="/components/Air_Region/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Air_Region.png" class="nav-gh-icon"> Air Region
+            </div>
+            <div class="index-quicklink-text">Create an air region for the UMF case. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/Building_Material/" style="text-decoration: none;">
@@ -50,12 +82,28 @@
             <div class="index-quicklink-text">Configure mesh refinement for building regions.</div>
         </div>
     </a>
+    <a href="/components/Building_Region/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Building_Region.png" class="nav-gh-icon"> Building Region
+            </div>
+            <div class="index-quicklink-text">Build a solid building region for the UMF case: from the façade surface meshes, two material wall layers (outer + inner) are extruded inward to model heat and moisture transport through the building envelope.</div>
+        </div>
+    </a>
     <a href="/components/Terrain_Mesh_Settings/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/Terrain_Mesh_Settings.png" class="nav-gh-icon"> Terrain Mesh Settings
             </div>
             <div class="index-quicklink-text">Configure mesh settings for terrain and underground regions. OutdoorPlus</div>
+        </div>
+    </a>
+    <a href="/components/Terrain_Region/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Terrain_Region.png" class="nav-gh-icon"> Terrain Region
+            </div>
+            <div class="index-quicklink-text">Create a terrain region with materials and depth settings. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/Terrain_Surface_Material/" style="text-decoration: none;">
@@ -80,30 +128,6 @@
                 <img src="/images/icons/Vegetation_Properties.png" class="nav-gh-icon"> Vegetation Properties
             </div>
             <div class="index-quicklink-text">Define vegetation property coefficients for canopy modeling. Shows the recommended coefficients (Leaf Length, rsMin, kc) by default; right-click to show all coefficients (Cd, C, nEvapSides). OutdoorPlus</div>
-        </div>
-    </a>
-    <a href="/components/Air_Region/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Air_Region.png" class="nav-gh-icon"> Air Region
-            </div>
-            <div class="index-quicklink-text">Create an air region for the UMF case. OutdoorPlus</div>
-        </div>
-    </a>
-    <a href="/components/Building_Region/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Building_Region.png" class="nav-gh-icon"> Building Region
-            </div>
-            <div class="index-quicklink-text">Build a solid building region for the UMF case: from the façade surface meshes, two material wall layers (outer + inner) are extruded inward to model heat and moisture transport through the building envelope.</div>
-        </div>
-    </a>
-    <a href="/components/Terrain_Region/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Terrain_Region.png" class="nav-gh-icon"> Terrain Region
-            </div>
-            <div class="index-quicklink-text">Create a terrain region with materials and depth settings. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/Vegetation_Region/" style="text-decoration: none;">
@@ -152,14 +176,6 @@
                 <img src="/images/icons/ViewFactors.png" class="nav-gh-icon"> ViewFactors
             </div>
             <div class="index-quicklink-text">Configure the view-factor discretization for radiation modeling. OutdoorPlus</div>
-        </div>
-    </a>
-    <a href="/components/Outdoor+_Case/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Outdoor+_Case.png" class="nav-gh-icon"> Outdoor+ Case
-            </div>
-            <div class="index-quicklink-text">Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/CheckMesh/" style="text-decoration: none;">

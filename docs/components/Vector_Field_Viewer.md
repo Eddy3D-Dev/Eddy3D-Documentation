@@ -8,7 +8,7 @@ Visualize a probed vector field: colored velocity arrows, a point cloud, a heatm
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Points | P | Sample points (e.g. the probe points). | `Point` |
+| Points | P | Sample points (e.g. the probe points). Empty with a Mesh wired uses the mesh's vertices — the WRF Probe's Mesh output carries one vertex per sample in Values order, so mesh-only wiring is complete. | `Point` |
 | Velocity | V | Velocity vector per point. | `Vector` |
 | Display Mode | M | How to render the field: Vector Field (arrows), Point Cloud, Heatmap Mesh (colors a supplied mesh), Streamlines, or Volumetric Smoke. | `Text` |
 | Mesh | Msh | Surface to color for Heatmap Mesh mode (colored per vertex from the nearest sample). Ignored in the other modes. | `Mesh` |
@@ -27,4 +27,4 @@ Visualize a probed vector field: colored velocity arrows, a point cloud, a heatm
 | ---- | -------- | ----------- | ---- |
 | Geometry | G | Colored viz geometry for baking: arrow lines, points, or the colored mesh. | `Generic Data` |
 | Colors | C | Color per element (aligned with Geometry). | `Colour` |
-| Range | R | The speed range the colors span (m/s): Min/Max Speed where supplied, otherwise the data minimum/maximum. Feed it to the Wind Legend component for a matching legend, or into a second Vector Field Viewer's Min/Max Speed to color two fields on one scale. | `Domain` |
+| Range | R | The speed range the colors span (m/s): Min/Max Speed where supplied, otherwise the data minimum/maximum. Feed it to the Flex Legend component for a matching legend, or into a second Vector Field Viewer's Min/Max Speed to color two fields on one scale. | `Domain` |

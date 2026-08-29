@@ -28,3 +28,4 @@ Prepare and launch a container-based OpenLB wind simulation (Smagorinsky LES, ti
 | Logs | L | Run log / status. | `Text` |
 | Case | C | LBM case directory — plug into the 'LBM Field' component to read results. | `Text` |
 | Domain | D | Resolved simulation domain in world coordinates (wind-aligned, matching how the lattice actually sits around the buildings). Updates live with the inputs — no Prepare needed; the standard preview renders it in the viewport. | `Box` |
+| Folder | F | Case ROOT folder. Identical to Case for OpenLB; for FluidX3D it is the parent that holds the FluidX3D source tree beside the VTK export directory that Case points at. | `Text` |
