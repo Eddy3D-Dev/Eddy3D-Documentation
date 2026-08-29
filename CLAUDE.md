@@ -22,3 +22,13 @@ On every Eddy3D plugin release (see the main repo's `.claude/skills/release-eddy
 Component pages under `docs/components/` are regenerated from the plugin
 (`tools/export_components.py` in this repo); hand-edits to generated pages get
 overwritten on the next export.
+
+The ribbon nav in `mkdocs.yml` is generated too — the export writes
+`docs/components_nav.yml` and splices that block straight into `mkdocs.yml`
+between the `  - Components:` key and the next top-level nav entry. Do not
+hand-edit it. It used to be reconciled by hand and drifted: 1.10.0.827 shipped a
+nav still listing `01 Outdoor Setup`, `08 FluidX3D` and three other categories
+that no longer existed, so those entries pointed at nothing while the
+regenerated pages sat unlinked. `tools/generate_docs.sh --check` now watches
+`mkdocs.yml` as well as `docs/`, which is why it missed that: mkdocs.yml is one
+level above the path it was scoped to.
