@@ -18,6 +18,14 @@
             <div class="index-quicklink-text">External wind pressure on a facade per EN 1991-1-4, and the opening flow it drives.</div>
         </div>
     </a>
+    <a href="/components/Indoor_Case/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Indoor_Case.png" class="nav-gh-icon"> Indoor Case
+            </div>
+            <div class="index-quicklink-text">Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12.</div>
+        </div>
+    </a>
     <a href="/components/Occupant_CO2/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -104,14 +112,6 @@
                 <img src="/images/icons/Viral_Emitter.png" class="nav-gh-icon"> Viral Emitter
             </div>
             <div class="index-quicklink-text">An airborne-pathogen passive-scalar source box for an indoor ventilation case.</div>
-        </div>
-    </a>
-    <a href="/components/Indoor_Case/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Indoor_Case.png" class="nav-gh-icon"> Indoor Case
-            </div>
-            <div class="index-quicklink-text">Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12.</div>
         </div>
     </a>
     <a href="/components/Indoor_Species_Case/" style="text-decoration: none;">

@@ -2,7 +2,7 @@
 
 ![](/images/components/Safety_Toggle-crop.png)
 
-A boolean toggle that is always FALSE when a file is opened. Useful for preventing automatic execution of heavy ML models. Double-click to toggle.
+A boolean toggle that is always FALSE when a file is opened. Useful for preventing automatic execution of heavy work. When Run is connected to several component inputs, they run one Grasshopper solution at a time in canvas order. Double-click to toggle.
 
 #### Input
 
@@ -12,4 +12,4 @@ A boolean toggle that is always FALSE when a file is opened. Useful for preventi
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Run | R | Boolean value (always FALSE on file open). | `Boolean` |
+| Run |  | Boolean value (always FALSE on file open). Two or more directly connected components are triggered sequentially in canvas order. Run stays TRUE until manually toggled. | `Boolean` |

@@ -34,6 +34,14 @@
             <div class="index-quicklink-text">Define inflow boundary conditions from a manually entered vertical profile (z/zR, U/UR, k/UR^2) instead of the parametric ABL log-law. Writes fixedProfile inlet conditions for U, k and epsilon. epsilon is derived from the profile as epsilon(z) = Cmu^0.5 * k(z) * d(U)/dz.</div>
         </div>
     </a>
+    <a href="/components/Monthly_Climate_Chart/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Monthly_Climate_Chart.png" class="nav-gh-icon"> Monthly Climate Chart
+            </div>
+            <div class="index-quicklink-text">Visualize monthly dry-bulb temperature and relative humidity from Eddy3D Weather as two aligned min/mean/max charts.</div>
+        </div>
+    </a>
     <a href="/components/Morph_Settings/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -48,6 +56,22 @@
                 <img src="/images/icons/Morph_Weather.png" class="nav-gh-icon"> Morph Weather
             </div>
             <div class="index-quicklink-text">Morph a present-day EPW into future-climate EPWs with the Future Weather Generator (future-weather-generator.adai.pt), then feed the result to any Eddy3D workflow. Needs Java 17+ and the generator's .jar, which Eddy3D does not ship: download the distribution you need (CMIP6 Global, CORDEX-CMIP5 Europe, …) into ~/Eddy3D/FWG. The tool is licensed CC BY-NC-SA 4.0 — noncommercial use, attribution required.</div>
+        </div>
+    </a>
+    <a href="/components/Outdoor_Case/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Outdoor_Case.png" class="nav-gh-icon"> Outdoor Case
+            </div>
+            <div class="index-quicklink-text">Create, write, and manage an Eddy3D outdoor wind simulation case.</div>
+        </div>
+    </a>
+    <a href="/components/Run/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Run.png" class="nav-gh-icon"> Run
+            </div>
+            <div class="index-quicklink-text">Mesh and run an OpenFOAM case on the selected engine (wind / indoor / UMF).</div>
         </div>
     </a>
     <a href="/components/Uniform_Flow/" style="text-decoration: none;">
@@ -90,12 +114,28 @@
             <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius targets the 3% frontal-blockage limit of ASCE/SEI CWE Prestandard AC 6-8b, which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge.</div>
         </div>
     </a>
+    <a href="/components/Flex_Legend/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Flex_Legend.png" class="nav-gh-icon"> Flex Legend
+            </div>
+            <div class="index-quicklink-text">Create a metric-aware color legend and an optional colored mesh from point/value samples. Supports wind, solar, sun-hours, temperature and other environmental data.</div>
+        </div>
+    </a>
     <a href="/components/Mesh_Settings/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/Mesh_Settings.png" class="nav-gh-icon"> Mesh Settings
             </div>
             <div class="index-quicklink-text">Configure mesh refinement, layers, and grading for Eddy3D.</div>
+        </div>
+    </a>
+    <a href="/components/Velocity_Amplification_Factors_VAF/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Velocity_Amplification_Factors_VAF.png" class="nav-gh-icon"> Velocity Amplification Factors VAF
+            </div>
+            <div class="index-quicklink-text">Compute Velocity Amplification Factors (VAF) and annual wind speed at probes from CFD or ML wind-prediction results and EPW weather data. VAF (the term used in the wind-engineering literature for what Eddy3D historically called "wind factors") is the local wind speed normalized by the reference speed.</div>
         </div>
     </a>
     <a href="/components/Brep_Grid_Points/" style="text-decoration: none;">
@@ -120,6 +160,14 @@
                 <img src="/images/icons/Land_Cover_Roughness.png" class="nav-gh-icon"> Land Cover Roughness
             </div>
             <div class="index-quicklink-text">Fetch land-cover polygons around a location from OpenStreetMap (open data, Overpass API) and classify each into an aerodynamic roughness length via the Davenport-Wieringa terrain classification — plus the terrain elevation around the site (AWS Terrain Tiles, open data). Outputs ready-made ground roughness zones and a terrain mesh for the wind case.</div>
+        </div>
+    </a>
+    <a href="/components/Pedestrian_Wind_Comfort/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Pedestrian_Wind_Comfort.png" class="nav-gh-icon"> Pedestrian Wind Comfort
+            </div>
+            <div class="index-quicklink-text">Classifies pedestrian wind comfort per point from an annual hourly wind-speed series (the Wind Speed output of the Velocity Amplification Factors (VAF) component) against a comfort criterion (Lawson, Davenport, NEN8100). Returns the comfort category, class letter, and activity description for each point.</div>
         </div>
     </a>
     <a href="/components/Pollutant_Source/" style="text-decoration: none;">
@@ -162,14 +210,6 @@
             <div class="index-quicklink-text">Reference an existing wind case folder (mesh/ + case_NNN) for post-processing.</div>
         </div>
     </a>
-    <a href="/components/Outdoor_Case/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Outdoor_Case.png" class="nav-gh-icon"> Outdoor Case
-            </div>
-            <div class="index-quicklink-text">Create, write, and manage an Eddy3D outdoor wind simulation case.</div>
-        </div>
-    </a>
     <a href="/components/Refinement_Region/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -210,14 +250,6 @@
             <div class="index-quicklink-text">Open the web-based residual plotter for a wind case's convergence history (one trace per direction).</div>
         </div>
     </a>
-    <a href="/components/Run/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Run.png" class="nav-gh-icon"> Run
-            </div>
-            <div class="index-quicklink-text">Mesh and run an OpenFOAM case on the selected engine (wind / indoor / UMF).</div>
-        </div>
-    </a>
     <a href="/components/Write_Run_Scripts/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -242,14 +274,6 @@
             <div class="index-quicklink-text">Compute volumetric flow rates (m³/s) across a mesh, treating its vertices as velocity probes. Per face: average vertex velocities × face area × cos(angle to face normal).</div>
         </div>
     </a>
-    <a href="/components/Pedestrian_Wind_Comfort/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Pedestrian_Wind_Comfort.png" class="nav-gh-icon"> Pedestrian Wind Comfort
-            </div>
-            <div class="index-quicklink-text">Classifies pedestrian wind comfort per point from an annual hourly wind-speed series (the Wind Speed output of the Velocity Amplification Factors (VAF) component) against a comfort criterion (Lawson, Davenport, NEN8100). Returns the comfort category, class letter, and activity description for each point.</div>
-        </div>
-    </a>
     <a href="/components/Scalar_Field_Viewer/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -264,14 +288,6 @@
                 <img src="/images/icons/Vector_Field_Viewer.png" class="nav-gh-icon"> Vector Field Viewer
             </div>
             <div class="index-quicklink-text">Visualize a probed vector field: colored velocity arrows, a point cloud, a heatmap mesh, streamlines, or volumetric smoke (pick via Display Mode). Feed the Probe component's points + velocity vectors (Field = U), or any points + vectors. For a field without direction — CO2, temperature, age of air, Cp — use the Scalar Field Viewer.</div>
-        </div>
-    </a>
-    <a href="/components/Velocity_Amplification_Factors_VAF/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Velocity_Amplification_Factors_VAF.png" class="nav-gh-icon"> Velocity Amplification Factors VAF
-            </div>
-            <div class="index-quicklink-text">Compute Velocity Amplification Factors (VAF) and annual wind speed at probes from CFD or ML wind-prediction results and EPW weather data. VAF (the term used in the wind-engineering literature for what Eddy3D historically called "wind factors") is the local wind speed normalized by the reference speed.</div>
         </div>
     </a>
     <a href="/components/Analysis_Period/" style="text-decoration: none;">
@@ -312,14 +328,6 @@
                 <img src="/images/icons/Translate_Date_To_Hours.png" class="nav-gh-icon"> Translate Date To Hours
             </div>
             <div class="index-quicklink-text">Translate a Ladybug analysis period to hours of the year.</div>
-        </div>
-    </a>
-    <a href="/components/Wind_Legend/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Wind_Legend.png" class="nav-gh-icon"> Wind Legend
-            </div>
-            <div class="index-quicklink-text">Color-scale legend for wind speed: a colored bar with labeled ticks matching the Vector Field Viewer's ramp. Wire the viewer's Range output into Range so the legend always shows the span the colors actually map, and pick the same Color Map.</div>
         </div>
     </a>
 </div>

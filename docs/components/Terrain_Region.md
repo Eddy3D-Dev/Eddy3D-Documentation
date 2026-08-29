@@ -14,6 +14,8 @@ Create a terrain region with materials and depth settings. OutdoorPlus
 | Soil Depth | SoilDepth | Soil layer depth. Optional; default is 1.9. | `Number` |
 | Terrain Temperature | Temp | Initial terrain temperature (deg C). Optional; default is 25. | `Number` |
 | Mesh Settings | MeshSet | Optional meshing settings for the terrain region. | `Generic Data` |
+| Geometry | Geo | Sloped terrain geometry (Rhino mesh). If empty, a flat terrain is generated. | `Mesh` |
+| Water Body | Water | Optional pond/basin footprint (a Box). Cells of the terrain surface layer inside it become an always-saturated open-water material zone: the solver's existing coupled moisture boundary then evaporates from it at the potential rate. Keep it shallow — it is clipped to the surface layer. | `Box` |
 
 #### Output
 

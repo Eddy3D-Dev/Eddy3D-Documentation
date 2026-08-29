@@ -8,7 +8,7 @@ Sample fields at points on a solved case, post-hoc. With Run it writes a probes 
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Case |  | What to probe: a solved case (wind / loaded / UMF / indoor), or either Folder/Case output of FluidX3D Run. The component resolves its VTK directory automatically. | `Generic Data` |
+| Case |  | What to probe: a solved case (wind / loaded / UMF / indoor), or either Folder/Case output of LBM Run when it ran FluidX3D. The component resolves its VTK directory automatically. | `Generic Data` |
 | Points | Pts | Probe points in model space. Required when Run is true. | `Point` |
 | Field |  | Field to sample, from the dropdown of common OpenFOAM fields (U, p, k, epsilon, …). Type or wire any other field name for a custom quantity. For a FluidX3D VTK directory: "rho"/"density" → density, otherwise velocity. | `Text` |
 | Region |  | Region to probe; leave empty for single-region (wind) cases. | `Text` |

@@ -14,7 +14,7 @@ Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus
 | Case Name | Name | Case folder name (no spaces). | `Text` |
 | Working Directory | Dir | Folder for case files and results. | `Text` |
 | Air Region | Air | Air region for this case. | `Generic Data` |
-| Vegetation Region | Vegetation | Vegetation region for this case. | `Generic Data` |
+| Vegetation Region | Vegetation | Optional vegetation region. Leave disconnected for cases without trees or canopy. | `Generic Data` |
 | Building Region | BR | Building region of this case. | `Generic Data` |
 | Terrain Region | Terrain | Terrain region for this simulation (optional). | `Generic Data` |
 | Domain Parameters | Domain | Domain and refinement box parameters. | `Number` |
@@ -23,6 +23,7 @@ Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus
 | Simulation Mesh Settings | MeshSettings | Simulation mesh settings. | `Generic Data` |
 | View Factor Settings | ViewFactors | View factor settings. | `Generic Data` |
 | Custom Entries | Custom | Optional additional entries to merge into the case. | `Generic Data` |
+| Water Surface | Water | Optional coupled water surface from the Water Surface component. | `Generic Data` |
 
 #### Output
 

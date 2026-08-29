@@ -12,10 +12,10 @@ Solver controls for the container-based LBM wind engine (grid spacing, warmup an
 | Warmup | W | Physical seconds of simulated wind discarded before averaging starts. 0 = auto: two domain flow-throughs (length / reference speed), at least 60 s — fixed seconds quietly under-run large domains. | `Number` |
 | Averaging | A | Physical seconds of simulated wind averaged into the reported field. 0 = auto: four domain flow-throughs, at least 120 s. | `Number` |
 | Probe Height | Hp | Height above ground of the pedestrian-level result layer (m). | `Number` |
-| Probe Spacing | Sp | Spacing of the result grid (m). | `Number` |
+| Probe Spacing | Sp | Spacing of the result grid (m). 0 = auto: follows Grid Spacing (one probe per lattice cell), coarsened by powers of two if that would put more than 200,000 probes on the canvas. Sampling FINER than the grid does not resolve more — neighbouring probes then interpolate inside the same lattice cells. | `Number` |
 | GPU |  | Run the CUDA build of the solver image (needs an NVIDIA GPU + container toolkit; Windows/Linux only — macOS containers have no CUDA). | `Boolean` |
 | Runtime | Rt | How the solver runs. Auto prefers Podman, falls back to Docker, then to a native install; Docker and Podman run the same OCI image. Native runs a host-installed eddy3dWind executable with NO container at all — the Windows path when neither Podman nor Docker Desktop is an option. Native is CPU (OpenMP) only; the CUDA build ships as a container image. | `Text` |
-| Image | Img | Container image override. Empty = pkastner/openlb-wind:latest. | `Text` |
+| Image | Img | Container image override. Empty = docker.io/pkastner/openlb-wind:latest. | `Text` |
 | Jitter | Jit | Slowly vary the inflow direction by a few degrees (deterministic). Seeds resolved unsteadiness a steady analytic inflow lacks, so exposed upstream areas stop reading unrealistically calm. Off = perfectly steady inflow. | `Boolean` |
 | Jitter Amplitude | Jd | Direction variation in degrees when Jitter is on. | `Number` |
 | Vegetation Drag | Veg | Crown density for PLAIN meshes wired into the LBM Run component's Vegetation input, as Cd x leaf area density (1/m): 0.1 sparse, 0.25 typical, 0.5 dense. Vegetation Region objects carry their own Cd x LAD and ignore this. | `Number` |

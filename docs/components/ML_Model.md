@@ -2,7 +2,7 @@
 
 ![](/images/components/ML_Model-crop.png)
 
-Download an ONNX wind-prediction model from HuggingFace for the Wind Predictor component. Yel 2.0 is public; Esen 1.0 and Poyraz 1.0 need a HuggingFace token. All are 8-channel Wind Predictor models. (Yel 1.0 is a different architecture — the GAN image model used by GAN Predict via its API — and cannot be loaded here.) Models cache in ~/Eddy3D/Models/ and are reused on subsequent runs (a model already downloaded to the old ~/SUS_LAB/ folder is moved over, not re-fetched).
+Download an ONNX wind-prediction model from HuggingFace for the Wind Predictor component. Yel 2.0 is public; Esen 1.0 and Poyraz 1.0 need a HuggingFace token. All are 8-channel Wind Predictor models. (Yel 1.0 is a different architecture — the GAN image model the hosted Wind Predictor (Cloud) component runs via its API — and cannot be loaded here.) Models cache in ~/Eddy3D/Models/ and are reused on subsequent runs (a model already downloaded to the old ~/SUS_LAB/ folder is moved over, not re-fetched).
 
 #### Input
 

@@ -12,7 +12,7 @@ Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshe
 | Type | T | Surface type. Drives the default reflectance, the EnergyPlus construction, and the type-specific view-factor totals. | `Text` |
 | Simulated | S | True if the surface temperature is solved; false treats it as ambient. | `Boolean` |
 | Patch Size | P | Target mesh patch edge length (m) for view-factor resolution. | `Number` |
-| Material | Mat | Optional material from a Surface / Vegetation / Tree Settings component; overrides the default reflectance / Radiance material for this surface. | `Generic Data` |
+| Material | Mat | Optional material from an Outdoor+ Building / Terrain Material component or an MRT Surface / Vegetation / Tree Settings component. UMF thermal properties are reused directly; MRT optical properties override the default reflectance. | `Generic Data` |
 | Temperature | Tsrf | Optional surface temperature (°C) for longwave MRT. Connect SurfaceTemp directly: both {hour}(surface points) and {surface point}(hours) trees are accepted. A single value or one shared 8760-hour series is also supported. Overrides Simulated. | `Number` |
 | Temperature Points | TempPts | Optional points used to calculate SurfaceTemp. When their count differs from the MRT mesh polygon count, each polygon uses its nearest temperature sample. | `Point` |
 

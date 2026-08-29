@@ -24,3 +24,4 @@ Lit or shaded at each analysis point for one or more sun instants — the shadow
 | Colors | Col | Sunlit yellow / shaded blue, matching the Sun Hours ramp's endpoints. | `Colour` |
 | Sunlit Points | SP | Just the lit points, flattened — convenient for a preview. | `Point` |
 | Report | R | Instants evaluated and the lit fraction of each. | `Text` |
+| Result | Res | The whole solve — every point at every instant — as ONE item. Feed it to Deconstruct Shadow to expand only the instants you want to look at. This is the output to use for anything longer than a handful of hours: the trees above are points x instants of boxed Grasshopper data, and an annual study is tens of millions of them. | `Generic Data` |
