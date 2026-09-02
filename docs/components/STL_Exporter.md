@@ -10,7 +10,7 @@ Export geometry to STL format for OpenFOAM or other CFD tools. Supports meshes a
 | ---- | -------- | ----------- | ---- |
 | Geometry | Geo | Meshes or Breps to export. | `Geometry` |
 | File Path | File | Destination file path (.stl). | `Text` |
-| Mode |  | Export mode: 0=Binary, 1=ASCII, 2=Binary (multi-file), 3=ASCII (multi-file). | `Integer` |
+| Mode |  | Export mode: Binary or ASCII encoding, as one file or one file per input geometry ("List"). Also accepts the legacy index 0-3. | `Text` |
 | Edge Length | Edge | Optional: maximum edge length for auto-meshing Breps (m). 0 = default meshing. | `Number` |
 
 #### Output

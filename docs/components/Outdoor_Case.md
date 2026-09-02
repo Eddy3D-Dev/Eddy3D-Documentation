@@ -19,6 +19,8 @@ Create, write, and manage an Eddy3D outdoor wind simulation case.
 | Run Settings | RunSet | Run settings from the Run Settings component. | `Generic Data` |
 | Ground Roughness | GroundZ0 | Ground roughness zones from the Ground Roughness or Land Cover Roughness component (optional). Each zone becomes its own ground patch with an explicit roughness length z0; floor area not covered by a zone keeps the global ABL roughness. | `Generic Data` |
 | Sources |  | Pollutant emission sources from the Pollutant Source component (optional). Each becomes a cell zone in the mesh; every species becomes a passive concentration field (kg/m3) solved alongside the wind on all direction cases. Sources sharing a Species solve as one field. | `Generic Data` |
+| Extras |  | Optional user additions from Refinement Region and Custom Function Object components. Applied every time the case is written, so they survive a re-write. Refinement regions go into the meshing cases; function objects into the direction cases, where the solver runs. | `Generic Data` |
+| Engine |  | OpenFOAM execution engine stored on the study and used by Wind Run, Wind Scripts, Probe and Streamlines: BlueCFD, WSL (Windows only) or Containerized (Podman/Docker). Written into the study manifest so a reopened case keeps the engine it was solved with. | `Text` |
 | Write |  | Write the case files to the working directory. | `Boolean` |
 | Clear Case | Clear | Delete all files for this case in the working directory. | `Boolean` |
 

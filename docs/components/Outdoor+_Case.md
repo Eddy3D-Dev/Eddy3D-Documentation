@@ -24,6 +24,8 @@ Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus
 | View Factor Settings | ViewFactors | View factor settings. | `Generic Data` |
 | Custom Entries | Custom | Optional additional entries to merge into the case. | `Generic Data` |
 | Water Surface | Water | Optional coupled water surface from the Water Surface component. | `Generic Data` |
+| Extras |  | Optional user additions from the Refinement Region and Custom Function Object components. Applied every time the case is written, so they survive a re-write. A refinement region goes into ALL THREE snappyHexMeshDicts (air, veg, terrain); a function object needs a Region, because urbanMicroclimateFoam scopes them per region. | `Generic Data` |
+| Engine |  | OpenFOAM execution environment stored on the case and used by Run, Probe, Streamlines, and other case operations. | `Text` |
 
 #### Output
 
