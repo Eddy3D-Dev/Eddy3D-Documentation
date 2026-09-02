@@ -21,7 +21,7 @@ extra:
   version:
     provider: mike
     default: latest
-  latest_eddy_version: "1.11.0.827" # Manual fallback
+  latest_eddy_version: "1.12.0.827" # Manual fallback
 
 nav:
   - Documentation:
