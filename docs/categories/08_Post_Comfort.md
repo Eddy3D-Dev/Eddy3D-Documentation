@@ -10,6 +10,14 @@
 # 08 Post Comfort
 <h4 id="main-components">Main Components</h4>
 <div class="index-quicklink-container">
+    <a href="/components/PET_Simulation/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/PET_Simulation.png" class="nav-gh-icon"> PET Simulation
+            </div>
+            <div class="index-quicklink-text">Compute annual probe-specific PET (Höppe) from simulation outputs: MRT and wind-speed data trees, plus air temperature, relative humidity and the person. Solves in the background; cancel from the right-click menu. For a single point, use "Thermal Comfort".</div>
+        </div>
+    </a>
     <a href="/components/Thermal_Comfort/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -31,7 +39,15 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Deconstruct_UTCI.png" class="nav-gh-icon"> Deconstruct UTCI
             </div>
-            <div class="index-quicklink-text">Probe-specific statistics and comfort hours/% from a UTCI Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map.</div>
+            <div class="index-quicklink-text">Probe-specific statistics and comfort hours/% from a UTCI or PET (Simulation) Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map.</div>
+        </div>
+    </a>
+    <a href="/components/Pedestrian_Wind_Comfort/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Pedestrian_Wind_Comfort.png" class="nav-gh-icon"> Pedestrian Wind Comfort
+            </div>
+            <div class="index-quicklink-text">Classifies pedestrian wind comfort per point from an annual hourly wind-speed series (the Wind Speed output of the Velocity Amplification Factors (VAF) component) against a comfort criterion (Lawson, Davenport, NEN8100). Returns the comfort category, class letter, and activity description for each point.</div>
         </div>
     </a>
     <a href="/components/Comfort_Hours/" style="text-decoration: none;">

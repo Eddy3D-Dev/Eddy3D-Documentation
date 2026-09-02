@@ -12,6 +12,7 @@ Classifies pedestrian wind comfort per point from an annual hourly wind-speed se
 | Comfort Metric | Metric | Comfort criterion: Lawson General, Lawson LDDC, Lawson 2001, Davenport, NEN8100 Comfort, or NEN8100 Safety. A wired integer 0-5 (the old convention) still selects by index. | `Text` |
 | Color Scheme | Scheme | Categorical palette for the comfort classes: Classic (green through red, the standard wind-comfort plot), Colorblind Safe (Okabe-Ito derived), or Muted (desaturated, for underlays). | `Text` |
 | Size | S | Marker half-size in model units for the comfort mesh (one quad per point). | `Number` |
+| Period |  | Slice of the year to classify: Year (default), a season, or a single month. The exceedance criteria then apply to that period's hours only — winter comfort is usually worse than annual. Seasons are named by their months (Winter = Dec-Feb), so southern-hemisphere EPWs read unambiguously. | `Text` |
 
 #### Output
 

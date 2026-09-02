@@ -13,7 +13,6 @@ Mesh and run an OpenFOAM case on the selected engine (wind / indoor / UMF).
 | Simulate | S | Simulation only. | `Boolean` |
 | Run All | R | Mesh, then run the simulation. | `Boolean` |
 | Parallel | P | Run in parallel (decompose / MPI). | `Boolean` |
-| Engine | E | OpenFOAM execution engine. | `Text` |
 
 #### Output
 

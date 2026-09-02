@@ -11,7 +11,6 @@ Writes meshing and simulation scripts (.bat / .sh) into a Scripts/ folder under 
 | Case | C | The wind study to generate run scripts for (Wind Case output). | `Generic Data` |
 | Parallel | P | Generate scripts that decompose and run in parallel (MPI). | `Boolean` |
 | CPUs | N | Number of subdomains (MPI ranks) for parallel meshing and simulation. Leave unset (or <= 1) for automatic: the case's decomposeParDict count if > 1, else half the host cores. | `Integer` |
-| Engine | E | OpenFOAM engine the scripts target. BlueCFD/WSL produce .bat; the containerized engine produces .sh. | `Text` |
 | Probe Name | PName | FALLBACK only: the post-process scripts are generated automatically for every probe setup the Probe component(s) have written into the cases, each under its own chosen name (05_PostProcess_<name>_<case>). This input is used only when NO probe setup exists yet. Default 'probes'. | `Text` |
 | Write | W | Set to true to (re)write the scripts into the study's Scripts/ folder. | `Boolean` |
 

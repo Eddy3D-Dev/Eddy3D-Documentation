@@ -23,6 +23,15 @@ Create a metric-aware color legend and an optional colored mesh from point/value
 | Cell Radius | Radius | Radius of each colored point cell in model units. Empty = inferred from point spacing. | `Number` |
 | Units |  | Optional unit override for the selected Metric Type (for example lux, dB or kg/m²). | `Text` |
 | Label Style | LS | How the tick labels draw in the viewport. Text is plain 3d text that bakes and exports the way it looks; Bubbles are the classic screen-sized text dots. | `Text` |
+| Contours |  | Contour presentation. Off keeps one colored cell per sample. Bands re-meshes the samples into flat-filled contour bands; Lines adds isolines over the cells; Bands + Lines gives the classic contour map; Lines Only draws isolines alone. | `Text` |
+| Bands |  | Number of contour bands (and therefore isolines) across the Range. Empty = bands at round values, matching the legend's automatic ticks. | `Integer` |
+| Smoothing | Smooth | Laplacian smoothing passes applied to the Values before contouring, for rounder isolines. This CHANGES the plotted numbers (the Values output is untouched) and is reported as a Remark. Default: 0 = contour the data as measured. | `Integer` |
+| Analysis Mesh | AMesh | Optional mesh carrying the field, with one Value per mesh vertex or per mesh face. Use it for facades, terrain and any sample set whose connectivity cannot be inferred from the Points alone. Empty = derive topology from Points. | `Mesh` |
+| Max Edge | MaxEdge | Longest triangle edge kept when Points have to be tessellated — this is what leaves courtyards and building footprints as holes instead of bridging them. Empty = 1.8x the detected sample spacing. Ignored for a regular sample grid. | `Number` |
+| Bin Size | Bin | Hexagon size (centre to corner, in model units) for the Hexbins styles. Empty = about 40 hexagons across the sampled area, never finer than the sample spacing. | `Number` |
+| Aggregate | Agg | How the samples inside one hexagon become the value it draws. Count maps sampling density rather than the measured quantity. | `Text` |
+| Highlight Top | Top | Circle the N highest-valued hexagons and output those circles. 0 = none. | `Integer` |
+| Boundary |  | Optional closed, planar boundary (a district or site outline): hexagons whose centre falls outside it are dropped, and the outline is drawn dashed over the map. | `Curve` |
 
 #### Output
 
@@ -34,3 +43,8 @@ Create a metric-aware color legend and an optional colored mesh from point/value
 | Field Mesh | Mesh | Vertex-colored mesh created from Points and Values (one polygonal cell per sample), oriented by the corresponding Normals and lifted by Offset. | `Mesh` |
 | Colors |  | Color per finite input value, aligned with Points. | `Colour` |
 | Resolved Range | Domain | Range used to color both the legend and field mesh. | `Domain` |
+| Contours |  | Isoline polylines at each band edge, empty unless a line-drawing Contours style is selected. | `Curve` |
+| Contour Values | CValues | Field value of each contour curve, aligned with Contours. | `Number` |
+| Bin Centers | Centers | Centre of each drawn hexagon, empty unless a Hexbins style is selected. | `Point` |
+| Bin Values | BinValues | Aggregated value per hexagon, aligned with Bin Centers. | `Number` |
+| Highlights |  | Circles around the Highlight Top hexagons, highest first. | `Curve` |

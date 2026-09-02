@@ -22,6 +22,7 @@ Build a CO2 species case (OpenFOAM 12 multicomponentFluid) with a breathing mani
 | Probes | P | Probe points sampled for CO2 and temperature. | `Point` |
 | Write | W | Click to write the case to disk. Resets automatically so it never re-writes on recompute. | `Boolean` |
 | Clear | X | Click to delete the case folder. Resets automatically so it never re-deletes on recompute. | `Boolean` |
+| Extras |  | Optional user additions from the Refinement Region and Custom Function Object components. Applied every time the case is written, so they survive a re-write. | `Generic Data` |
 
 #### Output
 
