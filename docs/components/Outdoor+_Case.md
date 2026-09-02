@@ -2,7 +2,7 @@
 
 ![](/images/components/Outdoor+_Case-crop.png)
 
-Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus
+Create, read, and manage an Outdoor+ (UMF microclimate) case. Validated in: Rahimi et al. (2025), Building and Environment 285:113637, doi:10.1016/j.buildenv.2025.113637; Rahimi et al. (2024), IBPC 2024, https://www.eddy3d.com/publications/. OutdoorPlus
 
 #### Input
 

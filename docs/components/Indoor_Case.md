@@ -2,7 +2,7 @@
 
 ![](/images/components/Indoor_Case-crop.png)
 
-Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12.
+Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12. Method: De Simone, Kastner & Dogan (2021), Building Simulation 2021, Bruges, doi:10.26868/25222708.2021.30632.
 
 #### Input
 

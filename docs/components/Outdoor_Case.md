@@ -2,7 +2,7 @@
 
 ![](/images/components/Outdoor_Case-crop.png)
 
-Create, write, and manage an Eddy3D outdoor wind simulation case.
+Create, write, and manage an Eddy3D outdoor wind simulation case. Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639; Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906.
 
 #### Input
 

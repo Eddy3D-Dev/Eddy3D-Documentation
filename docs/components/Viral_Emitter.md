@@ -2,7 +2,7 @@
 
 ![](/images/components/Viral_Emitter-crop.png)
 
-An airborne-pathogen passive-scalar source box for an indoor ventilation case.
+An airborne-pathogen passive-scalar source box for an indoor ventilation case. Method: De Simone, Kastner & Dogan (2021), Building Simulation 2021, Bruges, doi:10.26868/25222708.2021.30632.
 
 #### Input
 

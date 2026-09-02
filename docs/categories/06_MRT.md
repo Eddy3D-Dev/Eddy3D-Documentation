@@ -63,7 +63,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT.png" class="nav-gh-icon"> MRT
             </div>
-            <div class="index-quicklink-text">Mean radiant temperature at each sensor, hour by hour. MRT = shortwave + longwave.  SHORTWAVE — what the sensor absorbs from sun and sky. Either a direct raycast (default, pure C#) or the Radiance DDS chain (MRT Settings -> Radiance Reflections), which adds diffuse sky and interreflection off the surroundings. Radiance returns annual total and direct illuminance per sensor, which are mapped onto the probes' shortwave series.  LONGWAVE — what the sensor exchanges with everything around it, weighted by view factors traced from each sensor against the scene and the sky dome.  SURFACE TEMPERATURES come from ENERGYPLUS, not Radiance — Radiance is a light transport engine and computes no temperatures at all. With MRT Settings -> EnergyPlus Surfaces on, Eddy3D builds an epJSON from the polygons that actually matter to the sensors (those inside the cumulative view-factor percentile and above the small-face cutoff; everything else is demoted to a shading surface), runs EnergyPlus against the EPW, and maps the surface-specific temperatures out of the ESO back onto the geometry. With it off, every surrounding surface is simply assumed to sit at air temperature.  SKY TEMPERATURE is always Clark-Allen from dew point, dry bulb, opaque cloud cover and relative humidity — it needs no engine.</div>
+            <div class="index-quicklink-text">Mean radiant temperature at each sensor, hour by hour. MRT = shortwave + longwave.  SHORTWAVE — what the sensor absorbs from sun and sky. Either a direct raycast (default, pure C#) or the Radiance DDS chain (MRT Settings -> Radiance Reflections), which adds diffuse sky and interreflection off the surroundings. Radiance returns annual total and direct illuminance per sensor, which are mapped onto the probes' shortwave series.  LONGWAVE — what the sensor exchanges with everything around it, weighted by view factors traced from each sensor against the scene and the sky dome.  SURFACE TEMPERATURES come from ENERGYPLUS, not Radiance — Radiance is a light transport engine and computes no temperatures at all. With MRT Settings -> EnergyPlus Surfaces on, Eddy3D builds an epJSON from the polygons that actually matter to the sensors (those inside the cumulative view-factor percentile and above the small-face cutoff; everything else is demoted to a shading surface), runs EnergyPlus against the EPW, and maps the surface-specific temperatures out of the ESO back onto the geometry. With it off, every surrounding surface is simply assumed to sit at air temperature.  SKY TEMPERATURE is always Clark-Allen from dew point, dry bulb, opaque cloud cover and relative humidity — it needs no engine.  Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762; Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
         </div>
     </a>
     <a href="/components/MRT_Sensors/" style="text-decoration: none;">
@@ -111,7 +111,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT_Solve.png" class="nav-gh-icon"> MRT Solve
             </div>
-            <div class="index-quicklink-text">Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS when MRT Settings enables reflections) + view-factor longwave. Wire the VF Model straight from MRT View Factors for ambient/FFT surface temperatures, or through SurfaceTemp (EnergyPlus) for E+ temperatures. Result feeds Deconstruct MRT and UTCI.</div>
+            <div class="index-quicklink-text">Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS when MRT Settings enables reflections) + view-factor longwave. Wire the VF Model straight from MRT View Factors for ambient/FFT surface temperatures, or through SurfaceTemp (EnergyPlus) for E+ temperatures. Result feeds Deconstruct MRT and UTCI. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762; Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
         </div>
     </a>
     <a href="/components/MRT_View_Factors/" style="text-decoration: none;">
@@ -119,7 +119,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT_View_Factors.png" class="nav-gh-icon"> MRT View Factors
             </div>
-            <div class="index-quicklink-text">Assembles tagged surfaces + sensors into a radiation model, builds the sky dome, and solves probe-to-polygon view factors. Feed the VF Model to SurfaceTemp (EnergyPlus) and/or MRT Solve. The sweep is the expensive part of an MRT run — solving it once here lets the downstream stages re-run without repeating it.</div>
+            <div class="index-quicklink-text">Assembles tagged surfaces + sensors into a radiation model, builds the sky dome, and solves probe-to-polygon view factors. Feed the VF Model to SurfaceTemp (EnergyPlus) and/or MRT Solve. The sweep is the expensive part of an MRT run — solving it once here lets the downstream stages re-run without repeating it. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762.</div>
         </div>
     </a>
     <a href="/components/SurfaceTemp_EnergyPlus/" style="text-decoration: none;">
@@ -127,7 +127,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/SurfaceTemp_EnergyPlus.png" class="nav-gh-icon"> SurfaceTemp EnergyPlus
             </div>
-            <div class="index-quicklink-text">Surface temperatures via EnergyPlus, mapped onto a solved VF Model. The counterpart of the FFT SurfaceTemp component for the staged MRT pipeline: it consumes MRT View Factors' output (the E+ surface selection depends on the view factors) and its output feeds MRT Solve. Skipping this stage leaves surfaces at ambient temperature unless they carry FFT temperatures from MRT Surface.</div>
+            <div class="index-quicklink-text">Surface temperatures via EnergyPlus, mapped onto a solved VF Model. The counterpart of the FFT SurfaceTemp component for the staged MRT pipeline: it consumes MRT View Factors' output (the E+ surface selection depends on the view factors) and its output feeds MRT Solve. Skipping this stage leaves surfaces at ambient temperature unless they carry FFT temperatures from MRT Surface. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762.</div>
         </div>
     </a>
     <a href="/components/Deconstruct_VF_Model/" style="text-decoration: none;">

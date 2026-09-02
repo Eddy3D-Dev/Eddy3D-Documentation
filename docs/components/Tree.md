@@ -2,7 +2,7 @@
 
 ![](/images/components/Tree-crop.png)
 
-Represents a tree as a porous zone for wind blocking (Darcy-Forchheimer). Feed into the wind case component.
+Represents a tree as a porous zone for wind blocking (Darcy-Forchheimer). Feed into the wind case component. Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.
 
 #### Input
 

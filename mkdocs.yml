@@ -26,6 +26,7 @@ extra:
 nav:
   - Documentation:
       - Start: index.md
+      - Methods & Citations: methods.md
   - Video Tutorials: tutorials.md
   - Outdoor+:
       - First Steps: first_steps.md
