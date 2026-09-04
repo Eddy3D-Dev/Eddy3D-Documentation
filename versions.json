@@ -2,14 +2,14 @@
   {
     "version": "1.13.0.827",
     "title": "1.13.0.827",
-    "aliases": [
-      "latest"
-    ]
+    "aliases": []
   },
   {
     "version": "1.12.0.827",
     "title": "1.12.0.827",
-    "aliases": []
+    "aliases": [
+      "latest"
+    ]
   },
   {
     "version": "1.11.0.827",
