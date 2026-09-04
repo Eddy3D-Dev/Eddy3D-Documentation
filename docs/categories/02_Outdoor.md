@@ -47,7 +47,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Cylinder_Domain.png" class="nav-gh-icon"> Cylinder Domain
             </div>
-            <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius targets the 3% frontal-blockage limit of ASCE/SEI CWE Prestandard AC 6-8b, which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge.</div>
+            <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius targets the 3% frontal-blockage limit of ASCE/SEI CWE Prestandard AC 6-8b, which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge. Method: Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906; Kastner & Dogan (2018), eSim 2018 (IBPSA-Canada), Montréal, https://publications.ibpsa.org/conference/paper/?id=esim2018_1-2-A-4.</div>
         </div>
     </a>
     <a href="/components/Mesh_Settings/" style="text-decoration: none;">
@@ -103,7 +103,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Tree.png" class="nav-gh-icon"> Tree
             </div>
-            <div class="index-quicklink-text">Represents a tree as a porous zone for wind blocking (Darcy-Forchheimer). Feed into the wind case component.</div>
+            <div class="index-quicklink-text">Represents a tree as a porous zone for wind blocking (Darcy-Forchheimer). Feed into the wind case component. Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
         </div>
     </a>
     <a href="/components/Watertight/" style="text-decoration: none;">
@@ -127,7 +127,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Outdoor_Case.png" class="nav-gh-icon"> Outdoor Case
             </div>
-            <div class="index-quicklink-text">Create, write, and manage an Eddy3D outdoor wind simulation case.</div>
+            <div class="index-quicklink-text">Create, write, and manage an Eddy3D outdoor wind simulation case. Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639; Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906.</div>
         </div>
     </a>
     <a href="/components/Run_Settings/" style="text-decoration: none;">
