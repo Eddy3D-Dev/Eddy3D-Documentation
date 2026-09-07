@@ -82,14 +82,6 @@
             <div class="index-quicklink-text">Assign a multi-face ground plate to the wind tunnel: each face gets its own aerodynamic roughness length z0 and becomes its own ground patch (nutkAtmRoughWallFunction). Feed into the wind case component's Ground Roughness input.</div>
         </div>
     </a>
-    <a href="/components/Land_Cover_Roughness/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Land_Cover_Roughness.png" class="nav-gh-icon"> Land Cover Roughness
-            </div>
-            <div class="index-quicklink-text">Fetch land-cover polygons around a location from OpenStreetMap (open data, Overpass API) and classify each into an aerodynamic roughness length via the Davenport-Wieringa terrain classification — plus the terrain elevation around the site (AWS Terrain Tiles, open data). Outputs ready-made ground roughness zones and a terrain mesh for the wind case.</div>
-        </div>
-    </a>
     <a href="/components/Pollutant_Source/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -104,14 +96,6 @@
                 <img src="/images/icons/Tree.png" class="nav-gh-icon"> Tree
             </div>
             <div class="index-quicklink-text">Represents a tree as a porous zone for wind blocking (Darcy-Forchheimer). Feed into the wind case component. Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
-        </div>
-    </a>
-    <a href="/components/Watertight/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Watertight.png" class="nav-gh-icon"> Watertight
-            </div>
-            <div class="index-quicklink-text">Combine a multi-part building mesh into a single watertight, CFD-ready solid via the bundled Python mesh service (trimesh/manifold3d/pymeshfix). The server auto-starts locally on the first run (uv-managed Python environment; first start installs it, 1-2 minutes) and is reused afterwards.</div>
         </div>
     </a>
     <a href="/components/Custom_Function_Object/" style="text-decoration: none;">

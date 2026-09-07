@@ -14,8 +14,8 @@ Configure simulation control settings for UMF. OutdoorPlus
 | Initial Solid Time Step Factor | SolidStep | Initial solid time step factor for UMF controlDict. Optional. | `Number` |
 | Min Delta T | MinDT | Minimum time step between iterations. Optional. | `Number` |
 | Max Delta T | MaxDT | Maximum time step between iterations. Optional. | `Number` |
-| Min Fluid Iterations | MinFI | Minimum fluid iterations per time step. Optional. | `Number` |
-| Max Fluid Iterations | MaxFI | Maximum fluid iterations per time step. Optional. | `Number` |
+| Min Fluid Iterations | MinFI | Minimum fluid iterations per hourly step before the residual controls may end it. Template default 200: the bulk field of a warm-started hour is stationary by ~150-200 iterations. Optional. | `Number` |
+| Max Fluid Iterations | MaxFI | Maximum fluid iterations per hourly step (template default 1000). The residual controls normally end a warm-started hour at ~200-300 iterations; the first, cold-started hour needs ~350-500. Optional. | `Number` |
 | PC Equation Form | PcForm | 'pc-based' or 'mixed' (default is pc-based). | `Text` |
 | Damping Thickness | DampThk | Blending coefficients: damping thickness. Optional. | `Number` |
 | Alpha Coeff U | AlphaU | Blending coefficients: alphaCoeffU. Optional. | `Number` |

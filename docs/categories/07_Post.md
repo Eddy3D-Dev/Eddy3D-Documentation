@@ -87,7 +87,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Cull_Ground_Mesh.png" class="nav-gh-icon"> Cull Ground Mesh
             </div>
-            <div class="index-quicklink-text">Remove ground mesh faces that intersect buildings, creating an analysis ground mesh with building footprints cut out.</div>
+            <div class="index-quicklink-text">Cut building footprints out of a ground mesh to make an analysis ground mesh. The ground is quad-remeshed to Target Face Count (or taken as wired when that is 0), then every vertex under a building is removed together with the faces that use it.</div>
         </div>
     </a>
     <a href="/components/Flex_Legend/" style="text-decoration: none;">

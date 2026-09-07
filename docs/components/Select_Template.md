@@ -2,13 +2,13 @@
 
 ![](/images/components/Select_Template-crop.png)
 
-Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.12.0.827
+Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.14.0.827
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Additional Folders | Dirs | Optional: Additional folder paths or GitHub URLs to search for .gh/.ghx templates. Example URL: https://github.com/Startraders/Eddy3D-Templates/tree/main/Outdoor | `Text` |
+| Additional Folders | Dirs | Optional: Additional folder paths (local or network) or GitHub URLs to search for .gh/.ghx templates. A wired source becomes the picker's default: its templates are listed first and the built-in Eddy3D templates move to a submenu. Example URL: https://github.com/Startraders/Eddy3D-Templates/tree/main/Outdoor | `Text` |
 | HF Token | HFToken | Optional Hugging Face access token (starts with hf_) or path to a .txt file containing one. A token authorized for Eddy3D's private models also unlocks internal templates for this Rhino session. | `Text` |
 
 #### Output

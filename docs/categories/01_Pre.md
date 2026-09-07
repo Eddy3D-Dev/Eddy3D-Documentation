@@ -15,7 +15,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Download_Weather.png" class="nav-gh-icon"> Download Weather
             </div>
-            <div class="index-quicklink-text">Download an EPW weather file from a direct URL, or search climate.onebuilding.org by station name, WMO ID, or dataset year.</div>
+            <div class="index-quicklink-text">Pick an EPW weather file from a bundled catalog of 60,868 climate files — every TMYx station on climate.onebuilding.org plus the EnergyPlus store (IWEC, TMY3, CWEC, SWERA, …) — with your own folders and Morph Weather results listed alongside them. Click the Station widget and choose Browse library… for a searchable table with a map, or type a name, WMO id or direct URL. The catalog is searched offline; only the chosen file is downloaded, once, into the weather cache.</div>
         </div>
     </a>
     <a href="/components/Morph_Settings/" style="text-decoration: none;">
@@ -64,6 +64,22 @@
                 <img src="/images/icons/Weather.png" class="nav-gh-icon"> Weather
             </div>
             <div class="index-quicklink-text">Read an EPW file and create a Weather object for the simulation. OutdoorPlus</div>
+        </div>
+    </a>
+    <a href="/components/Land_Cover_Roughness/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Land_Cover_Roughness.png" class="nav-gh-icon"> Land Cover Roughness
+            </div>
+            <div class="index-quicklink-text">Fetch land-cover polygons around a location from OpenStreetMap (open data, Overpass API) and classify each into an aerodynamic roughness length via the Davenport-Wieringa terrain classification — plus the terrain elevation around the site (AWS Terrain Tiles, open data). Outputs ready-made ground roughness zones and a terrain mesh for the wind case.</div>
+        </div>
+    </a>
+    <a href="/components/Watertight/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Watertight.png" class="nav-gh-icon"> Watertight
+            </div>
+            <div class="index-quicklink-text">Combine a multi-part building mesh into a single watertight, CFD-ready solid via the bundled Python mesh service (trimesh/manifold3d/pymeshfix). The server auto-starts locally on the first run (uv-managed Python environment; first start installs it, 1-2 minutes) and is reused afterwards.</div>
         </div>
     </a>
     <a href="/components/Wind_Compass/" style="text-decoration: none;">

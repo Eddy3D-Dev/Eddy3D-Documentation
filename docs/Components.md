@@ -20,6 +20,8 @@
 <a href="/components/Monthly_Climate_Chart/" class="GhComponentItem" above-dataComment="Monthly Climate Chart"><img src="/images/icons/Monthly_Climate_Chart.png" class="gh-component-selected" alt="Monthly Climate Chart" /></a>
 <a href="/components/Relative_Humidity/" class="GhComponentItem" below-dataComment="Relative Humidity"><img src="/images/icons/Relative_Humidity.png" class="gh-component-selected" alt="Relative Humidity" /></a>
 <a href="/components/Weather/" class="GhComponentItem" above-dataComment="Weather"><img src="/images/icons/Weather.png" class="gh-component-selected" alt="Weather" /></a>
+<a href="/components/Land_Cover_Roughness/" class="GhComponentItem" below-dataComment="Land Cover Roughness"><img src="/images/icons/Land_Cover_Roughness.png" class="gh-component-selected" alt="Land Cover Roughness" /></a>
+<a href="/components/Watertight/" class="GhComponentItem" above-dataComment="Watertight"><img src="/images/icons/Watertight.png" class="gh-component-selected" alt="Watertight" /></a>
 <a href="/components/Wind_Compass/" class="GhComponentItem" below-dataComment="Wind Compass"><img src="/images/icons/Wind_Compass.png" class="gh-component-selected" alt="Wind Compass" /></a>
 <a href="/components/Wind_Rose_Cluster/" class="GhComponentItem" above-dataComment="Wind Rose Cluster"><img src="/images/icons/Wind_Rose_Cluster.png" class="gh-component-selected" alt="Wind Rose Cluster" /></a>
 <a href="/components/Analysis_Period/" class="GhComponentItem" below-dataComment="Analysis Period"><img src="/images/icons/Analysis_Period.png" class="gh-component-selected" alt="Analysis Period" /></a>
@@ -45,10 +47,8 @@
 <a href="/components/Refinement_Region/" class="GhComponentItem" above-dataComment="Refinement Region"><img src="/images/icons/Refinement_Region.png" class="gh-component-selected" alt="Refinement Region" /></a>
 <a href="/components/Brep_Grid_Points/" class="GhComponentItem" below-dataComment="Brep Grid Points"><img src="/images/icons/Brep_Grid_Points.png" class="gh-component-selected" alt="Brep Grid Points" /></a>
 <a href="/components/Ground_Roughness/" class="GhComponentItem" above-dataComment="Ground Roughness"><img src="/images/icons/Ground_Roughness.png" class="gh-component-selected" alt="Ground Roughness" /></a>
-<a href="/components/Land_Cover_Roughness/" class="GhComponentItem" below-dataComment="Land Cover Roughness"><img src="/images/icons/Land_Cover_Roughness.png" class="gh-component-selected" alt="Land Cover Roughness" /></a>
-<a href="/components/Pollutant_Source/" class="GhComponentItem" above-dataComment="Pollutant Source"><img src="/images/icons/Pollutant_Source.png" class="gh-component-selected" alt="Pollutant Source" /></a>
-<a href="/components/Tree/" class="GhComponentItem" below-dataComment="Tree"><img src="/images/icons/Tree.png" class="gh-component-selected" alt="Tree" /></a>
-<a href="/components/Watertight/" class="GhComponentItem" above-dataComment="Watertight"><img src="/images/icons/Watertight.png" class="gh-component-selected" alt="Watertight" /></a>
+<a href="/components/Pollutant_Source/" class="GhComponentItem" below-dataComment="Pollutant Source"><img src="/images/icons/Pollutant_Source.png" class="gh-component-selected" alt="Pollutant Source" /></a>
+<a href="/components/Tree/" class="GhComponentItem" above-dataComment="Tree"><img src="/images/icons/Tree.png" class="gh-component-selected" alt="Tree" /></a>
 <a href="/components/Custom_Function_Object/" class="GhComponentItem" below-dataComment="Custom Function Object"><img src="/images/icons/Custom_Function_Object.png" class="gh-component-selected" alt="Custom Function Object" /></a>
 <a href="/components/Outdoor_Case/" class="GhComponentItem" above-dataComment="Outdoor Case"><img src="/images/icons/Outdoor_Case.png" class="gh-component-selected" alt="Outdoor Case" /></a>
 <a href="/components/Run_Settings/" class="GhComponentItem" below-dataComment="Run Settings"><img src="/images/icons/Run_Settings.png" class="gh-component-selected" alt="Run Settings" /></a>
@@ -206,14 +206,32 @@
 </div>
 <div class="SubGroup-Title">Post Comfort</div>
 </div>
+<div class="SubGroup-Container" data-category="09_Stormwater">
+<div class="SubGroup-Icons">
+<div class="sub-group">
+<a href="/components/Design_Storm/" class="GhComponentItem" above-dataComment="Design Storm"><img src="/images/icons/Design_Storm.png" class="gh-component-selected" alt="Design Storm" /></a>
+<a href="/components/Land_Cover_Runoff/" class="GhComponentItem" below-dataComment="Land Cover Runoff"><img src="/images/icons/Land_Cover_Runoff.png" class="gh-component-selected" alt="Land Cover Runoff" /></a>
+<a href="/components/Runoff_Zones/" class="GhComponentItem" above-dataComment="Runoff Zones"><img src="/images/icons/Runoff_Zones.png" class="gh-component-selected" alt="Runoff Zones" /></a>
+<a href="/components/Deconstruct_Stormwater/" class="GhComponentItem" below-dataComment="Deconstruct Stormwater"><img src="/images/icons/Deconstruct_Stormwater.png" class="gh-component-selected" alt="Deconstruct Stormwater" /></a>
+<a href="/components/Stormwater_Grid/" class="GhComponentItem" above-dataComment="Stormwater Grid"><img src="/images/icons/Stormwater_Grid.png" class="gh-component-selected" alt="Stormwater Grid" /></a>
+<a href="/components/Stormwater_Run/" class="GhComponentItem" below-dataComment="Stormwater Run"><img src="/images/icons/Stormwater_Run.png" class="gh-component-selected" alt="Stormwater Run" /></a>
+<a href="/components/Stormwater_Settings/" class="GhComponentItem" above-dataComment="Stormwater Settings"><img src="/images/icons/Stormwater_Settings.png" class="gh-component-selected" alt="Stormwater Settings" /></a>
+<a href="/components/Ponding_Report/" class="GhComponentItem" below-dataComment="Ponding Report"><img src="/images/icons/Ponding_Report.png" class="gh-component-selected" alt="Ponding Report" /></a>
+<a href="/components/Stormwater_Flowlines/" class="GhComponentItem" above-dataComment="Stormwater Flowlines"><img src="/images/icons/Stormwater_Flowlines.png" class="gh-component-selected" alt="Stormwater Flowlines" /></a>
+<a href="/components/Stormwater_Legend/" class="GhComponentItem" below-dataComment="Stormwater Legend"><img src="/images/icons/Stormwater_Legend.png" class="gh-component-selected" alt="Stormwater Legend" /></a>
+</div>
+</div>
+<div class="SubGroup-Title">Stormwater</div>
+</div>
 <div class="SubGroup-Container" data-category="10_LBM">
 <div class="SubGroup-Icons">
 <div class="sub-group">
 <a href="/components/FluidX3D_Run_Settings/" class="GhComponentItem" above-dataComment="FluidX3D Run Settings"><img src="/images/icons/FluidX3D_Run_Settings.png" class="gh-component-selected" alt="FluidX3D Run Settings" /></a>
-<a href="/components/LBM_Field/" class="GhComponentItem" below-dataComment="LBM Field"><img src="/images/icons/LBM_Field.png" class="gh-component-selected" alt="LBM Field" /></a>
+<a href="/components/LBM_Case/" class="GhComponentItem" below-dataComment="LBM Case"><img src="/images/icons/LBM_Case.png" class="gh-component-selected" alt="LBM Case" /></a>
 <a href="/components/LBM_Run/" class="GhComponentItem" above-dataComment="LBM Run"><img src="/images/icons/LBM_Run.png" class="gh-component-selected" alt="LBM Run" /></a>
 <a href="/components/LBM_Run_Settings/" class="GhComponentItem" below-dataComment="LBM Run Settings"><img src="/images/icons/LBM_Run_Settings.png" class="gh-component-selected" alt="LBM Run Settings" /></a>
 <a href="/components/FluidX3D_Live_View/" class="GhComponentItem" above-dataComment="FluidX3D Live View"><img src="/images/icons/FluidX3D_Live_View.png" class="gh-component-selected" alt="FluidX3D Live View" /></a>
+<a href="/components/LBM_Field/" class="GhComponentItem" below-dataComment="LBM Field"><img src="/images/icons/LBM_Field.png" class="gh-component-selected" alt="LBM Field" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">LBM</div>
@@ -232,6 +250,54 @@
 </div>
 </div>
 <div class="SubGroup-Title">ML</div>
+</div>
+<div class="SubGroup-Container" data-category="12_CHT">
+<div class="SubGroup-Icons">
+<div class="sub-group">
+<a href="/components/CHT_Air_Cavity/" class="GhComponentItem" above-dataComment="CHT Air Cavity"><img src="/images/icons/CHT_Air_Cavity.png" class="gh-component-selected" alt="CHT Air Cavity" /></a>
+<a href="/components/CHT_Boundary/" class="GhComponentItem" below-dataComment="CHT Boundary"><img src="/images/icons/CHT_Boundary.png" class="gh-component-selected" alt="CHT Boundary" /></a>
+<a href="/components/CHT_Material/" class="GhComponentItem" above-dataComment="CHT Material"><img src="/images/icons/CHT_Material.png" class="gh-component-selected" alt="CHT Material" /></a>
+<a href="/components/CHT_Solid/" class="GhComponentItem" below-dataComment="CHT Solid"><img src="/images/icons/CHT_Solid.png" class="gh-component-selected" alt="CHT Solid" /></a>
+<a href="/components/CHT_Case/" class="GhComponentItem" above-dataComment="CHT Case"><img src="/images/icons/CHT_Case.png" class="gh-component-selected" alt="CHT Case" /></a>
+<a href="/components/HAM_Climate/" class="GhComponentItem" below-dataComment="HAM Climate"><img src="/images/icons/HAM_Climate.png" class="gh-component-selected" alt="HAM Climate" /></a>
+<a href="/components/HAM_Material/" class="GhComponentItem" above-dataComment="HAM Material"><img src="/images/icons/HAM_Material.png" class="gh-component-selected" alt="HAM Material" /></a>
+<a href="/components/HAM_Wall/" class="GhComponentItem" below-dataComment="HAM Wall"><img src="/images/icons/HAM_Wall.png" class="gh-component-selected" alt="HAM Wall" /></a>
+<a href="/components/HAM_Case/" class="GhComponentItem" above-dataComment="HAM Case"><img src="/images/icons/HAM_Case.png" class="gh-component-selected" alt="HAM Case" /></a>
+</div>
+</div>
+<div class="SubGroup-Title">CHT</div>
+</div>
+<div class="SubGroup-Container" data-category="13_WRF">
+<div class="SubGroup-Icons">
+<div class="sub-group">
+<a href="/components/WRF_Geo_Data/" class="GhComponentItem" above-dataComment="WRF Geo Data"><img src="/images/icons/WRF_Geo_Data.png" class="gh-component-selected" alt="WRF Geo Data" /></a>
+<a href="/components/WRF_Met_Data/" class="GhComponentItem" below-dataComment="WRF Met Data"><img src="/images/icons/WRF_Met_Data.png" class="gh-component-selected" alt="WRF Met Data" /></a>
+<a href="/components/WRF_Domain/" class="GhComponentItem" above-dataComment="WRF Domain"><img src="/images/icons/WRF_Domain.png" class="gh-component-selected" alt="WRF Domain" /></a>
+<a href="/components/WRF_Namelist/" class="GhComponentItem" below-dataComment="WRF Namelist"><img src="/images/icons/WRF_Namelist.png" class="gh-component-selected" alt="WRF Namelist" /></a>
+<a href="/components/WRF_Progress/" class="GhComponentItem" above-dataComment="WRF Progress"><img src="/images/icons/WRF_Progress.png" class="gh-component-selected" alt="WRF Progress" /></a>
+<a href="/components/WRF_Run/" class="GhComponentItem" below-dataComment="WRF Run"><img src="/images/icons/WRF_Run.png" class="gh-component-selected" alt="WRF Run" /></a>
+<a href="/components/WRF_Animate/" class="GhComponentItem" above-dataComment="WRF Animate"><img src="/images/icons/WRF_Animate.png" class="gh-component-selected" alt="WRF Animate" /></a>
+<a href="/components/WRF_Map/" class="GhComponentItem" below-dataComment="WRF Map"><img src="/images/icons/WRF_Map.png" class="gh-component-selected" alt="WRF Map" /></a>
+<a href="/components/WRF_Probe/" class="GhComponentItem" above-dataComment="WRF Probe"><img src="/images/icons/WRF_Probe.png" class="gh-component-selected" alt="WRF Probe" /></a>
+<a href="/components/WRF_ABL/" class="GhComponentItem" below-dataComment="WRF ABL"><img src="/images/icons/WRF_ABL.png" class="gh-component-selected" alt="WRF ABL" /></a>
+<a href="/components/WRF_Weather/" class="GhComponentItem" above-dataComment="WRF Weather"><img src="/images/icons/WRF_Weather.png" class="gh-component-selected" alt="WRF Weather" /></a>
+</div>
+</div>
+<div class="SubGroup-Title">WRF</div>
+</div>
+<div class="SubGroup-Container" data-category="14_PALM-4U">
+<div class="SubGroup-Icons">
+<div class="sub-group">
+<a href="/components/PALM_Domain/" class="GhComponentItem" above-dataComment="PALM Domain"><img src="/images/icons/PALM_Domain.png" class="gh-component-selected" alt="PALM Domain" /></a>
+<a href="/components/PALM_Land_Cover/" class="GhComponentItem" below-dataComment="PALM Land Cover"><img src="/images/icons/PALM_Land_Cover.png" class="gh-component-selected" alt="PALM Land Cover" /></a>
+<a href="/components/PALM_Case/" class="GhComponentItem" above-dataComment="PALM Case"><img src="/images/icons/PALM_Case.png" class="gh-component-selected" alt="PALM Case" /></a>
+<a href="/components/PALM_Settings/" class="GhComponentItem" below-dataComment="PALM Settings"><img src="/images/icons/PALM_Settings.png" class="gh-component-selected" alt="PALM Settings" /></a>
+<a href="/components/PALM_Progress/" class="GhComponentItem" above-dataComment="PALM Progress"><img src="/images/icons/PALM_Progress.png" class="gh-component-selected" alt="PALM Progress" /></a>
+<a href="/components/PALM_Run/" class="GhComponentItem" below-dataComment="PALM Run"><img src="/images/icons/PALM_Run.png" class="gh-component-selected" alt="PALM Run" /></a>
+<a href="/components/PALM_Results/" class="GhComponentItem" above-dataComment="PALM Results"><img src="/images/icons/PALM_Results.png" class="gh-component-selected" alt="PALM Results" /></a>
+</div>
+</div>
+<div class="SubGroup-Title">PALM-4U</div>
 </div>
 </div>
 
@@ -259,7 +325,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Select_Template.png" class="nav-gh-icon"> Select Template
             </div>
-            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.12.0.827</div>
+            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.14.0.827</div>
         </div>
     </a>
 </div>
@@ -272,7 +338,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Download_Weather.png" class="nav-gh-icon"> Download Weather
             </div>
-            <div class="index-quicklink-text">Download an EPW weather file from a direct URL, or search climate.onebuilding.org by station name, WMO ID, or dataset year.</div>
+            <div class="index-quicklink-text">Pick an EPW weather file from a bundled catalog of 60,868 climate files — every TMYx station on climate.onebuilding.org plus the EnergyPlus store (IWEC, TMY3, CWEC, SWERA, …) — with your own folders and Morph Weather results listed alongside them. Click the Station widget and choose Browse library… for a searchable table with a map, or type a name, WMO id or direct URL. The catalog is searched offline; only the chosen file is downloaded, once, into the weather cache.</div>
         </div>
     </a>
     <a href="/components/Morph_Settings/" style="text-decoration: none;">
@@ -323,6 +389,22 @@
             <div class="index-quicklink-text">Read an EPW file and create a Weather object for the simulation. OutdoorPlus</div>
         </div>
     </a>
+    <a href="/components/Land_Cover_Roughness/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Land_Cover_Roughness.png" class="nav-gh-icon"> Land Cover Roughness
+            </div>
+            <div class="index-quicklink-text">Fetch land-cover polygons around a location from OpenStreetMap (open data, Overpass API) and classify each into an aerodynamic roughness length via the Davenport-Wieringa terrain classification — plus the terrain elevation around the site (AWS Terrain Tiles, open data). Outputs ready-made ground roughness zones and a terrain mesh for the wind case.</div>
+        </div>
+    </a>
+    <a href="/components/Watertight/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Watertight.png" class="nav-gh-icon"> Watertight
+            </div>
+            <div class="index-quicklink-text">Combine a multi-part building mesh into a single watertight, CFD-ready solid via the bundled Python mesh service (trimesh/manifold3d/pymeshfix). The server auto-starts locally on the first run (uv-managed Python environment; first start installs it, 1-2 minutes) and is reused afterwards.</div>
+        </div>
+    </a>
     <a href="/components/Wind_Compass/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -336,7 +418,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Wind_Rose_Cluster.png" class="nav-gh-icon"> Wind Rose Cluster
             </div>
-            <div class="index-quicklink-text">Cluster annual wind conditions into a budget of representative directions using k-means over hourly wind vectors (speed x direction): frequent, strong conditions attract the budget, and each cluster reports an observed direction/speed pair plus its frequency. Without wired speeds, clusters directions alone (unit vectors).</div>
+            <div class="index-quicklink-text">Cluster annual wind conditions into a budget of representative directions using k-means over hourly wind vectors (speed x direction): frequent, strong conditions attract the budget, and each cluster reports an observed direction/speed pair plus its frequency. Without wired speeds, clusters directions alone (unit vectors). Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639; Kastner & Dogan (2019), Building Simulation 2019, Rome 621-628, doi:10.26868/25222708.2019.210458.</div>
         </div>
     </a>
     <a href="/components/Analysis_Period/" style="text-decoration: none;">
@@ -437,7 +519,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Cylinder_Domain.png" class="nav-gh-icon"> Cylinder Domain
             </div>
-            <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius targets the 3% frontal-blockage limit of ASCE/SEI CWE Prestandard AC 6-8b, which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge.</div>
+            <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius targets the 3% frontal-blockage limit of ASCE/SEI CWE Prestandard AC 6-8b, which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge. Method: Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906; Kastner & Dogan (2018), eSim 2018 (IBPSA-Canada), Montréal, https://publications.ibpsa.org/conference/paper/?id=esim2018_1-2-A-4.</div>
         </div>
     </a>
     <a href="/components/Mesh_Settings/" style="text-decoration: none;">
@@ -472,14 +554,6 @@
             <div class="index-quicklink-text">Assign a multi-face ground plate to the wind tunnel: each face gets its own aerodynamic roughness length z0 and becomes its own ground patch (nutkAtmRoughWallFunction). Feed into the wind case component's Ground Roughness input.</div>
         </div>
     </a>
-    <a href="/components/Land_Cover_Roughness/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Land_Cover_Roughness.png" class="nav-gh-icon"> Land Cover Roughness
-            </div>
-            <div class="index-quicklink-text">Fetch land-cover polygons around a location from OpenStreetMap (open data, Overpass API) and classify each into an aerodynamic roughness length via the Davenport-Wieringa terrain classification — plus the terrain elevation around the site (AWS Terrain Tiles, open data). Outputs ready-made ground roughness zones and a terrain mesh for the wind case.</div>
-        </div>
-    </a>
     <a href="/components/Pollutant_Source/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -493,15 +567,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Tree.png" class="nav-gh-icon"> Tree
             </div>
-            <div class="index-quicklink-text">Represents a tree as a porous zone for wind blocking (Darcy-Forchheimer). Feed into the wind case component.</div>
-        </div>
-    </a>
-    <a href="/components/Watertight/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Watertight.png" class="nav-gh-icon"> Watertight
-            </div>
-            <div class="index-quicklink-text">Combine a multi-part building mesh into a single watertight, CFD-ready solid via the bundled Python mesh service (trimesh/manifold3d/pymeshfix). The server auto-starts locally on the first run (uv-managed Python environment; first start installs it, 1-2 minutes) and is reused afterwards.</div>
+            <div class="index-quicklink-text">Represents a tree as a porous zone for wind blocking (Darcy-Forchheimer). Feed into the wind case component. Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
         </div>
     </a>
     <a href="/components/Custom_Function_Object/" style="text-decoration: none;">
@@ -517,7 +583,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Outdoor_Case.png" class="nav-gh-icon"> Outdoor Case
             </div>
-            <div class="index-quicklink-text">Create, write, and manage an Eddy3D outdoor wind simulation case.</div>
+            <div class="index-quicklink-text">Create, write, and manage an Eddy3D outdoor wind simulation case. Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639; Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906.</div>
         </div>
     </a>
     <a href="/components/Run_Settings/" style="text-decoration: none;">
@@ -682,7 +748,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Outdoor+_Case.png" class="nav-gh-icon"> Outdoor+ Case
             </div>
-            <div class="index-quicklink-text">Create, read, and manage an Outdoor+ (UMF microclimate) case. OutdoorPlus</div>
+            <div class="index-quicklink-text">Create, read, and manage an Outdoor+ (UMF microclimate) case. Validated in: Rahimi et al. (2025), Building and Environment 285:113637, doi:10.1016/j.buildenv.2025.113637; Rahimi et al. (2024), IBPC 2024, https://www.eddy3d.com/publications/. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/Simulation_Mesh_Settings/" style="text-decoration: none;">
@@ -751,7 +817,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Indoor_Case.png" class="nav-gh-icon"> Indoor Case
             </div>
-            <div class="index-quicklink-text">Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12.</div>
+            <div class="index-quicklink-text">Build an isothermal indoor ventilation case (room + inlets + outlets + sinks) for OpenFOAM 12. Method: De Simone, Kastner & Dogan (2021), Building Simulation 2021, Bruges, doi:10.26868/25222708.2021.30632.</div>
         </div>
     </a>
     <a href="/components/Occupant_CO2/" style="text-decoration: none;">
@@ -839,7 +905,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Viral_Emitter.png" class="nav-gh-icon"> Viral Emitter
             </div>
-            <div class="index-quicklink-text">An airborne-pathogen passive-scalar source box for an indoor ventilation case.</div>
+            <div class="index-quicklink-text">An airborne-pathogen passive-scalar source box for an indoor ventilation case. Method: De Simone, Kastner & Dogan (2021), Building Simulation 2021, Bruges, doi:10.26868/25222708.2021.30632.</div>
         </div>
     </a>
     <a href="/components/Indoor_Species_Case/" style="text-decoration: none;">
@@ -1073,7 +1139,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT.png" class="nav-gh-icon"> MRT
             </div>
-            <div class="index-quicklink-text">Mean radiant temperature at each sensor, hour by hour. MRT = shortwave + longwave.  SHORTWAVE — what the sensor absorbs from sun and sky. Either a direct raycast (default, pure C#) or the Radiance DDS chain (MRT Settings -> Radiance Reflections), which adds diffuse sky and interreflection off the surroundings. Radiance returns annual total and direct illuminance per sensor, which are mapped onto the probes' shortwave series.  LONGWAVE — what the sensor exchanges with everything around it, weighted by view factors traced from each sensor against the scene and the sky dome.  SURFACE TEMPERATURES come from ENERGYPLUS, not Radiance — Radiance is a light transport engine and computes no temperatures at all. With MRT Settings -> EnergyPlus Surfaces on, Eddy3D builds an epJSON from the polygons that actually matter to the sensors (those inside the cumulative view-factor percentile and above the small-face cutoff; everything else is demoted to a shading surface), runs EnergyPlus against the EPW, and maps the surface-specific temperatures out of the ESO back onto the geometry. With it off, every surrounding surface is simply assumed to sit at air temperature.  SKY TEMPERATURE is always Clark-Allen from dew point, dry bulb, opaque cloud cover and relative humidity — it needs no engine.</div>
+            <div class="index-quicklink-text">Mean radiant temperature at each sensor, hour by hour. MRT = shortwave + longwave.  SHORTWAVE — what the sensor absorbs from sun and sky. Either a direct raycast (default, pure C#) or the Radiance DDS chain (MRT Settings -> Radiance Reflections), which adds diffuse sky and interreflection off the surroundings. Radiance returns annual total and direct illuminance per sensor, which are mapped onto the probes' shortwave series.  LONGWAVE — what the sensor exchanges with everything around it, weighted by view factors traced from each sensor against the scene and the sky dome.  SURFACE TEMPERATURES come from ENERGYPLUS, not Radiance — Radiance is a light transport engine and computes no temperatures at all. With MRT Settings -> EnergyPlus Surfaces on, Eddy3D builds an epJSON from the polygons that actually matter to the sensors (those inside the cumulative view-factor percentile and above the small-face cutoff; everything else is demoted to a shading surface), runs EnergyPlus against the EPW, and maps the surface-specific temperatures out of the ESO back onto the geometry. With it off, every surrounding surface is simply assumed to sit at air temperature.  SKY TEMPERATURE is always Clark-Allen from dew point, dry bulb, opaque cloud cover and relative humidity — it needs no engine.  Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762; Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
         </div>
     </a>
     <a href="/components/MRT_Sensors/" style="text-decoration: none;">
@@ -1121,7 +1187,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT_Solve.png" class="nav-gh-icon"> MRT Solve
             </div>
-            <div class="index-quicklink-text">Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS when MRT Settings enables reflections) + view-factor longwave. Wire the VF Model straight from MRT View Factors for ambient/FFT surface temperatures, or through SurfaceTemp (EnergyPlus) for E+ temperatures. Result feeds Deconstruct MRT and UTCI.</div>
+            <div class="index-quicklink-text">Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS when MRT Settings enables reflections) + view-factor longwave. Wire the VF Model straight from MRT View Factors for ambient/FFT surface temperatures, or through SurfaceTemp (EnergyPlus) for E+ temperatures. Result feeds Deconstruct MRT and UTCI. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762; Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
         </div>
     </a>
     <a href="/components/MRT_View_Factors/" style="text-decoration: none;">
@@ -1129,7 +1195,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT_View_Factors.png" class="nav-gh-icon"> MRT View Factors
             </div>
-            <div class="index-quicklink-text">Assembles tagged surfaces + sensors into a radiation model, builds the sky dome, and solves probe-to-polygon view factors. Feed the VF Model to SurfaceTemp (EnergyPlus) and/or MRT Solve. The sweep is the expensive part of an MRT run — solving it once here lets the downstream stages re-run without repeating it.</div>
+            <div class="index-quicklink-text">Assembles tagged surfaces + sensors into a radiation model, builds the sky dome, and solves probe-to-polygon view factors. Feed the VF Model to SurfaceTemp (EnergyPlus) and/or MRT Solve. The sweep is the expensive part of an MRT run — solving it once here lets the downstream stages re-run without repeating it. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762.</div>
         </div>
     </a>
     <a href="/components/SurfaceTemp_EnergyPlus/" style="text-decoration: none;">
@@ -1137,7 +1203,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/SurfaceTemp_EnergyPlus.png" class="nav-gh-icon"> SurfaceTemp EnergyPlus
             </div>
-            <div class="index-quicklink-text">Surface temperatures via EnergyPlus, mapped onto a solved VF Model. The counterpart of the FFT SurfaceTemp component for the staged MRT pipeline: it consumes MRT View Factors' output (the E+ surface selection depends on the view factors) and its output feeds MRT Solve. Skipping this stage leaves surfaces at ambient temperature unless they carry FFT temperatures from MRT Surface.</div>
+            <div class="index-quicklink-text">Surface temperatures via EnergyPlus, mapped onto a solved VF Model. The counterpart of the FFT SurfaceTemp component for the staged MRT pipeline: it consumes MRT View Factors' output (the E+ surface selection depends on the view factors) and its output feeds MRT Solve. Skipping this stage leaves surfaces at ambient temperature unless they carry FFT temperatures from MRT Surface. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762.</div>
         </div>
     </a>
     <a href="/components/Deconstruct_VF_Model/" style="text-decoration: none;">
@@ -1198,7 +1264,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Airflow_Network_Cp.png" class="nav-gh-icon"> Airflow Network Cp
             </div>
-            <div class="index-quicklink-text">Export probed facade pressure coefficients into the EnergyPlus AirflowNetwork as an .idf snippet: WindPressureCoefficientArray (the simulated directions), per-node WindPressureCoefficientValues and ExternalNode objects, ready to paste/merge into a Ladybug Tools (or hand-built) AirflowNetwork model. Enable Pressure Coefficient in Run Settings, probe the Cp field at facade points, and wire the probe tree here.</div>
+            <div class="index-quicklink-text">Export probed facade pressure coefficients into the EnergyPlus AirflowNetwork as an .idf snippet: WindPressureCoefficientArray (the simulated directions), per-node WindPressureCoefficientValues and ExternalNode objects, ready to paste/merge into a Ladybug Tools (or hand-built) AirflowNetwork model. Enable Pressure Coefficient in Run Settings, probe the Cp field at facade points, and wire the probe tree here. Method: Dogan & Kastner (2021), Building Simulation 14(4):1189-1200, doi:10.1007/s12273-020-0727-x; Dogan & Kastner (2018), IBPC 2018, Syracuse NY 1139-1144, doi:10.14305/ibpc.2018.ms-5.05.</div>
         </div>
     </a>
     <a href="/components/Deconstruct_Wind/" style="text-decoration: none;">
@@ -1222,7 +1288,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Velocity_Amplification_Factors_VAF.png" class="nav-gh-icon"> Velocity Amplification Factors VAF
             </div>
-            <div class="index-quicklink-text">Compute Velocity Amplification Factors (VAF) and annual wind speed at probes from CFD or ML wind-prediction results and EPW weather data. VAF (the term used in the wind-engineering literature for what Eddy3D historically called "wind factors") is the local wind speed normalized by the reference speed.</div>
+            <div class="index-quicklink-text">Compute Velocity Amplification Factors (VAF) and annual wind speed at probes from CFD or ML wind-prediction results and EPW weather data. VAF (the term used in the wind-engineering literature for what Eddy3D historically called "wind factors") is the local wind speed normalized by the reference speed. Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639; Kastner & Dogan (2019), Building Simulation 2019, Rome 621-628, doi:10.26868/25222708.2019.210458.</div>
         </div>
     </a>
     <a href="/components/Create_Mesh/" style="text-decoration: none;">
@@ -1238,7 +1304,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Cull_Ground_Mesh.png" class="nav-gh-icon"> Cull Ground Mesh
             </div>
-            <div class="index-quicklink-text">Remove ground mesh faces that intersect buildings, creating an analysis ground mesh with building footprints cut out.</div>
+            <div class="index-quicklink-text">Cut building footprints out of a ground mesh to make an analysis ground mesh. The ground is quad-remeshed to Target Face Count (or taken as wired when that is 0), then every vertex under a building is removed together with the faces that use it.</div>
         </div>
     </a>
     <a href="/components/Flex_Legend/" style="text-decoration: none;">
@@ -1387,7 +1453,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/UTCI_Simulation.png" class="nav-gh-icon"> UTCI Simulation
             </div>
-            <div class="index-quicklink-text">Compute annual probe-specific UTCI from simulation outputs: MRT and wind-speed data trees, plus air temperature and relative humidity. For a weather-only calculator, use "UTCI (Weather)".</div>
+            <div class="index-quicklink-text">Compute annual probe-specific UTCI from simulation outputs: MRT and wind-speed data trees, plus air temperature and relative humidity. For a weather-only calculator, use "UTCI (Weather)". Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639; Kastner & Dogan (2019), Building Simulation 2019, Rome 621-628, doi:10.26868/25222708.2019.210458.</div>
         </div>
     </a>
     <a href="/components/Deconstruct_UTCI/" style="text-decoration: none;">
@@ -1424,6 +1490,91 @@
     </a>
 </div>
 
+<h2 id="09-stormwater">09 Stormwater</h2>
+<h4 id="main-components">Main Components</h4>
+<div class="index-quicklink-container">
+    <a href="/components/Design_Storm/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Design_Storm.png" class="nav-gh-icon"> Design Storm
+            </div>
+            <div class="index-quicklink-text">Builds a design-storm hyetograph from an IDF (Intensity-Duration-Frequency) curve, with an optional climate allowance. Feed it to Stormwater Run.  Give it EITHER the three coefficients of an i = a/(t+b)^c fit, OR a published depth-duration table (the form NOAA Atlas 14, KOSTRA and FEH actually distribute). The alternating-block and Chicago patterns reproduce the IDF depth at every sub-duration, which is what makes the result a design event rather than a shape.</div>
+        </div>
+    </a>
+    <a href="/components/Land_Cover_Runoff/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Land_Cover_Runoff.png" class="nav-gh-icon"> Land Cover Runoff
+            </div>
+            <div class="index-quicklink-text">Fetches land-cover polygons around a lat/lon from OpenStreetMap (open data, no key) and classifies each into a Curve Number and an overland Manning's n.  This is the same Overpass query the Land Cover Roughness component makes, read for runoff instead of for wind — so wiring both on one site costs one fetch, not two. Unmapped tags are skipped rather than guessed at.</div>
+        </div>
+    </a>
+    <a href="/components/Runoff_Zones/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Runoff_Zones.png" class="nav-gh-icon"> Runoff Zones
+            </div>
+            <div class="index-quicklink-text">Tags an area of the site with how rough it is and how much rain it sheds.  Manning's n here is the OVERLAND FLOW value, several times the channel value for the same material — at the millimetre depths of sheet flow the surface texture is the whole channel, and using a channel roughness makes runoff arrive far too fast.  A Curve Number (1–100) models losses that grow through a storm as the ground wets up; leave it at 0 to use the flat runoff coefficient instead.</div>
+        </div>
+    </a>
+    <a href="/components/Deconstruct_Stormwater/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Deconstruct_Stormwater.png" class="nav-gh-icon"> Deconstruct Stormwater
+            </div>
+            <div class="index-quicklink-text">Turns a stormwater result into meshes and numbers. This is the ONLY component that materialises the field — a run holds millions of values and emitting them all as a tree would freeze the canvas, so ask here for the field and the time you want.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Grid/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Grid.png" class="nav-gh-icon"> Stormwater Grid
+            </div>
+            <div class="index-quicklink-text">Rasterises the graded terrain into the DEM the solver runs on.  Buildings become no-flow WALLS rather than raised ground: raising them fabricates a ridge at the footprint edge that sheds water in whatever direction the rasterised edge happens to face, and lets water pond on roofs.  Breaklines are how a 1 m grid stays usable. A kerb, a swale invert or a threshold is sub-cell at 1 m and every one of them controls where the water goes — sampling the terrain at cell centres averages them away. Burning them along the cell path keeps the control without paying for a fine raster over the whole site.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Run/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Run.png" class="nav-gh-icon"> Stormwater Run
+            </div>
+            <div class="index-quicklink-text">Routes a design storm over the graded terrain and reports ponding depth, flow velocity and flood hazard.  Two modes. FAST is terrain analytics only — slope, flow direction, contributing area and the capacity of every depression — which recomputes between grading edits and answers most of a grading review. FULL adds a shallow-water solve for the depths and velocities a design storm actually produces.  SURFACE ROUTING ONLY: no pipe network, no soakaways, no evapotranspiration. Use it for design-storm and cloudburst checks, not for hydraulic sizing.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Settings/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Settings.png" class="nav-gh-icon"> Stormwater Settings
+            </div>
+            <div class="index-quicklink-text">Solver controls for Stormwater Run. The defaults suit a 1–5 m urban raster; leave this unconnected unless a run misbehaves.</div>
+        </div>
+    </a>
+    <a href="/components/Ponding_Report/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Ponding_Report.png" class="nav-gh-icon"> Ponding Report
+            </div>
+            <div class="index-quicklink-text">One row per puddle: where it is, how much water, how deep, when it peaked and how long it took to drain — against the capacity of the hollow it sits in, so an overflowing depression is visible as such.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Flowlines/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Flowlines.png" class="nav-gh-icon"> Stormwater Flowlines
+            </div>
+            <div class="index-quicklink-text">Traces where the runoff goes, as curves over the graded surface. From a full run these are the solved velocity paths; from a fast run they are steepest-descent paths down the depression-filled terrain.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Legend/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Legend.png" class="nav-gh-icon"> Stormwater Legend
+            </div>
+            <div class="index-quicklink-text">A legend for a stormwater mesh: swatches, labels and a title, placed on a plane.</div>
+        </div>
+    </a>
+</div>
+
 <h2 id="10-lbm">10 LBM</h2>
 <h4 id="main-components">Main Components</h4>
 <div class="index-quicklink-container">
@@ -1432,15 +1583,15 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/FluidX3D_Run_Settings.png" class="nav-gh-icon"> FluidX3D Run Settings
             </div>
-            <div class="index-quicklink-text">Solver controls for the FluidX3D GPU engine (memory, simulated time, export interval, and an interactive real-time window).</div>
+            <div class="index-quicklink-text">Solver controls for the FluidX3D GPU engine (memory, simulated time, export interval, an interactive real-time window, and an optional fixed lattice spacing). Memory 0 = detected from this machine's GPU.</div>
         </div>
     </a>
-    <a href="/components/LBM_Field/" style="text-decoration: none;">
+    <a href="/components/LBM_Case/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
-                <img src="/images/icons/LBM_Field.png" class="nav-gh-icon"> LBM Field
+                <img src="/images/icons/LBM_Case.png" class="nav-gh-icon"> LBM Case
             </div>
-            <div class="index-quicklink-text">Read the time-averaged pedestrian wind field from an LBM case directory. Outputs world-frame points and velocity vectors — plug both into the Vector Field Viewer.</div>
+            <div class="index-quicklink-text">Build a lattice-Boltzmann wind case from the ABL, the geometry and a settings object, and write it to disk. Wire 'LBM Run Settings' for OpenLB or 'FluidX3D Run Settings' for FluidX3D (nothing = OpenLB). Feed the Case output to LBM Run, then to Probe, LBM Field or FluidX3D Live View — the same Case → Run → Probe chain as the OpenFOAM wind study.</div>
         </div>
     </a>
     <a href="/components/LBM_Run/" style="text-decoration: none;">
@@ -1448,7 +1599,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/LBM_Run.png" class="nav-gh-icon"> LBM Run
             </div>
-            <div class="index-quicklink-text">Prepare and launch a container-based OpenLB wind simulation (Smagorinsky LES, time-averaged pedestrian wind field). Uses the same ABL inflow object as the OpenFOAM and FluidX3D engines. Needs Docker Desktop or podman; the solver image is pulled on first run.</div>
+            <div class="index-quicklink-text">Launch a lattice-Boltzmann case from the LBM Case component (OpenLB in a container or natively, or FluidX3D on the GPU — whichever the case was built with). Writes the case first if it has not been written, then opens the solver in a terminal window. Read results with Probe (points), LBM Field (the probe layer) or FluidX3D Live View.</div>
         </div>
     </a>
     <a href="/components/LBM_Run_Settings/" style="text-decoration: none;">
@@ -1467,6 +1618,14 @@
             <div class="index-quicklink-text">Watch a FluidX3D wind solve live in the viewport: colors an analysis mesh with the velocity magnitude of the newest exported frame while the GPU solver runs, updating as each frame lands. Also shows the final field of a completed run.  Wire either the Run component's Case or Folder output into Case, and supply the mesh to read the wind on (e.g. a pedestrian-level plane).</div>
         </div>
     </a>
+    <a href="/components/LBM_Field/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/LBM_Field.png" class="nav-gh-icon"> LBM Field
+            </div>
+            <div class="index-quicklink-text">Read the time-averaged pedestrian wind field from an LBM case directory. Outputs world-frame points and velocity vectors — plug both into the Vector Field Viewer.</div>
+        </div>
+    </a>
 </div>
 
 <h2 id="11-ml">11 ML</h2>
@@ -1477,7 +1636,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/ML_Model.png" class="nav-gh-icon"> ML Model
             </div>
-            <div class="index-quicklink-text">Download an ONNX wind-prediction model from HuggingFace for the Wind Predictor component. Yel 2.0 is public; Esen 1.0 and Poyraz 1.0 need a HuggingFace token. All are 8-channel Wind Predictor models. (Yel 1.0 is a different architecture — the GAN image model the hosted Wind Predictor (Cloud) component runs via its API — and cannot be loaded here.) Models cache in ~/Eddy3D/Models/ and are reused on subsequent runs (a model already downloaded to the old ~/SUS_LAB/ folder is moved over, not re-fetched).</div>
+            <div class="index-quicklink-text">Download an ONNX wind-prediction model from HuggingFace for the Wind Predictor component. Yel 2.0 is public; Esen 1.0 and Poyraz 1.0 need a HuggingFace token. All are 8-channel Wind Predictor models. (Yel 1.0 is a different architecture — the GAN image model the hosted Wind Predictor (Cloud) component runs via its API — and cannot be loaded here.) Models cache in ~/Eddy3D/Models/ and are reused on subsequent runs (a model already downloaded to the old ~/SUS_LAB/ folder is moved over, not re-fetched). Method: Kastner et al. (2026), SSRN preprint 6401886, doi:10.2139/ssrn.6401886.</div>
         </div>
     </a>
     <a href="/components/Wind_Predictor/" style="text-decoration: none;">
@@ -1485,7 +1644,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Wind_Predictor.png" class="nav-gh-icon"> Wind Predictor
             </div>
-            <div class="index-quicklink-text">Run ONNX wind-field prediction end-to-end. Computes SDF, building height, Zrelative, U/Uref, direction features from geometry, assembles the 8-channel input tensor, runs ONNX inference, and outputs predicted wind speeds. Supports legacy 1ch (U), 2ch (U + k) and new 4ch (U + k + Uroof + kroof) models.</div>
+            <div class="index-quicklink-text">Run ONNX wind-field prediction end-to-end. Computes SDF, building height, Zrelative, U/Uref, direction features from geometry, assembles the 8-channel input tensor, runs ONNX inference, and outputs predicted wind speeds. Supports legacy 1ch (U), 2ch (U + k) and new 4ch (U + k + Uroof + kroof) models. Method: Kastner et al. (2026), SSRN preprint 6401886, doi:10.2139/ssrn.6401886.</div>
         </div>
     </a>
     <a href="/components/Wind_Predictor_Cloud/" style="text-decoration: none;">
@@ -1493,7 +1652,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Wind_Predictor_Cloud.png" class="nav-gh-icon"> Wind Predictor Cloud
             </div>
-            <div class="index-quicklink-text">Predict a pedestrian wind-speed field from buildings without running CFD, using the hosted Eddy3D model (Yel 1.0, a 512x512 image GAN). Rasterizes the buildings and the analysis plane into the model's input image, sends it to the API, and returns the predicted wind speeds plus a colored result mesh. Runs on Eddy3D's server: needs internet, no GPU and no model download, and the free server may need a minute to wake up. For a local GPU run over arbitrary points and multiple wind directions, use Wind Predictor with a model from ML Model instead.</div>
+            <div class="index-quicklink-text">Predict a pedestrian wind-speed field from buildings without running CFD, using the hosted Eddy3D model (Yel 1.0, a 512x512 image GAN). Rasterizes the buildings and the analysis plane into the model's input image, sends it to the API, and returns the predicted wind speeds plus a colored result mesh. Runs on Eddy3D's server: needs internet, no GPU and no model download, and the free server may need a minute to wake up. For a local GPU run over arbitrary points and multiple wind directions, use Wind Predictor with a model from ML Model instead. Method: Kastner & Dogan (2023), Building and Environment 242:110384, doi:10.1016/j.buildenv.2023.110384.</div>
         </div>
     </a>
     <a href="/components/Wind_Comfort_Predictor_ML/" style="text-decoration: none;">
@@ -1501,7 +1660,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Wind_Comfort_Predictor_ML.png" class="nav-gh-icon"> Wind Comfort Predictor ML
             </div>
-            <div class="index-quicklink-text">Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX model.</div>
+            <div class="index-quicklink-text">Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX model. Method: Kastner et al. (2026), SSRN preprint 6401886, doi:10.2139/ssrn.6401886.</div>
         </div>
     </a>
     <a href="/components/Dataset_Curator/" style="text-decoration: none;">
@@ -1534,6 +1693,237 @@
                 <img src="/images/icons/MRT_Dataset_Curator.png" class="nav-gh-icon"> MRT Dataset Curator
             </div>
             <div class="index-quicklink-text">Export the solved MRT field as a machine-learning dataset: one row per sensor per hour with spatial features, hourly climate drivers and the MRT/UTCI targets.</div>
+        </div>
+    </a>
+</div>
+
+<h2 id="12-cht">12 CHT</h2>
+<h4 id="main-components">Main Components</h4>
+<div class="index-quicklink-container">
+    <a href="/components/CHT_Air_Cavity/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/CHT_Air_Cavity.png" class="nav-gh-icon"> CHT Air Cavity
+            </div>
+            <div class="index-quicklink-text">A closed air cavity: solved as buoyant air (natural convection), coupled to the solids around it.</div>
+        </div>
+    </a>
+    <a href="/components/CHT_Boundary/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/CHT_Boundary.png" class="nav-gh-icon"> CHT Boundary
+            </div>
+            <div class="index-quicklink-text">Boundary condition on one face of the analysis box: fixed surface temperature, convective film (h + air temperature), or adiabatic. Unassigned faces are adiabatic.</div>
+        </div>
+    </a>
+    <a href="/components/CHT_Material/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/CHT_Material.png" class="nav-gh-icon"> CHT Material
+            </div>
+            <div class="index-quicklink-text">Solid material for CHT heat transfer analysis. Catalog values (ISO 10456 / Incropera) seed the properties; wire a number to override one.</div>
+        </div>
+    </a>
+    <a href="/components/CHT_Solid/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/CHT_Solid.png" class="nav-gh-icon"> CHT Solid
+            </div>
+            <div class="index-quicklink-text">A solid region of the CHT assembly: closed Brep/Mesh + material. The union of all solids and cavities must fill a rectangular box (the analysis domain).</div>
+        </div>
+    </a>
+    <a href="/components/CHT_Case/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/CHT_Case.png" class="nav-gh-icon"> CHT Case
+            </div>
+            <div class="index-quicklink-text">Build a conjugate heat transfer case from solids, air cavities and boundaries. Wire the Case output into the Run component (Containerized engine). Method: Kastner & Dogan (2020), SimAUD 2020 405-412, http://simaud.org/2020/proceedings/37.pdf.</div>
+        </div>
+    </a>
+    <a href="/components/HAM_Climate/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/HAM_Climate.png" class="nav-gh-icon"> HAM Climate
+            </div>
+            <div class="index-quicklink-text">Air conditions on one face of a HAM wall. One value per input is a constant; a list is a stepped schedule (one entry per step, hourly by default).</div>
+        </div>
+    </a>
+    <a href="/components/HAM_Material/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/HAM_Material.png" class="nav-gh-icon"> HAM Material
+            </div>
+            <div class="index-quicklink-text">Porous material for a HAM wall: a hamFoam material model plus density, specific heat and conductivity. The five HAMSTAD benchmark models arrive with their published properties; the rest supply curves only, so wire rho, c and lambda1.</div>
+        </div>
+    </a>
+    <a href="/components/HAM_Wall/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/HAM_Wall.png" class="nav-gh-icon"> HAM Wall
+            </div>
+            <div class="index-quicklink-text">Layered build-up for a HAM case, OUTSIDE layer first. Materials and thicknesses are read in parallel, so their counts must match.</div>
+        </div>
+    </a>
+    <a href="/components/HAM_Case/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/HAM_Case.png" class="nav-gh-icon"> HAM Case
+            </div>
+            <div class="index-quicklink-text">Build a heat-and-moisture case for a layered wall. Wire the Case output into the Run component (Containerized engine — hamFoam ships only in the container). Pick a Preset to reproduce one of the two HAMSTAD benchmark tutorials.</div>
+        </div>
+    </a>
+</div>
+
+<h2 id="13-wrf">13 WRF</h2>
+<h4 id="main-components">Main Components</h4>
+<div class="index-quicklink-container">
+    <a href="/components/WRF_Geo_Data/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Geo_Data.png" class="nav-gh-icon"> WRF Geo Data
+            </div>
+            <div class="index-quicklink-text">Check and download the WPS static geographical data geogrid needs. Reports what is installed against the mandatory field list, and fetches the bundle that closes the gap.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Met_Data/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Met_Data.png" class="nav-gh-icon"> WRF Met Data
+            </div>
+            <div class="index-quicklink-text">Download the meteorological GRIB files that drive a WRF run. The file list and the Vtable are shown before you fetch anything, so a window can be checked first.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Domain/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Domain.png" class="nav-gh-icon"> WRF Domain
+            </div>
+            <div class="index-quicklink-text">Define a WRF domain and the parent grids nested around it. Domains are specified INNERMOST-FIRST: the grid you set here is the finest one, and each nest ratio adds a coarser parent around it. Outputs the project the WRF Namelist component writes, and the domain extents as rectangles centred on the innermost domain.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Namelist/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Namelist.png" class="nav-gh-icon"> WRF Namelist
+            </div>
+            <div class="index-quicklink-text">Write namelist.wps for a WRF project. The text is produced on every solve; the Write toggle saves it to <Working Directory>/run_wps/namelist.wps.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Progress/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Progress.png" class="nav-gh-icon"> WRF Progress
+            </div>
+            <div class="index-quicklink-text">Progress of the WRF pipeline in the working directory, with an expected time to completion once wrf.exe is stepping. Toggle Live to re-poll once a second.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Run/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Run.png" class="nav-gh-icon"> WRF Run
+            </div>
+            <div class="index-quicklink-text">Run the WRF pipeline. Writes a script into the project folder and launches it. The script and command are always shown, even before you run, so a failing run can be reproduced by hand.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Animate/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Animate.png" class="nav-gh-icon"> WRF Animate
+            </div>
+            <div class="index-quicklink-text">Loop through a WRF run's history frames while Play is on. Wire Frame into the WRF Probe's Frame input; each tick advances one frame and recomputes the display.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Map/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Map.png" class="nav-gh-icon"> WRF Map
+            </div>
+            <div class="index-quicklink-text">Lat/lon graticule with labels, the run's own coastline from LANDMASK, and a site marker — in the same plane as the WRF Probe points and WRF Domain rectangles. Wire Labels + Label Points (and Site Label + Site Point) to a Text Tag to draw the annotations.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Probe/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Probe.png" class="nav-gh-icon"> WRF Probe
+            </div>
+            <div class="index-quicklink-text">Sample a surface field of a WRF run over the whole domain, one point per grid cell. Points are in metres about the domain centre, matching the WRF Domain rectangles. Wire Points + Values into the Scalar Field Viewer, or Points + Vectors into the Vector Field Viewer, for the display.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_ABL/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_ABL.png" class="nav-gh-icon"> WRF ABL
+            </div>
+            <div class="index-quicklink-text">Build an atmospheric boundary layer from a WRF site series. The output plugs into the same socket as Outdoor's ABL, so it drives the wind study, Outdoor+, FluidX3D and LBM alike. Note this is uniform in plan: one log-law profile at the site, not a spatially varying inflow.</div>
+        </div>
+    </a>
+    <a href="/components/WRF_Weather/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/WRF_Weather.png" class="nav-gh-icon"> WRF Weather
+            </div>
+            <div class="index-quicklink-text">Read a WRF run at a site and build the weather an Eddy3D case needs. Feed the Weather output to Timing Parameters and urbanMicroclimateFoam runs on WRF instead of an EPW. Start HOY and Duration describe the window the run actually covers — wire them too, because every hour outside it is deliberately NaN and will stop OpenFOAM rather than quietly simulate a day of 0 degC.</div>
+        </div>
+    </a>
+</div>
+
+<h2 id="14-palm-4u">14 PALM-4U</h2>
+<h4 id="main-components">Main Components</h4>
+<div class="index-quicklink-container">
+    <a href="/components/PALM_Domain/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/PALM_Domain.png" class="nav-gh-icon"> PALM Domain
+            </div>
+            <div class="index-quicklink-text">Define the PALM-4U grid: cells, spacing and the site's latitude/longitude. The domain's lower-left corner sits at the Origin point in the Rhino model (world origin by default), with y pointing north. Feed the output to PALM Case and PALM Run.</div>
+        </div>
+    </a>
+    <a href="/components/PALM_Land_Cover/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/PALM_Land_Cover.png" class="nav-gh-icon"> PALM Land Cover
+            </div>
+            <div class="index-quicklink-text">Fetch OpenStreetMap land cover over the PALM domain and classify it into PALM surface types. Feed the output into PALM Case's Land Cover input. Urban block polygons are skipped and reported — paint those by hand.</div>
+        </div>
+    </a>
+    <a href="/components/PALM_Case/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/PALM_Case.png" class="nav-gh-icon"> PALM Case
+            </div>
+            <div class="index-quicklink-text">Write the PALM-4U case: the static driver (terrain, buildings, tree canopies and the ground surface mosaic, rasterized onto the domain grid) and the _p3d namelist that runs it. Geometry inputs take trees of meshes/Breps; branches are flattened — everything wired belongs to ONE scene. Ground not covered by any input takes the Ground Cover class. The viewport shows the domain, its boundary conditions and the rasterized surface the solver will actually see.</div>
+        </div>
+    </a>
+    <a href="/components/PALM_Settings/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/PALM_Settings.png" class="nav-gh-icon"> PALM Settings
+            </div>
+            <div class="index-quicklink-text">Steer the PALM-4U run: duration, wind, temperature and outputs. Forcing is idealized (constant wind, cyclic boundaries). Comfort switches on radiation and the biometeorology module, whose PET/UTCI/MRT maps are PALM-4U's point.</div>
+        </div>
+    </a>
+    <a href="/components/PALM_Progress/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/PALM_Progress.png" class="nav-gh-icon"> PALM Progress
+            </div>
+            <div class="index-quicklink-text">Progress of the PALM run in the case folder, from its RUN_CONTROL table. Toggle Live to re-poll once a second.</div>
+        </div>
+    </a>
+    <a href="/components/PALM_Run/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/PALM_Run.png" class="nav-gh-icon"> PALM Run
+            </div>
+            <div class="index-quicklink-text">Run PALM-4U. Writes a launch script into the case PALM Case wrote, then starts the published PALM container. The script and command are always shown, even before you run, so a failing run can be reproduced by hand.</div>
+        </div>
+    </a>
+    <a href="/components/PALM_Results/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/PALM_Results.png" class="nav-gh-icon"> PALM Results
+            </div>
+            <div class="index-quicklink-text">Read a PALM output field: one variable, one time frame, as values and a colored mesh over the domain. Variables and times available in the case are listed on every solve.</div>
         </div>
     </a>
 </div>

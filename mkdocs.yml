@@ -21,7 +21,7 @@ extra:
   version:
     provider: mike
     default: latest
-  latest_eddy_version: "1.12.0.827" # Manual fallback
+  latest_eddy_version: "1.14.0.827" # Manual fallback
 
 nav:
   - Documentation:
@@ -46,6 +46,8 @@ nav:
           - "<img src='/images/icons/Monthly_Climate_Chart.png' class='nav-gh-icon' /> Monthly Climate Chart": components/Monthly_Climate_Chart.md
           - "<img src='/images/icons/Relative_Humidity.png' class='nav-gh-icon' /> Relative Humidity": components/Relative_Humidity.md
           - "<img src='/images/icons/Weather.png' class='nav-gh-icon' /> Weather": components/Weather.md
+          - "<img src='/images/icons/Land_Cover_Roughness.png' class='nav-gh-icon' /> Land Cover Roughness": components/Land_Cover_Roughness.md
+          - "<img src='/images/icons/Watertight.png' class='nav-gh-icon' /> Watertight": components/Watertight.md
           - "<img src='/images/icons/Wind_Compass.png' class='nav-gh-icon' /> Wind Compass": components/Wind_Compass.md
           - "<img src='/images/icons/Wind_Rose_Cluster.png' class='nav-gh-icon' /> Wind Rose Cluster": components/Wind_Rose_Cluster.md
           - "<img src='/images/icons/Analysis_Period.png' class='nav-gh-icon' /> Analysis Period": components/Analysis_Period.md
@@ -66,10 +68,8 @@ nav:
           - "<img src='/images/icons/Refinement_Region.png' class='nav-gh-icon' /> Refinement Region": components/Refinement_Region.md
           - "<img src='/images/icons/Brep_Grid_Points.png' class='nav-gh-icon' /> Brep Grid Points": components/Brep_Grid_Points.md
           - "<img src='/images/icons/Ground_Roughness.png' class='nav-gh-icon' /> Ground Roughness": components/Ground_Roughness.md
-          - "<img src='/images/icons/Land_Cover_Roughness.png' class='nav-gh-icon' /> Land Cover Roughness": components/Land_Cover_Roughness.md
           - "<img src='/images/icons/Pollutant_Source.png' class='nav-gh-icon' /> Pollutant Source": components/Pollutant_Source.md
           - "<img src='/images/icons/Tree.png' class='nav-gh-icon' /> Tree": components/Tree.md
-          - "<img src='/images/icons/Watertight.png' class='nav-gh-icon' /> Watertight": components/Watertight.md
           - "<img src='/images/icons/Custom_Function_Object.png' class='nav-gh-icon' /> Custom Function Object": components/Custom_Function_Object.md
           - "<img src='/images/icons/Outdoor_Case.png' class='nav-gh-icon' /> Outdoor Case": components/Outdoor_Case.md
           - "<img src='/images/icons/Run_Settings.png' class='nav-gh-icon' /> Run Settings": components/Run_Settings.md
@@ -193,13 +193,26 @@ nav:
           - "<img src='/images/icons/Pedestrian_Wind_Comfort.png' class='nav-gh-icon' /> Pedestrian Wind Comfort": components/Pedestrian_Wind_Comfort.md
           - "<img src='/images/icons/Comfort_Hours.png' class='nav-gh-icon' /> Comfort Hours": components/Comfort_Hours.md
           - "<img src='/images/icons/Thermal_Comfort_Legend.png' class='nav-gh-icon' /> Thermal Comfort Legend": components/Thermal_Comfort_Legend.md
+      - "09 Stormwater":
+          - "Overview": categories/09_Stormwater.md
+          - "<img src='/images/icons/Design_Storm.png' class='nav-gh-icon' /> Design Storm": components/Design_Storm.md
+          - "<img src='/images/icons/Land_Cover_Runoff.png' class='nav-gh-icon' /> Land Cover Runoff": components/Land_Cover_Runoff.md
+          - "<img src='/images/icons/Runoff_Zones.png' class='nav-gh-icon' /> Runoff Zones": components/Runoff_Zones.md
+          - "<img src='/images/icons/Deconstruct_Stormwater.png' class='nav-gh-icon' /> Deconstruct Stormwater": components/Deconstruct_Stormwater.md
+          - "<img src='/images/icons/Stormwater_Grid.png' class='nav-gh-icon' /> Stormwater Grid": components/Stormwater_Grid.md
+          - "<img src='/images/icons/Stormwater_Run.png' class='nav-gh-icon' /> Stormwater Run": components/Stormwater_Run.md
+          - "<img src='/images/icons/Stormwater_Settings.png' class='nav-gh-icon' /> Stormwater Settings": components/Stormwater_Settings.md
+          - "<img src='/images/icons/Ponding_Report.png' class='nav-gh-icon' /> Ponding Report": components/Ponding_Report.md
+          - "<img src='/images/icons/Stormwater_Flowlines.png' class='nav-gh-icon' /> Stormwater Flowlines": components/Stormwater_Flowlines.md
+          - "<img src='/images/icons/Stormwater_Legend.png' class='nav-gh-icon' /> Stormwater Legend": components/Stormwater_Legend.md
       - "10 LBM":
           - "Overview": categories/10_LBM.md
           - "<img src='/images/icons/FluidX3D_Run_Settings.png' class='nav-gh-icon' /> FluidX3D Run Settings": components/FluidX3D_Run_Settings.md
-          - "<img src='/images/icons/LBM_Field.png' class='nav-gh-icon' /> LBM Field": components/LBM_Field.md
+          - "<img src='/images/icons/LBM_Case.png' class='nav-gh-icon' /> LBM Case": components/LBM_Case.md
           - "<img src='/images/icons/LBM_Run.png' class='nav-gh-icon' /> LBM Run": components/LBM_Run.md
           - "<img src='/images/icons/LBM_Run_Settings.png' class='nav-gh-icon' /> LBM Run Settings": components/LBM_Run_Settings.md
           - "<img src='/images/icons/FluidX3D_Live_View.png' class='nav-gh-icon' /> FluidX3D Live View": components/FluidX3D_Live_View.md
+          - "<img src='/images/icons/LBM_Field.png' class='nav-gh-icon' /> LBM Field": components/LBM_Field.md
       - "11 ML":
           - "Overview": categories/11_ML.md
           - "<img src='/images/icons/ML_Model.png' class='nav-gh-icon' /> ML Model": components/ML_Model.md
@@ -210,6 +223,39 @@ nav:
           - "<img src='/images/icons/Dataset_Reader.png' class='nav-gh-icon' /> Dataset Reader": components/Dataset_Reader.md
           - "<img src='/images/icons/Interpolate_UMag.png' class='nav-gh-icon' /> Interpolate UMag": components/Interpolate_UMag.md
           - "<img src='/images/icons/MRT_Dataset_Curator.png' class='nav-gh-icon' /> MRT Dataset Curator": components/MRT_Dataset_Curator.md
+      - "12 CHT":
+          - "Overview": categories/12_CHT.md
+          - "<img src='/images/icons/CHT_Air_Cavity.png' class='nav-gh-icon' /> CHT Air Cavity": components/CHT_Air_Cavity.md
+          - "<img src='/images/icons/CHT_Boundary.png' class='nav-gh-icon' /> CHT Boundary": components/CHT_Boundary.md
+          - "<img src='/images/icons/CHT_Material.png' class='nav-gh-icon' /> CHT Material": components/CHT_Material.md
+          - "<img src='/images/icons/CHT_Solid.png' class='nav-gh-icon' /> CHT Solid": components/CHT_Solid.md
+          - "<img src='/images/icons/CHT_Case.png' class='nav-gh-icon' /> CHT Case": components/CHT_Case.md
+          - "<img src='/images/icons/HAM_Climate.png' class='nav-gh-icon' /> HAM Climate": components/HAM_Climate.md
+          - "<img src='/images/icons/HAM_Material.png' class='nav-gh-icon' /> HAM Material": components/HAM_Material.md
+          - "<img src='/images/icons/HAM_Wall.png' class='nav-gh-icon' /> HAM Wall": components/HAM_Wall.md
+          - "<img src='/images/icons/HAM_Case.png' class='nav-gh-icon' /> HAM Case": components/HAM_Case.md
+      - "13 WRF":
+          - "Overview": categories/13_WRF.md
+          - "<img src='/images/icons/WRF_Geo_Data.png' class='nav-gh-icon' /> WRF Geo Data": components/WRF_Geo_Data.md
+          - "<img src='/images/icons/WRF_Met_Data.png' class='nav-gh-icon' /> WRF Met Data": components/WRF_Met_Data.md
+          - "<img src='/images/icons/WRF_Domain.png' class='nav-gh-icon' /> WRF Domain": components/WRF_Domain.md
+          - "<img src='/images/icons/WRF_Namelist.png' class='nav-gh-icon' /> WRF Namelist": components/WRF_Namelist.md
+          - "<img src='/images/icons/WRF_Progress.png' class='nav-gh-icon' /> WRF Progress": components/WRF_Progress.md
+          - "<img src='/images/icons/WRF_Run.png' class='nav-gh-icon' /> WRF Run": components/WRF_Run.md
+          - "<img src='/images/icons/WRF_Animate.png' class='nav-gh-icon' /> WRF Animate": components/WRF_Animate.md
+          - "<img src='/images/icons/WRF_Map.png' class='nav-gh-icon' /> WRF Map": components/WRF_Map.md
+          - "<img src='/images/icons/WRF_Probe.png' class='nav-gh-icon' /> WRF Probe": components/WRF_Probe.md
+          - "<img src='/images/icons/WRF_ABL.png' class='nav-gh-icon' /> WRF ABL": components/WRF_ABL.md
+          - "<img src='/images/icons/WRF_Weather.png' class='nav-gh-icon' /> WRF Weather": components/WRF_Weather.md
+      - "14 PALM-4U":
+          - "Overview": categories/14_PALM-4U.md
+          - "<img src='/images/icons/PALM_Domain.png' class='nav-gh-icon' /> PALM Domain": components/PALM_Domain.md
+          - "<img src='/images/icons/PALM_Land_Cover.png' class='nav-gh-icon' /> PALM Land Cover": components/PALM_Land_Cover.md
+          - "<img src='/images/icons/PALM_Case.png' class='nav-gh-icon' /> PALM Case": components/PALM_Case.md
+          - "<img src='/images/icons/PALM_Settings.png' class='nav-gh-icon' /> PALM Settings": components/PALM_Settings.md
+          - "<img src='/images/icons/PALM_Progress.png' class='nav-gh-icon' /> PALM Progress": components/PALM_Progress.md
+          - "<img src='/images/icons/PALM_Run.png' class='nav-gh-icon' /> PALM Run": components/PALM_Run.md
+          - "<img src='/images/icons/PALM_Results.png' class='nav-gh-icon' /> PALM Results": components/PALM_Results.md
   - Back: "https://eddy3d.com"
 
 
