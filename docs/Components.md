@@ -1737,7 +1737,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/CHT_Case.png" class="nav-gh-icon"> CHT Case
             </div>
-            <div class="index-quicklink-text">Build a conjugate heat transfer case from solids, air cavities and boundaries. Wire the Case output into the Run component (Containerized engine). Method: Kastner & Dogan (2020), SimAUD 2020 405-412, http://simaud.org/2020/proceedings/37.pdf.</div>
+            <div class="index-quicklink-text">Build a conjugate heat transfer case from solids, air cavities and boundaries. Wire the Case output into the Run component (Containerized engine). Method: Kastner & Dogan (2020), SimAUD 2020 405-412, https://www.researchgate.net/publication/346039320_Solving_Thermal_Bridging_Problems_for_Architectural_Applications_with_OpenFOAM.</div>
         </div>
     </a>
     <a href="/components/HAM_Climate/" style="text-decoration: none;">
