@@ -325,7 +325,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Select_Template.png" class="nav-gh-icon"> Select Template
             </div>
-            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.14.0.827</div>
+            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.15.0.827</div>
         </div>
     </a>
 </div>
@@ -519,7 +519,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Cylinder_Domain.png" class="nav-gh-icon"> Cylinder Domain
             </div>
-            <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius targets the 3% frontal-blockage limit of ASCE/SEI CWE Prestandard AC 6-8b, which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge. Method: Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906; Kastner & Dogan (2018), eSim 2018 (IBPSA-Canada), Montréal, https://publications.ibpsa.org/conference/paper/?id=esim2018_1-2-A-4.</div>
+            <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius targets the 3% frontal-blockage limit of ASCE/SEI CWE Prestandard AC 6-8b, which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge. Method: Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906; Kastner & Dogan (2018), eSim 2018 (IBPSA-Canada), Montréal, https://www.researchgate.net/publication/325023244_Streamlining_meshing_methodologies_for_annual_urban_CFD_simulations.</div>
         </div>
     </a>
     <a href="/components/Mesh_Settings/" style="text-decoration: none;">
@@ -1737,7 +1737,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/CHT_Case.png" class="nav-gh-icon"> CHT Case
             </div>
-            <div class="index-quicklink-text">Build a conjugate heat transfer case from solids, air cavities and boundaries. Wire the Case output into the Run component (Containerized engine). Method: Kastner & Dogan (2020), SimAUD 2020 405-412, http://simaud.org/2020/proceedings/37.pdf.</div>
+            <div class="index-quicklink-text">Build a conjugate heat transfer case from solids, air cavities and boundaries. Wire the Case output into the Run component (Containerized engine). Method: Kastner & Dogan (2020), SimAUD 2020 405-412, https://www.researchgate.net/publication/346039320_Solving_Thermal_Bridging_Problems_for_Architectural_Applications_with_OpenFOAM.</div>
         </div>
     </a>
     <a href="/components/HAM_Climate/" style="text-decoration: none;">
