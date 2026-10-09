@@ -27,6 +27,7 @@ nav:
   - Documentation:
       - Start: index.md
       - Methods & Citations: methods.md
+      - Wind CFD (RANS): rans.md
   - Video Tutorials: tutorials.md
   - Outdoor+:
       - First Steps: first_steps.md
