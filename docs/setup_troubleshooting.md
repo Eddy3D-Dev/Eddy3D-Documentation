@@ -47,18 +47,18 @@ To install it by hand, open an **administrator** Command Prompt and run:
 wsl --install
 ```
 
-![wsl --install output in an administrator Command Prompt](images/setup_troubleshooting/06-wsl-install-cmd.png){ loading=lazy }
+![wsl --install output in an administrator Command Prompt](images/setup_troubleshooting/06-wsl-install-cmd.png)
 
 Reboot when prompted. There's also a [video walkthrough of installing WSL](https://www.youtube.com/watch?v=wz0QBNy9i7w){ target="_blank" rel="noopener noreferrer" aria-label="Video walkthrough of installing WSL (opens in a new tab)" } if you'd rather follow along.
 
 **To confirm WSL is installed:** open File Explorer, select **This PC**, and look for a **Linux** entry in the sidebar.
 
-![File Explorer showing the Linux entry under This PC](images/setup_troubleshooting/07-wsl-check-explorer.png){ loading=lazy }
+![File Explorer showing the Linux entry under This PC](images/setup_troubleshooting/07-wsl-check-explorer.png)
 
 ## LBM CFD (FluidX3D) blocked by Windows
 
 On some Windows machines — often ones under an organization's IT policy — `FluidX3D.Core.dll` gets blocked by an Application Control policy, and LBM CFD (FluidX3D) fails detection:
 
-![LBM CFD (FluidX3D) detection failed, blocked by an Application Control policy](images/setup_troubleshooting/08-fluidx3d-blocked.png){ loading=lazy }
+![LBM CFD (FluidX3D) detection failed, blocked by an Application Control policy](images/setup_troubleshooting/08-fluidx3d-blocked.png)
 
 If you hit this, it's a local machine policy issue rather than an Eddy3D bug: check the **Troubleshooting guide** link in the Setup dialog, or ask your IT administrator about an Application Control exception. FluidX3D isn't required for most outdoor or indoor CFD workflows, so it's safe to leave for later while you continue with the other capabilities.
