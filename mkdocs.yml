@@ -21,13 +21,14 @@ extra:
   version:
     provider: mike
     default: latest
-  latest_eddy_version: "1.17.0.827" # Manual fallback
+  latest_eddy_version: "1.18.0.827" # Manual fallback
 
 nav:
   - Documentation:
       - Start: index.md
       - Methods & Citations: methods.md
       - Wind CFD (RANS): rans.md
+      - Setup Troubleshooting: setup_troubleshooting.md
   - Video Tutorials: tutorials.md
   - Outdoor+:
       - First Steps: first_steps.md
