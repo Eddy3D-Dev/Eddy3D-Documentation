@@ -1,5 +1,12 @@
 # Video Tutorials
 
+!!! warning "These videos show older Eddy3D versions"
+    The videos below were recorded on earlier releases and show the old component set and setup. The current
+    release installs through the **Eddy3D Setup** component and starts from templates — follow
+    [Setup Troubleshooting](setup_troubleshooting.md) and [First Steps](first_steps.md), then load
+    `Outdoor/OpenFOAM/BoxDomain.ghx` with **Select Template** for a simple wind study. Updated videos
+    are in preparation.
+
 ## Outdoor
 
 ### Simple wind analysis
