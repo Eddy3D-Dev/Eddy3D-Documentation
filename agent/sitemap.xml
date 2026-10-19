@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The sitemap of the current documentation; mike builds it under /latest/. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://docs.eddy3d.com/latest/sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>
