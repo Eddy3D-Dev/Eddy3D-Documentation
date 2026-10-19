@@ -19,6 +19,7 @@ on:
       - "docs/stylesheets/**"
       - "docs/version.txt"
       - "mkdocs.yml"
+      - "agent/**"
       - "requirements.txt"
       - ".github/workflows/deploy.yml"
   pull_request:
@@ -30,6 +31,7 @@ on:
       - "docs/stylesheets/**"
       - "docs/version.txt"
       - "mkdocs.yml"
+      - "agent/**"
       - "requirements.txt"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
@@ -170,6 +172,27 @@ jobs:
             echo "404 redirect already current."
           else
             git commit -m "docs: forward legacy flat URLs into /latest [skip ci]"
+            git push origin gh-pages
+          fi
+          cd - >/dev/null
+          git worktree remove "$tmp" --force
+
+      # Files agents fetch at the root of docs.eddy3d.com, which mike does not write: robots.txt, the sitemap index
+      # that points into /latest/, auth.md and /.well-known/api-catalog (agent/ in this repo). The branch has a
+      # .nojekyll, so the dot-directory is served.
+      - name: Install the agent-readiness files at the root
+        if: github.event_name != 'pull_request'
+        run: |
+          set -euo pipefail
+          tmp="$(mktemp -d)"
+          git worktree add "$tmp" gh-pages
+          cp -R agent/. "$tmp"/
+          cd "$tmp"
+          git add -A robots.txt sitemap.xml auth.md .well-known
+          if git diff --cached --quiet; then
+            echo "Agent-readiness files already current."
+          else
+            git commit -m "docs: agent-readiness files at the root [skip ci]"
             git push origin gh-pages
           fi
           cd - >/dev/null

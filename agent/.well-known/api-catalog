@@ -1,0 +1,27 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://aij.eddy3d.com/api/",
+      "title": "AIJ UWE benchmark API (Eddy3D validation data): cleaned wind-tunnel and field data, geometry and validation results",
+      "service-desc": [
+        {
+          "href": "https://aij.eddy3d.com/api/openapi.json",
+          "type": "application/vnd.oai.openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://aij.eddy3d.com/api-reference/",
+          "type": "text/html"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://aij.eddy3d.com/api/llms.txt",
+          "type": "text/plain",
+          "title": "Machine-readable summary of the API for agents"
+        }
+      ]
+    }
+  ]
+}
