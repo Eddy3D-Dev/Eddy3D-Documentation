@@ -21,17 +21,18 @@ The solid regions (buildings, terrain) are solved with an adaptive sub-time-step
 fluid step. After every solid iteration the solver checks that the solid temperature `Ts` stays within
 0 K < Ts < 423.15 K (150 °C) and that the capillary pressure `pc` stays negative. If not, it prints
 `This is going to crash (Ts)!` (or `(pc)!`), reverts the fields, halves the time step and retries.
-When the time step reaches `minDeltaT` (default 1 s) it aborts with `Cannot decrease time step further`.
+When the time step reaches `minDeltaT` (the written case uses `1e-6` s) it aborts with `Cannot decrease time step further`.
 
-The message says nothing about the cause. In practice it is one of the following, in this order of
-likelihood:
+The message says nothing about the cause, so always read the log: the last `Solving for solid region
+...` line names the region (buildings or terrain) that diverged. Known causes, in the order to check:
 
 ### 1. A light hygroscopic wall material
 
 Materials with a moisture model and a very low density/conductivity — `CalciumSilicate` (ρ 270 kg/m³,
 λ 0.06 W/mK) and `Hamstad5Insulation` (ρ 130) — diverge in the coupled heat-and-moisture solve as soon
-as the air field has converged and the surface starts receiving solar radiation. Typical signature: the
-run survives the first one or two hours and dies around sunrise.
+as the air field has converged and the surface starts receiving solar radiation (seen on an internal
+case, 2026-10). It is not a sufficient cause on its own: a flat-terrain courtyard case with a
+`CalciumSilicate` inner layer ran through sunrise without a single time-step halving.
 
 !!! warning "Integer-wired Material inputs"
     The *Material* input of **Building Material**, **Terrain Surface Material** and **Soil Material**
@@ -92,8 +93,8 @@ garbage boundary condition. Keep it at 300 or more; 500–1000 for the first hou
 
 ### 4. Time-step controls
 
-Only after the three points above: *Simulation Settings → Min Delta T* (default 1 s) can be lowered to
-`0.1`, and *Initial Solid Time Step Factor* reduced, to give the solid solver more room. This delays a
+Only after the three points above: *Simulation Settings → Min Delta T* (`1e-6` s in the written case; a
+wired value overrides it) and *Initial Solid Time Step Factor* reduced, to give the solid solver more room. This delays a
 material-driven divergence rather than curing it.
 
 ## `This is going to crash (pc)!`
