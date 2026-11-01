@@ -32,6 +32,7 @@ nav:
   - Video Tutorials: tutorials.md
   - Outdoor+:
       - First Steps: first_steps.md
+      - Solver Troubleshooting: outdoorplus_troubleshooting.md
   - Components:
       - "Overview": Components.md
       - "00 Setup":
