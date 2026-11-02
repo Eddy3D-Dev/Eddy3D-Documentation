@@ -21,7 +21,7 @@ extra:
   version:
     provider: mike
     default: latest
-  latest_eddy_version: "1.20.0.827" # Manual fallback
+  latest_eddy_version: "1.21.0.827" # Manual fallback
 
 nav:
   - Documentation:
@@ -32,6 +32,7 @@ nav:
   - Video Tutorials: tutorials.md
   - Outdoor+:
       - First Steps: first_steps.md
+      - Solver Troubleshooting: outdoorplus_troubleshooting.md
   - Components:
       - "Overview": Components.md
       - "00 Setup":
