@@ -2,7 +2,7 @@
 
 ![](/images/components/Thermal_Comfort_Legend-crop.png)
 
-Color UTCI, PET or NOAA Heat Index temperatures by their thermal-stress categories, or a comfort share by its own bands, and create a matching legend.
+Color UTCI, PET, NOAA Heat Index, WBGT (Japanese heat-stroke guideline bands) or SET* temperatures by their thermal-stress categories, or a comfort share by its own bands, and create a matching legend.
 
 #### Input
 
@@ -18,7 +18,7 @@ Color UTCI, PET or NOAA Heat Index temperatures by their thermal-stress categori
 | Circle Radius | Radius | Radius of each colored UTCI sensor disk. | `Number` |
 | Sensor Points | Points | Optional UTCI sensor points. When their count matches UTCI, one colored disk is created per point; the Mesh face/vertex count does not need to match. | `Point` |
 | Scale |  | Uniform scale factor for the legend bar, label spacing, and centered text. | `Number` |
-| Metric |  | Which band scale to draw. UTCI, PET (Temperate), PET (Humid) and Heat Index are temperature scales and accept the Metric Type output of Thermal Comfort directly; Comfort % is the 0-100 comfort share from Deconstruct UTCI. | `Text` |
+| Metric |  | Which band scale to draw. UTCI, PET (Temperate), PET (Humid), Heat Index, WBGT and SET* are temperature scales and accept the Metric Type output of Thermal Comfort directly; Comfort % is the 0-100 comfort share from Deconstruct UTCI. | `Text` |
 | Color Scale | Scale | Comfort bins: the fixed thermal-stress bands, so colours are comparable between studies. Actual values: the palette spread across this field's own minimum and maximum, with numeric labels — what makes a study that sits inside ONE band readable instead of a single flat colour. | `Text` |
 | Statistic | Stat | Which number to draw when Values is a UTCI Result: Comfort % (the no-thermal-stress share of the selected hours, drawn on the comfort bands) or the Mean, Min or Max UTCI over them (drawn on the UTCI temperature bands). Ignored for a plain list. | `Text` |
 | HOY |  | Hour(s) of year (1-8760) to reduce a UTCI Result over. Unconnected means the whole year. Ignored for a plain list. | `Integer` |

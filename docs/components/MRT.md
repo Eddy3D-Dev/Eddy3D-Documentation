@@ -15,6 +15,7 @@ Mean radiant temperature at each sensor, hour by hour. MRT = shortwave + longwav
 | EPW | W | Path to the EPW weather file. | `Text` |
 | Settings | C | MRT settings (optional). Leave unconnected for the fast pure-C# path — direct-raycast shortwave, ambient surface temperatures, no external engine. Connecting MRT Settings turns on the high-fidelity Radiance and EnergyPlus engines, which its own defaults enable and which take considerably longer. | `Generic Data` |
 | Engine |  | Run Radiance/EnergyPlus natively or via the bundled radiance-energyplus container image (Podman or Docker). Only relevant when MRT Settings enables Radiance Reflections or EnergyPlus Surfaces. | `Text` |
+| Compute | Comp | Who runs the view-factor geometry and the per-hour longwave accumulation. Auto: the OpenCL GPU when one answers, else the CPU; a fallback is reported in the log and as a warning. CPU: the parallel loops. GPU: refuse to run silently on the CPU. Same answer either way. A GPU solve leaves the MRT field on the device, where UTCI (Simulation) reads it in place when Result is wired in. | `Text` |
 | Run | R | Run the MRT analysis. | `Boolean` |
 
 #### Output

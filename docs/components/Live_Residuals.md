@@ -2,13 +2,13 @@
 
 ![](/images/components/Live_Residuals-crop.png)
 
-Draws a wind case's residual convergence directly on the Grasshopper canvas, with lightweight timed updates. Wire the case and toggle 'Live' to monitor a running simulation without an external plotter window. When a warm-up ramp is enabled the solver restarts mid-run and writes a separate residual file per phase; all phases are stitched into one continuous curve so you see the full history (warm-up + main), not just the latest phase.
+Draws a case's residual convergence directly on the Grasshopper canvas, with lightweight timed updates. Wire the case and toggle 'Live' to monitor a running simulation without an external plotter window. When a warm-up ramp is enabled the solver restarts mid-run and writes a separate residual file per phase; all phases are stitched into one continuous curve so you see the full history (warm-up + main), not just the latest phase. An Outdoor+ (UMF) case solves its air region to convergence inside each time step, so its curve counts fluid iterations and the strip reads 'step 3/24 · iter 51'.
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Case |  | Wind case (from the wind case component or Load Wind Case). | `Generic Data` |
+| Case |  | Case to monitor: a wind case (from the wind case component or Load Wind Case), an Outdoor+ case or an indoor case. | `Generic Data` |
 | Live |  | Set to true to enable timed live updates. | `Boolean` |
 
 #### Output

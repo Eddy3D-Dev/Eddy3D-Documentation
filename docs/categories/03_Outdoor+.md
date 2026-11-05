@@ -50,6 +50,38 @@
             <div class="index-quicklink-text">Build a solid building region for the UMF case: from the façade surface meshes, two material wall layers (outer + inner) are extruded inward to model heat and moisture transport through the building envelope.</div>
         </div>
     </a>
+    <a href="/components/Create_Address/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Create_Address.png" class="nav-gh-icon"> Create Address
+            </div>
+            <div class="index-quicklink-text">Create a MetaFOAM Address for entries and settings.</div>
+        </div>
+    </a>
+    <a href="/components/Create_Entry_Key/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Create_Entry_Key.png" class="nav-gh-icon"> Create Entry Key
+            </div>
+            <div class="index-quicklink-text">Create a MetaFOAM EntryKey from key segments.</div>
+        </div>
+    </a>
+    <a href="/components/Create_Setting/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Create_Setting.png" class="nav-gh-icon"> Create Setting
+            </div>
+            <div class="index-quicklink-text">Create a Setting from a list of entries.</div>
+        </div>
+    </a>
+    <a href="/components/Entry_from_a_Key_and_Value/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Entry_from_a_Key_and_Value.png" class="nav-gh-icon"> Entry from a Key and Value
+            </div>
+            <div class="index-quicklink-text">Create an Entry from an address, key, and value.</div>
+        </div>
+    </a>
     <a href="/components/Gmsh_Mesh/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -66,12 +98,28 @@
             <div class="index-quicklink-text">Generate a multi-resolution terrain mesh from input geometry with a solid base. OutdoorPlus</div>
         </div>
     </a>
+    <a href="/components/Grass/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Grass.png" class="nav-gh-icon"> Grass
+            </div>
+            <div class="index-quicklink-text">Define grass patches and parameters for the terrain. OutdoorPlus</div>
+        </div>
+    </a>
     <a href="/components/Grass_Material/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/Grass_Material.png" class="nav-gh-icon"> Grass Material
             </div>
             <div class="index-quicklink-text">Create a soil-backed grass surface material for the urbanMicroclimateFoam terrain heat, radiation, and evapotranspiration model. OutdoorPlus</div>
+        </div>
+    </a>
+    <a href="/components/Soil_Material/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Soil_Material.png" class="nav-gh-icon"> Soil Material
+            </div>
+            <div class="index-quicklink-text">Define soil material properties for terrain layers. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/Terrain_Mesh_Settings/" style="text-decoration: none;">
@@ -143,7 +191,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Outdoor+_Case.png" class="nav-gh-icon"> Outdoor+ Case
             </div>
-            <div class="index-quicklink-text">Create, read, and manage an Outdoor+ (UMF microclimate) case. Validated in: Rahimi et al. (2025), Building and Environment 285:113637, doi:10.1016/j.buildenv.2025.113637; Rahimi et al. (2024), IBPC 2024, https://www.eddy3d.com/publications/. OutdoorPlus</div>
+            <div class="index-quicklink-text">Create, read, and manage an Outdoor+ (UMF microclimate) case. Validated in: Rahimi et al. (2025), Building and Environment 285:113637, doi:10.1016/j.buildenv.2025.113637; Rahimi et al. (2024), IBPC 2024, https://www.researchgate.net/publication/384972164_Assessing_the_Complexity_Required_for_Enhancing_Eddy3D_Validation_of_urbanMicroclimateFoam_for_Urban_Heat_Island_Mitigation. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/Simulation_Mesh_Settings/" style="text-decoration: none;">
@@ -186,12 +234,44 @@
             <div class="index-quicklink-text">Tests for buildings and trees for Eddy3D-OutdoorPlus simulation.</div>
         </div>
     </a>
+    <a href="/components/Deconstruct_Entry/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Deconstruct_Entry.png" class="nav-gh-icon"> Deconstruct Entry
+            </div>
+            <div class="index-quicklink-text">Deconstructs an Entry instance.</div>
+        </div>
+    </a>
+    <a href="/components/Deconstruct_FileContainer/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Deconstruct_FileContainer.png" class="nav-gh-icon"> Deconstruct FileContainer
+            </div>
+            <div class="index-quicklink-text">Deconstructs a FileContainer instance.</div>
+        </div>
+    </a>
     <a href="/components/Deconstruct_Region/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/Deconstruct_Region.png" class="nav-gh-icon"> Deconstruct Region
             </div>
             <div class="index-quicklink-text">Deconstruct a MetaFOAM Region instance.</div>
+        </div>
+    </a>
+    <a href="/components/Deconstruct_Setting/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Deconstruct_Setting.png" class="nav-gh-icon"> Deconstruct Setting
+            </div>
+            <div class="index-quicklink-text">Deconstruct a Setting instance into its entries.</div>
+        </div>
+    </a>
+    <a href="/components/Relative_Humidity/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Relative_Humidity.png" class="nav-gh-icon"> Relative Humidity
+            </div>
+            <div class="index-quicklink-text">Convert specific humidity (w) and temperature (T) to relative humidity (%) — reads the UMF fields w and T, so it lives with Outdoor+, not with the weather inputs.</div>
         </div>
     </a>
 </div>

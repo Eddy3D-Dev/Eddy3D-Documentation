@@ -11,8 +11,8 @@ Write the PALM-4U case: the static driver (terrain, buildings, tree canopies and
 | Case Name | Case | The case folder under Working Directory. Empty mints a session name shared by every PALM component on this document. | `Text` |
 | Working Directory | Dir | The root the case folder sits under; empty uses ~/Eddy3D/PALM. | `Text` |
 | Domain | D | The PALM Domain to rasterize onto. | `Generic Data` |
-| Buildings | B | Building solids or roof surfaces; each ITEM becomes one building id. Branches are flattened. | `Geometry` |
-| Trees | Tr | Tree crown volumes (closed meshes/Breps); each becomes leaf area density between its bottom and top. Branches are flattened. | `Geometry` |
+| Buildings | B | Building solids, roof surfaces or meshes; each item, and each separate piece of a joined mesh, becomes one building id. Branches are flattened. | `Geometry` |
+| Trees | Tr | Tree crown volumes (closed meshes/Breps); each, and each separate piece of a joined mesh, becomes leaf area density between its bottom and top. Branches are flattened. | `Geometry` |
 | Terrain | T | Terrain surface (mesh or Brep). Branches are flattened. Empty means flat ground. | `Geometry` |
 | Vegetation | V | Ground painted as vegetation, using the Vegetation Type. Branches are flattened. | `Geometry` |
 | Pavement | P | Ground painted as pavement (streets, plazas). Branches are flattened. | `Geometry` |

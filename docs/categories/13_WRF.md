@@ -55,7 +55,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/WRF_Run.png" class="nav-gh-icon"> WRF Run
             </div>
-            <div class="index-quicklink-text">Run the WRF pipeline. Writes a script into the project folder and launches it. The script and command are always shown, even before you run, so a failing run can be reproduced by hand.</div>
+            <div class="index-quicklink-text">Run the WRF pipeline in the two launches it needs: the WPS half (geogrid, ungrib, metgrid), then run_wrf/namelist.input, built from that output, then the WRF half (real, wrf). Writes one script per launch into the project folder. The scripts and commands are always shown, even before you run, so a failing run can be reproduced by hand.</div>
         </div>
     </a>
     <a href="/components/WRF_Animate/" style="text-decoration: none;">

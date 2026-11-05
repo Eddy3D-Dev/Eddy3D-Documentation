@@ -20,9 +20,10 @@ Build a CO2 species case (OpenFOAM 12 multicomponentFluid) with a breathing mani
 | Ambient CO2 | A | Initial/background CO2 (ppm). | `Number` |
 | Duration | T | Simulated seconds. | `Number` |
 | Probes | P | Probe points sampled for CO2 and temperature. | `Point` |
+| Extras |  | Optional user additions from the Refinement Region and Custom Function Object components. Applied every time the case is written, so they survive a re-write. | `Generic Data` |
+| Engine |  | OpenFOAM execution environment for this case: BlueCFD, WSL, or Containerized (Docker/Podman). Read by the Run component. | `Text` |
 | Write | W | Click to write the case to disk. Resets automatically so it never re-writes on recompute. | `Boolean` |
 | Clear | X | Click to delete the case folder. Resets automatically so it never re-deletes on recompute. | `Boolean` |
-| Extras |  | Optional user additions from the Refinement Region and Custom Function Object components. Applied every time the case is written, so they survive a re-write. | `Generic Data` |
 
 #### Output
 

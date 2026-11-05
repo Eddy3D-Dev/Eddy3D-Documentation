@@ -2,7 +2,7 @@
 
 ![](/images/components/Morph_Settings-crop.png)
 
-Engine settings for Morph Weather: climate products, spatial interpolation, uncertainty case and solar methods. Every value left empty stays on the Future Weather Generator's own default.
+Engine settings for Morph Weather: the method (Future Weather Generator or the World Bank CCKP anomalies), climate products, spatial interpolation, uncertainty case and solar methods. Every value left empty stays on the Future Weather Generator's own default; the CCKP methods ignore the generator-only settings.
 
 #### Input
 
@@ -19,6 +19,7 @@ Engine settings for Morph Weather: climate products, spatial interpolation, unce
 | Illuminance | L | Illuminance model used to recompute the lux columns, e.g. PEREZ_1990. | `Text` |
 | Present Day | P | Also write the present-day control file, processed through the same chain — the honest baseline to compare a future file against. | `Boolean` |
 | Threads | N | Worker threads for the morphing engine. Empty or 0 leaves the count to the engine. | `Integer` |
+| Method |  | Which engine morphs the file. Future Weather Generator: the Java application you install (needs its jar). CCKP median / 10th / 90th percentile: the World Bank Climate Change Knowledge Portal's CMIP6 ensemble at 0.25° — monthly anomalies of temperature, humidity, wind, solar and longwave radiation read for the site's grid cell, applied to the file as monthly shifts and stretches. No key, no Java; pressure, cloud cover, wind direction and rain stay as in the present-day file. The percentiles are taken per variable and month, so the 10th and 90th are the ends of the model spread, not two coherent climates. | `Text` |
 
 #### Output
 
