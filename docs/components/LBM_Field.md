@@ -20,3 +20,6 @@ Read the time-averaged pedestrian wind field from an LBM case directory. Outputs
 | Speed | S | Speed magnitude per point (m/s). | `Number` |
 | Status | St | Read status. | `Text` |
 | Spread | Sd | Per-point standard deviation of the speed across the perturbed-inflow ensemble members (m/s). Empty for a single run. High spread — typically in wakes and shear layers — means the local result is sensitive to inflow uncertainty; give comfort verdicts there extra margin. | `Number` |
+| Species | Sp | Pollutant species the case transports (from the LBM Case Pollutants input), one per Concentration branch. Empty when the case has no pollutant sources. | `Text` |
+| Concentration | Conc | Time-averaged pollutant concentration per point (kg/m³): branch {i} is Species item i, index-aligned with Points. | `Number` |
+| Temperature Rise | dT | Time-averaged air temperature rise over the ambient per point (K), index-aligned with Points. Empty for an isothermal case (no heat flux on LBM Run Settings). | `Number` |

@@ -11,6 +11,7 @@ Computes the Sky View Factor (SVF) for each input point using the Tregenza 145-p
 | Positions |  | List of 3D points at which sky exposure is computed. Rays are cast from the Offset height above each input point; use ground-surface points directly. | `Point` |
 | Context |  | Obstructing geometry for ray intersection (buildings, trees, walls). Accepts Mesh, Brep, or Surface. The ground surface need not be included. | `Geometry` |
 | Offset |  | Vertical offset (m) above each point from which rays are cast. Default 0.918 m. | `Number` |
+| Engine | Eng | Who traces the sky rays. Auto: Embree when its natives load, else the OpenCL GPU when a device answers, else the managed BVH. GPU: the OpenCL GPU (pays off on many positions); a fallback to Auto is reported, never silent. | `Text` |
 
 #### Output
 

@@ -15,6 +15,7 @@ Fraction of a target's surface each observer point can see — which seats see t
 | Offset | O | Clearance around ray endpoints, so observers and samples sitting ON geometry do not block themselves. | `Number` |
 | Max Distance | D | Optional cap in metres — target samples farther than this count as not visible. | `Number` |
 | Color Scheme | Ramp | Colour ramp for the Colors output. Viridis is perceptually uniform and colourblind-safe (use it in a figure); Grayscale suits a monochrome print. | `Text` |
+| Engine | Eng | Who traces the rays. Auto: the OpenCL GPU when there is one, else the CPU. GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: the SIMD BVH on every core. | `Text` |
 
 #### Output
 

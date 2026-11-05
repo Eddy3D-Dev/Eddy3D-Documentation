@@ -1,0 +1,34 @@
+# ![](/images/icons/Ventilation_Effectiveness.png) Ventilation Effectiveness - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Ventilation%20Effectiveness%22)
+
+![](/images/components/Ventilation_Effectiveness-crop.png)
+
+How well the supply reaches the occupants, from a solved Indoor case. Turn on Age of Air on the Indoor Case, probe 'age' (seconds) at the occupied points, give the room volume, and wire what the case wrote under postProcessing/ through Read Results: the flow it carried (Dataset exhaustFlow, m³/s on both the isothermal and the buoyant path), the flux-weighted exhaust age (exhaustAge) and, for a tracer, its flux-weighted exhaust value (exhaustCO2 / exhaustViral). Returns the nominal time constant τn = V/Q, the local air-change index εp = τref/τp per point, the air-change efficiency εa = τref/(2⟨τ⟩) (50 % mixing, 100 % piston; REHVA Guidebook 2, Mundt et al. 2004), ASHRAE 129's air change effectiveness E = τref/⟨τ⟩ over the breathing zone, and — from a probed tracer (CO2, viral) with its exhaust value — the contaminant removal effectiveness εc = (Ce − Cs)/(⟨C⟩ − Cs). τref is the exhaust age τe when it is wired, else τn: the Indoor case keeps the age function object's turbulent diffusion on (without it the ages follow the mesh), and with age fixed at 0 on the supply age can diffuse out through the supply opening. The isothermal case derives its supply turbulence from the opening and balances (τe/τn 0.999); the buoyant path keeps the template's fixed supply turbulence and leaks — every age reads low, τe/τn 0.891 on the 300 W reference room, 0.797 on the isothermal room at 0.15 m/s with that turbulence. τe carries the same leak, so the indices referenced to it land within a few percent of a leak-free supply (measured down to τe/τn 0.745), where V/Q-referenced ones read 27–32 % high at 0.797 (enough to move E across 1). The Exhaust Check output is τe/τn: 1.00 for pure advection, below 1 by the leak; outside the range a converged field with the case's volume and carried flow can give, E, εa and εp are WITHHELD (an Error names why) — referenced to τe they would look plausible whatever state the age field is in. Point means are volume means only on a uniform grid.
+
+#### Input
+
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Room Volume | V | Air volume of the room (m³). | `Number` |
+| Supply Flow | Q | The airflow the case CARRIED, as a VOLUME flow in m³/s — not a kg/s mass flow, which nothing here can tell from a volume flow and which reads about 15 % low (ρ ≈ 1.2). The case writes it in m³/s on the isothermal AND the buoyant path: Read Results with Dataset 'exhaustFlow' (postProcessing/exhaustFlow), its Values wired straight in — the LAST value, the final written time, is used. Typed by hand, a design flow in L/s is divided by 1000. The Indoor case imposes each supply as a flow rate, so this is the supply as designed (0.5 m³/s on the reference room); in a case built before 2026-09-30 the inlet was a velocity on the MESHED opening and carried less (0.370 m³/s of a nominal 0.5). The inlet's supplyFlow (negative — OpenFOAM sums inflow — and read as its magnitude) works too, but prefer exhaustFlow: on the buoyant path the supply is the colder, denser air and carries a smaller volume than leaves (0.5000 against 0.5008 m³/s at 300 W; about 2 % at a 3 kW heater, estimated). An air-change rate no room has (1000 /h or more — cleanrooms run 200–600 /h — or below 0.01 /h) is warned as the L/s ↔ m³/s slip it is and the indices are withheld, unless a solved Exhaust Age passes the Exhaust Check (which a flow off by 1000 cannot); so is an εa above 100 %, the piston-flow bound. | `Number` |
+| Age of Air | Age | Probed local mean age of air at the occupied points (s — OpenFOAM's 'age'). | `Generic Data` |
+| Breathing Zone | BZ | Which of the points are in the breathing zone (one per point). Unwired: all of them. | `Boolean` |
+| Exhaust Age | AgeE | The FLUX-weighted mean age of the air leaving the room (s), as the Indoor case writes it when Age of Air is on: Read Results with Dataset 'exhaustAge' (postProcessing/exhaustAge), its Values wired here — the LAST value, the final written time, is used (0 there means the case is not solved yet: a Warning, and τn meanwhile). Wire a FINISHED solve: nothing here can tell a mid-run refresh from a converged one. Wired, the indices are referenced to it (τref = τe); unwired, to τn = V/Q. Not a probed point: one point is not the mean of the exhaust, and even an area average is not the flux-weighted one. | `Number` |
+| Tracer | C | Probed tracer (CO2, viral) at the same points. | `Generic Data` |
+| Exhaust Tracer | Ce | The FLUX-weighted mean of the tracer in the air leaving the room, as the Indoor Case writes it for every CO2/viral emitter: Read Results with Dataset 'exhaustCO2' or 'exhaustViral' (postProcessing/exhaustCO2, …), its Values wired here — the LAST value, the final written time, is used (0 there means the case is not solved yet: a Warning, and no εc). Not a point probed at the outlet: the exhaust carries the flux-weighted mean (the viral balance closes at 1.000 with it, 0.983 with the area average). The Indoor Species Case writes no exhaustCO2 — its CO2 is a mass fraction of a multicomponent mixture, not this tracer. | `Number` |
+| Supply Tracer | Cs | Tracer in the supply air (0 for the Indoor Case's CO2/viral tracers, whose inlet is fixed at 0). | `Number` |
+| Tracer Name | Name | Label for the report. | `Text` |
+
+#### Output
+
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Nominal Time Constant | τn | τn = V/Q (s) — reported whatever the indices are referenced to. | `Number` |
+| Local Air-Change Index | εp | τref/τp per point (1 = as good as mixing); τref = the exhaust age τe when wired, else τn. Withheld when the Exhaust Check fails. | `Number` |
+| Air-Change Efficiency | εa | τref/(2⟨τ⟩) (%) — 50 mixing, 100 piston. Withheld when the Exhaust Check fails. | `Number` |
+| Air Change Effectiveness | E | ASHRAE 129: τref/⟨τ⟩ over the breathing zone. Withheld when the Exhaust Check fails. | `Number` |
+| Exhaust Check | τe/τn | Exhaust age over τn — the mass-balance check: 1.00 for pure advection of age, below 1 under the buoyant Indoor setup (age leaks out through the supply; about 0.89), 0.999 on the isothermal one, and E, εa, εp withheld above 1.02 or below 0.50. | `Number` |
+| Removal Effectiveness | εc | Contaminant removal effectiveness over all points. | `Number` |
+| Breathing Zone Removal | εc,bz | Contaminant removal effectiveness over the breathing zone. | `Number` |
+| Local Removal | εc,p | Local contaminant removal index per point. | `Number` |
+| Summary | Sum | Readable summary. | `Text` |
+| Ventilation | Vent | The assessment, for the Ventilation & Comfort Report. | `Generic Data` |

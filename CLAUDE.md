@@ -20,8 +20,14 @@ On every Eddy3D plugin release (see the main repo's `.claude/skills/release-eddy
 - Then the `dev → main` PR — the release is not done until it merges.
 
 Component pages under `docs/components/` are regenerated from the plugin
-(`tools/export_components.py` in this repo); hand-edits to generated pages get
-overwritten on the next export.
+(`tools/export_components.py` in this repo, driven by `tools/generate_docs.sh` /
+`generate_docs.ps1` through the Eddy3D repo's `GenerateDocumentation.ghx`); hand-edits to
+generated pages get overwritten on the next export. The canvas captures are cropped by the
+exporter itself (`crop_capture`, System.Drawing) — `tools/crop_images.py` (PIL) is the
+standalone fallback, not a step the export depends on: as a detached `python3` launched from
+inside Rhino it ran with whatever PATH Rhino had, and 52 pages shipped pointing at a
+`-crop.png` that was never made. The Eddy3D repo's `Icons.Tests/TestDocsCoverage` checks
+this checkout against the plugin sources (page, icon, crop and nav entry per shown component).
 
 The ribbon nav in `mkdocs.yml` is generated too — the export writes
 `docs/components_nav.yml` and splices that block straight into `mkdocs.yml`

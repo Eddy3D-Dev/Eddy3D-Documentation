@@ -8,14 +8,16 @@ Build a lattice-Boltzmann wind case from the ABL, the geometry and a settings ob
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Case Name | Name | Case folder name below Working Directory. Letters, numbers, hyphens, and underscores only. | `Text` |
+| Case Name | Name | Case folder name below Working Directory. Letters, numbers, hyphens, and underscores only. Empty = a generated name (like swift-otter-fjord-lantern), kept with the document and shared with the other studies in it, as on the Outdoor Case. | `Text` |
 | Working Directory | Dir | Parent directory for named LBM cases (optional; default ~/Eddy3D/Cases/LBM, or ~/Eddy3D/Cases/FluidX3D for the GPU engine). Must not contain spaces when running in a container (the case becomes a bind-mount source); the Native runtime has no such restriction. | `Text` |
 | ABL |  | ABL inflow from the 'ABL Flow' component — the SAME boundary condition the OpenFOAM engines use (reference speed, reference height, roughness length, direction). Uses the first wind direction (one direction per case). | `Generic Data` |
 | Domain |  | Simulation domain (optional). Accepts the Box Domain component's output — its Front/Back/Side/Top extensions override the auto margins (Cell Size and refinement are OpenFOAM meshing concepts and are ignored; lattice spacing comes from the settings) — or a plain Box, used verbatim as the domain extents. | `Generic Data` |
 | Buildings | B | Building geometry. | `Mesh` |
 | Terrain | T | Terrain / ground context meshes (optional; merged with the buildings). | `Mesh` |
 | Vegetation | Veg | Tree crowns (optional; OpenLB only): closed solid meshes, or the Outdoor+ 'Vegetation Region' object — the SAME trees can drive the UMF case and this engine. Simulated as porous canopy cells that slow the wind without blocking it. Vegetation Region objects carry their own Cd x LAD; plain meshes use the Vegetation Drag setting. FluidX3D has no canopy model and ignores this input. | `Generic Data` |
-| Settings | S | 'LBM Run Settings' (OpenLB) or 'FluidX3D Run Settings' (FluidX3D). Optional; nothing means OpenLB with defaults. | `Generic Data` |
+| Pollutants | Src | Pollutant emitters (optional; OpenLB CPU only): the Outdoor 'Pollutant Source' objects — the SAME sources the OpenFOAM wind study takes. Each species becomes a passive scalar carried by the LES wind and diffused by its turbulence (Sc_t from the source); LBM Field reads the time-averaged concentration in kg/m³. At most four species. | `Generic Data` |
+| Engine | Eng | Which lattice-Boltzmann engine builds the case. OpenLB: CPU/GPU wind with vegetation and pollutants (wire 'LBM Run Settings'). FluidX3D: GPU wind, no canopy or scalar model (wire 'FluidX3D Run Settings'). A Settings object that belongs to the other engine is an error, not a switch. Auto follows the Settings object (nothing wired = OpenLB) and is what documents saved before this input behave as. | `Text` |
+| Settings | S | 'LBM Run Settings' (OpenLB) or 'FluidX3D Run Settings' (FluidX3D) — it must match Engine. Optional; nothing means the chosen engine's defaults (OpenLB under Auto). | `Generic Data` |
 | Write | W | Write the case to disk (STL + case files + launch script) without running it. | `Boolean` |
 | Clear |  | Delete this named case folder and all of its contents — for FluidX3D also the results left in the shared source tree. | `Boolean` |
 

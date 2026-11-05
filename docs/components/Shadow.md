@@ -15,6 +15,8 @@ Lit or shaded at each analysis point for one or more sun instants — the shadow
 | HOY | H | Hours of the year to evaluate [1-8760], one result branch per hour — wire the Hour Of Year component to name a date and time. Left empty, every DAYLIGHT hour of the year is evaluated, which on a large grid is a long run. | `Integer` |
 | Offset | O | Distance to lift each point off its surface before tracing. | `Number` |
 | North | Nth | Counter-clockwise degrees from the model's +Y axis to true north (Ladybug's convention). The sun is rotated, not the model. | `Number` |
+| Engine | Eng | Who traces the rays. Auto: the OpenCL GPU when there is one, else the CPU. GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: the SIMD BVH on every core. | `Text` |
+| Date |  | A report date — equinox (20 Mar), summer solstice (21 Jun) or winter solstice (21 Dec) — evaluates every daylight hour of that day and overrides HOY. Custom leaves HOY in charge. One component per date feeds the Sun Report's shadow grid. | `Text` |
 
 #### Output
 

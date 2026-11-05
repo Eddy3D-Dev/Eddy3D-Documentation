@@ -58,6 +58,14 @@
             <div class="index-quicklink-text">Lit or shaded at each analysis point for one or more sun instants — the shadow's position, not accumulated sun hours.</div>
         </div>
     </a>
+    <a href="/components/Shadow_Animation/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Shadow_Animation.png" class="nav-gh-icon"> Shadow Animation
+            </div>
+            <div class="index-quicklink-text">Play a daily shadow study: the day is traced once between sunrise and sunset, then Play / Time / Speed step through it. Up to eight named time ranges colour the shade and get their own statistics; Export writes the active viewport as PNG frames (and an MP4 when ffmpeg is on PATH).</div>
+        </div>
+    </a>
     <a href="/components/Sun_Hours/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -128,6 +136,14 @@
                 <img src="/images/icons/Viewshed.png" class="nav-gh-icon"> Viewshed
             </div>
             <div class="index-quicklink-text">Visual openness by ray casting: the unobstructed fraction of a view cone around each point's normal. A design-orientation tool for seats, windows and routes — how open does it FEEL here — not a daylight metric.</div>
+        </div>
+    </a>
+    <a href="/components/Planting_Suitability/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Planting_Suitability.png" class="nav-gh-icon"> Planting Suitability
+            </div>
+            <div class="index-quicklink-text">Nursery-label planting suitability from a Sun Hours study: Sunny (6 h or more of direct sun a day), Part sun (4-6 h), Partial shade (2-4 h) or Shade (under 2 h) per point, flagged morning sun or afternoon sun when more than 70 % of it falls on one side of solar noon. Thresholds are editable: there is no accredited standard and some extension services draw the shade edge at 4 h. Method: Grenfell (2025), UC Master Gardeners of Placer County, University of California Agriculture and Natural Resources, https://ucanr.edu/site/uc-master-gardeners-placer-county/article/definitions-light-requirements.</div>
         </div>
     </a>
     <a href="/components/Sun_Stats/" style="text-decoration: none;">

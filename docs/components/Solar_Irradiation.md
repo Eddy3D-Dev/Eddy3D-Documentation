@@ -19,6 +19,8 @@ Cumulative incident solar energy per point in kWh/m² — beam plus isotropic sk
 | Offset | O | Distance to lift each point off its surface before tracing. | `Number` |
 | North | Nth | Counter-clockwise degrees from the model's +Y axis to true north (Ladybug's convention). The sun is rotated, not the model. | `Number` |
 | Canopy | Cn | Optional canopy layers from the Canopy component. Vegetation here attenuates the BEAM only — the isotropic sky term is unaffected, because a canopy that dims the sun also blocks sky, and the sky view fraction already accounts for it if you measured SVF with the canopy in place. | `Generic Data` |
+| Engine | Eng | Who traces the rays. Auto: the OpenCL GPU when there is one, else the CPU. GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: the SIMD BVH on every core. | `Text` |
+| Date |  | A report date — equinox (20 Mar), summer solstice (21 Jun) or winter solstice (21 Dec) — accumulates that whole day and overrides HOY. Custom leaves HOY in charge. One component per date feeds the Sun Report. | `Text` |
 
 #### Output
 

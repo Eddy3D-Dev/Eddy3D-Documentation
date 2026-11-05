@@ -2,7 +2,7 @@
 
 ![](/images/components/MRT_Surface-crop.png)
 
-Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size; Meshes are used face-for-face as given.
+Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size; Meshes are used face-for-face as given. Tree surfaces are tree CROWNS that transmit part of the radiation (SOLWEIG canopy, Lindberg & Grimmond 2011: 3 % of the beam in leaf, 50 % out of leaf, leaf season from the site latitude, leaves at air temperature for longwave) unless Tree Settings says otherwise; model them as closed crown volumes. Documents saved before canopy transmittance keep their opaque crowns (right-click).
 
 #### Input
 

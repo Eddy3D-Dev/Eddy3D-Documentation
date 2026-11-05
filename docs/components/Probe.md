@@ -13,7 +13,7 @@ Sample fields at points on a solved case, post-hoc. With Run it writes a probes 
 | Field |  | Field to sample, from the dropdown of common OpenFOAM fields (U, p, k, epsilon, …). Type or wire any other field name for a custom quantity. For a FluidX3D VTK directory: "rho"/"density" → density, otherwise velocity. | `Text` |
 | Region |  | Region to probe; leave empty for single-region (wind) cases. | `Text` |
 | Probe Name | Name | Name of the probe set. Optional — if left blank, a unique name is generated automatically (adjective-animal-place-noun, e.g. swift-otter-fjord-lantern). | `Text` |
-| Time |  | Result time to probe: empty = latest written time, a number = that written time, all = every written time still on disk. Times that were purged (Keep Time Steps) cannot be probed. FluidX3D results also accept avg (mean over every written time) and avg:START-END (mean over a window in seconds, e.g. avg:120-360 to skip the spin-up transient). | `Text` |
+| Time |  | Result time to probe — the dropdown lists every time written on disk: latestTime (default) = latest written time, a number = that written time, all = every written time still on disk (empty, as before the dropdown, reads every probed time). Times that were purged (Keep Time Steps) cannot be probed. FluidX3D results also accept avg (mean over every written time) and avg:START-END (mean over a window in seconds, e.g. avg:120-360 to skip the spin-up transient). | `Text` |
 | Run |  | True: run postProcess to sample the requested time (Time input), then read. False: read existing results only. | `Boolean` |
 
 #### Output
@@ -23,3 +23,4 @@ Sample fields at points on a solved case, post-hoc. With Run it writes a probes 
 | Values |  | Probe values (numbers or vectors); branch = {sub-result, field, time}, items = one per point. | `Generic Data` |
 | Time Steps | Times | Sampled time steps; branch = {sub-result, field}. | `Text` |
 | Sub-Results | Subs | Sub-result labels matching the first branch index (e.g. wind direction case names). | `Text` |
+| Points | Pts | The probe points actually written and sampled — the input points minus the culled ones. Values items line up with this list, one per point. | `Point` |

@@ -17,9 +17,9 @@ Configure simulation control settings for UMF. OutdoorPlus
 | Min Fluid Iterations | MinFI | Minimum fluid iterations per hourly step before the residual controls may end it. Template default 200: the bulk field of a warm-started hour is stationary by ~150-200 iterations. Optional. | `Number` |
 | Max Fluid Iterations | MaxFI | Maximum fluid iterations per hourly step (template default 1000). The residual controls normally end a warm-started hour at ~200-300 iterations; the first, cold-started hour needs ~350-500. Optional. | `Number` |
 | PC Equation Form | PcForm | 'pc-based' or 'mixed' (default is pc-based). | `Text` |
-| Damping Thickness | DampThk | Blending coefficients: damping thickness. Optional. | `Number` |
-| Alpha Coeff U | AlphaU | Blending coefficients: alphaCoeffU. Optional. | `Number` |
-| Alpha Coeff T | AlphaT | Blending coefficients: alphaCoeffT. Optional. | `Number` |
+| Damping Thickness | DampThk | Blending layer damping thickness [m] from the lateral boundaries. Written to the blendingCoeffs block of system/controlDict, which urbanMicroclimateFoam reads only when controlDict 'blending' is true. The case keeps it off (the blending layer looks up patches west/east/north/south; this case's are front/back/left/right), so the value has no effect. Optional. | `Number` |
+| Alpha Coeff U | AlphaU | Blending layer strength for velocity U (alphaCoeffU). Written to the blendingCoeffs block of system/controlDict, which urbanMicroclimateFoam reads only when controlDict 'blending' is true. The case keeps it off (the blending layer looks up patches west/east/north/south; this case's are front/back/left/right), so the value has no effect. Optional. | `Number` |
+| Alpha Coeff T | AlphaT | Blending layer strength for temperature T (alphaCoeffT). Written to the blendingCoeffs block of system/controlDict, which urbanMicroclimateFoam reads only when controlDict 'blending' is true. The case keeps it off (the blending layer looks up patches west/east/north/south; this case's are front/back/left/right), so the value has no effect. Optional. | `Number` |
 
 #### Output
 

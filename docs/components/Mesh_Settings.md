@@ -18,6 +18,7 @@ Configure mesh refinement, layers, and grading for Eddy3D.
 | Grading Strength (Horizontal) | GradXY | Adaptive grading strength in X/Y: 1 = uniform, up to 10 = cells concentrate hard over the building and coarsen toward the domain edges. | `Number` |
 | Grading Strength (Vertical) | GradZ | Adaptive grading strength in Z: 1 = uniform, up to 10 = cells concentrate over the building height and coarsen aloft. | `Number` |
 | Adaptive Grading | Adaptive | Enable adaptive grading near buildings. Optional; default is true. | `Boolean` |
+| Cells Between Levels | nCells | snappyHexMesh nCellsBetweenLevels: how many buffer cells separate two refinement levels. Higher is a gentler transition (and more cells). Optional; -1 keeps the existing behaviour — 8 when Add Layers is on, otherwise the template's 4. | `Integer` |
 
 #### Output
 

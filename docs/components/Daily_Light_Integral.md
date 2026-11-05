@@ -19,6 +19,7 @@ Daily Light Integral per point in mol/m²/day — the photosynthetically active 
 | Offset | O | Distance to lift each point off its surface before tracing. | `Number` |
 | North | Nth | Counter-clockwise degrees from the model's +Y axis to true north (Ladybug's convention). The sun is rotated, not the model. | `Number` |
 | Conversion | Cv | How broadband shortwave becomes PAR photons — a PAR energy fraction times a quanta-per-joule factor. Logan & Faust (default): 0.45 x 4.48 µmol/J = 0.00726 mol/Wh, the pair behind the published US daily-light-integral maps, calibrated against global horizontal irradiance. Ecological: 0.50 x 4.60 µmol/J, the generic convention used in flux-tower work. Runs about 14% higher. Neither is universal — both assume a daylight spectrum on an unfiltered surface. | `Text` |
+| Engine | Eng | Who traces the rays. Auto: the OpenCL GPU when there is one, else the CPU. GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: the SIMD BVH on every core. | `Text` |
 
 #### Output
 

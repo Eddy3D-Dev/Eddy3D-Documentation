@@ -119,7 +119,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Vector_Field_Viewer.png" class="nav-gh-icon"> Vector Field Viewer
             </div>
-            <div class="index-quicklink-text">Visualize a probed vector field: colored velocity arrows, a point cloud, a heatmap mesh, streamlines, or volumetric smoke (pick via Display Mode). Feed the Probe component's points + velocity vectors (Field = U), or any points + vectors. For a field without direction — CO2, temperature, age of air, Cp — use the Scalar Field Viewer.</div>
+            <div class="index-quicklink-text">Visualize a probed vector field: colored velocity arrows, a point cloud, a heatmap mesh, streamlines, volumetric smoke, a streamline map (speed heatmap under black arrowed streamlines) or LIC (the heatmap under thin white strands gliding with the flow); pick via Display Mode. Feed the Probe component's points + velocity vectors (Field = U), or any points + vectors. For a field without direction — CO2, temperature, age of air, Cp — use the Scalar Field Viewer.</div>
         </div>
     </a>
     <a href="/components/Create_OBJ/" style="text-decoration: none;">
@@ -146,6 +146,22 @@
             <div class="index-quicklink-text">Open a wind case's direction cases in ParaView. All directions are added to the ParaView pipeline browser; click Apply on the ones you want to load (nothing is loaded automatically).</div>
         </div>
     </a>
+    <a href="/components/Share_Pack/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Share_Pack.png" class="nav-gh-icon"> Share Pack
+            </div>
+            <div class="index-quicklink-text">Write results as files anyone can open without Rhino: ONE self-contained HTML viewer (top-down map with pan/zoom and an orbiting 3D view, sets and layers, legend, hover readout, KPI tables, wind rose, swipe and difference comparison between sets, print to PDF — works offline from the file), glTF binaries (.glb, one per layer, for web/VR/AR viewers), float32 GeoTIFFs (UTM when the site latitude/longitude is given), a PDF report and slide-ready PNGs. Wire one Values branch per layer over the Points (or a Mesh with per-vertex or per-face values). Every file states that the results were computed by the solver and that Eddy3D is the front end.</div>
+        </div>
+    </a>
+    <a href="/components/Site_Report/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Site_Report.png" class="nav-gh-icon"> Site Report
+            </div>
+            <div class="index-quicklink-text">Write a client-ready PDF site report from a weather file and the Rhino viewports: climate key statistics, wind rose and Weibull, climograph, psychrometric chart, hour-by-day year charts of solar radiation, wind speed and UTCI, the weather-only comfort scenarios (no sun / no wind / full protection), captured views, methodology and glossary, plus the natural-hazard record around the station (earthquakes from USGS, storms, floods, wildfires, volcanoes and landslides from NASA EONET, tsunami run-ups from NOAA NCEI; Hazards switches it off). Every sentence is assembled from the measured numbers by fixed rules. Results from other components that implement the report seam add their own chapters.</div>
+        </div>
+    </a>
     <a href="/components/CheckMesh/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -167,7 +183,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Live_Residuals.png" class="nav-gh-icon"> Live Residuals
             </div>
-            <div class="index-quicklink-text">Draws a wind case's residual convergence directly on the Grasshopper canvas, with lightweight timed updates. Wire the case and toggle 'Live' to monitor a running simulation without an external plotter window. When a warm-up ramp is enabled the solver restarts mid-run and writes a separate residual file per phase; all phases are stitched into one continuous curve so you see the full history (warm-up + main), not just the latest phase.</div>
+            <div class="index-quicklink-text">Draws a case's residual convergence directly on the Grasshopper canvas, with lightweight timed updates. Wire the case and toggle 'Live' to monitor a running simulation without an external plotter window. When a warm-up ramp is enabled the solver restarts mid-run and writes a separate residual file per phase; all phases are stitched into one continuous curve so you see the full history (warm-up + main), not just the latest phase. An Outdoor+ (UMF) case solves its air region to convergence inside each time step, so its curve counts fluid iterations and the strip reads 'step 3/24 · iter 51'.</div>
         </div>
     </a>
     <a href="/components/Meshing_Progress/" style="text-decoration: none;">
@@ -194,6 +210,14 @@
             <div class="index-quicklink-text">Open the web-based residual plotter for a wind case's convergence history (one trace per direction).</div>
         </div>
     </a>
+    <a href="/components/Read_Results/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Read_Results.png" class="nav-gh-icon"> Read Results
+            </div>
+            <div class="index-quicklink-text">Read what a case's function objects wrote under postProcessing/ — forces, force coefficients, y+, flow rates, volume/surface field values, probe histories, sampled profiles — as columns of numbers, with per-column statistics. One grammar reads every tabular file OpenFOAM writes there, including function objects Eddy3D has never heard of. Restart slices of a time series are stitched with the later run winning; a sampled profile is one snapshot per time.</div>
+        </div>
+    </a>
     <a href="/components/Read_checkMesh/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -207,7 +231,23 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Study_Report.png" class="nav-gh-icon"> Study Report
             </div>
-            <div class="index-quicklink-text">Generate a Markdown report documenting the wind case to the QA discipline of the ASCE/SEI CWE Prestandard (within its steady-RANS pedestrian-comfort allowance): solver and OpenFOAM version, domain and blockage, boundary conditions, numerics and the 2nd-order verdict, mesh quality, convergence, y+, Reynolds, an optional comfort section, limitations, and a compliance summary table.</div>
+            <div class="index-quicklink-text">Generate a Markdown report documenting the wind case to the QA discipline of the ASCE/SEI CWE Prestandard (within its steady-RANS pedestrian-comfort allowance): solver and OpenFOAM version, domain and blockage, boundary conditions, numerics and the 2nd-order verdict, mesh quality, convergence, y+, Reynolds, an optional comfort section, limitations, and a compliance summary table. Optionally a scheme comparison (Wind Comfort Compare) and a planning authority's CFD-method checklist with its submission outline (City of London 2019).</div>
+        </div>
+    </a>
+    <a href="/components/Sun_Report/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Sun_Report.png" class="nav-gh-icon"> Sun Report
+            </div>
+            <div class="index-quicklink-text">Assemble the Sunlight-results chapter for the Site Report from per-date sun results: wire one Sun Hours, Solar Irradiation and Shadow per report date (equinox, summer and winter solstice — the Date dropdown on each), one branch per date, and connect Report to Site Report's Results. Per date: the share of points per band of sun hours, per bin of kWh/m² and per shade pattern (sun all day, morning shade, afternoon shade, shade all day); then the % of the grid in shade at 9, 12, 15 and 18 h across the dates.</div>
+        </div>
+    </a>
+    <a href="/components/Ventilation_Comfort_Report/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Ventilation_Comfort_Report.png" class="nav-gh-icon"> Ventilation Comfort Report
+            </div>
+            <div class="index-quicklink-text">One page per room: thermal comfort (EN ISO 7730 / EN 16798-1 category shares, ASHRAE 55, draught, stratification, ADPI), ventilation effectiveness (age of air, air change effectiveness, contaminant removal) and airborne infection risk (Wells–Riley) with the ASHRAE 241 equivalent-clean-airflow check — each number beside the reference it is read against, and the caveats that belong to it. Always outputs the Markdown and HTML text; Write saves <Room>.md and a self-contained <Room>.html (no external assets) into the Folder. Sections left unwired are reported as not evaluated.</div>
         </div>
     </a>
 </div>

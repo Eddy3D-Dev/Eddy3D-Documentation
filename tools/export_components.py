@@ -143,6 +143,67 @@ def reset_output_directories(base_dir):
             try: os.remove(f)
             except: pass
 
+def crop_capture(raw_path, crop_path, pad=20):
+    """Trim a canvas capture to its content plus pad px, into crop_path (what the page embeds).
+
+    In-process, with System.Drawing, so the crop exists before the export reports done. The
+    definition used to launch tools/crop_images.py (PIL) as a DETACHED python3 after the export:
+    which python3 that was depended on the PATH Rhino was launched with, and nothing waited for
+    it -- 52 pages shipped pointing at a -crop.png nobody had made (2026-11-04). Same rule as the
+    PIL version: background = the top-left pixel, bbox of everything that differs, pad 20.
+    """
+    import base64
+    import System
+    from System.Drawing import Bitmap, Rectangle
+    from System.Drawing.Imaging import ImageFormat, ImageLockMode, PixelFormat
+    from System.Runtime.InteropServices import Marshal
+
+    bmp = Bitmap(raw_path)
+    try:
+        w, h = bmp.Width, bmp.Height
+        data = bmp.LockBits(Rectangle(0, 0, w, h), ImageLockMode.ReadOnly, PixelFormat.Format32bppArgb)
+        try:
+            stride = data.Stride
+            buf = System.Array.CreateInstance(System.Byte, stride * h)
+            Marshal.Copy(data.Scan0, buf, 0, stride * h)
+        finally:
+            bmp.UnlockBits(data)
+        # byte[] -> bytes through base64: C speed on both sides, no pythonnet buffer-protocol dependence.
+        px = base64.b64decode(System.Convert.ToBase64String(buf))
+        bg_row = px[0:4] * w
+        row_len = 4 * w
+        left = right = top = bottom = None
+        bg_int = int.from_bytes(bg_row, "big")
+        rgb_mask = int.from_bytes(b"\xff\xff\xff\x00" * w, "big")  # PIL compared RGB only: ignore alpha
+        for y in range(h):
+            row = px[y * stride:y * stride + row_len]
+            if row == bg_row:
+                continue
+            d = (int.from_bytes(row, "big") ^ bg_int) & rgb_mask
+            if d == 0:
+                continue
+            # Leftmost differing byte sits at the highest set bit, rightmost at the lowest.
+            first = (row_len - 1 - (d.bit_length() - 1) // 8) // 4
+            last = (row_len - 1 - ((d & -d).bit_length() - 1) // 8) // 4
+            if top is None:
+                top = y
+            bottom = y
+            left = first if left is None else min(left, first)
+            right = last if right is None else max(right, last)
+        if top is None:
+            return False  # blank capture: nothing to crop to
+        x0, y0 = max(0, left - pad), max(0, top - pad)
+        x1, y1 = min(w, right + 1 + pad), min(h, bottom + 1 + pad)
+        cropped = bmp.Clone(Rectangle(x0, y0, x1 - x0, y1 - y0), bmp.PixelFormat)
+        try:
+            if os.path.exists(crop_path): os.remove(crop_path)
+            cropped.Save(crop_path, ImageFormat.Png)
+        finally:
+            cropped.Dispose()
+        return True
+    finally:
+        bmp.Dispose()
+
 def captureGrasshopperScreen(fileName, workingDirectory, component=None):
     target_dir = os.path.join(workingDirectory, "images", "components")
     if not os.path.exists(target_dir): os.makedirs(target_dir, exist_ok=True)
@@ -167,6 +228,12 @@ def captureGrasshopperScreen(fileName, workingDirectory, component=None):
     
     shutil.copyfile(screenCapture, filePath)
     track_file(filePath)
+    if USE_CROPPED_IMAGES:
+        cropPath = os.path.join(target_dir, os.path.splitext(fileName)[0] + "-crop.png")
+        if crop_capture(filePath, cropPath):
+            track_file(cropPath)
+        else:
+            print(" - Warning: blank capture, no crop written for " + fileName)
     
     path = os.path.split(screenCapture)[0]
     try: shutil.rmtree(path)
@@ -277,6 +344,12 @@ def getPluginComponents(pluginName):
     components = {}
     for proxy in Grasshopper.Instances.ComponentServer.ObjectProxies:
         if proxy.Obsolete: continue
+        # Hidden/obscure proxies are dropped HERE, not only after instantiation: the dict is keyed by
+        # display name, and a hidden component sharing a shown one's name (Outdoor+'s obsolete
+        # Materials/Soil beside Terrain/Soil Material) used to replace it, so the shown component was
+        # the one "skipped as hidden" and had no page.
+        expo = str(proxy.Exposure).lower()
+        if "hidden" in expo or "obscure" in expo: continue
         if proxy.Desc.Category.strip() == pluginName:
             try:
                 if str(proxy.Kind) == "CompiledObject": components[proxy.Desc.Name] = proxy.CreateInstance()

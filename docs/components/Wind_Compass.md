@@ -13,7 +13,9 @@ Visualize a wind direction on a compass circle. Direction is meteorological degr
 | Base Point | Pt | Center of the compass. | `Point` |
 | Color | Col | Display color. | `Colour` |
 | Arrow Scale | Scale | Scale of the directional arrow. | `Number` |
-| Weather |  | Optional Eddy3D Weather object. When connected, replaces the direction arrow with a 16-sector annual wind rose. Radial length is occurrence frequency and stacked colors are wind-speed ranges in m/s. | `Generic Data` |
+| Weather |  | Optional Eddy3D Weather object. When connected, replaces the direction arrow with a 16-sector wind rose over Start–End Month (whole year by default). Radial length is occurrence frequency and stacked colors are wind-speed ranges in m/s. | `Generic Data` |
+| Start Month | StartMonth | First month [1-12] of the hours the wind rose counts. | `Integer` |
+| End Month | EndMonth | Last month [1-12] of the hours the wind rose counts, inclusive. Earlier than Start Month wraps the year end: Start 11, End 2 is November to February. | `Integer` |
 
 #### Output
 

@@ -2,7 +2,7 @@
 
 ![](/images/components/Morph_Weather-crop.png)
 
-Morph a present-day EPW into future-climate EPWs with the Future Weather Generator (future-weather-generator.adai.pt), then feed the result to any Eddy3D workflow. Needs Java 17+ and the generator's .jar, which Eddy3D does not ship: download the distribution you need (CMIP6 Global, CORDEX-CMIP5 Europe, …) into ~/Eddy3D/FWG. The tool is licensed CC BY-NC-SA 4.0 — noncommercial use, attribution required.
+Morph a present-day EPW into future-climate EPWs with the Future Weather Generator (future-weather-generator.adai.pt), then feed the result to any Eddy3D workflow. Needs Java 17+ and the generator's .jar, which Eddy3D does not ship: download the distribution you need (CMIP6 Global, CORDEX-CMIP5 Europe, …) into ~/Eddy3D/FWG. The tool is licensed CC BY-NC-SA 4.0 — noncommercial use, attribution required. Alternatively set Morph Settings' Method to a CCKP entry: the World Bank Climate Change Knowledge Portal's CMIP6 ensemble (0.25°, no key, no Java, no jar) is read for the site's grid cell and applied to the file as monthly shifts and stretches.
 
 #### Input
 
@@ -10,10 +10,10 @@ Morph a present-day EPW into future-climate EPWs with the Future Weather Generat
 | ---- | -------- | ----------- | ---- |
 | Output Folder | Dir | Folder the morphed weather files are written to (one subfolder per baseline EPW). Unwired: ~/Eddy3D/FutureWeather. | `Text` |
 | EPW | W | Path to the present-day EPW to morph — wire it straight from Download Weather. | `Text` |
-| Scenarios | S | Emission pathways to generate, as the installed distribution names them (CMIP6 Global: ssp126, ssp245, ssp370, ssp585; CORDEX builds: rcp26, rcp45, rcp85). Empty runs the distribution's full default set. The Available output lists what your jar actually offers. | `Text` |
-| Timeframes | T | Future periods to generate, e.g. 2050 and 2080 (the CMIP6 Global build centres them on 2036-2065 and 2066-2095). Empty runs the distribution's defaults. | `Text` |
-| Settings | C | Optional Morph Settings — climate products, interpolation, uncertainty case, solar methods. Unwired, the generator runs on its own defaults. | `Generic Data` |
-| FWG Jar | J | Path to the Future Weather Generator .jar. Unwired, Eddy3D looks in ~/Eddy3D/FWG, then Downloads, then the EDDY3D_FWG_JAR environment variable. | `Text` |
+| Scenarios | S | Emission pathways to generate, as the installed distribution names them (CMIP6 Global: ssp126, ssp245, ssp370, ssp585; CORDEX builds: rcp26, rcp45, rcp85). Empty runs the distribution's full default set. The Available output lists what your jar actually offers. With a CCKP method: ssp119, ssp126, ssp245, ssp370, ssp585; empty means ssp245 and ssp585. | `Text` |
+| Timeframes | T | Future periods to generate, e.g. 2050 and 2080 (the CMIP6 Global build centres them on 2036-2065 and 2066-2095). Empty runs the distribution's defaults. With a CCKP method: a year from 2020 to 2099 (blended between the 20-year windows' centres) or a window such as 2040-2059; empty means 2050 and 2080. | `Text` |
+| Settings | C | Optional Morph Settings — the method (Future Weather Generator or CCKP), climate products, interpolation, uncertainty case, solar methods. Unwired, the generator runs on its own defaults. | `Generic Data` |
+| FWG Jar | J | Path to the Future Weather Generator .jar. Unwired, Eddy3D looks in ~/Eddy3D/FWG, then Downloads, then the EDDY3D_FWG_JAR environment variable. Not used by the CCKP methods. | `Text` |
 | Run | R | Morph the weather file. A full multi-model run takes minutes to hours; cancel from the right-click menu. | `Boolean` |
 
 #### Output

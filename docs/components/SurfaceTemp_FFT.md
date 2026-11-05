@@ -14,6 +14,7 @@ Solves outdoor surface temperature per analysis point via the frequency-domain a
 | Material | Mat | SurfaceTemp material (from the SurfaceTemp Material component). | `Generic Data` |
 | Indoor Temp | Tin | Indoor design temperature (°C) for wall/roof materials. Ignored for ground materials, which use the EPW annual mean air temperature instead. | `Number` |
 | Sky View | Sky | Optional sky view factor (0-1) per analysis point, from Sky Exposure. One value per point, or a single value for all points. Unconnected points fall back to the ideal tilt-based value (no context occlusion). | `Number` |
+| Compute | Comp | Who runs the admittance solves. Auto: the OpenCL GPU when one answers, else the CPU; a fallback is reported as a warning. CPU: the FFT solve per distinct orientation. GPU: the same filter as a direct convolution on the device (measured within 1e-5 K of the FFT), and refuse to run silently on the CPU. Pays off on grids with thousands of DISTINCT orientations (curved facades); a flat grid is one solve either way. | `Text` |
 | Run | R | Enable the surface-temperature calculation. | `Boolean` |
 
 #### Output

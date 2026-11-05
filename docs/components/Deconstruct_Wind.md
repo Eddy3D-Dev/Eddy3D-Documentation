@@ -22,5 +22,5 @@ Probe-specific statistics, per-hour values, a colored probe mesh and an inline l
 | Max |  | Highest value per probe over the selected hours. | `Number` |
 | Values | V | The field at each selected hour — one branch per HOY, each holding every probe's value {hoy}(probe count). Populated ONLY when HOY is connected; with HOY unconnected this would be the entire year, which is the tree this component exists to avoid. | `Number` |
 | Points | P | Probe positions carried inside the field (the VAF component's Points input). | `Point` |
-| Mesh |  | Colored probe mesh for the selected statistic. Requires the field to carry probe positions (wire Points into the VAF component). | `Mesh` |
+| Mesh |  | Colored probe mesh for the selected statistic. Requires the field to carry probe positions (wire Points into the VAF component). One square face per probe, in the order of Points (face i is probe i); a probe with no value stays in grey. | `Mesh` |
 | Range |  | Minimum and maximum of the selected statistic — the range the Mesh was colored over. Wire it into the Flex Legend component's Range input so the legend labels exactly the scale this mesh uses. | `Domain` |

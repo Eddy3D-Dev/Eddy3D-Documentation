@@ -17,5 +17,5 @@ Set an indoor wall temperature (°C). Wire a room surface to give just that surf
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Wall Temperature | WT | Wall temperature in Kelvin for the Indoor Case component's Wall Temp input. | `Number` |
+| Wall Temperature | WT | Wall temperature (°C) for the Indoor Case component's Wall Temp input. (Kelvin until 2026-10; Wall Temp still reads 150 or more as Kelvin.) | `Number` |
 | Wall | W | Named wall patch for the Indoor Case component's Walls input. Only meaningful when a Surface is supplied. | `Generic Data` |

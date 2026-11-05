@@ -16,6 +16,7 @@ Visual openness by ray casting: the unobstructed fraction of a view cone around 
 | Offset | O | Distance to lift each point along its axis before tracing, so a point sitting ON geometry does not see only itself. | `Number` |
 | Max Distance | D | Optional view distance cap in metres — geometry beyond it counts as OPEN, turning the answer into "openness within this range". | `Number` |
 | Color Scheme | Ramp | Colour ramp for the Colors output. Viridis is perceptually uniform and colourblind-safe (use it in a figure); Grayscale suits a monochrome print. | `Text` |
+| Engine | Eng | Who traces the rays. Auto: the OpenCL GPU when there is one, else the CPU. GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: the SIMD BVH on every core. | `Text` |
 
 #### Output
 

@@ -13,6 +13,7 @@ Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS wh
 | EPW | W | Path to the EPW weather file. | `Text` |
 | Settings | C | Optional MRT Settings. Unconnected = fast pure-C# path (raycast shortwave). | `Generic Data` |
 | Engine |  | Run Radiance natively or via the bundled container image. Only relevant when MRT Settings enables Radiance Reflections. | `Text` |
+| Compute | Comp | Who runs the view-factor-weighted longwave accumulation (probes x polygons x 8760 h). Auto: the OpenCL GPU when one answers, else the CPU; a fallback is reported in the log and as a warning. CPU: the parallel loop. GPU: refuse to run silently on the CPU. The GPU's rows are bit-identical to the CPU's. A model with tree crowns always runs on the CPU. | `Text` |
 | Run | R | Solve MRT. | `Boolean` |
 
 #### Output

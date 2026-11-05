@@ -1,0 +1,17 @@
+# ![](/images/icons/Create_Setting.png) Create Setting - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Create%20Setting%22)
+
+![](/images/components/Create_Setting-crop.png)
+
+Create a Setting from a list of entries.
+
+#### Input
+
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Entries |  | Entries to add to the Setting. | `Generic Data` |
+
+#### Output
+
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Setting |  | Created Setting instance. | `Generic Data` |

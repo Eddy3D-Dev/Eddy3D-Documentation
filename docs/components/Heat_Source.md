@@ -2,7 +2,7 @@
 
 ![](/images/components/Heat_Source-crop.png)
 
-A volumetric heat source box for an indoor ventilation case (transported temperature scalar).
+A volumetric heat source box for an indoor ventilation case. Wiring one switches Indoor Case to the buoyant solver, so the heat drives the flow (a rising plume, stratification) rather than riding along as a passive scalar.
 
 #### Input
 
