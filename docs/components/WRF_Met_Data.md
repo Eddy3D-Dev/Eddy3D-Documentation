@@ -9,15 +9,15 @@ Download the meteorological GRIB files that drive a WRF run. The file list and t
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | GRIB Folder | Dir | Where to put the downloaded GRIB files. Wire this to WRF Run's GRIB Folder. Empty uses the grib folder under the resolved case (Working Directory + Case Name), which is where WRF Run looks with nothing wired. | `Text` |
-| Source | Src | Where to fetch from. NOMADS needs no account but keeps only about ten days; RDA has the archive and needs a free account. | `Text` |
+| Source | Src | Where to fetch from. NOMADS needs no account but keeps only about ten days; AWS Open Data needs no account and holds every GFS cycle from 2021-01-01 (0.25 degree files of 300-550 MB each); RDA has the older archive and needs a free account. | `Text` |
 | Start | S | First instant the run needs, UTC. e.g. 2024-01-15_00:00:00. Defaults to the most recent GFS cycle that has finished posting. | `Text` |
 | End | E | Last instant the run needs, UTC. Defaults to a day after Start. | `Text` |
 | Interval | I | Hours between boundary files. 6 is the usual GFS spacing; 3 gives a smoother forcing and twice the download. | `Integer` |
 | Resolution | R | GFS grid spacing. 0p25 is a quarter degree — the operational default and what you want unless the download is a problem. | `Text` |
 | Credential | Cr | For RDA only. Give the PATH of a file containing your API token, or the NAME of an environment variable holding it — never the value itself. Grasshopper saves a component's text inputs into the .gh document in plain text, so a literal would be published with the definition. | `Text` |
-| Fetch | F | Download the files listed above. Runs in the background. | `Boolean` |
 | Working Directory | WD | The root the case folder sits under when GRIB Folder is empty. Empty uses ~/Eddy3D/WRF. | `Text` |
 | Case Name | Case | The case folder under Working Directory when GRIB Folder is empty. Empty uses the document's session case name — the one WRF Run mints. | `Text` |
+| Fetch | F | Download the files listed above. Runs in the background. | `Boolean` |
 
 #### Output
 

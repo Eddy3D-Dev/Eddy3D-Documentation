@@ -26,6 +26,14 @@
             <div class="index-quicklink-text">Boundary condition on one face of the analysis box: fixed surface temperature, convective film (h + air temperature), or adiabatic. Unassigned faces are adiabatic.</div>
         </div>
     </a>
+    <a href="/components/CHT_Exterior_Air/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/CHT_Exterior_Air.png" class="nav-gh-icon"> CHT Exterior Air
+            </div>
+            <div class="index-quicklink-text">A volume of air that is meshed but never solved: the solids facing it get the surface film set here. Cheaper and steadier than solving a cavity, and the ISO 10211 convention.</div>
+        </div>
+    </a>
     <a href="/components/CHT_Material/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -47,7 +55,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/CHT_Case.png" class="nav-gh-icon"> CHT Case
             </div>
-            <div class="index-quicklink-text">Build a conjugate heat transfer case from solids, air cavities and boundaries. Wire the Case output into the Run component (Containerized engine). Method: Kastner & Dogan (2020), SimAUD 2020 405-412, https://www.researchgate.net/publication/346039320_Solving_Thermal_Bridging_Problems_for_Architectural_Applications_with_OpenFOAM.</div>
+            <div class="index-quicklink-text">Build a conjugate heat transfer case from solids, air cavities, exterior air and boundaries. Wire the Case output into the Run component (Containerized engine). Method: Kastner & Dogan (2020), SimAUD 2020 405-412, https://www.researchgate.net/publication/346039320_Solving_Thermal_Bridging_Problems_for_Architectural_Applications_with_OpenFOAM.</div>
         </div>
     </a>
     <a href="/components/HAM_Climate/" style="text-decoration: none;">

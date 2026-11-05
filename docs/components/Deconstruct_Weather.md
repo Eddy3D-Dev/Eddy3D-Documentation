@@ -2,13 +2,14 @@
 
 ![](/images/components/Deconstruct_Weather-crop.png)
 
-Deconstruct a Weather object into hourly time series values. OutdoorPlus
+Deconstruct a Weather object into hourly time series values. More outputs: zoom in and click + beside the outputs to pick any EPW column, derived series (solar angles, sun vector, absolute humidity) or monthly statistic; − removes one. OutdoorPlus
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Weather |  | Weather object, or an EPW file path (e.g. from Download Weather), to deconstruct. | `Generic Data` |
+| Period |  | Slice of the year to output: Year (default), a season, or a single month. Every hourly output is cut to that period's hours, Hour of Year included, so the HOY list can drive UTCI, Sun Hours or any other HOY input for the same hours. Seasons are named by their months (Winter = Dec-Feb), so a southern-hemisphere EPW reads unambiguously. Header values (Latitude, Elevation, ...) are not hourly and are never cut. | `Text` |
 
 #### Output
 

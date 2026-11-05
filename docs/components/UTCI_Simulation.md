@@ -13,6 +13,7 @@ Compute annual probe-specific UTCI from simulation outputs: MRT and wind-speed d
 | Air Temperature | T | Annual hourly ambient air temperature (8760 values, °C). | `Number` |
 | Relative Humidity | RH | Annual hourly relative humidity (8760 values, %). | `Number` |
 | Transpose |  | Orientation of the UTCI tree output. Hours × Probes (default): one branch per hour, each holding every probe's value. Probes × Hours: one branch per probe, each holding that probe's year. | `Text` |
+| Engine | Eng | Engine for the annual UTCI sweep. Auto: the OpenCL GPU when one answers (the same per-hour polynomial; an fp32 device drifts under 1e-3 K and says "fp32"), else the CPU — a fallback is reported, never silent. Standalone the GPU is a wash (the field crosses the bus); it pays when the MRT already sits there. | `Text` |
 | Run | R | Enable UTCI calculation. | `Boolean` |
 
 #### Output

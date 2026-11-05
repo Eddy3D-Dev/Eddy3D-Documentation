@@ -11,8 +11,8 @@ Creates a STL mesh from geometry using the gmsh application. Useful to create he
 | Brep | B | Brep geometry to mesh | `Brep` |
 | Max Size | Max | Maximum element size. Default value: 1.0. | `Number` |
 | Min Size | Min | Minimum element size. Default value: 0.5. | `Number` |
-| Run |  | Run the gmsh process | `Boolean` |
 | Remove bottom faces | RBF | If true, delete bottom faces located on the XY plane (Z=0). | `Boolean` |
+| Run |  | Run the gmsh process | `Boolean` |
 
 #### Output
 

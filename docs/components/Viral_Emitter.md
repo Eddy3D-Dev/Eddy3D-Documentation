@@ -9,7 +9,7 @@ An airborne-pathogen passive-scalar source box for an indoor ventilation case. M
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Zone | Z | Box zone occupied by the viral source. | `Box` |
-| Injection Rate | IR | Viral tracer injection rate (specific). | `Number` |
+| Injection Rate | IR | Viral tracer injection rate, SPECIFIC: per m³ of the zone per second (1/s). The case injects it into the cells whose CENTRES the box contains, so the tracer emitted is rate × the MESHED zone volume, not the drawn box — the case writes that volume (Read Results → viralSourceVolume_0, one per emitter). | `Number` |
 
 #### Output
 

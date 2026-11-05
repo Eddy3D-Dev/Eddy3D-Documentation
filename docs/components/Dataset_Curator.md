@@ -15,6 +15,7 @@ Compute and export wind dataset features from analysis points and building geome
 | z_ref |  | Reference height in m. | `Number` |
 | pedestrian_level |  | Pedestrian mounting height in m. | `Number` |
 | wind_dir |  | Wind directions in degrees, positive clockwise. | `Number` |
+| Engine | Eng | Who measures SDF and Bldg_height. Auto: the OpenCL GPU when there is one and every building is planar-faced, else the CPU. GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: Rhino's Brep rule on every core. | `Text` |
 | Run |  | Write dataset CSV and processing scripts. | `Boolean` |
 
 #### Output

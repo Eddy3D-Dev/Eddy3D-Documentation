@@ -2,7 +2,7 @@
 
 ![](/images/components/Wind_Comfort_Predictor_ML-crop.png)
 
-Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX model. Method: Kastner et al. (2026), SSRN preprint 6401886, doi:10.2139/ssrn.6401886.
+Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX model. ML screening prediction, not CFD: use it to compare options, then confirm anything that matters with a Wind Study (planning authorities do not accept surrogate results). Method: Kastner et al. (2026), SSRN preprint 6401886, doi:10.2139/ssrn.6401886.
 
 #### Input
 

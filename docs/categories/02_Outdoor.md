@@ -34,6 +34,14 @@
             <div class="index-quicklink-text">Create a uniform (constant velocity) inflow boundary condition for Eddy3D.</div>
         </div>
     </a>
+    <a href="/components/Wind_Conditions/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Wind_Conditions.png" class="nav-gh-icon"> Wind Conditions
+            </div>
+            <div class="index-quicklink-text">Bin a year of EPW wind into direction sectors — frequency, speed histogram, mean speed and a Weibull fit per sector — with the station's origin (provider, id, period, coordinates, elevation) and the site's location in one record. Optionally transfers the station's speeds to the site's terrain per EN 1991-1-4 (the anemometer stands in open country; the site does not). Wire the record into the ABL component's Wind Directions: it supplies directions AND speeds, travels into the study manifest and the Study Report, and lets VAF scale the hourly series by the same factor.</div>
+        </div>
+    </a>
     <a href="/components/Cell_Size/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -47,7 +55,15 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Cylinder_Domain.png" class="nav-gh-icon"> Cylinder Domain
             </div>
-            <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius targets the 3% frontal-blockage limit of ASCE/SEI CWE Prestandard AC 6-8b, which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge. Method: Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906; Kastner & Dogan (2018), eSim 2018 (IBPSA-Canada), Montréal, https://www.researchgate.net/publication/325023244_Streamlining_meshing_methodologies_for_annual_urban_CFD_simulations.</div>
+            <div class="index-quicklink-text">Define a cylindrical simulation domain for Eddy3D. One cylindrical mesh serves all wind directions; the cylinder side faces switch between inlet and outlet per direction. The auto radius and height size the domain under the blockage limits of ASCE/SEI CWE Prestandard AC 6-8b (to 2% frontal, 16% lateral and vertical, against limits of 3/17/17%), which the case component verifies. Model surrounding buildings within ~240 m of the study area (ASCE 49 proximity guidance) before trusting results near the context edge. Method: Kastner & Dogan (2020), Journal of Building Performance Simulation 13(1):59-68, doi:10.1080/19401493.2019.1692906; Kastner & Dogan (2018), eSim 2018 (IBPSA-Canada), Montréal, https://www.researchgate.net/publication/325023244_Streamlining_meshing_methodologies_for_annual_urban_CFD_simulations.</div>
+        </div>
+    </a>
+    <a href="/components/Height_Bands/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Height_Bands.png" class="nav-gh-icon"> Height Bands
+            </div>
+            <div class="index-quicklink-text">Refine the mesh in BANDS OF HEIGHT above the ground — level 3 within 4 m, level 2 within 10 m, level 1 within 24 m — everywhere on the site, not only near buildings. This is how the pedestrian layer gets resolved across open plazas and streets that no building refinement reaches. The bands follow the case's ground surfaces (terrain, ground ring and roughness zones), so on a sloped site they stay the same height above the ground; only a meshing dict with no ground surface gets the flat disk Centre and Radius describe. Wire Extras into the case component's Extras input beside any Refinement Region.</div>
         </div>
     </a>
     <a href="/components/Mesh_Settings/" style="text-decoration: none;">
@@ -72,6 +88,14 @@
                 <img src="/images/icons/Brep_Grid_Points.png" class="nav-gh-icon"> Brep Grid Points
             </div>
             <div class="index-quicklink-text">Generate centered surface samples on the actual faces of Brep, surface, or mesh geometry.</div>
+        </div>
+    </a>
+    <a href="/components/Data_Coverage/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Data_Coverage.png" class="nav-gh-icon"> Data Coverage
+            </div>
+            <div class="index-quicklink-text">What Eddy3D can fetch for a site before anything is fetched: one line per layer — buildings, roof shapes, terrain, fine terrain, point cloud, tree crowns, land cover, climate, natural hazards — with its provider, detail, licence and whether it covers this site. Worldwide providers always do; LiDAR (AHN in the Netherlands, USGS 3DEP in the United States) by position; the weather catalogue by its nearest station. Use it to plan the site model and see where you will have to bring your own data (a LAS/LAZ file, a survey, an EPW).</div>
         </div>
     </a>
     <a href="/components/Ground_Roughness/" style="text-decoration: none;">
@@ -119,7 +143,15 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Run_Settings.png" class="nav-gh-icon"> Run Settings
             </div>
-            <div class="index-quicklink-text">Configure solver run controls for Eddy3D.</div>
+            <div class="index-quicklink-text">Configure solver run controls for Eddy3D. PIMPLE (transient) writes Co below 1, three pressure correctors, turbulence on every outer corrector and unbounded convection. Method: Wolf Dynamics (2021), OpenFOAM advanced training, online session, July 2021 GT-79, GT-97, GT-100, https://www.wolfdynamics.com/training/turbulence/OF2021/turbulence_20221_OF8_guided_tutorials.pdf.</div>
+        </div>
+    </a>
+    <a href="/components/Remote_Run/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Remote_Run.png" class="nav-gh-icon"> Remote Run
+            </div>
+            <div class="index-quicklink-text">Run a written wind study on another machine over SSH (a workstation, server or cloud VM with Eddy3D's CLI and a container engine). Submit packages the study's static part, copies it to <Remote Folder>/<study>-<time> under the remote home and starts `E3D run` detached; while it runs the component polls every minute and shows each direction's convergence; Fetch copies the solved study back over the local one. SSH uses key login only and never prompts: connect once in a terminal first. The remote must be Linux, macOS or WSL.</div>
         </div>
     </a>
     <a href="/components/Run/" style="text-decoration: none;">
@@ -128,6 +160,14 @@
                 <img src="/images/icons/Run.png" class="nav-gh-icon"> Run
             </div>
             <div class="index-quicklink-text">Mesh and run an OpenFOAM case on the selected engine (wind / indoor / UMF).</div>
+        </div>
+    </a>
+    <a href="/components/SLURM_Runner/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/SLURM_Runner.png" class="nav-gh-icon"> SLURM Runner
+            </div>
+            <div class="index-quicklink-text">Write SLURM batch (sbatch) files to run a wind study on an HPC cluster.</div>
         </div>
     </a>
     <a href="/components/Write_Run_Scripts/" style="text-decoration: none;">

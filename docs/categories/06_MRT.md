@@ -15,7 +15,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT_Settings.png" class="nav-gh-icon"> MRT Settings
             </div>
-            <div class="index-quicklink-text">Configuration for the MRT + UTCI analysis.</div>
+            <div class="index-quicklink-text">Configuration for the MRT + UTCI analysis. Method: Bourgeois et al. (2008), Building Research & Information 36(1):68-82, doi:10.1080/09613210701446325; Subramaniam (2017), Lawrence Berkeley National Laboratory, tutorial (Nov 2017 revision) Ch. 2, App. B, https://www.radiance-online.org/learning/tutorials/matrix-based-methods.</div>
         </div>
     </a>
     <a href="/components/SurfaceTemp_Material/" style="text-decoration: none;">
@@ -39,7 +39,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Tree_Settings.png" class="nav-gh-icon"> Tree Settings
             </div>
-            <div class="index-quicklink-text">Canopy material properties for an MRT tree surface.</div>
+            <div class="index-quicklink-text">Canopy material properties for an MRT tree surface: optics, and how the crown transmits radiation. Defaults are SOLWEIG's (Lindberg & Grimmond 2011): 3 % of the beam through a crown in leaf (Konarska et al. 2014 measured 1.3-5.3 % in leaf, 40-52 % bare), 50 % out of leaf, leaves at air temperature for longwave. Deciduous crowns follow the SITE's leaf season from the EPW air temperature (ETCCDI growing season, Zhang et al. 2011): bare through the cold spell, in leaf all year where no six-day spell drops below 5 C. A leaf area density switches the in-leaf crown to Beer-Lambert over the path inside CLOSED crown meshes. With Radiance reflections on, the crowns are partially transparent in the Radiance scene too, one scene per leaf state (a Beer-Lambert crown's sky and reflections at its mean-chord transmittance). Method: Zhang et al. (2011), WIREs Climate Change 2(6):851-870, doi:10.1002/wcc.147.</div>
         </div>
     </a>
     <a href="/components/Vegetation_Settings/" style="text-decoration: none;">
@@ -79,7 +79,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT_Surface.png" class="nav-gh-icon"> MRT Surface
             </div>
-            <div class="index-quicklink-text">Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size; Meshes are used face-for-face as given.</div>
+            <div class="index-quicklink-text">Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size; Meshes are used face-for-face as given. Tree surfaces are tree CROWNS that transmit part of the radiation (SOLWEIG canopy, Lindberg & Grimmond 2011: 3 % of the beam in leaf, 50 % out of leaf, leaf season from the site latitude, leaves at air temperature for longwave) unless Tree Settings says otherwise; model them as closed crown volumes. Documents saved before canopy transmittance keep their opaque crowns (right-click).</div>
         </div>
     </a>
     <a href="/components/Sky_Exposure/" style="text-decoration: none;">
@@ -96,14 +96,6 @@
                 <img src="/images/icons/SurfaceTemp_FFT.png" class="nav-gh-icon"> SurfaceTemp FFT
             </div>
             <div class="index-quicklink-text">Solves outdoor surface temperature per analysis point via the frequency-domain admittance method (no thermal mesh, no warm-up). Feeds a future MRT component alongside Sky Exposure.  Method: Beckett, O., Owens, S. and Acred, A. (2026). Applying Frequency Domain Methods for Calculating Outdoor Surface Temperatures. Proceedings of the 12th National Conference of IBPSA-USA, Minneapolis, MN. https://publications.ibpsa.org/conference/paper/?id=simbuild2026_1312</div>
-        </div>
-    </a>
-    <a href="/components/Deconstruct_MRT/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Deconstruct_MRT.png" class="nav-gh-icon"> Deconstruct MRT
-            </div>
-            <div class="index-quicklink-text">Probe-specific statistics (and optionally the raw hours) from an MRT Result, without putting the full 8760-hour year on the canvas.</div>
         </div>
     </a>
     <a href="/components/MRT_Solve/" style="text-decoration: none;">
@@ -128,6 +120,14 @@
                 <img src="/images/icons/SurfaceTemp_EnergyPlus.png" class="nav-gh-icon"> SurfaceTemp EnergyPlus
             </div>
             <div class="index-quicklink-text">Surface temperatures via EnergyPlus, mapped onto a solved VF Model. The counterpart of the FFT SurfaceTemp component for the staged MRT pipeline: it consumes MRT View Factors' output (the E+ surface selection depends on the view factors) and its output feeds MRT Solve. Skipping this stage leaves surfaces at ambient temperature unless they carry FFT temperatures from MRT Surface. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762.</div>
+        </div>
+    </a>
+    <a href="/components/Deconstruct_MRT/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Deconstruct_MRT.png" class="nav-gh-icon"> Deconstruct MRT
+            </div>
+            <div class="index-quicklink-text">Probe-specific statistics (and optionally the raw hours) from an MRT Result, without putting the full 8760-hour year on the canvas.</div>
         </div>
     </a>
     <a href="/components/Deconstruct_VF_Model/" style="text-decoration: none;">
