@@ -37,3 +37,4 @@ Create, write, and manage an Eddy3D outdoor wind simulation case. Method: Kastne
 | Refinement Box | Refine | Refinement box derived from the case. | `Brep` |
 | Buildings | Bldgs | Building meshes from the case. | `Mesh` |
 | Pedestrian Points | PedPts | The pedestrian probes the case writes, in the order the results list them. Empty unless Pedestrian Spacing is set. | `Point` |
+| Terrain |  | Terrain mesh the case uses. Empty without a Terrain Mesh. | `Mesh` |

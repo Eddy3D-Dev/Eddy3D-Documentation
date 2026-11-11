@@ -8,7 +8,7 @@ Create, read, and manage an Outdoor+ (UMF microclimate) case. Validated in: Rahi
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Read Case | Read | Read an existing case from the working directory. | `Boolean` |
+| Read Case | Read | Read an existing case from the working directory. A case already written there is read on its own when the definition opens; press Read to read it again after changing inputs. | `Boolean` |
 | Write |  | Write the case files to the working directory. | `Boolean` |
 | Clear Case | Clear | Delete all files for this case in the working directory. | `Boolean` |
 | Case Name | Name | Case folder name (no spaces). Optional: defaults to OutdoorPlusCase. | `Text` |
@@ -41,3 +41,4 @@ Create, read, and manage an Outdoor+ (UMF microclimate) case. Validated in: Rahi
 | Total Mesh | TotalMesh | Total mesh for the case. | `Mesh` |
 | Building |  | Building mesh. | `Mesh` |
 | Pedestrian Points | PedPts | The pedestrian probes the case writes, in the order the results list them. Empty unless Pedestrian Spacing is set. | `Point` |
+| Terrain |  | Terrain surface the case uses: the wired Terrain Region's, or the domain floor when none is wired. The terrain solid lies BELOW it, so probe the terrain region on or under this mesh. | `Mesh` |

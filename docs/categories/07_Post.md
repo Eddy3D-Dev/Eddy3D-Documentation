@@ -50,6 +50,14 @@
             <div class="index-quicklink-text">Export probed facade pressure coefficients into the EnergyPlus AirflowNetwork as an .idf snippet: WindPressureCoefficientArray (the simulated directions), per-node WindPressureCoefficientValues and ExternalNode objects, ready to paste/merge into a Ladybug Tools (or hand-built) AirflowNetwork model. Enable Pressure Coefficient in Run Settings, probe the Cp field at facade points, and wire the probe tree here. Method: Dogan & Kastner (2021), Building Simulation 14(4):1189-1200, doi:10.1007/s12273-020-0727-x; Dogan & Kastner (2018), IBPC 2018, Syracuse NY 1139-1144, doi:10.14305/ibpc.2018.ms-5.05.</div>
         </div>
     </a>
+    <a href="/components/Analysis_Results/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Analysis_Results.png" class="nav-gh-icon"> Analysis Results
+            </div>
+            <div class="index-quicklink-text">Reads any Eddy3D result object as points and values: an annual wind field or VAF, an MRT, UTCI or PET result, a surface temperature, shadow or daily-light-integral result, a noise result or a stormwater run. One branch per field, with the analysis, the quantity and the unit beside it, so one definition can colour, filter or compare any of them, and it updates when the analysis re-runs.  A result that is a series over hours is reduced to its mean per point (stormwater: the peak); use the result's own Deconstruct component to pick hours or a statistic.</div>
+        </div>
+    </a>
     <a href="/components/Deconstruct_Wind/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -224,6 +232,14 @@
                 <img src="/images/icons/Read_checkMesh.png" class="nav-gh-icon"> Read checkMesh
             </div>
             <div class="index-quicklink-text">Read and visualize sets produced by checkMesh. OutdoorPlus</div>
+        </div>
+    </a>
+    <a href="/components/Ponding_Report/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Ponding_Report.png" class="nav-gh-icon"> Ponding Report
+            </div>
+            <div class="index-quicklink-text">One row per puddle: where it is, how much water, how deep, when it peaked and how long it took to drain — against the capacity of the hollow it sits in, so an overflowing depression is visible as such.</div>
         </div>
     </a>
     <a href="/components/Study_Report/" style="text-decoration: none;">

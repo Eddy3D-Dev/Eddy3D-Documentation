@@ -23,6 +23,7 @@ Color UTCI, PET, NOAA Heat Index, WBGT (Japanese heat-stroke guideline bands) or
 | Statistic | Stat | Which number to draw when Values is a UTCI Result: Comfort % (the no-thermal-stress share of the selected hours, drawn on the comfort bands) or the Mean, Min or Max UTCI over them (drawn on the UTCI temperature bands). Ignored for a plain list. | `Text` |
 | HOY |  | Hour(s) of year (1-8760) to reduce a UTCI Result over. Unconnected means the whole year. Ignored for a plain list. | `Integer` |
 | Legend Text | Text | How the legend is labelled. Viewport: camera-facing text badges drawn by this component, readable at any zoom. Text Objects: the bakeable Centered Labels output. Both: the two together. | `Text` |
+| Range |  | Optional value range the palette spans, instead of this field's own minimum and maximum — wire one Range into several legends (or another legend's Range output) and their colours mean the same values. Wiring it draws the Actual values scale whatever Color Scale says; values outside it take the end colours. | `Domain` |
 
 #### Output
 
@@ -35,3 +36,4 @@ Color UTCI, PET, NOAA Heat Index, WBGT (Japanese heat-stroke guideline bands) or
 | Labels |  | Metric title followed by its ranges and thermal-stress labels, or by its numeric ticks when scaled to actual values. | `Text` |
 | UTCI Mesh | UM | Colored sensor disks for face-based UTCI data, or a colored mesh for vertex-based data. | `Mesh` |
 | Centered Labels | Text | Centered metric title and thermal-stress label text. | `Geometry` |
+| Range |  | The range the palette spans when scaled to actual values: the Range input, or the field's own minimum and maximum. Empty on the comfort bins. | `Domain` |
