@@ -90,5 +90,13 @@
             <div class="index-quicklink-text">365 × 24 heat maps of one probe's UTCI or PET — sun and wind, wind without sun, sun without wind, neither — from the same MRT, wind and weather inputs as UTCI (Simulation). Sun is removed by setting MRT to the air temperature and wind by holding 0.5 m/s, exactly as the Site Report's scenarios do. Export writes SVG, PDF and PNG.</div>
         </div>
     </a>
+    <a href="/components/UTCI_Time_Plot/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/UTCI_Time_Plot.png" class="nav-gh-icon"> UTCI Time Plot
+            </div>
+            <div class="index-quicklink-text">Plots temperature series over time on the UTCI thermal-stress bands — UTCI of one or more design schemes, and any other temperature (MRT, air temperature) on the same axis. One branch per line. Only the stress bands the data reaches are drawn. Export writes SVG, PDF and PNG.</div>
+        </div>
+    </a>
 </div>
 
