@@ -1,0 +1,25 @@
+# ![](/images/icons/Runoff_Zones.png) Runoff Zones - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Runoff%20Zones%22)
+
+![](/images/components/Runoff_Zones-crop.png)
+
+Assigns a surface MATERIAL to an area of the site. The material's runoff coefficient is the share of the rain landing there that enters the surface flow, and it brings an overland Manning's n — change the material and both swap. Wire the zones into Stormwater Grid's Zones for the ground, or its Roof Zones for roofs; a zone with no Areas is the Default for every cell no other zone covers (or, as a roof zone, every roof).  Manning's n here is the OVERLAND FLOW value, several times the channel value for the same material — at the millimetre depths of sheet flow the surface texture is the whole channel, and using a channel roughness makes runoff arrive far too fast.  A Curve Number (1–100) replaces the coefficient with losses that grow through a storm as the ground wets up.  A Soil replaces both with Green-Ampt infiltration: all the rain reaches the ground and the soil takes water from whatever stands on it — run-on from upslope included, and ponds after the rain has stopped — at a rate that falls from unlimited toward the soil's saturated conductivity as it wets. Solved on the CPU.  Overland Manning's n after Engman (1986), J. Irrig. Drain. Eng. 112(1):39-53. Green-Ampt soil parameters as tabulated in the HEC-RAS 2D User's Manual, ported with the source study's workflow.  Method: DIN 1986-100:2016-12 (2016), DIN Media, Berlin Table 9, doi:10.31030/2586228; Green & Ampt (1911), Journal of Agricultural Science 4(1):1-24, doi:10.1017/S0021859600001441; Shrestha et al. (2026), Urban Systems Lab, urban-flood-modeling-workflows, https://github.com/UrbanSystemsLab/urban-flood-modeling-workflows.
+
+#### Input
+
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Areas |  | Closed curves outlining where this surface type applies, in plan. Curves are projected to the world XY plane, and a cell belongs to a zone when its CENTRE does.  Leave unwired for a zone with no outline: in Stormwater Grid's Zones it is the Default material for every cell no drawn zone covers; in Roof Zones it covers every roof. | `Curve` |
+| Surface |  | The surface material. Its runoff coefficient (DIN 1986-100 Table 9, mean Cm) is the share of the rain on this area that enters the surface flow, and it brings an overland Manning's n. Changing the material swaps both. Pick Custom to set the Runoff Coefficient yourself; set a Curve Number to use the SCS loss model instead. | `Text` |
+| Curve Number | CN | SCS Curve Number, 1–100. Higher sheds more: 98 is sealed paving, 61 a healthy lawn on an average soil, 55 mature woodland. Unlike a flat coefficient it makes runoff GROW through a storm as the ground wets up, which is why it suits a design event.  0 (the default) uses the material's runoff coefficient instead. | `Number` |
+| Runoff Coefficient | C | Fraction of rainfall that becomes runoff, 0–1, for the Custom surface only — every material carries its own. Ignored when a Curve Number is set. | `Number` |
+| Manning's n | n | Overland-flow roughness (s/m^⅓). A positive value overrides the material's. Typical: 0.012 smooth paving, 0.05 gravel, 0.24 short grass, 0.40 woodland litter. | `Number` |
+| Initial Abstraction Ratio | Ia/S | Fraction of the soil's storage absorbed before ANY runoff starts. 0.05 is the default and the value re-analysis of the original gauge data supports for small, largely impervious urban catchments; the textbook TR-55 figure of 0.2 was fitted to agricultural watersheds and under-predicts urban runoff. Pass 0.2 to reproduce it. | `Number` |
+| Soil |  | A soil texture to infiltrate by Green-Ampt instead of the runoff coefficient or Curve Number. All the rain then reaches the ground, and the soil takes water from whatever stands on it — run-on from upslope included, and ponds after the rain has stopped — at a rate that falls from unlimited on dry soil toward its saturated conductivity Ks as the wetting front deepens: Ks 223 mm/h for sand, 13 for loam, 0.6 for clay. The material still brings its Manning's n. None (the default) keeps the material's coefficient, or the Curve Number when one is set; a Soil and a Curve Number together are refused. Solved on the CPU solver only. | `Text` |
+| Initial Saturation | Sat | How wet the soil is when the storm starts, as an effective saturation: 0 at its residual water content, 1 saturated. Wetter soil leaves less room behind the wetting front and takes less. 0.44 is the source study's default. Green-Ampt (Soil) only. | `Number` |
+
+#### Output
+
+| Name | Nickname | Description | Type |
+| ---- | -------- | ----------- | ---- |
+| Zones |  | Runoff zones for Stormwater Grid. | `Generic Data` |
+| Area |  | Total plan area covered (m²). | `Number` |

@@ -42,6 +42,22 @@
             <div class="index-quicklink-text">Morph a present-day EPW into future-climate EPWs with the Future Weather Generator (future-weather-generator.adai.pt), then feed the result to any Eddy3D workflow. Needs Java 17+ and the generator's .jar, which Eddy3D does not ship: download the distribution you need (CMIP6 Global, CORDEX-CMIP5 Europe, …) into ~/Eddy3D/FWG. The tool is licensed CC BY-NC-SA 4.0 — noncommercial use, attribution required. Alternatively set Morph Settings' Method to a CCKP entry: the World Bank Climate Change Knowledge Portal's CMIP6 ensemble (0.25°, no key, no Java, no jar) is read for the site's grid cell and applied to the file as monthly shifts and stretches.</div>
         </div>
     </a>
+    <a href="/components/Compare_Weather/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Compare_Weather.png" class="nav-gh-icon"> Compare Weather
+            </div>
+            <div class="index-quicklink-text">Puts two weather files of one site side by side before one of them drives a study: a station's typical year (an EPW from the climate browser) against a reanalysis year (ERA5, Open-Meteo, NASA POWER), or the same place from two providers. Dry-bulb temperature, relative humidity and wind speed as means, global horizontal radiation and precipitation as sums, for the year and each month.  An EPW's missing-value codes are left out, so a typical-year file without a rain column says it carries none instead of reading as a dry climate. It measures the difference; it does not pick a file. For the wind's DIRECTIONS use Compare Wind Climates.</div>
+        </div>
+    </a>
+    <a href="/components/Compare_Wind_Climates/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Compare_Wind_Climates.png" class="nav-gh-icon"> Compare Wind Climates
+            </div>
+            <div class="index-quicklink-text">Puts two wind climates of one site side by side — a station record (ISD, EPW) against ERA5, or two stations — before one of them drives a study. Wire the Climate output of two Wind Climate components built with the same Sectors.  Rose Overlap is the share of the direction distribution the two have in common (1 = the same rose); Speed Ratio is B's mean speed over A's, over the non-calm hours. The report says which of the two differs and lists every sector. It measures the disagreement; it does not pick a source.</div>
+        </div>
+    </a>
     <a href="/components/Deconstruct_Weather/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">

@@ -10,7 +10,7 @@ Configure simulation control settings for UMF. OutdoorPlus
 | ---- | -------- | ----------- | ---- |
 | Write Interval | WriteInt | Write interval in time steps. Optional; uses solver default if omitted. | `Integer` |
 | Write Format | Format | Write format: 'ascii', 'binary', or 'compressed'. | `Text` |
-| CPU Count | CPU | Number of CPUs/subdomains to use. Optional; default is 1. | `Integer` |
+| CPU Count | CPU | Number of CPUs/subdomains to use. -1 = auto: sized from the air mesh when one exists (50k cells per core), else physical cores minus two. Optional; default is 1. | `Integer` |
 | Initial Solid Time Step Factor | SolidStep | Initial solid time step factor for UMF controlDict. Optional. | `Number` |
 | Min Delta T | MinDT | Minimum time step between iterations. Optional. | `Number` |
 | Max Delta T | MaxDT | Maximum time step between iterations. Optional. | `Number` |
