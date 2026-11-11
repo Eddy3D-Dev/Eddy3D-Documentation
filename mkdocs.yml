@@ -21,7 +21,7 @@ extra:
   version:
     provider: mike
     default: latest
-  latest_eddy_version: "1.21.1.827" # Manual fallback
+  latest_eddy_version: "1.22.0.827" # Manual fallback
 
 nav:
   - Documentation:
@@ -46,6 +46,8 @@ nav:
           - "<img src='/images/icons/Download_Weather.png' class='nav-gh-icon' /> Download Weather": components/Download_Weather.md
           - "<img src='/images/icons/Morph_Settings.png' class='nav-gh-icon' /> Morph Settings": components/Morph_Settings.md
           - "<img src='/images/icons/Morph_Weather.png' class='nav-gh-icon' /> Morph Weather": components/Morph_Weather.md
+          - "<img src='/images/icons/Compare_Weather.png' class='nav-gh-icon' /> Compare Weather": components/Compare_Weather.md
+          - "<img src='/images/icons/Compare_Wind_Climates.png' class='nav-gh-icon' /> Compare Wind Climates": components/Compare_Wind_Climates.md
           - "<img src='/images/icons/Deconstruct_Weather.png' class='nav-gh-icon' /> Deconstruct Weather": components/Deconstruct_Weather.md
           - "<img src='/images/icons/Monthly_Climate_Chart.png' class='nav-gh-icon' /> Monthly Climate Chart": components/Monthly_Climate_Chart.md
           - "<img src='/images/icons/Weather.png' class='nav-gh-icon' /> Weather": components/Weather.md
@@ -193,6 +195,7 @@ nav:
           - "<img src='/images/icons/Probe.png' class='nav-gh-icon' /> Probe": components/Probe.md
           - "<img src='/images/icons/Streamlines.png' class='nav-gh-icon' /> Streamlines": components/Streamlines.md
           - "<img src='/images/icons/Airflow_Network_Cp.png' class='nav-gh-icon' /> Airflow Network Cp": components/Airflow_Network_Cp.md
+          - "<img src='/images/icons/Analysis_Results.png' class='nav-gh-icon' /> Analysis Results": components/Analysis_Results.md
           - "<img src='/images/icons/Deconstruct_Wind.png' class='nav-gh-icon' /> Deconstruct Wind": components/Deconstruct_Wind.md
           - "<img src='/images/icons/Flow_Rates.png' class='nav-gh-icon' /> Flow Rates": components/Flow_Rates.md
           - "<img src='/images/icons/Velocity_Amplification_Factors_VAF.png' class='nav-gh-icon' /> Velocity Amplification Factors VAF": components/Velocity_Amplification_Factors_VAF.md
@@ -215,6 +218,7 @@ nav:
           - "<img src='/images/icons/Plot_Residuals.png' class='nav-gh-icon' /> Plot Residuals": components/Plot_Residuals.md
           - "<img src='/images/icons/Read_Results.png' class='nav-gh-icon' /> Read Results": components/Read_Results.md
           - "<img src='/images/icons/Read_checkMesh.png' class='nav-gh-icon' /> Read checkMesh": components/Read_checkMesh.md
+          - "<img src='/images/icons/Ponding_Report.png' class='nav-gh-icon' /> Ponding Report": components/Ponding_Report.md
           - "<img src='/images/icons/Study_Report.png' class='nav-gh-icon' /> Study Report": components/Study_Report.md
           - "<img src='/images/icons/Sun_Report.png' class='nav-gh-icon' /> Sun Report": components/Sun_Report.md
           - "<img src='/images/icons/Ventilation_Comfort_Report.png' class='nav-gh-icon' /> Ventilation Comfort Report": components/Ventilation_Comfort_Report.md
@@ -230,6 +234,19 @@ nav:
           - "<img src='/images/icons/Comfort_Hours.png' class='nav-gh-icon' /> Comfort Hours": components/Comfort_Hours.md
           - "<img src='/images/icons/Thermal_Comfort_Legend.png' class='nav-gh-icon' /> Thermal Comfort Legend": components/Thermal_Comfort_Legend.md
           - "<img src='/images/icons/Comfort_Heat_Map.png' class='nav-gh-icon' /> Comfort Heat Map": components/Comfort_Heat_Map.md
+          - "<img src='/images/icons/UTCI_Time_Plot.png' class='nav-gh-icon' /> UTCI Time Plot": components/UTCI_Time_Plot.md
+      - "09 Stormwater":
+          - "Overview": categories/09_Stormwater.md
+          - "<img src='/images/icons/Design_Storm.png' class='nav-gh-icon' /> Design Storm": components/Design_Storm.md
+          - "<img src='/images/icons/Land_Cover_Runoff.png' class='nav-gh-icon' /> Land Cover Runoff": components/Land_Cover_Runoff.md
+          - "<img src='/images/icons/Layer_Runoff.png' class='nav-gh-icon' /> Layer Runoff": components/Layer_Runoff.md
+          - "<img src='/images/icons/Runoff_Zones.png' class='nav-gh-icon' /> Runoff Zones": components/Runoff_Zones.md
+          - "<img src='/images/icons/Deconstruct_Stormwater.png' class='nav-gh-icon' /> Deconstruct Stormwater": components/Deconstruct_Stormwater.md
+          - "<img src='/images/icons/Stormwater_Grid.png' class='nav-gh-icon' /> Stormwater Grid": components/Stormwater_Grid.md
+          - "<img src='/images/icons/Stormwater_Run.png' class='nav-gh-icon' /> Stormwater Run": components/Stormwater_Run.md
+          - "<img src='/images/icons/Stormwater_Settings.png' class='nav-gh-icon' /> Stormwater Settings": components/Stormwater_Settings.md
+          - "<img src='/images/icons/Stormwater_Flowlines.png' class='nav-gh-icon' /> Stormwater Flowlines": components/Stormwater_Flowlines.md
+          - "<img src='/images/icons/Stormwater_Legend.png' class='nav-gh-icon' /> Stormwater Legend": components/Stormwater_Legend.md
       - "10 LBM":
           - "Overview": categories/10_LBM.md
           - "<img src='/images/icons/FluidX3D_Run_Settings.png' class='nav-gh-icon' /> FluidX3D Run Settings": components/FluidX3D_Run_Settings.md
@@ -297,6 +314,10 @@ nav:
           - "<img src='/images/icons/Roads_From_OSM.png' class='nav-gh-icon' /> Roads From OSM": components/Roads_From_OSM.md
           - "<img src='/images/icons/Noise_Run.png' class='nav-gh-icon' /> Noise Run": components/Noise_Run.md
           - "<img src='/images/icons/Noise_Map.png' class='nav-gh-icon' /> Noise Map": components/Noise_Map.md
+      - "16 Earthworks":
+          - "Overview": categories/16_Earthworks.md
+          - "<img src='/images/icons/Cut_Fill.png' class='nav-gh-icon' /> Cut Fill": components/Cut_Fill.md
+          - "<img src='/images/icons/Terrain_Diagram.png' class='nav-gh-icon' /> Terrain Diagram": components/Terrain_Diagram.md
   - Back: "https://eddy3d.com"
 
 

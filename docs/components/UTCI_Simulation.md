@@ -9,7 +9,7 @@ Compute annual probe-specific UTCI from simulation outputs: MRT and wind-speed d
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | MRT | M | The MRT component's Result (preferred), or a DataTree of annual MRT values — {probe}(8760) or {hour}(probes), both accepted. | `Generic Data` |
-| Wind Speed | V | Wind speed as an AnnualWindField (the VAF component's Wind Speed output — fed by CFD probe vectors or the ML Wind Predictor alike), one spatial list (one value per probe, held for all hours), or a {probe}(hours) / {hour}(probes) tree. An AnnualWindField on a different grid than the MRT sensors is resampled by nearest neighbor when both carry points. Pedestrian-height speeds are lifted to the 10 m UTCI reference. Defaults to calm (0.5 m/s) when unconnected. | `Generic Data` |
+| Wind Speed | V | Wind speed as an AnnualWindField (the VAF component's Wind Speed output — fed by CFD probe vectors or the ML Wind Predictor alike), one spatial list (one value per probe, held for all hours; a velocity vector counts as its length), or a {probe}(hours) / {hour}(probes) tree. An AnnualWindField on a different grid than the MRT sensors is resampled by nearest neighbor when both carry points. Pedestrian-height speeds are lifted to the 10 m UTCI reference. Defaults to calm (0.5 m/s) when unconnected. | `Generic Data` |
 | Air Temperature | T | Annual hourly ambient air temperature (8760 values, °C). | `Number` |
 | Relative Humidity | RH | Annual hourly relative humidity (8760 values, %). | `Number` |
 | Transpose |  | Orientation of the UTCI tree output. Hours × Probes (default): one branch per hour, each holding every probe's value. Probes × Hours: one branch per probe, each holding that probe's year. | `Text` |

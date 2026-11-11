@@ -13,7 +13,7 @@ Write a client-ready PDF site report from a weather file and the Rhino viewports
 | Weather | W | The weather year: an EPW file path (e.g. from Download Weather) or an Eddy3D Weather object. | `Generic Data` |
 | Views | V | Rhino viewport names to capture ("Perspective", "Top", or a named view). The first capture is the cover picture; the rest fill the Site views chapter. Empty: the active view. | `Text` |
 | Images | Img | PNG or JPEG files to include after the captures (a rendering, a site photo); the file name is the caption. | `Text` |
-| Results | R | Optional results that add chapters: a Share Pack (its Pack output — one chapter of map pages with the share of area per class, per set) or an object implementing the report seam. Others are ignored with a remark. | `Generic Data` |
+| Results | R | Optional results that add chapters: a Share Pack (its Pack output — one chapter of map pages with the share of area per class, per set), a site's Origin (LiDAR Site's Origin output — a table in the methodology of which dataset each layer came from) or an object implementing the report seam. Others are ignored with a remark. | `Generic Data` |
 | Author | A | Author or firm, printed on the cover. | `Text` |
 | Logo | L | PNG or JPEG logo for the cover's corner; empty for the Eddy3D wordmark. | `Text` |
 | Future | Fut | Projected years to compare with the present one: EPW paths from Morph Weather (labelled from their scenario and horizon) or Weather objects. Adds the Future climate chapter. | `Generic Data` |

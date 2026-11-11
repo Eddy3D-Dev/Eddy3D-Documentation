@@ -17,6 +17,8 @@
 <a href="/components/Download_Weather/" class="GhComponentItem" below-dataComment="Download Weather"><img src="/images/icons/Download_Weather.png" class="gh-component-selected" alt="Download Weather" /></a>
 <a href="/components/Morph_Settings/" class="GhComponentItem" above-dataComment="Morph Settings"><img src="/images/icons/Morph_Settings.png" class="gh-component-selected" alt="Morph Settings" /></a>
 <a href="/components/Morph_Weather/" class="GhComponentItem" below-dataComment="Morph Weather"><img src="/images/icons/Morph_Weather.png" class="gh-component-selected" alt="Morph Weather" /></a>
+<a href="/components/Compare_Weather/" class="GhComponentItem" above-dataComment="Compare Weather"><img src="/images/icons/Compare_Weather.png" class="gh-component-selected" alt="Compare Weather" /></a>
+<a href="/components/Compare_Wind_Climates/" class="GhComponentItem" below-dataComment="Compare Wind Climates"><img src="/images/icons/Compare_Wind_Climates.png" class="gh-component-selected" alt="Compare Wind Climates" /></a>
 <a href="/components/Deconstruct_Weather/" class="GhComponentItem" above-dataComment="Deconstruct Weather"><img src="/images/icons/Deconstruct_Weather.png" class="gh-component-selected" alt="Deconstruct Weather" /></a>
 <a href="/components/Monthly_Climate_Chart/" class="GhComponentItem" below-dataComment="Monthly Climate Chart"><img src="/images/icons/Monthly_Climate_Chart.png" class="gh-component-selected" alt="Monthly Climate Chart" /></a>
 <a href="/components/Weather/" class="GhComponentItem" above-dataComment="Weather"><img src="/images/icons/Weather.png" class="gh-component-selected" alt="Weather" /></a>
@@ -194,28 +196,30 @@
 <a href="/components/Probe/" class="GhComponentItem" above-dataComment="Probe"><img src="/images/icons/Probe.png" class="gh-component-selected" alt="Probe" /></a>
 <a href="/components/Streamlines/" class="GhComponentItem" below-dataComment="Streamlines"><img src="/images/icons/Streamlines.png" class="gh-component-selected" alt="Streamlines" /></a>
 <a href="/components/Airflow_Network_Cp/" class="GhComponentItem" above-dataComment="Airflow Network Cp"><img src="/images/icons/Airflow_Network_Cp.png" class="gh-component-selected" alt="Airflow Network Cp" /></a>
-<a href="/components/Deconstruct_Wind/" class="GhComponentItem" below-dataComment="Deconstruct Wind"><img src="/images/icons/Deconstruct_Wind.png" class="gh-component-selected" alt="Deconstruct Wind" /></a>
-<a href="/components/Flow_Rates/" class="GhComponentItem" above-dataComment="Flow Rates"><img src="/images/icons/Flow_Rates.png" class="gh-component-selected" alt="Flow Rates" /></a>
-<a href="/components/Velocity_Amplification_Factors_VAF/" class="GhComponentItem" below-dataComment="Velocity Amplification Factors VAF"><img src="/images/icons/Velocity_Amplification_Factors_VAF.png" class="gh-component-selected" alt="Velocity Amplification Factors VAF" /></a>
-<a href="/components/Create_Mesh/" class="GhComponentItem" above-dataComment="Create Mesh"><img src="/images/icons/Create_Mesh.png" class="gh-component-selected" alt="Create Mesh" /></a>
-<a href="/components/Cull_Ground_Mesh/" class="GhComponentItem" below-dataComment="Cull Ground Mesh"><img src="/images/icons/Cull_Ground_Mesh.png" class="gh-component-selected" alt="Cull Ground Mesh" /></a>
-<a href="/components/Flex_Legend/" class="GhComponentItem" above-dataComment="Flex Legend"><img src="/images/icons/Flex_Legend.png" class="gh-component-selected" alt="Flex Legend" /></a>
-<a href="/components/Read_Cells/" class="GhComponentItem" below-dataComment="Read Cells"><img src="/images/icons/Read_Cells.png" class="gh-component-selected" alt="Read Cells" /></a>
-<a href="/components/Scalar_Field_Viewer/" class="GhComponentItem" above-dataComment="Scalar Field Viewer"><img src="/images/icons/Scalar_Field_Viewer.png" class="gh-component-selected" alt="Scalar Field Viewer" /></a>
-<a href="/components/Vector_Field_Viewer/" class="GhComponentItem" below-dataComment="Vector Field Viewer"><img src="/images/icons/Vector_Field_Viewer.png" class="gh-component-selected" alt="Vector Field Viewer" /></a>
-<a href="/components/Create_OBJ/" class="GhComponentItem" above-dataComment="Create OBJ"><img src="/images/icons/Create_OBJ.png" class="gh-component-selected" alt="Create OBJ" /></a>
-<a href="/components/Export_to_Visualizer/" class="GhComponentItem" below-dataComment="Export to Visualizer"><img src="/images/icons/Export_to_Visualizer.png" class="gh-component-selected" alt="Export to Visualizer" /></a>
-<a href="/components/Open_In_ParaView/" class="GhComponentItem" above-dataComment="Open In ParaView"><img src="/images/icons/Open_In_ParaView.png" class="gh-component-selected" alt="Open In ParaView" /></a>
-<a href="/components/Share_Pack/" class="GhComponentItem" below-dataComment="Share Pack"><img src="/images/icons/Share_Pack.png" class="gh-component-selected" alt="Share Pack" /></a>
-<a href="/components/Site_Report/" class="GhComponentItem" above-dataComment="Site Report"><img src="/images/icons/Site_Report.png" class="gh-component-selected" alt="Site Report" /></a>
-<a href="/components/CheckMesh/" class="GhComponentItem" below-dataComment="CheckMesh"><img src="/images/icons/CheckMesh.png" class="gh-component-selected" alt="CheckMesh" /></a>
-<a href="/components/Face_Warnings/" class="GhComponentItem" above-dataComment="Face Warnings"><img src="/images/icons/Face_Warnings.png" class="gh-component-selected" alt="Face Warnings" /></a>
-<a href="/components/Live_Residuals/" class="GhComponentItem" below-dataComment="Live Residuals"><img src="/images/icons/Live_Residuals.png" class="gh-component-selected" alt="Live Residuals" /></a>
-<a href="/components/Meshing_Progress/" class="GhComponentItem" above-dataComment="Meshing Progress"><img src="/images/icons/Meshing_Progress.png" class="gh-component-selected" alt="Meshing Progress" /></a>
-<a href="/components/Parse_Case_Logs/" class="GhComponentItem" below-dataComment="Parse Case Logs"><img src="/images/icons/Parse_Case_Logs.png" class="gh-component-selected" alt="Parse Case Logs" /></a>
-<a href="/components/Plot_Residuals/" class="GhComponentItem" above-dataComment="Plot Residuals"><img src="/images/icons/Plot_Residuals.png" class="gh-component-selected" alt="Plot Residuals" /></a>
-<a href="/components/Read_Results/" class="GhComponentItem" below-dataComment="Read Results"><img src="/images/icons/Read_Results.png" class="gh-component-selected" alt="Read Results" /></a>
-<a href="/components/Read_checkMesh/" class="GhComponentItem" above-dataComment="Read checkMesh"><img src="/images/icons/Read_checkMesh.png" class="gh-component-selected" alt="Read checkMesh" /></a>
+<a href="/components/Analysis_Results/" class="GhComponentItem" below-dataComment="Analysis Results"><img src="/images/icons/Analysis_Results.png" class="gh-component-selected" alt="Analysis Results" /></a>
+<a href="/components/Deconstruct_Wind/" class="GhComponentItem" above-dataComment="Deconstruct Wind"><img src="/images/icons/Deconstruct_Wind.png" class="gh-component-selected" alt="Deconstruct Wind" /></a>
+<a href="/components/Flow_Rates/" class="GhComponentItem" below-dataComment="Flow Rates"><img src="/images/icons/Flow_Rates.png" class="gh-component-selected" alt="Flow Rates" /></a>
+<a href="/components/Velocity_Amplification_Factors_VAF/" class="GhComponentItem" above-dataComment="Velocity Amplification Factors VAF"><img src="/images/icons/Velocity_Amplification_Factors_VAF.png" class="gh-component-selected" alt="Velocity Amplification Factors VAF" /></a>
+<a href="/components/Create_Mesh/" class="GhComponentItem" below-dataComment="Create Mesh"><img src="/images/icons/Create_Mesh.png" class="gh-component-selected" alt="Create Mesh" /></a>
+<a href="/components/Cull_Ground_Mesh/" class="GhComponentItem" above-dataComment="Cull Ground Mesh"><img src="/images/icons/Cull_Ground_Mesh.png" class="gh-component-selected" alt="Cull Ground Mesh" /></a>
+<a href="/components/Flex_Legend/" class="GhComponentItem" below-dataComment="Flex Legend"><img src="/images/icons/Flex_Legend.png" class="gh-component-selected" alt="Flex Legend" /></a>
+<a href="/components/Read_Cells/" class="GhComponentItem" above-dataComment="Read Cells"><img src="/images/icons/Read_Cells.png" class="gh-component-selected" alt="Read Cells" /></a>
+<a href="/components/Scalar_Field_Viewer/" class="GhComponentItem" below-dataComment="Scalar Field Viewer"><img src="/images/icons/Scalar_Field_Viewer.png" class="gh-component-selected" alt="Scalar Field Viewer" /></a>
+<a href="/components/Vector_Field_Viewer/" class="GhComponentItem" above-dataComment="Vector Field Viewer"><img src="/images/icons/Vector_Field_Viewer.png" class="gh-component-selected" alt="Vector Field Viewer" /></a>
+<a href="/components/Create_OBJ/" class="GhComponentItem" below-dataComment="Create OBJ"><img src="/images/icons/Create_OBJ.png" class="gh-component-selected" alt="Create OBJ" /></a>
+<a href="/components/Export_to_Visualizer/" class="GhComponentItem" above-dataComment="Export to Visualizer"><img src="/images/icons/Export_to_Visualizer.png" class="gh-component-selected" alt="Export to Visualizer" /></a>
+<a href="/components/Open_In_ParaView/" class="GhComponentItem" below-dataComment="Open In ParaView"><img src="/images/icons/Open_In_ParaView.png" class="gh-component-selected" alt="Open In ParaView" /></a>
+<a href="/components/Share_Pack/" class="GhComponentItem" above-dataComment="Share Pack"><img src="/images/icons/Share_Pack.png" class="gh-component-selected" alt="Share Pack" /></a>
+<a href="/components/Site_Report/" class="GhComponentItem" below-dataComment="Site Report"><img src="/images/icons/Site_Report.png" class="gh-component-selected" alt="Site Report" /></a>
+<a href="/components/CheckMesh/" class="GhComponentItem" above-dataComment="CheckMesh"><img src="/images/icons/CheckMesh.png" class="gh-component-selected" alt="CheckMesh" /></a>
+<a href="/components/Face_Warnings/" class="GhComponentItem" below-dataComment="Face Warnings"><img src="/images/icons/Face_Warnings.png" class="gh-component-selected" alt="Face Warnings" /></a>
+<a href="/components/Live_Residuals/" class="GhComponentItem" above-dataComment="Live Residuals"><img src="/images/icons/Live_Residuals.png" class="gh-component-selected" alt="Live Residuals" /></a>
+<a href="/components/Meshing_Progress/" class="GhComponentItem" below-dataComment="Meshing Progress"><img src="/images/icons/Meshing_Progress.png" class="gh-component-selected" alt="Meshing Progress" /></a>
+<a href="/components/Parse_Case_Logs/" class="GhComponentItem" above-dataComment="Parse Case Logs"><img src="/images/icons/Parse_Case_Logs.png" class="gh-component-selected" alt="Parse Case Logs" /></a>
+<a href="/components/Plot_Residuals/" class="GhComponentItem" below-dataComment="Plot Residuals"><img src="/images/icons/Plot_Residuals.png" class="gh-component-selected" alt="Plot Residuals" /></a>
+<a href="/components/Read_Results/" class="GhComponentItem" above-dataComment="Read Results"><img src="/images/icons/Read_Results.png" class="gh-component-selected" alt="Read Results" /></a>
+<a href="/components/Read_checkMesh/" class="GhComponentItem" below-dataComment="Read checkMesh"><img src="/images/icons/Read_checkMesh.png" class="gh-component-selected" alt="Read checkMesh" /></a>
+<a href="/components/Ponding_Report/" class="GhComponentItem" above-dataComment="Ponding Report"><img src="/images/icons/Ponding_Report.png" class="gh-component-selected" alt="Ponding Report" /></a>
 <a href="/components/Study_Report/" class="GhComponentItem" below-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
 <a href="/components/Sun_Report/" class="GhComponentItem" above-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
 <a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" below-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
@@ -236,9 +240,27 @@
 <a href="/components/Comfort_Hours/" class="GhComponentItem" below-dataComment="Comfort Hours"><img src="/images/icons/Comfort_Hours.png" class="gh-component-selected" alt="Comfort Hours" /></a>
 <a href="/components/Thermal_Comfort_Legend/" class="GhComponentItem" above-dataComment="Thermal Comfort Legend"><img src="/images/icons/Thermal_Comfort_Legend.png" class="gh-component-selected" alt="Thermal Comfort Legend" /></a>
 <a href="/components/Comfort_Heat_Map/" class="GhComponentItem" below-dataComment="Comfort Heat Map"><img src="/images/icons/Comfort_Heat_Map.png" class="gh-component-selected" alt="Comfort Heat Map" /></a>
+<a href="/components/UTCI_Time_Plot/" class="GhComponentItem" above-dataComment="UTCI Time Plot"><img src="/images/icons/UTCI_Time_Plot.png" class="gh-component-selected" alt="UTCI Time Plot" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Post Comfort</div>
+</div>
+<div class="SubGroup-Container" data-category="09_Stormwater">
+<div class="SubGroup-Icons">
+<div class="sub-group">
+<a href="/components/Design_Storm/" class="GhComponentItem" above-dataComment="Design Storm"><img src="/images/icons/Design_Storm.png" class="gh-component-selected" alt="Design Storm" /></a>
+<a href="/components/Land_Cover_Runoff/" class="GhComponentItem" below-dataComment="Land Cover Runoff"><img src="/images/icons/Land_Cover_Runoff.png" class="gh-component-selected" alt="Land Cover Runoff" /></a>
+<a href="/components/Layer_Runoff/" class="GhComponentItem" above-dataComment="Layer Runoff"><img src="/images/icons/Layer_Runoff.png" class="gh-component-selected" alt="Layer Runoff" /></a>
+<a href="/components/Runoff_Zones/" class="GhComponentItem" below-dataComment="Runoff Zones"><img src="/images/icons/Runoff_Zones.png" class="gh-component-selected" alt="Runoff Zones" /></a>
+<a href="/components/Deconstruct_Stormwater/" class="GhComponentItem" above-dataComment="Deconstruct Stormwater"><img src="/images/icons/Deconstruct_Stormwater.png" class="gh-component-selected" alt="Deconstruct Stormwater" /></a>
+<a href="/components/Stormwater_Grid/" class="GhComponentItem" below-dataComment="Stormwater Grid"><img src="/images/icons/Stormwater_Grid.png" class="gh-component-selected" alt="Stormwater Grid" /></a>
+<a href="/components/Stormwater_Run/" class="GhComponentItem" above-dataComment="Stormwater Run"><img src="/images/icons/Stormwater_Run.png" class="gh-component-selected" alt="Stormwater Run" /></a>
+<a href="/components/Stormwater_Settings/" class="GhComponentItem" below-dataComment="Stormwater Settings"><img src="/images/icons/Stormwater_Settings.png" class="gh-component-selected" alt="Stormwater Settings" /></a>
+<a href="/components/Stormwater_Flowlines/" class="GhComponentItem" above-dataComment="Stormwater Flowlines"><img src="/images/icons/Stormwater_Flowlines.png" class="gh-component-selected" alt="Stormwater Flowlines" /></a>
+<a href="/components/Stormwater_Legend/" class="GhComponentItem" below-dataComment="Stormwater Legend"><img src="/images/icons/Stormwater_Legend.png" class="gh-component-selected" alt="Stormwater Legend" /></a>
+</div>
+</div>
+<div class="SubGroup-Title">Stormwater</div>
 </div>
 <div class="SubGroup-Container" data-category="10_LBM">
 <div class="SubGroup-Icons">
@@ -337,6 +359,15 @@
 </div>
 <div class="SubGroup-Title">Noise</div>
 </div>
+<div class="SubGroup-Container" data-category="16_Earthworks">
+<div class="SubGroup-Icons">
+<div class="sub-group">
+<a href="/components/Cut_Fill/" class="GhComponentItem" above-dataComment="Cut Fill"><img src="/images/icons/Cut_Fill.png" class="gh-component-selected" alt="Cut Fill" /></a>
+<a href="/components/Terrain_Diagram/" class="GhComponentItem" below-dataComment="Terrain Diagram"><img src="/images/icons/Terrain_Diagram.png" class="gh-component-selected" alt="Terrain Diagram" /></a>
+</div>
+</div>
+<div class="SubGroup-Title">Earthworks</div>
+</div>
 </div>
 
 <h2 id="00-setup">00 Setup</h2>
@@ -363,7 +394,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Select_Template.png" class="nav-gh-icon"> Select Template
             </div>
-            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.21.1.827</div>
+            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.22.0.827</div>
         </div>
     </a>
 </div>
@@ -401,6 +432,22 @@
                 <img src="/images/icons/Morph_Weather.png" class="nav-gh-icon"> Morph Weather
             </div>
             <div class="index-quicklink-text">Morph a present-day EPW into future-climate EPWs with the Future Weather Generator (future-weather-generator.adai.pt), then feed the result to any Eddy3D workflow. Needs Java 17+ and the generator's .jar, which Eddy3D does not ship: download the distribution you need (CMIP6 Global, CORDEX-CMIP5 Europe, …) into ~/Eddy3D/FWG. The tool is licensed CC BY-NC-SA 4.0 — noncommercial use, attribution required. Alternatively set Morph Settings' Method to a CCKP entry: the World Bank Climate Change Knowledge Portal's CMIP6 ensemble (0.25°, no key, no Java, no jar) is read for the site's grid cell and applied to the file as monthly shifts and stretches.</div>
+        </div>
+    </a>
+    <a href="/components/Compare_Weather/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Compare_Weather.png" class="nav-gh-icon"> Compare Weather
+            </div>
+            <div class="index-quicklink-text">Puts two weather files of one site side by side before one of them drives a study: a station's typical year (an EPW from the climate browser) against a reanalysis year (ERA5, Open-Meteo, NASA POWER), or the same place from two providers. Dry-bulb temperature, relative humidity and wind speed as means, global horizontal radiation and precipitation as sums, for the year and each month.  An EPW's missing-value codes are left out, so a typical-year file without a rain column says it carries none instead of reading as a dry climate. It measures the difference; it does not pick a file. For the wind's DIRECTIONS use Compare Wind Climates.</div>
+        </div>
+    </a>
+    <a href="/components/Compare_Wind_Climates/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Compare_Wind_Climates.png" class="nav-gh-icon"> Compare Wind Climates
+            </div>
+            <div class="index-quicklink-text">Puts two wind climates of one site side by side — a station record (ISD, EPW) against ERA5, or two stations — before one of them drives a study. Wire the Climate output of two Wind Climate components built with the same Sectors.  Rose Overlap is the share of the direction distribution the two have in common (1 = the same rose); Speed Ratio is B's mean speed over A's, over the non-calm hours. The report says which of the two differs and lists every sector. It measures the disagreement; it does not pick a source.</div>
         </div>
     </a>
     <a href="/components/Deconstruct_Weather/" style="text-decoration: none;">
@@ -1513,6 +1560,14 @@
             <div class="index-quicklink-text">Export probed facade pressure coefficients into the EnergyPlus AirflowNetwork as an .idf snippet: WindPressureCoefficientArray (the simulated directions), per-node WindPressureCoefficientValues and ExternalNode objects, ready to paste/merge into a Ladybug Tools (or hand-built) AirflowNetwork model. Enable Pressure Coefficient in Run Settings, probe the Cp field at facade points, and wire the probe tree here. Method: Dogan & Kastner (2021), Building Simulation 14(4):1189-1200, doi:10.1007/s12273-020-0727-x; Dogan & Kastner (2018), IBPC 2018, Syracuse NY 1139-1144, doi:10.14305/ibpc.2018.ms-5.05.</div>
         </div>
     </a>
+    <a href="/components/Analysis_Results/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Analysis_Results.png" class="nav-gh-icon"> Analysis Results
+            </div>
+            <div class="index-quicklink-text">Reads any Eddy3D result object as points and values: an annual wind field or VAF, an MRT, UTCI or PET result, a surface temperature, shadow or daily-light-integral result, a noise result or a stormwater run. One branch per field, with the analysis, the quantity and the unit beside it, so one definition can colour, filter or compare any of them, and it updates when the analysis re-runs.  A result that is a series over hours is reduced to its mean per point (stormwater: the peak); use the result's own Deconstruct component to pick hours or a statistic.</div>
+        </div>
+    </a>
     <a href="/components/Deconstruct_Wind/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -1689,6 +1744,14 @@
             <div class="index-quicklink-text">Read and visualize sets produced by checkMesh. OutdoorPlus</div>
         </div>
     </a>
+    <a href="/components/Ponding_Report/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Ponding_Report.png" class="nav-gh-icon"> Ponding Report
+            </div>
+            <div class="index-quicklink-text">One row per puddle: where it is, how much water, how deep, when it peaked and how long it took to drain — against the capacity of the hollow it sits in, so an overflowing depression is visible as such.</div>
+        </div>
+    </a>
     <a href="/components/Study_Report/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -1796,6 +1859,99 @@
                 <img src="/images/icons/Comfort_Heat_Map.png" class="nav-gh-icon"> Comfort Heat Map
             </div>
             <div class="index-quicklink-text">365 × 24 heat maps of one probe's UTCI or PET — sun and wind, wind without sun, sun without wind, neither — from the same MRT, wind and weather inputs as UTCI (Simulation). Sun is removed by setting MRT to the air temperature and wind by holding 0.5 m/s, exactly as the Site Report's scenarios do. Export writes SVG, PDF and PNG.</div>
+        </div>
+    </a>
+    <a href="/components/UTCI_Time_Plot/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/UTCI_Time_Plot.png" class="nav-gh-icon"> UTCI Time Plot
+            </div>
+            <div class="index-quicklink-text">Plots temperature series over time on the UTCI thermal-stress bands — UTCI of one or more design schemes, and any other temperature (MRT, air temperature) on the same axis. One branch per line. Only the stress bands the data reaches are drawn. Export writes SVG, PDF and PNG.</div>
+        </div>
+    </a>
+</div>
+
+<h2 id="09-stormwater">09 Stormwater</h2>
+<h4 id="main-components">Main Components</h4>
+<div class="index-quicklink-container">
+    <a href="/components/Design_Storm/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Design_Storm.png" class="nav-gh-icon"> Design Storm
+            </div>
+            <div class="index-quicklink-text">Builds a design-storm hyetograph from an IDF (Intensity-Duration-Frequency) curve, with an optional climate allowance. Feed it to Stormwater Run.  Give it EITHER the three coefficients of an i = a/(t+b)^c fit, OR a published depth-duration table (the form NOAA Atlas 14, KOSTRA and FEH actually distribute). The alternating-block and Chicago patterns reproduce the IDF depth at every sub-duration, which is what makes the result a design event rather than a shape.  Drainage Depth takes the share the piped drainage carries off the storm before it reaches the surface model: the total depth of the storm the sewers were designed for (2-year, 24-hour in the source study), removed in proportion from every block, after the climate allowance. It is a volume allowance, not a pipe network.  Method: Shrestha et al. (2026), Urban Systems Lab, urban-flood-modeling-workflows, https://github.com/UrbanSystemsLab/urban-flood-modeling-workflows.</div>
+        </div>
+    </a>
+    <a href="/components/Land_Cover_Runoff/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Land_Cover_Runoff.png" class="nav-gh-icon"> Land Cover Runoff
+            </div>
+            <div class="index-quicklink-text">Fetches land-cover polygons around a lat/lon from OpenStreetMap (open data, no key) and classifies each into a Curve Number and an overland Manning's n.  This is the same Overpass query the Land Cover Roughness component makes, read for runoff instead of for wind — so wiring both on one site costs one fetch, not two. Unmapped tags are skipped rather than guessed at.</div>
+        </div>
+    </a>
+    <a href="/components/Layer_Runoff/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Layer_Runoff.png" class="nav-gh-icon"> Layer Runoff
+            </div>
+            <div class="index-quicklink-text">Runoff zones from the ground layers a site model already has: wire LiDAR Site's Layer Outlines and Layer Kinds, and every outline becomes a zone with the Curve Number and overland Manning's n of what the ground there is (grass, park, forest, residential, paved…). The rain then falls on the same polygons the wind study's roughness and City Surface's layers were built from, with no second fetch.  A kind takes the hydrology of its typical OpenStreetMap tag, for the chosen soil group. Roads, paved areas and paths read as paved (CN 98). An outline whose name is not a ground kind (a roughness class such as roughly_open) is skipped and counted: wire Layer Kinds, not Layer Names. Put hand-drawn Runoff Zones after these to override them.</div>
+        </div>
+    </a>
+    <a href="/components/Runoff_Zones/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Runoff_Zones.png" class="nav-gh-icon"> Runoff Zones
+            </div>
+            <div class="index-quicklink-text">Assigns a surface MATERIAL to an area of the site. The material's runoff coefficient is the share of the rain landing there that enters the surface flow, and it brings an overland Manning's n — change the material and both swap. Wire the zones into Stormwater Grid's Zones for the ground, or its Roof Zones for roofs; a zone with no Areas is the Default for every cell no other zone covers (or, as a roof zone, every roof).  Manning's n here is the OVERLAND FLOW value, several times the channel value for the same material — at the millimetre depths of sheet flow the surface texture is the whole channel, and using a channel roughness makes runoff arrive far too fast.  A Curve Number (1–100) replaces the coefficient with losses that grow through a storm as the ground wets up.  A Soil replaces both with Green-Ampt infiltration: all the rain reaches the ground and the soil takes water from whatever stands on it — run-on from upslope included, and ponds after the rain has stopped — at a rate that falls from unlimited toward the soil's saturated conductivity as it wets. Solved on the CPU.  Overland Manning's n after Engman (1986), J. Irrig. Drain. Eng. 112(1):39-53. Green-Ampt soil parameters as tabulated in the HEC-RAS 2D User's Manual, ported with the source study's workflow.  Method: DIN 1986-100:2016-12 (2016), DIN Media, Berlin Table 9, doi:10.31030/2586228; Green & Ampt (1911), Journal of Agricultural Science 4(1):1-24, doi:10.1017/S0021859600001441; Shrestha et al. (2026), Urban Systems Lab, urban-flood-modeling-workflows, https://github.com/UrbanSystemsLab/urban-flood-modeling-workflows.</div>
+        </div>
+    </a>
+    <a href="/components/Deconstruct_Stormwater/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Deconstruct_Stormwater.png" class="nav-gh-icon"> Deconstruct Stormwater
+            </div>
+            <div class="index-quicklink-text">Turns a stormwater result into meshes and numbers. This is the ONLY component that materialises the field — a run holds millions of values and emitting them all as a tree would freeze the canvas, so ask here for the field and the time you want.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Grid/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Grid.png" class="nav-gh-icon"> Stormwater Grid
+            </div>
+            <div class="index-quicklink-text">Rasterises the graded terrain into the DEM the solver runs on.  Buildings become no-flow WALLS rather than raised ground: raising them fabricates a ridge at the footprint edge that sheds water in whatever direction the rasterised edge happens to face, and lets water pond on roofs.  Breaklines are how a 1 m grid stays usable. A kerb, a swale invert or a threshold is sub-cell at 1 m and every one of them controls where the water goes — sampling the terrain at cell centres averages them away. Burning them along the cell path keeps the control without paying for a fine raster over the whole site.  Surfaces: Zones set the ground cells, Roof Zones the building footprints — a roof's material wins over whatever ground is drawn under it, and with "Roofs drain to grade" its runoff coefficient decides how much of the roof's rain reaches the downpipes. Cells no zone covers take the Default.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Run/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Run.png" class="nav-gh-icon"> Stormwater Run
+            </div>
+            <div class="index-quicklink-text">Routes a design storm over the graded terrain and reports ponding depth, flow velocity and flood hazard.  Two modes. FAST is terrain analytics only — slope, flow direction, contributing area and the capacity of every depression — which recomputes between grading edits and answers most of a grading review. FULL adds a shallow-water solve for the depths and velocities a design storm actually produces.  SURFACE ROUTING ONLY: no pipe network, no soakaways, no evapotranspiration. Use it for design-storm and cloudburst checks, not for hydraulic sizing.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Settings/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Settings.png" class="nav-gh-icon"> Stormwater Settings
+            </div>
+            <div class="index-quicklink-text">Solver controls for Stormwater Run. The defaults suit a 1–5 m urban raster; leave this unconnected unless a run misbehaves.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Flowlines/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Flowlines.png" class="nav-gh-icon"> Stormwater Flowlines
+            </div>
+            <div class="index-quicklink-text">Traces where the runoff goes, as curves over the graded surface. From a full run these are the solved velocity paths; from a fast run they are steepest-descent paths down the depression-filled terrain.</div>
+        </div>
+    </a>
+    <a href="/components/Stormwater_Legend/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Stormwater_Legend.png" class="nav-gh-icon"> Stormwater Legend
+            </div>
+            <div class="index-quicklink-text">A legend for a stormwater mesh: swatches, labels and a title, placed on a plane.</div>
         </div>
     </a>
 </div>
@@ -2266,6 +2422,27 @@
                 <img src="/images/icons/Noise_Map.png" class="nav-gh-icon"> Noise Map
             </div>
             <div class="index-quicklink-text">Colours a run's receivers in the END 5 dB bands (yellow from 50-55, orange at 60, red at 65, blue above 80): a ground mesh of the grid, a vertical quad per facade receiver, and the points, values and colours behind them for custom tagging. Pick Lden or a single period. Lden (L_den) is the day-evening-night level of the EU Environmental Noise Directive 2002/49/EC: the long-term A-weighted level in dB(A) over a whole day, with the 4 h evening counted +5 dB and the 8 h night +10 dB (the day is 12 h), so night and evening noise weigh more than their hours.</div>
+        </div>
+    </a>
+</div>
+
+<h2 id="16-earthworks">16 Earthworks</h2>
+<h4 id="main-components">Main Components</h4>
+<div class="index-quicklink-container">
+    <a href="/components/Cut_Fill/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Cut_Fill.png" class="nav-gh-icon"> Cut Fill
+            </div>
+            <div class="index-quicklink-text">Cut and fill between the existing ground and a proposed grading: where the proposed surface sits below the ground is CUT (red), where it sits above is FILL (blue), and the volumes come with the mesh. Compare design options on one depth scale (Depth Range), read the balance (Net: positive = material to bring in), and the bands say how deep the work goes.  Both surfaces are sampled at the centre of every raster cell inside the proposed surface's footprint; a cell's volume is depth × cell area, so halve the cell size where the grading is finer than the cells. Ground the proposed surface does not reach is not earthworks; a cell the existing ground misses is left out and counted. Depths within 5 mm of zero are unchanged.</div>
+        </div>
+    </a>
+    <a href="/components/Terrain_Diagram/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Terrain_Diagram.png" class="nav-gh-icon"> Terrain Diagram
+            </div>
+            <div class="index-quicklink-text">The diagrams a grading is read by, off one raster of the ground: elevation or slope bands as a coloured mesh, contours with major lines and their level labels, and spot levels with a downhill arrow at any points you wire. Set Range to hold one colour scale while the ground is edited or design options are compared, and Slope Bands to the gradients that matter (2 % drainage, 5 % and 8.33 % access ramps, 33 % mowing).  The ground is sampled once at the centre of every cell; slope is Horn's 3 x 3 gradient in percent (100 % = 45°), and reads low in the outermost ring of cells, where a neighbour is missing. Contour levels are multiples of the interval counted from elevation 0, so a line keeps its level when the ground changes.</div>
         </div>
     </a>
 </div>

@@ -397,9 +397,12 @@ if DISABLE_SOLVER:
     doc.Enabled = False
 
 if export:
+    components = getPluginComponents(pluginName)
+    # Before the reset: a run that finds no plugin (a broken ghlink) would otherwise delete every page and report success.
+    if not components:
+        raise RuntimeError("No components in category %s: the plugins did not load. Nothing was changed." % pluginName)
     reset_output_directories(githubFolder)
     createFolderStructure(githubFolder)
-    components = getPluginComponents(pluginName)
 
     for GHObjectName, GHObject in components.items():
         if GHObject.Attributes:
