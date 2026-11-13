@@ -208,7 +208,7 @@
 <a href="/components/Create_OBJ/" class="GhComponentItem" below-dataComment="Create OBJ"><img src="/images/icons/Create_OBJ.png" class="gh-component-selected" alt="Create OBJ" /></a>
 <a href="/components/Export_to_Visualizer/" class="GhComponentItem" above-dataComment="Export to Visualizer"><img src="/images/icons/Export_to_Visualizer.png" class="gh-component-selected" alt="Export to Visualizer" /></a>
 <a href="/components/Open_In_ParaView/" class="GhComponentItem" below-dataComment="Open In ParaView"><img src="/images/icons/Open_In_ParaView.png" class="gh-component-selected" alt="Open In ParaView" /></a>
-<a href="/components/Share_Pack/" class="GhComponentItem" above-dataComment="Share Pack"><img src="/images/icons/Share_Pack.png" class="gh-component-selected" alt="Share Pack" /></a>
+<a href="/components/Share_Bundle/" class="GhComponentItem" above-dataComment="Share Bundle"><img src="/images/icons/Share_Bundle.png" class="gh-component-selected" alt="Share Bundle" /></a>
 <a href="/components/Site_Report/" class="GhComponentItem" below-dataComment="Site Report"><img src="/images/icons/Site_Report.png" class="gh-component-selected" alt="Site Report" /></a>
 <a href="/components/CheckMesh/" class="GhComponentItem" above-dataComment="CheckMesh"><img src="/images/icons/CheckMesh.png" class="gh-component-selected" alt="CheckMesh" /></a>
 <a href="/components/Face_Warnings/" class="GhComponentItem" below-dataComment="Face Warnings"><img src="/images/icons/Face_Warnings.png" class="gh-component-selected" alt="Face Warnings" /></a>
