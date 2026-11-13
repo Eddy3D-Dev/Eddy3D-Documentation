@@ -75,6 +75,8 @@ The **MRT** component uses [Radiance](https://github.com/LBNL-ETA/Radiance){ tar
 
 Eddy3D is free for all users. To keep it that way, the plugin collects anonymous usage statistics: which components are used, which simulation engine runs, the Rhino and plugin versions, a salted one-way hash of the machine name (not reversible to any person), and the network organization (e.g. a university name). These numbers demonstrate real-world usage to research funders and guide development priorities. No geometry, file names, project content, or personal data are ever sent.
 
+The analytics server also derives country, region and city from the IP address. Network organization and city together are the most identifying pair: a small institution in a small town can single out one lab.
+
 ## Requirements
 
 | Module   | Overview                                                     | Core engine            | Package | Rhino (ver) | OS support  | OpenFOAM (ver) | Radiance (ver) |
