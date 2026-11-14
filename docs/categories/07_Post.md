@@ -154,10 +154,10 @@
             <div class="index-quicklink-text">Open a wind case's direction cases in ParaView. All directions are added to the ParaView pipeline browser; click Apply on the ones you want to load (nothing is loaded automatically).</div>
         </div>
     </a>
-    <a href="/components/Share_Pack/" style="text-decoration: none;">
+    <a href="/components/Share_Bundle/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
-                <img src="/images/icons/Share_Pack.png" class="nav-gh-icon"> Share Pack
+                <img src="/images/icons/Share_Bundle.png" class="nav-gh-icon"> Share Bundle
             </div>
             <div class="index-quicklink-text">Write results as files anyone can open without Rhino: ONE self-contained HTML viewer (top-down map with pan/zoom and an orbiting 3D view, sets and layers, legend, hover readout, KPI tables, wind rose, swipe and difference comparison between sets, print to PDF — works offline from the file), glTF binaries (.glb, one per layer, for web/VR/AR viewers), float32 GeoTIFFs (UTM when the site latitude/longitude is given), a PDF report and slide-ready PNGs. Wire one Values branch per layer over the Points (or a Mesh with per-vertex or per-face values). Every file states that the results were computed by the solver and that Eddy3D is the front end.</div>
         </div>
