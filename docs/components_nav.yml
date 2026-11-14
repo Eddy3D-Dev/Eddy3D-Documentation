@@ -173,7 +173,7 @@
           - "<img src='/images/icons/Create_OBJ.png' class='nav-gh-icon' /> Create OBJ": components/Create_OBJ.md
           - "<img src='/images/icons/Export_to_Visualizer.png' class='nav-gh-icon' /> Export to Visualizer": components/Export_to_Visualizer.md
           - "<img src='/images/icons/Open_In_ParaView.png' class='nav-gh-icon' /> Open In ParaView": components/Open_In_ParaView.md
-          - "<img src='/images/icons/Share_Pack.png' class='nav-gh-icon' /> Share Pack": components/Share_Pack.md
+          - "<img src='/images/icons/Share_Bundle.png' class='nav-gh-icon' /> Share Bundle": components/Share_Bundle.md
           - "<img src='/images/icons/Site_Report.png' class='nav-gh-icon' /> Site Report": components/Site_Report.md
           - "<img src='/images/icons/CheckMesh.png' class='nav-gh-icon' /> CheckMesh": components/CheckMesh.md
           - "<img src='/images/icons/Face_Warnings.png' class='nav-gh-icon' /> Face Warnings": components/Face_Warnings.md
