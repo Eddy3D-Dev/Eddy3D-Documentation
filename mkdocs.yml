@@ -59,6 +59,7 @@ nav:
           - "<img src='/images/icons/Watertight.png' class='nav-gh-icon' /> Watertight": components/Watertight.md
           - "<img src='/images/icons/Wind_Compass.png' class='nav-gh-icon' /> Wind Compass": components/Wind_Compass.md
           - "<img src='/images/icons/Wind_Rose_Cluster.png' class='nav-gh-icon' /> Wind Rose Cluster": components/Wind_Rose_Cluster.md
+          - "<img src='/images/icons/Adaptive_Terrain.png' class='nav-gh-icon' /> Adaptive Terrain": components/Adaptive_Terrain.md
           - "<img src='/images/icons/City_Surface.png' class='nav-gh-icon' /> City Surface": components/City_Surface.md
           - "<img src='/images/icons/LiDAR_Site.png' class='nav-gh-icon' /> LiDAR Site": components/LiDAR_Site.md
           - "<img src='/images/icons/Analysis_Period.png' class='nav-gh-icon' /> Analysis Period": components/Analysis_Period.md
