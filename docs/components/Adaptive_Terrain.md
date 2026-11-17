@@ -2,7 +2,7 @@
 
 ![](/images/components/Adaptive_Terrain-crop.png)
 
-Resample a terrain (meshes and/or breps) onto a graded mesh: Fine Size cells over the Focus, coarsening smoothly to Coarse Size away from it, and refined back down wherever the ground bends more than Tolerance. The mesh is conforming (no cracks where the size changes) and covers the terrain's plan bounding box. Solid closes it with a flat underside Depth below its lowest point and vertical side walls, ready for STL export or as a terrain body.
+Resample a terrain (meshes and/or breps) onto a graded mesh: Fine Size cells over the Focus, coarsening smoothly to Coarse Size away from it, and refined back down wherever the ground bends more than Tolerance. The mesh is conforming (no cracks where the size changes) and covers Boundary, or else the terrain's plan bounding box. Solid closes it with a flat underside Depth below its lowest point and vertical side walls, ready for STL export or as a terrain body.
 
 #### Input
 
@@ -15,6 +15,7 @@ Resample a terrain (meshes and/or breps) onto a graded mesh: Fine Size cells ove
 | Growth |  | How fast cells coarsen away from the Focus: size = Fine + (Growth − 1) × distance, so 1.2 doubles a 5 m cell about 25 m out. 1 keeps the whole terrain fine. | `Number` |
 | Tolerance | Tol | Vertical tolerance (m): a cell is split where the ground inside it departs from its corners by more than this, so ridges, banks and cuttings keep their shape far from the Focus. 0 switches it off. | `Number` |
 | Depth |  | How far (m) Solid's underside sits below the terrain's lowest point. | `Number` |
+| Boundary | Bound | Optional box whose plan is the area meshed; it may be turned about Z, and the cells then run along its sides. Its height is ignored. Default: the terrain's plan bounding box. | `Box` |
 
 #### Output
 
