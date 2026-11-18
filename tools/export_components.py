@@ -428,6 +428,11 @@ if export:
                     print(" - Skipping hidden component.")
                     continue
 
+                # Panel 16 is deliberately not documented (owner's decision, 2026-11-17).
+                if str(component.SubCategory).startswith("16 |"):
+                    print(" - Skipping panel 16 (not documented).")
+                    continue
+
                 try:
                     captureGrasshopperScreen(name + ".png", githubFolder, component)
                     exportIcon(component, pluginName, githubFolder)
