@@ -428,6 +428,11 @@ if export:
                     print(" - Skipping hidden component.")
                     continue
 
+                # The Earthworks panel is deliberately not documented (owner's decision, 2026-11-17).
+                if "earthworks" in str(component.SubCategory).lower():
+                    print(" - Skipping Earthworks component (not documented).")
+                    continue
+
                 try:
                     captureGrasshopperScreen(name + ".png", githubFolder, component)
                     exportIcon(component, pluginName, githubFolder)

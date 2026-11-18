@@ -358,14 +358,5 @@
 </div>
 <div class="SubGroup-Title">Noise</div>
 </div>
-<div class="SubGroup-Container" data-category="16_Earthworks">
-<div class="SubGroup-Icons">
-<div class="sub-group">
-<a href="/components/Cut_Fill/" class="GhComponentItem" above-dataComment="Cut Fill"><img src="/images/icons/Cut_Fill.png" class="gh-component-selected" alt="Cut Fill" /></a>
-<a href="/components/Terrain_Diagram/" class="GhComponentItem" below-dataComment="Terrain Diagram"><img src="/images/icons/Terrain_Diagram.png" class="gh-component-selected" alt="Terrain Diagram" /></a>
-</div>
-</div>
-<div class="SubGroup-Title">Earthworks</div>
-</div>
 </div>
 

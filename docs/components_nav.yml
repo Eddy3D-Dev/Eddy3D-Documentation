@@ -280,7 +280,3 @@
           - "<img src='/images/icons/Roads_From_OSM.png' class='nav-gh-icon' /> Roads From OSM": components/Roads_From_OSM.md
           - "<img src='/images/icons/Noise_Run.png' class='nav-gh-icon' /> Noise Run": components/Noise_Run.md
           - "<img src='/images/icons/Noise_Map.png' class='nav-gh-icon' /> Noise Map": components/Noise_Map.md
-      - "16 Earthworks":
-          - "Overview": categories/16_Earthworks.md
-          - "<img src='/images/icons/Cut_Fill.png' class='nav-gh-icon' /> Cut Fill": components/Cut_Fill.md
-          - "<img src='/images/icons/Terrain_Diagram.png' class='nav-gh-icon' /> Terrain Diagram": components/Terrain_Diagram.md
