@@ -146,6 +146,14 @@
             <div class="index-quicklink-text">Cluster annual wind conditions into a budget of representative directions using k-means over hourly wind vectors (speed x direction): frequent, strong conditions attract the budget, and each cluster reports an observed direction/speed pair plus its frequency. Without wired speeds, clusters directions alone (unit vectors). Method: Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639; Kastner & Dogan (2019), Building Simulation 2019, Rome 621-628, doi:10.26868/25222708.2019.210458.</div>
         </div>
     </a>
+    <a href="/components/Adaptive_Terrain/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Adaptive_Terrain.png" class="nav-gh-icon"> Adaptive Terrain
+            </div>
+            <div class="index-quicklink-text">Resample a terrain (meshes and/or breps) onto a graded mesh: Fine Size cells over the Focus, coarsening smoothly to Coarse Size away from it, and refined back down wherever the ground bends more than Tolerance. The mesh is conforming (no cracks where the size changes) and covers the terrain's plan bounding box. Solid closes it with a flat underside Depth below its lowest point and vertical side walls, ready for STL export or as a terrain body.</div>
+        </div>
+    </a>
     <a href="/components/City_Surface/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
