@@ -29,6 +29,7 @@ nav:
       - Methods & Citations: methods.md
       - Wind CFD (RANS): rans.md
       - Setup Troubleshooting: setup_troubleshooting.md
+      - AI Agents (MCP): mcp.md
   - Video Tutorials: tutorials.md
   - Outdoor+:
       - First Steps: first_steps.md
