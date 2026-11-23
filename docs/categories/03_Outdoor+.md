@@ -215,7 +215,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Timing_Parameters.png" class="nav-gh-icon"> Timing Parameters
             </div>
-            <div class="index-quicklink-text">Define simulation timing and optional weather-driven time series. OutdoorPlus</div>
+            <div class="index-quicklink-text">Define simulation timing and the hourly weather that drives the UMF case. With a Weather input, the EPW's dry-bulb temperature, humidity ratio, cloud cover, direct and diffuse radiation and sun position are written hour by hour (0/air/Tambient, wambient, cloudCover; constant/IDN, Idif, sunPosVector), one row per hour from t = 0 to endTime. Tambient and wambient are the inflow temperature and humidity, uniform over the inlet height. Wind speed and direction come from ABL Condition and stay constant over the run. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/ViewFactors/" style="text-decoration: none;">

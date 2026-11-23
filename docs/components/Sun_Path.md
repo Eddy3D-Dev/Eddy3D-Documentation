@@ -8,15 +8,16 @@ Daily sun arcs, analemmas and sun positions as curves and points — north-aware
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Weather | W | Optional weather object; Latitude, Longitude and Time Zone are read from it. | `Generic Data` |
+| Weather | W | Optional weather file (the EPW from Download Weather, or an EPW path); Latitude, Longitude and Time Zone are read from it. | `Generic Data` |
 | Latitude | Lat | Degrees north. | `Number` |
 | Longitude | Lon | Degrees east. | `Number` |
 | Time Zone | TZ | Hours ahead of UTC, standard time. | `Number` |
 | Center | C | Where the dome is centred. | `Point` |
 | Radius | R | Dome radius in model units. | `Number` |
 | North | Nth | Counter-clockwise degrees from the model's +Y axis to true north. | `Number` |
-| Arc Days | AD | Day-of-year values to draw arcs for. Empty draws the solstices and the equinox. | `Integer` |
+| Arc Days | AD | Day-of-year values to draw arcs for. Empty draws the 21st of each month. | `Integer` |
 | Sun Vectors | SV | Optional sun samples to place as points on the dome — wire the same ones the study uses and the diagram shows exactly what was traced. | `Generic Data` |
+| Geometry | G | Optional model that casts the shadows (breps, extrusions, surfaces, meshes; branches are flattened). Empty uses the visible objects of the Rhino document. | `Geometry` |
 
 #### Output
 

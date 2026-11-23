@@ -10,7 +10,7 @@ Visual openness by ray casting: the unobstructed fraction of a view cone around 
 | ---- | -------- | ----------- | ---- |
 | Context | C | Obstructing geometry: buildings, terrain, walls. Meshes, Breps and Surfaces are accepted; branches are flattened into one scene. | `Geometry` |
 | Points | P | Observer points. | `Point` |
-| Normals | N | Optional per-point view directions — the cone axis (e.g. a facade normal, or a seat's facing). Default is straight up, the plan-view openness question. | `Vector` |
+| Normals | N | Optional per-point view directions — the cone axis (e.g. a facade normal, or a seat's facing). Left empty, a point sitting on a Context face looks along that face's normal, and any other point looks straight up. | `Vector` |
 | Cone Half-Angle | A | Half-angle of the view cone in degrees. 60 approximates the human comfortable field of view; 90 is the full hemisphere around the axis. | `Number` |
 | Rays | R | Rays traced per cone. More rays, smoother numbers; cost is linear. | `Integer` |
 | Offset | O | Distance to lift each point along its axis before tracing, so a point sitting ON geometry does not see only itself. | `Number` |

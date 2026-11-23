@@ -141,8 +141,8 @@
 <div class="SubGroup-Container" data-category="05_Sun_Shadow_Daylight">
 <div class="SubGroup-Icons">
 <div class="sub-group">
-<a href="/components/Canopy/" class="GhComponentItem" above-dataComment="Canopy"><img src="/images/icons/Canopy.png" class="gh-component-selected" alt="Canopy" /></a>
-<a href="/components/Facade_Grid/" class="GhComponentItem" below-dataComment="Facade Grid"><img src="/images/icons/Facade_Grid.png" class="gh-component-selected" alt="Facade Grid" /></a>
+<a href="/components/Analysis_Grid/" class="GhComponentItem" above-dataComment="Analysis Grid"><img src="/images/icons/Analysis_Grid.png" class="gh-component-selected" alt="Analysis Grid" /></a>
+<a href="/components/Canopy/" class="GhComponentItem" below-dataComment="Canopy"><img src="/images/icons/Canopy.png" class="gh-component-selected" alt="Canopy" /></a>
 <a href="/components/Sun_Path/" class="GhComponentItem" above-dataComment="Sun Path"><img src="/images/icons/Sun_Path.png" class="gh-component-selected" alt="Sun Path" /></a>
 <a href="/components/Sun_Vectors/" class="GhComponentItem" below-dataComment="Sun Vectors"><img src="/images/icons/Sun_Vectors.png" class="gh-component-selected" alt="Sun Vectors" /></a>
 <a href="/components/Deconstruct_Shadow/" class="GhComponentItem" above-dataComment="Deconstruct Shadow"><img src="/images/icons/Deconstruct_Shadow.png" class="gh-component-selected" alt="Deconstruct Shadow" /></a>
@@ -220,9 +220,10 @@
 <a href="/components/Read_Results/" class="GhComponentItem" above-dataComment="Read Results"><img src="/images/icons/Read_Results.png" class="gh-component-selected" alt="Read Results" /></a>
 <a href="/components/Read_checkMesh/" class="GhComponentItem" below-dataComment="Read checkMesh"><img src="/images/icons/Read_checkMesh.png" class="gh-component-selected" alt="Read checkMesh" /></a>
 <a href="/components/Ponding_Report/" class="GhComponentItem" above-dataComment="Ponding Report"><img src="/images/icons/Ponding_Report.png" class="gh-component-selected" alt="Ponding Report" /></a>
-<a href="/components/Study_Report/" class="GhComponentItem" below-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
-<a href="/components/Sun_Report/" class="GhComponentItem" above-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
-<a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" below-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
+<a href="/components/Region_Report/" class="GhComponentItem" below-dataComment="Region Report"><img src="/images/icons/Region_Report.png" class="gh-component-selected" alt="Region Report" /></a>
+<a href="/components/Study_Report/" class="GhComponentItem" above-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
+<a href="/components/Sun_Report/" class="GhComponentItem" below-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
+<a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" above-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Post</div>
@@ -258,6 +259,7 @@
 <a href="/components/Stormwater_Settings/" class="GhComponentItem" below-dataComment="Stormwater Settings"><img src="/images/icons/Stormwater_Settings.png" class="gh-component-selected" alt="Stormwater Settings" /></a>
 <a href="/components/Stormwater_Flowlines/" class="GhComponentItem" above-dataComment="Stormwater Flowlines"><img src="/images/icons/Stormwater_Flowlines.png" class="gh-component-selected" alt="Stormwater Flowlines" /></a>
 <a href="/components/Stormwater_Legend/" class="GhComponentItem" below-dataComment="Stormwater Legend"><img src="/images/icons/Stormwater_Legend.png" class="gh-component-selected" alt="Stormwater Legend" /></a>
+<a href="/components/Water_Balance/" class="GhComponentItem" above-dataComment="Water Balance"><img src="/images/icons/Water_Balance.png" class="gh-component-selected" alt="Water Balance" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Stormwater</div>
@@ -385,7 +387,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Select_Template.png" class="nav-gh-icon"> Select Template
             </div>
-            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.22.1.827</div>
+            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.22.2.827</div>
         </div>
     </a>
 </div>
@@ -406,7 +408,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Download_Weather.png" class="nav-gh-icon"> Download Weather
             </div>
-            <div class="index-quicklink-text">Pick an EPW weather file from a bundled catalog of 60,867 climate files — every TMYx station on climate.onebuilding.org plus the EnergyPlus store (IWEC, TMY3, CWEC, SWERA, …) — with your own folders and Morph Weather results listed alongside them; its second list, Built for this site, holds the sources that build a file for your site (Open-Meteo, PVGIS, NASA POWER, Copernicus CDS, NSRDB). Click the Station widget and choose Weather file (catalog)… for a searchable table with a map, or type a name, WMO id or direct URL. The catalog is searched offline; only the chosen file is downloaded, once, into the weather cache. The catalog browser's unit setting (SI or Imperial) changes only what is displayed — the Message strip, the match list and the Info text; the EPW file and every number this component outputs stay SI, so wire them to other components as before.</div>
+            <div class="index-quicklink-text">Pick an EPW weather file from a bundled catalog of 60,867 climate files — every TMYx station on climate.onebuilding.org plus the EnergyPlus store (IWEC, TMY3, CWEC, SWERA, …) — with your own folders and Morph Weather results listed alongside them; its second list, Built for this site, holds the sources that build a file for your site (Open-Meteo, PVGIS, NASA POWER, Copernicus CDS, NSRDB). Click the Station widget and choose Weather file (catalog)… for a searchable table with a map, or type a name, WMO id, direct URL or a full address. The catalog is searched offline; only the chosen file is downloaded, once, into the weather cache. An address no file is named after is the one text that leaves the machine: it is sent to OpenStreetMap's search (Nominatim, then Photon) to be located, and the nearest file is taken. The catalog browser's unit setting (SI or Imperial) changes only what is displayed — the Message strip, the match list and the Info text; the EPW file and every number this component outputs stay SI, so wire them to other components as before.</div>
         </div>
     </a>
     <a href="/components/Morph_Settings/" style="text-decoration: none;">
@@ -455,14 +457,6 @@
                 <img src="/images/icons/Monthly_Climate_Chart.png" class="nav-gh-icon"> Monthly Climate Chart
             </div>
             <div class="index-quicklink-text">Visualize monthly dry-bulb temperature and relative humidity from Eddy3D Weather as two aligned min/mean/max charts.</div>
-        </div>
-    </a>
-    <a href="/components/Weather/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Weather.png" class="nav-gh-icon"> Weather
-            </div>
-            <div class="index-quicklink-text">Read an EPW file and create a Weather object for the simulation. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/Wind_Climate/" style="text-decoration: none;">
@@ -534,7 +528,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Adaptive_Terrain.png" class="nav-gh-icon"> Adaptive Terrain
             </div>
-            <div class="index-quicklink-text">Resample a terrain (meshes and/or breps) onto a graded mesh: Fine Size cells over the Focus, coarsening smoothly to Coarse Size away from it, and refined back down wherever the ground bends more than Tolerance. The mesh is conforming (no cracks where the size changes) and covers the terrain's plan bounding box. Solid closes it with a flat underside Depth below its lowest point and vertical side walls, ready for STL export or as a terrain body.</div>
+            <div class="index-quicklink-text">Resample a terrain (meshes and/or breps) onto a graded mesh: Fine Size cells over the Focus, coarsening smoothly to Coarse Size away from it, and refined back down wherever the ground bends more than Tolerance. The mesh is conforming (no cracks where the size changes) and covers Boundary, or else the terrain's plan bounding box. Solid closes it with a flat underside Depth below its lowest point and vertical side walls, ready for STL export or as a terrain body.</div>
         </div>
     </a>
     <a href="/components/City_Surface/" style="text-decoration: none;">
@@ -550,7 +544,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/LiDAR_Site.png" class="nav-gh-icon"> LiDAR Site
             </div>
-            <div class="index-quicklink-text">Fetch open LiDAR and building footprints for a site from its latitude and longitude, for City Surface: the footprints over a square of the given Size, the point cloud (the terrain) over a larger square, Terrain Size — the ground a CFD domain stands on reaches further than the buildings that matter. The Netherlands: AHN (Het Waterschapshuis, CC-BY 4.0) from its official sheets — a sheet is ~5 GB and is downloaded once into the cache, then every site in it is read from there — with BAG footprints (Kadaster, CC0). The United States: USGS 3DEP (public domain), only the point-cloud nodes over the site, with GlobalBuildingAtlas footprints (TUM, CC BY-NC 4.0; OpenStreetMap if it cannot be read). France (IGN LiDAR HD, Licence Ouverte), Switzerland (swissSURFACE3D, swisstopo), Bavaria (CC BY 4.0), Scotland (National LiDAR Programme, OGL), Estonia (Maa- ja Ruumiamet), Denmark (Danmarks Højdemodel), Spain (PNOA 2022-25: Aragon, Extremadura, the Canaries) and Slovenia (GURS CLSS), the last three from the open-lidar-data mirror: the 1 km tiles over the site, 65-250 MB each (Slovenia's 2024 flight up to 1 GB), cached once, with the same footprints. Everything comes out in metres around the site centre: wire Point Cloud, Footprints and Domain into City Surface. Tree Crowns are read from the cloud's own vegetation returns (one closed mesh per cluster, for the Tree component); Trees, Barriers and Furniture are for looking at and for a render (round trees; with Roads on, OpenStreetMap fences, walls, hedges and street furniture); Layer Outlines, Layer Names, Layer Roughness and Flatten are OpenStreetMap land cover (ODbL) with its Davenport z0, in the footprints' frame — wire them into the City Surface inputs of the same names. Rivers, streams and canals mapped as lines come with them as water ribbons (the OpenStreetMap width tag, else river 20 m, canal 8 m, stream 3 m).</div>
+            <div class="index-quicklink-text">Fetch open LiDAR and building footprints for a site from its latitude and longitude, for City Surface: the footprints over a square of the given Size, the point cloud (the terrain) over a larger square, Terrain Size — the ground a CFD domain stands on reaches further than the buildings that matter. The Netherlands: AHN (Het Waterschapshuis, CC-BY 4.0) from its official sheets — a sheet is ~5 GB and is downloaded once into the cache, then every site in it is read from there — with BAG footprints (Kadaster, CC0). The United States: USGS 3DEP (public domain), only the point-cloud nodes over the site, with GlobalBuildingAtlas footprints (TUM, CC BY-NC 4.0; OpenStreetMap if it cannot be read). France (IGN LiDAR HD, Licence Ouverte), Switzerland (swissSURFACE3D, swisstopo), Bavaria (CC BY 4.0), Scotland (National LiDAR Programme, OGL), Estonia (Maa- ja Ruumiamet), Denmark (Danmarks Højdemodel), Spain (PNOA 2022-25: Aragon, Extremadura, the Canaries) and Slovenia (GURS CLSS), the last three from the open-lidar-data mirror: the 1 km tiles over the site, 65-250 MB each (Slovenia's 2024 flight up to 1 GB), cached once, with the same footprints. Everything comes out in metres around the site centre: wire Point Cloud, Footprints and Domain into City Surface. Tree Crowns are read from the cloud's own vegetation returns (one closed mesh per cluster, for the Tree component); Trees, Barriers and Furniture are for looking at and for a render (trees with rhombicuboctahedron crowns; with Roads on, OpenStreetMap fences, walls, hedges and street furniture); Layer Outlines, Layer Names, Layer Roughness and Flatten are OpenStreetMap land cover (ODbL) with its Davenport z0, in the footprints' frame — wire them into the City Surface inputs of the same names. Rivers, streams and canals mapped as lines come with them as water ribbons (the OpenStreetMap width tag, else river 20 m, canal 8 m, stream 3 m).</div>
         </div>
     </a>
     <a href="/components/Analysis_Period/" style="text-decoration: none;">
@@ -992,7 +986,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Timing_Parameters.png" class="nav-gh-icon"> Timing Parameters
             </div>
-            <div class="index-quicklink-text">Define simulation timing and optional weather-driven time series. OutdoorPlus</div>
+            <div class="index-quicklink-text">Define simulation timing and the hourly weather that drives the UMF case. With a Weather input, the EPW's dry-bulb temperature, humidity ratio, cloud cover, direct and diffuse radiation and sun position are written hour by hour (0/air/Tambient, wambient, cloudCover; constant/IDN, Idif, sunPosVector), one row per hour from t = 0 to endTime. Tambient and wambient are the inflow temperature and humidity, uniform over the inlet height. Wind speed and direction come from ABL Condition and stay constant over the run. OutdoorPlus</div>
         </div>
     </a>
     <a href="/components/ViewFactors/" style="text-decoration: none;">
@@ -1221,20 +1215,20 @@
 <h2 id="05-sun-shadow-daylight">05 Sun Shadow Daylight</h2>
 <h4 id="main-components">Main Components</h4>
 <div class="index-quicklink-container">
+    <a href="/components/Analysis_Grid/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Analysis_Grid.png" class="nav-gh-icon"> Analysis Grid
+            </div>
+            <div class="index-quicklink-text">Analysis points with outward normals and per-cell areas over terrain and building surfaces, on one regular grid.</div>
+        </div>
+    </a>
     <a href="/components/Canopy/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/Canopy.png" class="nav-gh-icon"> Canopy
             </div>
             <div class="index-quicklink-text">Vegetation that attenuates the sun instead of blocking it, with an optional leaf-on/leaf-off season. Feed the Canopy input of Sun Hours or Solar Irradiation.</div>
-        </div>
-    </a>
-    <a href="/components/Facade_Grid/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Facade_Grid.png" class="nav-gh-icon"> Facade Grid
-            </div>
-            <div class="index-quicklink-text">Analysis points with outward normals and per-cell areas over surfaces, at a spacing suited to a building rather than a district.</div>
         </div>
     </a>
     <a href="/components/Sun_Path/" style="text-decoration: none;">
@@ -1751,6 +1745,14 @@
             <div class="index-quicklink-text">One row per puddle: where it is, how much water, how deep, when it peaked and how long it took to drain — against the capacity of the hollow it sits in, so an overflowing depression is visible as such.</div>
         </div>
     </a>
+    <a href="/components/Region_Report/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Region_Report.png" class="nav-gh-icon"> Region Report
+            </div>
+            <div class="index-quicklink-text">Reads the storm against regions you drew — courtyards, plots, streets: how deep each one stood, whether it passed the threshold, and how much of the ground draining into it lies outside it.</div>
+        </div>
+    </a>
     <a href="/components/Study_Report/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
@@ -1951,6 +1953,14 @@
                 <img src="/images/icons/Stormwater_Legend.png" class="nav-gh-icon"> Stormwater Legend
             </div>
             <div class="index-quicklink-text">A legend for a stormwater mesh: swatches, labels and a title, placed on a plane.</div>
+        </div>
+    </a>
+    <a href="/components/Water_Balance/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Water_Balance.png" class="nav-gh-icon"> Water Balance
+            </div>
+            <div class="index-quicklink-text">Where the water was at every stored time: rain delivered, run off the site, standing on it and lost to the ground, with the storm's intensity alongside. The numbers behind a water-balance chart.</div>
         </div>
     </a>
 </div>
@@ -2424,5 +2434,4 @@
         </div>
     </a>
 </div>
-
 

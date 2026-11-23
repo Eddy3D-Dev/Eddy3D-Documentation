@@ -8,7 +8,7 @@ Sun positions for a period at a chosen time step (6-minute and finer), from site
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Weather | W | Optional weather object; Latitude, Longitude and Time Zone are read from it when connected, and override the numeric inputs below. | `Generic Data` |
+| Weather | W | Optional weather file (the EPW from Download Weather, or an EPW path); Latitude, Longitude and Time Zone are read from it when connected, and override the numeric inputs below. | `Generic Data` |
 | Latitude | Lat | Degrees north. | `Number` |
 | Longitude | Lon | Degrees east. | `Number` |
 | Time Zone | TZ | Hours ahead of UTC, STANDARD time — not the summer offset. | `Number` |

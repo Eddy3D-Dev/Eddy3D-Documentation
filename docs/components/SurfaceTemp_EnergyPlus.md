@@ -8,7 +8,7 @@ Surface temperatures via EnergyPlus, mapped onto a solved VF Model. The counterp
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Working Directory | Dir | Folder the EnergyPlus case is written to. | `Text` |
+| Working Directory | Dir | Folder the EnergyPlus case is written to. Unwired = the Eddy3D MRT folder in your home directory. | `Text` |
 | VF Model | VF | Solved view-factor model from MRT View Factors. | `Generic Data` |
 | EPW | W | Path to the EPW weather file. | `Text` |
 | Settings | C | Optional MRT Settings — view-factor cutoff percentile, small-face cutoff and the engine timeout are read here. | `Generic Data` |

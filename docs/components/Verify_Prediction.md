@@ -11,7 +11,7 @@ Compare an ML wind prediction with a CFD result at the same points: VDI 3783-9 h
 | Points |  | The points both results were sampled at (absolute Z). | `Point` |
 | Predicted |  | ML wind speeds [m/s], one branch per wind direction (the Wind Predictor's Values output). | `Number` |
 | CFD |  | CFD wind speeds [m/s] at the same points, one branch per direction in the same order (e.g. Probe \|U\|). | `Number` |
-| Boundary Conditions | BC | The study's boundary conditions: U_ref sets the hit rate's absolute tolerance W = 0.05·U_ref and the log's normalised columns; the wind directions label the branches. | `Generic Data` |
+| Boundary Conditions | BC | The study's boundary conditions: each direction's U_ref sets its branch's absolute tolerance W = 0.05·U_ref and the log's normalised columns; the wind directions label the branches. | `Generic Data` |
 | Buildings |  | Optional: building geometry, so the log carries SDF / Bldg_height exactly as the Dataset Curator writes them. | `Geometry` |
 | Pedestrian Level | PedLevel | Pedestrian mounting height [m] for the log's features. | `Number` |
 | Log |  | Verification log CSV to append to (created with its header when new). | `Text` |

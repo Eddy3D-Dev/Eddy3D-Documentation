@@ -19,3 +19,4 @@ Generate centered surface samples on the actual faces of Brep, surface, or mesh 
 | Vectors | Vec | Outward unit surface normals corresponding one-to-one with the grid points. | `Vector` |
 | Mesh |  | Joined mesh representation of the sampled input geometry. | `Mesh` |
 | Status |  | Status message or warnings. | `Text` |
+| Cells |  | One square face per grid point, in the order of Points and lying in its surface: a mesh that takes one value per FACE, at the grid's own resolution. Wire it into Flex Legend's Analysis Mesh (or any viewer that colours faces) with the values computed at Points. Mesh is the sampled geometry and does not count the same. Past 500,000 points it is built only while this output is wired. | `Mesh` |

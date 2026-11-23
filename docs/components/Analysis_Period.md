@@ -8,10 +8,10 @@ Define an analysis period (from/to day of year, start/end hour of day) and outpu
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| From |  | From day of year [1-365]. | `Integer` |
-| To |  | To day of year [1-365]. | `Integer` |
-| Start |  | Start hour of day [1-24]. | `Integer` |
-| End |  | End hour of day [1-24]. | `Integer` |
+| From |  | From day of year [1-365]. An hour of year from Calendar or Hour of Year is read as the day it falls on. | `Integer` |
+| To |  | To day of year [1-365]. An hour of year from Calendar or Hour of Year is read as the day it falls on. | `Integer` |
+| Start |  | Start hour of day [1-24]. An hour of year from Calendar or Hour of Year is read as its hour of the day. | `Integer` |
+| End |  | End hour of day [1-24]. An hour of year from Calendar or Hour of Year is read as its hour of the day. | `Integer` |
 
 #### Output
 

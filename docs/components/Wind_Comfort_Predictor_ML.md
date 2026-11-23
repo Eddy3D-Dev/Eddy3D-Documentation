@@ -9,14 +9,14 @@ Calculate Pedestrian Wind Comfort using predicted wind fields from the ONNX mode
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Points | Pts | Analysis points for mesh visualization. | `Point` |
-| Wind Speeds | U | Predicted wind speeds (m/s) as a DataTree from WindPredictor. | `Number` |
+| Wind Speeds | U | Predicted wind speeds (m/s) as a DataTree from WindPredictor, one branch per direction, each at that direction's reference speed. | `Number` |
 | EPW Path | EPW | Path to the .epw weather file. | `Text` |
 | Reference Height | zRef | Reference height for the simulations (m). Default = 10.0 | `Number` |
 | Roughness Length (z0) | z0 | Roughness length (m). Default = 1.0 | `Number` |
 | Metric |  | Comfort metric to use. | `Text` |
 | Interpolate | Interp | Interpolate between wind directions. Default = true | `Text` |
 | Fast Mode (MoM) | Fast | Use Method of Moments for ultra-fast Weibull estimation. Default = true | `Text` |
-| Boundary Conditions | BC | Optional simulation metadata to automate zRef, z0, and Uref (sim). | `Generic Data` |
+| Boundary Conditions | BC | Optional simulation metadata to automate zRef, z0, and Uref (sim). Each Wind Speeds branch is divided by its own direction's Uref. | `Generic Data` |
 | TKE | k | Turbulent kinetic energy (m²/s²) as a DataTree from WindPredictor. When provided, GEM (Gust Equivalent Mean) is used: GEM = U + g × √(2k/3). Peak factor g is auto-set per metric. | `Number` |
 | Wind Speeds (Roof) | Wroof | Optional roof-level wind speeds (m/s) DataTree. | `Number` |
 | TKE (Roof) | kroof | Optional roof-level TKE (m²/s²) DataTree. | `Number` |

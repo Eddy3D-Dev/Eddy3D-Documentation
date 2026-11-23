@@ -10,14 +10,14 @@ Play a daily shadow study: the day is traced once between sunrise and sunset, th
 | ---- | -------- | ----------- | ---- |
 | Context | C | Shading geometry: buildings, terrain, canopies. | `Geometry` |
 | Points | P | Analysis points. | `Point` |
-| Weather | W | Weather record from Download Weather or Open Weather — its site sets the sun and its time zone the clock (standard time, no daylight saving). | `Generic Data` |
+| Weather | W | Weather file: the EPW from Download Weather, or the path of any EPW file — its site sets the sun and its time zone the clock (standard time, no daylight saving). | `Generic Data` |
 | Month | Mon | Month of the study date, 1-12. | `Integer` |
 | Day |  | Day of the month of the study date. | `Integer` |
 | Hours | Hrs | Local hours to animate, e.g. 8 To 18. Always clamped to the date's sunrise and sunset, so the default 0 To 24 is the whole day. | `Domain` |
 | Step |  | Minutes between frames, at least 1. | `Number` |
 | Ranges | Rng | Up to eight named time ranges, one per line: "Morning 7-11", "Lunch 11:30-13:15". They may overlap (the earlier line colours the shared frames; statistics count them in both) or leave gaps (shade there keeps the plain shade colour). | `Text` |
 | Range Colors | RCol | One colour per range, in order. Missing colours come from a built-in palette. | `Colour` |
-| Offset | O | Distance to lift each point off its surface before tracing. | `Number` |
+| Offset | O | Distance to lift each point off its surface before tracing. The default 0.2 m also clears a kerb foot or an unwelded terrain seam (see Sun Hours). | `Number` |
 | North | Nth | Counter-clockwise degrees from the model's +Y axis to true north. | `Number` |
 | Speed | Spd | Playback speed in frames per second (0.1-20); also the MP4's frame rate. | `Number` |
 | Time | T | Scrub: a local hour (e.g. 14.5) jumps to the nearest frame whenever this value changes. Wire a slider over the Hours range. | `Number` |

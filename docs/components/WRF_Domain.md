@@ -28,3 +28,5 @@ Define a WRF domain and the parent grids nested around it. Domains are specified
 | Project | P | The WRF project. Feed this to the WRF Namelist component. | `Generic Data` |
 | Domains | D | Domain extents as rectangles, outermost-first (d01 first, matching the namelist). Drawn in metres about the innermost domain's centre, so the innermost rectangle is centred on the Rhino origin. For a Lat-Lon grid the units are degrees. | `Curve` |
 | Summary | S | One line per domain, d01-first: grid size, spacing, extent and centre. | `Text` |
+| Satellite | Sat | A satellite picture under the outermost domain, as a vertex-coloured, texture-mapped mesh in the same frame as Domains. Right-click picks the source, each with its licence: NASA HLS 30 m (a composite of recent days, default), Sentinel-2 cloudless 10 m (EOX, non-commercial only) or NASA Blue Marble 500 m. Fetched in the background and cached. | `Mesh` |
+| Street Map | Map | A street map (OpenStreetMap via terrestris' WMS) under the outermost domain, like Satellite. The preview shows one of the two: right-click to choose. | `Mesh` |

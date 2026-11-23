@@ -9,8 +9,8 @@ Vertical Sky Component per point, in percent: the diffuse illuminance a vertical
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Context | C | Obstructing geometry: buildings, terrain, canopies. Obstructions are treated as perfectly black — VSC counts direct skylight only, so nothing here reflects. | `Geometry` |
-| Points | P | Analysis points, on the plane whose sky access is wanted. Wire Facade Grid for a facade map, or place points at window centres for the BR 209 assessment. | `Point` |
-| Normals | N | Outward normal at each point — REQUIRED. VSC is a property of a plane, not of a location: the same point facing two ways has two different VSCs. Facade Grid emits these alongside its points. | `Vector` |
+| Points | P | Analysis points, on the plane whose sky access is wanted. Wire Analysis Grid for a facade map, or place points at window centres for the BR 209 assessment. | `Point` |
+| Normals | N | Outward normal at each point — REQUIRED. VSC is a property of a plane, not of a location: the same point facing two ways has two different VSCs. Analysis Grid emits these alongside its points. | `Vector` |
 | Offset | O | Distance to lift each point along its normal before tracing, so the plane it sits on does not occlude itself. | `Number` |
 | Sky Bands | SB | Sky subdivision from zenith to horizon; cell count is about 4πN²/3, so the default 24 is ~2,400 cells. Raise it for a smoother map at proportionally more cost — 24 already sits within 0.02 points of the analytic answer for an open plane. | `Integer` |
 | Engine | Eng | Who traces the sky rays. Auto: the OpenCL GPU when there is one, else the CPU occlusion engine (Embree, or the managed BVH). GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: Embree / the managed BVH. | `Text` |

@@ -90,5 +90,13 @@
             <div class="index-quicklink-text">A legend for a stormwater mesh: swatches, labels and a title, placed on a plane.</div>
         </div>
     </a>
+    <a href="/components/Water_Balance/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Water_Balance.png" class="nav-gh-icon"> Water Balance
+            </div>
+            <div class="index-quicklink-text">Where the water was at every stored time: rain delivered, run off the site, standing on it and lost to the ground, with the storm's intensity alongside. The numbers behind a water-balance chart.</div>
+        </div>
+    </a>
 </div>
 

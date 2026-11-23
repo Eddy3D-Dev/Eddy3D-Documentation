@@ -11,13 +11,13 @@ Direct sun hours and shadow by ray casting — an interactive preview, not a Rad
 | Context | C | Shading geometry: buildings, terrain, canopies. Meshes, Breps and Surfaces are all accepted and triangulated internally. | `Geometry` |
 | Points | P | Analysis points. | `Point` |
 | Normals | N | Optional point-specific surface normals. When supplied, a sun below a point's own horizon counts as shaded without tracing — a floor cannot be lit from beneath. | `Vector` |
-| Weather | W | Weather record from Download Weather or Open Weather. The sun's position for every hour comes from this file, so nothing else has to be wired to run a study. | `Generic Data` |
+| Weather | W | Weather file: the EPW from Download Weather, or the path of any EPW file. The sun's position for every hour comes from this file, so nothing else has to be wired to run a study. | `Generic Data` |
 | Start Hour | S | First hour of the period (0-8759). | `Integer` |
 | End Hour | E | Last hour of the period, exclusive. | `Integer` |
 | Timestep | T | Sun samples per hour. 1 is hourly; 10 gives a 6-minute step. An hour moves the sun ~15°, so against a sharp shadow edge an hourly step misses transitions — measured at 3.33 h of error on 245 sunlit point-hours, where a 6-minute step is 12.5× closer (docs/SUN_ANALYSIS.md). Cost is linear: 10 is 10× the rays. | `Integer` |
 | North | Nth | Counter-clockwise degrees from the model's +Y axis to true north (Ladybug's convention). The sun is rotated, not the model. | `Number` |
-| Offset | O | Distance to lift each point off its surface before tracing. Analysis grids usually sit ON geometry that also shades, and without this every point shadows itself. | `Number` |
-| Canopy | Cn | Optional canopy layers from the Canopy component. Vegetation here ATTENUATES the beam and can drop out of leaf seasonally, instead of blocking it like Context. Sun hours become fractional. Slower: attenuating geometry cannot use the any-hit early-out. | `Generic Data` |
+| Offset | O | Distance to lift each point off its surface before tracing. Analysis grids usually sit ON geometry that also shades, and without this every point shadows itself. The default 0.2 m also clears a kerb foot or an unwelded terrain seam, where a mesh vertex lifted a centimetre reads 0 hours beside neighbours in full sun. | `Number` |
+| Canopy | Cn | Optional canopy layers from the Canopy component. Vegetation here ATTENUATES the beam and can drop out of leaf seasonally, instead of blocking it like Context. Sun hours become fractional. Slower: attenuating geometry cannot use the any-hit early-out. Geometry wired straight in (a tree mesh) gets the Canopy component's defaults: crowns passing 20 % of the beam, in leaf all year. | `Generic Data` |
 | Engine | Eng | Who traces the rays. Auto: the OpenCL GPU when there is one, else the CPU. GPU: the OpenCL GPU (NVIDIA, AMD, Intel, Apple), 15-20x the CPU; a fallback to the CPU is reported, never silent. CPU: the SIMD BVH on every core. | `Text` |
 | Date |  | A report date — equinox (20 Mar), summer solstice (21 Jun) or winter solstice (21 Dec) — runs that whole day's daylight hours and overrides Start Hour / End Hour. Custom leaves the hour inputs in charge. One component per date feeds the Sun Report. | `Text` |
 

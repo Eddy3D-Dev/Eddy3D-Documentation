@@ -140,8 +140,8 @@
 <div class="SubGroup-Container" data-category="05_Sun_Shadow_Daylight">
 <div class="SubGroup-Icons">
 <div class="sub-group">
-<a href="/components/Canopy/" class="GhComponentItem" above-dataComment="Canopy"><img src="/images/icons/Canopy.png" class="gh-component-selected" alt="Canopy" /></a>
-<a href="/components/Facade_Grid/" class="GhComponentItem" below-dataComment="Facade Grid"><img src="/images/icons/Facade_Grid.png" class="gh-component-selected" alt="Facade Grid" /></a>
+<a href="/components/Analysis_Grid/" class="GhComponentItem" above-dataComment="Analysis Grid"><img src="/images/icons/Analysis_Grid.png" class="gh-component-selected" alt="Analysis Grid" /></a>
+<a href="/components/Canopy/" class="GhComponentItem" below-dataComment="Canopy"><img src="/images/icons/Canopy.png" class="gh-component-selected" alt="Canopy" /></a>
 <a href="/components/Sun_Path/" class="GhComponentItem" above-dataComment="Sun Path"><img src="/images/icons/Sun_Path.png" class="gh-component-selected" alt="Sun Path" /></a>
 <a href="/components/Sun_Vectors/" class="GhComponentItem" below-dataComment="Sun Vectors"><img src="/images/icons/Sun_Vectors.png" class="gh-component-selected" alt="Sun Vectors" /></a>
 <a href="/components/Deconstruct_Shadow/" class="GhComponentItem" above-dataComment="Deconstruct Shadow"><img src="/images/icons/Deconstruct_Shadow.png" class="gh-component-selected" alt="Deconstruct Shadow" /></a>
@@ -219,9 +219,10 @@
 <a href="/components/Read_Results/" class="GhComponentItem" above-dataComment="Read Results"><img src="/images/icons/Read_Results.png" class="gh-component-selected" alt="Read Results" /></a>
 <a href="/components/Read_checkMesh/" class="GhComponentItem" below-dataComment="Read checkMesh"><img src="/images/icons/Read_checkMesh.png" class="gh-component-selected" alt="Read checkMesh" /></a>
 <a href="/components/Ponding_Report/" class="GhComponentItem" above-dataComment="Ponding Report"><img src="/images/icons/Ponding_Report.png" class="gh-component-selected" alt="Ponding Report" /></a>
-<a href="/components/Study_Report/" class="GhComponentItem" below-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
-<a href="/components/Sun_Report/" class="GhComponentItem" above-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
-<a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" below-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
+<a href="/components/Region_Report/" class="GhComponentItem" below-dataComment="Region Report"><img src="/images/icons/Region_Report.png" class="gh-component-selected" alt="Region Report" /></a>
+<a href="/components/Study_Report/" class="GhComponentItem" above-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
+<a href="/components/Sun_Report/" class="GhComponentItem" below-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
+<a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" above-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Post</div>
@@ -257,6 +258,7 @@
 <a href="/components/Stormwater_Settings/" class="GhComponentItem" below-dataComment="Stormwater Settings"><img src="/images/icons/Stormwater_Settings.png" class="gh-component-selected" alt="Stormwater Settings" /></a>
 <a href="/components/Stormwater_Flowlines/" class="GhComponentItem" above-dataComment="Stormwater Flowlines"><img src="/images/icons/Stormwater_Flowlines.png" class="gh-component-selected" alt="Stormwater Flowlines" /></a>
 <a href="/components/Stormwater_Legend/" class="GhComponentItem" below-dataComment="Stormwater Legend"><img src="/images/icons/Stormwater_Legend.png" class="gh-component-selected" alt="Stormwater Legend" /></a>
+<a href="/components/Water_Balance/" class="GhComponentItem" above-dataComment="Water Balance"><img src="/images/icons/Water_Balance.png" class="gh-component-selected" alt="Water Balance" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Stormwater</div>

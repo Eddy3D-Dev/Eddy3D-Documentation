@@ -10,20 +10,20 @@
 # 05 Sun Shadow Daylight
 <h4 id="main-components">Main Components</h4>
 <div class="index-quicklink-container">
+    <a href="/components/Analysis_Grid/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Analysis_Grid.png" class="nav-gh-icon"> Analysis Grid
+            </div>
+            <div class="index-quicklink-text">Analysis points with outward normals and per-cell areas over terrain and building surfaces, on one regular grid.</div>
+        </div>
+    </a>
     <a href="/components/Canopy/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/Canopy.png" class="nav-gh-icon"> Canopy
             </div>
             <div class="index-quicklink-text">Vegetation that attenuates the sun instead of blocking it, with an optional leaf-on/leaf-off season. Feed the Canopy input of Sun Hours or Solar Irradiation.</div>
-        </div>
-    </a>
-    <a href="/components/Facade_Grid/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/Facade_Grid.png" class="nav-gh-icon"> Facade Grid
-            </div>
-            <div class="index-quicklink-text">Analysis points with outward normals and per-cell areas over surfaces, at a spacing suited to a building rather than a district.</div>
         </div>
     </a>
     <a href="/components/Sun_Path/" style="text-decoration: none;">
