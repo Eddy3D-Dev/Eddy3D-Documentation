@@ -23,3 +23,4 @@ Colours a run's receivers in the END 5 dB bands (yellow from 50-55, orange at 60
 | Legend Labels | Labels | The bands, lowest first. | `Text` |
 | Legend Colors | LegendColors | One colour per band label. | `Colour` |
 | Roof Mesh | Roofs | A coloured quad on the roof under each roof receiver. | `Mesh` |
+| Mesh |  | Every quad (ground, facade, roof) in one mesh, one face per value in Values' order: wire it with Values into a field viewer. Ground Mesh alone has only the ground's faces. | `Mesh` |

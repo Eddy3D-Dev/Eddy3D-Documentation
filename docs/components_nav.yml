@@ -15,7 +15,6 @@
           - "<img src='/images/icons/Compare_Wind_Climates.png' class='nav-gh-icon' /> Compare Wind Climates": components/Compare_Wind_Climates.md
           - "<img src='/images/icons/Deconstruct_Weather.png' class='nav-gh-icon' /> Deconstruct Weather": components/Deconstruct_Weather.md
           - "<img src='/images/icons/Monthly_Climate_Chart.png' class='nav-gh-icon' /> Monthly Climate Chart": components/Monthly_Climate_Chart.md
-          - "<img src='/images/icons/Weather.png' class='nav-gh-icon' /> Weather": components/Weather.md
           - "<img src='/images/icons/Wind_Climate.png' class='nav-gh-icon' /> Wind Climate": components/Wind_Climate.md
           - "<img src='/images/icons/Geometry_Repair.png' class='nav-gh-icon' /> Geometry Repair": components/Geometry_Repair.md
           - "<img src='/images/icons/Land_Cover_Roughness.png' class='nav-gh-icon' /> Land Cover Roughness": components/Land_Cover_Roughness.md
@@ -116,8 +115,8 @@
           - "<img src='/images/icons/Ventilation_Effectiveness.png' class='nav-gh-icon' /> Ventilation Effectiveness": components/Ventilation_Effectiveness.md
       - "05 Sun Shadow Daylight":
           - "Overview": categories/05_Sun_Shadow_Daylight.md
+          - "<img src='/images/icons/Analysis_Grid.png' class='nav-gh-icon' /> Analysis Grid": components/Analysis_Grid.md
           - "<img src='/images/icons/Canopy.png' class='nav-gh-icon' /> Canopy": components/Canopy.md
-          - "<img src='/images/icons/Facade_Grid.png' class='nav-gh-icon' /> Facade Grid": components/Facade_Grid.md
           - "<img src='/images/icons/Sun_Path.png' class='nav-gh-icon' /> Sun Path": components/Sun_Path.md
           - "<img src='/images/icons/Sun_Vectors.png' class='nav-gh-icon' /> Sun Vectors": components/Sun_Vectors.md
           - "<img src='/images/icons/Deconstruct_Shadow.png' class='nav-gh-icon' /> Deconstruct Shadow": components/Deconstruct_Shadow.md
@@ -185,6 +184,7 @@
           - "<img src='/images/icons/Read_Results.png' class='nav-gh-icon' /> Read Results": components/Read_Results.md
           - "<img src='/images/icons/Read_checkMesh.png' class='nav-gh-icon' /> Read checkMesh": components/Read_checkMesh.md
           - "<img src='/images/icons/Ponding_Report.png' class='nav-gh-icon' /> Ponding Report": components/Ponding_Report.md
+          - "<img src='/images/icons/Region_Report.png' class='nav-gh-icon' /> Region Report": components/Region_Report.md
           - "<img src='/images/icons/Study_Report.png' class='nav-gh-icon' /> Study Report": components/Study_Report.md
           - "<img src='/images/icons/Sun_Report.png' class='nav-gh-icon' /> Sun Report": components/Sun_Report.md
           - "<img src='/images/icons/Ventilation_Comfort_Report.png' class='nav-gh-icon' /> Ventilation Comfort Report": components/Ventilation_Comfort_Report.md
@@ -213,6 +213,7 @@
           - "<img src='/images/icons/Stormwater_Settings.png' class='nav-gh-icon' /> Stormwater Settings": components/Stormwater_Settings.md
           - "<img src='/images/icons/Stormwater_Flowlines.png' class='nav-gh-icon' /> Stormwater Flowlines": components/Stormwater_Flowlines.md
           - "<img src='/images/icons/Stormwater_Legend.png' class='nav-gh-icon' /> Stormwater Legend": components/Stormwater_Legend.md
+          - "<img src='/images/icons/Water_Balance.png' class='nav-gh-icon' /> Water Balance": components/Water_Balance.md
       - "10 LBM":
           - "Overview": categories/10_LBM.md
           - "<img src='/images/icons/FluidX3D_Run_Settings.png' class='nav-gh-icon' /> FluidX3D Run Settings": components/FluidX3D_Run_Settings.md

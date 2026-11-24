@@ -8,7 +8,7 @@ Visualize monthly dry-bulb temperature and relative humidity from Eddy3D Weather
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Weather |  | Eddy3D Weather object. | `Generic Data` |
+| Weather |  | Weather file: the EPW from Download Weather, or the path of any EPW file. | `Generic Data` |
 | Base Point | BasePoint | Lower-left chart location. | `Point` |
 | Width |  | Chart width in model units. | `Number` |
 | Height |  | Combined chart height in model units. | `Number` |

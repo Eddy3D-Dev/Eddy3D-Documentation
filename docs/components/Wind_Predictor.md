@@ -11,7 +11,7 @@ Run ONNX wind-field prediction end-to-end. Computes SDF, building height, Zrelat
 | Points |  | List of 3D points. Each point's Z must be absolute elevation (m). | `Point` |
 | Buildings |  | List of Brep or Mesh objects representing buildings. | `Geometry` |
 | Model |  | Full file path to the ONNX model. Connect the FilePath output from the ML Model component. | `Text` |
-| Boundary Conditions | BC | Boundary conditions from the ABL or Uniform Flow component. Uref, zRef, z0, wind directions, and EPW path are extracted automatically. | `Generic Data` |
+| Boundary Conditions | BC | Boundary conditions from the ABL or Uniform Flow component. Wind directions, each direction's reference speed (Uref), zRef and z0 are extracted automatically; each direction's Values branch is scaled by that direction's own Uref. | `Generic Data` |
 | Pedestrian Level | PedLevel | Pedestrian mount height (m). Default = 1.8 | `Number` |
 | Filter Margin | FiltMargin | Margin (in meters) to mask out from the outer perimeter of the prediction plane due to unstable boundary effects. Default = 100.0 | `Number` |
 | Palette |  | Color palette for visualization. | `Text` |
@@ -31,7 +31,7 @@ Run ONNX wind-field prediction end-to-end. Computes SDF, building height, Zrelat
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Points | Pts | The location of each predicted value, in Values order, at the input points' own height: the input Points, or the Selection Points when those are wired. | `Point` |
-| Values | V | Predicted field values at each valid input point. Outputs wind speed (m/s) or turbulent kinetic energy (m²/s²) depending on the Field input. Branches represent different wind directions. | `Number` |
+| Values | V | Predicted field values at each valid input point. Outputs wind speed (m/s) or turbulent kinetic energy (m²/s²) depending on the Field input. Branches represent different wind directions; each branch's speeds are at that direction's own reference speed from the Boundary Conditions. | `Number` |
 | Grid Mesh | M | A fast-rendering contiguous coloured preview mesh of the predictions. | `Mesh` |
 | Legend Mesh | LM | A colored mesh strip acting as a visual legend. | `Mesh` |
 | Legend Points | LP | Locations for the legend text in the 3D viewport (Generic type to prevent red cross preview). | `Generic Data` |

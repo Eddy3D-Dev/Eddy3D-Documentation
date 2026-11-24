@@ -13,6 +13,7 @@ A legend for a stormwater mesh: swatches, labels and a title, placed on a plane.
 | Plane |  | Where to draw it. | `Plane` |
 | Size |  | Height of one swatch in model units. | `Number` |
 | Steps |  | Number of swatches in a continuous legend. Ignored for flood hazard. | `Integer` |
+| Ground |  | The map being labelled (the DEM or result mesh). When Plane is not wired, the legend is placed just past its right edge, outside the drawing. | `Mesh` |
 
 #### Output
 

@@ -15,7 +15,7 @@ Where the levels are asked for: a ground grid inside a disc at pedestrian height
 | Height |  | Height of the ground grid above the terrain, m: 1.5 for a pedestrian, 4 for an END map. | `Number` |
 | Storey Height | Storey | Vertical spacing of the facade receivers, m; the first sits 1.5 m above the building's base. | `Number` |
 | Facade Spacing | FacadeSp | Spacing of the receivers along each facade, m. | `Number` |
-| Roofs |  | Also place receivers over each roof, at Facade Spacing and Height above it (a roof terrace, a rooftop plant). | `Boolean` |
+| Roofs |  | Also place receivers over each roof, on the ground grid's own points and Height above the roof (a roof terrace, a rooftop plant), so the map covers the roofs too. On by default for new components; a saved one keeps its setting. | `Boolean` |
 
 #### Output
 

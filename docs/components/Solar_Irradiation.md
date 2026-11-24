@@ -11,14 +11,14 @@ Cumulative incident solar energy per point in kWh/m² — beam plus isotropic sk
 | Context | C | Shading geometry: buildings, terrain, canopies. | `Geometry` |
 | Points | P | Analysis points. | `Point` |
 | Normals | N | Per-point surface normals. Without them every point is treated as HORIZONTAL, which is right for a ground grid and badly wrong for a facade. | `Vector` |
-| Weather | W | Weather record from Download Weather or Open Weather. Both the sun's position and the direct/diffuse irradiance for each hour come from this one file. | `Generic Data` |
+| Weather | W | Weather file: the EPW from Download Weather, or the path of any EPW file. Both the sun's position and the direct/diffuse irradiance for each hour come from this one file. | `Generic Data` |
 | HOY | H | Hours of the year to accumulate [1-8760] — wire the Hour Of Year component to name a date and time. Left empty, every DAYLIGHT hour of the year is accumulated, which is the annual total. | `Integer` |
 | Timestep | T | Sun samples per hour. 1 is hourly; 10 gives a 6-minute step, which resolves the shadow edge far better (docs/SUN_ANALYSIS.md). The irradiance is still the file's HOURLY value — a finer step refines WHERE the beam lands, not the weather itself. | `Integer` |
 | Sky View | SVF | Optional sky view fraction per point, from Sky Exposure. Without it the sky is treated as fully open, which overstates diffuse in any real street. | `Number` |
 | Ground Reflectance | GR | Albedo for the ground-reflected term. | `Number` |
-| Offset | O | Distance to lift each point off its surface before tracing. | `Number` |
+| Offset | O | Distance to lift each point off its surface before tracing. The default 0.2 m also clears a kerb foot or an unwelded terrain seam (see Sun Hours). | `Number` |
 | North | Nth | Counter-clockwise degrees from the model's +Y axis to true north (Ladybug's convention). The sun is rotated, not the model. | `Number` |
-| Canopy | Cn | Optional canopy layers from the Canopy component. Vegetation here attenuates the BEAM only — the isotropic sky term is unaffected, because a canopy that dims the sun also blocks sky, and the sky view fraction already accounts for it if you measured SVF with the canopy in place. | `Generic Data` |
+| Canopy | Cn | Optional canopy layers from the Canopy component. Vegetation here attenuates the BEAM only — the isotropic sky term is unaffected, because a canopy that dims the sun also blocks sky, and the sky view fraction already accounts for it if you measured SVF with the canopy in place. Geometry wired straight in (a tree mesh) gets the Canopy component's defaults: crowns passing 20 % of the beam, in leaf all year. | `Generic Data` |
 | Engine | Eng | Who traces the rays. Auto: the OpenCL GPU when there is one, else the CPU. GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: the SIMD BVH on every core. | `Text` |
 | Date |  | A report date — equinox (20 Mar), summer solstice (21 Jun) or winter solstice (21 Dec) — accumulates that whole day and overrides HOY. Custom leaves HOY in charge. One component per date feeds the Sun Report. | `Text` |
 

@@ -1,4 +1,4 @@
-# ![](/images/icons/Share_Bundle.png) Share Bundle - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Share%20Pack%22)
+# ![](/images/icons/Share_Bundle.png) Share Bundle - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22Share%20Bundle%22)
 
 ![](/images/components/Share_Bundle-crop.png)
 
@@ -22,6 +22,8 @@ Write results as files anyone can open without Rhino: ONE self-contained HTML vi
 | Longitude | Lon | Longitude of the model origin (0,0). | `Number` |
 | Study |  | The case the results came from: a Wind Study (or its folder), or any case a Probe accepts. Fills every input left empty — Folder (<case>/share), Title, site, Context — and adds the origin (engine, directions, Eddy3D version, the study report, the wind climate as a wind rose). A Wind Conditions record may be wired too (the wind rose). | `Generic Data` |
 | Formats | F | Which files: a choice, or a list such as "html,glb,tif,pdf,png". | `Text` |
+| Color Map | CM | Colour ramp of every continuous layer — pick the same map as the legend on the canvas. Class layers keep their class colours. | `Text` |
+| Steps |  | Bands the colour bar is cut into: every value in a band takes one colour, in the map, the legend and the viewer. 0 (or 1) keeps the smooth ramp; at most 64. | `Integer` |
 | Write | W | Write the bundle. Edge-triggered: a click, or a wired value turning true, writes once. | `Boolean` |
 
 #### Output

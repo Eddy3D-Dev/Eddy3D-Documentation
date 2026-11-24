@@ -11,12 +11,12 @@ Daily Light Integral per point in mol/m²/day — the photosynthetically active 
 | Context | C | Shading geometry: buildings, terrain. A tree crown here blocks the beam COMPLETELY — the Canopy component's transmittance is broadband and cannot be applied to PAR. | `Geometry` |
 | Points | P | Analysis points. | `Point` |
 | Normals | N | Per-point surface normals. Without them every point is treated as HORIZONTAL, which is right for a planting bed or a green roof and wrong for a facade. | `Vector` |
-| Weather | W | Weather record from Download Weather or Open Weather. Both the sun's position and the direct/diffuse irradiance for each hour come from this one file. | `Generic Data` |
+| Weather | W | Weather file: the EPW from Download Weather, or the path of any EPW file. Both the sun's position and the direct/diffuse irradiance for each hour come from this one file. | `Generic Data` |
 | HOY | H | Hours of the year to analyse [1-8760]. Left empty, every DAYLIGHT hour of the year is analysed, which gives the annual mean and the full monthly breakdown. | `Integer` |
 | Timestep | T | Sun samples per hour. 1 is hourly; 10 gives a 6-minute step. The irradiance is still the file's HOURLY value — a finer step refines WHERE the beam lands, not the weather itself. | `Integer` |
 | Sky View | SVF | Optional sky view fraction per point, from Sky Exposure. Without it the sky is treated as fully open, which overstates diffuse in any real courtyard — and a courtyard is where this metric is usually asked. | `Number` |
 | Ground PAR Reflectance | GR | PAR albedo of the ground for the reflected term. NOT the broadband albedo: vegetation absorbs PAR and reflects near-infrared, so grass is near 0.05 in PAR against ~0.23 broadband. Only tilted surfaces see any of it. | `Number` |
-| Offset | O | Distance to lift each point off its surface before tracing. | `Number` |
+| Offset | O | Distance to lift each point off its surface before tracing. The default 0.2 m also clears a kerb foot or an unwelded terrain seam (see Sun Hours). | `Number` |
 | North | Nth | Counter-clockwise degrees from the model's +Y axis to true north (Ladybug's convention). The sun is rotated, not the model. | `Number` |
 | Conversion | Cv | How broadband shortwave becomes PAR photons — a PAR energy fraction times a quanta-per-joule factor. Logan & Faust (default): 0.45 x 4.48 µmol/J = 0.00726 mol/Wh, the pair behind the published US daily-light-integral maps, calibrated against global horizontal irradiance. Ecological: 0.50 x 4.60 µmol/J, the generic convention used in flux-tower work. Runs about 14% higher. Neither is universal — both assume a daylight spectrum on an unfiltered surface. | `Text` |
 | Engine | Eng | Who traces the rays. Auto: the OpenCL GPU when there is one, else the CPU. GPU: the OpenCL GPU; a fallback to the CPU is reported, never silent. CPU: the SIMD BVH on every core. | `Text` |

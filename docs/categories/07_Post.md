@@ -242,6 +242,14 @@
             <div class="index-quicklink-text">One row per puddle: where it is, how much water, how deep, when it peaked and how long it took to drain — against the capacity of the hollow it sits in, so an overflowing depression is visible as such.</div>
         </div>
     </a>
+    <a href="/components/Region_Report/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/Region_Report.png" class="nav-gh-icon"> Region Report
+            </div>
+            <div class="index-quicklink-text">Reads the storm against regions you drew — courtyards, plots, streets: how deep each one stood, whether it passed the threshold, and how much of the ground draining into it lies outside it.</div>
+        </div>
+    </a>
     <a href="/components/Study_Report/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">

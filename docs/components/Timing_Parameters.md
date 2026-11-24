@@ -2,13 +2,13 @@
 
 ![](/images/components/Timing_Parameters-crop.png)
 
-Define simulation timing and optional weather-driven time series. OutdoorPlus
+Define simulation timing and the hourly weather that drives the UMF case. With a Weather input, the EPW's dry-bulb temperature, humidity ratio, cloud cover, direct and diffuse radiation and sun position are written hour by hour (0/air/Tambient, wambient, cloudCover; constant/IDN, Idif, sunPosVector), one row per hour from t = 0 to endTime. Tambient and wambient are the inflow temperature and humidity, uniform over the inlet height. Wind speed and direction come from ABL Condition and stay constant over the run. OutdoorPlus
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Weather |  | Optional Weather object or EPW file path for weather-driven time series. | `Generic Data` |
+| Weather |  | Optional Weather object or EPW file path. Its hourly air temperature, humidity, cloud cover, radiation and sun position drive the case; without it the case keeps the template's constant weather. | `Generic Data` |
 | Start Day | StartDay | Day-of-year index to start (0-based). Optional; default is 0. | `Integer` |
 | Start Hour | StartHour | Hour of day to start (0-23). Optional; default is 0. | `Integer` |
 | Duration (Hours) | Hours | Simulation duration in hours. Optional; default is 24. | `Integer` |
@@ -18,7 +18,7 @@ Define simulation timing and optional weather-driven time series. OutdoorPlus
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Timing Settings | Timing | Simulation timing settings. | `Generic Data` |
+| Timing Settings | Timing | endTime plus the hourly weather tables (inflow temperature and humidity, cloud cover, radiation, sun position). Wire into the UMF Case. | `Generic Data` |
 | Hours of Year | HOY | Resolved 1-based hour-of-year sequence for the simulated period. | `Integer` |
 | Air Temperature | Tair | EPW dry-bulb temperature (°C) for the resolved hours; useful as a weather fallback for UTCI. | `Number` |
 | Relative Humidity | RH | EPW relative humidity (%) for the resolved hours; useful as a weather fallback for UTCI. | `Number` |

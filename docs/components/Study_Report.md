@@ -9,7 +9,7 @@ Generate a Markdown report documenting the wind case to the QA discipline of the
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Case |  | The wind case — from the Outdoor Case component (full report) or Load Wind Case (reads the case's manifest; cases written before it degrade to what disk carries). | `Generic Data` |
-| Weather | W | Optional weather record — documents the EPW file, station and location as the study's climate source. | `Generic Data` |
+| Weather | W | Optional weather file (the EPW from Download Weather, or an EPW path) — documents the EPW file, station and location as the study's climate source. | `Generic Data` |
 | Annual Wind Field | Wind | Optional annual wind speed field from Velocity Amplification Factors — adds per-probe statistics and, with a Metric, the comfort classification. | `Generic Data` |
 | Comfort Metric | Metric | Optional comfort criterion for the classification table — pick one from the dropdown. The same vocabulary as the Wind Comfort component; an older document wiring the bare enum name (LawsonGeneral) or an index still resolves. | `Text` |
 | Report Path | Path | Optional .md file path to write the report to — leave it empty and the report goes to '<case folder>/<case name>-report.md', beside the case it describes. Wire or type a path to override that; the folder must exist. | `Text` |
