@@ -2,17 +2,17 @@
 
 ![](/images/components/MRT_Surface-crop.png)
 
-Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size; Meshes are used face-for-face as given. Tree surfaces are tree CROWNS that transmit part of the radiation (SOLWEIG canopy, Lindberg & Grimmond 2011: 3 % of the beam in leaf, 50 % out of leaf, leaf season from the site latitude, leaves at air temperature for longwave) unless Tree Settings says otherwise; model them as closed crown volumes. Documents saved before canopy transmittance keep their opaque crowns (right-click).
+Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size, and Mesh faces larger than Patch Size are split to it. Tree surfaces are tree CROWNS that transmit part of the radiation (SOLWEIG canopy, Lindberg & Grimmond 2011: 3 % of the beam in leaf, 50 % out of leaf, leaf season from the site latitude, leaves at air temperature for longwave) unless Tree Settings says otherwise; model them as closed crown volumes. Documents saved before canopy transmittance keep their opaque crowns (right-click).
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Geometry | G | Surface geometry: Breps (meshed at Patch Size) or Meshes (used as given — their faces ARE the view-factor patches, so refine coarse meshes upstream). | `Geometry` |
+| Geometry | G | Surface geometry: Breps (meshed at Patch Size) or Meshes (faces larger than Patch Size are split to it; with Temperature given per face and no Temperature Points they are kept). | `Geometry` |
 | Type | T | Surface type. Drives the default reflectance, the EnergyPlus construction, and the type-specific view-factor totals. | `Text` |
 | Simulated | S | True if the surface temperature is solved; false treats it as ambient. | `Boolean` |
-| Patch Size | P | Target mesh patch edge length (m) for view-factor resolution. | `Number` |
-| Material | Mat | Optional material from an Outdoor+ Building / Terrain Material component or an MRT Surface / Vegetation / Tree Settings component. UMF thermal properties are reused directly; MRT optical properties override the default reflectance. | `Generic Data` |
+| Patch Size | P | Target patch edge length (m) for view-factor resolution: each patch radiates from its centre, so keep it near the sensor's distance to the surface. | `Number` |
+| Material | Mat | Optional material from an Outdoor+ Building / Terrain Material component, an MRT Surface / Vegetation / Tree Settings component, or SurfaceTemp Material. UMF thermal properties are reused directly; MRT optical properties override the default reflectance. A SurfaceTemp Material assembly gives EnergyPlus the construction SurfaceTemp (FFT) solves, every layer, with its absorptivity and emissivity. | `Generic Data` |
 | Temperature | Tsrf | Optional surface temperature (°C) for longwave MRT. Connect SurfaceTemp directly: both {hour}(surface points) and {surface point}(hours) trees are accepted. A single value or one shared 8760-hour series is also supported. Overrides Simulated. | `Number` |
 | Temperature Points | TempPts | Optional points used to calculate SurfaceTemp. When their count differs from the MRT mesh polygon count, each polygon uses its nearest temperature sample. | `Point` |
 

@@ -8,11 +8,11 @@ Surface temperatures via EnergyPlus, mapped onto a solved VF Model. The counterp
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| Working Directory | Dir | Folder the EnergyPlus case is written to. Unwired = the Eddy3D MRT folder in your home directory. | `Text` |
-| VF Model | VF | Solved view-factor model from MRT View Factors. | `Generic Data` |
+| Working Directory | Dir | Folder the EnergyPlus case is written to. Unwired = a folder named after this document's study under the Eddy3D MRT folder in your home directory. | `Text` |
+| VF Model | VF | Solved view-factor model from MRT Scene. | `Generic Data` |
 | EPW | W | Path to the EPW weather file. | `Text` |
 | Settings | C | Optional MRT Settings — view-factor cutoff percentile, small-face cutoff and the engine timeout are read here. | `Generic Data` |
-| Engine |  | Run EnergyPlus natively or via the bundled radiance-energyplus container image (Podman or Docker). | `Text` |
+| Engine |  | Run EnergyPlus natively, via the bundled container image (Podman/Docker), or with the in-house host/GPU thermal + EcoRoof solver (zero EnergyPlus). | `Text` |
 | Run | R | Run EnergyPlus. | `Boolean` |
 
 #### Output

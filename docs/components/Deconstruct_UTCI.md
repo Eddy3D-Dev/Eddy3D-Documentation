@@ -2,7 +2,7 @@
 
 ![](/images/components/Deconstruct_UTCI-crop.png)
 
-Probe-specific statistics and comfort hours/% from a UTCI or PET (Simulation) Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map.
+Probe-specific statistics and comfort hours/% from a UTCI or PET (Simulation) Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map. Comfort % is the outdoor thermal comfort autonomy (OTCA) of the selected hours; Stress, Weighted, Cold, Hot, Spatial and Continuous are its companion metrics, measured against the metric's own no-thermal-stress band. Method: Nazarian, Acero & Norford (2019), Building and Environment 155:145-160, doi:10.1016/j.buildenv.2019.03.028.
 
 #### Input
 
@@ -22,3 +22,11 @@ Probe-specific statistics and comfort hours/% from a UTCI or PET (Simulation) Re
 | Comfort % | % | No-thermal-stress share (%) of the selected hours, per probe. | `Number` |
 | UTCI | U | UTCI or PET (°C) at each selected hour — one branch per HOY, each holding every probe's value {hoy}(probe count). Populated ONLY when HOY is connected; with HOY unconnected this would be the entire year, which is the tree this component exists to avoid. | `Number` |
 | Points | P | Probe positions carried inside the Result, aligned by index with every list above. Wire these into the Thermal Comfort Legend's Sensor Points to draw a map — or wire the Result straight into that component, which takes the positions itself. | `Point` |
+| Thermal Stress | Stress | Thermal stress indicator ΔT_ave (°C) per probe: how far the selected hours sit outside the no-thermal-stress band on average. 0 when every hour is comfortable. | `Number` |
+| Weighted Comfort % | Weighted | Weighted comfort autonomy OTCA_w (%) per probe: Comfort % scaled down by how far the uncomfortable hours deviate from the band. | `Number` |
+| Cold % | Cold | Share (%) of the selected hours below the no-thermal-stress band, per probe. | `Number` |
+| Hot % | Hot | Share (%) of the selected hours above the no-thermal-stress band, per probe. | `Number` |
+| Spatial Comfort % | Spatial | Spatial OTCA: the share (%) of probes that are comfortable at least 50 % of the selected hours. Probes count equally, so this is an area share only on an even grid. | `Number` |
+| Continuous Comfort % | Continuous | Continuous OTCA (%): as Spatial, but a probe below 50 % earns partial credit (40 % comfortable counts 0.8). | `Number` |
+| P5 |  | 5th percentile UTCI or PET (°C) per probe over the selected hours — the cold end without the single coldest hour Min reports. | `Number` |
+| P95 |  | 95th percentile UTCI or PET (°C) per probe over the selected hours — the hot end without the single hottest hour Max reports. | `Number` |

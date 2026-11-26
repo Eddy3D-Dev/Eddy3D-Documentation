@@ -21,7 +21,7 @@ extra:
   version:
     provider: mike
     default: latest
-  latest_eddy_version: "1.23.0.827" # Manual fallback
+  latest_eddy_version: "1.24.0.827" # Manual fallback
 
 nav:
   - Documentation:
@@ -183,8 +183,8 @@ nav:
           - "<img src='/images/icons/MRT_Surface.png' class='nav-gh-icon' /> MRT Surface": components/MRT_Surface.md
           - "<img src='/images/icons/Sky_Exposure.png' class='nav-gh-icon' /> Sky Exposure": components/Sky_Exposure.md
           - "<img src='/images/icons/SurfaceTemp_FFT.png' class='nav-gh-icon' /> SurfaceTemp FFT": components/SurfaceTemp_FFT.md
+          - "<img src='/images/icons/MRT_Scene.png' class='nav-gh-icon' /> MRT Scene": components/MRT_Scene.md
           - "<img src='/images/icons/MRT_Solve.png' class='nav-gh-icon' /> MRT Solve": components/MRT_Solve.md
-          - "<img src='/images/icons/MRT_View_Factors.png' class='nav-gh-icon' /> MRT View Factors": components/MRT_View_Factors.md
           - "<img src='/images/icons/SurfaceTemp_EnergyPlus.png' class='nav-gh-icon' /> SurfaceTemp EnergyPlus": components/SurfaceTemp_EnergyPlus.md
           - "<img src='/images/icons/Deconstruct_MRT.png' class='nav-gh-icon' /> Deconstruct MRT": components/Deconstruct_MRT.md
           - "<img src='/images/icons/Deconstruct_VF_Model.png' class='nav-gh-icon' /> Deconstruct VF Model": components/Deconstruct_VF_Model.md

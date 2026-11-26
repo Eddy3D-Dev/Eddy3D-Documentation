@@ -8,7 +8,7 @@ Colors the model's surfaces by view factor: the mean each face receives from all
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| VF Model | VF | Solved model from MRT View Factors. | `Generic Data` |
+| VF Model | VF | Solved model from MRT Scene. | `Generic Data` |
 | Mode |  | Seen by sensors: each face colored by the mean view factor it receives across ALL sensors — the aggregate visibility the thermal solve filters surfaces by. From one sensor: each face colored by the selected sensor's view factor to it — the weights that sensor's longwave MRT is built from. | `Text` |
 | Sensor | i | Sensor index (0-based, in MRT Sensors order). Only used by "From one sensor". | `Integer` |
 

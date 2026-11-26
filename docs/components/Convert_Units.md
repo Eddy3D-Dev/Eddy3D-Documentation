@@ -17,3 +17,4 @@ Convert values between the units Eddy3D works in — any unit into any other of 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Values | Val | The converted values, in the To unit — same order and length as the input. | `Number` |
+| Unit |  | The To unit's sign as text ("°C", "m/s", "kWh/m²"), for a legend title or a label. | `Text` |

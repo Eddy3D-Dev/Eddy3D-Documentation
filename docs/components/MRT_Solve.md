@@ -2,17 +2,17 @@
 
 ![](/images/components/MRT_Solve-crop.png)
 
-Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS when MRT Settings enables reflections) + view-factor longwave. Wire the VF Model straight from MRT View Factors for ambient/FFT surface temperatures, or through SurfaceTemp (EnergyPlus) for E+ temperatures. Result feeds Deconstruct MRT and UTCI. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762; Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.
+Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS when MRT Settings enables reflections) + view-factor longwave. Wire the VF Model straight from MRT Scene for ambient/FFT surface temperatures, or through SurfaceTemp (EnergyPlus) for E+ temperatures. Result feeds Deconstruct MRT and UTCI. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762; Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.
 
 #### Input
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Working Directory | Dir | Folder the Radiance case is written to. Only needed when MRT Settings enables Radiance Reflections. | `Text` |
-| VF Model | VF | Solved model from MRT View Factors, optionally enriched by SurfaceTemp (EnergyPlus). | `Generic Data` |
+| VF Model | VF | Solved model from MRT Scene, optionally enriched by SurfaceTemp (EnergyPlus). Not needed to see the results a reopened document was saved with. | `Generic Data` |
 | EPW | W | Path to the EPW weather file. | `Text` |
 | Settings | C | Optional MRT Settings. Unconnected = fast pure-C# path (raycast shortwave). | `Generic Data` |
-| Engine |  | Run Radiance natively or via the bundled container image. Only relevant when MRT Settings enables Radiance Reflections. | `Text` |
+| Engine |  | Run Radiance natively, via the bundled container image, or with the in-house host/OpenCL GPU DDS tracer (zero Radiance). Only relevant when MRT Settings enables Radiance Reflections. | `Text` |
 | Compute | Comp | Who runs the view-factor-weighted longwave accumulation (probes x polygons x 8760 h). Auto: the OpenCL GPU when one answers, else the CPU; a fallback is reported in the log and as a warning. CPU: the parallel loop. GPU: refuse to run silently on the CPU. The GPU's rows are bit-identical to the CPU's. A model with tree crowns always runs on the CPU. | `Text` |
 | Run | R | Solve MRT. | `Boolean` |
 

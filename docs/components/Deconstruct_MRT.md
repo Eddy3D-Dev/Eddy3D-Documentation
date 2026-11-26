@@ -10,7 +10,7 @@ Probe-specific statistics (and optionally the raw hours) from an MRT Result, wit
 | ---- | -------- | ----------- | ---- |
 | Result | R | Result output of the MRT component. | `Generic Data` |
 | HOY |  | Hour(s) of year (1-8760) to restrict to. Leave unconnected for the whole year. The statistics are reduced over exactly these hours, so a July-afternoon list gives the July-afternoon mean — no re-solve needed. | `Integer` |
-| Statistic | Stat | Statistic used to color the preview mesh: Mean, Min, or Max over the selected HOY. Defaults to Mean. | `Text` |
+| Statistic | Stat | Statistic used to color the preview mesh and sent to the Statistic output: Mean, Min, Max, or the 5th / 95th percentile (P5, P95) over the selected HOY. Defaults to Mean. | `Text` |
 | Radius |  | Half-width of each colored square centered on an MRT probe point. | `Number` |
 
 #### Output
@@ -22,3 +22,4 @@ Probe-specific statistics (and optionally the raw hours) from an MRT Result, wit
 | Max |  | Highest mean radiant temperature (°C) per probe over the selected hours. | `Number` |
 | MRT | M | Mean radiant temperature (°C) at each selected hour — one branch per HOY, each holding every probe's value {hoy}(probe count). Populated ONLY when HOY is connected; with HOY unconnected this would be the entire year, which is the tree this component exists to avoid. Note that a large HOY list is inherently expensive: every value asked for here becomes an object on the canvas. | `Number` |
 | Mesh |  | Colored probe mesh for the selected Mean, Min, or Max statistic. Uses the same default jet color ramp and square markers as Wind Predictor. One square face per probe, in probe order (face i is probe i, the same order as Avg / Min / Max); a probe with no value stays in grey. Wired alone into a Field Viewer's Mesh input it supplies the face centres as the sample points. | `Mesh` |
+| Statistic | Stat | The selected Statistic (°C) per probe over the selected hours — the values the Mesh is colored by. The only output that carries P5 and P95. | `Number` |
