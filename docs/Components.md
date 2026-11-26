@@ -178,8 +178,8 @@
 <a href="/components/MRT_Surface/" class="GhComponentItem" above-dataComment="MRT Surface"><img src="/images/icons/MRT_Surface.png" class="gh-component-selected" alt="MRT Surface" /></a>
 <a href="/components/Sky_Exposure/" class="GhComponentItem" below-dataComment="Sky Exposure"><img src="/images/icons/Sky_Exposure.png" class="gh-component-selected" alt="Sky Exposure" /></a>
 <a href="/components/SurfaceTemp_FFT/" class="GhComponentItem" above-dataComment="SurfaceTemp FFT"><img src="/images/icons/SurfaceTemp_FFT.png" class="gh-component-selected" alt="SurfaceTemp FFT" /></a>
-<a href="/components/MRT_Solve/" class="GhComponentItem" below-dataComment="MRT Solve"><img src="/images/icons/MRT_Solve.png" class="gh-component-selected" alt="MRT Solve" /></a>
-<a href="/components/MRT_View_Factors/" class="GhComponentItem" above-dataComment="MRT View Factors"><img src="/images/icons/MRT_View_Factors.png" class="gh-component-selected" alt="MRT View Factors" /></a>
+<a href="/components/MRT_Scene/" class="GhComponentItem" below-dataComment="MRT Scene"><img src="/images/icons/MRT_Scene.png" class="gh-component-selected" alt="MRT Scene" /></a>
+<a href="/components/MRT_Solve/" class="GhComponentItem" above-dataComment="MRT Solve"><img src="/images/icons/MRT_Solve.png" class="gh-component-selected" alt="MRT Solve" /></a>
 <a href="/components/SurfaceTemp_EnergyPlus/" class="GhComponentItem" below-dataComment="SurfaceTemp EnergyPlus"><img src="/images/icons/SurfaceTemp_EnergyPlus.png" class="gh-component-selected" alt="SurfaceTemp EnergyPlus" /></a>
 <a href="/components/Deconstruct_MRT/" class="GhComponentItem" above-dataComment="Deconstruct MRT"><img src="/images/icons/Deconstruct_MRT.png" class="gh-component-selected" alt="Deconstruct MRT" /></a>
 <a href="/components/Deconstruct_VF_Model/" class="GhComponentItem" below-dataComment="Deconstruct VF Model"><img src="/images/icons/Deconstruct_VF_Model.png" class="gh-component-selected" alt="Deconstruct VF Model" /></a>
@@ -221,9 +221,9 @@
 <a href="/components/Read_checkMesh/" class="GhComponentItem" below-dataComment="Read checkMesh"><img src="/images/icons/Read_checkMesh.png" class="gh-component-selected" alt="Read checkMesh" /></a>
 <a href="/components/Ponding_Report/" class="GhComponentItem" above-dataComment="Ponding Report"><img src="/images/icons/Ponding_Report.png" class="gh-component-selected" alt="Ponding Report" /></a>
 <a href="/components/Region_Report/" class="GhComponentItem" below-dataComment="Region Report"><img src="/images/icons/Region_Report.png" class="gh-component-selected" alt="Region Report" /></a>
-<a href="/components/Study_Report/" class="GhComponentItem" above-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
-<a href="/components/Sun_Report/" class="GhComponentItem" below-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
-<a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" above-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
+<a href="/components/Study_Report/" class="GhComponentItem" below-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
+<a href="/components/Sun_Report/" class="GhComponentItem" above-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
+<a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" below-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Post</div>
@@ -387,7 +387,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Select_Template.png" class="nav-gh-icon"> Select Template
             </div>
-            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.23.0.827</div>
+            <div class="index-quicklink-text">Load example Grasshopper definitions for common workflows.  Templates include microclimate simulations, outdoor comfort studies, and CFD analysis setups.  Version: 1.24.0.827</div>
         </div>
     </a>
 </div>
@@ -1441,7 +1441,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT_Surface.png" class="nav-gh-icon"> MRT Surface
             </div>
-            <div class="index-quicklink-text">Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size; Meshes are used face-for-face as given. Tree surfaces are tree CROWNS that transmit part of the radiation (SOLWEIG canopy, Lindberg & Grimmond 2011: 3 % of the beam in leaf, 50 % out of leaf, leaf season from the site latitude, leaves at air temperature for longwave) unless Tree Settings says otherwise; model them as closed crown volumes. Documents saved before canopy transmittance keep their opaque crowns (right-click).</div>
+            <div class="index-quicklink-text">Tags Breps or Meshes as a radiation surface for an MRT analysis. Breps are meshed at Patch Size, and Mesh faces larger than Patch Size are split to it. Tree surfaces are tree CROWNS that transmit part of the radiation (SOLWEIG canopy, Lindberg & Grimmond 2011: 3 % of the beam in leaf, 50 % out of leaf, leaf season from the site latitude, leaves at air temperature for longwave) unless Tree Settings says otherwise; model them as closed crown volumes. Documents saved before canopy transmittance keep their opaque crowns (right-click).</div>
         </div>
     </a>
     <a href="/components/Sky_Exposure/" style="text-decoration: none;">
@@ -1460,20 +1460,20 @@
             <div class="index-quicklink-text">Solves outdoor surface temperature per analysis point via the frequency-domain admittance method (no thermal mesh, no warm-up). Feeds a future MRT component alongside Sky Exposure.  Method: Beckett, O., Owens, S. and Acred, A. (2026). Applying Frequency Domain Methods for Calculating Outdoor Surface Temperatures. Proceedings of the 12th National Conference of IBPSA-USA, Minneapolis, MN. https://publications.ibpsa.org/conference/paper/?id=simbuild2026_1312</div>
         </div>
     </a>
+    <a href="/components/MRT_Scene/" style="text-decoration: none;">
+        <div class="index-quicklink">
+            <div class="index-quicklink-title">
+                <img src="/images/icons/MRT_Scene.png" class="nav-gh-icon"> MRT Scene
+            </div>
+            <div class="index-quicklink-text">Assembles tagged surfaces + sensors into a radiation model, builds the sky dome, and solves probe-to-polygon view factors. Feed the VF Model to SurfaceTemp (EnergyPlus) and/or MRT Solve. The sweep is the expensive part of an MRT run — solving it once here lets the downstream stages re-run without repeating it. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762.</div>
+        </div>
+    </a>
     <a href="/components/MRT_Solve/" style="text-decoration: none;">
         <div class="index-quicklink">
             <div class="index-quicklink-title">
                 <img src="/images/icons/MRT_Solve.png" class="nav-gh-icon"> MRT Solve
             </div>
-            <div class="index-quicklink-text">Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS when MRT Settings enables reflections) + view-factor longwave. Wire the VF Model straight from MRT View Factors for ambient/FFT surface temperatures, or through SurfaceTemp (EnergyPlus) for E+ temperatures. Result feeds Deconstruct MRT and UTCI. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762; Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
-        </div>
-    </a>
-    <a href="/components/MRT_View_Factors/" style="text-decoration: none;">
-        <div class="index-quicklink">
-            <div class="index-quicklink-title">
-                <img src="/images/icons/MRT_View_Factors.png" class="nav-gh-icon"> MRT View Factors
-            </div>
-            <div class="index-quicklink-text">Assembles tagged surfaces + sensors into a radiation model, builds the sky dome, and solves probe-to-polygon view factors. Feed the VF Model to SurfaceTemp (EnergyPlus) and/or MRT Solve. The sweep is the expensive part of an MRT run — solving it once here lets the downstream stages re-run without repeating it. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762.</div>
+            <div class="index-quicklink-text">Solves MRT on a prepared VF Model: shortwave (direct raycast, or Radiance DDS when MRT Settings enables reflections) + view-factor longwave. Wire the VF Model straight from MRT Scene for ambient/FFT surface temperatures, or through SurfaceTemp (EnergyPlus) for E+ temperatures. Result feeds Deconstruct MRT and UTCI. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762; Kastner & Dogan (2022), Building and Environment 212:108639, doi:10.1016/j.buildenv.2021.108639.</div>
         </div>
     </a>
     <a href="/components/SurfaceTemp_EnergyPlus/" style="text-decoration: none;">
@@ -1811,7 +1811,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Deconstruct_UTCI.png" class="nav-gh-icon"> Deconstruct UTCI
             </div>
-            <div class="index-quicklink-text">Probe-specific statistics and comfort hours/% from a UTCI or PET (Simulation) Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map.</div>
+            <div class="index-quicklink-text">Probe-specific statistics and comfort hours/% from a UTCI or PET (Simulation) Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map. Comfort % is the outdoor thermal comfort autonomy (OTCA) of the selected hours; Stress, Weighted, Cold, Hot, Spatial and Continuous are its companion metrics, measured against the metric's own no-thermal-stress band. Method: Nazarian, Acero & Norford (2019), Building and Environment 155:145-160, doi:10.1016/j.buildenv.2019.03.028.</div>
         </div>
     </a>
     <a href="/components/Pedestrian_Wind_Comfort/" style="text-decoration: none;">

@@ -177,8 +177,8 @@
 <a href="/components/MRT_Surface/" class="GhComponentItem" above-dataComment="MRT Surface"><img src="/images/icons/MRT_Surface.png" class="gh-component-selected" alt="MRT Surface" /></a>
 <a href="/components/Sky_Exposure/" class="GhComponentItem" below-dataComment="Sky Exposure"><img src="/images/icons/Sky_Exposure.png" class="gh-component-selected" alt="Sky Exposure" /></a>
 <a href="/components/SurfaceTemp_FFT/" class="GhComponentItem" above-dataComment="SurfaceTemp FFT"><img src="/images/icons/SurfaceTemp_FFT.png" class="gh-component-selected" alt="SurfaceTemp FFT" /></a>
-<a href="/components/MRT_Solve/" class="GhComponentItem" below-dataComment="MRT Solve"><img src="/images/icons/MRT_Solve.png" class="gh-component-selected" alt="MRT Solve" /></a>
-<a href="/components/MRT_View_Factors/" class="GhComponentItem" above-dataComment="MRT View Factors"><img src="/images/icons/MRT_View_Factors.png" class="gh-component-selected" alt="MRT View Factors" /></a>
+<a href="/components/MRT_Scene/" class="GhComponentItem" below-dataComment="MRT Scene"><img src="/images/icons/MRT_Scene.png" class="gh-component-selected" alt="MRT Scene" /></a>
+<a href="/components/MRT_Solve/" class="GhComponentItem" above-dataComment="MRT Solve"><img src="/images/icons/MRT_Solve.png" class="gh-component-selected" alt="MRT Solve" /></a>
 <a href="/components/SurfaceTemp_EnergyPlus/" class="GhComponentItem" below-dataComment="SurfaceTemp EnergyPlus"><img src="/images/icons/SurfaceTemp_EnergyPlus.png" class="gh-component-selected" alt="SurfaceTemp EnergyPlus" /></a>
 <a href="/components/Deconstruct_MRT/" class="GhComponentItem" above-dataComment="Deconstruct MRT"><img src="/images/icons/Deconstruct_MRT.png" class="gh-component-selected" alt="Deconstruct MRT" /></a>
 <a href="/components/Deconstruct_VF_Model/" class="GhComponentItem" below-dataComment="Deconstruct VF Model"><img src="/images/icons/Deconstruct_VF_Model.png" class="gh-component-selected" alt="Deconstruct VF Model" /></a>
@@ -220,9 +220,9 @@
 <a href="/components/Read_checkMesh/" class="GhComponentItem" below-dataComment="Read checkMesh"><img src="/images/icons/Read_checkMesh.png" class="gh-component-selected" alt="Read checkMesh" /></a>
 <a href="/components/Ponding_Report/" class="GhComponentItem" above-dataComment="Ponding Report"><img src="/images/icons/Ponding_Report.png" class="gh-component-selected" alt="Ponding Report" /></a>
 <a href="/components/Region_Report/" class="GhComponentItem" below-dataComment="Region Report"><img src="/images/icons/Region_Report.png" class="gh-component-selected" alt="Region Report" /></a>
-<a href="/components/Study_Report/" class="GhComponentItem" above-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
-<a href="/components/Sun_Report/" class="GhComponentItem" below-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
-<a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" above-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
+<a href="/components/Study_Report/" class="GhComponentItem" below-dataComment="Study Report"><img src="/images/icons/Study_Report.png" class="gh-component-selected" alt="Study Report" /></a>
+<a href="/components/Sun_Report/" class="GhComponentItem" above-dataComment="Sun Report"><img src="/images/icons/Sun_Report.png" class="gh-component-selected" alt="Sun Report" /></a>
+<a href="/components/Ventilation_Comfort_Report/" class="GhComponentItem" below-dataComment="Ventilation Comfort Report"><img src="/images/icons/Ventilation_Comfort_Report.png" class="gh-component-selected" alt="Ventilation Comfort Report" /></a>
 </div>
 </div>
 <div class="SubGroup-Title">Post</div>

@@ -13,3 +13,4 @@ Interactively select a month, day, and hour for annual analysis. Click the contr
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
 | Hour of Year | HOY | Selected hour of year [1-8760]. | `Integer` |
+| Date |  | Selected date and hour as text, e.g. "Jun 21 · 14:00". Wire it to a legend title or label. | `Text` |

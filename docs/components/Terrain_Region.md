@@ -16,6 +16,8 @@ Create a terrain region with materials and depth settings. OutdoorPlus
 | Mesh Settings | MeshSet | Optional meshing settings for the terrain region. | `Generic Data` |
 | Geometry | Geo | Terrain surface as one or several Rhino meshes (branches are flattened). Several pieces are stitched into one terrain surface; with one Surface Material per piece each piece becomes its own material zone. Must cover the whole domain floor. If empty, a flat terrain is generated. | `Mesh` |
 | Water Body | Water | Optional pond/basin footprint (a Box). Cells of the terrain surface layer inside it become an always-saturated open-water material zone: the solver's existing coupled moisture boundary then evaporates from it at the potential rate. Keep it shallow — it is clipped to the surface layer. | `Box` |
+| Albedo |  | Shortwave albedo of the ground, 0 to 1. Left empty, the case's own value stays: 0, a black surface that absorbs all the sun it receives. | `Number` |
+| Emissivity | Emis | Long-wave emissivity of the ground, above 0 to 1. Left empty, the case's own value stays: 1, a black body. | `Number` |
 
 #### Output
 

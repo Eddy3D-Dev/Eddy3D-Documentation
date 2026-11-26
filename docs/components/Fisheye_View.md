@@ -8,7 +8,7 @@ Equal-angle fisheye of the hemisphere above one sensor, as a colored mesh — a 
 
 | Name | Nickname | Description | Type |
 | ---- | -------- | ----------- | ---- |
-| VF Model | VF | Solved model from MRT View Factors (geometry + sensors). | `Generic Data` |
+| VF Model | VF | Solved model from MRT Scene (geometry + sensors). | `Generic Data` |
 | Sensor | i | Sensor index (0-based, in MRT Sensors order). | `Integer` |
 | Plane | P | Where to draw the disk. Unconnected: horizontal at the sensor, +Y = north. | `Plane` |
 | Radius | R | Disk radius in model units. | `Number` |

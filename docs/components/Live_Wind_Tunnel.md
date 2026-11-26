@@ -23,6 +23,7 @@ Sketch a site against the wind: a 2D lattice-Boltzmann wind tunnel that runs con
 | Mean |  | Show and output time-means instead of the instantaneous frame: Speed, Pressure and Vorticity averaged over the Average window; the Smoke view shows the time-mean concentration. The window fills from the moment Mean is switched on; the banner says how full it is. | `Boolean` |
 | Forces |  | Draw each building's wind-load arrow and label in the viewport. Off by default; the Force and Cd outputs are always computed. | `Boolean` |
 | Tunnel |  | Optional: the wind tunnel itself, as a rectangle, box or surface (its plan footprint). The flow is solved over exactly this area and it stays put while Context and Buildings change, so draw it large enough to hold the wake: wind enters on the upwind face and leaves on the downwind one. Unwired, the tunnel is sized around the geometry (three times its larger side). | `Geometry` |
+| Vegetation | Veg | Optional tree crowns, as a momentum sink: the wind passes through them and slows, it is not blocked. Takes what the OpenFOAM workflows take: the wind study's Trees, the Outdoor+ Vegetation Region (each with its own drag, Cd x LAD), or closed crown meshes (a mid-density crown, Cd x LAD 0.25 1/m). A crown acts where it is, as in those 3D studies: it is cut at Cut Height like a building, so one that starts above Cut Height leaves this section alone. Branches are flattened. | `Generic Data` |
 
 #### Output
 

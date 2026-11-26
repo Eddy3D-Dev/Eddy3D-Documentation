@@ -39,7 +39,7 @@
             <div class="index-quicklink-title">
                 <img src="/images/icons/Deconstruct_UTCI.png" class="nav-gh-icon"> Deconstruct UTCI
             </div>
-            <div class="index-quicklink-text">Probe-specific statistics and comfort hours/% from a UTCI or PET (Simulation) Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map.</div>
+            <div class="index-quicklink-text">Probe-specific statistics and comfort hours/% from a UTCI or PET (Simulation) Result, without putting the full 8760-hour year on the canvas. Data only — wire the Result (or these outputs) into the Thermal Comfort Legend to draw a map. Comfort % is the outdoor thermal comfort autonomy (OTCA) of the selected hours; Stress, Weighted, Cold, Hot, Spatial and Continuous are its companion metrics, measured against the metric's own no-thermal-stress band. Method: Nazarian, Acero & Norford (2019), Building and Environment 155:145-160, doi:10.1016/j.buildenv.2019.03.028.</div>
         </div>
     </a>
     <a href="/components/Pedestrian_Wind_Comfort/" style="text-decoration: none;">

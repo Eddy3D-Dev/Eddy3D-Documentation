@@ -1,6 +1,6 @@
-# ![](/images/icons/MRT_View_Factors.png) MRT View Factors - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%20View%20Factors%22)
+# ![](/images/icons/MRT_Scene.png) MRT Scene - [[source code]](https://github.com/Eddy3D-Dev/Eddy3D/search?q=%22MRT%20Scene%22)
 
-![](/images/components/MRT_View_Factors-crop.png)
+![](/images/components/MRT_Scene-crop.png)
 
 Assembles tagged surfaces + sensors into a radiation model, builds the sky dome, and solves probe-to-polygon view factors. Feed the VF Model to SurfaceTemp (EnergyPlus) and/or MRT Solve. The sweep is the expensive part of an MRT run — solving it once here lets the downstream stages re-run without repeating it. Method: Dogan, Kastner & Mermelstein (2021), Building and Environment 196:107762, doi:10.1016/j.buildenv.2021.107762.
 
@@ -22,3 +22,4 @@ Assembles tagged surfaces + sensors into a radiation model, builds the sky dome,
 | VF Model | VF | The assembled radiation model with solved view factors. Feed to SurfaceTemp (EnergyPlus) and MRT Solve. | `Generic Data` |
 | Sky Dome | D | The sky dome mesh (preview). | `Mesh` |
 | Log |  | The run's full log, one line per item — stages, sizes, engine choice, timings. | `Text` |
+| Polygons | Polys | The radiation polygons the model is solved on (preview): one face per polygon, exactly the faces of the meshes wired into Surfaces, without the sky. Coloured by surface type — Building, Ground, Vegetation, Tree — with each face shaded slightly differently so single polygons can be told apart. View factors, shading and the EnergyPlus model all scale with this count. | `Mesh` |
